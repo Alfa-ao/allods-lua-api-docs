@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig( {
+    base: '/allods-lua-api-docs/',
     title: "Allods Online Lua API",
     description: "Современная документация по Lua API для игры Аллоды Онлайн",
     lang: 'ru-RU',
