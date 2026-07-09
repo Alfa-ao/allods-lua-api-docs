@@ -1,1 +1,1 @@
-# allods-lua-api-docs
+## [Allods Lua Api Docs](https://alfa-ao.github.io/allods-lua-api-docs)
