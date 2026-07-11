@@ -28,7 +28,7 @@ userMods.FromValuedText( valuedText, oneLine )
 
 ## Примеры
 
-### Пример #1 Пример использования `FromValuedText`
+### Пример использования `FromValuedText`
 
 ```lua
 -- Получаем развернутое представление
