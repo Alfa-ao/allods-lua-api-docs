@@ -24,7 +24,7 @@ userMods.GetCallStack()
 
 ## Примеры
 
-### Пример #1 Пример использования `GetCallStack`
+### Пример использования `GetCallStack`
 
 ```lua
 function LogTrace()
