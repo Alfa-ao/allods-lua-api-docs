@@ -25,7 +25,7 @@ userMods.GetGlobalConfigSection( sysName )
 
 ## Примеры
 
-### Пример #1 Пример использования `GetGlobalConfigSection`
+### Пример использования `GetGlobalConfigSection`
 
 ```lua
 local section = userMods.GetGlobalConfigSection( "Dialog01" )
