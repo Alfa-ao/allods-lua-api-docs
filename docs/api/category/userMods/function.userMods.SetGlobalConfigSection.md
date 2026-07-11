@@ -24,7 +24,7 @@ userMods.SetGlobalConfigSection( sysName, section )
 
 ## Примеры
 
-### Пример #1 Пример использования `SetGlobalConfigSection`
+### Пример использования `SetGlobalConfigSection`
 
 ```lua
 local section = {}
