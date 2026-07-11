@@ -24,7 +24,7 @@ userMods.GetAccountUniqueId()
 
 ## Примеры
 
-### Пример #1 Пример использования `GetAccountUniqueId`
+### Пример использования `GetAccountUniqueId`
 
 ```lua
 local accountUniqueId = userMods.GetAccountUniqueId()
