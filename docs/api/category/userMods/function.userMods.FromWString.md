@@ -25,7 +25,7 @@ userMods.FromWString( localizedText )
 
 ## Примеры
 
-### Пример #1 Пример использования `FromWString`
+### Пример использования `FromWString`
 
 ```lua
 local sysText = userMods.FromWString( localizedText )
