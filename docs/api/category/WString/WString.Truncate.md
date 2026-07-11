@@ -27,7 +27,7 @@ WString:Truncate( maxOverallLen, trailingDotsCount, needTrim )
 
 ## Примеры
 
-### Пример #1 Пример использования `Truncate`
+### Пример использования `Truncate`
 
 ```lua
 local text = userMods.ToWString( "123456789" )
