@@ -25,7 +25,7 @@ userMods.ToWString( sysText )
 
 ## Примеры
 
-### Пример #1 Пример использования `ToWString`
+### Пример использования `ToWString`
 
 ```lua
 local text = userMods.ToWString( "Debug information" )
