@@ -20,7 +20,7 @@ auction.CreateForItem( itemId, startPrice, buyoutPrice, timeLength )
 
 Подробнее:
 - [События (EVENT_AUCTION_*)](events.auction#event-auction-creation-result)
-- [Константы (AUCTION_CREATETIME_*)](constants.auction#auction-orderfield)
+- [Константы (AUCTION_CREATETIME_*)](constants.auction#auction-createtime)
 
 ## Список параметров
 
