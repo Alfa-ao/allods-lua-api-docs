@@ -21,7 +21,7 @@ WString:ToAbbr()
 
 ## Примеры
 
-### Пример #1 Пример использования `ToAbbr`
+### Пример использования `ToAbbr`
 
 ```lua
 local title = userMods.ToWString( "Long title with multiple words" )
