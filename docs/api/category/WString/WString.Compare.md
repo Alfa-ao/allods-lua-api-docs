@@ -1,6 +1,6 @@
 # WString:Compare
 
-Комплексно сравнивает два объекта `WString`.
+Сравнивает между собой два объекта `WString`.
 
 ## Описание
 
@@ -33,7 +33,7 @@ WString:Compare( other, ignoreRegistry )
 
 ## Примеры
 
-### Пример #1 Сравнение с учетом и без учета регистра
+### Сравнение с учетом и без учета регистра
 
 ```lua
 local text = userMods.ToWString( "Test string" )
