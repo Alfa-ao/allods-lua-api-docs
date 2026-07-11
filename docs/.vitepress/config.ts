@@ -9,7 +9,16 @@ export default defineConfig( {
     lang: 'ru-RU',
     
     head: [
-        ['link', { rel: 'icon', type: 'image/x-icon', href: `${base}/favicon.ico` }]
+        ['link', { rel: 'icon', type: 'image/x-icon', href: `${base}/favicon.ico` }],
+        // ['style', {}, `
+        //     :root {
+        //         --vp-sidebar-width: 320px; /* Увеличиваем ширину сайдбара */
+        //     }
+        //     .VPSidebar {
+        //         padding-left: 32px !important;
+        //         padding-right: 32px !important;
+        //     }`
+        // ]
     ],
     themeConfig: {
         logo: '/logo.png', // docs/public/logo.png
@@ -20,13 +29,13 @@ export default defineConfig( {
         ],
 
         sidebar: [
-            {
+            /* {
                 text: 'Начало работы',
                 items: [
                     { text: 'Введение', link: '/guides/introduction' },
                     { text: 'Установка аддонов', link: '/guides/installation' }
                 ]
-            },
+            }, */
             {
                 text: 'Lua API',
                 items: [
@@ -35,17 +44,29 @@ export default defineConfig( {
                     { text: 'Классы и Объекты', link: '/api/classes' },
                     { text: 'UI и Интерфейс', link: '/api/ui' }, */
                     { text: 'Category', collapsed: true, items: [
-                        { text: 'WString', collapsed: true, items: [
-                            { text: 'Compare',   link: '/api/category/WString/WString.Compare' },
-                            { text: 'IsContain', link: '/api/category/WString/WString.IsContain' },
-                            { text: 'IsEmpty',   link: '/api/category/WString/WString.IsEmpty' },
-                            { text: 'ToAbbr',    link: '/api/category/WString/WString.ToAbbr' },
-                            { text: 'ToInt',     link: '/api/category/WString/WString.ToInt' },
-                            { text: 'ToLower',   link: '/api/category/WString/WString.ToLower' },
-                            { text: 'ToUpper',   link: '/api/category/WString/WString.ToUpper' },
-                            { text: 'Truncate',  link: '/api/category/WString/WString.Truncate' },
+                        { text: 'Auction', collapsed: true, items: [
+                            { text: 'Константы (Const)',       link: '/api/category/auction/constants.auction' },
+                            { text: 'Перечисления (Enums)',    link: '/api/category/auction/enums.auction' },
+                            { text: 'События (Event)',         link: '/api/category/auction/events.auction' },
+                            { text: 'Bid',                     link: '/api/category/auction/function.auction.Bid' },
+                            { text: 'Buyout',                  link: '/api/category/auction/function.auction.Buyout' },
+                            { text: 'CanCreateForItem',        link: '/api/category/auction/function.auction.CanCreateForItem' },
+                            { text: 'CreateForItem',           link: '/api/category/auction/function.auction.CreateForItem' },
+                            { text: 'Discard',                 link: '/api/category/auction/function.auction.Discard' },
+                            { text: 'GetAuctionInfo',          link: '/api/category/auction/function.auction.GetAuctionInfo' },
+                            { text: 'GetAuctions',             link: '/api/category/auction/function.auction.GetAuctions' },
+                            { text: 'GetAuctionsCount',        link: '/api/category/auction/function.auction.GetAuctionsCount' },
+                            { text: 'GetAuctionsPage',         link: '/api/category/auction/function.auction.GetAuctionsPage' },
+                            { text: 'GetAuctionsPageCount',    link: '/api/category/auction/function.auction.GetAuctionsPageCount' },
+                            { text: 'GetAuctionState',         link: '/api/category/auction/function.auction.GetAuctionState' },
+                            { text: 'GetItemForegroundLevel',  link: '/api/category/auction/function.auction.GetItemForegroundLevel' },
+                            { text: 'GetProperties',           link: '/api/category/auction/function.auction.GetProperties' },
+                            { text: 'IsCreationInProgress',    link: '/api/category/auction/function.auction.IsCreationInProgress' },
+                            { text: 'IsSearchInProgress',      link: '/api/category/auction/function.auction.IsSearchInProgress' },
+                            { text: 'IsSearchNameValid',       link: '/api/category/auction/function.auction.IsSearchNameValid' },
+                            { text: 'Search',                  link: '/api/category/auction/function.auction.Search' },
                         ] },
-                        { text: 'userMods', link: '/api/category/userMods', collapsed: true, items: [
+                        { text: 'UserMods', link: '/api/category/userMods', collapsed: true, items: [
                             { text: 'FromValuedText',          link: '/api/category/userMods/function.userMods.FromValuedText' },
                             { text: 'FromWString',             link: '/api/category/userMods/function.userMods.FromWString' },
                             { text: 'ToWString',               link: '/api/category/userMods/function.userMods.ToWString' },
@@ -58,6 +79,16 @@ export default defineConfig( {
                             { text: 'GetCallStack',            link: '/api/category/userMods/function.userMods.GetCallStack' },
                             { text: 'SendSelfChatMessage',     link: '/api/category/userMods/function.userMods.SendSelfChatMessage' },
                             
+                        ] },
+                        { text: 'WString', collapsed: true, items: [
+                            { text: 'Compare',   link: '/api/category/WString/WString.Compare' },
+                            { text: 'IsContain', link: '/api/category/WString/WString.IsContain' },
+                            { text: 'IsEmpty',   link: '/api/category/WString/WString.IsEmpty' },
+                            { text: 'ToAbbr',    link: '/api/category/WString/WString.ToAbbr' },
+                            { text: 'ToInt',     link: '/api/category/WString/WString.ToInt' },
+                            { text: 'ToLower',   link: '/api/category/WString/WString.ToLower' },
+                            { text: 'ToUpper',   link: '/api/category/WString/WString.ToUpper' },
+                            { text: 'Truncate',  link: '/api/category/WString/WString.Truncate' },
                         ] },
                     ] },
                 ]
