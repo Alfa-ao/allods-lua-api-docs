@@ -21,7 +21,7 @@ WString:ToLower()
 
 ## Примеры
 
-### Пример #1 Пример использования `ToLower`
+### Пример использования `ToLower`
 
 ```lua
 local title = userMods.ToWString( "teXXt" )
