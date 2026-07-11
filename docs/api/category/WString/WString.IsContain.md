@@ -1,4 +1,4 @@
-# IsContain
+# WString:IsContain
 
 Определяет, содержит ли строка подстроку.
 
@@ -29,7 +29,7 @@ WString:IsContain( part, ignoreRegistry )
 
 ## Примеры
 
-### Пример #1 Пример использования `IsContain`
+### Пример использования `IsContain`
 
 ```lua
 local result = userMods.ToWString( "Text" ):IsContain( "xt" ) -- result = true
