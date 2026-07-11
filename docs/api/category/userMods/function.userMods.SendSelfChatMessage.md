@@ -28,7 +28,7 @@ userMods.SendSelfChatMessage( message, messageLevel )
 
 ## Примеры
 
-### Пример #1 Вывод сообщения об ошибке
+### Вывод сообщения об ошибке
 
 ```lua
 userMods.SendSelfChatMessage( addonErrorMessage, "error" )
