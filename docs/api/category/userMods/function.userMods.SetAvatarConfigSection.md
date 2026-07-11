@@ -28,7 +28,7 @@ userMods.SetAvatarConfigSection( sysName, section )
 
 ## Примеры
 
-### Пример #1 Пример использования `SetAvatarConfigSection`
+### Пример использования `SetAvatarConfigSection`
 
 ```lua
 local section = {}
