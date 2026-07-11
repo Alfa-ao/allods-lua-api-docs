@@ -21,7 +21,7 @@ userMods.GetAvatarConfigSection( sysName )
 
 ## Примеры
 
-### Пример #1 Получение или инициализация секции конфига
+### Получение или инициализация секции конфига
 
 ```lua
 local section = userMods.GetAvatarConfigSection( "tutorial" )
