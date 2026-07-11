@@ -21,7 +21,7 @@ WString:ToUpper()
 
 ## Примеры
 
-### Пример #1 Пример использования `ToUpper`
+### Пример использования `ToUpper`
 
 ```lua
 local title = userMods.ToWString( "teXXt" )
