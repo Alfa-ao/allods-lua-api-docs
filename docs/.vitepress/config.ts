@@ -43,7 +43,7 @@ export default defineConfig( {
                     { text: 'События (Events)', link: '/api/events' },
                     { text: 'Классы и Объекты', link: '/api/classes' },
                     { text: 'UI и Интерфейс', link: '/api/ui' }, */
-                    { text: 'Category', collapsed: true, items: [
+                    { text: 'Category', collapsed: false, items: [
                         { text: 'Auction', collapsed: true, items: [
                             { text: 'Константы (Const)',       link: '/api/category/auction/constants.auction' },
                             { text: 'Перечисления (Enums)',    link: '/api/category/auction/enums.auction' },
