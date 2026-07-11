@@ -21,7 +21,7 @@ WString:IsEmpty()
 
 ## Примеры
 
-### Пример #1 Пример использования `IsEmpty`
+### Пример использования `IsEmpty`
 
 ```lua
 local name = userMods.ToWString( "" )
