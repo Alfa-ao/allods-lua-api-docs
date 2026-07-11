@@ -28,7 +28,9 @@ userMods.GetResourcePersistentId( resourceId )
 
 ## Примеры
 
-### Пример #1 Пример использования `GetResourcePersistentId`
+### Пример использования `GetResourcePersistentId`
+
+(HELP) заменить FromWs + разбор 
 
 ```lua
 local unlockInfo = avatar.GetUnlockInfo( id )
