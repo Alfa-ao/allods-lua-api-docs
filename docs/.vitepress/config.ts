@@ -44,6 +44,28 @@ export default defineConfig( {
                     { text: 'Классы и Объекты', link: '/api/classes' },
                     { text: 'UI и Интерфейс', link: '/api/ui' }, */
                     { text: 'Category', collapsed: false, items: [
+                        { text: '-Action', collapsed: true, items: [
+                            { text: 'BindItemToActionPanel',           link: '/api/category/action/function.avatar.BindItemToActionPanel' },
+                            { text: 'BindMountMetamorphToActionPanel', link: '/api/category/action/function.avatar.BindMountMetamorphToActionPanel' },
+                            { text: 'BindMountSkinToActionPanel',      link: '/api/category/action/function.avatar.BindMountSkinToActionPanel' },
+                            { text: 'BindMountToActionPanel',          link: '/api/category/action/function.avatar.BindMountToActionPanel' },
+                            { text: 'BindSpellToActionPanel',          link: '/api/category/action/function.avatar.BindSpellToActionPanel' },
+                            { text: 'GetActionInfo',                   link: '/api/category/action/function.avatar.GetActionInfo' },
+                            { text: 'GetAttackResult',                 link: '/api/category/action/function.avatar.GetAttackResult' },
+                            { text: 'GetMaxActionCount',               link: '/api/category/action/function.avatar.GetMaxActionCount' },
+                            { text: 'SwapActionsInActionPanel',        link: '/api/category/action/function.avatar.SwapActionsInActionPanel' },
+                            { text: 'UnBindFromActionPanel',           link: '/api/category/action/function.avatar.UnBindFromActionPanel' },
+                        ] },
+                        { text: 'Alchemy', collapsed: true, items: [
+                            { text: 'События (Event)',          link: '/api/category/alchemy/events.alchemy' },
+                            { text: 'CancelAlchemy',            link: '/api/category/alchemy/function.avatar.CancelAlchemy' },
+                            { text: 'GetAlchemyDrumInfo',       link: '/api/category/alchemy/function.avatar.GetAlchemyDrumInfo' },
+                            { text: 'GetAlchemyInfo',           link: '/api/category/alchemy/function.avatar.GetAlchemyInfo' },
+                            { text: 'GetAlchemyMatchedRecipe',  link: '/api/category/alchemy/function.avatar.GetAlchemyMatchedRecipe' },
+                            { text: 'IsAlchemyComponentsReady', link: '/api/category/alchemy/function.avatar.IsAlchemyComponentsReady' },
+                            { text: 'IsAlchemyLineAvailable',   link: '/api/category/alchemy/function.avatar.IsAlchemyLineAvailable' },
+                            { text: 'PutAlchemyItemToSlot',     link: '/api/category/alchemy/function.avatar.PutAlchemyItemToSlot' },
+                        ] },
                         { text: 'Auction', collapsed: true, items: [
                             { text: 'Константы (Const)',       link: '/api/category/auction/constants.auction' },
                             { text: 'Перечисления (Enums)',    link: '/api/category/auction/enums.auction' },
