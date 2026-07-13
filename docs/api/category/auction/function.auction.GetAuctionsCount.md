@@ -27,6 +27,6 @@ local auctionsCount = auction.GetAuctionsCount()
 LogInfo( "Всего найдено лотов: ", auctionsCount )
 ```
 
-::: info Разбор результата
+::: info Описание примера
 В переменную `auctionsCount` записывается количество лотов, найденных последним вызовом `auction.Search`. Затем это значение выводится в информационный лог. Если до этого `auction.Search` не вызывался, в логе будет выведено `0`.
 :::

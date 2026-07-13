@@ -69,7 +69,7 @@ if not auction.IsSearchInProgress() then
 end
 ```
 
-::: info Разбор результата
+::: info Описание примера
 В примере выполняется проверка, что в данный момент не идет другой процесс поиска (`auction.IsSearchInProgress()`). Затем формируется таблица `filter` с ограничением уровня предмета от 10 до 12.
 Вызов `auction.Search` начинает поиск на первой странице (`1`), с сортировкой по уровню (`AUCTION_ORDERFIELD_LEVEL`) по убыванию (`false`).
 Сами результаты будут доступны в событии `EVENT_AUCTION_SEARCH_RESULT`.
