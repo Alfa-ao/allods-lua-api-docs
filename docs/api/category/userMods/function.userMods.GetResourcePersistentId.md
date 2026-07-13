@@ -10,7 +10,9 @@ userMods.GetResourcePersistentId( resourceId )
 
 Возвращает постоянный уникальный строковый идентификатор произвольного ресурса. Представляет собой строку длинной 32 символа, состоящую из символов шестнадцатеричной системы исчисления, записанных в верхнем регистре.
 
-Пример: `5C976713F32D4D60B51F5281E35CBA6B`
+::: info Пример идентификатора
+`5C976713F32D4D60B51F5281E35CBA6B`
+:::
 
 ::: warning Внимание
 - Данная функция работает медленно и не предназначена для частого использования.
@@ -20,7 +22,7 @@ userMods.GetResourcePersistentId( resourceId )
 ## Список параметров
 
 - **`resourceId`** (`userdata`)  
-  Произвольный ресурс.
+Произвольный ресурс.
 
 ## Возвращаемые значения
 
@@ -30,16 +32,14 @@ userMods.GetResourcePersistentId( resourceId )
 
 ### Пример использования `GetResourcePersistentId`
 
-(HELP) заменить FromWs + разбор 
-
 ```lua
 local unlockInfo = avatar.GetUnlockInfo( id )
 local unlockIconInfo = unlockInfo.image and common.GetTextureInfo( unlockInfo.image ) or NO_TEXTURE_INFO
 
 LogInfo( string.format( "UnlockId %s, name: %s, desc: %s, texture [%dx%d] %s",
     userMods.GetResourcePersistentId( unlockInfo.unlockId ),
-    FromWs( unlockInfo.name ),
-    FromWs( unlockInfo.description ),
+    userMods.FromWString( unlockInfo.name ),
+    userMods.FromWString( unlockInfo.description ),
     unlockIconInfo.realWidth,
     unlockIconInfo.realHeight,
     unlockIconInfo.binaryFile 

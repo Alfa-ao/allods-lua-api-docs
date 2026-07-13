@@ -17,10 +17,10 @@ userMods.FromValuedText( valuedText, oneLine )
 ## Список параметров
 
 - **`valuedText`** (`ValuedText`)  
-  Переданный объект `ValuedText`.
+Переданный объект `ValuedText`.
 
 - **`oneLine`** (`boolean` | `nil`)  
-  Флаг форматирования вывода. Если `true` или `nil`, то вывод будет в одну строку. Если `false`, то вывод будет в виде форматированного HTML с отступами и переносами строк.
+Флаг форматирования вывода. Если `true` или `nil`, то вывод будет в одну строку. Если `false`, то вывод будет в виде форматированного HTML с отступами и переносами строк.
 
 ## Возвращаемые значения
 
@@ -38,11 +38,13 @@ local htmlString = userMods.FromValuedText( valuedText, false )
 **Пример результата:**
 
 Однострочное представление (`oneLine = true` или `nil`):
+
 ```html
 <body shadow="1"><rs name="color" class="LogColorWhite"><rs name="fontsize" class="Size16"><rs name="fontname" class="AllodsSystem"><r name="main"><html><rs name="color_code"><r name="time"/><r name="pretext"><html><r name="channel"><html>[<r name="name">Разговор</r>]</html></r><r name="sender"><html>[<r name="player_object">[ValuedObject]: p_mm</r>]</html></r><r name="whisper"/>: </html></r><r name="text">sad</r></rs></html></r></rs></rs></rs></body>
 ```
 
 Развернутое представление (`oneLine = false`):
+
 ```html:line-numbers {14-16,23-25,29}
 <body shadow="1">
   <rs name="color" class="LogColorWhite">

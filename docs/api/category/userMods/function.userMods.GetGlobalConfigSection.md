@@ -17,7 +17,7 @@ userMods.GetGlobalConfigSection( sysName )
 ## Список параметров
 
 - **`sysName`** (`string`)  
-  Название секции.
+Название секции.
 
 ## Возвращаемые значения
 

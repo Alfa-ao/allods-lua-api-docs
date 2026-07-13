@@ -30,9 +30,11 @@ userMods.GetCallStack()
 function LogTrace()
     local trace = userMods.GetCallStack()
     table.remove( trace, 1 )
+    
     for index, line in ipairs( trace ) do
         trace[ index ] = string.format( "%s%s", string.rep( "\t", index ), line )
     end
+    
     return LogInfo( "Lua stack trace:\n" .. table.concat( trace, "\n" ) )
 end
 ```
