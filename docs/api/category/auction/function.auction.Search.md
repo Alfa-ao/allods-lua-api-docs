@@ -19,14 +19,9 @@ auction.Search( filter, orderField, asc, page )
 Результат выполнения возвращается через событие `EVENT_AUCTION_SEARCH_RESULT`.
 :::
 
-Подробнее:
-- [Константы (AUCTION_ORDERFIELD)](constants.auction)
-- [События (EVENT_AUCTION_*)](events.auction#event-auction-search-result)
-
 ## Список параметров
 
-- **`filter`** (`table`)
-Таблица с параметрами фильтрации поиска. Каждое поле может быть пустым (`nil`). Поддерживаемые поля:
+- **`filter`** (`table`):
   - `name` (`WString` | `nil`) — маска для поиска по имени.
   - `itemClass` (`string` | `nil`) — псевдоним класса предмета.
   - `dressSlot` (`number` | `nil`) — слот одежды (перечисление `DRESS_SLOT_...`).
@@ -74,3 +69,8 @@ end
 Вызов `auction.Search` начинает поиск на первой странице (`1`), с сортировкой по уровню (`AUCTION_ORDERFIELD_LEVEL`) по убыванию (`false`).
 Сами результаты будут доступны в событии `EVENT_AUCTION_SEARCH_RESULT`.
 :::
+
+## Смотрите также
+
+- [Константы (AUCTION_ORDERFIELD)](constants.auction)
+- [События (EVENT_AUCTION_*)](events.auction#event-auction-search-result)

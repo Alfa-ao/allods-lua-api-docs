@@ -30,7 +30,7 @@ if auction.CanCreateForItem( itemId ) then
     -- Создание аукциона: стартовая цена 10, цена выкупа 100, срок 24 часа
     auction.CreateForItem( itemId, 10, 100, AUCTION_CREATETIME_HOURS24 )
 else
-    print("Невозможно создать аукцион для данного предмета.")
+    LogInfo( "Невозможно создать аукцион для данного предмета." )
 end
 ```
 

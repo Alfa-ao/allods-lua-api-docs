@@ -14,9 +14,6 @@ auction.IsCreationInProgress()
 Функция предназначена для предотвращения дублирования запросов на создание аукциона до получения ответа от сервера.
 :::
 
-Подробнее:
-- [События (EVENT_AUCTION_*)](events.auction#event-auction-creation-result)
-
 ## Список параметров
 
 Параметры отсутствуют.
@@ -31,10 +28,14 @@ auction.IsCreationInProgress()
 
 ```lua
 if not auction.IsCreationInProgress() then
-  auction.Create( slot, startPrice, buyoutPrice, time )
+    auction.Create( slot, startPrice, buyoutPrice, time )
 end
 ```
 
 ::: info Описание примера
 Перед вызовом функции создания аукциона проверяется, не выполняется ли уже аналогичный запрос. Это позволяет избежать отправки дублирующих пакетов на сервер и возможных ошибок до получения результата предыдущей операции.
 :::
+
+## Смотрите также
+
+- [События (EVENT_AUCTION_*)](events.auction#event-auction-creation-result)

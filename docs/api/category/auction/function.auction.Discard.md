@@ -12,9 +12,6 @@ auction.Discard( id )
 
 Результат выполнения операции отмены приходит в событии `EVENT_AUCTION_DISCARD_RESULT`.
 
-Подробнее:
-- [События (EVENT_AUCTION_*)](events.auction#event-auction-discard-result)
-
 ## Список параметров
 
 - **`id`** (`ObjectId`)
@@ -40,3 +37,7 @@ end
 ::: info Описание примера
 В примере сначала получается текущее состояние лота с помощью `auction.GetAuctionState`. Затем проверяется, что лот еще не отменен (`not state.discarded`) и процесс отмены еще не запущен (`not state.discardInProgress`). Только при соблюдении этих условий отправляется запрос на отмену, что предотвращает возможные ошибки.
 :::
+
+## Смотрите также
+
+- [События (EVENT_AUCTION_*)](events.auction#event-auction-discard-result)

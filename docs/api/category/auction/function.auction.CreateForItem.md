@@ -18,10 +18,6 @@ auction.CreateForItem( itemId, startPrice, buyoutPrice, timeLength )
 Новый лот не может быть создан, пока не завершится обработка предыдущего запроса.
 :::
 
-Подробнее:
-- [События (EVENT_AUCTION_*)](events.auction#event-auction-creation-result)
-- [Константы (AUCTION_CREATETIME_*)](constants.auction#auction-createtime)
-
 ## Список параметров
 
 - **`itemId`** (`ObjectId`)
@@ -55,3 +51,8 @@ end
 ::: info Описание примера
 Перед вызовом функции проверяется, не идет ли уже процесс создания другого лота (`auction.IsCreationInProgress()`), а также доступна ли возможность выставления конкретного предмета (`auction.CanCreateForItem()`). Если обе проверки пройдены, инициируется создание лота со стартовой ценой 10 меди, ценой выкупа 100 меди и сроком действия 24 часа.
 :::
+
+## Смотрите также
+
+- [События (EVENT_AUCTION_*)](events.auction#event-auction-creation-result)
+- [Константы (AUCTION_CREATETIME_*)](constants.auction#auction-createtime)

@@ -14,9 +14,6 @@ auction.IsSearchInProgress()
 В исходных данных возвращаемое значение было описано как «процесс создания аукциона», однако, исходя из названия функции, принадлежности к библиотеке `auction` и краткого описания, речь идёт исключительно о процессе **поиска** аукционов. Текст скорректирован для устранения логического противоречия.
 :::
 
-Подробнее:
-- [События (EVENT_AUCTION_*)](events.auction#event-auction-search-result)
-
 ## Список параметров
 
 Параметры отсутствуют.
@@ -36,3 +33,7 @@ if not auction.IsSearchInProgress() then
     auction.Search( filter, field, ascending, page )
 end
 ```
+
+## Смотрите также
+
+- [События (EVENT_AUCTION_*)](events.auction#event-auction-search-result)
