@@ -5,7 +5,7 @@
 ## Описание
 
 ```lua
-auction.CreateForItem( itemId, startPrice, buyoutPrice, timeLength )
+auction.CreateForItem( itemId: ObjectId, startPrice: number, buyoutPrice: number, timeLength: number )
 ```
 
 Функция отправляет запрос на выставление предмета на аукцион. Длительность действия лота задается константами `AUCTION_CREATETIME_*`
