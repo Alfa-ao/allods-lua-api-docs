@@ -2,3 +2,4 @@ docs/.vitepress/cache/*
 node_modules/*
 *.cmd
 exclude*
+*_doc.txt
