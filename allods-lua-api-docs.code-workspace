@@ -6,6 +6,9 @@
 		}
 	],
 	"settings": {
-		"vue.server.includeLanguages": ["vue", "markdown"]
+		"vue.server.includeLanguages": ["vue", "markdown"],
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false
 	}
 }
