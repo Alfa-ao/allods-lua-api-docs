@@ -17,8 +17,7 @@ EVENT_ALCHEMY_CANCELED
 
 ### Список параметров
 
-- **`isSuccess`** (`boolean`)
-Флаг успешности завершения действия. Принимает значение `false`, если процесс был прерван, и `true`, если действие завершилось в штатном режиме.
+- **`isSuccess`** (`boolean`) - Флаг успешности завершения действия. Принимает значение `false`, если процесс был прерван, и `true`, если действие завершилось в штатном режиме.
 
 ### Возвращаемые значения
 
@@ -29,7 +28,7 @@ EVENT_ALCHEMY_CANCELED
 #### Обработка прерывания алхимии
 
 ```lua
-function OnAlchemyCanceled( eventData )
+function OnAlchemyCanceled( eventData: table )
     if not eventData.isSuccess then
         LogInfo( "Алхимия прервана или окно закрыто." )
     else
@@ -56,11 +55,9 @@ EVENT_ALCHEMY_ITEM_PLACED
 
 ### Список параметров
 
-- **`slot`** (`number`)
-Индекс слота ступки, над которым было произведено действие.
+- **`slot`** (`number`) - Индекс слота ступки, над которым было произведено действие.
 
-- **`placed`** (`boolean`)
-Флаг действия. Значение `true` указывает на успешное размещение компонента, `false` — на его извлечение.
+- **`placed`** (`boolean`) - Флаг действия. Значение `true` указывает на успешное размещение компонента, `false` - на его извлечение.
 
 ### Возвращаемые значения
 
@@ -69,6 +66,7 @@ EVENT_ALCHEMY_ITEM_PLACED
 ### Примеры
 
 #### Отслеживание заполнения слотов
+
 ```lua
 function OnAlchemyItemPlaced( eventData )
     local action = eventData.placed and "положен в" or "извлечен из"
@@ -100,6 +98,18 @@ EVENT_ALCHEMY_NOT_ALCHEMY_ITEM
 
 Обработка события производится в зарегистрированном обработчике.
 
+### Примеры
+
+#### Отслеживание заполнения слотов
+
+```lua
+function OnAlchemyNotAlchemyItem()
+    -- не являющийся алхимическим компонентом
+end
+
+common.RegisterEventHandler( OnAlchemyItemPlaced, "EVENT_ALCHEMY_NOT_ALCHEMY_ITEM" )
+```
+
 ---
 
 ## EVENT_ALCHEMY_NOT_AVAILABLE_RESOURCES
@@ -116,11 +126,9 @@ EVENT_ALCHEMY_NOT_AVAILABLE_RESOURCES
 
 ### Список параметров
 
-- **`itemId`** (`ObjectId`)
-Идентификатор предмета, который предпринималась попытка поместить в ступку.
+- **`itemId`** (`ObjectId`) - Идентификатор предмета, который предпринималась попытка поместить в ступку.
 
-- **`slot`** (`number`)
-Индекс слота ступки (`0` - первый слот), в который планировалось добавить предмет.
+- **`slot`** (`number`) - Индекс слота ступки (`0` - первый слот), в который планировалось добавить предмет.
 
 ### Возвращаемые значения
 

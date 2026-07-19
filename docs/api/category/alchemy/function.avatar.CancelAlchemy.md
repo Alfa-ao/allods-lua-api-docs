@@ -32,4 +32,4 @@ avatar.CancelAlchemy()
 
 ## Смотрите также
 
-- [EVENT_ALCHEMY_*](events.alchemy#event-alchemy-canceled)
+- [EVENT_ALCHEMY_CANCELED](events.alchemy#event-alchemy-canceled)

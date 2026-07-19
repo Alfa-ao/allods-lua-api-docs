@@ -5,7 +5,7 @@
 ## Описание
 
 ```lua
-avatar.PutAlchemyItemToSlot( itemId, slot )
+avatar.PutAlchemyItemToSlot( itemId: ObjectId | nil, slot: number )
 ```
 
 Функция размещает предмет из инвентаря в заданный слот (барабан) алхимической ступки или извлекает предмета из него. После выполнения присылается событие `EVENT_ALCHEMY_ITEM_PLACED`, содержащее информацию об изменении состояния слота. Для очистки слота необходимо передать `nil` в качестве идентификатора предмета.
@@ -46,4 +46,4 @@ avatar.PutAlchemyItemToSlot( nil, targetSlot )
 
 ## Смотрите также
 
-- [EVENT_ALCHEMY_*](events.alchemy#event-alchemy-item-placed)
+- [EVENT_ALCHEMY_ITEM_PLACED](events.alchemy#event-alchemy-item-placed)
