@@ -8,10 +8,9 @@ social.LendMount( friendId: ObjectId, mountId: ObjectId )
 Функция инициирует передачу ездового животного из конюшни главного игрока в пользование указанному побратиму. Для успешного выполнения операции идентификатор побратима должен соответствовать записи из списка лучших друзей, а идентификатор животного — присутствовать в конюшне игрока.
 
 ## Список параметров
-- **`friendId`** (`ObjectId`)
-Уникальный идентификатор побратима, которому передается ездовое животное.
-- **`mountId`** (`ObjectId`)
-Уникальный идентификатор ездового животного, находящегося в конюшне главного игрока.
+
+- **`friendId`** (`ObjectId`) - Уникальный идентификатор побратима, которому передается ездовое животное.
+- **`mountId`** (`ObjectId`) - Уникальный идентификатор ездового животного, находящегося в конюшне главного игрока.
 
 ## Возвращаемые значения
 Возвращаемое значение отсутствует.
@@ -21,7 +20,6 @@ social.LendMount( friendId: ObjectId, mountId: ObjectId )
 ```lua
 local friends = social.GetFriendList()
 local friendId = friends[ 0 ]
-local mountId = 12345 -- Идентификатор ездового животного из конюшни
 
 if friendId then
     local friendInfo = social.GetFriendInfo( friendId )
@@ -35,5 +33,5 @@ end
 :::
 
 ## Смотрите также
-- [social.GetFriendList](social.GetFriendList)
-- [social.GetFriendInfo](social.GetFriendInfo)
+- [social.GetFriendList](function.social.GetFriendList)
+- [social.GetFriendInfo](function.social.GetFriendInfo)
