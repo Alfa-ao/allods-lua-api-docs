@@ -2,16 +2,20 @@
 Извлекает детальную информацию о таланте маунта.
 
 ## Описание
+
 ```lua
 mount.GetTalentInfo( mountTalentId: MountTalentId ): table | nil
 ```
+
 Функция формирует и возвращает таблицу с исчерпывающими данными о конкретном таланте маунта, включая его стоимость, условия разблокировки, а также информацию о совместимости и конфликтах с другими группами талантов. Если талант с указанным идентификатором не найден или не существует, функция возвращает `nil`.
 
 ## Список параметров
+
 - **`mountTalentId`** (`MountTalentId`)
 Уникальный идентификатор ресурса таланта маунта, информацию о котором необходимо получить.
 
 ## Возвращаемые значения
+
 Возвращает `table` или `nil`.
 Если талант найден, возвращается таблица со следующими полями:
 - **`price`** (`number`)
@@ -28,16 +32,19 @@ mount.GetTalentInfo( mountTalentId: MountTalentId ): table | nil
 Или `nil`, если талант с указанным идентификатором не существует.
 
 ## Примеры
+
 ### Получение информации о таланте из первого доступного слота
 ```lua
 local exoMountId = mount.GetExoMount()
 local availableTalents = mount.GetAvailableTalents( exoMountId )
 local firstSlotTalentInfo = mount.GetTalentInfo( availableTalents[1][1] )
 ```
+
 ::: info Описание примера
 В примере сначала извлекается идентификатор текущего экзо-маунта с помощью `mount.GetExoMount`. Затем формируется список доступных талантов для данного маунта через `mount.GetAvailableTalents`. После этого вызывается `mount.GetTalentInfo` для получения детальной информации о конкретном таланте, находящемся в первой ячейке первого слота.
 :::
 
 ## Смотрите также
+
 - [mount.GetExoMount](mount.GetExoMount)
 - [mount.GetAvailableTalents](mount.GetAvailableTalents)

@@ -2,9 +2,11 @@
 Извлекает информацию о качестве предмета.
 
 ## Описание
+
 ```lua
 itemLib.GetQuality( itemId: ObjectId ): table|nil
 ```
+
 Функция возвращает таблицу с информацией о качестве указанного предмета. Если предмет не найден или информация недоступна, функция возвращает `nil`.
 
 ::: info Перечисление
@@ -12,9 +14,11 @@ itemLib.GetQuality( itemId: ObjectId ): table|nil
 :::
 
 ## Список параметров
+
 - **`itemId`** (`ObjectId`) - Идентификатор предмета.
 
 ## Возвращаемые значения
+
 Возвращает `table` | `nil`.
 При успешном получении информации возвращается таблица со следующими полями:
 
@@ -27,6 +31,7 @@ itemLib.GetQuality( itemId: ObjectId ): table|nil
 - **`hasSetBonus`** (`boolean`) - Флаг, указывающий, является ли предмет частью набора.
 
 ## Примеры
+
 ### Получение качества предмета
 ```lua
 local itemQuality = itemLib.GetQuality( itemId )
@@ -34,4 +39,5 @@ local quality = itemQuality and itemQuality.quality
 ```
 
 ## Смотрите также
+
 - [ENUM_ITEM_QUALITY_*](#enum-item-quality)

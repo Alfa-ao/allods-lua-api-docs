@@ -2,9 +2,11 @@
 Включает режим распознавания горячих клавиш.
 
 ## Описание
+
 ```lua
 binding.StartRebind( sysSectionName: string, sysBindName: string, index: number )
 ```
+
 Функция включает режим распознавания горячих клавиш для заданной реакции. После успешного распознавания клавиши или комбинации клавиш новый бинд применяется к текущей конфигурации.
 
 ::: warning Замечание
@@ -12,6 +14,7 @@ binding.StartRebind( sysSectionName: string, sysBindName: string, index: number 
 :::
 
 ## Список параметров
+
 - **`sysSectionName`** (`string`)
 Идентификатор секции настроек, в которой находится переназначаемая реакция.
 - **`sysBindName`** (`string`)
@@ -20,9 +23,11 @@ binding.StartRebind( sysSectionName: string, sysBindName: string, index: number 
 Индекс горячей клавиши, подлежащей переназначению.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Запуск процесса переназначения горячей клавиши
 ```lua
 binding.StartRebind( sysSectionName, sysBindName, 1 )

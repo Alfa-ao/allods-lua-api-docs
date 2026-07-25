@@ -2,9 +2,11 @@
 Возвращает возможность и условия изучения таланта гильдии.
 
 ## Описание
+
 ```lua
 guild.CanLearnTalent( field: number, row: number, column: number, talentType: ?number ): ?table
 ```
+
 Функция проверяет доступность и возвращает требования для изучения конкретного таланта гильдии по заданным координатам на дереве талантов.
 
 ::: warning Замечание
@@ -12,6 +14,7 @@ guild.CanLearnTalent( field: number, row: number, column: number, talentType: ?n
 :::
 
 ## Список параметров
+
 - **`field`** (`number`)
 Номер поля дерева талантов.
 - **`row`** (`number`)
@@ -22,6 +25,7 @@ guild.CanLearnTalent( field: number, row: number, column: number, talentType: ?n
 Тип таланта. Задается значением из перечисления `ENUM_TalentType`. При передаче `nil` используется тип по умолчанию.
 
 ## Возвращаемые значения
+
 Возвращает `table` или `nil`.
 Возвращаемая таблица содержит следующие поля:
 - **`result`** (`boolean`)
@@ -36,14 +40,17 @@ guild.CanLearnTalent( field: number, row: number, column: number, talentType: ?n
 - `requiredCurrency` (`CurrencyId` | `nil`) - требуемая альтернативная валюта.
 
 ## Примеры
+
 ### Проверка условий изучения таланта гильдии и таланта босса
 ```lua
 local resultForGuild = guild.CanLearnTalent( 0, 4, 5 ) -- проверить условия изучения вехи гильдии
 local resultForBoss = guild.CanLearnTalent( 0, 0, 1, ENUM_TalentType_BOSS ) -- проверить условия изучения второго таланта босса гильдии
 ```
+
 ::: info Описание примера
 В примере выполняются две проверки. Первая проверяет возможность изучения обычной вехи гильдии на поле `0`, строке `4`, столбце `5` с использованием типа по умолчанию. Вторая проверка аналогична, но явно указывает тип таланта `ENUM_TalentType_BOSS` для изучения таланта босса гильдии на поле `0`, строке `0`, столбце `1`.
 :::
 
 ## Смотрите также
+
 - [ENUM_TalentType](enums)

@@ -2,9 +2,11 @@
 Инициирует выполнение действия используемого устройства.
 
 ## Описание
+
 ```lua
 avatar.RunUsableDeviceAction( index: number )
 ```
+
 Функция инициирует выполнение одного из действий используемого устройства. Перечень доступных действий запрашивается через функцию `avatar.GetUsableDeviceInfo`.
 
 ::: warning Замечание
@@ -12,13 +14,16 @@ avatar.RunUsableDeviceAction( index: number )
 :::
 
 ## Список параметров
+
 - **`index`** (`number`)
 Индекс действия устройства, которое необходимо выполнить.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Инициация действия устройства по индексу
 ```lua
 local actionIndex = 0
@@ -26,4 +31,5 @@ avatar.RunUsableDeviceAction( actionIndex )
 ```
 
 ## Смотрите также
+
 - [avatar.GetUsableDeviceInfo](avatar.GetUsableDeviceInfo)

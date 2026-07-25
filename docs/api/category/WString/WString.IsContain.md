@@ -1,14 +1,14 @@
-# WString:IsContain
+# WStringSafe:IsContain
 
 Определяет, содержит ли строка подстроку.
 
 ## Описание
 
 ```lua
-WString:IsContain( part, ignoreRegistry )
+WStringSafe:IsContain( part: WString, ignoreRegistry: boolean|nil ): boolean|nil
 ```
 
-Функция выполняет регистрозависимую `ignoreRegistry` проверку, которая указывает, содержится ли подстрока `part` в строке `self`.
+Функция выполняет регистрозависимую `ignoreRegistry` проверку, которая указывает, содержится ли подстрока `part` в строке `WStringSafe`.
 
 ::: warning Замечание
 В случае ошибки типа возвращается `nil`.
@@ -16,16 +16,13 @@ WString:IsContain( part, ignoreRegistry )
 
 ## Список параметров
 
-- **`part`** (`WString`)  
-Строка, проверяемая на вхождение.
+- **`part`** (`WString`) - Строка, проверяемая на вхождение.
 
-- **`ignoreRegistry`** (`boolean` | `nil`)  
-Игнорировать регистр. По умолчанию `false`.
+- **`ignoreRegistry`** (`boolean` | `nil`) - Игнорировать регистр. По умолчанию `false`.
 
 ## Возвращаемые значения
 
-Возвращает `boolean`. `true` если является `part` подстрокой `self`, либо `false`. 
-В случае ошибки типа возвращается `nil`.
+Возвращает `boolean` | `nil` - `true` если является `part` подстрокой `WStringSafe`, либо `false`.
 
 ## Примеры
 

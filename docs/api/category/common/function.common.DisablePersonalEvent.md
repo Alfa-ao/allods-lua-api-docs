@@ -2,9 +2,11 @@
 Отключает отправку персонального события для указанного объекта.
 
 ## Описание
+
 ```lua
 common.DisablePersonalEvent( sysEventName: string, object: ObjectId )
 ```
+
 Функция отключает отправку персонального события для заданного объекта. Является обратной по отношению к `common.EnablePersonalEvent()`.
 
 ::: warning Замечание
@@ -12,22 +14,27 @@ common.DisablePersonalEvent( sysEventName: string, object: ObjectId )
 :::
 
 ## Список параметров
+
 - **`sysEventName`** (`string`)
 Название события, отправка которого отключается.
 - **`object`** (`ObjectId`)
 Идентификатор объекта, для которого отключается персональное событие.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Отключение отправки события для аватара
 ```lua
 common.DisablePersonalEvent( "EVENT_OBJECT_BUFF_ADDED", avatar.GetId() )
 ```
+
 ::: info Описание примера
 В примере отключается отправка события `EVENT_OBJECT_BUFF_ADDED` для аватара. Событие перестает приходить только при условии, что глобальный счетчик подписок достигает нуля.
 :::
 
 ## Смотрите также
+
 - [common.EnablePersonalEvent](common.EnablePersonalEvent)

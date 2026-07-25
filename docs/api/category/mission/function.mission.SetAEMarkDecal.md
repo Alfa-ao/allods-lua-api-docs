@@ -2,18 +2,23 @@
 Устанавливает декал для AEMark.
 
 ## Описание
+
 ```lua
 mission.SetAEMarkDecal( decalId: DecalObjectId )
 ```
+
 Функция устанавливает декал для AEMark.
 
 ## Список параметров
+
 - **`decalId`** (`DecalObjectId`) - Идентификатор декала.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Установка декала для AEMark
 ```lua
 local decalId = common.GetAddonRelatedDecal( "AEMark" )
@@ -25,4 +30,5 @@ mission.SetAEMarkDecal( decalId )
 :::
 
 ## Смотрите также
+
 - [common.GetAddonRelatedDecal](function.common.GetAddonRelatedDecal)

@@ -3,9 +3,11 @@ widget:GetWidgetCoreTree
 Возвращает дерево виджетов в формате TWidget начиная с self.
 
 ## Описание
+
 ```lua
 WidgetSafe:GetWidgetCoreTree( indexFunction: function, TWidgetByInstanceId: table ): table
 ```
+
 Функция возвращает дерево виджетов в формате TWidget начиная с self. В TWidgetByInstanceId должна быть передана пустая таблица, которая будет заполнена как hash_map< instanceId, TWidget >, или валидный hash_map< instanceId, TWidget >, который будет обновлен. При повторном обходе поддеревьев известных виджетов повторное выполнение не производится.
 
 ::: warning Замечание
@@ -38,6 +40,7 @@ WidgetSafe:GetWidgetCoreTree( indexFunction: function, TWidgetByInstanceId: tabl
 Все данные по ссылкам, таблицы нигде не копируются, одному виджету соответствует ровно одна таблица в дереве и ровно одна ссылка на нее в `TWidgetByInstanceId`.
 
 ## Примеры
+
 ### Инициализация и использование widgetcore
 ```lua
 --------------------------------------------------------------------------------

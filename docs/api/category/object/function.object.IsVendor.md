@@ -2,9 +2,11 @@
 Определяет, является ли интерактивный объект торговцем.
 
 ## Описание
+
 ```lua
 object.IsVendor( id: ObjectId ): boolean
 ```
+
 Функция возвращает признак того, что интерактивный объект является торговцем.
 
 ::: warning Замечание
@@ -12,16 +14,20 @@ object.IsVendor( id: ObjectId ): boolean
 :::
 
 ## Список параметров
+
 - **`id`** (`ObjectId`) - Идентификатор интерактивного объекта.
 
 ## Возвращаемые значения
+
 Возвращает `boolean` - `true`, если интерактивный объект является торговцем, иначе `false`.
 
 ## Примеры
+
 ### Проверка целевого объекта
 ```lua
 local isVendor = object.IsVendor( avatar.GetTarget() )
 ```
 
 ## Смотрите также
+
 - [avatar.IsInteractorVendor](../avatar/function.avatar.IsInteractorVendor)

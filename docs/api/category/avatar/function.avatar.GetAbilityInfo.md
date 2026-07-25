@@ -2,6 +2,7 @@
 Возвращает информацию об умении по идентификатору его ресурса.
 
 ## Описание
+
 ```lua
 avatar.GetAbilityInfo( id: AbilityId ): table | nil
 ```
@@ -12,6 +13,7 @@ avatar.GetAbilityInfo( id: AbilityId ): table | nil
 :::
 
 ## Список параметров
+
 - **`id`** (`AbilityId`)
 Идентификатор ресурса умения.
 
@@ -30,6 +32,7 @@ avatar.GetAbilityInfo( id: AbilityId ): table | nil
 - `texture` (`TextureId`) - Идентификатор текстуры для иконки умения (реализовано только для UI).
 
 ## Примеры
+
 ### Получение названия умения по идентификатору
 ```lua
 local abilities = avatar.GetAbilities()

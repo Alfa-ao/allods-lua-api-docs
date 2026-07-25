@@ -2,6 +2,7 @@
 Запускает эффект масштабирования текста в TextView.
 
 ## Описание
+
 ```lua
 TextViewSafe:PlayTextScaleEffect( start: number | nil, finish: number | nil, timeMs: number, algoDesc: number, needEvent: boolean, eventReceivers: table | nil )
 ```
@@ -16,6 +17,7 @@ TextViewSafe:PlayTextScaleEffect( start: number | nil, finish: number | nil, tim
 :::
 
 ## Список параметров
+
 - **`start`** (`number` | `nil`)
 Начальный коэффициент масштабирования текста.
 
@@ -23,9 +25,11 @@ TextViewSafe:PlayTextScaleEffect( start: number | nil, finish: number | nil, tim
 Конечный коэффициент масштабирования текста.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Запуск эффекта масштабирования
 ```lua
 wtTextView:PlayTextScaleEffect( 0.5, 2.0, 1000, EA_SYMMETRIC_FLASH )

@@ -2,9 +2,11 @@
 Проверяет, находится ли персонаж в списке игнора аватара.
 
 ## Описание
+
 ```lua
 social.IsIgnored( player: ObjectId | wstring ): boolean
 ```
+
 Функция проверяет наличие указанного юнита в списке игнора аватара.
 
 ::: warning Замечание
@@ -12,12 +14,15 @@ social.IsIgnored( player: ObjectId | wstring ): boolean
 :::
 
 ## Список параметров
+
 - **`player`** (`ObjectId` | `wstring`) - Идентификатор или имя юнита.
 
 ## Возвращаемые значения
+
 Возвращает `boolean` - `true`, если персонаж находится в списке игнора.
 
 ## Примеры
+
 ### Проверка цели на наличие в списке игнора
 ```lua
 if social.IsIgnored( avatar.GetTarget() ) then
@@ -26,4 +31,5 @@ end
 ```
 
 ## Смотрите также
+
 - [social.IsIgnoreListLoaded](function.social.IsIgnoreListLoaded)

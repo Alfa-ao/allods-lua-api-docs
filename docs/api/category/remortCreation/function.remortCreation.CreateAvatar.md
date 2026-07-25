@@ -2,9 +2,11 @@
 Функция создает аватара с указанным именем, шаблоном, вариантом внешнего вида и другими параметрами, включая основного и дополнительных персонажей, а также питомца.
 
 ## Описание
+
 ```lua
 remortCreation.CreateAvatar( avatarName: WString, template: table, primary: table, trio2: table | nil, trio3: table | nil, petIndex: number | nil, petVariation: table | nil )
 ```
+
 Функция инициирует создание аватара, описывая как основного персонажа, так и дополнительных (при наличии), включая питомца, на основе заданных шаблонов и вариаций внешнего вида.
 
 ::: tip Совет
@@ -12,6 +14,7 @@ remortCreation.CreateAvatar( avatarName: WString, template: table, primary: tabl
 :::
 
 ## Список параметров
+
 - **`avatarName`** (`WString`) - Имя создаваемого аватара.
 
 - **`template`** (`table`) - Таблица с информацией, задающей шаблон для аватара. Поля таблицы: 
@@ -68,9 +71,11 @@ remortCreation.CreateAvatar( avatarName: WString, template: table, primary: tabl
     - `morphPresetIndex` (`number`) - индекс варианта пропорций персонажа `[0..]`.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Создание аватара без дополнительных персонажей
 ```lua
 remortCreation.CreateAvatar( avatarName, template, primary, nil, nil, 1, petVariation )

@@ -26,6 +26,7 @@ local resourceId = itemLib.GetResourceId( itemId )
 ```
 
 ## Смотрите также
+
 - [ResourceId](ResourceId)
 - [ResourceId:IsEqual](ResourceId:IsEqual)
 - [ResourceId:GetInfo](ResourceId:GetInfo)

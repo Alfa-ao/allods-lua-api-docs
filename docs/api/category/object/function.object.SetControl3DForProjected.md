@@ -2,18 +2,23 @@
 Задает 3D-control для списка проецируемых объектов.
 
 ## Описание
+
 ```lua
 object.SetControl3DForProjected( wtControl3D: Control3DSafe )
 ```
+
 Функция устанавливает 3D-control, отвечающий за отображение сцены, для списка проецируемых объектов.
 
 ## Список параметров
+
 - **`wtControl3D`** (`Control3DSafe`) - 3D-control, который отвечает за показ сцены.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Получение и установка 3D-control
 ```lua
 local wtMainAddonMainForm = common.GetAddonMainForm( "Main" ) -- (HELP) проверить

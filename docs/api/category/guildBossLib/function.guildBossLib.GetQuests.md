@@ -2,15 +2,19 @@
 Возвращает список заданий для прогресса босса гильдии.
 
 ## Описание
+
 ```lua
 guildBossLib.GetQuests(): table | nil
 ```
+
 Функция возвращает таблицу со списком заданий для прогресса босса гильдии или `nil`.
 
 ## Список параметров
+
 Параметры отсутствуют.
 
 ## Возвращаемые значения
+
 Возвращает `table` | `nil` - список заданий для прогресса босса гильдии. Индексация с 1, каждый элемент представляет собой таблицу со следующими полями:
 
 - **`questId`** (`QuestId`) - идентификатор ресурса задания.
@@ -22,6 +26,7 @@ guildBossLib.GetQuests(): table | nil
 - **`requiredItems`** (`table` | `nil`) - список особых предметов, необходимых для выполнения задания. Индексация с 0.
 
 ## Примеры
+
 ### Получение информации о награде за первое задание
 ```lua
 local guildBossQuests = guildBossLib.IsExist() and guildBossLib.GetQuests()
@@ -34,5 +39,6 @@ local questReward = firstGuildQuest and guildBossLib.GetQuestReward( firstGuildQ
 :::
 
 ## Смотрите также
+
 - [guildBossLib.GetQuestInfo](#)
 - [guildBossLib.GetQuestReward](#)

@@ -47,5 +47,6 @@ end
 :::
 
 ## Смотрите также
+
 - [EVENT_OBJECT_HEALTH_CHANGED](events#event-object-health-changed)
 - [object.GetManaInfo](function.object.GetManaInfo)

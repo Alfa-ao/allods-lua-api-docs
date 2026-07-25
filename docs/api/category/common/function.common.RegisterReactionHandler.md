@@ -2,21 +2,26 @@
 Подписывает функцию-обработчик аддона на указанную системную реакцию.
 
 ## Описание
+
 ```lua
 common.RegisterReactionHandler( reactionFunction: function, sysReactionName: string )
 ```
+
 Функция регистрирует переданную функцию-обработчик для реакции с заданным именем. На одну реакцию допускается подписка нескольких обработчиков. При наступлении реакции вызывается зарегистрированная функция, принимающая таблицу с параметрами.
 
 ## Список параметров
+
 - **`reactionFunction`** (`function`)
 Функция-обработчик, вызываемая при наступлении реакции. Прототип функции: `function OnReactionHandler( params: table )`.
 - **`sysReactionName`** (`string`)
 Уникальное имя системной реакции, на которую осуществляется подписка.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Регистрация обработчика реакции
 ```lua
 function OnReactionSample( params )
@@ -51,4 +56,5 @@ common.RegisterReactionHandler( OnReactionSampleReaction, "reaction_test" )
 ```
 
 ## Смотрите также
+
 - [EnumKeyboardFlags](EnumKeyboardFlags)

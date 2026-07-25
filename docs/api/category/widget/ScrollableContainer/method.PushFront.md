@@ -2,6 +2,7 @@
 Добавляет в контейнер очередной элемент в начало списка.
 
 ## Описание
+
 ```lua
 ScrollableContainerSafe:PushFront( widget: WidgetSafe )
 ```
@@ -24,12 +25,15 @@ ScrollableContainerSafe:PushFront( widget: WidgetSafe )
 :::
 
 ## Список параметров
+
 - **`widget`** (`WidgetSafe`) - Добавляемый элемент.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Добавление виджета в начало контейнера
 ```lua
 wtScrollableContainer:PushFront( wtButton )

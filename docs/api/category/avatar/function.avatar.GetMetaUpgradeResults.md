@@ -2,9 +2,11 @@
 Возвращает предсказание по улучшению мета-предмета.
 
 ## Описание
+
 ```lua
 avatar.GetMetaUpgradeResults( sourceId: ObjectId, enhancerId: ObjectId, agentId: ObjectId, agentCount: number ): table | nil
 ```
+
 Функция возвращает таблицу с результатами предсказания улучшения мета-предмета для заданной комбинации предметов и агентов, или `nil` в случае возникновения ошибок. Значения используются для оценки шансов, поведения и итоговых характеристик до фактического выполнения улучшения.
 
 ::: warning Замечание
@@ -12,6 +14,7 @@ avatar.GetMetaUpgradeResults( sourceId: ObjectId, enhancerId: ObjectId, agentId:
 :::
 
 ## Список параметров
+
 - **`sourceId`** (`ObjectId`)
 Идентификатор улучшаемого предмета.
 - **`enhancerId`** (`ObjectId`)
@@ -22,6 +25,7 @@ avatar.GetMetaUpgradeResults( sourceId: ObjectId, enhancerId: ObjectId, agentId:
 Количество используемых агентов.
 
 ## Возвращаемые значения
+
 Возвращает `table` или `nil`. Если ошибок не возникает, возвращается таблица со следующими полями:
 - **`canUpgrade`** (`boolean`)
 `true`, если есть возможность улучшить при таком сочетании параметров; `false`, если возможности улучшить предмет нет.
@@ -41,6 +45,7 @@ avatar.GetMetaUpgradeResults( sourceId: ObjectId, enhancerId: ObjectId, agentId:
 Идентификатор предмета, который получится, если мета-апгрейд предполагает замену предмета при склейке (`sysUpgradeVector == META_UPGRADE_ITEM`).
 
 ## Примеры
+
 ### Проверка возможности и шанса улучшения
 ```lua
 local tryResult = avatar.GetMetaUpgradeResults( sourceId, enhancerId, agentId, 1 )
@@ -50,6 +55,7 @@ end
 ```
 
 ## Смотрите также
+
 - [avatar.UpgradeMetaItem](avatar.UpgradeMetaItem)
 - [avatar.GetItemMetaInfo](avatar.GetItemMetaInfo)
 - [EVENT_META_UPGRADE_RESULT](events.meta_upgrade#event-meta-upgrade-result)

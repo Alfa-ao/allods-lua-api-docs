@@ -2,15 +2,19 @@
 Получает информацию о достижениях участников текущего или только что завершившегося инстанс-ивента.
 
 ## Описание
+
 ```lua
 matchMaking.GetEventProgressInfo(): table|nil
 ```
+
 Функция возвращает информацию о достижениях участников текущего или только что завершившегося инстанс-ивента. Информация доступна автоматически сразу после завершения инстанс-ивента либо может быть получена запросом `matchMaking.ListenEventProgress()`. В обоих случаях передается событие `EVENT_MATCH_MAKING_EVENT_PROGRESS_ADDED`.
 
 ## Список параметров
+
 Параметры отсутствуют.
 
 ## Возвращаемые значения
+
 Возвращает `table` | `nil` - таблица с описанием прогресса, если информация получена.
 
 - **`completed`** (`boolean`) - завершился ли ивент.
@@ -78,6 +82,7 @@ end
 :::
 
 ## Смотрите также
+
 - [matchMaking.ListenEventProgress](function.matchMaking.ListenEventProgress)
 - [EVENT_MATCH_MAKING_EVENT_PROGRESS_ADDED](events.match_making#event-match-making-event-progress-added)
 - [LuaRaceClassInfoPart](types#luaraceclassinfopart)

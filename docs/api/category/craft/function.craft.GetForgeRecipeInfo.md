@@ -2,15 +2,19 @@
 Возвращает информацию о рецепте для forge крафта.
 
 ## Описание
+
 ```lua
 craft.GetForgeRecipeInfo( recipeId: ForgeRecipeId ): table | nil
 ```
+
 Функция извлекает и возвращает детальную информацию о рецепте для forge крафта, включая название, стоимость, требуемые ресурсы и условия доступности.
 
 ## Список параметров
+
 - **`recipeId`** (`ForgeRecipeId`) - Идентификатор рецепта для forge крафта.
 
 ## Возвращаемые значения
+
 Возвращает `table` или `nil`. В случае неудачи вернется `nil`, иначе таблица с полями:
 
 - **`name`** (`WString`) - Название.
@@ -27,10 +31,12 @@ craft.GetForgeRecipeInfo( recipeId: ForgeRecipeId ): table | nil
     - **`count`** (`number`) - Количество требуемой валюты.
 
 ## Примеры
+
 ### Получение информации о рецепте
 ```lua
 LogInfo( craft.GetForgeRecipeInfo( recipeId ) )
 ```
 
 ## Смотрите также
+
 - [RequirementsTable](#)

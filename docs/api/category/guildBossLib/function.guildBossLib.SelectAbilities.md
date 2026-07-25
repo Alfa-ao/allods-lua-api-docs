@@ -2,19 +2,24 @@
 Осуществляет выбор заклинаний и способностей босса гильдии.
 
 ## Описание
+
 ```lua
 guildBossLib.SelectAbilities( abilities: table )
 ```
+
 Функция осуществляет выбор заклинаний и способностей босса гильдии.
 
 ## Список параметров
+
 - **`abilities`** (`table`)
 Список выбранных заклинаний и способностей босса гильдии.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Выбор способностей босса гильдии
 ```lua
 local bossInfo = guildBossLib.IsExist() and guildBossLib.GetInfo()
@@ -33,6 +38,7 @@ end
 :::
 
 ## Смотрите также
+
 - [guildBossLib.IsExist](function.guildBossLib.IsExist)
 - [guildBossLib.GetInfo](function.guildBossLib.GetInfo)
 - [guildBossLib.GetAbilitiesSlots](function.guildBossLib.GetAbilitiesSlots)

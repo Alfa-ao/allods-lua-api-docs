@@ -2,9 +2,11 @@
 Выставляет указанную вариацию для выбранного персонажа в сцене.
 
 ## Описание
+
 ```lua
 changeRoom.SetSceneCharacterVariation( characterId: ObjectId, variation: table )
 ```
+
 Функция выставляет указанную вариацию для выбранного персонажа (основного или дополнительного из трио, включая питомца) в сцене. Вариация задается набором индексов.
 
 ::: warning Замечание
@@ -12,6 +14,7 @@ changeRoom.SetSceneCharacterVariation( characterId: ObjectId, variation: table )
 :::
 
 ## Список параметров
+
 - **`characterId`** (`ObjectId`)
 Идентификатор персонажа в сцене.
 - **`variation`** (`table`)
@@ -26,9 +29,11 @@ changeRoom.SetSceneCharacterVariation( characterId: ObjectId, variation: table )
 - `morphPresetIndex` (`number`) - индекс варианта пропорций персонажа [0..].
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Установка вариации для основного персонажа
 ```lua
 local variation = {

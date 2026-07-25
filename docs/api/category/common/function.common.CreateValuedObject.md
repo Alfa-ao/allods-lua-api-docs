@@ -2,9 +2,11 @@
 Создает и возвращает новый экземпляр `ValuedObject`.
 
 ## Описание
+
 ```lua
 common.CreateValuedObject( text: WString|ValuedText, table: table, handledMouseButtons: ?number, handledMouseButtonsDbl: ?number ): ValuedObject
 ```
+
 Функция создает новый экземпляр `ValuedObject` и позволяет указать таблицу, которая передается в обработчик сообщения при клике или наведении курсора мыши на объект. Также предоставляет возможность переназначить клавиши мыши, вызывающие сообщение о клике. Если клавиша исключается из обработки, объект становится прозрачным для клика данной клавишей мыши.
 
 ::: warning Замечание
@@ -12,6 +14,7 @@ common.CreateValuedObject( text: WString|ValuedText, table: table, handledMouseB
 :::
 
 ## Список параметров
+
 - **`text`** (`WString` | `ValuedText`)
 Текстовое описание, впоследствии получаемое из `ValuedObject` методом `GetText()`.
 
@@ -25,9 +28,11 @@ common.CreateValuedObject( text: WString|ValuedText, table: table, handledMouseB
 Битовая маска (`MOUSE_BUTTON_*`), задающая набор клавиш мыши, обрабатываемых при двойном клике по объекту. По умолчанию обрабатываются все клавиши.
 
 ## Возвращаемые значения
-Возвращает `ValuedObject` — новый экземпляр `ValuedObject`.
+
+Возвращает `ValuedObject` - новый экземпляр `ValuedObject`.
 
 ## Примеры
+
 ### Создание базового ValuedObject с таблицей данных
 ```lua
 local valuedObject = common.CreateValuedObject( text, { a = 1, b = "b", c = { 1, 2 } } )
@@ -42,11 +47,13 @@ local valuedObjectLeftClick = common.CreateValuedObject( text, {}, MOUSE_BUTTON_
 ```lua
 local valuedObjectNotLeftClick = common.CreateValuedObject( text, {}, common.GetBitOr( MOUSE_BUTTON_RIGHT, MOUSE_BUTTON_MIDDLE ) )
 ```
+
 ::: info Описание примера
 С помощью функции `common.GetBitOr` формируется битовая маска для правой и средней кнопок мыши. Создается объект, реагирующий только на указанные клавиши, оставаясь прозрачным для клика левой кнопкой.
 :::
 
 ## Смотрите также
+
 - [common.GetBitOr](common.GetBitOr)
 - [MOUSE_BUTTON_*](constants.common#mouse-button)
 - [ValuedObject:GetText](ValuedObject.GetText)

@@ -7,6 +7,7 @@
 ```lua
 craft.MakeForge( forgeId: ForgeCraftResourceId, recipeId: ForgeCraftRecipeId, components: table ): boolean
 ```
+
 Функция инициирует крафт типа forge с указанными ресурсами и набором компонентов.
 
 ## Список параметров
@@ -31,4 +32,5 @@ local success = craft.MakeForge( fid, rid, {
 ```
 
 ## Смотрите также
+
 - [craft.GetForgeRecipeInfo](function.craft.GetForgeRecipeInfo)

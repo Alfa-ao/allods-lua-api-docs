@@ -2,9 +2,11 @@
 Включает обработку персонального события для конкретной пары «событие : объект».
 
 ## Описание
+
 ```lua
 common.EnablePersonalEvent( sysEventName: string, object: ObjectId )
 ```
+
 Функция включает формирование и передачу персонального события клиентом для указанного объекта. Применимо исключительно к специальным событиям:
 - `EVENT_HEALING_RECEIVED`
 - `EVENT_UNIT_DAMAGE_RECEIVED`
@@ -32,24 +34,29 @@ common.EnablePersonalEvent( sysEventName: string, object: ObjectId )
 :::
 
 ## Список параметров
+
 - **`sysEventName`** (`string`)
 Название включаемого события.
 - **`object`** (`ObjectId`)
 Идентификатор объекта, для которого включается персональное событие.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Включение отправки события для аватара
 ```lua
 common.EnablePersonalEvent( "EVENT_OBJECT_BUFF_ADDED", avatar.GetId() )
 ```
+
 ::: info Описание примера
 В примере включается передача персонального события `EVENT_OBJECT_BUFF_ADDED` для главного персонажа. Идентификатор объекта получается с помощью функции `avatar.GetId()`.
 :::
 
 ## Смотрите также
+
 - [common.DisablePersonalEvent](common.DisablePersonalEvent)
 - [avatar.GetId](avatar.GetId)
 - `EVENT_HEALING_RECEIVED`

@@ -2,16 +2,20 @@
 Возвращает интерфейсные данные модификатора карты.
 
 ## Описание
+
 ```lua
 cartographer.GetMapModifierInfo( mapModifierId: MapModifierId ): table | nil
 ```
+
 Функция извлекает и возвращает таблицу с интерфейсными данными модификатора карты. Система предоставляет данные в двух состояниях: `UIState` (расширенная информация, включающая графические ресурсы) и `GameState` (базовая игровая информация).
 
 ## Список параметров
+
 - **`mapModifierId`** (`MapModifierId`)
 Идентификатор ресурса модификатора карты.
 
 ## Возвращаемые значения
+
 Возвращает `table` или `nil`.
 
 Если модификатор найден, возвращается таблица со следующими полями:
@@ -29,6 +33,7 @@ cartographer.GetMapModifierInfo( mapModifierId: MapModifierId ): table | nil
 Возвращает `nil`, если модификатор не найден или передан некорректный идентификатор.
 
 ## Примеры
+
 ### Получение и применение иконки модификатора
 ```lua
 local mapModifiers = cartographer.GetCurrentMapModifiers()
@@ -37,11 +42,13 @@ if modifierInfo then
     wtMapModifier:SetBackgroundTexture( modifierInfo.image )
 end
 ```
+
 ::: info Описание примера
 В примере извлекается список текущих модификаторов карты. Если список не пуст, запрашивается информация о первом модификаторе. При успешном получении данных идентификатор текстуры иконки (`image`) применяется в качестве фонового изображения для виджета `wtMapModifier`.
 :::
 
 ## Смотрите также
+
 - [MapModifierId](MapModifierId)
 - [cartographer.GetCurrentMapModifiers](cartographer.GetCurrentMapModifiers)
 - [EVENT_UNIT_DAMAGE_RECEIVED](events#event-unit-damage-received)

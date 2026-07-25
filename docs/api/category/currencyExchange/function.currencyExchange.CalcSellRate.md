@@ -2,6 +2,7 @@
 Возвращает курс продажи кристаллов в сервисе обмена валют.
 
 ## Описание
+
 ```lua
 currencyExchange.CalcSellRate(): number
 ```
@@ -9,12 +10,15 @@ currencyExchange.CalcSellRate(): number
 Функция возвращает курс продажи кристаллов в сервисе обмена валют. Данный курс постоянно изменяется в зависимости от резерва кристаллов и золота.
 
 ## Список параметров
+
 Параметры отсутствуют.
 
 ## Возвращаемые значения
+
 Возвращает `number` - курс продажи кристаллов.
 
 ## Примеры
+
 ### Расчет курса продажи
 ```lua
 if currencyExchange.IsServiceActive() then
@@ -27,4 +31,5 @@ end
 :::
 
 ## Смотрите также
+
 - [currencyExchange.IsServiceActive](function.currencyExchange.IsServiceActive)

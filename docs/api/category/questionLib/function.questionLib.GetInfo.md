@@ -2,15 +2,19 @@
 Выдает информацию о вопросе с соответствующим идентификатором, на который в данный момент ожидается ответ от игрока.
 
 ## Описание
+
 ```lua
 questionLib.GetInfo( questionId: ObjectId ): table | nil
 ```
+
 Функция возвращает информацию о вопросе с соответствующим идентификатором, на который в данный момент ожидается ответ от игрока, в виде таблицы или `nil`, если информация отсутствует.
 
 ## Список параметров
+
 - **`questionId`** (`ObjectId`) - идентификатор вопроса, должен быть одним из списка, получаемого посредством `questionLib.GetQuestions()`.
 
 ## Возвращаемые значения
+
 Возвращает `table` | `nil` - таблицу с информацией о вопросе или `nil`, если информация отсутствует.
 
 - **`id`** (`ObjectId`) - идентификатор вопроса.
@@ -40,6 +44,7 @@ questionLib.GetInfo( questionId: ObjectId ): table | nil
 - `clientData` (`table`) - таблица, аналогичная полю `values` события `EVENT_CLIENT_MESSAGE`.
 
 ## Примеры
+
 ### Получение информации о вопросе
 ```lua
 local questions = questionLib.GetQuestions()
@@ -53,6 +58,7 @@ end
 :::
 
 ## Смотрите также
+
 - [EVENT_CLIENT_MESSAGE](../events#event-client-message)
 - [questionLib.GetQuestions](function.questionLib.GetQuestions)
 - [questionLib.SendData](function.questionLib.SendData)

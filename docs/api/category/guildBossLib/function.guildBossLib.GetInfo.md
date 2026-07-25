@@ -2,15 +2,19 @@
 Возвращает сводную информацию о боссе гильдии.
 
 ## Описание
+
 ```lua
 guildBossLib.GetInfo(): table | nil
 ```
+
 Функция возвращает таблицу со сводной информацией о боссе гильдии или `nil`.
 
 ## Список параметров
+
 Параметры отсутствуют.
 
 ## Возвращаемые значения
+
 Возвращает таблицу (`table`) или `nil`.
 
 - **`experience`** (`number`) - Накопленный опыт босса гильдии.
@@ -28,6 +32,7 @@ guildBossLib.GetInfo(): table | nil
   - **`availableAbilitySlots`** (`table` | `nil`) - Список доступных слотов способностей босса гильдии (строки, соответствующие перечислению `ENUM_GuildBossAbilitySlot`).
 
 ## Примеры
+
 ### Получение информации о боссе гильдии
 ```lua
 local guildBossInfo = guildBossLib.IsExist() and guildBossLib.GetInfo()

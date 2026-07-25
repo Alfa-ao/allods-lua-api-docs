@@ -2,9 +2,11 @@
 Инициирует выполнение действия интерактивного устройства на заданную точку местности.
 
 ## Описание
+
 ```lua
 avatar.RunUsableDeviceActionPoint( index: number, pos: GamePosition )
 ```
+
 Функция отправляет запрос на выполнение указанного действия интерактивного устройства относительно заданной точки местности. Перечень доступных действий для текущего устройства извлекается посредством вызова функции `avatar.GetUsableDeviceInfo`.
 
 ::: warning Замечание
@@ -12,6 +14,7 @@ avatar.RunUsableDeviceActionPoint( index: number, pos: GamePosition )
 :::
 
 ## Список параметров
+
 - **`index`** (`number`)
 Индекс выполняемого действия из списка доступных действий устройства.
 
@@ -19,9 +22,11 @@ avatar.RunUsableDeviceActionPoint( index: number, pos: GamePosition )
 Координаты точки местности, к которой применяется выбранное действие.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Выполнение действия устройства по координатам
 ```lua
 local deviceInfo = avatar.GetUsableDeviceInfo()
@@ -31,9 +36,11 @@ if deviceInfo and deviceInfo.actionsCount > 0 then
     avatar.RunUsableDeviceActionPoint( actionIndex, targetPos )
 end
 ```
+
 ::: info Описание примера
 В примере сначала извлекается информация об интерактивном устройстве с помощью `avatar.GetUsableDeviceInfo`. Если устройство доступно и имеет хотя бы одно действие, инициализируются переменные индекса действия и целевых координат. Затем вызывается `avatar.RunUsableDeviceActionPoint` для выполнения нулевого действия по заданным координатам.
 :::
 
 ## Смотрите также
+
 - [GamePosition](classes.GamePosition)

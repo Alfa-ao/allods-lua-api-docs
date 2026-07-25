@@ -2,6 +2,7 @@
 Задает атрибуты указанного тега в строке редактирования.
 
 ## Описание
+
 ```lua
 EditLineSafe:SetTextAttributes( isRTag: boolean, tagName: WString, tagAttributes: table )
 ```

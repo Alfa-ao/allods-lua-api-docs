@@ -2,12 +2,15 @@
 Удаляет назначенную горячую клавишу из пользовательских настроек управления.
 
 ## Описание
+
 ```lua
 binding.RemoveBind( sysSectionName: string, sysBindName: string, index: number )
 ```
+
 Функция удаляет привязку горячей клавиши для указанного индекса в заданной секции настроек и для конкретной игровой реакции.
 
 ## Список параметров
+
 - **`sysSectionName`** (`string`)
 Идентификатор секции настроек.
 - **`sysBindName`** (`string`)
@@ -16,9 +19,11 @@ binding.RemoveBind( sysSectionName: string, sysBindName: string, index: number )
 Индекс горячей клавиши для данного бинда.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Удаление первой привязанной клавиши
 ```lua
 binding.RemoveBind( sysSectionName, sysBindName, 0 )

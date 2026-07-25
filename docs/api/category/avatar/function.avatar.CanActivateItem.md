@@ -2,9 +2,11 @@
 Проверяет возможность активации предмета указанным инструментом-активатором.
 
 ## Описание
+
 ```lua
 avatar.CanActivateItem( itemId: ObjectId, instrumentId: ObjectId )
 ```
+
 Функция определяет, разрешена ли активация предмета с заданным идентификатором с помощью указанного инструмента-активатора. Неактивированные предметы могут появляться в результате крафта и требуют применения специальных активаторов для дальнейшего использования.
 
 ::: tip Совет
@@ -12,15 +14,18 @@ avatar.CanActivateItem( itemId: ObjectId, instrumentId: ObjectId )
 :::
 
 ## Список параметров
+
 - **`itemId`** (`ObjectId`)
 Идентификатор предмета, который планируется активировать.
 - **`instrumentId`** (`ObjectId`)
 Идентификатор инструмента-активатора, применяемого для активации предмета.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Проверка возможности активации предмета
 ```lua
 local itemId = 12345
@@ -30,5 +35,6 @@ avatar.CanActivateItem( itemId, instrumentId )
 ```
 
 ## Смотрите также
+
 - [avatar.ActivateItem](function.avatar.ActivateItem)
 - [itemLib.GetActivationInfo](function.itemLib.GetActivationInfo)

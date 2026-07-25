@@ -2,9 +2,11 @@
 Создает и возвращает новый экземпляр `ValuedText`.
 
 ## Описание
+
 ```lua
 common.CreateValuedText( textValues: ?table ): ValuedText
 ```
+
 Функция инициализирует новый объект `ValuedText` и возвращает ссылку на него. Если передана таблица `textValues`, она используется для первоначального заполнения текстовых значений через метод `SetTextValues`. Поскольку `ValuedText` является `userdata`, Lua работает с ним по ссылке, а не по значению.
 
 ::: warning Замечание
@@ -12,13 +14,16 @@ common.CreateValuedText( textValues: ?table ): ValuedText
 :::
 
 ## Список параметров
+
 - **`textValues`** (`table` | `nil`)
 Таблица со значениями для заполнения. Если параметр задан, его содержимое будет использовано для заполнения нового `ValuedText` через `SetTextValues`. Если передан `nil` или параметр отсутствует, создается пустой экземпляр.
 
 ## Возвращаемые значения
-Возвращает `ValuedText` — новый экземпляр `ValuedText`.
+
+Возвращает `ValuedText` - новый экземпляр `ValuedText`.
 
 ## Примеры
+
 ### Создание пустого экземпляра
 ```lua
 local valuedText = common.CreateValuedText()

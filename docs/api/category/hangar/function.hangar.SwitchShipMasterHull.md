@@ -2,18 +2,23 @@
 Меняет корпус активному кораблю главного игрока на заданный.
 
 ## Описание
+
 ```lua
 hangar.SwitchShipMasterHull( hullId: VisualShipId )
 ```
+
 Функция меняет корпус активному кораблю главного игрока на заданный. Корпус должен присутствовать в списке, возвращаемом `hangar.GetAvailableHulls()`.
 
 ## Список параметров
+
 - **`hullId`** (`VisualShipId`) - Идентификатор корпуса корабля.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Смена корпуса активного корабля
 ```lua
 local hulls = hangar.GetAvailableHulls()
@@ -27,6 +32,7 @@ end
 :::
 
 ## Смотрите также
+
 - [hangar.GetActiveShip](function.hangar.GetActiveShip)
 - [hangar.GetActiveShipHull](function.hangar.GetActiveShipHull)
 - [hangar.GetAvailableHulls](function.hangar.GetAvailableHulls)

@@ -2,18 +2,23 @@
 Определяет возможность приближения камеры к лицу при выборе или создании персонажа.
 
 ## Описание
+
 ```lua
 remortCreation.IsZoomEnabled(): boolean
 ```
+
 Функция возвращает состояние доступности приближения камеры к лицу персонажа. В данном состоянии также допускается изменение масштаба колесом мыши. При изменении состояния передается событие `EVENT_REMORT_ZOOM_TRIGGER_CHANGED`.
 
 ## Список параметров
+
 Параметры отсутствуют.
 
 ## Возвращаемые значения
+
 Возвращает `boolean` - `true`, если можно приблизить камеру к лицу.
 
 ## Примеры
+
 ### Проверка и переключение масштаба
 ```lua
 if remortCreation.IsZoomEnabled() and not remortCreation.IsZoomOnFace() then
@@ -26,6 +31,7 @@ end
 :::
 
 ## Смотрите также
+
 - [EVENT_REMORT_ZOOM_TRIGGER_CHANGED](events.remort#event-remort-zoom-trigger-changed)
 - [remortCreation.IsZoomOnFace](function.remortCreation.IsZoomOnFace)
 - [remortCreation.ToggleZoom](function.remortCreation.ToggleZoom)

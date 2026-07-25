@@ -2,18 +2,22 @@
 Извлекает и возвращает список глобальных координат объектов, помеченных заданным маркером на интерфейсной карте.
 
 ## Описание
+
 ```lua
 cartographer.GetMapMarkerObjects( zonesMapId: ObjectId, markerId: InterfaceMapMarkerId ): table
 ```
+
 Функция формирует и возвращает индексированный с нуля список таблиц, содержащих описания объектов на карте. Каждая вложенная таблица включает глобальные координаты объекта и, при наличии полученных данных, информацию о геодате соответствующей зоны.
 
 ## Список параметров
+
 - **`zonesMapId`** (`ObjectId`)
 Идентификатор интерфейсной карты.
 - **`markerId`** (`InterfaceMapMarkerId`)
 Идентификатор ресурса маркера.
 
 ## Возвращаемые значения
+
 Возвращает таблицу (`table`), содержащую вложенные таблицы с описаниями объектов. Индексация элементов начинается с нуля.
 
 Структура вложенной таблицы:
@@ -29,6 +33,7 @@ cartographer.GetMapMarkerObjects( zonesMapId: ObjectId, markerId: InterfaceMapMa
 - `height` (`number`) - Размер зоны по оси Y в мировых единицах, охватываемой картой.
 
 ## Примеры
+
 ### Перебор всех маркеров и получение их объектов
 ```lua
 local markers = cartographer.GetMapMarkers( zonesMapId )
@@ -37,10 +42,12 @@ for i, markerId in pairs( markers ) do
     local markerObjects = cartographer.GetMapMarkerObjects( zonesMapId, markerId )
 end
 ```
+
 ::: info Описание примера
 В примере сначала извлекается список всех маркеров на интерфейсной карте с помощью `cartographer.GetMapMarkers`. Затем в цикле перебирается каждый идентификатор маркера. Для каждого маркера запрашивается подробная информация через `cartographer.GetMarkerInfo` и извлекается список привязанных объектов с помощью `cartographer.GetMapMarkerObjects`.
 :::
 
 ## Смотрите также
+
 - [cartographer.GetMapMarkers](function.cartographer.GetMapMarkers)
 - [cartographer.GetMarkerInfo](function.cartographer.GetMarkerInfo)

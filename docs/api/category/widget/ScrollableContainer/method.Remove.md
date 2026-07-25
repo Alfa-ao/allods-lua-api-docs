@@ -2,6 +2,7 @@
 Удаляет указанный элемент из контейнера по переданному виджету.
 
 ## Описание
+
 ```lua
 ScrollableContainerSafe:Remove( widget: WidgetSafe )
 ```
@@ -12,12 +13,15 @@ ScrollableContainerSafe:Remove( widget: WidgetSafe )
 :::
 
 ## Список параметров
+
 - **`widget`** (`WidgetSafe`) - Удаляемый элемент.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Удаление элемента из контейнера
 ```lua
 wtScrollableContainer:Remove( wtButton )

@@ -2,9 +2,11 @@
 Возвращает список идентификаторов устройств для кастомизации определённого слота корабля, имеющихся в ангаре.
 
 ## Описание
+
 ```lua
 hangar.GetCustomizationSlotDevices( slotId: ObjectId ): table
 ```
+
 Функция возвращает индексированный с 1 список идентификаторов устройств, находящихся в ангаре и предназначенных для кастомизации указанного слота корабля.
 
 ::: warning Замечание
@@ -12,12 +14,15 @@ hangar.GetCustomizationSlotDevices( slotId: ObjectId ): table
 :::
 
 ## Список параметров
+
 - **`slotId`** (`ObjectId`) - Идентификатор слота для кастомизации.
 
 ## Возвращаемые значения
+
 Возвращает `table` - индексированный с 1 список идентификаторов устройств, находящихся в ангаре.
 
 ## Примеры
+
 ### Получение устройств кастомизации для всех доступных слотов
 ```lua
 if hangar.CanCustomize() then
@@ -35,6 +40,7 @@ end
 :::
 
 ## Смотрите также
+
 - [hangar.CanCustomize](function.hangar.CanCustomize)
 - [hangar.GetCustomizationSlots](function.hangar.GetCustomizationSlots)
 - [hangar.GetDeviceInfo](function.hangar.GetDeviceInfo)

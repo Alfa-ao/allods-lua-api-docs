@@ -2,9 +2,11 @@
 Задает значение для подстановки класса из тега "rs" для элемента ButtonSafe.
 
 ## Описание
+
 ```lua
 ButtonSafe:SetClassVal( tag: string|WString, value: string|WString )
 ```
+
 Функция устанавливает значение для подстановки класса, определенного тегом "rs", для указанного элемента ButtonSafe.
 
 ::: warning Замечание
@@ -12,15 +14,18 @@ ButtonSafe:SetClassVal( tag: string|WString, value: string|WString )
 :::
 
 ## Список параметров
+
 - **`tag`** (`string` | `WString`)
 Тег, для которого задается значение.
 - **`value`** (`string` | `WString`)
 Значение тега.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Установка значения тега для элемента ButtonSafe
 ```lua
 wtButton:SetClassVal( "button_style", "button_red" )

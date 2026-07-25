@@ -2,9 +2,11 @@
 Подписывает обработчик аддона на указанное системное событие.
 
 ## Описание
+
 ```lua
 common.RegisterEventHandler( eventFunction: function, sysEventName: string, filter: ?table, registerPersonal: ?boolean )
 ```
+
 Функция регистрирует обработчик аддона для подписки на указанное системное событие. На одно событие допускается регистрация нескольких обработчиков. Функция-обработчик обязана соответствовать установленному шаблону.
 
 Обработчику может быть сопоставлена таблица `filter`. Когда системное событие приходит, и обработка доходит до данного зарегистрированного обработчика, выполняется проверка: в пришедшем событии должны иметься точно такие же поля с точно такими же значениями, что и в фильтре. Только при соблюдении этого условия управление передается обработчику.
@@ -19,6 +21,7 @@ common.RegisterEventHandler( eventFunction: function, sysEventName: string, filt
 Функция имеет обратный метод `common.UnRegisterEventHandler()`. Для отказа от обработчика сообщения необходимо передать параметры, идентичные тем, что использовались при регистрации.
 
 ## Список параметров
+
 - **`eventFunction`** (`function`)
 Функция-обработчик события. Обязана соответствовать установленному шаблону обработчика.
 - **`sysEventName`** (`string`)
@@ -31,9 +34,11 @@ common.RegisterEventHandler( eventFunction: function, sysEventName: string, filt
 Флаг автоматической активации персональных событий (`personalEvents`), если это применимо для данного события. По умолчанию принимает значение `true`.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Базовая регистрация обработчика события
 ```lua
 function OnEventSample( params )
@@ -42,6 +47,7 @@ end
 
 common.RegisterEventHandler( OnEventSample, "EVENT_SAMPLE" )
 ```
+
 ::: info Описание примера
 В примере определяется функция-обработчик `OnEventSample`, которая затем регистрируется для подписки на событие `EVENT_SAMPLE` без использования дополнительных фильтров. Обработчик будет срабатывать при каждом приходе данного события.
 :::
@@ -54,6 +60,7 @@ end
 
 common.RegisterEventHandler( OnEventSampleMainPlayer, "EVENT_SAMPLE", { unitId = avatar.GetId() } )
 ```
+
 ::: info Описание примера
 В примере функция `OnEventSampleMainPlayer` регистрируется для события `EVENT_SAMPLE` с применением таблицы фильтрации. Обработчик сработает только в том случае, если в пришедшем событии поле `unitId` будет строго равно идентификатору главного игрока, полученному через `avatar.GetId()`.
 :::
@@ -75,6 +82,7 @@ common.RegisterEventHandler( OnSampleEvent, "EVENT_SAMPLE" )
 ```
 
 ## Смотрите также
+
 - [common.UnRegisterEventHandler](common.UnRegisterEventHandler)
 - [common.EnablePersonalEvent](common.EnablePersonalEvent)
 - [avatar.GetId](avatar.GetId)

@@ -46,5 +46,6 @@ local members = group.GetMembers()
 ```
 
 ## Смотрите также
+
 - [GROUP_MEMBER_STATE_...](enums.group#group_member_state)
 - [group.GetMemberInfo](function.group.GetMemberInfo)

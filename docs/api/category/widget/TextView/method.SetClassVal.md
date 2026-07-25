@@ -2,9 +2,11 @@
 Задает значение для подстановки класса (из тега `rs`) для данного `TextViewSafe`.
 
 ## Описание
+
 ```lua
 TextViewSafe:SetClassVal( tag: string|WString, value: string|WString )
 ```
+
 Функция задает значение для подстановки класса (из тега `rs`) для данного `TextViewSafe`.
 
 ::: warning Замечание
@@ -12,13 +14,16 @@ TextViewSafe:SetClassVal( tag: string|WString, value: string|WString )
 :::
 
 ## Список параметров
+
 - **`tag`** (`string` | `WString`) - Тег, для которого задается значение.
 - **`value`** (`string` | `WString`) - Значение тега.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Установка значения тега
 ```lua
 wtTextView:SetClassVal( "log_format", "log_red" )

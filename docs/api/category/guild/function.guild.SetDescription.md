@@ -2,6 +2,7 @@
 Изменяет описание гильдии.
 
 ## Описание
+
 ```lua
 guild.SetDescription( description: WString )
 ```
@@ -12,12 +13,15 @@ guild.SetDescription( description: WString )
 :::
 
 ## Список параметров
+
 - **`description`** (`WString`) - Описание гильдии.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Установка описания
 ```lua
 guild.SetDescription( description )

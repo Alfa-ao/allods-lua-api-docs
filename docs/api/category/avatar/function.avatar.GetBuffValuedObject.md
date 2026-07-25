@@ -2,9 +2,11 @@
 Возвращает новый экземпляр ValuedObject для указанного бафа.
 
 ## Описание
+
 ```lua
 avatar.GetBuffValuedObject( buffId: BuffId ): ValuedObject
 ```
+
 Функция создает и возвращает новый экземпляр `ValuedObject`, связанный с заданным бафом. 
 
 Возвращаемый объект содержит следующие характеристики:
@@ -18,18 +20,22 @@ avatar.GetBuffValuedObject( buffId: BuffId ): ValuedObject
 :::
 
 ## Список параметров
+
 - **`buffId`** (`BuffId`)
 Уникальный идентификатор ресурса бафа.
 
 ## Возвращаемые значения
-Возвращает `ValuedObject` — экземпляр объекта, описывающего баф.
+
+Возвращает `ValuedObject` - экземпляр объекта, описывающего баф.
 
 ## Примеры
+
 ### Получение объекта бафа
 ```lua
 local valuedObject = avatar.GetBuffValuedObject( buffId )
 ```
 
 ## Смотрите также
+
 - `ValuedObject`
 - `BuffId`

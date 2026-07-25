@@ -2,15 +2,19 @@
 Возвращает информацию о Доминионе.
 
 ## Описание
+
 ```lua
 mwar.GetLadderInfo()
 ```
+
 Функция возвращает информацию о Доминионе. Данные становятся доступными только после применения `mwar.ReplicateLadder`. При изменении состояния (начале или прекращении трансляции, обновлении данных) передается событие `EVENT_MWAR_LADDER_CHANGED`.
 
 ## Список параметров
+
 Параметры отсутствуют.
 
 ## Возвращаемые значения
+
 Возвращает `table` | `nil` - `nil`, если информация отсутствует, иначе таблица с полями:
 
 - **`auction`** (`table`) - Таблица с информацией об аукционе.
@@ -48,6 +52,7 @@ mwar.GetLadderInfo()
 - **`guilds`** (`table`) - Список идентификаторов гильдий (`ObjectId`).
 
 ## Смотрите также
+
 - [EVENT_MWAR_LADDER_CHANGED](events.mwar#event-mwar-ladder-changed)
 - [mwar.ReplicateLadder](function.mwar.ReplicateLadder)
 - [mwar.GetCommonInfo](function.mwar.GetCommonInfo)

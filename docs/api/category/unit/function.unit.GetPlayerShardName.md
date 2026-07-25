@@ -2,9 +2,11 @@
 Возвращает имя шарда игрока.
 
 ## Описание
+
 ```lua
 unit.GetPlayerShardName( unitId: ObjectId ): WString | nil
 ```
+
 Функция возвращает название шарда, на котором находится игрок с указанным идентификатором.
 
 ::: warning Замечание
@@ -12,12 +14,15 @@ unit.GetPlayerShardName( unitId: ObjectId ): WString | nil
 :::
 
 ## Список параметров
+
 - **`unitId`** (`ObjectId`) - Идентификатор игрока.
 
 ## Возвращаемые значения
+
 Возвращает `WString` | `nil` - Имя шарда игрока, или `nil`, если игрок не найден или передан идентификатор NPC или моба.
 
 ## Примеры
+
 ### Получение имени шарда игрока
 ```lua
 local shardName = unit.GetPlayerShardName( unitId )

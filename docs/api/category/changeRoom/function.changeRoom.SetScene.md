@@ -2,9 +2,11 @@
 Создает сцену для работы с персонажами в указанном трехмерном контроле.
 
 ## Описание
+
 ```lua
 changeRoom.SetScene( wtControl3D: Control3DSafe, sceneName: string )
 ```
+
 Функция создает сцену для работы с персонажами в заданном контроле. Выбор сцены осуществляется по имени из списка `characterScenes`, расположенного в файле `\Interface\System\CharacterScenes.(UICharacterScenes).xdb`. Каждая сцена содержит карту, а также точки расположения и углы поворота для персонажа и камеры. Реализация функции находится на стороне пользовательского интерфейса.
 
 ::: warning Замечание
@@ -12,15 +14,18 @@ changeRoom.SetScene( wtControl3D: Control3DSafe, sceneName: string )
 :::
 
 ## Список параметров
+
 - **`wtControl3D`** (`Control3DSafe`)
 Трехмерный контрол, для которого инициализируется сцена.
 - **`sceneName`** (`string`)
 Имя сцены, выбираемой из списка `characterScenes`.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Установка сцены для контрола
 ```lua
 changeRoom.SetScene( wtControl3D, "coolScene" )

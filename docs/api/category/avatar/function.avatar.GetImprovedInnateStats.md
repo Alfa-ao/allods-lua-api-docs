@@ -2,9 +2,11 @@
 Возвращает таблицу основных характеристик аватара с учётом намеченных к распределению пунктов.
 
 ## Описание
+
 ```lua
 avatar.GetImprovedInnateStats(): table | nil
 ```
+
 Функция извлекает основные характеристики аватара, суммируя уже распределённые и намеченные к распределению пункты. Корректное выполнение гарантировано только при условии, что `avatar.CanImproveInnateStats()` возвращает `true`.
 
 ::: warning Замечание
@@ -15,11 +17,13 @@ avatar.GetImprovedInnateStats(): table | nil
 Функция возвращает таблицу основных характеристик аватара с учётом намеченных к распределению пунктов или `nil`, если информация отсутствует.
 
 ## Возвращаемые значения
+
 Возвращает `table` или `nil`:
-- **`table`** — таблица, аналогичная возвращаемой функцией `avatar.GetInnateStats()`, содержащая характеристики с учётом намеченных к распределению пунктов.
-- **`nil`** — если информация о характеристиках отсутствует или функция `avatar.CanImproveInnateStats()` возвращает `false`.
+- **`table`** - таблица, аналогичная возвращаемой функцией `avatar.GetInnateStats()`, содержащая характеристики с учётом намеченных к распределению пунктов.
+- **`nil`** - если информация о характеристиках отсутствует или функция `avatar.CanImproveInnateStats()` возвращает `false`.
 
 ## Примеры
+
 ### Получение улучшенных характеристик аватара
 ```lua
 if avatar.CanImproveInnateStats() then
@@ -29,11 +33,13 @@ if avatar.CanImproveInnateStats() then
     end
 end
 ```
+
 ::: info Описание примера
 В примере сначала проверяется наличие доступных для распределения пунктов характеристик с помощью `avatar.CanImproveInnateStats()`. Если проверка успешна, вызывается `avatar.GetImprovedInnateStats()` для получения таблицы с актуальными значениями.
 :::
 
 ## Смотрите также
+
 - [avatar.GetInnateStats](avatar.GetInnateStats)
 - [avatar.CanImproveInnateStats](avatar.CanImproveInnateStats)
 - [avatar.ImproveInnateStat](avatar.ImproveInnateStat)

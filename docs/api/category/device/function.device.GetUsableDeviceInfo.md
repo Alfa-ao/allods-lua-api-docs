@@ -53,4 +53,5 @@ end
 :::
 
 ## Смотрите также
+
 - [device.GetUsableDeviceActionsInfo](function.device.GetUsableDeviceActionsInfo)

@@ -2,15 +2,19 @@
 Возвращает информацию о состоянии боевой цели режима Domination.
 
 ## Описание
+
 ```lua
 dominationLib.GetObjectiveInfo( id: ObjectId ): table|nil
 ```
+
 Функция извлекает и возвращает таблицу с информацией о состоянии указанной боевой цели режима Domination. Если цель не найдена или данные недоступны, функция возвращает `nil`.
 
 ## Список параметров
+
 - **`id`** (`ObjectId`) - Идентификатор цели.
 
 ## Возвращаемые значения
+
 Возвращает `table` или `nil`.
 
 Если информация успешно получена, возвращается таблица со следующими полями:
@@ -29,6 +33,7 @@ dominationLib.GetObjectiveInfo( id: ObjectId ): table|nil
 - **`timeToCapture`** (`number` (`int64`)) - Прогнозируемое время захвата в текущих условиях.
 
 ## Примеры
+
 ### Получение информации о первой доступной цели
 ```lua
 local objectives = dominationLib.GetObjectives()
@@ -36,11 +41,13 @@ if objectives then
     local objectiveInfo = dominationLib.GetObjectiveInfo( objectives[ 0 ] )
 end
 ```
+
 ::: info Описание примера
 В примере извлекается список всех доступных целей режима Domination. При наличии хотя бы одной цели выполняется запрос детальной информации о нулевом (первом) элементе списка.
 :::
 
 ## Смотрите также
+
 - [ENUM_DominationFightTeam](enums.domination#enum-dominationfightteam)
 - [ENUM_DominationAreaState](enums.domination#enum-dominationareastate)
 - [dominationLib.GetObjectives()](function.dominationLib.GetObjectives)

@@ -2,6 +2,7 @@
 ...
 
 ## Описание
+
 ```lua
 ButtonSafe:GetTextStyle()
 ```

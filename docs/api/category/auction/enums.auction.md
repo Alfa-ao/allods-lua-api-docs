@@ -107,6 +107,7 @@ common.RegisterEventHandler( OnAuctionUpdateResult, "EVENT_AUCTION_UPDATE_RESULT
 Обработка значений производится в зарегистрированном обработчике события `EVENT_AUCTION_PROPERTIES`.
 
 ### Примеры
+
 #### Обработка загрузки свойств аукциона
 
 ```lua
@@ -149,6 +150,7 @@ common.RegisterEventHandler( OnAuctionProperties, "EVENT_AUCTION_PROPERTIES" )
 Обработка значений производится в зарегистрированном обработчике события `EVENT_AUCTION_DISCARD_RESULT`.
 
 ### Примеры
+
 #### Обработка результата отмены лота
 
 ```lua
@@ -184,6 +186,7 @@ common.RegisterEventHandler( OnAuctionDiscardResult, "EVENT_AUCTION_DISCARD_RESU
 Значение извлекается из поля `participationStatus` таблицы, возвращаемой функцией `auction.GetAuctionInfo`.
 
 ### Примеры
+
 #### Проверка статуса участия
 
 ```lua
@@ -232,6 +235,7 @@ end
 Обработка значений производится в зарегистрированном обработчике события `EVENT_AUCTION_BID_RESULT`.
 
 ### Примеры
+
 #### Обработка результата ставки
 
 ```lua
@@ -274,6 +278,7 @@ common.RegisterEventHandler( OnAuctionBidResult, "EVENT_AUCTION_BID_RESULT" )
 Обработка значений производится в зарегистрированном обработчике события `EVENT_AUCTION_CREATION_RESULT`.
 
 ### Примеры
+
 #### Обработка результата создания лота
 
 ```lua

@@ -16,6 +16,7 @@ WidgetSafe:GetChildChecked( name: string, recursive: boolean|nil ): WidgetSafe
 ```
 Widgets::GetChildWidget: Widget [1146][WidgetPanel]: (<Addon_Name>)->mainForm.wt..., Resource: [Serialized] hasn't child with name: <name>
 ```
+
 :::
 
 Поиск может осуществляться только среди непосредственных потомков или рекурсивно по всей иерархии вложенности. Имя контрола обязано быть непустым.

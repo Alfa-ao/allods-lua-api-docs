@@ -2,15 +2,19 @@
 Возвращает текущее состояние крафтинга.
 
 ## Описание
+
 ```lua
 craft.DiceCraftState(): table|nil
 ```
+
 Функция возвращает таблицу с параметрами состояния крафтинга или `nil`, если режим крафтинга не включён.
 
 ## Список параметров
+
 Параметры отсутствуют.
 
 ## Возвращаемые значения
+
 Возвращает `table` или `nil`.
 
 - **`maxLockedDices`** (`number`) - Максимально допустимое количество залоченых костей для одного переброса.
@@ -41,6 +45,7 @@ end
 :::
 
 ## Смотрите также
+
 - [craft.DiceCraftPutItem](function.craft.DiceCraftPutItem)
 - [craft.DiceCraftEmptySlot](function.craft.DiceCraftEmptySlot)
 - [craft.DiceCraftLockSlot](function.craft.DiceCraftLockSlot)

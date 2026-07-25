@@ -2,9 +2,11 @@
 Возвращает текущий рейтинг экипировки персонажа.
 
 ## Описание
+
 ```lua
 unit.GetGearScore( unitId: ObjectId ): number
 ```
+
 Функция извлекает и возвращает числовое значение, представляющее собой текущий рейтинг экипировки указанного юнита.
 
 ::: warning Замечание
@@ -12,16 +14,20 @@ unit.GetGearScore( unitId: ObjectId ): number
 :::
 
 ## Список параметров
+
 - **`unitId`** (`ObjectId`) - Идентификатор юнита.
 
 ## Возвращаемые значения
+
 Возвращает `number` - Рейтинг экипировки.
 
 ## Примеры
+
 ### Получение рейтинга экипировки
 ```lua
 local gearScore = unit.GetGearScore( unitId )
 ```
 
 ## Смотрите также
+
 - [avatar.IsInspectAllowed](../avatar/function.avatar.IsInspectAllowed)

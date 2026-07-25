@@ -2,9 +2,11 @@
 Дублирует метапредмет-улучшитель с использованием предмета-инструмента.
 
 ## Описание
+
 ```lua
 avatar.DuplicateMetaEnhancerItem( itemId: ObjectId, instrumentId: ObjectId )
 ```
+
 Функция инициирует процесс копирования метапредмета-улучшителя. В качестве инструмента для дублирования выступает предмет-дубликатор. Возвращаемое значение отсутствует.
 
 ::: warning Замечание
@@ -12,25 +14,30 @@ avatar.DuplicateMetaEnhancerItem( itemId: ObjectId, instrumentId: ObjectId )
 :::
 
 ## Список параметров
+
 - **`itemId`** (`ObjectId`)
 Идентификатор конвертируемого метапредмета в контейнере. Предмет обязан быть метапредметом-улучшителем. Проверка осуществляется через флаг `isMetaEnchancer` в таблице, возвращаемой функцией `avatar.GetItemMetaInfo`.
 - **`instrumentId`** (`ObjectId`)
 Идентификатор предмета-инструмента в контейнере. Предмет обязан быть специализированным предметом-дубликатором. Проверка осуществляется функцией `avatar.IsMetaEnhancerDuplicator`.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Проверка инструмента и дублирование метапредмета
 ```lua
 if avatar.IsMetaEnhancerDuplicator( instrumentId ) then
     avatar.DuplicateMetaEnhancerItem( itemId, instrumentId )
 end
 ```
+
 ::: info Описание примера
 Перед вызовом функции дублирования выполняется проверка того, является ли предмет с идентификатором `instrumentId` специализированным предметом-дубликатором. Если проверка успешна, инициируется процесс копирования метапредмета-улучшителя.
 :::
 
 ## Смотрите также
+
 - [avatar.IsMetaEnhancerDuplicator](function.avatar.IsMetaEnhancerDuplicator)
 - [avatar.GetItemMetaInfo](function.avatar.GetItemMetaInfo)

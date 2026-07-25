@@ -2,9 +2,11 @@
 Отображает маунта главного игрока в указанном 3D-контроле.
 
 ## Описание
+
 ```lua
 mission.SetMountScene( index: number, wtCharacterControl3D: Control3DSafe, mountSkinId: ObjectId )
 ```
+
 Функция отображает маунта главного игрока в заданном 3D-контроле.
 
 ## Список параметров
@@ -16,9 +18,11 @@ mission.SetMountScene( index: number, wtCharacterControl3D: Control3DSafe, mount
 - **`mountSkinId`** (`ObjectId`) - идентификатор отображаемого скина маунта главного игрока.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Отображение маунта и настройка сцены
 ```lua
 mission.SetMountScene( 0, wtCharacterView, mountSkinId )
@@ -31,5 +35,6 @@ mission.SetCharacterSceneSmoothRotation( 0, false )
 :::
 
 ## Смотрите также
+
 - [mission.SetCharacterScene](function.mission.SetCharacterScene)
 - [mission.SetCharacterSceneSmoothRotation](function.mission.SetCharacterSceneSmoothRotation)

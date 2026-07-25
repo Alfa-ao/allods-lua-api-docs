@@ -15,6 +15,7 @@ itemLib.GetBonus( itemId: ObjectId ): table | nil
 Уникальный идентификатор предмета, информацию о бонусах которого необходимо получить.
 
 ## Возвращаемые значения
+
 Возвращает таблицу (`table`) с информацией о бонусах предмета или `nil` в случае возникновения ошибок.
 
 Структура возвращаемой таблицы:
@@ -54,6 +55,7 @@ itemLib.GetBonus( itemId: ObjectId ): table | nil
 - `enchants` (`number`) - Величина изменения от чар (энчантов), вставленных в надетые на персонажа предметы.
 
 ## Примеры
+
 ### Получение эффективного значения могущества от предмета
 ```lua
 local bonus = itemLib.GetBonus( itemId )
@@ -63,6 +65,7 @@ end
 ```
 
 ## Смотрите также
+
 - [avatar.GetInnateStats](../avatar/function.avatar.GetInnateStats)
 - [avatar.GetResistances](../avatar/function.avatar.GetResistances)
 - [ENUM_SpecialStatType](../constants#enum-specialstattype)

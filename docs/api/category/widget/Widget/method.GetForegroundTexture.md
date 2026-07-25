@@ -2,9 +2,11 @@
 Возвращает текстуру для переднего слоя.
 
 ## Описание
+
 ```lua
 WidgetSafe:GetForegroundTexture(): TextureId | nil
 ```
+
 Функция возвращает текстуру для переднего слоя, а в случае отсутствия текстуры, слоя и для анимированных слоев возвращает `nil`.
 
 ## Список параметров
@@ -25,5 +27,6 @@ LogInfo( "Front layer texture info:", frontLayerTexture and common.GetTextureInf
 ```
 
 ## Смотрите также
+
 - [WidgetSafe:HasForeground](method.HasForeground)
 - [common.GetTextureInfo](../../common/function.common.GetTextureInfo)

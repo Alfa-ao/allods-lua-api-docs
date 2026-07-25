@@ -32,5 +32,6 @@ local questReward = firstGuildQuest and guildBossLib.GetQuestReward( firstGuildQ
 :::
 
 ## Смотрите также
+
 - [avatar.GetQuestReward](../avatar/function.avatar.GetQuestReward)
 - [guildBossLib.GetQuests](function.guildBossLib.GetQuests)

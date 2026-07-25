@@ -2,15 +2,19 @@
 Возвращает содержимое обучения и данные, необходимые для его отображения.
 
 ## Описание
+
 ```lua
 tutorialLib.GetTutorialContent( id: TutorialId ): table | nil
 ```
+
 Функция извлекает и возвращает содержимое обучения и данные, необходимые для его отображения.
 
 ## Список параметров
+
 - **`id`** (`TutorialId` (`ResourceId`)) - Идентификатор обучения.
 
 ## Возвращаемые значения
+
 Возвращает `table` | `nil` - таблицу с данными обучения или `nil`.
 
 - **`name`** (`WString` | `nil`) - Отображаемое название обучения.
@@ -32,10 +36,12 @@ tutorialLib.GetTutorialContent( id: TutorialId ): table | nil
     - `target` (`string`) - Системное имя целевого виджета для всплывающего сообщения.
 
 ## Примеры
+
 ### Получение содержимого обучения
 ```lua
 local testTutorialContent = tutorialLib.GetTutorialContent( tutorialLib.GetTutorialBySysName( "test" ) )
 ```
 
 ## Смотрите также
+
 - [tutorialLib.GetTutorialBySysName](function.tutorialLib.GetTutorialBySysName)

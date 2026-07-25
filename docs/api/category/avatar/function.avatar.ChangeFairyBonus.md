@@ -2,6 +2,7 @@
 Привязывает бонус от покровителя к заданной характеристике.
 
 ## Описание
+
 ```lua
 avatar.ChangeFairyBonus( statIndex: number )
 ```
@@ -12,13 +13,16 @@ avatar.ChangeFairyBonus( statIndex: number )
 :::
 
 ## Список параметров
+
 - **`statIndex`** (`number`)
 Индекс характеристики из таблицы `fairyBonus.allowedStats`, к которой необходимо привязать бонус.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Привязка бонуса к первой доступной характеристике
 ```lua
 local allowedStats = avatar.GetStatsBonusesPart().fairyBonus.allowedStats

@@ -15,6 +15,7 @@ avatar.RejectTargetSale( saleId: ObjectId )
 Уникальный идентификатор предложения таргетной продажи, которое необходимо отклонить.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
@@ -33,4 +34,5 @@ end
 :::
 
 ## Смотрите также
+
 - [avatar.GetTargetSales](function.avatar.GetTargetSales)

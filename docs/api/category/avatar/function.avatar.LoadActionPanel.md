@@ -2,9 +2,11 @@
 Устанавливает состояние панели действий для заданного класса и билда.
 
 ## Описание
+
 ```lua
 avatar.LoadActionPanel( sysClass: SpellId, buildIndex: number, data: string|table )
 ```
+
 Функция устанавливает состояние панели действий для заданного класса и билда. Номера билдов 0-2 соответствуют 1-3 грани талантов, номера билдов 3-9 ничему не соответствуют, но хранятся на сервере и могут быть загружены или выгружены.
 
 ::: warning Замечание
@@ -16,6 +18,7 @@ avatar.LoadActionPanel( sysClass: SpellId, buildIndex: number, data: string|tabl
 :::
 
 ## Список параметров
+
 - **`sysClass`** (`SpellId`)
 Системное имя класса.
 
@@ -26,9 +29,11 @@ avatar.LoadActionPanel( sysClass: SpellId, buildIndex: number, data: string|tabl
 Данные о раскладке, полученные из функции `avatar.SaveActionPanel`. Модификация данных не допускается, так как присутствует контрольная сумма.
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Загрузка и перенос раскладки между билдами
 ```lua
 local currentClass = avatar.GetClass()
@@ -36,10 +41,12 @@ local sourceData = avatar.SaveActionPanel( currentClass, 0 )
 
 avatar.LoadActionPanel( currentClass, 4, sourceData )
 ```
+
 ::: info Описание примера
 В примере сначала получается системное имя текущего класса персонажа. Затем извлекаются данные раскладки из билда с индексом `0` с помощью функции `avatar.SaveActionPanel`. После этого полученные данные устанавливаются в качестве состояния для билда с индексом `4` через функцию `avatar.LoadActionPanel`.
 :::
 
 ## Смотрите также
+
 - [avatar.SaveActionPanel](function.avatar.SaveActionPanel)
 - [avatar.GetClass](function.avatar.GetClass)

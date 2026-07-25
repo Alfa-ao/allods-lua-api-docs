@@ -2,15 +2,19 @@
 Извлекает информацию о достижении.
 
 ## Описание
+
 ```lua
 medalsLib.GetMedalInfo( id: ObjectId ): table|nil
 ```
+
 Функция возвращает таблицу с информацией о достижении. Если достижение не найдено, возвращается `nil`.
 
 ## Список параметров
+
 - **`id`** (`ObjectId`) - Идентификатор достижения.
 
 ## Возвращаемые значения
+
 Возвращает `table` | `nil` - таблица с информацией о достижении, содержащая следующие поля:
 - **`id`** (`ObjectId`) - Идентификатор достижения.
 
@@ -41,6 +45,7 @@ medalsLib.GetMedalInfo( id: ObjectId ): table|nil
         - **`success`** (`boolean`) - `true`, если условие выполнено.
 
 ## Примеры
+
 ### Получение информации о первом достижении
 ```lua
 local medals = medalsLib.GetMedals()
@@ -48,11 +53,13 @@ if medals then
     local medalInfo = medalsLib.GetMedalInfo( medals[0] )
 end
 ```
+
 ::: info Описание примера
 В примере запрашивается список всех достижений. Если список не пуст, извлекается информация о первом достижении по его идентификатору.
 :::
 
 ## Смотрите также
+
 - [medalsLib.GetMedals](function.medalsLib.GetMedals)
 - [medalsLib.GetCategories](function.medalsLib.GetCategories)
 - [DRESS_SLOT](dsfsf)

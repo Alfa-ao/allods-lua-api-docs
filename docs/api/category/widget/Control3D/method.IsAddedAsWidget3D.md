@@ -11,9 +11,11 @@ Control3DSafe:IsAddedAsWidget3D( widget: WidgetSafe ): boolean
 Функция проверяет, добавлен ли указанный виджет в качестве Widget3D в данный Control3DSafe.
 
 ## Список параметров
+
 - **`widget`** (`WidgetSafe`) - Проверяемый виджет.
 
 ## Возвращаемые значения
+
 Возвращает `boolean` - `true`, если данный виджет добавлен как Widget3D к этому Control3DSafe, и `false` в противном случае.
 
 ## Примеры
@@ -31,4 +33,5 @@ end
 :::
 
 ## Смотрите также
+
 - [RemoveWidget3D](sdfgdsfg)

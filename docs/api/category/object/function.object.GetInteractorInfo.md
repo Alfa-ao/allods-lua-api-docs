@@ -2,9 +2,11 @@
 Возвращает информацию о взаимодействиях с объектом, доступных главному игроку.
 
 ## Описание
+
 ```lua
 object.GetInteractorInfo( objectId: ObjectId ): table | nil
 ```
+
 Функция извлекает и возвращает структуру данных, содержащую сведения о доступных взаимодействиях с указанным объектом (НПС или устройством). Для получения детальной информации в процессе диалога используется функция `avatar.GetInteractorInfo`. Если объект является квестодателем, список предлагаемых заданий извлекается функцией `object.GetInteractorQuests`.
 
 ::: info Перечисление
@@ -26,9 +28,11 @@ object.GetInteractorInfo( objectId: ObjectId ): table | nil
 :::
 
 ## Список параметров
+
 - **`objectId`** (`ObjectId`) - Идентификатор объекта (НПС или устройство).
 
 ## Возвращаемые значения
+
 Возвращает `table` | `nil` - таблицу с информацией о взаимодействиях или `nil`, если произошла ошибка.
 
 - **`interactorId`** (`ObjectId`) - Идентификатор собеседника.
@@ -76,6 +80,7 @@ object.GetInteractorInfo( objectId: ObjectId ): table | nil
 - **`hasInteraction`** (`boolean`) - Итоговый результат, указывающий, есть ли у объекта какое-либо взаимодействие из вышеперечисленных.
 
 ## Примеры
+
 ### Получение информации о взаимодействии с целью
 ```lua
 local info = object.GetInteractorInfo( avatar.GetTarget() )
@@ -93,6 +98,7 @@ end
 :::
 
 ## Смотрите также
+
 - [avatar.GetInteractorInfo](../avatar/function.avatar.GetInteractorInfo)
 - [object.GetInteractorQuests](function.object.GetInteractorQuests)
 - [VENDOR_*](../constants#vendor)

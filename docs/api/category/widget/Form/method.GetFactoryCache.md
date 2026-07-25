@@ -2,9 +2,11 @@
 Возвращает специальный кэширующий виджет аддона.
 
 ## Описание
+
 ```lua
 FormSafe:GetFactoryCache(): FactoryCacheSafe
 ```
+
 Функция возвращает специальный кэширующий виджет аддона. Если данный виджет еще не существует в аддоне, он создается автоматически. Подробное описание кэширующего виджета представлено в разделе `FactoryCache`.
 
 ## Список параметров
@@ -16,10 +18,12 @@ FormSafe:GetFactoryCache(): FactoryCacheSafe
 Возвращает `FactoryCacheSafe` - кэширующий виджет.
 
 ## Примеры
+
 ### Получение кэширующего виджета
 ```lua
 local wtCache = mainForm:GetFactoryCache()
 ```
 
 ## Смотрите также
+
 - [FactoryCache](FactoryCache)

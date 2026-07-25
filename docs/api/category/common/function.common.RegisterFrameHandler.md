@@ -2,9 +2,11 @@
 Подписывает функцию-обработчик аддона на событие обновления кадра.
 
 ## Описание
+
 ```lua
 common.RegisterFrameHandler( handlerFunction: function, needHit: boolean )
 ```
+
 Функция регистрирует переданную функцию в качестве обработчика события кадра для текущего аддона. Каждый аддон может иметь только один активный обработчик кадра. Подписка на событие реализуется в двух режимах: безусловном вызове каждый кадр или условном вызове по флагу.
 
 ::: warning Замечание
@@ -16,6 +18,7 @@ common.RegisterFrameHandler( handlerFunction: function, needHit: boolean )
 :::
 
 ## Список параметров
+
 - **`handlerFunction`** (`function`)
 Функция-обработчик, соответствующая требуемому шаблону вызова.
 
@@ -23,9 +26,11 @@ common.RegisterFrameHandler( handlerFunction: function, needHit: boolean )
 Флаг, определяющий условие вызова обработчика. При значении `false` обработчик вызывается безусловно каждый кадр. При значении `true` обработчик вызывается только после взведения флага функцией `common.HitFrameHandler` (флаг автоматически сбрасывается при вызове обработчика; в некоторых специальных случаях это может отложить вызов на один кадр).
 
 ## Возвращаемые значения
+
 Возвращаемое значение отсутствует.
 
 ## Примеры
+
 ### Безусловная подписка на событие кадра
 ```lua
 function OnFrame( elapsedMs, timeMs )
@@ -49,5 +54,6 @@ common.RegisterFrameHandler( OnFrame, false )
 ```
 
 ## Смотрите также
+
 - [common.UnRegisterFrameHandler](common.UnRegisterFrameHandler)
 - [common.HitFrameHandler](common.HitFrameHandler)

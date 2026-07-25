@@ -2,9 +2,11 @@
 Возвращает группу связанных с состоянием текстовых ресурсов.
 
 ## Описание
+
 ```lua
 common.GetStateRelatedTextGroup( sysGroup: string|nil, optional: boolean|nil ): RelatedTextsLua|nil
 ```
+
 Функция извлекает и возвращает группу текстовых ресурсов, связанных с определенным состоянием. Возвращаемая группа представляет собой пользовательский тип данных `RelatedTextsLua`. Если искомая группа не найдена, функция возвращает `nil`, при этом отсутствие группы может считаться ошибкой в зависимости от значения параметра `optional`.
 
 ::: warning Замечание
@@ -12,6 +14,7 @@ common.GetStateRelatedTextGroup( sysGroup: string|nil, optional: boolean|nil ): 
 :::
 
 ## Список параметров
+
 - **`sysGroup`** (`string` | `nil`)
 Идентификатор группы текстовых ресурсов, связанной с состоянием.
 - **`optional`** (`boolean` | `nil`)
@@ -24,6 +27,7 @@ common.GetStateRelatedTextGroup( sysGroup: string|nil, optional: boolean|nil ): 
 Возвращается в случае, если группа не найдена (при условии, что параметр `optional` установлен в `true`).
 
 ## Примеры
+
 ### Безопасное получение группы текстовых ресурсов
 ```lua
 local textGroup = common.GetStateRelatedTextGroup( "MY_STATE_GROUP", true )
@@ -35,5 +39,6 @@ end
 ```
 
 ## Смотрите также
+
 - [RelatedTextsLua](../classes/RelatedTextsLua)
 - [common.GetAddonRelatedTextGroup](function.common.GetAddonRelatedTextGroup)
