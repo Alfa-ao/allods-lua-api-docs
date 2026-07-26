@@ -3,5 +3,4 @@ node_modules/*
 *.cmd
 exclude*
 *_doc.txt
-*.php
 out1.txt
