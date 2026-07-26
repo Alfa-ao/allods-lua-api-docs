@@ -66,8 +66,6 @@ class SidebarGenerator
         foreach ($iterator as $file) {
             $depth = $iterator->getDepth();
             $filename = $file->getFilename();
-            
-            /** @var \RecursiveIteratorIterator $iterator */
             $subPath = method_exists($iterator, 'getSubPath') ? $iterator->getSubPath() : '';
             
             $context = &$stack[$depth];
@@ -75,11 +73,11 @@ class SidebarGenerator
             if ($file->isDir()) {
                 $hasIndex = file_exists($file->getPathname() . '/index.md');
                 
-                $item = [
-                    'text' => $this->resolveText($filename),
-                    'collapsed' => true,
-                    'items' => []
-                ];
+                $item = [];
+                
+                $item['text'] = $this->resolveText($filename);
+                if ( $depth !== 0 ) $item['collapsed'] = true;
+                $item['items'] = [];
                 
                 if ($hasIndex) {
                     $linkPath = $subPath === '' ? $filename : $subPath . '/' . $filename;
