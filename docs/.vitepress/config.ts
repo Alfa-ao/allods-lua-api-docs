@@ -1,9 +1,19 @@
 import { defineConfig } from 'vitepress'
+import { resolve } from 'path'
 import sidebar from './../../sidebar.config'
 
 const base = '/allods-lua-api-docs/'
 
 export default defineConfig( {
+    vite: {
+        resolve: {
+            alias: { // vitepress генераторы Markdown не робят с этим:
+                '@': resolve(__dirname, '../../'),
+                '@api': resolve(__dirname, '../api/'),
+                '@category': resolve(__dirname, '../api/category/'),
+            }
+        }
+    },
     base,
     title: "Allods Online Lua API",
     description: "Современная документация по Lua API для игры Аллоды Онлайн",

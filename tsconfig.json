@@ -5,7 +5,12 @@
         "moduleResolution": "Bundler",
         "strict": true,
         "esModuleInterop": true,
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        "paths": { // vitepress генераторы Markdown не робят с этим:
+            "@/*": ["./*"],
+            "@api/*": ["./docs/api/*"],
+            "@category/*": ["./docs/api/category/*"],
+        }
     },
     "include": [
         "docs/.vitepress/**/*.ts", 
