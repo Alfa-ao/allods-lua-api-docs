@@ -1,7 +1,6 @@
 export default [
     {
         text: "Lua Api",
-        collapsed: true,
         items: [
             {
                 text: "Category",
@@ -5779,7 +5778,8 @@ export default [
                                 text: "IsEqual",
                                 link: "/api/category/ResourceId/method.IsEqual"
                             }
-                        ]
+                        ],
+                        link: "/api/category/ResourceId/index"
                     },
                     {
                         text: "Rules",
@@ -7497,6 +7497,17 @@ export default [
                 link: "/api/overview"
             },
             {
+                text: "Types",
+                collapsed: true,
+                items: [
+                    {
+                        text: "WString",
+                        link: "/api/types/WString"
+                    }
+                ],
+                link: "/api/types/index"
+            },
+            {
                 text: "Ui",
                 link: "/api/ui"
             }
@@ -7505,7 +7516,6 @@ export default [
     },
     {
         text: "Guides",
-        collapsed: true,
         items: [
             {
                 text: "Introduction",
