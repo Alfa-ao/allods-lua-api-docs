@@ -11,8 +11,7 @@ apitype( value: any ): string
 
 ## Список параметров
 
-- **`value`** (`any`)
-Любое значение, тип которого необходимо определить.
+- **`value`** (`any`) - Любое значение, тип которого необходимо определить.
 
 ## Возвращаемые значения
 
@@ -32,4 +31,4 @@ local valueType = apitype( unitId )
 
 ## Смотрите также
 
-- [avatar.GetId](avatar.GetId)
+- [avatar.GetId](/api/category/avatar/function.avatar.GetId.md)
