@@ -11,10 +11,6 @@ export default [
                         collapsed: true,
                         items: [
                             {
-                                text: "События (Events)",
-                                link: "/api/category/alchemy/events.alchemy"
-                            },
-                            {
                                 text: "CancelAlchemy",
                                 link: "/api/category/alchemy/function.avatar.CancelAlchemy"
                             },
@@ -190,18 +186,6 @@ export default [
                         text: "Auction",
                         collapsed: true,
                         items: [
-                            {
-                                text: "Константы (Consts)",
-                                link: "/api/category/auction/constants.auction"
-                            },
-                            {
-                                text: "Перечисления (Enums)",
-                                link: "/api/category/auction/enums.auction"
-                            },
-                            {
-                                text: "События (Events)",
-                                link: "/api/category/auction/events.auction"
-                            },
                             {
                                 text: "Bid",
                                 link: "/api/category/auction/function.auction.Bid"
@@ -6552,7 +6536,8 @@ export default [
                                 text: "GetType",
                                 link: "/api/category/ValuedObject/method.GetType"
                             }
-                        ]
+                        ],
+                        link: "/api/category/ValuedObject/index"
                     },
                     {
                         text: "ValuedText",
@@ -6598,7 +6583,8 @@ export default [
                                 text: "ToWString",
                                 link: "/api/category/ValuedText/method.ToWString"
                             }
-                        ]
+                        ],
+                        link: "/api/category/ValuedText/index"
                     },
                     {
                         text: "WheelOfLoot",
@@ -7458,7 +7444,8 @@ export default [
                                 text: "Truncate",
                                 link: "/api/category/WString/WString.Truncate"
                             }
-                        ]
+                        ],
+                        link: "/api/category/WString/index"
                     },
                     {
                         text: "__",
@@ -7489,30 +7476,70 @@ export default [
                 ]
             },
             {
-                text: "События (Events)",
-                link: "/api/events"
+                text: "Constants",
+                collapsed: true,
+                items: [
+                    {
+                        text: "AUCTION_",
+                        link: "/api/constants/constants.AUCTION_"
+                    },
+                    {
+                        text: "VAL_OBJ_TYPE_",
+                        link: "/api/constants/constants.VAL_OBJ_TYPE_"
+                    }
+                ]
             },
             {
-                text: "Overview",
-                link: "/api/overview"
+                text: "Enums",
+                collapsed: true,
+                items: [
+                    {
+                        text: "ENUM_Auction",
+                        link: "/api/enums/enums.ENUM_Auction"
+                    },
+                    {
+                        text: "ENUM_QuestCategory",
+                        link: "/api/enums/enums.ENUM_QuestCategory"
+                    }
+                ]
+            },
+            {
+                text: "Events",
+                collapsed: true,
+                items: [
+                    {
+                        text: "EVENT_ABILITIES_",
+                        link: "/api/events/events.EVENT_ABILITIES_"
+                    },
+                    {
+                        text: "EVENT_ACCOUNT_",
+                        link: "/api/events/events.EVENT_ACCOUNT_"
+                    },
+                    {
+                        text: "EVENT_ACTION_",
+                        link: "/api/events/events.EVENT_ACTION_"
+                    },
+                    {
+                        text: "EVENT_ALCHEMY_",
+                        link: "/api/events/events.EVENT_ALCHEMY_"
+                    },
+                    {
+                        text: "EVENT_AUCTION_",
+                        link: "/api/events/events.EVENT_AUCTION_"
+                    }
+                ]
             },
             {
                 text: "Types",
                 collapsed: true,
                 items: [
                     {
-                        text: "WString",
-                        link: "/api/types/WString"
+                        text: "LuaApi",
+                        link: "/api/types/LuaApi"
                     }
-                ],
-                link: "/api/types/index"
-            },
-            {
-                text: "Ui",
-                link: "/api/ui"
+                ]
             }
-        ],
-        link: "/api/index"
+        ]
     },
     {
         text: "Guides",
