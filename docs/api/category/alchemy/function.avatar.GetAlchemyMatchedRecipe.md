@@ -40,5 +40,5 @@ end
 ```
 
 ## Смотрите также:
-- [avatar.GetRecipeInfo](function.avatar.GetRecipeInfo)
-- [avatar.GetAlchemyInfo](function.avatar.GetAlchemyInfo)
+- [avatar.GetRecipeInfo](/api/category/avatar/function.avatar.GetRecipeInfo.md)
+- [avatar.GetAlchemyInfo](/api/category/alchemy/function.avatar.GetAlchemyInfo.md)

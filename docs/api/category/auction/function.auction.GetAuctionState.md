@@ -12,8 +12,7 @@ auction.GetAuctionState( id: ObjectId ): table|nil
 
 ## Список параметров
 
-- **`id`** (`ObjectId`)
-Уникальный идентификатор аукциона.
+- **`id`** (`ObjectId`) - Уникальный идентификатор аукциона.
 
 ## Возвращаемые значения
 
@@ -21,14 +20,11 @@ auction.GetAuctionState( id: ObjectId ): table|nil
 
 Если аукцион найден, возвращается таблица со следующими полями:
 
-- **`bidInProgress`** (`boolean`) 
-`true`, если ставка находится в процессе передачи.
+- **`bidInProgress`** (`boolean`) - `true`, если ставка находится в процессе передачи.
 
-- **`discardInProgress`** (`boolean`) 
-`true`, если процедура отмены аукциона находится в процессе.
+- **`discardInProgress`** (`boolean`) - `true`, если процедура отмены аукциона находится в процессе.
 
-- **`discarded`** (`boolean`) 
-`true`, если аукцион уже отменён.
+- **`discarded`** (`boolean`) - `true`, если аукцион уже отменён.
 
 ## Примеры
 

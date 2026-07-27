@@ -46,4 +46,4 @@ avatar.PutAlchemyItemToSlot( nil, targetSlot )
 
 ## Смотрите также
 
-- [EVENT_ALCHEMY_ITEM_PLACED](events.alchemy#event-alchemy-item-placed)
+- [EVENT_ALCHEMY_ITEM_PLACED](/api/events/events.EVENT_ALCHEMY_.md#event-alchemy-item-placed)

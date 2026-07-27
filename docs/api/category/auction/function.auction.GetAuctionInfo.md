@@ -14,7 +14,7 @@ auction.GetAuctionInfo( id: ObjectId ): table|nil
 Значение поля `participationStatus` в возвращаемой таблице представляет собой строку, соответствующую одному из предопределенных статусов участия `"ENUM_AuctionDescriptorParticipationStatus_..."`.
 :::
 
-Коды результата см. в [ENUM](enums.auction#enum_auctiondescriptorparticipationstatus).
+
 
 ## Список параметров
 
@@ -26,7 +26,9 @@ auction.GetAuctionInfo( id: ObjectId ): table|nil
 Возвращает таблицу (`table`):
 
 - **`id`** (`ObjectId`) - уникальный идентификатор аукциона.
+
 - **`itemId`** (`ObjectId`) - уникальный идентификатор предмета, выставленного на торги.
+
 - **`bidderName`** (`WString`) - имя игрока, сделавшего последнюю ставку.
 - **`currentBid`** (`number`) - размер последней ставки.
 - **`sellerName`** (`WString`) - имя владельца аукциона (продавца).
@@ -62,3 +64,8 @@ end
 
 Если информация успешно получена (аукцион существует), извлекается идентификатор предмета (`itemId`), который используется для получения полной информации о предмете через `avatar.GetItemInfo()`.
 :::
+
+## Смотрите также
+
+- [События (EVENT_AUCTION_*)](/api/events/events.EVENT_AUCTION_.md#event-auction-discard-result)
+- [ENUM_Auction](/api/enums/enums.ENUM_Auction.md)

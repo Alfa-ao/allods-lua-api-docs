@@ -23,8 +23,11 @@ avatar.GetAlchemyDrumInfo( drum: number ): table|nil
 - **`itemId`** (`ObjectId`) - Идентификатор предмета, помещенного в слот из инвентаря. Если предмет еще не помещен, поле равно `nil`.
 
 - **`maxCorrectionsPerColumn`** (`number`) - Максимально возможное количество доворотов барабана. Значение `-1` указывает на то, что параметр не определен (например, до начала реакции варки зелья).
+
 - **`position`** (`number`) - Смещение позиции барабана после выполнения функции `avatar.DoReaction()`. (HELP) avatar.DoReaction() ????
+
 - **`correction`** (`number`) - Величина коррекции барабана относительно первичной реакции. Значение `0` означает отсутствие коррекции.
+
 - **`components`** (`table`) - Массив идентификаторов (`ComponentId`) алхимических компонентов (см. `avatar.GetComponentInfo`). Массив пуст, пока предмет не помещен в слот.
 
 ## Примеры
@@ -41,4 +44,4 @@ end
 
 ## Смотрите также:
 
-- [avatar.GetComponentInfo](function.avatar.GetComponentInfo)
+- [avatar.GetComponentInfo](/api/category/avatar/function.avatar.GetComponentInfo.md)

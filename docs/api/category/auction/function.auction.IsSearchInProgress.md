@@ -36,4 +36,4 @@ end
 
 ## Смотрите также
 
-- [События (EVENT_AUCTION_*)](events.auction#event-auction-search-result)
+- [События (EVENT_AUCTION_*)](/api/events/events.EVENT_AUCTION_.md#event-auction-search-result)

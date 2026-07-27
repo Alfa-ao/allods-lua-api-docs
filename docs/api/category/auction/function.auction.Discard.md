@@ -14,8 +14,7 @@ auction.Discard( id: ObjectId )
 
 ## Список параметров
 
-- **`id`** (`ObjectId`)
-Уникальный идентификатор лота аукциона, который необходимо отменить.
+- **`id`** (`ObjectId`) - Уникальный идентификатор лота аукциона, который необходимо отменить.
 
 ## Возвращаемые значения
 
@@ -40,4 +39,4 @@ end
 
 ## Смотрите также
 
-- [События (EVENT_AUCTION_*)](events.auction#event-auction-discard-result)
+- [События (EVENT_AUCTION_*)](/api/events/events.EVENT_AUCTION_.md#event-auction-discard-result)

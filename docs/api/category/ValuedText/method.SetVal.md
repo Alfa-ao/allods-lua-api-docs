@@ -32,4 +32,4 @@ valuedText:SetVal( "value3", otherValuedText )
 
 ## Смотрите также
 
-- [unit.GetSpellValuedObject](../unit/function.unit.GetSpellValuedObject)
+- [unit.GetSpellValuedObject](/api/category/unit/function.unit.GetSpellValuedObject)

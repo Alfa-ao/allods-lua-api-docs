@@ -20,17 +20,13 @@ auction.CreateForItem( itemId: ObjectId, startPrice: number, buyoutPrice: number
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`)
-Идентификатор предмета, выставляемого на аукцион.
+- **`itemId`** (`ObjectId`) - Идентификатор предмета, выставляемого на аукцион.
 
-- **`startPrice`** (`number`)
-Начальная цена лота в меди. Должна находиться в диапазоне от 1 до 999999999999.
+- **`startPrice`** (`number`) - Начальная цена лота в меди. Должна находиться в диапазоне от 1 до 999999999999.
 
-- **`buyoutPrice`** (`number`)
-Цена немедленного выкупа лота в меди, при которой аукцион досрочно завершается. Должна находиться в диапазоне от 1 до 999999999999. Если передано значение `-1`, возможность досрочного выкупа отключается.
+- **`buyoutPrice`** (`number`) - Цена немедленного выкупа лота в меди, при которой аукцион досрочно завершается. Должна находиться в диапазоне от 1 до 999999999999. Если передано значение `-1`, возможность досрочного выкупа отключается.
 
-- **`timeLength`** (`number`)
-Длительность действия аукциона. Задается с помощью значений перечисления `AUCTION_CREATETIME_*`.
+- **`timeLength`** (`number`) - Длительность действия аукциона. Задается с помощью значений перечисления `AUCTION_CREATETIME_*`.
 
 ## Возвращаемые значения
 
@@ -54,5 +50,6 @@ end
 
 ## Смотрите также
 
-- [События (EVENT_AUCTION_*)](events.auction#event-auction-creation-result)
-- [Константы (AUCTION_CREATETIME_*)](constants.auction#auction-createtime)
+- [auction.IsCreationInProgress](/api/category/auction/function.auction.IsCreationInProgress.md)
+- [События (EVENT_AUCTION_*)](/api/events/events.EVENT_AUCTION_.md#event-auction-creation-result)
+- [AUCTION_CREATETIME_](/api/constants/constants.AUCTION_.md#auction-createtime)

@@ -34,4 +34,4 @@ local wstr = valuedText:ToWString()
 
 ## Смотрите также
 
-- [common.CreateValuedText](../common/function.common.CreateValuedText)
+- [common.CreateValuedText](/api/category/common/function.common.CreateValuedText)

@@ -73,5 +73,5 @@ valuedText:SetTagAttributes( true, tag, {
 
 ## Смотрите также
 
-- [SetClassVal](method.SetClassVal)
-- [SetTextValues](method.SetTextValues)
+- [valuedText:SetClassVal](method.SetClassVal)
+- [valuedText:SetTextValues](method.SetTextValues)

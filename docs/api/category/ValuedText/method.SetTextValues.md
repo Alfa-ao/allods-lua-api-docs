@@ -82,6 +82,6 @@ valuedText:SetTextValues( tab2 )
 
 ## Смотрите также
 
-- [SetClassVal](method.SetClassVal)
-- [SetVal](method.SetVal)
-- [common.CreateValuedText](../common/function.common.CreateValuedText)
+- [valuedText:SetClassVal](method.SetClassVal)
+- [valuedText:SetVal](method.SetVal)
+- [common.CreateValuedText](/api/category/common/function.common.CreateValuedText)

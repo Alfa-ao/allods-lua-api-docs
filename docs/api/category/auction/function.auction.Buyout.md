@@ -16,8 +16,7 @@ auction.Buyout( id: ObjectId )
 
 ## Список параметров
 
-- **`id`** (`ObjectId`)
-Уникальный идентификатор лота на аукционе, который необходимо выкупить.
+- **`id`** (`ObjectId`) - Уникальный идентификатор лота на аукционе, который необходимо выкупить.
 
 ## Возвращаемые значения
 
@@ -42,4 +41,4 @@ end
 
 ## Смотрите также
 
-- [События (EVENT_AUCTION_*)](events.auction#event-auction-bid-result)
+- [События (EVENT_AUCTION_*)](/api/events/events.EVENT_AUCTION_.md#event-auction-bid-result)

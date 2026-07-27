@@ -1,7 +1,3 @@
----
-outline: deep
----
-
 # auction.Bid
 
 Отправляет ставку на указанный лот аукциона.
@@ -16,11 +12,9 @@ auction.Bid( id: ObjectId, price: number )
 
 ## Список параметров
 
-- **`id`** (`ObjectId`)
-Уникальный идентификатор лота аукциона.
+- **`id`** (`ObjectId`) - Уникальный идентификатор лота аукциона.
 
-- **`price`** (`number`)
-Сумма предлагаемой ставки в валюте аукциона.
+- **`price`** (`number`) - Сумма предлагаемой ставки в валюте аукциона.
 
 ## Возвращаемые значения
 
@@ -45,4 +39,4 @@ end
 
 ## Смотрите также
 
-- [События (EVENT_AUCTION_*)](events.auction#event-auction-bid-result)
+- [События (EVENT_AUCTION_*)](/api/events/events.EVENT_AUCTION_.md#event-auction-bid-result)
