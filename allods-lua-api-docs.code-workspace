@@ -1,14 +1,24 @@
 {
-	
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"vue.server.includeLanguages": ["vue", "markdown"],
+    "folders": [
+        {
+            "path": "./docs",
+            "name": "Docs (Root)"
+        },
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "vue.server.includeLanguages": [
+            "vue",
+            "markdown"
+        ],
         "editor.tabSize": 4,
         "editor.insertSpaces": true,
-        "editor.detectIndentation": false
-	}
+        "editor.detectIndentation": false,
+        
+        "path-intellisense.mappings": {
+            "/": "${workspaceFolder}/docs"
+        }
+    }
 }
