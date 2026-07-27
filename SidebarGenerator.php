@@ -96,13 +96,13 @@ class SidebarGenerator
                 
                 $baseName = $file->getBasename('.md');
                 $parts = explode('.', $baseName);
+                $text = end($parts);
+                /* $text = $partFirst = array_first ( $parts );
                 
-                $text = $partFirst = array_first ( $parts );
-                
-                if ( ! in_array ( $partFirst, [ 'events', 'constants', 'enums' ] ) )
+                if ( ! in_array ( $partFirst, [ 'events', 'constants', 'enums', 'index' ] ) )
                 {
                     $text = end($parts);
-                }
+                } */
                 
                 $linkPath = $subPath === '' ? $baseName : $subPath . '/' . $baseName;
                 
@@ -164,9 +164,10 @@ $generator = new SidebarGenerator('docs', [
     'rename' => [
         'text' => [
             'api' => 'Lua Api',
-            'events' => 'События (Events)', 
-            'constants' => 'Константы (Consts)', 
-            'enums' => 'Перечисления (Enums)',
+            //'events' => 'События (Events)', 
+            //'constants' => 'Константы (Consts)', 
+            //'enums' => 'Перечисления (Enums)',
+            //'index' => 'Оглавление',
         ]
     ]
 ]);
