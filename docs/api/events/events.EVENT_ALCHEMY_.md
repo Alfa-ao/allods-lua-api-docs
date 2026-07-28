@@ -1,5 +1,5 @@
 ---
-outline: [ 2, 4 ]
+outline: deep
 ---
 # События Алхимии EVENT_ALCHEMY_*
 
