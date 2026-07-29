@@ -1,13 +1,20 @@
-"ENUM_FailType_..."
+## ENUM_FailType
+Определяет результаты выполнения проверки.
 
-Текстовый enum. Префикс для автоматической проверки - "ENUM_FailType".
+### Описание
+Текстовое перечисление. Префикс для автоматической проверки - `ENUM_FailType`.
 
-Представляет результаты выполнения проверки:
+### Список значений
+- **`ENUM_FailType_Offline`** (`string`) - Игрок не в сети.
 
-"ENUM_FailType_Offline"
-"ENUM_FailType_NotOnShip"
-"ENUM_FailType_NoHalo"
-"ENUM_FailType_LowTierLevel"
-"ENUM_FailType_NoTicket"
-"ENUM_FailType_NoAstralMap"
-"ENUM_FailType_NoJumpCurrency"
+- **`ENUM_FailType_NotOnShip`** (`string`) - Игрок не на корабле.
+
+- **`ENUM_FailType_NoHalo`** (`string`) - Отсутствие нимба.
+
+- **`ENUM_FailType_LowTierLevel`** (`string`) - Низкий уровень тира.
+
+- **`ENUM_FailType_NoTicket`** (`string`) - Отсутствие билета.
+
+- **`ENUM_FailType_NoAstralMap`** (`string`) - Отсутствие астральной карты.
+
+- **`ENUM_FailType_NoJumpCurrency`** (`string`) - Отсутствие валюты для прыжка.
