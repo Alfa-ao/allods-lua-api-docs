@@ -1,11 +1,13 @@
-"ENUM_DevelopmentTrack_..."
+## ENUM_DevelopmentTrack
 
-Текстовый и числовой енум.
+Определяет тип развития персонажа.
 
-Тип развития персонажа:
+### Описание
 
-ENUM_DevelopmentTrack_Experience - опыт
-ENUM_DevelopmentTrack_Reputation - репутация с определённой фракцией
+Числовое и текстовое перечисление.
 
-"ENUM_DevelopmentTrack_Experience"
-"ENUM_DevelopmentTrack_Reputation"
+### Список значений
+
+- **`ENUM_DevelopmentTrack_Experience`** (`number` | `string`) - Опыт.
+
+- **`ENUM_DevelopmentTrack_Reputation`** (`number` | `string`) - Репутация с определённой фракцией.
