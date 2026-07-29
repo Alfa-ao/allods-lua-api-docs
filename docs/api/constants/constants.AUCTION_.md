@@ -1,12 +1,11 @@
 ---
-outline: [ 1, 4 ]
+outline: deep
 ---
-
-# AUCTION_ORDERFIELD_*
+## AUCTION_ORDERFIELD_*
 
 Определяет столбец для сортировки результатов поиска аукционов.
 
-## Описание
+### Описание
 
 Группа констант, задающая поле, по которому производится сортировка списка аукционов при выполнении поискового запроса. Значения констант используются в качестве параметра `orderField` в функции `auction.Search` для указания критерия упорядочивания выдаваемых результатов.
 
@@ -14,7 +13,7 @@ outline: [ 1, 4 ]
 Константы применяются исключительно в функции `auction.Search` для указания поля сортировки. Направление сортировки (по возрастанию или убыванию) задается отдельным логическим параметром `asc`.
 :::
 
-## Список констант
+### Список констант
 
 - **`AUCTION_ORDERFIELD_NAME`** (`number` `0`)
 Задает сортировку результатов по имени лота.
@@ -46,9 +45,9 @@ outline: [ 1, 4 ]
 - **`AUCTION_ORDERFIELD_NONE`** (`number` `9`)
 Порядок элементов определяется на стороне сервера.
 
-## Примеры
+### Примеры
 
-### Сортировка по имени (AUCTION_ORDERFIELD_NAME)
+#### Сортировка по имени (AUCTION_ORDERFIELD_NAME)
 
 ```lua
 local filter = { name = userMods.ToWString( "Меч" ) }
@@ -59,7 +58,7 @@ auction.Search( filter, AUCTION_ORDERFIELD_NAME, true, 1 )
 Происходит поиск предметов, содержащих "Меч" в названии. Результаты сортируются по алфавиту (по возрастанию, так как передан параметр `true`).
 :::
 
-### Сортировка по классу предмета (AUCTION_ORDERFIELD_CLASS)
+#### Сортировка по классу предмета (AUCTION_ORDERFIELD_CLASS)
 
 (HELP) Уточнить itemClass
 
@@ -72,7 +71,7 @@ auction.Search( filter, AUCTION_ORDERFIELD_CLASS, true, 1 )
 Выполняется поиск оружия. Результаты упорядочиваются по внутреннему идентификатору класса предмета.
 :::
 
-### Сортировка по слоту экипировки (AUCTION_ORDERFIELD_SLOT)
+#### Сортировка по слоту экипировки (AUCTION_ORDERFIELD_SLOT)
 
 (HELP) Уточнить dressSlot EnumDressSlot.html
 
@@ -85,7 +84,7 @@ auction.Search( filter, AUCTION_ORDERFIELD_SLOT, true, 1 )
 Поиск ограничен предметами для слота "Руна". Сортировка происходит по числовому значению слота экипировки.
 :::
 
-### Сортировка по редкости (AUCTION_ORDERFIELD_RARETY)
+#### Сортировка по редкости (AUCTION_ORDERFIELD_RARETY)
 
 (HELP) Указать ссылку на ITEM_QUALITY_*
 
@@ -102,7 +101,7 @@ auction.Search( filter, AUCTION_ORDERFIELD_RARETY, false, 1 )
 AUCTION_ORDERFIELD_RARETY -> AUCTION_ORDERFIELD_RARITY
 :::
 
-### Сортировка по уровню (AUCTION_ORDERFIELD_LEVEL)
+#### Сортировка по уровню (AUCTION_ORDERFIELD_LEVEL)
 
 ```lua
 local filter = { levelMin = 10, levelMax = 20 }
@@ -113,7 +112,7 @@ auction.Search( filter, AUCTION_ORDERFIELD_LEVEL, false, 1 )
 Производится поиск предметов с уровнем от 10 до 20. Результаты сортируются по убыванию уровня (от 20 к 10).
 :::
 
-### Сортировка по типу предмета (AUCTION_ORDERFIELD_TYPE)
+#### Сортировка по типу предмета (AUCTION_ORDERFIELD_TYPE)
 
 (HELP) Уточнить категории
 
@@ -126,7 +125,7 @@ auction.Search( filter, AUCTION_ORDERFIELD_TYPE, true, 1 )
 Поиск ведется в первой корневой категории. Упорядочивание результатов происходит по типу предмета внутри заданной категории.
 :::
 
-### Сортировка по текущей ставке (AUCTION_ORDERFIELD_BID)
+#### Сортировка по текущей ставке (AUCTION_ORDERFIELD_BID)
 
 ```lua
 local filter = { bidMin = 10 }
@@ -137,7 +136,7 @@ auction.Search( filter, AUCTION_ORDERFIELD_BID, true, 1 )
 Ищутся лоты с текущей ставкой не менее 10 меди. Список сортируется по возрастанию цены текущей ставки.
 :::
 
-### Сортировка по цене выкупа (AUCTION_ORDERFIELD_BUYOUT)
+#### Сортировка по цене выкупа (AUCTION_ORDERFIELD_BUYOUT)
 
 ```lua
 local filter = { buyoutMax = 5000 }
@@ -148,7 +147,7 @@ auction.Search( filter, AUCTION_ORDERFIELD_BUYOUT, false, 1 )
 Выполняется поиск лотов с ценой выкупа до 50 серебра. Результаты упорядочиваются по убыванию цены выкупа (от самых дорогих к дешевым).
 :::
 
-### Сортировка по оставшемуся времени (AUCTION_ORDERFIELD_LEFTTIME)
+#### Сортировка по оставшемуся времени (AUCTION_ORDERFIELD_LEFTTIME)
 
 ```lua
 local filter = {}
@@ -159,7 +158,7 @@ auction.Search( filter, AUCTION_ORDERFIELD_LEFTTIME, true, 1 )
 Запускается глобальный поиск без фильтров. Результаты сортируются по возрастанию оставшегося времени (сначала отображаются лоты, которые скоро завершатся).
 :::
 
-### Без сортировки (AUCTION_ORDERFIELD_NONE)
+#### Без сортировки (AUCTION_ORDERFIELD_NONE)
 
 ```lua
 local filter = { onlyMyAuctions = true }
@@ -172,11 +171,11 @@ auction.Search( filter, AUCTION_ORDERFIELD_NONE, false, 1 )
 
 ---
 
-# AUCTION_CREATETIME_*
+## AUCTION_CREATETIME_*
 
 Определяет длительность действия аукциона при создании лота.
 
-## Описание
+### Описание
 
 Группа констант, задающая время действия аукционного лота в часах. Значения констант используются в качестве параметра `timeLength` в функции `auction.CreateForItem` для указания срока размещения предмета на торги.
 
@@ -184,7 +183,7 @@ auction.Search( filter, AUCTION_ORDERFIELD_NONE, false, 1 )
 Константы применяются исключительно в функции `auction.CreateForItem` для указания времени действия лота.
 :::
 
-## Список констант
+### Список констант
 
 - **`AUCTION_CREATETIME_HOURS12`** (`number` `0`)
 Задает длительность аукциона 12 часов.
@@ -198,9 +197,9 @@ auction.Search( filter, AUCTION_ORDERFIELD_NONE, false, 1 )
 - **`AUCTION_CREATETIME_HOURS48`** (`number` `3`)
 Задает длительность аукциона 48 часов.
 
-## Примеры
+### Примеры
 
-### Создание аукциона с длительностью 24 часа
+#### Создание аукциона с длительностью 24 часа
 
 ```lua
 local itemId = 12345 -- Идентификатор предмета из инвентаря
