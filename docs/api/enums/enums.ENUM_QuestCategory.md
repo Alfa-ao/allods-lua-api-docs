@@ -1,8 +1,9 @@
-# ENUM_QuestCategory
+## ENUM_QuestCategory
 
-Категория квеста:
+Категория квеста.
 
-```
-ENUM_QuestCategory_Common - обычный
-ENUM_QuestCategory_Compendium - для компендиума
-```
+### Список значений
+
+- **`ENUM_QuestCategory_Common`** (`number`) - Обычный.
+
+- **`ENUM_QuestCategory_Compendium`** (`number`) - Для компендиума.
