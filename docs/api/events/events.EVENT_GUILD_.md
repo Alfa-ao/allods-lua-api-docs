@@ -1289,3 +1289,59 @@ EVENT_GUILD_UNLOCKED_LEVEL_CHANGED
 ### Список параметров
 
 Параметры отсутствуют.
+
+---
+
+## EVENT_GUILD_ITEMS_HISTORY_CHANGED
+
+### Описание
+
+```
+EVENT_GUILD_ITEMS_HISTORY_CHANGED
+```
+
+Событие приходит при обновлении данных об истории операций с предметами гильдии, является итогом вызова `guild.GetItemsHistory`.
+
+### Список параметров
+
+Параметры отсутствуют.
+
+## Смотрите также
+
+- [guild.GetItemsHistory](/api/category/guild/function.guild.GetItemsHistory.md)
+
+---
+
+## EVENT_GUILD_BANK_HISTORY_CHANGED
+
+### Описание
+
+```
+EVENT_GUILD_BANK_HISTORY_CHANGED
+```
+
+Событие приходит при обновлении данных об истории операций казны гильдии, является итогом вызова `guild.GetHistory`.
+
+### Список параметров
+
+Параметры отсутствуют.
+
+## Смотрите также
+
+- [guild.GetHistory](/api/category/guild/function.guild.GetHistory.md)
+
+---
+
+## EVENT_GUILD_BANK_MONEY_CHANGED
+
+### Описание
+
+```
+EVENT_GUILD_BANK_MONEY_CHANGED
+```
+
+Событие приходит при изменении баланса казны гильдии.
+
+### Список параметров
+
+Параметры отсутствуют.
