@@ -15,11 +15,9 @@ avatar.ConvertMetaEnhancer( itemId: ObjectId, instrumentId: ObjectId )
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`)
-Идентификатор конвертируемого метапредмета в контейнере. Предмет должен являться метапредметом-улучшителем, что проверяется через `avatar.GetItemMetaInfo` по флагу `isMetaEnchancer`.
+- **`itemId`** (`ObjectId`) - Идентификатор конвертируемого метапредмета в контейнере. Предмет должен являться метапредметом-улучшителем, что проверяется через `avatar.GetItemMetaInfo` по флагу `isMetaEnchancer`.
 
-- **`instrumentId`** (`ObjectId`)
-Идентификатор предмета-инструмента в контейнере. Предмет должен являться специализированным конвертором, что проверяется через `avatar.GetItemInfo` по флагу `isMetaEnhancerConvertor`.
+- **`instrumentId`** (`ObjectId`) - Идентификатор предмета-инструмента в контейнере. Предмет должен являться специализированным конвертором, что проверяется через `avatar.GetItemInfo` по флагу `isMetaEnhancerConvertor`.
 
 ## Возвращаемые значения
 
@@ -43,6 +41,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetItemMetaInfo](function.avatar.GetItemMetaInfo)
-- [avatar.GetItemInfo](function.avatar.GetItemInfo)
-- [itemLib.GetMetaInfo](function.itemLib.GetMetaInfo)
+- [itemLib.GetMetaInfo](/api/category/itemLib/function.itemLib.GetMetaInfo)
