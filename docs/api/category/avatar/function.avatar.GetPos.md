@@ -27,4 +27,4 @@ LogInfo( "x: ", pos.posX )
 
 ## Смотрите также
 
-- [GamePosition](GamePosition)
+- [GamePosition](/api/types/GamePosition.md)
