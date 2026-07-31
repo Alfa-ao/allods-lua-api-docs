@@ -11,8 +11,7 @@ avatar.CanPlaceMetaUpgradeAgent( agentId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`agentId`** (`ObjectId`)
-Идентификатор улучшаемого предмета.
+- **`agentId`** (`ObjectId`) - Идентификатор улучшаемого предмета.
 
 ## Возвращаемые значения
 
