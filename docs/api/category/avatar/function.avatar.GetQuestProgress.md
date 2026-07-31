@@ -63,5 +63,5 @@ end
 
 ## Смотрите также
 
-- [avatar.GetQuestObjectiveInfo](avatar.GetQuestObjectiveInfo)
-- [QuestLocation](QuestLocation)
+- [avatar.GetQuestObjectiveInfo](/api/category/avatar/function.avatar.GetQuestObjectiveInfo)
+- [QuestLocation](/api/types/QuestLocation.md)
