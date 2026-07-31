@@ -36,4 +36,4 @@ end
 
 ## Смотрите также
 
-- [avatar.UseHearthStoneToLocation](function.avatar.UseHearthStoneToLocation)
+- [avatar.UseHearthStoneToLocation](/api/category/avatar/function.avatar.UseHearthStoneToLocation)
