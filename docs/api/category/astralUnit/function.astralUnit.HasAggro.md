@@ -11,8 +11,7 @@ astralUnit.HasAggro( unitId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`unitId`** (`ObjectId`)
-Уникальный идентификатор астрального юнита, агрессивность которого необходимо проверить.
+- **`unitId`** (`ObjectId`) - Уникальный идентификатор астрального юнита, агрессивность которого необходимо проверить.
 
 ## Возвращаемые значения
 
@@ -27,4 +26,4 @@ local isAstralUnitInCombatWithMainPlayer = astralUnit.HasAggro( unitId )
 
 ## Смотрите также
 
-- [EVENT_ASTRAL_UNIT_AGGRO_CHANGED](events.astral#event-astral-unit-aggro-changed)
+- [EVENT_ASTRAL_UNIT_AGGRO_CHANGED](/api/events/events.EVENT_ASTRAL_.md#event-astral-unit-aggro-changed)
