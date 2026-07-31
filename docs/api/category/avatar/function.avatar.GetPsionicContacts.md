@@ -36,7 +36,7 @@ local contact = contacts[ PSIONIC_CONTACT_NORMAL ]
 if contact then
   local normalContacterId = contact.unitId
   if normalContacterId then
-    local name = unit.GetName( normalContacterId )
+    local name = object.GetName( normalContacterId )
   end
 end
 
@@ -44,7 +44,7 @@ contact = contacts[ PSIONIC_CONTACT_CRUDE ]
 if contact then
   local crudeContacterId = contact.unitId
   if crudeContacterId then
-    local name = unit.GetName( crudeContacterId )
+    local name = object.GetName( crudeContacterId )
     if contact.durationMs > 0 then
       local remaining = contact.remainingMs / contact.durationMs
     end
@@ -53,11 +53,11 @@ end
 ```
 
 ::: info Описание примера
-Извлекается таблица всех активных псионических контактов. Проверяется наличие контакта типа `PSIONIC_CONTACT_NORMAL` и `PSIONIC_CONTACT_CRUDE`. Если контакт существует, извлекается идентификатор юнита для получения его имени через `unit.GetName`. Для контакта типа `PSIONIC_CONTACT_CRUDE` дополнительно вычисляется доля оставшегося времени, если длительность контакта больше нуля.
+Извлекается таблица всех активных псионических контактов. Проверяется наличие контакта типа `PSIONIC_CONTACT_NORMAL` и `PSIONIC_CONTACT_CRUDE`. Если контакт существует, извлекается идентификатор юнита для получения его имени через `object.GetName`. Для контакта типа `PSIONIC_CONTACT_CRUDE` дополнительно вычисляется доля оставшегося времени, если длительность контакта больше нуля.
 :::
 
 ## Смотрите также
 
 - `PSIONIC_CONTACT_NORMAL`
 - `PSIONIC_CONTACT_CRUDE`
-- `unit.GetName`
+- `object.GetName`
