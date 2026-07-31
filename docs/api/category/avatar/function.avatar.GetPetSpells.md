@@ -34,5 +34,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetPetActiveSpell](avatar.GetPetActiveSpell)
-- [avatar.GetSpellInfo](avatar.GetSpellInfo)
+- [avatar.GetPetActiveSpell](/api/category/avatar/function.avatar.GetPetActiveSpell)
