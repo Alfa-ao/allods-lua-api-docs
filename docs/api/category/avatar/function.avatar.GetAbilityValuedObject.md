@@ -15,8 +15,7 @@ avatar.GetAbilityValuedObject( abilityId: number ): ValuedObject
 
 ## Список параметров
 
-- **`abilityId`** (`number`)
-Идентификатор ресурса пассивного умения.
+- **`abilityId`** (`number`) - Идентификатор ресурса пассивного умения.
 
 ## Возвращаемые значения
 `ValuedObject` - Новый экземпляр `ValuedObject`, содержащий данные о пассивном умении.
