@@ -33,5 +33,5 @@ end
 
 ## Смотрите также
 
-- [avatar.GetPetSpells](avatar.GetPetSpells)
-- [avatar.SetPetActiveSpell](avatar.SetPetActiveSpell)
+- [avatar.GetPetSpells](/api/category/avatar/function.avatar.GetPetSpells)
+- [avatar.SetPetActiveSpell](/api/category/avatar/function.avatar.SetPetActiveSpell)
