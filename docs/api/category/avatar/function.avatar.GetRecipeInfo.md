@@ -60,6 +60,5 @@ end
 
 ## Смотрите также
 
-- [avatar.GetAlchemyInfo](function.avatar.GetAlchemyInfo)
-- [avatar.GetComponentInfo](function.avatar.GetComponentInfo)
-- [avatar.GetItemInfo](function.avatar.GetItemInfo)
+- [avatar.GetAlchemyInfo](/api/category/avatar/function.avatar.GetAlchemyInfo.md)
+- [avatar.GetComponentInfo](/api/category/avatar/function.avatar.GetComponentInfo.md)
