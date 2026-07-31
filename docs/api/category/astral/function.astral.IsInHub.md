@@ -20,6 +20,7 @@ astral.IsInHub(): boolean
 ## Примеры
 
 ### Проверка нахождения в астральном хабе
+
 ```lua
 local inHub = astral.IsInHub()
 ```
