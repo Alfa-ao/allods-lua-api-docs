@@ -62,6 +62,5 @@ end
 
 ## Смотрите также
 
-- [QUEST_COUNT_*](enums)
-- [DRESS_SLOT_*](enums)
-- [avatar.GetQuestInfo](avatar.GetQuestInfo)
+- [DRESS_SLOT_*](/api/constants/constants.DRESS_SLOT.md)
+- [avatar.GetQuestInfo](/api/category/avatar/function.avatar.GetQuestInfo)
