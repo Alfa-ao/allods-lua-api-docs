@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [astralUnit.GetLevel](astralUnit.GetLevel)
+- [astralUnit.GetLevel](/api/category/astralUnit/function.astralUnit.GetLevel.md)
