@@ -30,4 +30,4 @@ avatar.CancelClassChanger()
 
 ## Смотрите также
 
-- [avatar.GetClassChangerInfo](function.avatar.GetClassChangerInfo)
+- [avatar.GetClassChangerInfo](/api/category/avatar/function.avatar.GetClassChangerInfo)
