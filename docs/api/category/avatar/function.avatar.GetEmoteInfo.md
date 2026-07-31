@@ -15,13 +15,12 @@ avatar.GetEmoteInfo( emoteId: number ): table | nil
 
 ## Список параметров
 
-- **`emoteId`** (`number` | `ObjectId`)
-Уникальный идентификатор эмоции, информацию о которой необходимо получить.
+- **`emoteId`** (`number` | `ObjectId`) - Уникальный идентификатор эмоции, информацию о которой необходимо получить.
 
 ## Возвращаемые значения
 
-Возвращает `table` или `nil`.
-Если эмоция найдена, возвращается таблица со следующими полями:
+Возвращает `table` или `nil`. Если эмоция найдена, возвращается таблица со следующими полями:
+
 - **`id`** (`ObjectId`) - уникальный идентификатор объекта эмоции.
 - **`canRun`** (`boolean`) - индикатор возможности проигрывания эмоции в текущий момент.
 - **`hasMood`** (`boolean`) - `true`, если проигрывание эмоции изменяет настроение игрока.
@@ -37,8 +36,8 @@ avatar.GetEmoteInfo( emoteId: number ): table | nil
 ## Примеры
 
 ### Получение и вывод системного имени эмоции
+
 ```lua
-local emoteId = 12345
 local emoteInfo = avatar.GetEmoteInfo( emoteId )
 if emoteInfo then
   common.LogInfo( "Emote system name: " .. emoteInfo.sysName )
