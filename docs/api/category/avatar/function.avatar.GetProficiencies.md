@@ -33,4 +33,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetProficiencyInfo](avatar.GetProficiencyInfo)
+- [avatar.GetProficiencyInfo](/api/category/avatar/function.avatar.GetProficiencyInfo)
