@@ -52,6 +52,5 @@ end
 
 ## Смотрите также
 
-- [avatar.GetVendorList](function.avatar.GetVendorList)
-- [avatar.RequestVendor](function.avatar.RequestVendor)
-- [avatar.GetItemInfo](function.avatar.GetItemInfo)
+- [avatar.GetVendorList](/api/category/avatar/function.avatar.GetVendorList.md)
+- [avatar.RequestVendor](/api/category/avatar/function.avatar.RequestVendor.md)
