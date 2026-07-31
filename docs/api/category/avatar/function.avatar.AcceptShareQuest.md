@@ -11,8 +11,7 @@ avatar.AcceptShareQuest( shareId: ObjectId )
 
 ## Список параметров
 
-- **`shareId`** (`ObjectId`)
-Уникальный идентификатор предложения о разделении задания.
+- **`shareId`** (`ObjectId`) - Уникальный идентификатор предложения о разделении задания.
 
 ## Возвращаемые значения
 
@@ -23,6 +22,5 @@ avatar.AcceptShareQuest( shareId: ObjectId )
 ### Отправка согласия на принятие задания
 
 ```lua
-local shareId = 12345 -- Уникальный идентификатор предложения
 avatar.AcceptShareQuest( shareId )
 ```
