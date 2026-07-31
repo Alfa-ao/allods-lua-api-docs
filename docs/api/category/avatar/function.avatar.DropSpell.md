@@ -17,8 +17,7 @@ avatar.DropSpell( spellId: SpellId )
 
 ## Список параметров
 
-- **`spellId`** (`SpellId`)
-Уникальный идентификатор заклинания, которое необходимо сбросить.
+- **`spellId`** (`SpellId`) - Уникальный идентификатор заклинания, которое необходимо сбросить.
 
 ## Возвращаемые значения
 
@@ -38,4 +37,4 @@ avatar.DropSpell( spellbook[ 1 ] )
 
 ## Смотрите также
 
-- [avatar.GetSpellBook](avatar.GetSpellBook)
+- [avatar.GetSpellBook](/api/category/avatar/function.avatar.GetSpellBook.md)
