@@ -33,5 +33,4 @@ end
 
 ## Смотрите также
 
-- Тип данных `SpellId`
-- Функция `avatar.GetHearthStoneCooldown()`
+- [avatar.GetHearthStoneCooldown](/api/category/avatar/function.avatar.GetHearthStoneCooldown.md)
