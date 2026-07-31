@@ -33,4 +33,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetSkillInfo](function.avatar.GetSkillInfo)
+- [avatar.GetSkillInfo](/api/category/avatar/function.avatar.GetSkillInfo.md)
