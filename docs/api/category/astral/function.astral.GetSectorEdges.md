@@ -11,8 +11,7 @@ astral.GetSectorEdges( sectorId: ObjectId|AstralSectorId ): table
 
 ## Список параметров
 
-- **`sectorId`** (`ObjectId` | `AstralSectorId`)
-Уникальный идентификатор сектора, для которого необходимо получить список связанных с ним соседних секторов.
+- **`sectorId`** (`ObjectId` | `AstralSectorId`) - Уникальный идентификатор сектора, для которого необходимо получить список связанных с ним соседних секторов.
 
 ## Возвращаемые значения
 
@@ -37,4 +36,4 @@ end
 
 ## Смотрите также
 
-- [astral.GetSectorInfo](astral.GetSectorInfo)
+- [astral.GetSectorInfo](/api/category/astral/function.astral.GetSectorInfo)
