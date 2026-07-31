@@ -33,5 +33,5 @@ end
 
 ## Смотрите также
 
-- [avatar.SetCurrentQuest](function.avatar.SetCurrentQuest)
-- [EVENT_CURRENT_QUEST_CHANGED](events#event-current-quest-changed)
+- [avatar.SetCurrentQuest](/api/category/avatar/function.avatar.SetCurrentQuest)
+- [EVENT_CURRENT_QUEST_CHANGED](/api/events/events.EVENT_CURRENT_.md#event-current-quest-changed)
