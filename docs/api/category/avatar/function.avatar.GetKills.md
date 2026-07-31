@@ -31,4 +31,4 @@ end
 
 ## Смотрите также
 
-- EVENT_VICTIM_TRACKER_CHANGED
+- [EVENT_VICTIM_TRACKER_CHANGED](/api/events/events.EVENT_VICTIM_.md#event-victim-tracker-changed)
