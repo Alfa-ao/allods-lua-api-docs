@@ -11,8 +11,7 @@ avatar.CanPlaceMetaUpgradeSource( sourceId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`sourceId`** (`ObjectId`)
-Уникальный идентификатор предмета, проверяемого на возможность размещения в слот основы улучшателя.
+- **`sourceId`** (`ObjectId`) - Уникальный идентификатор предмета, проверяемого на возможность размещения в слот основы улучшателя.
 
 ## Возвращаемые значения
 
@@ -22,6 +21,5 @@ avatar.CanPlaceMetaUpgradeSource( sourceId: ObjectId ): boolean
 
 ### Проверка возможности размещения предмета
 ```lua
-local sourceId = 12345
 local canPlace = avatar.CanPlaceMetaUpgradeSource( sourceId )
 ```
