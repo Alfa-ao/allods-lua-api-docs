@@ -33,5 +33,5 @@ end
 
 ## Смотрите также
 
-- [avatar.GetInteractorCue](avatar.GetInteractorCue)
-- [EVENT_INTERACTION_STARTED](events.interaction#event-interaction-started)
+- [avatar.GetInteractorCue](/api/category/avatar/function.avatar.GetInteractorCue)
+- [EVENT_INTERACTION_STARTED](/api/events/events.EVENT_INTERACTION_.md#event-interaction-started)
