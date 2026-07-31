@@ -11,11 +11,9 @@ avatar.EquipItemByIdToSlot( itemId: ObjectId, equipSlot: number )
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`)
-Идентификатор предмета.
+- **`itemId`** (`ObjectId`) - Идентификатор предмета.
 
-- **`equipSlot`** (`number`)
-Индекс слота в экипировке (перечисление `DRESS_SLOT_...`).
+- **`equipSlot`** (`number`) - Индекс слота в экипировке (перечисление `DRESS_SLOT_...`).
 
 ## Возвращаемые значения
 
@@ -30,7 +28,6 @@ avatar.EquipItemByIdToSlot( itemId, DRESS_SLOT_OFFHAND )
 
 ## Смотрите также
 
-- `DRESS_SLOT_...`
-- `containerLib.GetItems`
-- `ITEM_CONT_CHECKROOM`
-- `ITEM_CONT_POWEREDLSWEAPON`
+- [DRESS_SLOT_*](/api/constants/constants.DRESS_SLOT.md)
+- [containerLib.GetItems](/api/category/containerLib/function.containerLib.GetItems.md)
+- [ITEM_CONT_*](/api/constants/constants.ITEM_CONT.md)
