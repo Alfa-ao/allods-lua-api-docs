@@ -32,10 +32,6 @@ for i = 0, GetTableSize( bonuses ) - 1 do
 end
 ```
 
-::: info Описание примера
-В примере извлекается список бонусов развития с помощью `avatar.GetBonusPools`. Затем в цикле перебирается каждый элемент списка с использованием `GetTableSize`, и вычисляется процент оставшихся бонусов от их общего количества.
-:::
-
 ## Смотрите также
 
-- [ENUM_DevelopmentTrack_*](enums.avatar#enum-developmenttrack)
+- [ENUM_DevelopmentTrack_*](/api/enums/enums.ENUM_DevelopmentTrack.md)
