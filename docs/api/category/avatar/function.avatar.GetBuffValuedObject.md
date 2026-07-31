@@ -21,8 +21,7 @@ avatar.GetBuffValuedObject( buffId: BuffId ): ValuedObject
 
 ## Список параметров
 
-- **`buffId`** (`BuffId`)
-Уникальный идентификатор ресурса бафа.
+- **`buffId`** (`BuffId`) - Уникальный идентификатор ресурса бафа.
 
 ## Возвращаемые значения
 
@@ -34,8 +33,3 @@ avatar.GetBuffValuedObject( buffId: BuffId ): ValuedObject
 ```lua
 local valuedObject = avatar.GetBuffValuedObject( buffId )
 ```
-
-## Смотрите также
-
-- `ValuedObject`
-- `BuffId`
