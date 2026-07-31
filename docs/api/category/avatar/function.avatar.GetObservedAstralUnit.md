@@ -36,6 +36,6 @@ end
 
 ## Смотрите также
 
-- [avatar.GetObservedTransport](avatar.GetObservedTransport)
-- [EVENT_TRANSPORT_OBSERVING_STARTED](events.transport#event-transport-observing-started)
-- [EVENT_TRANSPORT_OBSERVING_FINISHED](events.transport#event-transport-observing-finished)
+- [avatar.GetObservedTransport](/api/category/avatar/function.avatar.GetObservedTransport)
+- [EVENT_TRANSPORT_OBSERVING_STARTED](/api/events/events.EVENT_TRANSPORT_.md#event-transport-observing-started)
+- [EVENT_TRANSPORT_OBSERVING_FINISHED](/api/events/events.EVENT_TRANSPORT_.md#event-transport-observing-finished)
