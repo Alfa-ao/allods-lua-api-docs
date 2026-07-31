@@ -65,4 +65,5 @@ end
 
 ## Смотрите также
 
-- Перечисления: `ENUM_InnateStats`, `InnateStatSecondary`
+- [ENUM_InnateStats](/api/enums/enums.ENUM_InnateStats.md)
+- InnateStatSecondary (HELP)
