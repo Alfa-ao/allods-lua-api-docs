@@ -11,8 +11,7 @@ avatar.GetCurrentMaxSkillScore( skillId: ObjectId ): number
 
 ## Список параметров
 
-- **`skillId`** (`ObjectId`)
-Уникальный идентификатор навыка, для которого определяется максимально возможный уровень.
+- **`skillId`** (`ObjectId`) - Уникальный идентификатор навыка, для которого определяется максимально возможный уровень.
 
 ## Возвращаемые значения
 
@@ -22,7 +21,6 @@ avatar.GetCurrentMaxSkillScore( skillId: ObjectId ): number
 
 ### Получение предельного уровня навыка
 ```lua
-local skillId = 123 -- Идентификатор проверяемого навыка
 local maxAvatarScore = avatar.GetCurrentMaxSkillScore( skillId )
 
 if maxAvatarScore then
