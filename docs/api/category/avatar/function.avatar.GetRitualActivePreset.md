@@ -25,5 +25,5 @@ local activePreset = avatar.GetRitualActivePreset()
 
 ## Смотрите также
 
-- [unit.GetRitualActivePreset](../unit/function.unit.GetRitualActivePreset)
-- [DUMMY_TYPE_*](enum)
+- [unit.GetRitualActivePreset](/api/category/unit/function.unit.GetRitualActivePreset.md)
+- [DUMMY_TYPE_*](/api/constants/constants.DUMMY_TYPE.md)
