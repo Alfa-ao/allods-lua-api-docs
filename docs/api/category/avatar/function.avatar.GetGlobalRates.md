@@ -16,24 +16,19 @@ avatar.GetGlobalRates(): table
 ## Возвращаемые значения
 
 Возвращает `table` - индексированный с нуля список таблиц, описывающих определённый рейт. Каждая вложенная таблица содержит следующие поля:
-- **`isCustom`** (`boolean`)
-Определяет наличие кастомного описания у рейта.
-- **`type`** (`number` | `nil`)
-Тип рейта, соответствующий перечислению `ENUM_GlobalScalerType_...`. Принимает значение `nil`, если `isCustom == true`.
-- **`sysType`** (`string` | `nil`)
-Строковое представление типа рейта, соответствующее перечислению `ENUM_GlobalScalerType_...`. Принимает значение `nil`, если `isCustom == true`.
-- **`title`** (`string` | `nil`)
-Заголовок рейта. Принимает значение `nil`, если `isCustom == false`.
-- **`description`** (`string` | `nil`)
-Описание рейта. Принимает значение `nil`, если `isCustom == false`.
-- **`value`** (`number`)
-Числовое значение рейта.
-- **`remainingMs`** (`number` | `nil`)
-Количество времени в миллисекундах, оставшееся до окончания действия рейта. Принимает значение `nil`, если время окончания неизвестно.
+
+- **`isCustom`** (`boolean`) - Определяет наличие кастомного описания у рейта.
+- **`type`** (`number` | `nil`) - Тип рейта, соответствующий перечислению `ENUM_GlobalScalerType_...`. Принимает значение `nil`, если `isCustom == true`.
+- **`sysType`** (`string` | `nil`) - Строковое представление типа рейта, соответствующее перечислению `ENUM_GlobalScalerType_...`. Принимает значение `nil`, если `isCustom == true`.
+- **`title`** (`string` | `nil`) - Заголовок рейта. Принимает значение `nil`, если `isCustom == false`.
+- **`description`** (`string` | `nil`) - Описание рейта. Принимает значение `nil`, если `isCustom == false`.
+- **`value`** (`number`) - Числовое значение рейта.
+- **`remainingMs`** (`number` | `nil`) - Количество времени в миллисекундах, оставшееся до окончания действия рейта. Принимает значение `nil`, если время окончания неизвестно.
 
 ## Примеры
 
 ### Перебор списка глобальных рейтов
+
 ```lua
 local globalRates = avatar.GetGlobalRates()
 for i = 0, GetTableSize( globalRates ) - 1 do
@@ -48,4 +43,4 @@ end
 
 ## Смотрите также
 
-- [ENUM_GlobalScalerType_*](enums.avatar#enum-globalscalertype)
+- [ENUM_GlobalScalerType_*](/api/enums/enums.ENUM_GlobalScalerType.md)
