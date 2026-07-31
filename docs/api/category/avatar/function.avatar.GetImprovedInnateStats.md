@@ -40,6 +40,6 @@ end
 
 ## Смотрите также
 
-- [avatar.GetInnateStats](avatar.GetInnateStats)
-- [avatar.CanImproveInnateStats](avatar.CanImproveInnateStats)
-- [avatar.ImproveInnateStat](avatar.ImproveInnateStat)
+- [avatar.GetInnateStats](/api/category/avatar/function.avatar.GetInnateStats.md)
+- [avatar.CanImproveInnateStats](/api/category/avatar/function.avatar.CanImproveInnateStats.md)
+- [avatar.ImproveInnateStat](/api/category/avatar/function.avatar.ImproveInnateStat.md)
