@@ -38,6 +38,6 @@ end
 
 ## Смотрите также
 
-- [astral.GetAstrolabeInfo](function.astral.GetAstrolabeInfo)
-- [astral.GetAstrolabeInfoEx](function.astral.GetAstrolabeInfoEx)
-- [astral.GetPOIInfo](function.astral.GetPOIInfo)
+- [astral.GetAstrolabeInfo](/api/category/astral/function.astral.GetAstrolabeInfo)
+- [astral.GetAstrolabeInfoEx](/api/category/astral/function.astral.GetAstrolabeInfoEx)
+- [astral.GetPOIInfo](/api/category/astral/function.astral.GetPOIInfo)
