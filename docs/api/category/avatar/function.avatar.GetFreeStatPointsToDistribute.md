@@ -29,4 +29,4 @@ local points = avatar.GetFreeStatPointsToDistribute()
 
 ## Смотрите также
 
-- [avatar.CanImproveInnateStats](avatar.CanImproveInnateStats)
+- [avatar.CanImproveInnateStats](/api/category/avatar/function.avatar.CanImproveInnateStats.md)
