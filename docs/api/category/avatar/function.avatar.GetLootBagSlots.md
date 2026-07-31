@@ -34,4 +34,4 @@ local lootTable = loot.items
 
 ## Смотрите также
 
-- [avatar.GetLootBagSlotCount](avatar.GetLootBagSlotCount)
+- [avatar.GetLootBagSlotCount](/api/category/avatar/function.avatar.GetLootBagSlotCount)
