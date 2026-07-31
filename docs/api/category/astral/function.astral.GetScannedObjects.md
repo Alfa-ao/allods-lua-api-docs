@@ -9,6 +9,13 @@ astral.GetScannedObjects(): table
 
 Функция возвращает индексированный с единицы список таблиц, содержащих информацию об объектах (астральных юнитах и кораблях), которые невидимы с текущего корабля, но были обнаружены в хабе с помощью визора корабля, на котором находится главный игрок. Типы обнаруженных объектов определяются значениями перечисления `ENUM_HubScanInfoObjectType_...`.
 
+::: info
+Типы объектов представлены enum "ENUM_HubScanInfoObjectType...":
+
+"ENUM_HubScanInfoObjectType_Mob"
+"ENUM_HubScanInfoObjectType_Ship"
+:::
+
 ## Список параметров
 
 Параметры отсутствуют.
@@ -16,7 +23,7 @@ astral.GetScannedObjects(): table
 ## Возвращаемые значения
 
 Возвращает таблицу (`table`) - индексированный с единицы список таблиц, каждая из которых содержит следующие поля:
-- **`type`** (`string`) - тип объекта. Значения соответствуют перечислению `ENUM_HubScanInfoObjectType_...` (например, `ENUM_HubScanInfoObjectType_Mob`, `ENUM_HubScanInfoObjectType_Ship`).
+- **`type`** (`string`) - тип объекта. Значения соответствуют перечислению `ENUM_HubScanInfoObjectType_...`.
 - **`position`** (`GamePosition`) - позиция объекта в хабе.
 - **`durationMs`** (`number`) - время жизни объекта в миллисекундах.
 - **`elapsedMs`** (`number`) - количество миллисекунд, прошедших с момента сканирования данного объекта.
@@ -30,7 +37,3 @@ for i, scannedObject in ipairs( objects ) do
   local objectType = scannedObject.type
 end
 ```
-
-## Смотрите также
-
-- [ENUM_HubScanInfoObjectType_*](enums)
