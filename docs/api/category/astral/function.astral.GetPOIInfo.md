@@ -44,4 +44,4 @@ end
 
 ## Смотрите также
 
-- [astral.GetAllPOIs](astral.GetAllPOIs)
+- [astral.GetAllPOIs](/api/category/astral/function.astral.GetAllPOIs)
