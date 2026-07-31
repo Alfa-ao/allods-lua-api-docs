@@ -10,8 +10,7 @@ avatar.GetActionGroupStatBonus( actionGroupId: ActionGroupId ): table | nil
 
 ## Список параметров
 
-- **`actionGroupId`** (`ActionGroupId`)
-Идентификатор группы заклинаний.
+- **`actionGroupId`** (`ActionGroupId`) - Идентификатор группы заклинаний.
 
 ## Возвращаемые значения
 - **`table`** - таблица с бонусами к характеристикам. Содержит пары ключ-значение:
@@ -43,7 +42,6 @@ end
 
 ## Смотрите также
 
-- `ActionGroupId`
-- `spellLib.GetActionGroups`
-- `ENUM_InnateStats`
-- `avatar.GetInnateStats`
+- [spellLib.GetActionGroups](/api/category/spellLib/function.spellLib.GetActionGroups.md)
+- [ENUM_InnateStats](/api/enums/enums.ENUM_InnateStats.md)
+- [avatar.GetInnateStats](/api/category/avatar/function.avatar.GetInnateStats.md)
