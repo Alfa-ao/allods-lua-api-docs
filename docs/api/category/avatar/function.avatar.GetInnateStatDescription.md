@@ -27,4 +27,4 @@ local willDesc = avatar.GetInnateStatDescription( "ENUM_InnateStats_Will" )
 
 ## Смотрите также
 
-- [Перечисления характеристик (ENUM_InnateStats)](enums.avatar#enum-innatestats)
+- [ENUM_InnateStats](/api/enums/enums.ENUM_InnateStats.md)
