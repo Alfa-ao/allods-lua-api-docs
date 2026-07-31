@@ -11,8 +11,7 @@ avatar.GetCurrencyDescription( currencyId: CurrencyId ): ValuedText | nil
 
 ## Список параметров
 
-- **`currencyId`** (`CurrencyId`)
-Идентификатор ресурса альтернативной валюты.
+- **`currencyId`** (`CurrencyId`) - Идентификатор ресурса альтернативной валюты.
 
 ## Возвращаемые значения
 
