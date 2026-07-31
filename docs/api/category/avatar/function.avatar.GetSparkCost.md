@@ -29,4 +29,4 @@ end
 
 ## Смотрите также
 
-- [EVENT_CALL_SPARK_COST_CHANGED](../events#event-call-spark-cost-changed)
+- [EVENT_CALL_SPARK_COST_CHANGED](/api/events/events.EVENT_CALL_.md#event-call-spark-cost-changed)
