@@ -34,5 +34,5 @@ end
 
 ## Смотрите также
 
-- [avatar.GetAbilities](avatar.GetAbilities)
-- [spellLib.GetDescription](spellLib.GetDescription)
+- [avatar.GetAbilities](/api/category/avatar/function.avatar.GetAbilities)
+- [spellLib.GetDescription](/api/category/spellLib/function.spellLib.GetDescription)
