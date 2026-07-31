@@ -49,4 +49,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetSkills](function.avatar.GetSkills)
+- [avatar.GetSkills](/api/category/avatar/function.avatar.GetSkills.md)
