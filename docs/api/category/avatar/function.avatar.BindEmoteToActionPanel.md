@@ -11,10 +11,8 @@ avatar.BindEmoteToActionPanel( emoteId: ObjectId, index: number )
 
 ## Список параметров
 
-- **`emoteId`** (`ObjectId`)
-Уникальный идентификатор эмоции, которая привязывается к слоту панели действий.
-- **`index`** (`number`)
-Индекс целевого слота на панели действий. Нумерация слотов начинается с нуля.
+- **`emoteId`** (`ObjectId`) - Уникальный идентификатор эмоции, которая привязывается к слоту панели действий.
+- **`index`** (`number`) - Индекс целевого слота на панели действий. Нумерация слотов начинается с нуля.
 
 ## Возвращаемые значения
 
@@ -24,7 +22,6 @@ avatar.BindEmoteToActionPanel( emoteId: ObjectId, index: number )
 
 ### Привязка эмоции к первому слоту панели
 ```lua
-local emoteId = 12345 -- Идентификатор требуемой эмоции
 local slotIndex = 0 -- Индекс первого слота на панели действий
 avatar.BindEmoteToActionPanel( emoteId, slotIndex )
 ```
