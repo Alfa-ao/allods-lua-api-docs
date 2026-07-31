@@ -11,8 +11,7 @@ avatar.GetAbilityReplacementSpells( abilityId: number ): table | nil
 
 ## Список параметров
 
-- **`abilityId`** (`number`)
-Идентификатор ресурса умения.
+- **`abilityId`** (`number`) - Идентификатор ресурса умения.
 
 ## Возвращаемые значения
 - `table` - Таблица идентификаторов ресурсов заклинаний. Индексация начинается с 1.
