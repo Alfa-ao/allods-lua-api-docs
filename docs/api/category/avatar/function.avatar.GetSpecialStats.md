@@ -58,4 +58,4 @@ end
 
 ## Смотрите также
 
-- [ENUM_SpecialStatType](../constants#enum-specialstattype)
+- [ENUM_SpecialStatType](/api/enums/enums.ENUM_SpecialStatType.md)
