@@ -11,8 +11,7 @@ astral.GetSectorInfo( sectorId: ObjectId | AstralSectorId ): table | nil
 
 ## Список параметров
 
-- **`sectorId`** (`ObjectId` | `AstralSectorId`)
-Уникальный идентификатор астрального сектора.
+- **`sectorId`** (`ObjectId` | `AstralSectorId`) - Уникальный идентификатор астрального сектора.
 
 ## Возвращаемые значения
 
@@ -53,5 +52,5 @@ end
 
 ## Смотрите также
 
-- [astral.GetCurrentSector](astral.GetCurrentSector)
-- [ITEM_QUALITY_*](enums)
+- [astral.GetCurrentSector](/api/category/astral/function.astral.GetCurrentSector)
+- [ITEM_QUALITY_*](/api/constants/constants.ITEM_QUALITY.md)
