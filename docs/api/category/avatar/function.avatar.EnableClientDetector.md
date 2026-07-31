@@ -14,8 +14,7 @@ avatar.EnableClientDetector( type: number, enable: boolean )
 
 ## Список параметров
 
-- **`type`** (`number`)
-Тип детектора. Принимает значения из перечисления `CLIENT_DETECTOR_XXX`:
+- **`type`** (`number`) - Тип детектора. Принимает значения из перечисления `CLIENT_DETECTOR_XXX`:
   - `CLIENT_DETECTOR_QUEST_NPC` - NPC, принимающий или выдающий квесты.
   - `CLIENT_DETECTOR_TRAINER_NPC` - Тренер.
   - `CLIENT_DETECTOR_VENDOR_NPC` - Торговец (кроме крафтовых).
@@ -25,8 +24,7 @@ avatar.EnableClientDetector( type: number, enable: boolean )
   - `CLIENT_DETECTOR_BATTLEGROUND_CHECKPOINT` - Контрольная точка баттлграунда.
   - `CLIENT_DETECTOR_PROFESSION_NPC` - Крафтовый наставник (торговец).
 
-- **`enable`** (`boolean`)
-Флаг управления детектором. Значение `true` включает детектор, `false` - выключает.
+- **`enable`** (`boolean`) - Флаг управления детектором. Значение `true` включает детектор, `false` - выключает.
 
 ## Возвращаемые значения
 
