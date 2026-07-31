@@ -12,8 +12,7 @@ avatar.GetClassChangerRangeBonusStats( changeList: table ): table | nil
 
 ## Список параметров
 
-- **`changeList`** (`table`)
-Список идентификаторов (`ObjectId`) предметов и самоцветов, выбранных на замену имеющимся у аватара и несовместимых с новым классом. Должны быть выбраны из данных, полученных функцией `avatar.GetClassChangerInfo` (из каждого списка `itemSubstitutions` второго уровня вложенности можно указать только один `substItemId`, аналогично для `oneOfEnchantSubstitution`). Порядок следования не важен.
+- **`changeList`** (`table`) - Список идентификаторов (`ObjectId`) предметов и самоцветов, выбранных на замену имеющимся у аватара и несовместимых с новым классом. Должны быть выбраны из данных, полученных функцией `avatar.GetClassChangerInfo` (из каждого списка `itemSubstitutions` второго уровня вложенности можно указать только один `substItemId`, аналогично для `oneOfEnchantSubstitution`). Порядок следования не важен.
 
 ## Возвращаемые значения
 
@@ -33,9 +32,9 @@ end
 
 ## Смотрите также
 
-- `itemLib.GetBonus`
-- `avatar.SetClassChangerInfo`
-- `avatar.GetClassChangerInfo`
-- `EVENT_CHARACTER_CLASS_CHANGER_CHANGED`
-- `avatar.GetClassChangerBonusStats`
-- `DRESS_SLOT_RANGED`
+- [itemLib.GetBonus](/api/category/itemLib/function.itemLib.GetBonus.md)
+- [avatar.SetClassChangerInfo](/api/category/avatar/function.avatar.SetClassChangerInfo.md)
+- [avatar.GetClassChangerInfo](/api/category/avatar/function.avatar.GetClassChangerInfo.md)
+- [EVENT_CHARACTER_CLASS_CHANGER_CHANGED](/api/events/events.EVENT_CHARACTER_.md#event-character-class-changer-changed)
+- [avatar.GetClassChangerBonusStats](/api/category/avatar/function.avatar.GetClassChangerBonusStats.md)
+- [DRESS_SLOT_*](/api/constants/constants.DRESS_SLOT.md)
