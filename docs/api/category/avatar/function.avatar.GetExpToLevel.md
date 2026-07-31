@@ -11,8 +11,7 @@ avatar.GetExpToLevel( level: number ): number
 
 ## Список параметров
 
-- **`level`** (`number`)
-Целочисленный идентификатор уровня, для которого необходимо получить требуемое количество опыта.
+- **`level`** (`number`) - Целочисленный идентификатор уровня, для которого необходимо получить требуемое количество опыта.
 
 ## Возвращаемые значения
 
@@ -29,5 +28,5 @@ local expToNextLevel = avatar.GetExpToLevel( currentLevel + 1 )
 
 ## Смотрите также
 
-avatar.GetId
-unit.GetLevel
+- [avatar.GetId](/api/category/avatar/function.avatar.GetId.md)
+- [unit.GetLevel](/api/category/unit/function.unit.GetLevel.md)
