@@ -45,4 +45,4 @@ end
 
 ## Смотрите также
 
-- [avatar.IsNextLevelLocked](avatar.IsNextLevelLocked)
+- [avatar.IsNextLevelLocked](/api/category/avatar/function.avatar.IsNextLevelLocked)
