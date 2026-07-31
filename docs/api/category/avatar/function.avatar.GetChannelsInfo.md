@@ -21,9 +21,9 @@ avatar.GetChannelsInfo(): table | nil
 - **`currentChannel`** (`number`) - индекс канала, в котором в данный момент находится главный персонаж.
 - **`[key]`** (`number`) - числовой индекс канала (индексация начинается с `0`).
 - **`[value]`** (`table`) - таблица с детальной информацией о канале:
-  - **`busyness`** (`number`) - показатель загруженности канала. Значение больше `1.0` означает, что канал перегружен.
-  - **`raidMembers`** (`table` | `nil`) - таблица, содержащая уникальные идентификаторы (`UniqueId`) членов отряда игрока. Возвращается `nil`, если игрок не состоит в отряде.
-  - **`groupMembers`** (`table` | `nil`) - таблица, содержащая уникальные идентификаторы (`UniqueId`) членов группы игрока. Поле отсутствует или равно `nil`, если группа является частью отряда.
+    - **`busyness`** (`number`) - показатель загруженности канала. Значение больше `1.0` означает, что канал перегружен.
+    - **`raidMembers`** (`table` | `nil`) - таблица, содержащая уникальные идентификаторы (`UniqueId`) членов отряда игрока. Возвращается `nil`, если игрок не состоит в отряде.
+    - **`groupMembers`** (`table` | `nil`) - таблица, содержащая уникальные идентификаторы (`UniqueId`) членов группы игрока. Поле отсутствует или равно `nil`, если группа является частью отряда.
 
 ## Примеры
 
@@ -50,6 +50,6 @@ end
 
 ## Смотрите также
 
-- [avatar.SwitchToChannel](avatar#switch-to-channel)
-- [group.GetMemberInfo](group#get-member-info)
-- `EVENT_MAP_CHANNELS_INFO_CHANGED`
+- [avatar.SwitchToChannel](/api/category/avatar/function.avatar.SwitchToChannel.md)
+- [group.GetMemberInfo](/api/category/group/function.group.GetMemberInfo.md)
+- [EVENT_MAP_CHANNELS_INFO_CHANGED](/api/events/events.EVENT_MAP_.md#event-map-channels-info-changed)
