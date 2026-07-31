@@ -37,4 +37,4 @@ avatar.ApplyStoredTalents()
 
 ## Смотрите также
 
-- [avatar.StoreFieldTalent](function.avatar.StoreFieldTalent)
+- [avatar.StoreFieldTalent](/api/category/avatar/function.avatar.StoreFieldTalent)
