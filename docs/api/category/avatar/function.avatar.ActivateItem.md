@@ -19,11 +19,9 @@ avatar.ActivateItem( itemId: ObjectId, instrumentId: ObjectId )
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`)
-Уникальный идентификатор неактивированного предмета, который необходимо активировать. Предмет обязательно должен находиться в инвентаре.
+- **`itemId`** (`ObjectId`) - Уникальный идентификатор неактивированного предмета, который необходимо активировать. Предмет обязательно должен находиться в инвентаре.
 
-- **`instrumentId`** (`ObjectId`)
-Уникальный идентификатор предмета-активатора, используемого для проведения операции активации.
+- **`instrumentId`** (`ObjectId`) - Уникальный идентификатор предмета-активатора, используемого для проведения операции активации.
 
 ## Возвращаемые значения
 
@@ -33,9 +31,6 @@ avatar.ActivateItem( itemId: ObjectId, instrumentId: ObjectId )
 
 ### Активация предмета с предварительной проверкой
 ```lua
-local itemId = 12345 -- Идентификатор неактивированного предмета
-local instrumentId = 67890 -- Идентификатор инструмента-активатора
-
 if avatar.CanActivateItem( itemId, instrumentId ) then
     avatar.ActivateItem( itemId, instrumentId )
 else
@@ -49,6 +44,6 @@ end
 
 ## Смотрите также
 
-- [avatar.CanActivateItem](function.avatar.CanActivateItem)
-- [itemLib.GetActivators](function.itemLib.GetActivators)
-- [itemLib.GetActivationInfo](function.itemLib.GetActivationInfo)
+- [avatar.CanActivateItem](/api/category/avatar/function.avatar.CanActivateItem)
+- [itemLib.GetActivators](/api/category/itemLib/function.itemLib.GetActivators)
+- [itemLib.GetActivationInfo](/api/category/itemLib/function.itemLib.GetActivationInfo)
