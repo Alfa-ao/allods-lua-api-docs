@@ -41,5 +41,5 @@ end
 
 ## Смотрите также
 
-- [EVENT_INTERACTION_STARTED](events.avatar#event-interaction-started)
-- [object.GetInteractorInfo](object.GetInteractorInfo)
+- [EVENT_INTERACTION_STARTED](/api/events/events.EVENT_INTERACTION_.md#event-interaction-started)
+- [object.GetInteractorInfo](/api/category/object/function.object.GetInteractorInfo.md)
