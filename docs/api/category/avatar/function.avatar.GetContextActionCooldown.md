@@ -15,8 +15,7 @@ avatar.GetContextActionCooldown( id: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`id`** (`ObjectId`)
-Уникальный идентификатор контекстного действия, информацию о кулдауне которого необходимо получить.
+- **`id`** (`ObjectId`) - Уникальный идентификатор контекстного действия, информацию о кулдауне которого необходимо получить.
 
 ## Возвращаемые значения
 
@@ -43,4 +42,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetContextActionInfo](function.avatar.GetContextActionInfo)
+- [avatar.GetContextActionInfo](/api/category/avatar/function.avatar.GetContextActionInfo)
