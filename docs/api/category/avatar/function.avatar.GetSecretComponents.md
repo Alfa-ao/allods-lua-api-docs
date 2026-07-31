@@ -51,4 +51,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetSecrets](function.avatar.GetSecrets)
+- [avatar.GetSecrets](/api/category/avatar/function.avatar.GetSecrets.md)
