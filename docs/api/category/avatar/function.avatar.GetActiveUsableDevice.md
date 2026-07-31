@@ -44,4 +44,4 @@ end
 
 ## Смотрите также
 
-- [EVENT_DEVICE_COOLDOWNS_ENABLE_CHANGED](events.device#event-device-cooldowns-enable-changed)
+- [EVENT_DEVICE_COOLDOWNS_ENABLE_CHANGED](/api/events/events.EVENT_DEVICE_.md#event-device-cooldowns-enable-changed)
