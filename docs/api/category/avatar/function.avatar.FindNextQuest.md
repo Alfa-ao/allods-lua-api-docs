@@ -10,12 +10,11 @@ avatar.FindNextQuest( mode: number ): boolean
 
 ## Список параметров
 
-- **`mode`** (`number`)
-Определяет область поиска следующего задания. Принимает значения из перечисления `QUEST_FIND_NEXT_QUEST_MODE_...`, указывающие, где искать квест: в текущей зоне аватара или во всем игровом мире.
+- **`mode`** (`number`) - Определяет область поиска следующего задания. Принимает значения из перечисления `QUEST_FIND_NEXT_QUEST_MODE_...`, указывающие, где искать квест: в текущей зоне аватара или во всем игровом мире.
 
 ## Возвращаемые значения
-**`boolean`**
-Возвращает `false`, если клиент уже ожидает ответа от сервера на аналогичный запрос. Возвращает `true`, если запрос успешно отправлен.
+
+**`boolean`** - Возвращает `false`, если клиент уже ожидает ответа от сервера на аналогичный запрос. Возвращает `true`, если запрос успешно отправлен.
 
 ## Примеры
 
@@ -26,5 +25,5 @@ avatar.FindNextQuest( QUEST_FIND_NEXT_QUEST_MODE_ZONE )
 
 ## Смотрите также
 
-- [QUEST_FIND_NEXT_QUEST_MODE_...](#quest-find-next-quest-mode)
-- [EVENT_QUEST_FIND_NEXT_RESULT](#event-quest-find-next-result)
+- [QUEST_FIND_NEXT_QUEST_MODE_...](/api/constants/constants.QUEST_FIND_NEXT_QUEST_MODE.md)
+- [EVENT_QUEST_FIND_NEXT_RESULT](/api/events/events.EVENT_QUEST_.md#event-quest-find-next-result)
