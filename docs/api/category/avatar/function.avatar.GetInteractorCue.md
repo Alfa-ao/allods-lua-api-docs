@@ -76,7 +76,6 @@ end
 
 ## Смотрите также
 
-- avatar.GetInteractorNextCues
-- EVENT_INTERACTION_STARTED
-- common.CreateValuedText
-- avatar.GetItemInfo
+- [avatar.GetInteractorNextCues](/api/category/avatar/function.avatar.GetInteractorNextCues.md)
+- [EVENT_INTERACTION_STARTED](/api/events/events.EVENT_INTERACTION_.md#event-interaction-started)
+- [common.CreateValuedText](/api/category/common/function.common.CreateValuedText.md)
