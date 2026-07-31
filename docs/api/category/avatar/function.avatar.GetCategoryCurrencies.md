@@ -11,8 +11,7 @@ avatar.GetCategoryCurrencies( categoryId: CurrencyCategoryId ): table
 
 ## Список параметров
 
-- **`categoryId`** (`CurrencyCategoryId`)
-Идентификатор категории валюты, для которой запрашивается список доступных ресурсов.
+- **`categoryId`** (`CurrencyCategoryId`) - Идентификатор категории валюты, для которой запрашивается список доступных ресурсов.
 
 ## Возвращаемые значения
 
@@ -22,7 +21,6 @@ avatar.GetCategoryCurrencies( categoryId: CurrencyCategoryId ): table
 
 ### Получение информации о первой валюте в категории
 ```lua
-local categoryId = 1 -- Идентификатор категории валюты
 local ids = avatar.GetCategoryCurrencies( categoryId )
 if ids and ids[0] then
   local info = avatar.GetCurrencyInfo( ids[0] )
