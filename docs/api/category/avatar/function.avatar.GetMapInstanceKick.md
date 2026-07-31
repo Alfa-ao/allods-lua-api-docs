@@ -42,4 +42,4 @@ end
 
 ## Смотрите также
 
-- [ENUM_AvatarKickCause_*](enums.avatar#enum-avatarkickcause)
+- [ENUM_AvatarKickCause_*](/api/enums/enums.ENUM_Avatar.md)
