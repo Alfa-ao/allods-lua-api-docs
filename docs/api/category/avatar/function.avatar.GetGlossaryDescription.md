@@ -11,8 +11,7 @@ avatar.GetGlossaryDescription( glossaryId: GlossaryId ): ValuedText
 
 ## Список параметров
 
-- **`glossaryId`** (`GlossaryId`)
-Уникальный идентификатор ресурса глоссария, описание которого необходимо получить.
+- **`glossaryId`** (`GlossaryId`) - Уникальный идентификатор ресурса глоссария, описание которого необходимо получить.
 
 ## Возвращаемые значения
 
@@ -22,6 +21,5 @@ avatar.GetGlossaryDescription( glossaryId: GlossaryId ): ValuedText
 
 ### Получение описания ресурса глоссария
 ```lua
-local glossaryId = 12345 -- Идентификатор ресурса глоссария
 local valuedText = avatar.GetGlossaryDescription( glossaryId )
 ```
