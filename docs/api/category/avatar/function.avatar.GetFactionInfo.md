@@ -11,19 +11,15 @@ avatar.GetFactionInfo( factionId: FactionId ): table | nil
 
 ## Список параметров
 
-- **`factionId`** (`FactionId`)
-Идентификатор фракции, информацию о которой необходимо получить. Может быть получен, например, из поля `winnerFactionId` функции `matchMaking.GetEventProgressInfo` или с помощью функции `unit.GetFactionId`.
+- **`factionId`** (`FactionId`) - Идентификатор фракции, информацию о которой необходимо получить. Может быть получен, например, из поля `winnerFactionId` функции `matchMaking.GetEventProgressInfo` или с помощью функции `unit.GetFactionId`.
 
 ## Возвращаемые значения
 
-Возвращает `table` или `nil`.
-Если данные успешно получены, возвращается таблица со следующими полями:
-- **`isSame`** (`boolean`)
-`true`, если указанная фракция является фракцией главного игрока (MainPlayer).
-- **`isFriend`** (`boolean`)
-`true`, если указанная фракция является дружественной.
-- **`isPassive`** (`boolean`)
-`true`, если указанная фракция не является агрессивной.
+Возвращает `table` или `nil`. Если данные успешно получены, возвращается таблица со следующими полями:
+
+- **`isSame`** (`boolean`) - `true`, если указанная фракция является фракцией главного игрока (MainPlayer).
+- **`isFriend`** (`boolean`) - `true`, если указанная фракция является дружественной.
+- **`isPassive`** (`boolean`) - `true`, если указанная фракция не является агрессивной.
 
 ## Примеры
 
@@ -38,6 +34,6 @@ end
 
 ## Смотрите также
 
-avatar.GetId
-unit.GetFactionId
-matchMaking.GetEventProgressInfo
+- [avatar.GetId](/api/category/avatar/function.avatar.GetId.md)
+- [unit.GetFactionId](/api/category/unit/function.unit.GetFactionId.md)
+- [matchMaking.GetEventProgressInfo](/api/category/matchMaking/function.matchMaking.GetEventProgressInfo.md)
