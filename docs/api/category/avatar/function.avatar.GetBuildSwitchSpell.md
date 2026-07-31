@@ -34,5 +34,5 @@ end
 
 ## Смотрите также
 
-- spellLib.GetRequirements
-- avatar.SetActiveBuild
+- [spellLib.GetRequirements](/api/category/spellLib/function.spellLib.GetRequirements.md)
+- [avatar.SetActiveBuild](/api/category/avatar/function.avatar.SetActiveBuild.md)
