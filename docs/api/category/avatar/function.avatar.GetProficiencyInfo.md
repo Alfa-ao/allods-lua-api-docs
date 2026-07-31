@@ -35,7 +35,7 @@ avatar.GetProficiencyInfo( id: ObjectId ): table | nil
 
 ### Получение информации о первой доступной профессии
 ```lua
-local proficiences = avatar.GetProficiences()
+local proficiences = avatar.GetProficiencies()
 if GetTableSize( proficiences ) > 0 then
     local proficiencyInfo = avatar.GetProficiencyInfo( proficiences[0] )
     if proficiencyInfo then
@@ -46,9 +46,9 @@ end
 ```
 
 ::: info Описание примера
-В примере сначала запрашивается общий список доступных профессий главного персонажа с помощью `avatar.GetProficiences()`. Затем проверяется, что список не пуст, и извлекается идентификатор первой профессии (`proficiences[0]`). Этот идентификатор передается в `avatar.GetProficiencyInfo()` для получения полной информации. При успешном получении данных из таблицы извлекается и выводится в лог название профессии.
+В примере сначала запрашивается общий список доступных профессий главного персонажа с помощью `avatar.GetProficiencies()`. Затем проверяется, что список не пуст, и извлекается идентификатор первой профессии (`proficiences[0]`). Этот идентификатор передается в `avatar.GetProficiencyInfo()` для получения полной информации. При успешном получении данных из таблицы извлекается и выводится в лог название профессии.
 :::
 
 ## Смотрите также
 
-- [avatar.GetProficiences](avatar.GetProficiences)
+- [avatar.GetProficiencies](/api/category/avatar/function.avatar.GetProficiencies)
