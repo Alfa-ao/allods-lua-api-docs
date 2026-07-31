@@ -32,4 +32,4 @@ end
 
 ## Смотрите также
 
-- [avatar.Respawn](function.avatar.Respawn)
+- [avatar.Respawn](/api/category/avatar/function.avatar.Respawn.md)
