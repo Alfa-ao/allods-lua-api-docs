@@ -19,8 +19,7 @@ avatar.GetContextActionShortInfo( id: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`id`** (`ObjectId`)
-Идентификатор контекстного действия.
+- **`id`** (`ObjectId`) - Идентификатор контекстного действия.
 
 ## Возвращаемые значения
 
@@ -30,8 +29,8 @@ avatar.GetContextActionShortInfo( id: ObjectId ): table | nil
 - **`sysType`** (`string`) - название типа контекстного действия (строковый enum `ENUM_CONTEXT_ACTION_TYPE_XXX`).
 - **`objectId`** (`ObjectId` | `nil`) - идентификатор объекта, к которому применяется контекстное действие, если он существует.
 - **`cooldown`** (`table` | `nil`) - информация о кулдауне, если она доступна. Таблица содержит следующие поля:
-  - `durationMs` (`number`) - длительность кулдауна в миллисекундах.
-  - `remainingMs` (`number`) - оставшееся время кулдауна в миллисекундах.
+    - `durationMs` (`number`) - длительность кулдауна в миллисекундах.
+    - `remainingMs` (`number`) - оставшееся время кулдауна в миллисекундах.
 
 или `nil`, если действие не найдено.
 
@@ -47,5 +46,5 @@ end
 
 ## Смотрите также
 
-- [EVENT_CONTEXT_ACTIONS_CHANGED](events.context#event-context-actions-changed)
-- [avatar.GetContextActionInfo](function.avatar.GetContextActionInfo)
+- [EVENT_CONTEXT_ACTIONS_CHANGED](/api/events/events.EVENT_CONTEXT_.md#event-context-actions-changed)
+- [avatar.GetContextActionInfo](/api/category/avatar/function.avatar.GetContextActionInfo)
