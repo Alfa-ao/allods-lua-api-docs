@@ -1,4 +1,5 @@
 # avatar.GetActionGroupSpells
+
 Возвращает список идентификаторов заклинаний из указанной группы для заданного класса персонажа.
 
 ## Описание
@@ -10,11 +11,9 @@ avatar.GetActionGroupSpells( actionGroupId: number, characterClassId: number ): 
 
 ## Список параметров
 
-- **`actionGroupId`** (`number`)
-Идентификатор ресурса группы заклинаний.
+- **`actionGroupId`** (`number`) - Идентификатор ресурса группы заклинаний.
 
-- **`characterClassId`** (`number`)
-Идентификатор ресурса класса игрока.
+- **`characterClassId`** (`number`) - Идентификатор ресурса класса игрока.
 
 ## Возвращаемые значения
 
@@ -30,7 +29,7 @@ local characterClassId = 2
 local spells = avatar.GetActionGroupSpells(actionGroupId, characterClassId)
 
 for index, spellId in pairs(spells) do
-    local spellInfo = avatar.GetSpellInfo(spellId)
+    local spellInfo = avatar.GetSpellInfo(spellId) (help)
     if spellInfo then
         common.LogInfo(spellInfo.name)
     end
@@ -40,9 +39,3 @@ end
 ::: info Описание примера
 В примере запрашиваются заклинания для заданной группы и класса. Далее происходит итерация по полученной таблице с использованием `pairs`, так как таблица индексируется с нуля. Для каждого идентификатора извлекается полная информация о заклинании и выводится его название в лог.
 :::
-
-## Смотрите также
-
-- [ActionGroupId](constants.action-group-id)
-- [CharacterClassId](constants.character-class-id)
-- [avatar.GetSpellInfo](avatar.getspellinfo)
