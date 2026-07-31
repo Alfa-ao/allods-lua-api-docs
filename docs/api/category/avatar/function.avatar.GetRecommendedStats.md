@@ -37,5 +37,5 @@ LogInfo( "Current recommended stats: ", recommendedStats )
 
 ## Смотрите также
 
-- [DRESS_SLOT_*](enums)
-- [ENUM_InnateStats_*](enums)
+- [DRESS_SLOT_*](/api/constants/constants.DRESS_SLOT.md)
+- [ENUM_InnateStats_*](/api/enums/enums.ENUM_InnateStats.md)
