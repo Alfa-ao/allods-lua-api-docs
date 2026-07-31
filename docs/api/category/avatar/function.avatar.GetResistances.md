@@ -33,6 +33,5 @@ end
 
 ## Смотрите также
 
-- [avatar.GetInnateStats](function.avatar.GetInnateStats)
-- [RESISTANCE_*](enums)
-- [ENUM_Element_*](enums)
+- [avatar.GetInnateStats](/api/category/avatar/function.avatar.GetInnateStats.md)
+- [ENUM_Element_* / RESISTANCE_*](/api/enums/enums.ENUM_Element.md)
