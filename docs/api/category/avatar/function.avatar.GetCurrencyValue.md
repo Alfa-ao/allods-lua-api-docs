@@ -15,8 +15,7 @@ avatar.GetCurrencyValue( currencyId: CurrencyId | nil ): table | nil
 
 ## Список параметров
 
-- **`currencyId`** (`CurrencyId` | `nil`)
-Идентификатор ресурса альтернативной валюты.
+- **`currencyId`** (`CurrencyId` | `nil`) - Идентификатор ресурса альтернативной валюты.
 
 ## Возвращаемые значения
 - **`table`** | **`nil`** - таблица с информацией о валюте или `nil` в случае ошибки.
@@ -31,12 +30,12 @@ avatar.GetCurrencyValue( currencyId: CurrencyId | nil ): table | nil
 ```lua
 local myrrhId = avatar.GetCurrencyId( "myrrh" )
 if myrrhId then
-  local currencyInfo = avatar.GetCurrencyValue( myrrhId )
-  if currencyInfo then
-    local currentValue = currencyInfo.value
-    local maxValue = currencyInfo.maxValue
-    LogInfo( "Текущее количество: ", currentValue, " / Максимум: ", maxValue )
-  end
+    local currencyInfo = avatar.GetCurrencyValue( myrrhId )
+    if currencyInfo then
+        local currentValue = currencyInfo.value
+        local maxValue = currencyInfo.maxValue
+        LogInfo( "Текущее количество: ", currentValue, " / Максимум: ", maxValue )
+    end
 end
 ```
 
