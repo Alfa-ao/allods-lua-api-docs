@@ -29,4 +29,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetEmoteInfo](function.avatar.GetEmoteInfo)
+- [avatar.GetEmoteInfo](/api/category/avatar/function.avatar.GetEmoteInfo)
