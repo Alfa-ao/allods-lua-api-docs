@@ -15,8 +15,7 @@ avatar.GetComponentInfo( id: ComponentPropertyId ): table | nil
 
 ## Список параметров
 
-- **`id`** (`ComponentPropertyId`)
-Уникальный идентификатор ресурса компонента.
+- **`id`** (`ComponentPropertyId`) - Уникальный идентификатор ресурса компонента.
 
 ## Возвращаемые значения
 
