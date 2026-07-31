@@ -26,5 +26,5 @@ local stat = avatar.GetPower()
 
 ## Смотрите также
 
-- [avatar.GetInnateStats](avatar.GetInnateStats)
-- [EVENT_AVATAR_STATS_CHANGED](events.avatar#event-avatar-stats-changed)
+- [avatar.GetInnateStats](/api/category/avatar/function.avatar.GetInnateStats)
+- [EVENT_AVATAR_STATS_CHANGED](/api/events/events.EVENT_AVATAR_.md#event-avatar-stats-changed)
