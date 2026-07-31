@@ -33,4 +33,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetSecretInfo](function.avatar.GetSecretInfo)
+- [avatar.GetSecretInfo](/api/category/avatar/function.avatar.GetSecretInfo.md)
