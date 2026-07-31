@@ -70,5 +70,5 @@ end
 
 ## Смотрите также
 
-- [cartographer.GetQuestGeodata](cartographer.GetQuestGeodata)
-- [QUEST_TYPE_*](enums.quest#quest-type)
+- [cartographer.GetQuestGeodata](/api/category/cartographer/function.cartographer.GetQuestGeodata)
+- [QUEST_TYPE_*](/api/constants/constants.QUEST_TYPE.md)
