@@ -30,4 +30,4 @@ end
 
 ## Смотрите также
 
-- [REPUTATION_LEVEL_*](enums)
+- [REPUTATION_LEVEL_*](/api/constants/constants.REPUTATION_LEVEL.md)
