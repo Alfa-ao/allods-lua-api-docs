@@ -33,4 +33,4 @@ end
 
 ## Смотрите также
 
-- [avatar.RequestInteractions](function.avatar.RequestInteractions)
+- [avatar.RequestInteractions](/api/category/avatar/function.avatar.RequestInteractions)
