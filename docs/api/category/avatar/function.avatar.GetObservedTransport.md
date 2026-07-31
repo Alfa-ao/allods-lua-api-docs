@@ -29,16 +29,17 @@ avatar.GetObservedTransport(): ObjectId | nil
 ```lua
 local transportId = avatar.GetObservedTransport()
 if transportId then
-    local energy = object.GetTransportEnergy( transportId )
+    local energy = transport.GetEnergy( transportId )
 end
 ```
 
 ::: info Описание примера
-В примере извлекается идентификатор просматриваемого транспортного средства. При успешном получении идентификатора вызывается функция `object.GetTransportEnergy` для определения уровня энергии транспорта.
+В примере извлекается идентификатор просматриваемого транспортного средства. При успешном получении идентификатора вызывается функция `transport.GetEnergy` для определения уровня энергии транспорта.
 :::
 
 ## Смотрите также
 
-- [avatar.GetObservedAstralUnit](avatar.GetObservedAstralUnit)
-- [EVENT_TRANSPORT_OBSERVING_STARTED](events.transport#event-transport-observing-started)
-- [EVENT_TRANSPORT_OBSERVING_FINISHED](events.transport#event-transport-observing-finished)
+- [transport.GetEnergy](/api/category/transport/function.transport.GetEnergy.md)
+- [avatar.GetObservedAstralUnit](/api/category/avatar/function.avatar.GetObservedAstralUnit)
+- [EVENT_TRANSPORT_OBSERVING_STARTED](/api/events/events.EVENT_TRANSPORT_.md#event-transport-observing-started)
+- [EVENT_TRANSPORT_OBSERVING_FINISHED](/api/events/events.EVENT_TRANSPORT_.md#event-transport-observing-finished)
