@@ -14,10 +14,8 @@ avatar.FindNextSecretComponentQuest( secretId: number, componentIndex: number )
 
 ## Список параметров
 
-- **`secretId`** (`number`)
-Идентификатор основного квеста тайны мира.
-- **`componentIndex`** (`number`)
-Порядковый номер запрашиваемой компоненты, получаемый через `avatar.GetSecretComponents`.
+- **`secretId`** (`number`) - Идентификатор основного квеста тайны мира.
+- **`componentIndex`** (`number`) - Порядковый номер запрашиваемой компоненты, получаемый через `avatar.GetSecretComponents`.
 
 ## Возвращаемые значения
 
@@ -26,8 +24,8 @@ avatar.FindNextSecretComponentQuest( secretId: number, componentIndex: number )
 ## Примеры
 
 ### Запрос следующего квеста тайны мира
+
 ```lua
-local secretId = 100500
 local components = avatar.GetSecretComponents(secretId)
 
 if components and #components > 0 then
@@ -41,5 +39,5 @@ end
 
 ## Смотрите также
 
-- [EVENT_QUEST_FIND_NEXT_RESULT](events.quest#event-quest-find-next-result)
-- [avatar.GetSecretComponents](avatar.get-secret-components)
+- [EVENT_QUEST_FIND_NEXT_RESULT](/api/events/events.EVENT_QUEST_.md#event-quest-find-next-result)
+- [avatar.GetSecretComponents](/api/category/avatar/function.avatar.GetSecretComponents.md)
