@@ -15,10 +15,8 @@ avatar.DuplicateMetaEnhancerItem( itemId: ObjectId, instrumentId: ObjectId )
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`)
-Идентификатор конвертируемого метапредмета в контейнере. Предмет обязан быть метапредметом-улучшителем. Проверка осуществляется через флаг `isMetaEnchancer` в таблице, возвращаемой функцией `avatar.GetItemMetaInfo`.
-- **`instrumentId`** (`ObjectId`)
-Идентификатор предмета-инструмента в контейнере. Предмет обязан быть специализированным предметом-дубликатором. Проверка осуществляется функцией `avatar.IsMetaEnhancerDuplicator`.
+- **`itemId`** (`ObjectId`) - Идентификатор конвертируемого метапредмета в контейнере. Предмет обязан быть метапредметом-улучшителем. Проверка осуществляется через флаг `isMetaEnchancer` в таблице, возвращаемой функцией `avatar.GetItemMetaInfo`.
+- **`instrumentId`** (`ObjectId`) - Идентификатор предмета-инструмента в контейнере. Предмет обязан быть специализированным предметом-дубликатором. Проверка осуществляется функцией `avatar.IsMetaEnhancerDuplicator`.
 
 ## Возвращаемые значения
 
@@ -39,5 +37,4 @@ end
 
 ## Смотрите также
 
-- [avatar.IsMetaEnhancerDuplicator](function.avatar.IsMetaEnhancerDuplicator)
-- [avatar.GetItemMetaInfo](function.avatar.GetItemMetaInfo)
+- [avatar.IsMetaEnhancerDuplicator](/api/category/avatar/function.avatar.IsMetaEnhancerDuplicator)
