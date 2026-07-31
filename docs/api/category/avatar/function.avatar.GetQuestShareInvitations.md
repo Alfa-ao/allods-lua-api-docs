@@ -43,4 +43,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetQuestInfo](function.avatar.GetQuestInfo)
+- [avatar.GetQuestInfo](/api/category/avatar/function.avatar.GetQuestInfo.md)
