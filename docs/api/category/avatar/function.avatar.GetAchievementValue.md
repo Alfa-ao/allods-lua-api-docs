@@ -11,8 +11,7 @@ avatar.GetAchievementValue( ruleId: number ): number
 
 ## Список параметров
 
-- **`ruleId`** (`number`)
-Идентификатор события.
+- **`ruleId`** (`number`) - Идентификатор события.
 
 ## Возвращаемые значения
 `number` - количество очков, заработанных в событии.
@@ -21,6 +20,5 @@ avatar.GetAchievementValue( ruleId: number ): number
 
 ### Получение значения очков за событие
 ```lua
-local ruleId = 12345
 local achievementValue = avatar.GetAchievementValue(ruleId)
 ```
