@@ -14,8 +14,7 @@ avatar.ChangeFairyBonus( statIndex: number )
 
 ## Список параметров
 
-- **`statIndex`** (`number`)
-Индекс характеристики из таблицы `fairyBonus.allowedStats`, к которой необходимо привязать бонус.
+- **`statIndex`** (`number`) - Индекс характеристики из таблицы `fairyBonus.allowedStats`, к которой необходимо привязать бонус.
 
 ## Возвращаемые значения
 
@@ -27,10 +26,10 @@ avatar.ChangeFairyBonus( statIndex: number )
 ```lua
 local allowedStats = avatar.GetStatsBonusesPart().fairyBonus.allowedStats
 if allowedStats and allowedStats[1] then
-  avatar.ChangeFairyBonus( 1 )
+    avatar.ChangeFairyBonus( 1 )
 end
 ```
 
 ## Смотрите также
 
-- `avatar.GetStatsBonusesPart()`
+- [avatar.GetStatsBonusesPart](/api/category/avatar/function.avatar.GetStatsBonusesPart.md)
