@@ -9,20 +9,22 @@ avatar.GetCurrencyId( sysName: string|nil ): CurrencyId|nil
 Функция извлекает и возвращает идентификатор ресурса альтернативной валюты на основе переданного внутриигрового системного имени. В случае ошибки, если валюта не найдена у игрока в данный момент или не существует в системе, функция возвращает `nil`.
 ## Список параметров
 
-- **`sysName`** (`string` | `nil`)
-Внутриигровое системное имя альтернативной валюты.
+- **`sysName`** (`string` | `nil`) - Внутриигровое системное имя альтернативной валюты.
+
 ## Возвращаемые значения
+
 `CurrencyId` | `nil` - Идентификатор ресурса альтернативной валюты. Если валюта не найдена у игрока или не существует в системе, возвращается `nil`.
+
 ## Примеры
 
 ### Получение и проверка информации о валюте
 ```lua
 local myrrhId = avatar.GetCurrencyId( "myrrh" )
 if myrrhId then
-  local info = myrrhId:GetInfo()
-  if info then
-    local currentValue = info.value
-  end
+    local info = myrrhId:GetInfo()
+    if info then
+        local currentValue = info.value
+    end
 end
 ```
 
