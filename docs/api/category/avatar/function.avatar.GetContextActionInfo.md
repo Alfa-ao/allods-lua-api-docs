@@ -16,8 +16,7 @@ avatar.GetContextActionInfo( id: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`id`** (`ObjectId`)
-Уникальный идентификатор контекстного действия.
+- **`id`** (`ObjectId`) - Уникальный идентификатор контекстного действия.
 
 ## Возвращаемые значения
 
@@ -72,6 +71,6 @@ end
 
 ## Смотрите также
 
-- [avatar.GetContextActionShortInfo](#)
-- [avatar.GetContextActionCooldown](#)
-- [EVENT_CONTEXT_ACTIONS_CHANGED](#)
+- [avatar.GetContextActionShortInfo](/api/category/avatar/function.avatar.GetContextActionShortInfo.md)
+- [avatar.GetContextActionCooldown](/api/category/avatar/function.avatar.GetContextActionCooldown.md)
+- [EVENT_CONTEXT_ACTIONS_CHANGED](/api/events/events.EVENT_CONTEXT_.md#event-context-actions-changed)
