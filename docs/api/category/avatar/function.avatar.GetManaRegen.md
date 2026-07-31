@@ -39,4 +39,4 @@ LogInfo( "manaregen base: ", manaRegen.base, " manaregen effective: ", manaRegen
 
 ## Смотрите также
 
-- [avatar.GetInnateStats](avatar.GetInnateStats)
+- [avatar.GetInnateStats](/api/category/avatar/function.avatar.GetInnateStats)
