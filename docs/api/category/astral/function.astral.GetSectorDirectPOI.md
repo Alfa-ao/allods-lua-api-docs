@@ -11,8 +11,7 @@ astral.GetSectorDirectPOI( sectorId: ObjectId ): ObjectId | nil
 
 ## Список параметров
 
-- **`sectorId`** (`ObjectId`)
-Уникальный идентификатор сектора, в котором производится поиск точки астрального события.
+- **`sectorId`** (`ObjectId`) - Уникальный идентификатор сектора, в котором производится поиск точки астрального события.
 
 ## Возвращаемые значения
 
@@ -37,4 +36,4 @@ end
 
 ## Смотрите также
 
-- [astral.GetPOIInfo](astral.GetPOIInfo)
+- [astral.GetPOIInfo](/api/category/astral/function.astral.GetPOIInfo)
