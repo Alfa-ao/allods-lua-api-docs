@@ -10,8 +10,7 @@ avatar.GetDressSlotInfo( dressSlot: number ): table | nil
 
 ## Список параметров
 
-- **`dressSlot`** (`number`)
-Номер слота экипировки. Значение задается с помощью констант перечисления `DRESS_SLOT_...`.
+- **`dressSlot`** (`number`) - Номер слота экипировки. Значение задается с помощью констант перечисления `DRESS_SLOT_...`.
 
 ## Возвращаемые значения
 
@@ -27,6 +26,6 @@ local slotInfo = avatar.GetDressSlotInfo( DRESS_SLOT_HELM )
 LogInfo( "Информация о слоте: ", slotInfo )
 ```
 
+## Смотрите также
 
-
-DRESS_SLOT_
+- [DRESS_SLOT_*](/api/constants/constants.DRESS_SLOT.md)
