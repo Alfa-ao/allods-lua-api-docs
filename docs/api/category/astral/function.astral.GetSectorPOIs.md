@@ -11,8 +11,7 @@ astral.GetSectorPOIs( sectorId: ObjectId ): table
 
 ## Список параметров
 
-- **`sectorId`** (`ObjectId`)
-Уникальный идентификатор сектора астрала, для которого необходимо получить список точек интереса.
+- **`sectorId`** (`ObjectId`) - Уникальный идентификатор сектора астрала, для которого необходимо получить список точек интереса.
 
 ## Возвращаемые значения
 
@@ -37,4 +36,4 @@ end
 
 ## Смотрите также
 
-- [astral.GetPOIInfo](astral.GetPOIInfo)
+- [astral.GetPOIInfo](/api/category/astral/function.astral.GetPOIInfo)
