@@ -23,10 +23,14 @@ avatar.GetBindedTransport(): ObjectId | nil
 ```lua
 local transportId = avatar.GetBindedTransport()
 if transportId then
-  local energy = object.GetTransportEnergy( transportId )
+  local energy = transport.GetEnergy( transportId )
 end
 ```
 
 ::: info Описание примера
-В примере запрашивается идентификатор привязанного транспортного средства. Если транспортное средство существует (идентификатор не равен `nil`), извлекается текущий уровень его энергии с помощью функции `object.GetTransportEnergy`.
+В примере запрашивается идентификатор привязанного транспортного средства. Если транспортное средство существует (идентификатор не равен `nil`), извлекается текущий уровень его энергии с помощью функции `transport.GetEnergy`.
 :::
+
+## Смотрите также
+
+- [transport.GetEnergy](/api/category/transport/function.transport.GetEnergy.md)
