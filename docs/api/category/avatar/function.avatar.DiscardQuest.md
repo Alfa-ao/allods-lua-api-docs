@@ -15,8 +15,7 @@ avatar.DiscardQuest( questId: QuestId )
 
 ## Список параметров
 
-- **`questId`** (`QuestId`)
-Уникальный идентификатор задания, которое необходимо удалить из журнала заданий.
+- **`questId`** (`QuestId`) - Уникальный идентификатор задания, которое необходимо удалить из журнала заданий.
 
 ## Возвращаемые значения
 
@@ -26,7 +25,5 @@ avatar.DiscardQuest( questId: QuestId )
 
 ### Удаление задания из журнала
 ```lua
-local questId = 12345
-
 avatar.DiscardQuest( questId )
 ```
