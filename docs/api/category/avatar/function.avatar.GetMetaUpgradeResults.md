@@ -56,8 +56,7 @@ end
 
 ## Смотрите также
 
-- [avatar.UpgradeMetaItem](avatar.UpgradeMetaItem)
-- [avatar.GetItemMetaInfo](avatar.GetItemMetaInfo)
-- [EVENT_META_UPGRADE_RESULT](events.meta_upgrade#event-meta-upgrade-result)
-- [ENUM_UpgradeChanceBehavior_*](enums.meta_upgrade#enum-upgradechancebehavior)
-- [META_UPGRADE_*](enums.meta_upgrade#meta-upgrade)
+- [avatar.UpgradeMetaItem](/api/category/avatar/function.avatar.UpgradeMetaItem)
+- [EVENT_META_UPGRADE_RESULT](/api/events/events.EVENT_META_.md#event-meta-upgrade-result)
+- [ENUM_UpgradeChanceBehavior_*](/api/enums/enums.ENUM_UpgradeChanceBehavior.md)
+- [META_UPGRADE_*](/api/constants/constants.META_UPGRADE.md)
