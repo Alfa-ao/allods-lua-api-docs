@@ -26,7 +26,7 @@ avatar.DistributeStatPoints()
 
 ## Смотрите также
 
-- [avatar.CanImproveInnateStats](avatar.CanImproveInnateStats)
-- [avatar.ImproveInnateStat](avatar.ImproveInnateStat)
-- [avatar.GetInnateStats](avatar.GetInnateStats)
-- [EVENT_AVATAR_STATS_CHANGED](events#event-avatar-stats-changed)
+- [avatar.CanImproveInnateStats](/api/category/avatar/function.avatar.CanImproveInnateStats)
+- [avatar.ImproveInnateStat](/api/category/avatar/function.avatar.ImproveInnateStat)
+- [avatar.GetInnateStats](/api/category/avatar/function.avatar.GetInnateStats)
+- [EVENT_AVATAR_STATS_CHANGED](/api/events/events.EVENT_AVATAR_.md#event-avatar-stats-changed)
