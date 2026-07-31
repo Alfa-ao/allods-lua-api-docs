@@ -10,12 +10,9 @@ avatar.GetFieldTalentInfo( field: number, row: number, column: number ): table |
 
 ## Список параметров
 
-- **`field`** (`number`)
-Номер поля талантов.
-- **`row`** (`number`)
-Номер строки в указанном поле.
-- **`column`** (`number`)
-Номер столбца в указанном поле.
+- **`field`** (`number`) - Номер поля талантов.
+- **`row`** (`number`) - Номер строки в указанном поле.
+- **`column`** (`number`) - Номер столбца в указанном поле.
 
 ## Возвращаемые значения
 
@@ -33,4 +30,4 @@ local talentInfo = avatar.GetFieldTalentInfo( field, row, column )
 
 ## Смотрите также
 
-- [avatar.GetBaseTalentInfo](#)
+- [avatar.GetBaseTalentInfo](/api/category/avatar/function.avatar.GetBaseTalentInfo.md)
