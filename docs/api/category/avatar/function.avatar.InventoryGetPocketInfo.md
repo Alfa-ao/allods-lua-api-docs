@@ -48,4 +48,4 @@ end
 
 ## Смотрите также
 
-- [EVENT_INVENTORY_SLOT_CHANGED](events#event-inventory-slot-changed)
+- [EVENT_INVENTORY_SLOT_CHANGED](/api/events/events.EVENT_INVENTORY_.md#event-inventory-slot-changed)
