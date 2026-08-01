@@ -55,5 +55,5 @@ end
 
 ## Смотрите также
 
-- [Geodata](Geodata)
-- [object.GetPos](../object/function.object.GetPos)
+- [Geodata](/articles/Geodata.md)
+- [object.GetPos](/api/category/object/function.object.GetPos.md)
