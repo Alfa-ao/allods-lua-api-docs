@@ -26,4 +26,4 @@ avatar.CallSpark()
 
 ## Смотрите также
 
-- [EVENT_CALL_SPARK_FAILED](events.avatar#event-call-spark-failed)
+- [EVENT_CALL_SPARK_FAILED](/api/events/events.EVENT_CALL_.md#event-call-spark-failed)
