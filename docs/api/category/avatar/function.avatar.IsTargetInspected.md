@@ -36,5 +36,5 @@ end
 
 ## Смотрите также
 
-- [avatar.IsInspectAllowed](avatar.IsInspectAllowed)
-- [avatar.EndInspect](avatar.EndInspect)
+- [avatar.IsInspectAllowed](/api/category/avatar/function.avatar.IsInspectAllowed)
+- [avatar.EndInspect](/api/category/avatar/function.avatar.EndInspect)
