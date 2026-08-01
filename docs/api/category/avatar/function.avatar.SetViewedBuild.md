@@ -27,4 +27,4 @@ avatar.SetViewedBuild( 0 )
 
 ## Смотрите также
 
-- [avatar.GetBuildsCount](avatar.GetBuildsCount)
+- [avatar.GetBuildsCount](/api/category/avatar/function.avatar.GetBuildsCount)
