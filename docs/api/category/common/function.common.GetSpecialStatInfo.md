@@ -42,4 +42,4 @@ end
 
 ## Смотрите также
 
-- [ENUM_SpecialStatType](enums.specialstat#enum-specialstattype)
+- [ENUM_SpecialStatType](/api/enums/enums.ENUM_SpecialStatType.md)
