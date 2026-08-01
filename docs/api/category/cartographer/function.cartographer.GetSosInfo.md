@@ -44,5 +44,5 @@ end
 
 ## Смотрите также
 
-- [Geodata](Geodata)
-- [cartographer.GetSosObjects](function.cartographer.GetSosObjects)
+- [Geodata](/articles/Geodata.md)
+- [cartographer.GetSosObjects](/api/category/cartographer/function.cartographer.GetSosObjects.md)
