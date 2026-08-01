@@ -32,4 +32,4 @@ LogInfo( avatar.SaveActionPanel( avatar.GetClass(), 0 ) )
 
 ## Смотрите также
 
-- [avatar.GetClass](avatar.GetClass)
+- [avatar.GetClass](/api/category/avatar/function.avatar.GetClass)
