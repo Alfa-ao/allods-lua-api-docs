@@ -32,4 +32,4 @@ local isHideSpellInCollection = not isSpellLearned and checkroomLib.IsHideSpellW
 
 ## Смотрите также
 
-- [avatar.HasSpell](../avatar/function.avatar.HasSpell)
+- [avatar.HasSpell](/api/category/avatar/function.avatar.HasSpell.md)
