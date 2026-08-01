@@ -39,4 +39,4 @@ changeRoom.SetCameraPath( "cameraPath.(Route)", "targetPath.(Route)", 1.5 )
 
 ## Смотрите также
 
-- [EVENT_CHANGE_ROOM_CHARACTER_SCENE_CAMERA_READY](events.changeRoom#event-change-room-character-scene-camera-ready)
+- [EVENT_CHANGE_ROOM_CHARACTER_SCENE_CAMERA_READY](/api/events/events.EVENT_CHANGE_.md#event-change-room-character-scene-camera-ready)
