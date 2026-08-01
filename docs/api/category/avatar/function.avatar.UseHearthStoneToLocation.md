@@ -27,5 +27,5 @@ avatar.UseHearthStoneToLocation( locationId )
 
 ## Смотрите также
 
-- [avatar.GetTeleportLocations](avatar.GetTeleportLocations)
-- [avatar.GetHearthStoneLocator](avatar.GetHearthStoneLocator)
+- [avatar.GetTeleportLocations](/api/category/avatar/function.avatar.GetTeleportLocations)
+- [avatar.GetHearthStoneLocator](/api/category/avatar/function.avatar.GetHearthStoneLocator)
