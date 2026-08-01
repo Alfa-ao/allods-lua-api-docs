@@ -46,4 +46,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetVariables](function.avatar.GetVariables)
+- [avatar.GetVariables](/api/category/avatar/function.avatar.GetVariables.md)
