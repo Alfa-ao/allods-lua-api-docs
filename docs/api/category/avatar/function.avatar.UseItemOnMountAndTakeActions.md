@@ -31,4 +31,4 @@ avatar.UseItemOnMountAndTakeActions( itemId, mountId, 3 )
 
 ## Смотрите также
 
-- [itemLib.IsUseOnMountAndTakeActions](itemLib.IsUseOnMountAndTakeActions)
+- [itemLib.IsUseOnMountAndTakeActions](/api/category/itemLib/function.itemLib.IsUseOnMountAndTakeActions)
