@@ -34,4 +34,4 @@ local group = common.GetStateRelatedSoundGroup( "TestGroup" )
 
 ## Смотрите также
 
-- [RelatedSoundsLua](RelatedSoundsLua)
+- [RelatedSoundsLua](/api/types/RelatedSoundsLua.md)
