@@ -27,4 +27,4 @@ end
 
 ## Смотрите также
 
-- [EVENT_AVATAR_ALIVE_CHANGED](events#event-avatar-alive-changed)
+- [EVENT_AVATAR_ALIVE_CHANGED](/api/events/events.EVENT_AVATAR_.md#event-avatar-alive-changed)
