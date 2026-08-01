@@ -33,4 +33,4 @@ local itemInfo = itemLib.GetItemInfo( checkroomItemId )
 
 ## Смотрите также
 
-- [itemLib.GetItemInfo](itemLib.GetItemInfo)
+- [itemLib.GetItemInfo](/api/category/itemLib/function.itemLib.GetItemInfo)
