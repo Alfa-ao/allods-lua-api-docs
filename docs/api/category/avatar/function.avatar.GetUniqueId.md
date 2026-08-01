@@ -26,4 +26,4 @@ local id = avatar.GetUniqueId()
 
 ## Смотрите также
 
-- [UniqueId](UniqueId)
+- [UniqueId](/api/types/LuaApi.md)
