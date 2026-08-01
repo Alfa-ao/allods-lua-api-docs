@@ -32,4 +32,4 @@ end
 
 ## Смотрите также
 
-- [binding.ApplyRebind](binding.ApplyRebind)
+- [binding.ApplyRebind](/api/category/binding/function.binding.ApplyRebind)
