@@ -40,5 +40,5 @@ end
 
 ## Смотрите также
 
-- [RelatedTextsLua](../classes/RelatedTextsLua)
-- [common.GetAddonRelatedTextGroup](function.common.GetAddonRelatedTextGroup)
+- [RelatedTextsLua](/api/types/RelatedTextsLua.md)
+- [common.GetAddonRelatedTextGroup](/api/category/common/function.common.GetAddonRelatedTextGroup.md)
