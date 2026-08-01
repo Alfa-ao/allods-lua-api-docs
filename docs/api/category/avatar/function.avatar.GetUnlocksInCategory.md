@@ -36,5 +36,5 @@ end
 
 ## Смотрите также
 
-- [avatar.GetUnlockCategories](avatar.GetUnlockCategories)
-- [avatar.GetUnlockInfo](avatar.GetUnlockInfo)
+- [avatar.GetUnlockCategories](/api/category/avatar/function.avatar.GetUnlockCategories)
+- [avatar.GetUnlockInfo](/api/category/avatar/function.avatar.GetUnlockInfo)
