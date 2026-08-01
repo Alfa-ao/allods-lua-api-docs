@@ -44,5 +44,5 @@ end
 
 ## Смотрите также
 
-- [cartographer.IsFinalQuestCompleted](cartographer.IsFinalQuestCompleted)
-- [cartographer.GetZonesMapInfo](cartographer.GetZonesMapInfo)
+- [cartographer.IsFinalQuestCompleted](/api/category/cartographer/function.cartographer.IsFinalQuestCompleted)
+- [cartographer.GetZonesMapInfo](/api/category/cartographer/function.cartographer.GetZonesMapInfo)
