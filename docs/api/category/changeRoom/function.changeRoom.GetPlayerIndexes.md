@@ -62,4 +62,4 @@ end
 
 ## Смотрите также
 
-- [changeRoom.GetAvatarTemplate](changeRoom.GetAvatarTemplate)
+- [changeRoom.GetAvatarTemplate](/api/category/changeRoom/function.changeRoom.GetAvatarTemplate)
