@@ -37,4 +37,4 @@ LogInfo( "Прошло времени (сек): ", deltaSeconds )
 
 ## Смотрите также
 
-- [EVENT_SECOND_TIMER](events#event-second-timer)
+- [EVENT_SECOND_TIMER](/api/events/events.EVENT_SECOND_.md#event-second-timer)
