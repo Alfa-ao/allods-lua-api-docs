@@ -35,4 +35,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetTargetSales](function.avatar.GetTargetSales)
+- [avatar.GetTargetSales](/api/category/avatar/function.avatar.GetTargetSales.md)
