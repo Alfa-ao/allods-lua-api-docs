@@ -43,4 +43,4 @@ end
 
 ## Смотрите также
 
-- [cartographer.GetMapBlocks](cartographer.GetMapBlocks)
+- [cartographer.GetMapBlocks](/api/category/cartographer/function.cartographer.GetMapBlocks)
