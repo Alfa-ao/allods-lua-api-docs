@@ -37,5 +37,5 @@ end
 
 ## Смотрите также
 
-- [avatar.GetTemporaryUnlockCategories](avatar.GetTemporaryUnlockCategories)
-- [avatar.GetUnlockInfo](avatar.GetUnlockInfo)
+- [avatar.GetTemporaryUnlockCategories](/api/category/avatar/function.avatar.GetTemporaryUnlockCategories)
+- [avatar.GetUnlockInfo](/api/category/avatar/function.avatar.GetUnlockInfo)
