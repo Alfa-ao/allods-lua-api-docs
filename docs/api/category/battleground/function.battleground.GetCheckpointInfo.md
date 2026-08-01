@@ -53,6 +53,6 @@ end
 
 ## Смотрите также
 
-- [battleground.GetCheckpoints](battleground.GetCheckpoints)
-- [battleground.GetAvatarMark](battleground.GetAvatarMark)
-- [ENUM_RecapturablePlayerSpawnPlaceState_*](enums.battleground#enum-recapturableplayerspawnplacestate)
+- [battleground.GetCheckpoints](/api/category/battleground/function.battleground.GetCheckpoints)
+- [battleground.GetAvatarMark](/api/category/battleground/function.battleground.GetAvatarMark)
+- [ENUM_RecapturablePlayerSpawnPlaceState_*](/api/enums/enums.ENUM_RecapturablePlayerSpawnPlaceState.md)
