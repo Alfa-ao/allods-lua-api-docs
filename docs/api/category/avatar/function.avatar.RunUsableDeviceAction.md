@@ -7,7 +7,7 @@
 avatar.RunUsableDeviceAction( index: number )
 ```
 
-Функция инициирует выполнение одного из действий используемого устройства. Перечень доступных действий запрашивается через функцию `avatar.GetUsableDeviceInfo`.
+Функция инициирует выполнение одного из действий используемого устройства. Перечень доступных действий запрашивается через функцию `avatar.GetUsableDeviceInfo -- deprecated`.
 
 ::: warning Замечание
 В пользовательских аддонах присутствует ограничение: функция обрабатывается исключительно в реакциях на действия мыши (например, нажатие кнопки) и игнорирует события перемещения курсора.
@@ -29,7 +29,3 @@ avatar.RunUsableDeviceAction( index: number )
 local actionIndex = 0
 avatar.RunUsableDeviceAction( actionIndex )
 ```
-
-## Смотрите также
-
-- [avatar.GetUsableDeviceInfo](avatar.GetUsableDeviceInfo)
