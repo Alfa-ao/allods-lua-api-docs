@@ -26,4 +26,4 @@ local stats = avatar.GetViewedBuildFreeStatPoints()
 
 ## Смотрите также
 
-- [avatar.SetViewedBuild](avatar.SetViewedBuild)
+- [avatar.SetViewedBuild](/api/category/avatar/function.avatar.SetViewedBuild)
