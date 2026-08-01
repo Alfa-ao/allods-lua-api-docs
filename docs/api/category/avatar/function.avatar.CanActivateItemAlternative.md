@@ -13,10 +13,8 @@ avatar.CanActivateItemAlternative( itemId: ObjectId, currencyId: CurrencyId ): b
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`)
-Уникальный идентификатор предмета.
-- **`currencyId`** (`CurrencyId`)
-Идентификатор альтернативной валюты.
+- **`itemId`** (`ObjectId`) - Уникальный идентификатор предмета.
+- **`currencyId`** (`CurrencyId`) - Идентификатор альтернативной валюты.
 
 ## Возвращаемые значения
 
@@ -31,6 +29,6 @@ local canActivate = avatar.CanActivateItemAlternative( itemId, currencyId )
 
 ## Смотрите также
 
-- [avatar.ActivateItemAlternative](function.avatar.ActivateItemAlternative)
-- [itemLib.GetActivatorsAlternative](function.itemLib.GetActivatorsAlternative)
-- [itemLib.GetActivationInfo](function.itemLib.GetActivationInfo)
+- [avatar.ActivateItemAlternative](/api/category/avatar/function.avatar.ActivateItemAlternative)
+- [itemLib.GetActivatorsAlternative](/api/category/itemLib/function.itemLib.GetActivatorsAlternative)
+- [itemLib.GetActivationInfo](/api/category/itemLib/function.itemLib.GetActivationInfo)
