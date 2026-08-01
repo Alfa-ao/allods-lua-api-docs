@@ -43,5 +43,4 @@ end
 
 ## Смотрите также
 
-- [avatar.RequestVendor](function.avatar.RequestVendor)
-- [avatar.GetItemInfo](function.avatar.GetItemInfo)
+- [avatar.RequestVendor](/api/category/avatar/function.avatar.RequestVendor.md)
