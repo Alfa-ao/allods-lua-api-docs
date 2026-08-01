@@ -27,4 +27,4 @@ avatar.RequestQuestsForItem( itemId )
 ```
 ## Смотрите также
 
-- [EVENT_ITEM_QUESTS_RECEIVED](events.item#event-item-quests-received)
+- [EVENT_ITEM_QUESTS_RECEIVED](/api/events/events.EVENT_ITEM_.md#event-item-quests-received)
