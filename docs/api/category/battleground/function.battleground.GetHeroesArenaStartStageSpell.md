@@ -33,4 +33,4 @@ end
 
 ## Смотрите также
 
-- [avatar.RunSpell](avatar.RunSpell)
+- [avatar.RunSpell](/api/category/avatar/function.avatar.RunSpell)
