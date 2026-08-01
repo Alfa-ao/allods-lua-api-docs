@@ -54,5 +54,5 @@ end
 
 ## Смотрите также
 
-- [common.DelayedCall](common.DelayedCall)
-- [common.CancelDelayedCall](common.CancelDelayedCall)
+- [common.DelayedCall](/api/category/common/function.common.DelayedCall)
+- [common.CancelDelayedCall](/api/category/common/function.common.CancelDelayedCall)
