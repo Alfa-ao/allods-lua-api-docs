@@ -29,4 +29,4 @@ end
 
 ## Смотрите также
 
-- [checkroomLib.IsOpened](checkroomLib.IsOpened)
+- [checkroomLib.IsOpened](/api/category/checkroomLib/function.checkroomLib.IsOpened)
