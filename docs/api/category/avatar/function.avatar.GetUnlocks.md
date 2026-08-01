@@ -36,7 +36,7 @@ end
 
 ## Смотрите также
 
-- [avatar.GetInfiniteUnlocks](avatar.GetInfiniteUnlocks)
-- [avatar.GetTemporaryUnlocks](avatar.GetTemporaryUnlocks)
-- [avatar.GetUnlockInfo](avatar.GetUnlockInfo)
-- [avatar.HasUnlock](avatar.HasUnlock)
+- [avatar.GetInfiniteUnlocks](/api/category/avatar/function.avatar.GetInfiniteUnlocks)
+- [avatar.GetTemporaryUnlocks](/api/category/avatar/function.avatar.GetTemporaryUnlocks)
+- [avatar.GetUnlockInfo](/api/category/avatar/function.avatar.GetUnlockInfo)
+- [avatar.HasUnlock](/api/category/avatar/function.avatar.HasUnlock)
