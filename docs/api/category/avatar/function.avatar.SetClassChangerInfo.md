@@ -27,5 +27,5 @@ avatar.SetClassChangerInfo( { itemId1, itemId2, enchantId1, enchantId2, itemId3 
 
 ## Смотрите также
 
-- [avatar.GetClassChangerInfo](avatar.GetClassChangerInfo)
-- [EVENT_CHARACTER_CLASS_CHANGER_CHANGED](events.character#event-character-class-changer-changed)
+- [avatar.GetClassChangerInfo](/api/category/avatar/function.avatar.GetClassChangerInfo)
+- [EVENT_CHARACTER_CLASS_CHANGER_CHANGED](/api/events/events.EVENT_CHARACTER_.md#event-character-class-changer-changed)
