@@ -39,5 +39,5 @@ end
 
 ## Смотрите также
 
-- [cartographer.GetCurrentMapInfo](cartographer.GetCurrentMapInfo)
-- [cartographer.GetZonesMapInfo](cartographer.GetZonesMapInfo)
+- [cartographer.GetCurrentMapInfo](/api/category/cartographer/function.cartographer.GetCurrentMapInfo)
+- [cartographer.GetZonesMapInfo](/api/category/cartographer/function.cartographer.GetZonesMapInfo)
