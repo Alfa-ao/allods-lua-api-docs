@@ -27,4 +27,4 @@ avatar.SetFollowTarget( true )
 
 ## Смотрите также
 
-- [EVENT_FOLLOW_MODE_CHANGED](events#event-follow-mode-changed)
+- [EVENT_FOLLOW_MODE_CHANGED](/api/events/events.EVENT_FOLLOW_.md#event-follow-mode-changed)
