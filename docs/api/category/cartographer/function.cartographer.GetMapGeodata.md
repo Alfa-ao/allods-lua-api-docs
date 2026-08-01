@@ -28,4 +28,4 @@ LogInfo( geodata )
 
 ## Смотрите также
 
-- [Geodata](Geodata)
+- [Geodata](/articles/Geodata.md)
