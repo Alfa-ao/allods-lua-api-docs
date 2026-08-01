@@ -38,5 +38,5 @@ end
 
 ## Смотрите также
 
-- [avatar.GetChannelsInfo](avatar.GetChannelsInfo)
-- [EVENT_MAP_CHANNELS_INFO_CHANGED](events.map#event-map-channels-info-changed)
+- [avatar.GetChannelsInfo](/api/category/avatar/function.avatar.GetChannelsInfo)
+- [EVENT_MAP_CHANNELS_INFO_CHANGED](/api/events/events.EVENT_MAP_.md#event-map-channels-info-changed)
