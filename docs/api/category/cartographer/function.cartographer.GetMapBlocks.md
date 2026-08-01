@@ -29,4 +29,4 @@ end
 
 ## Смотрите также
 
-- [cartographer.GetMapBlockInfo](cartographer.GetMapBlockInfo)
+- [cartographer.GetMapBlockInfo](/api/category/cartographer/function.cartographer.GetMapBlockInfo)
