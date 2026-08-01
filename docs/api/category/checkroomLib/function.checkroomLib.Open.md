@@ -28,5 +28,5 @@ end
 
 ## Смотрите также
 
-- [EVENT_CHECKROOM_CHANGED](events.checkroom#event-checkroom-changed)
-- [checkroomLib.IsOpened](function.checkroomLib.IsOpened)
+- [EVENT_CHECKROOM_CHANGED](/api/events/events.EVENT_CHECKROOM_.md#event-checkroom-changed)
+- [checkroomLib.IsOpened](/api/category/checkroomLib/function.checkroomLib.IsOpened.md)
