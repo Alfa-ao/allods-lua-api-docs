@@ -29,5 +29,5 @@ end
 
 ## Смотрите также
 
-- [avatar.EnableClientDetector](avatar.EnableClientDetector)
-- [CLIENT_DETECTOR_*](enums)
+- [avatar.EnableClientDetector](/api/category/avatar/function.avatar.EnableClientDetector)
+- [CLIENT_DETECTOR_*](/api/category/avatar/function.avatar.EnableClientDetector)
