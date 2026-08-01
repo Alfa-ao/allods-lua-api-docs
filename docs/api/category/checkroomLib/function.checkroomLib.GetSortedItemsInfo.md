@@ -49,8 +49,8 @@ local name = items[ 1 ].name
 
 ## Смотрите также
 
-- [DRESS_SLOT_...](#)
-- [ITEM_QUALITY_...](#)
-- [itemLib.GetItemInfo](../itemLib/function.itemLib.GetItemInfo)
-- [itemLib.GetQuality](../itemLib/function.itemLib.GetQuality)
-- [itemLib.IsHideLifestyleWhileNotEquipped](../itemLib/function.itemLib.IsHideLifestyleWhileNotEquipped)
+- [DRESS_SLOT_*](/api/constants/constants.DRESS_SLOT.md)
+- [ITEM_QUALITY_...](/api/constants/constants.ITEM_QUALITY.md)
+- [itemLib.GetItemInfo](/api/category/itemLib/function.itemLib.GetItemInfo.md)
+- [itemLib.GetQuality](/api/category/itemLib/function.itemLib.GetQuality.md)
+- [itemLib.IsHideLifestyleWhileNotEquipped](/api/category/itemLib/function.itemLib.IsHideLifestyleWhileNotEquipped.md)
