@@ -38,4 +38,4 @@ avatar.RunSpell( spellbook[1] )
 
 ## Смотрите также
 
-- [avatar.GetSpellBook](avatar.GetSpellBook)
+- [avatar.GetSpellBook](/api/category/avatar/function.avatar.GetSpellBook)
