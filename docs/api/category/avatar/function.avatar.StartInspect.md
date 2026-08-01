@@ -31,4 +31,4 @@ avatar.StartInspect( unitId )
 
 ## Смотрите также
 
-- [avatar.IsInspectAllowed](avatar.IsInspectAllowed)
+- [avatar.IsInspectAllowed](/api/category/avatar/function.avatar.IsInspectAllowed)
