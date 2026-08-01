@@ -37,4 +37,4 @@ common.DisablePersonalEvent( "EVENT_OBJECT_BUFF_ADDED", avatar.GetId() )
 
 ## Смотрите также
 
-- [common.EnablePersonalEvent](common.EnablePersonalEvent)
+- [common.EnablePersonalEvent](/api/category/common/function.common.EnablePersonalEvent)
