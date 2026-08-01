@@ -31,4 +31,4 @@ avatar.SetRitualActivePreset( DUMMY_TYPE_SECONDARY )
 
 ## Смотрите также
 
-- [EVENT_EQUIPMENT_ACTIVE_PRESET_CHANGED](events#event-equipment-active-preset-changed)
+- [EVENT_EQUIPMENT_ACTIVE_PRESET_CHANGED](/api/events/events.EVENT_EQUIPMENT_.md#event-equipment-active-preset-changed)
