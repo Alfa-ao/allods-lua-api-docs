@@ -86,4 +86,4 @@ end
 
 ## Смотрите также
 
-- [RelatedTexturesLua](RelatedTexturesLua)
+- [RelatedTexturesLua](/api/types/RelatedTexturesLua.md)
