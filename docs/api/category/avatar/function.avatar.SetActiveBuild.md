@@ -38,5 +38,5 @@ end
 
 ## Смотрите также
 
-- [avatar.GetBuildsCount](avatar.GetBuildsCount)
-- [avatar.GetBuildSwitchSpell](avatar.GetBuildSwitchSpell)
+- [avatar.GetBuildsCount](/api/category/avatar/function.avatar.GetBuildsCount)
+- [avatar.GetBuildSwitchSpell](/api/category/avatar/function.avatar.GetBuildSwitchSpell)
