@@ -678,13 +678,10 @@ end
 
 ## Смотрите также
 
-- [TOOLTIP_*](#типы-тултипов)
-- [TC_*](#компоненты-тултипа)
-- [ITEM_BINDING_*](enums.item#item-binding)
-- [ENUM_InnateStats_*](enums.innatestats)
-- [ValuedText:SetTextValues](ui.valuedtext#settextvalues)
-- [moneyCountAdvanced](ui.money#moneycountadvanced)
-- [itemLib.GetSetBonusRoot](itemlib.getsetbonusroot)
-- [cartographer.GetZonesMapQuests](cartographer.getzonesmapquests)
-- [matchMaking.GetRatingPvPScoreByUnitId](matchmaking.getratingpvpscorebyunitid)
-- [WidgetSafe:GetRealRect](ui.widgets#widgetsafe-getrealrect)
+- [ITEM_BINDING_*](/api/constants/constants.ITEM_BINDING.md)
+- [ENUM_InnateStats_*](/api/enums/enums.ENUM_InnateStats.md)
+- [ValuedText:SetTextValues](/api/category/ValuedText/method.SetTextValues.md)
+- [itemLib.GetSetBonusRoot](/api/category/itemLib/function.itemLib.GetSetBonusRoot)
+- [cartographer.GetZonesMapQuests](/api/category/cartographer/function.cartographer.GetZonesMapQuests)
+- [matchMaking.GetRatingPvPScoreByUnitId](/api/category/matchMaking/function.matchMaking.GetRatingPvPScoreByUnitId)
+- [WidgetSafe:GetRealRect](/api/category/widget/Widget/method.GetRealRect.md)
