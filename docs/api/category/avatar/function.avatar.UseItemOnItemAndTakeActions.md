@@ -37,4 +37,4 @@ avatar.UseItemOnItemAndTakeActions( waitingItemId, itemId, 3 )
 
 ## Смотрите также
 
-- [itemLib.IsUseOnItemAndTakeActions](itemLib.IsUseOnItemAndTakeActions)
+- [itemLib.IsUseOnItemAndTakeActions](/api/category/itemLib/function.itemLib.IsUseOnItemAndTakeActions)
