@@ -121,4 +121,4 @@ end
 
 ## Смотрите также
 
-- [RelatedTextsLua](#relatedtextslua)
+- [RelatedTextsLua](/api/types/RelatedTextsLua.md)
