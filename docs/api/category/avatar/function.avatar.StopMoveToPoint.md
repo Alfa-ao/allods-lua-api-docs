@@ -32,4 +32,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetMoveToPointState](avatar.GetMoveToPointState)
+- [avatar.GetMoveToPointState](/api/category/avatar/function.avatar.GetMoveToPointState)
