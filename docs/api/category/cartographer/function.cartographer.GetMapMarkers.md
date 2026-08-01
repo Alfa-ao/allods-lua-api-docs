@@ -35,5 +35,5 @@ end
 
 ## Смотрите также
 
-- [cartographer.GetMarkerInfo](cartographer.GetMarkerInfo)
-- [cartographer.GetMapMarkerObjects](cartographer.GetMapMarkerObjects)
+- [cartographer.GetMarkerInfo](/api/category/cartographer/function.cartographer.GetMarkerInfo)
+- [cartographer.GetMapMarkerObjects](/api/category/cartographer/function.cartographer.GetMapMarkerObjects)
