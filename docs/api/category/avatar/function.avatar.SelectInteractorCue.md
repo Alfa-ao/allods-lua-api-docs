@@ -33,5 +33,5 @@ end
 
 ## Смотрите также
 
-- [avatar.GetInteractorCue](avatar.GetInteractorCue)
-- [avatar.GetInteractorNextCues](avatar.GetInteractorNextCues)
+- [avatar.GetInteractorCue](/api/category/avatar/function.avatar.GetInteractorCue)
+- [avatar.GetInteractorNextCues](/api/category/avatar/function.avatar.GetInteractorNextCues)
