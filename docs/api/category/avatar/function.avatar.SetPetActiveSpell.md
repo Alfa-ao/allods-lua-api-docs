@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetPetSpells](avatar.GetPetSpells)
+- [avatar.GetPetSpells](/api/category/avatar/function.avatar.GetPetSpells)
