@@ -44,5 +44,4 @@ end
 
 ## Смотрите также
 
-- [EVENT_META_DIALOG](events.meta#event-meta-dialog)
-- [avatar.GetItemMetaInfo](avatar.GetItemMetaInfo)
+- [EVENT_META_DIALOG](/api/events/events.EVENT_META_.md#event-meta-dialog)
