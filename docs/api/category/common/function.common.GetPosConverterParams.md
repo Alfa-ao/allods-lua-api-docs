@@ -81,4 +81,4 @@ referenceVirtualSizeY: 1080
 
 ## Смотрите также
 
-- [EVENT_POS_CONVERTER_CHANGED](events#event-pos-converter-changed)
+- [EVENT_POS_CONVERTER_CHANGED](/api/events/events.EVENT_POS_.md#event-pos-converter-changed)
