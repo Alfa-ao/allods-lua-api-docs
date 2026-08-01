@@ -33,4 +33,4 @@ end
 
 ## Смотрите также
 
-- [battleground.GetCheckpointInfo](battleground.GetCheckpointInfo)
+- [battleground.GetCheckpointInfo](/api/category/battleground/function.battleground.GetCheckpointInfo)
