@@ -35,4 +35,4 @@ end
 
 ## Смотрите также
 
-- [EVENT_AEMARK_POINT_CLICKED](events#event-aemark-point-clicked)
+- [EVENT_AEMARK_POINT_CLICKED](/api/events/events.EVENT_AEMARK_.md#event-aemark-point-clicked)
