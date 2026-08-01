@@ -32,6 +32,6 @@ end
 
 ## Смотрите также
 
-- [EVENT_CHANGE_ROOM_ZOOM_TRIGGER_CHANGED](events.changeRoom#event-change-room-zoom-trigger-changed)
-- [changeRoom.IsZoomEnabled](function.changeRoom.IsZoomEnabled)
-- [changeRoom.ToggleZoom](function.changeRoom.ToggleZoom)
+- [EVENT_CHANGE_ROOM_ZOOM_TRIGGER_CHANGED](/api/events/events.EVENT_CHANGE_.md#event-change-room-zoom-trigger-changed)
+- [changeRoom.IsZoomEnabled](/api/category/changeRoom/function.changeRoom.IsZoomEnabled.md)
+- [changeRoom.ToggleZoom](/api/category/changeRoom/function.changeRoom.ToggleZoom.md)
