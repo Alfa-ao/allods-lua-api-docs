@@ -57,4 +57,4 @@ end
 
 ## Смотрите также
 
-- [userMods.FromWString](userMods.FromWString)
+- [userMods.FromWString](/api/category/userMods/function.userMods.FromWString)
