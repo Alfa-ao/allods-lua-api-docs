@@ -33,4 +33,4 @@ common.RegisterEventHandler(OnInteractionStarted, "EVENT_INTERACTION_STARTED")
 
 ## Смотрите также
 
-- [EVENT_INTERACTION_STARTED](events#event-interaction-started)
+- [EVENT_INTERACTION_STARTED](/api/events/events.EVENT_INTERACTION_.md#event-interaction-started)
