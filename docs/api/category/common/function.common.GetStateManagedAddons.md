@@ -38,5 +38,5 @@ end
 
 ## Смотрите также
 
-- [ADDON_STATE_*](#)
-- [common.StateLoadManagedAddon](#)
+- [ADDON_STATE_*](/api/constants/constants.ADDON_STATE.md)
+- [common.StateLoadManagedAddon](/api/category/common/function.common.StateLoadManagedAddon.md)
