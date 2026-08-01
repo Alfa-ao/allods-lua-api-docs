@@ -35,4 +35,4 @@ end
 
 ## Смотрите также
 
-- [bulletinBoard.GetPost](bulletinBoard.GetPost)
+- [bulletinBoard.GetPost](/api/category/bulletinBoard/function.bulletinBoard.GetPost)
