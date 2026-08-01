@@ -36,4 +36,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetTeleportLocationInfo](avatar.GetTeleportLocationInfo)
+- [avatar.GetTeleportLocationInfo](/api/category/avatar/function.avatar.GetTeleportLocationInfo)
