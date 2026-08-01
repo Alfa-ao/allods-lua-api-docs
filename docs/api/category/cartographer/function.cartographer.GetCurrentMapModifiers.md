@@ -34,5 +34,5 @@ end
 
 ## Смотрите также
 
-- [cartographer.GetMapModifierInfo](cartographer.GetMapModifierInfo)
+- [cartographer.GetMapModifierInfo](/api/category/cartographer/function.cartographer.GetMapModifierInfo)
 - `MapModifierId`
