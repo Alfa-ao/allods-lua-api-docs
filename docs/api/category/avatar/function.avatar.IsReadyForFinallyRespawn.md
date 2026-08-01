@@ -31,5 +31,5 @@ end
 
 ## Смотрите также
 
-- [avatar.Respawn](avatar.Respawn)
-- [avatar.FinallyRespawn](avatar.FinallyRespawn)
+- [avatar.Respawn](/api/category/avatar/function.avatar.Respawn)
+- [avatar.FinallyRespawn](/api/category/avatar/function.avatar.FinallyRespawn)
