@@ -33,4 +33,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetId](avatar.GetId)
+- [avatar.GetId](/api/category/avatar/function.avatar.GetId)
