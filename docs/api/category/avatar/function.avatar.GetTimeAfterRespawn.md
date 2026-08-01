@@ -28,4 +28,4 @@ local time = avatar.GetTimeAfterRespawn()
 
 ## Смотрите также
 
-- [avatar.Respawn](avatar.Respawn)
+- [avatar.Respawn](/api/category/avatar/function.avatar.Respawn)
