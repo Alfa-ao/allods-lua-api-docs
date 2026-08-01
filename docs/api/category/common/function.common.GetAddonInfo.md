@@ -78,4 +78,4 @@ end
 
 ## Смотрите также
 
-- [common.GetAddonSysName](common.GetAddonSysName)
+- [common.GetAddonSysName](/api/category/common/function.common.GetAddonSysName)
