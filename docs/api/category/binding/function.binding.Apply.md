@@ -26,4 +26,4 @@ binding.Apply()
 
 ## Смотрите также
 
-- [binding.Cancel](binding.Cancel)
+- [binding.Cancel](/api/category/binding/function.binding.Cancel)
