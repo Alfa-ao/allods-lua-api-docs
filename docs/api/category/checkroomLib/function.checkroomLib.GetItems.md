@@ -35,6 +35,6 @@ local itemInfo = itemLib.GetItemInfo( items[ 1 ] )
 
 ## Смотрите также
 
-- [checkroomLib.GetCategories](../checkroomLib/function.checkroomLib.GetCategories)
-- [checkroomLib.GetCollections](../checkroomLib/function.checkroomLib.GetCollections)
-- [itemLib.GetItemInfo](../itemLib/function.itemLib.GetItemInfo)
+- [checkroomLib.GetCategories](/api/category/checkroomLib/function.checkroomLib.GetCategories.md)
+- [checkroomLib.GetCollections](/api/category/checkroomLib/function.checkroomLib.GetCollections.md)
+- [itemLib.GetItemInfo](/api/category/itemLib/function.itemLib.GetItemInfo.md)
