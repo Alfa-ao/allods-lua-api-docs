@@ -29,4 +29,4 @@ end
 
 ## Смотрите также
 
-- [avatar.DuplicateMetaEnhancerItem](avatar.DuplicateMetaEnhancerItem)
+- [avatar.DuplicateMetaEnhancerItem](/api/category/avatar/function.avatar.DuplicateMetaEnhancerItem)
