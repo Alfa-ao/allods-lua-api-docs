@@ -46,5 +46,5 @@ end )
 
 ## Смотрите также
 
-- [common.DelayedCall](common.DelayedCall)
-- [common.GetDelayedCalls](common.GetDelayedCalls)
+- [common.DelayedCall](/api/category/common/function.common.DelayedCall)
+- [common.GetDelayedCalls](/api/category/common/function.common.GetDelayedCalls)
