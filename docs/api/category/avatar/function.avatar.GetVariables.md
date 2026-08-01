@@ -35,4 +35,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetVariableInfo](function.avatar.GetVariableInfo)
+- [avatar.GetVariableInfo](/api/category/avatar/function.avatar.GetVariableInfo.md)
