@@ -28,4 +28,4 @@ end
 
 ## Смотрите также
 
-- [cartographer.GetSosInfo](function.cartographer.GetSosInfo)
+- [cartographer.GetSosInfo](/api/category/cartographer/function.cartographer.GetSosInfo.md)
