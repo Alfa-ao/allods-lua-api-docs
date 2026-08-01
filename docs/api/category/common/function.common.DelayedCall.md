@@ -40,5 +40,5 @@ common.DelayedCall( 800, wtPopUp.DestroyWidget, wtPopUp )
 
 ## Смотрите также
 
-- [common.CancelDelayedCall](common.CancelDelayedCall)
-- [common.GetDelayedCalls](common.GetDelayedCalls)
+- [common.CancelDelayedCall](/api/category/common/function.common.CancelDelayedCall)
+- [common.GetDelayedCalls](/api/category/common/function.common.GetDelayedCalls)
