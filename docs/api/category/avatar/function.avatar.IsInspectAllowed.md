@@ -31,4 +31,4 @@ end
 
 ## Смотрите также
 
-- [avatar.StartInspect](avatar.StartInspect)
+- [avatar.StartInspect](/api/category/avatar/function.avatar.StartInspect)
