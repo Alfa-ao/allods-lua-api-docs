@@ -38,5 +38,5 @@ end
 
 ## Смотрите также
 
-- [avatar.CanImproveInnateStats](avatar.CanImproveInnateStats)
-- [ENUM_InnateStats](enums#enum-innatestats)
+- [avatar.CanImproveInnateStats](/api/category/avatar/function.avatar.CanImproveInnateStats)
+- [ENUM_InnateStats](/api/enums/enums.ENUM_InnateStats.md)
