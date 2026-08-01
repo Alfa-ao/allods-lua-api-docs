@@ -26,4 +26,4 @@ local talents = avatar.GetViewedBuildFreeTalentPoints()
 
 ## Смотрите также
 
-- [avatar.SetViewedBuild](avatar.SetViewedBuild)
+- [avatar.SetViewedBuild](/api/category/avatar/function.avatar.SetViewedBuild)
