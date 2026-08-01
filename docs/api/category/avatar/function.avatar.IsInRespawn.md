@@ -31,5 +31,5 @@ end
 
 ## Смотрите также
 
-- [avatar.Respawn](avatar.Respawn)
-- [avatar.CallSpark](avatar.CallSpark)
+- [avatar.Respawn](/api/category/avatar/function.avatar.Respawn)
+- [avatar.CallSpark](/api/category/avatar/function.avatar.CallSpark)
