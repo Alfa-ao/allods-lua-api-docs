@@ -39,4 +39,4 @@ end
 
 ## Смотрите также
 
-- [avatar.InventoryGetPocketInfo](function.avatar.InventoryGetPocketInfo)
+- [avatar.InventoryGetPocketInfo](/api/category/avatar/function.avatar.InventoryGetPocketInfo.md)
