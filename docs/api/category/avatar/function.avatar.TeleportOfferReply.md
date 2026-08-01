@@ -27,4 +27,4 @@ avatar.TeleportOfferReply( true )
 
 ## Смотрите также
 
-- [EVENT_TELEPORT_OFFER_REQUEST](events.avatar#event-teleport-offer-request)
+- [EVENT_TELEPORT_OFFER_REQUEST](/api/events/events.EVENT_TELEPORT_.md#event-teleport-offer-request)
