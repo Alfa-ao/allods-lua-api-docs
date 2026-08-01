@@ -63,5 +63,5 @@ end
 
 ## Смотрите также
 
-- [Geodata](Geodata)
-- [avatar.GetQuestObjectiveInfo](../avatar/function.avatar.GetQuestObjectiveInfo)
+- [Geodata](/articles/Geodata.md)
+- [avatar.GetQuestObjectiveInfo](/api/category/avatar/function.avatar.GetQuestObjectiveInfo.md)
