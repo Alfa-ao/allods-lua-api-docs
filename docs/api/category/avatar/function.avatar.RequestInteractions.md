@@ -30,5 +30,5 @@ avatar.RequestInteractions()
 
 ## Смотрите также
 
-- [avatar.StartInteract](avatar.StartInteract)
-- [EVENT_INTERACTION_STARTED](events#event-interaction-started)
+- [avatar.StartInteract](/api/category/avatar/function.avatar.StartInteract)
+- [EVENT_INTERACTION_STARTED](/api/events/events.EVENT_INTERACTION_.md#event-interaction-started)
