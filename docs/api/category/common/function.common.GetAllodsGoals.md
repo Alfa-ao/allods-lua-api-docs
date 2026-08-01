@@ -58,4 +58,4 @@ end
 
 ## Смотрите также
 
-- [EVENT_ALLODS_GOAL_CHANGED](events#event-allods-goal-changed)
+- [EVENT_ALLODS_GOAL_CHANGED](/api/events/events.EVENT_ALLODS_.md#event-allods-goal-changed)
