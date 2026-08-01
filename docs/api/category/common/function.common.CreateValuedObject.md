@@ -45,6 +45,7 @@ local valuedObjectLeftClick = common.CreateValuedObject( text, {}, MOUSE_BUTTON_
 
 ### Создание ValuedObject с обработкой правой и средней кнопок мыши
 ```lua
+-- common.GetBitOr -- deprecated
 local valuedObjectNotLeftClick = common.CreateValuedObject( text, {}, common.GetBitOr( MOUSE_BUTTON_RIGHT, MOUSE_BUTTON_MIDDLE ) )
 ```
 
@@ -54,7 +55,6 @@ local valuedObjectNotLeftClick = common.CreateValuedObject( text, {}, common.Get
 
 ## Смотрите также
 
-- [common.GetBitOr](common.GetBitOr)
-- [MOUSE_BUTTON_*](constants.common#mouse-button)
-- [ValuedObject:GetText](ValuedObject.GetText)
-- [ValuedObject:GetId](ValuedObject.GetId)
+- [MOUSE_BUTTON_*](/api/constants/constants.MOUSE_BUTTON.md)
+- [ValuedObject:GetText](/api/category/ValuedObject/method.GetText.md)
+- [ValuedObject:GetId](/api/category/ValuedObject/method.GetId.md)
