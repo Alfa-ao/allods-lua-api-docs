@@ -29,4 +29,4 @@ local isItemsInCheckroom = checkroomLib.IsItemsInCheckroom( itemIds )
 
 ## Смотрите также
 (HELP)массовым аналогом функции
-- [checkroomLib.IsItemInCheckroom](function.checkroomLib.IsItemInCheckroom)
+- [checkroomLib.IsItemInCheckroom](/api/category/checkroomLib/function.checkroomLib.IsItemInCheckroom.md)
