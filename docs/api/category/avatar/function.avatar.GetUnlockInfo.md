@@ -53,5 +53,5 @@ end
 
 ## Смотрите также
 
-- [LuaFullDateTime](#luafulldatetime)
-- [avatar.GetUnlocks](avatar.GetUnlocks)
+- [LuaFullDateTime](/api/types/LuaFullDateTime.md)
+- [avatar.GetUnlocks](/api/category/avatar/function.avatar.GetUnlocks)
