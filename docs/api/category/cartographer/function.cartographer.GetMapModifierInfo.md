@@ -49,6 +49,6 @@ end
 
 ## Смотрите также
 
-- [MapModifierId](MapModifierId)
-- [cartographer.GetCurrentMapModifiers](cartographer.GetCurrentMapModifiers)
-- [EVENT_UNIT_DAMAGE_RECEIVED](events#event-unit-damage-received)
+- [MapModifierId](/api/types/LuaApi.md)
+- [cartographer.GetCurrentMapModifiers](/api/category/cartographer/function.cartographer.GetCurrentMapModifiers)
+- [EVENT_UNIT_DAMAGE_RECEIVED](/api/events/events.EVENT_UNIT_.md#event-unit-damage-received)
