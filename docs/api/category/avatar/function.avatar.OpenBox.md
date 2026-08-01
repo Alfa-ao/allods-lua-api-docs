@@ -45,4 +45,4 @@ avatar.OpenBox( boxId, quantity )
 
 ## Смотрите также
 
-- [EVENT_BOX_OPERATION_RESULT](events.avatar#event-box-operation-result)
+- [EVENT_BOX_OPERATION_RESULT](/api/events/events.EVENT_BOX_.md#event-box-operation-result)
