@@ -15,10 +15,8 @@ avatar.CanActivateItem( itemId: ObjectId, instrumentId: ObjectId )
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`)
-Идентификатор предмета, который планируется активировать.
-- **`instrumentId`** (`ObjectId`)
-Идентификатор инструмента-активатора, применяемого для активации предмета.
+- **`itemId`** (`ObjectId`) - Идентификатор предмета, который планируется активировать.
+- **`instrumentId`** (`ObjectId`) - Идентификатор инструмента-активатора, применяемого для активации предмета.
 
 ## Возвращаемые значения
 
@@ -28,13 +26,10 @@ avatar.CanActivateItem( itemId: ObjectId, instrumentId: ObjectId )
 
 ### Проверка возможности активации предмета
 ```lua
-local itemId = 12345
-local instrumentId = 67890
-
 avatar.CanActivateItem( itemId, instrumentId )
 ```
 
 ## Смотрите также
 
-- [avatar.ActivateItem](function.avatar.ActivateItem)
-- [itemLib.GetActivationInfo](function.itemLib.GetActivationInfo)
+- [avatar.ActivateItem](/api/category/avatar/function.avatar.ActivateItem)
+- [itemLib.GetActivationInfo](/api/category/itemLib/function.itemLib.GetActivationInfo)
