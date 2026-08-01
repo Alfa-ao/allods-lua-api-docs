@@ -57,8 +57,8 @@ common.EnablePersonalEvent( "EVENT_OBJECT_BUFF_ADDED", avatar.GetId() )
 
 ## Смотрите также
 
-- [common.DisablePersonalEvent](common.DisablePersonalEvent)
-- [avatar.GetId](avatar.GetId)
+- [common.DisablePersonalEvent](/api/category/common/function.common.DisablePersonalEvent)
+- [avatar.GetId](/api/category/avatar/function.avatar.GetId)
 - `EVENT_HEALING_RECEIVED`
 - `EVENT_UNIT_DAMAGE_RECEIVED`
 - `EVENT_DEVICE_DAMAGE_RECEIVED`
