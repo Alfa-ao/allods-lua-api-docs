@@ -37,4 +37,4 @@ end
 
 ## Смотрите также
 
-- [GoalId:GetInfo](GoalId.GetInfo)
+- [GoalId:GetInfo](/api/types/GoalId.md)
