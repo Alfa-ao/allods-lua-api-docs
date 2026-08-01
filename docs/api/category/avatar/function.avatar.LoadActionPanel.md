@@ -48,5 +48,5 @@ avatar.LoadActionPanel( currentClass, 4, sourceData )
 
 ## Смотрите также
 
-- [avatar.SaveActionPanel](function.avatar.SaveActionPanel)
-- [avatar.GetClass](function.avatar.GetClass)
+- [avatar.SaveActionPanel](/api/category/avatar/function.avatar.SaveActionPanel.md)
+- [avatar.GetClass](/api/category/avatar/function.avatar.GetClass.md)
