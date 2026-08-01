@@ -29,4 +29,4 @@ local isItemsEquipped = checkroomLib.IsItemsEquipped( itemIds )
 
 ## Смотрите также
 (HELP) аналог сам на себя
-- [checkroomLib.IsItemEquipped](function.checkroomLib.IsItemEquipped)
+- [checkroomLib.IsItemEquipped](/api/category/checkroomLib/function.checkroomLib.IsItemEquipped.md)
