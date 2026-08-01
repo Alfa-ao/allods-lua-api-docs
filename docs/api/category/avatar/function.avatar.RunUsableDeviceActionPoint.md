@@ -43,4 +43,4 @@ end
 
 ## Смотрите также
 
-- [GamePosition](classes.GamePosition)
+- [GamePosition](/api/types/GamePosition.md)
