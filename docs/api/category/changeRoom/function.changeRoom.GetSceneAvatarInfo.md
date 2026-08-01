@@ -41,4 +41,4 @@ end
 
 ## Смотрите также
 
-- [changeRoom.SetSceneCharacterPos](function.changeRoom.SetSceneCharacterPos)
+- [changeRoom.SetSceneCharacterPos](/api/category/changeRoom/function.changeRoom.SetSceneCharacterPos.md)
