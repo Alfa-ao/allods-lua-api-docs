@@ -39,5 +39,5 @@ avatar.UseItemAndTakeActions( itemId, 42 )
 
 ## Смотрите также
 
-- [itemLib.IsUseItemAndTakeActions](itemLib.IsUseItemAndTakeActions)
-- [avatar.UseItemOnItemAndTakeActions](avatar.UseItemOnItemAndTakeActions)
+- [itemLib.IsUseItemAndTakeActions](/api/category/itemLib/function.itemLib.IsUseItemAndTakeActions)
+- [avatar.UseItemOnItemAndTakeActions](/api/category/avatar/function.avatar.UseItemOnItemAndTakeActions)
