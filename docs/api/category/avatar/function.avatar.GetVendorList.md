@@ -55,7 +55,5 @@ end
 
 ## Смотрите также
 
-- [avatar.GetSecondhandList](avatar.GetSecondhandList)
-- [avatar.RequestVendor](avatar.RequestVendor)
-- [avatar.GetItemInfo](avatar.GetItemInfo)
-- [avatar.GetCurrencyInfo](avatar.GetCurrencyInfo)
+- [avatar.GetSecondhandList](/api/category/avatar/function.avatar.GetSecondhandList)
+- [avatar.RequestVendor](/api/category/avatar/function.avatar.RequestVendor)
