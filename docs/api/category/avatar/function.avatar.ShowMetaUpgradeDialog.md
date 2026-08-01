@@ -31,4 +31,4 @@ avatar.ShowMetaUpgradeDialog( true )
 
 ## Смотрите также
 
-- [EVENT_META_UPGRADE_BREAK](events.meta#event-meta-upgrade-break)
+- [EVENT_META_UPGRADE_BREAK](/api/events/events.EVENT_META_.md#event-meta-upgrade-break)
