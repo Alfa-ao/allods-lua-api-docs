@@ -26,4 +26,4 @@ avatar.RequestVendor()
 
 ## Смотрите также
 
-- [EVENT_VENDOR_LIST_UPDATED](events.vendor#event-vendor-list-updated)
+- [EVENT_VENDOR_LIST_UPDATED](/api/events/events.EVENT_VENDOR_.md#event-vendor-list-updated)
