@@ -32,5 +32,5 @@ end
 
 ## Смотрите также
 
-- [changeRoom.IsZoomEnabled](changeRoom.IsZoomEnabled)
-- [changeRoom.IsZoomOnFace](changeRoom.IsZoomOnFace)
+- [changeRoom.IsZoomEnabled](/api/category/changeRoom/function.changeRoom.IsZoomEnabled)
+- [changeRoom.IsZoomOnFace](/api/category/changeRoom/function.changeRoom.IsZoomOnFace)
