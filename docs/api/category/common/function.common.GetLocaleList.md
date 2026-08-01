@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [common.SetLocale](common.SetLocale)
+- [common.SetLocale](/api/category/common/function.common.SetLocale)
