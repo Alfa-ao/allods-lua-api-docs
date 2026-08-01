@@ -23,5 +23,5 @@ avatar.SetCurrentQuest( questId )
 ```
 ## Смотрите также
 
-- [avatar.GetCurrentQuest](avatar.GetCurrentQuest)
-- [EVENT_CURRENT_QUEST_CHANGED](events#event-current-quest-changed)
+- [avatar.GetCurrentQuest](/api/category/avatar/function.avatar.GetCurrentQuest)
+- [EVENT_CURRENT_QUEST_CHANGED](/api/events/events.EVENT_CURRENT_.md#event-current-quest-changed)
