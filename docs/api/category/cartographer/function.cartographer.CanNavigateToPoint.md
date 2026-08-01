@@ -23,14 +23,10 @@ cartographer.CanNavigateToPoint( zonesMapId: ObjectId ): boolean
 ### Проверка возможности и запуск навигации
 ```lua
 if cartographer.CanNavigateToPoint( questLocation.zonesMapId ) then
-    cartographer.NavigateToPoint( questLocation.zonesMapId, questLocation.position )
+    cartographer.NavigateToPoint( questLocation.zonesMapId, questLocation.position ) -- Deprecated
 end
 ```
 
 ::: info Описание примера
 В примере сначала выполняется проверка возможности построения маршрута для карты, указанной в `questLocation.zonesMapId`. Если функция возвращает `true`, инициируется процесс навигации к точке `questLocation.position` на этой же карте с помощью функции `cartographer.NavigateToPoint`.
 :::
-
-## Смотрите также
-
-- [cartographer.NavigateToPoint](cartographer.NavigateToPoint)
