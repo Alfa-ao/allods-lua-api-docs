@@ -27,5 +27,5 @@ local teamId = battleground.GetCheckpointTeam( checkpointId )
 
 ## Смотрите также
 
-- [battleground.GetCheckpointInfo](battleground.GetCheckpointInfo)
-- [battleground.GetLinkedCheckpoint](battleground.GetLinkedCheckpoint)
+- [battleground.GetCheckpointInfo](/api/category/battleground/function.battleground.GetCheckpointInfo)
+- [battleground.GetLinkedCheckpoint](/api/category/battleground/function.battleground.GetLinkedCheckpoint)
