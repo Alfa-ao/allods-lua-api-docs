@@ -27,4 +27,4 @@ avatar.StartInteract( unitId )
 
 ## Смотрите также
 
-- [EVENT_TALK_STARTED](events.talk#event-talk-started)
+- [EVENT_TALK_STARTED](/api/events/events.EVENT_TALK_.md#event-talk-started)
