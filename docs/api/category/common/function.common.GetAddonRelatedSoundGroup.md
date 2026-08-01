@@ -33,4 +33,4 @@ local group = common.GetAddonRelatedSoundGroup( "TestGroup" )
 
 ## Смотрите также
 
-- [RelatedSoundsLua](../classes/RelatedSoundsLua)
+- [RelatedSoundsLua](/api/types/RelatedSoundsLua.md)
