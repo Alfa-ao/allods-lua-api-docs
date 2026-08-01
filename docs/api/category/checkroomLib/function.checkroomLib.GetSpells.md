@@ -37,4 +37,4 @@ local isHideSpellInCollection = not isSpellLearned and checkroomLib.IsHideSpellW
 
 ## Смотрите также
 
-- [checkroomLib.IsHideSpellWhileNotLearned](function.checkroomLib.IsHideSpellWhileNotLearned)
+- [checkroomLib.IsHideSpellWhileNotLearned](/api/category/checkroomLib/function.checkroomLib.IsHideSpellWhileNotLearned.md)
