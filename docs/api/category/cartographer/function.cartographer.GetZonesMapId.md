@@ -37,4 +37,4 @@ end
 
 ## Смотрите также
 
-- [cartographer.GetZonesMapInfo](cartographer.GetZonesMapInfo)
+- [cartographer.GetZonesMapInfo](/api/category/cartographer/function.cartographer.GetZonesMapInfo)
