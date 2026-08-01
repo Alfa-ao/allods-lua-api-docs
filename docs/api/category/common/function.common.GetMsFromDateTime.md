@@ -38,4 +38,4 @@ local ms = common.GetMsFromDateTime( common.GetLocalDateTime() )
 
 ## Смотрите также
 
-- [common.GetLocalDateTime](common.GetLocalDateTime)
+- [common.GetLocalDateTime](/api/category/common/function.common.GetLocalDateTime)
