@@ -32,5 +32,5 @@ end
 
 ## Смотрите также
 
-- [common.GetAddonRelatedTextureGroup](common.GetAddonRelatedTextureGroup)
-- [RelatedTexturesLua](RelatedTexturesLua)
+- [common.GetAddonRelatedTextureGroup](/api/category/common/function.common.GetAddonRelatedTextureGroup)
+- [RelatedTexturesLua](/api/types/RelatedTexturesLua.md)
