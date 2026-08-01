@@ -42,5 +42,5 @@ end
 
 ## Смотрите также
 
-- [cartographer.GetMapMarkers](cartographer.GetMapMarkers)
-- [cartographer.GetMapMarkerObjects](cartographer.GetMapMarkerObjects)
+- [cartographer.GetMapMarkers](/api/category/cartographer/function.cartographer.GetMapMarkers)
+- [cartographer.GetMapMarkerObjects](/api/category/cartographer/function.cartographer.GetMapMarkerObjects)
