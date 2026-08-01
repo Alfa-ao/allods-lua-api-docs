@@ -87,4 +87,4 @@ end
 
 ## Смотрите также
 
-- [RelatedWidgetsLua](RelatedWidgetsLua)
+- [RelatedWidgetsLua](/api/types/RelatedWidgetsLua.md)
