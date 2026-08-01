@@ -49,5 +49,5 @@ end
 
 ## Смотрите также
 
-- [cartographer.GetMapMarkers](function.cartographer.GetMapMarkers)
-- [cartographer.GetMarkerInfo](function.cartographer.GetMarkerInfo)
+- [cartographer.GetMapMarkers](/api/category/cartographer/function.cartographer.GetMapMarkers.md)
+- [cartographer.GetMarkerInfo](/api/category/cartographer/function.cartographer.GetMarkerInfo.md)
