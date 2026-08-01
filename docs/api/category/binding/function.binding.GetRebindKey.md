@@ -35,4 +35,4 @@ end
 
 ## Смотрите также
 
-- [binding.HasRebind](binding.HasRebind)
+- [binding.HasRebind](/api/category/binding/function.binding.HasRebind)
