@@ -34,4 +34,4 @@ LogInfo( collections[ 1 ]:GetInfo().name )
 
 ## Смотрите также
 
-- [checkroomLib.GetCategories](checkroomLib.GetCategories)
+- [checkroomLib.GetCategories](/api/category/checkroomLib/function.checkroomLib.GetCategories)
