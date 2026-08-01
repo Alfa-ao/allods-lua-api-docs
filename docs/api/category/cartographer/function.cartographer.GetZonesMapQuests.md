@@ -43,6 +43,6 @@ end
 
 ## Смотрите также
 
-- [cartographer.IsFinalQuestCompleted](cartographer.IsFinalQuestCompleted)
-- [cartographer.GetZonesMapInfo](cartographer.GetZonesMapInfo)
-- [avatar.GetQuestInfo](../avatar/function.avatar.GetQuestInfo)
+- [cartographer.IsFinalQuestCompleted](/api/category/cartographer/function.cartographer.IsFinalQuestCompleted)
+- [cartographer.GetZonesMapInfo](/api/category/cartographer/function.cartographer.GetZonesMapInfo)
+- [avatar.GetQuestInfo](/api/category/avatar/function.avatar.GetQuestInfo.md)
