@@ -39,4 +39,4 @@ end
 
 ## Смотрите также
 
-- [itemLib.GetSetBonusInfo](itemLib.GetSetBonusInfo)
+- [itemLib.GetSetBonusInfo](/api/category/itemLib/function.itemLib.GetSetBonusInfo)
