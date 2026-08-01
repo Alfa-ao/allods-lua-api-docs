@@ -27,4 +27,4 @@ common.EnableUIRender( false )
 
 ## Смотрите также
 
-- [common.IsUIRenderEnabled](common.IsUIRenderEnabled)
+- [common.IsUIRenderEnabled](/api/category/common/function.common.IsUIRenderEnabled)
