@@ -49,4 +49,4 @@ end
 
 ## Смотрите также
 
-- [Geodata](Geodata)
+- [Geodata](/articles/Geodata.md)
