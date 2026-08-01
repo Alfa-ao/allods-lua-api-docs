@@ -98,4 +98,4 @@ end
 
 ## Смотрите также
 
-- [RelatedTexturesLua](../classes/RelatedTexturesLua)
+- [RelatedTexturesLua](/api/types/RelatedTexturesLua.md)
