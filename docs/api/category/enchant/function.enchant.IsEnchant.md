@@ -32,5 +32,5 @@ end
 
 ## Смотрите также
 
-- [enchant.GetEnchantSlot](function.enchant.GetEnchantSlot)
-- [enchant.GetEnchants](function.enchant.GetEnchants)
+- [enchant.GetEnchantSlot](/api/category/enchant/function.enchant.GetEnchantSlot.md)
+- [enchant.GetEnchants](/api/category/enchant/function.enchant.GetEnchants.md)
