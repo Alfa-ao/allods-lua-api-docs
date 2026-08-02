@@ -30,4 +30,4 @@ hangar.RepairReply( true, 1 )
 
 ## Смотрите также
 
-- [EVENT_HANGAR_REPAIR_QUESTION](events.hangar#event-hangar-repair-question)
+- [EVENT_HANGAR_REPAIR_QUESTION](/api/events/events.EVENT_HANGAR_.md#event-hangar-repair-question)
