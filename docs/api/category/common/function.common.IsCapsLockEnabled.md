@@ -26,4 +26,4 @@ LogInfo( common.IsCapsLockEnabled() )
 
 ## Смотрите также
 
-- [common.IsKeyEnabled](common.IsKeyEnabled)
+- [common.IsKeyEnabled](/api/category/common/function.common.IsKeyEnabled)
