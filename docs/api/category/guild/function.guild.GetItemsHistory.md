@@ -34,7 +34,7 @@ guild.GetItemsHistory( 3, ENUM_GuildItemsHistoryOrder_TIME, false )
 
 ## Смотрите также
 
-- [guild.GetItemsInfo](function.guild.GetItemsInfo)
-- [EVENT_GUILD_ITEMS_OPERATION_RESULT](events#event-guild-items-operation-result)
-- [EVENT_GUILD_ITEMS_HISTORY_CHANGED](events#event-guild-items-history-changed)
-- [ENUM_GuildItemsHistoryOrder](enums#enum-guilditemshistoryorder)
+- [guild.GetItemsInfo](/api/category/guild/function.guild.GetItemsInfo.md)
+- [EVENT_GUILD_ITEMS_OPERATION_RESULT](/api/events/events.EVENT_GUILD_.md#event-guild-items-operation-result)
+- [EVENT_GUILD_ITEMS_HISTORY_CHANGED](/api/events/events.EVENT_GUILD_.md#event-guild-items-history-changed)
+- [ENUM_GuildItemsHistoryOrder](/api/enums/enums.ENUM_GuildItemsHistoryOrder.md)
