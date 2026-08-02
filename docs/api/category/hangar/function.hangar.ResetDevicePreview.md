@@ -33,4 +33,4 @@ hangar.ResetDevicePreview()
 
 ## Смотрите также
 
-- [hangar.PreviewPurchasedDevice](function.hangar.PreviewPurchasedDevice)
+- [hangar.PreviewPurchasedDevice](/api/category/hangar/function.hangar.PreviewPurchasedDevice.md)
