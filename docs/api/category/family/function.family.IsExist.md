@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [family.GetSpellInfo](function.family.GetSpellInfo)
+- [family.GetSpellInfo](/api/category/family/function.family.GetSpellInfo.md)
