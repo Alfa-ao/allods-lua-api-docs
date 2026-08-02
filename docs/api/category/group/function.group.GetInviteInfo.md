@@ -41,4 +41,4 @@ end
 
 ## Смотрите также
 
-- [group.Accept](function.group.Accept)
+- [group.Accept](/api/category/group/function.group.Accept.md)
