@@ -30,4 +30,4 @@ guild.DistributeTabard( memberId, ENUM_TabardType_Champion )
 
 ## Смотрите также
 
-- [ENUM_TabardType_...](#)
+- [ENUM_TabardType_...](/api/enums/enums.ENUM_TabardType.md)
