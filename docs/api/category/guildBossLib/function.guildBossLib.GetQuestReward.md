@@ -33,5 +33,5 @@ local questReward = firstGuildQuest and guildBossLib.GetQuestReward( firstGuildQ
 
 ## Смотрите также
 
-- [avatar.GetQuestReward](../avatar/function.avatar.GetQuestReward)
-- [guildBossLib.GetQuests](function.guildBossLib.GetQuests)
+- [avatar.GetQuestReward](/api/category/avatar/function.avatar.GetQuestReward.md)
+- [guildBossLib.GetQuests](/api/category/guildBossLib/function.guildBossLib.GetQuests.md)
