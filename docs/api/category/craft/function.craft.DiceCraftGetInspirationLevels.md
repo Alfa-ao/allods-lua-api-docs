@@ -32,6 +32,6 @@ local inspirationLevels = craft.DiceCraftGetInspirationLevels()
 
 ## Смотрите также
 
-- [craft.DiceCraftGetRecipeInspiration](function.craft.DiceCraftGetRecipeInspiration)
+- [craft.DiceCraftGetRecipeInspiration](/api/category/craft/function.craft.DiceCraftGetRecipeInspiration.md)
 
-- [craft.DiceCraftUseInspiration](function.craft.DiceCraftUseInspiration)
+- [craft.DiceCraftUseInspiration](/api/category/craft/function.craft.DiceCraftUseInspiration.md)
