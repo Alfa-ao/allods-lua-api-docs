@@ -33,4 +33,4 @@ end
 
 ## Смотрите также
 
-- [hangar.GetAllowedDeviceTypes](function.hangar.GetAllowedDeviceTypes)
+- [hangar.GetAllowedDeviceTypes](/api/category/hangar/function.hangar.GetAllowedDeviceTypes.md)
