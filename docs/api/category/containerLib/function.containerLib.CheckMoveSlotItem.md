@@ -51,4 +51,4 @@ local canMove = containerLib.CheckMoveSlotItem( ITEM_CONT_INVENTORY, 11, ITEM_CO
 
 ## Смотрите также
 
-- [containerLib.CheckMoveItem](function.containerLib.CheckMoveItem)
+- [containerLib.CheckMoveItem](/api/category/containerLib/function.containerLib.CheckMoveItem.md)
