@@ -32,4 +32,4 @@ common.MakeUserScreenshot( true )
 
 ## Смотрите также
 
-- [EVENT_USER_SCREENSHOT](events.common#event-user-screenshot)
+- [EVENT_USER_SCREENSHOT](/api/events/events.EVENT_USER_.md#event-user-screenshot)
