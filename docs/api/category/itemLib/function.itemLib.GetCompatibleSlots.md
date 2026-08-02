@@ -33,4 +33,4 @@ end
 
 ## Смотрите также
 
-- [DRESS_SLOT_*](ссылка_1)
+- [DRESS_SLOT_*](/api/constants/constants.DRESS_SLOT.md)
