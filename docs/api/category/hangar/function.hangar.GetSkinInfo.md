@@ -43,5 +43,5 @@ end
 
 ## Смотрите также
 
-- [hangar.GetActiveShipSkin](function.hangar.GetActiveShipSkin)
-- [hangar.GetAvailableSkins](function.hangar.GetAvailableSkins)
+- [hangar.GetActiveShipSkin](/api/category/hangar/function.hangar.GetActiveShipSkin.md)
+- [hangar.GetAvailableSkins](/api/category/hangar/function.hangar.GetAvailableSkins.md)
