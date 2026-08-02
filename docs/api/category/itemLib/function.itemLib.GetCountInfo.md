@@ -33,5 +33,5 @@ local itemChargesCount = itemCharges and itemCharges.count
 
 ## Смотрите также
 
-- [itemLib.GetStackInfo](function.itemLib.GetStackInfo)
-- [itemLib.GetOverallCount](function.itemLib.GetOverallCount)
+- [itemLib.GetStackInfo](/api/category/itemLib/function.itemLib.GetStackInfo.md)
+- [itemLib.GetOverallCount](/api/category/itemLib/function.itemLib.GetOverallCount.md)
