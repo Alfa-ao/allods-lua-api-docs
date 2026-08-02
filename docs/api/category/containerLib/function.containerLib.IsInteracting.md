@@ -32,6 +32,6 @@ end
 
 ## Смотрите также
 
-- [ITEM_CONT_...](#)
-- [containerLib.IsOpen](#)
-- [containerLib.Open](#)
+- [ITEM_CONT_*](/api/constants/constants.ITEM_CONT.md)
+- [containerLib.IsOpen](/api/category/containerLib/function.containerLib.IsOpen.md)
+- [containerLib.Open](/api/category/containerLib/function.containerLib.Open.md)
