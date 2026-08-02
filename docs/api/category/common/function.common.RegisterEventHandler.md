@@ -83,6 +83,6 @@ common.RegisterEventHandler( OnSampleEvent, "EVENT_SAMPLE" )
 
 ## Смотрите также
 
-- [common.UnRegisterEventHandler](common.UnRegisterEventHandler)
-- [common.EnablePersonalEvent](common.EnablePersonalEvent)
-- [avatar.GetId](avatar.GetId)
+- [common.UnRegisterEventHandler](/api/category/common/function.common.UnRegisterEventHandler)
+- [common.EnablePersonalEvent](/api/category/common/function.common.EnablePersonalEvent)
+- [avatar.GetId](/api/category/avatar/function.avatar.GetId)
