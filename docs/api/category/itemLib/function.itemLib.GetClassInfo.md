@@ -42,4 +42,4 @@ end
 
 ## Смотрите также
 
-- [itemLib.GetClass](function.itemLib.GetClass)
+- [itemLib.GetClass](/api/category/itemLib/function.itemLib.GetClass.md)
