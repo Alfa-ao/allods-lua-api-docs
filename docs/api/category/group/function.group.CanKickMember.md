@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [group.KickMember](function.group.KickMember)
+- [group.KickMember](/api/category/group/function.group.KickMember.md)
