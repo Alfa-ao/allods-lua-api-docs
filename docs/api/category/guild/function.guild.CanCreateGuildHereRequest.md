@@ -28,5 +28,5 @@ guild.CanCreateGuildHereRequest( itemId )
 
 ## Смотрите также
 
-- [EVENT_CAN_CREATE_GUILD_HERE_RESPONSE](events.guild#event-can-create-guild-here-response)
-- [EVENT_GENERAL_ERROR](events.general#event-general-error)
+- [EVENT_CAN_CREATE_GUILD_HERE_RESPONSE](/api/events/events.EVENT_CAN_.md#event-can-create-guild-here-response)
+- [EVENT_GENERAL_ERROR](/api/events/events.EVENT_GENERAL_.md#event-general-error)
