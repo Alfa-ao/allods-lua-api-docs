@@ -34,4 +34,4 @@ local categoryName = itemCategoryInfo and itemCategoryInfo.name
 
 ## Смотрите также
 
-- [itemLib.GetCategoryInfo](function.itemLib.GetCategoryInfo)
+- [itemLib.GetCategoryInfo](/api/category/itemLib/function.itemLib.GetCategoryInfo.md)
