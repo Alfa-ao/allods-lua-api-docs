@@ -34,5 +34,5 @@ end
 
 ## Смотрите также
 
-- [ITEM_CONT_...](constants#item-cont)
-- [containerLib.Close](function.containerLib.Close)
+- [ITEM_CONT_*](/api/constants/constants.ITEM_CONT.md)
+- [containerLib.Close](/api/category/containerLib/function.containerLib.Close.md)
