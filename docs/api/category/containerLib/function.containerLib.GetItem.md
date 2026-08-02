@@ -34,4 +34,4 @@ local itemId = containerLib.GetItem( ITEM_CONT_INVENTORY, 12 )
 
 ## Смотрите также
 
-- [ITEM_CONT_...](#)
+- [ITEM_CONT_*](/api/constants/constants.ITEM_CONT.md)
