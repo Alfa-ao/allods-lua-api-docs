@@ -34,4 +34,4 @@ guild.RaiseFunds( 10000, comment, {}, {} )
 
 ## Смотрите также
 
-- [EnumTabardType](dfhgfdgh)
+- [EnumTabardType](/api/enums/enums.ENUM_TabardType.md)
