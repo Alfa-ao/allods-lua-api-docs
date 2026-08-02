@@ -34,5 +34,5 @@ local questInfo = firstGuildQuest and guildBossLib.GetQuestInfo( firstGuildQuest
 
 ## Смотрите также
 
-- [avatar.GetQuestInfo](../avatar/function.avatar.GetQuestInfo)
-- [guildBossLib.GetQuests](function.guildBossLib.GetQuests)
+- [avatar.GetQuestInfo](/api/category/avatar/function.avatar.GetQuestInfo.md)
+- [guildBossLib.GetQuests](/api/category/guildBossLib/function.guildBossLib.GetQuests.md)
