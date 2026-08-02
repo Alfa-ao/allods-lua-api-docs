@@ -39,4 +39,4 @@ LogInfo( craft.GetForgeRecipeInfo( recipeId ) )
 
 ## Смотрите также
 
-- [RequirementsTable](#)
+- [RequirementsTable](/api/types/RequirementsTable.md)
