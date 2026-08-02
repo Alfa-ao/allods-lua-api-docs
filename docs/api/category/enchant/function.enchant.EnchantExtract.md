@@ -30,8 +30,8 @@ enchant.EnchantExtract( itemId, slot )
 
 ## Смотрите также
 
-- [ENUM_EnchantSlot_...](enums.enchant#enum_enchantslot)
-- [enchant.EnchantInsert](function.enchant.EnchantInsert)
-- [enchant.GetEnchants](function.enchant.GetEnchants)
-- [EVENT_GAME_ITEM_CHANGED](events.game#event-game-item-changed)
-- [EVENT_ITEM_SERVER_CMD_FINISHED](events.item#event-item-server-cmd-finished)
+- [ENUM_EnchantInsertionResult](/api/enums/enums.ENUM_EnchantInsertionResult.md)
+- [enchant.EnchantInsert](/api/category/enchant/function.enchant.EnchantInsert.md)
+- [enchant.GetEnchants](/api/category/enchant/function.enchant.GetEnchants.md)
+- [EVENT_GAME_ITEM_CHANGED](/api/events/events.EVENT_GAME_.md#event-game-item-changed)
+- [EVENT_ITEM_SERVER_CMD_FINISHED](/api/events/events.EVENT_ITEM_.md#event-item-server-cmd-finished)
