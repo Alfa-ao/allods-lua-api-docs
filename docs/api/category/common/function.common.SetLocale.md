@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [common.GetLocaleList](common.GetLocaleList)
+- [common.GetLocaleList](/api/category/common/function.common.GetLocaleList)
