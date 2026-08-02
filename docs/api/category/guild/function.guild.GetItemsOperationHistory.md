@@ -39,4 +39,4 @@ local itemId = history[ 0 ] and history[ 0 ].itemId
 
 ## Смотрите также
 
-- [LuaFullDateTime](#)
+- [LuaFullDateTime](/api/types/LuaFullDateTime.md)
