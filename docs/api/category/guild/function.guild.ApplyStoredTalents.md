@@ -31,4 +31,4 @@ guild.ApplyStoredTalents()
 
 ## Смотрите также
 
-- [guild.StoreTalent](guild.StoreTalent)
+- [guild.StoreTalent](/api/category/guild/function.guild.StoreTalent)
