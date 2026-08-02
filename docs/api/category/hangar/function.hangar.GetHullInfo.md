@@ -41,5 +41,5 @@ end
 
 ## Смотрите также
 
-- [hangar.GetActiveShipHull](function.hangar.GetActiveShipHull)
-- [hangar.GetAvailableHulls](function.hangar.GetAvailableHulls)
+- [hangar.GetActiveShipHull](/api/category/hangar/function.hangar.GetActiveShipHull.md)
+- [hangar.GetAvailableHulls](/api/category/hangar/function.hangar.GetAvailableHulls.md)
