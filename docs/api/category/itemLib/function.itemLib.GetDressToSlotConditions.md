@@ -45,4 +45,4 @@ end
 
 ## Смотрите также
 
-- [ENUM_DressResult_*](ссылка_1)
+- [ENUM_DressResult_*](/api/enums/enums.ENUM_DressResult.md)
