@@ -43,4 +43,4 @@ end
 
 ## Смотрите также
 
-- [ENUM_ActionFailCause_*](ссылка_1)
+- [ENUM_ActionFailCause_*](/api/enums/enums.ENUM_ActionFailCause.md)
