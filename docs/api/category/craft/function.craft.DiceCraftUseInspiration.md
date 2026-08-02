@@ -28,7 +28,7 @@ craft.DiceCraftUseInspiration()
 
 ## Смотрите также
 
-- [EVENT_DICE_CRAFT_CMD_FAILED](events#event-dice-craft-cmd-failed)
-- [craft.DiceCraftGetCurrentRecipe](function.craft.DiceCraftGetCurrentRecipe)
-- [craft.DiceCraftGetRecipeInspiration](function.craft.DiceCraftGetRecipeInspiration)
-- [craft.DiceCraftGetInspirationLevels](function.craft.DiceCraftGetInspirationLevels)
+- [EVENT_DICE_CRAFT_CMD_FAILED](/api/events/events.EVENT_DICE_.md#event-dice-craft-cmd-failed)
+- [craft.DiceCraftGetCurrentRecipe](/api/category/craft/function.craft.DiceCraftGetCurrentRecipe.md)
+- [craft.DiceCraftGetRecipeInspiration](/api/category/craft/function.craft.DiceCraftGetRecipeInspiration.md)
+- [craft.DiceCraftGetInspirationLevels](/api/category/craft/function.craft.DiceCraftGetInspirationLevels.md)
