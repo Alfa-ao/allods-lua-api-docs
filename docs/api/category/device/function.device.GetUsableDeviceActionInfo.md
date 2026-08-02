@@ -69,4 +69,4 @@ end
 
 ## Смотрите также
 
-- [device.GetUsableDeviceInfo](function.device.GetUsableDeviceInfo)
+- [device.GetUsableDeviceInfo](/api/category/device/function.device.GetUsableDeviceInfo.md)
