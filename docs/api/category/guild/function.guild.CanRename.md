@@ -30,6 +30,6 @@ end
 
 ## Смотрите также
 
-- [EVENT_GUILD_NEED_RENAME_CHANGED](events.guild#event-guild-need-rename-changed)
-- [guild.Rename](function.guild.Rename)
-- [guild.IsNeedRename](function.guild.IsNeedRename)
+- [EVENT_GUILD_NEED_RENAME_CHANGED](/api/events/events.EVENT_GUILD_.md#event-guild-need-rename-changed)
+- [guild.Rename](/api/category/guild/function.guild.Rename.md)
+- [guild.IsNeedRename](/api/category/guild/function.guild.IsNeedRename.md)
