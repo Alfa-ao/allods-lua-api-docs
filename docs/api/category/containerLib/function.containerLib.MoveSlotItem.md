@@ -40,5 +40,5 @@ containerLib.MoveSlotItem( ITEM_CONT_INVENTORY, 11, ITEM_CONT_INVENTORY, 12 )
 
 ## Смотрите также
 
-- [ITEM_CONT_*](sadasd)
-- [containerLib.CheckMoveSlotItem](sadasd)
+- [ITEM_CONT_*](/api/constants/constants.ITEM_CONT.md)
+- [containerLib.CheckMoveSlotItem](/api/category/containerLib/function.containerLib.CheckMoveSlotItem.md)
