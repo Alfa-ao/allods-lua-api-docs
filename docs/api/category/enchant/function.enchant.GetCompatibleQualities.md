@@ -27,4 +27,4 @@ local qualities = enchant.GetCompatibleQualities( itemId )
 
 ## Смотрите также
 
-- [ITEM_QUALITY](enums#item-quality)
+- [ITEM_QUALITY](/api/constants/constants.ITEM_QUALITY.md)
