@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [currencyExchange.IsServiceActive](function.currencyExchange.IsServiceActive)
+- [currencyExchange.IsServiceActive](/api/category/currencyExchange/function.currencyExchange.IsServiceActive.md)
