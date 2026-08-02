@@ -40,4 +40,4 @@ common.LogWarning( "common", "The operation may be too long! ", userMods.ToWStri
 
 ## Смотрите также
 
-- [userMods.ToWString](userMods.ToWString)
+- [userMods.ToWString](/api/category/userMods/function.userMods.ToWString)
