@@ -42,4 +42,4 @@ containerLib.CheckMoveItem( itemId, ITEM_CONT_INVENTORY, 12, nil )
 
 ## Смотрите также
 
-- [containerLib.CheckMoveSlotItem](function.containerLib.CheckMoveSlotItem)
+- [containerLib.CheckMoveSlotItem](/api/category/containerLib/function.containerLib.CheckMoveSlotItem.md)
