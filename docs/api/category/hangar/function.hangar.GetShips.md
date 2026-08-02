@@ -33,4 +33,4 @@ end
 
 ## Смотрите также
 
-- [EVENT_HANGAR_SHIPS_CHANGED](events.hangar#event-hangar-ships-changed)
+- [EVENT_HANGAR_SHIPS_CHANGED](/api/events/events.EVENT_HANGAR_.md#event-hangar-ships-changed)
