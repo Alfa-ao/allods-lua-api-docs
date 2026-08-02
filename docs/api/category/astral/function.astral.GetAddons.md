@@ -24,17 +24,13 @@ astral.GetAddons(): table
 ```lua
 local addons = astral.GetAddons()
 for i, objectId in ipairs( addons ) do
-  local addonInfo = astral.GetAddonInfo( objectId )
-  if addonInfo then
-    local name = addonInfo.name
-  end
+    local addonInfo = astral.GetAddonInfo( objectId )
+    if addonInfo then
+        local name = addonInfo.name
+    end
 end
 ```
 
-::: info Описание примера
-В примере сначала извлекается таблица идентификаторов всех аддонов с помощью `astral.GetAddons()`. Затем с помощью цикла `ipairs` происходит перебор всех элементов таблицы. На каждой итерации идентификатор передается в функцию `astral.GetAddonInfo` для получения детальной информации о конкретном аддоне, из которой впоследствии извлекается его имя.
-:::
-
 ## Смотрите также
 
-- [astral.GetAddonInfo](astral.GetAddonInfo)
+- [astral.GetAddonInfo](/api/category/astral/function.astral.GetAddonInfo)
