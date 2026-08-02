@@ -43,5 +43,5 @@ end
 
 ## Смотрите также
 
-- [ENUM_TabardType_...](../constants#enum-tabardtype)
-- [guild.GetTabards](function.guild.GetTabards)
+- [ENUM_TabardType_...](/api/enums/enums.ENUM_TabardType.md)
+- [guild.GetTabards](/api/category/guild/function.guild.GetTabards.md)
