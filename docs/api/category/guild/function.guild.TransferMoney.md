@@ -35,5 +35,5 @@ guild.TransferMoney( 10000, ENUM_MoneyChangeReason_TaxPayment, ENUM_TransferMone
 
 ## Смотрите также
 
-- [EnumMoneyChangeReason](#enum-moneychangereason)
-- [EnumTransferMoneyOperationDirection](#enum-transfer-money-operation-direction)
+- [EnumMoneyChangeReason](/api/enums/enums.ENUM_MoneyChangeReason.md)
+- [EnumTransferMoneyOperationDirection](/api/enums/enums.ENUM_TransferMoneyOperationDirection.md)
