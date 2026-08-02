@@ -45,4 +45,4 @@ local guildMissions = guild.GetMissions()
 
 ## Смотрите также
 
-- [avatar.GetQuestReward](../avatar/function.avatar.GetQuestReward)
+- [avatar.GetQuestReward](/api/category/avatar/function.avatar.GetQuestReward.md)
