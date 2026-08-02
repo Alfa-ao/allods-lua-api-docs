@@ -38,6 +38,6 @@ end
 
 ## Смотрите также
 
-- [guildHallLib.IsExist](guildHallLib.IsExist)
-- [guildHallLib.Create](guildHallLib.Create)
-- [RequirementsTable](RequirementsTable)
+- [guildHallLib.IsExist](/api/category/guildHallLib/function.guildHallLib.IsExist)
+- [guildHallLib.Create](/api/category/guildHallLib/function.guildHallLib.Create)
+- [RequirementsTable](/api/types/RequirementsTable.md)
