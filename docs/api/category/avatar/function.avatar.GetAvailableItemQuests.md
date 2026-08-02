@@ -15,8 +15,7 @@ avatar.GetAvailableItemQuests( itemId: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`)
-Уникальный идентификатор предмета. Предмет обязательно должен находиться в слоте одного из контейнеров персонажа (основная сумка, переполненная сумка или банковская ячейка).
+- **`itemId`** (`ObjectId`) - Уникальный идентификатор предмета. Предмет обязательно должен находиться в слоте одного из контейнеров персонажа (основная сумка, переполненная сумка или банковская ячейка).
 
 ## Возвращаемые значения
 
@@ -25,9 +24,8 @@ avatar.GetAvailableItemQuests( itemId: ObjectId ): table | nil
 ## Примеры
 
 ### Получение списка доступных заданий от предмета
-```lua
-local itemId = 12345 -- Идентификатор предмета из инвентаря
 
+```lua
 -- Предварительный запрос данных с сервера
 avatar.RequestQuestsForItem( itemId )
 
@@ -48,4 +46,4 @@ end
 
 ## Смотрите также
 
-- [avatar.RequestQuestsForItem](function.avatar.RequestQuestsForItem)
+- [avatar.RequestQuestsForItem](/api/category/avatar/function.avatar.RequestQuestsForItem)
