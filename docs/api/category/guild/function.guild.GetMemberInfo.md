@@ -92,6 +92,6 @@ end
 
 ## Смотрите также
 
-- [ENUM_AvatarOnlineStatus_...](fsdgdfg)
-- [EVENT_GUILD_MEMBER_ONLINE_STATUS_CHANGED](srgregs)
-- [LuaFullDateTime](sgsvrererv)
+- [ENUM_AvatarOnlineStatus_...](/api/enums/enums.ENUM_Avatar.md)
+- [EVENT_GUILD_MEMBER_ONLINE_STATUS_CHANGED](/api/events/events.EVENT_GUILD_.md#event-guild-member-online-status-changed)
+- [LuaFullDateTime](/api/types/LuaFullDateTime.md)
