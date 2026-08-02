@@ -31,7 +31,7 @@ local canSwitchShipMasterHull = spellState and spellState.enabled
 
 ## Смотрите также
 
-- [hangar.SwitchShipMasterHull](function.hangar.SwitchShipMasterHull)
-- [spellLib.GetState](function.spellLib.GetState)
-- [EVENT_HANGAR_SPELL_CHANGED](events.hangar#event-hangar-spell-changed)
-- [EVENT_HANGAR_SPELL_EFFECT](events.hangar#event-hangar-spell-effect)
+- [hangar.SwitchShipMasterHull](/api/category/hangar/function.hangar.SwitchShipMasterHull.md)
+- [spellLib.GetState](/api/category/spellLib/function.spellLib.GetState.md)
+- [EVENT_HANGAR_SPELL_CHANGED](/api/events/events.EVENT_HANGAR_.md#event-hangar-spell-changed)
+- [EVENT_HANGAR_SPELL_EFFECT](/api/events/events.EVENT_HANGAR_.md#event-hangar-spell-effect)
