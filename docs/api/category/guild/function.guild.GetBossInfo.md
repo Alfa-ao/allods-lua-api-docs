@@ -48,6 +48,6 @@ local bossInfo = guild.GetBossInfo()
 
 ## Смотрите также
 
-- [EVENT_GUILD_BOSS_CHANGED](events.guild#event-guild-boss-changed)
-- [EVENT_GUILD_BOSS_EXPERIENCE_CHANGED](events.guild#event-guild-boss-experience-changed)
-- [EVENT_GUILD_BOSS_GEAR_SCORE_CHANGED](events.guild#event-guild-boss-gear-score-changed)
+- [EVENT_GUILD_BOSS_CHANGED](/api/events/events.EVENT_GUILD_.md#event-guild-boss-changed)
+- [EVENT_GUILD_BOSS_EXPERIENCE_CHANGED](/api/events/events.EVENT_GUILD_.md#event-guild-boss-experience-changed)
+- [EVENT_GUILD_BOSS_GEAR_SCORE_CHANGED](/api/events/events.EVENT_GUILD_.md#event-guild-boss-gear-score-changed)
