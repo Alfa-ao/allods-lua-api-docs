@@ -39,5 +39,5 @@ end
 
 ## Смотрите также
 
-- [craft.DiceCraftGetInspiredRecipes](function.craft.DiceCraftGetInspiredRecipes)
-- [craft.DiceCraftGetInspirationLevels](function.craft.DiceCraftGetInspirationLevels)
+- [craft.DiceCraftGetInspiredRecipes](/api/category/craft/function.craft.DiceCraftGetInspiredRecipes.md)
+- [craft.DiceCraftGetInspirationLevels](/api/category/craft/function.craft.DiceCraftGetInspirationLevels.md)
