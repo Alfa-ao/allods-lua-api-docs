@@ -41,5 +41,5 @@ end
 
 ## Смотрите также
 
-- [EVENT_GAME_ITEM_CHANGED](events.game#event-game-item-changed)
-- [itemLib.GetItemInfo](function.itemLib.GetItemInfo)
+- [EVENT_GAME_ITEM_CHANGED](/api/events/events.EVENT_GAME_.md#event-game-item-changed)
+- [itemLib.GetItemInfo](/api/category/itemLib/function.itemLib.GetItemInfo.md)
