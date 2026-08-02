@@ -55,6 +55,6 @@ end
 
 ## Смотрите также
 
-- [hangar.GetDevices](function.hangar.GetDevices)
-- [ITEM_QUALITY_...](dfsgsdfg)
-- [USDEV_...](dfgssdfg)
+- [hangar.GetDevices](/api/category/hangar/function.hangar.GetDevices.md)
+- [ITEM_QUALITY_*](/api/constants/constants.ITEM_QUALITY.md)
+- [USDEV_*](/api/constants/constants.USDEV.md)
