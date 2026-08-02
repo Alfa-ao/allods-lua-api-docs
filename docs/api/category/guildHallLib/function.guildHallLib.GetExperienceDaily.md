@@ -32,4 +32,4 @@ local guildHallExperienceDaily = guildHallLib.IsExist() and guildHallLib.GetExpe
 
 ## Смотрите также
 
-- [guildHallLib.GetExperience](function.guildHallLib.GetExperience)
+- [guildHallLib.GetExperience](/api/category/guildHallLib/function.guildHallLib.GetExperience.md)
