@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [hangar.CanRemoveDevice](function.hangar.CanRemoveDevice)
+- [hangar.CanRemoveDevice](/api/category/hangar/function.hangar.CanRemoveDevice.md)
