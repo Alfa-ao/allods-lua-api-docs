@@ -32,5 +32,5 @@ end
 
 ## Смотрите также
 
-- [guildHallLib.CanCreate](function.guildHallLib.CanCreate)
-- [guildHallLib.Create](function.guildHallLib.Create)
+- [guildHallLib.CanCreate](/api/category/guildHallLib/function.guildHallLib.CanCreate.md)
+- [guildHallLib.Create](/api/category/guildHallLib/function.guildHallLib.Create.md)
