@@ -35,6 +35,6 @@ end
 
 ## Смотрите также
 
-- [hangar.GetShips](function.hangar.GetShips)
-- [hangar.GetActiveShip](function.hangar.GetActiveShip)
-- [hangar.UnsummonShip](function.hangar.UnsummonShip)
+- [hangar.GetShips](/api/category/hangar/function.hangar.GetShips.md)
+- [hangar.GetActiveShip](/api/category/hangar/function.hangar.GetActiveShip.md)
+- [hangar.UnsummonShip](/api/category/hangar/function.hangar.UnsummonShip.md)
