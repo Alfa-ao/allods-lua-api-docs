@@ -21,10 +21,10 @@ interaction.InviteToExchange( invitedName: WString )
 
 ### Приглашение цели к обмену
 ```lua
-interaction.InviteToExchange( unit.GetName( avatar.GetTarget() ) )
+interaction.InviteToExchange( object.GetName( avatar.GetTarget() ) )
 ```
 
 ## Смотрите также
 
-- [unit.GetName](function.unit.GetName)
-- [avatar.GetTarget](function.avatar.GetTarget)
+- [object.GetName](/api/category/object/function.object.GetName.md)
+- [avatar.GetTarget](/api/category/avatar/function.avatar.GetTarget.md)
