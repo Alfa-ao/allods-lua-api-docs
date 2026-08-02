@@ -37,4 +37,4 @@ end
 
 ## Смотрите также
 
-- [hangar.GetSlotDevices](function.hangar.GetSlotDevices)
+- [hangar.GetSlotDevices](/api/category/hangar/function.hangar.GetSlotDevices.md)
