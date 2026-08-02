@@ -55,5 +55,5 @@ common.RegisterFrameHandler( OnFrame, false )
 
 ## Смотрите также
 
-- [common.UnRegisterFrameHandler](common.UnRegisterFrameHandler)
-- [common.HitFrameHandler](common.HitFrameHandler)
+- [common.UnRegisterFrameHandler](/api/category/common/function.common.UnRegisterFrameHandler)
+- [common.HitFrameHandler](/api/category/common/function.common.HitFrameHandler)
