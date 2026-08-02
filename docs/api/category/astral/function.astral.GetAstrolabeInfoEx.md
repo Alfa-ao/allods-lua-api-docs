@@ -39,6 +39,6 @@ end
 
 ## Смотрите также
 
-- [EVENT_ASTROLABE_INFO_CHANGED](events.astral#event-astrolabe-info-changed)
-- [astral.AstrolabeJump](function.astral.AstrolabeJump)
-- [astral.GetSectorInfo](function.astral.GetSectorInfo)
+- [EVENT_ASTROLABE_INFO_CHANGED](/api/events/events.EVENT_ASTROLABE_.md#event-astrolabe-info-changed)
+- [astral.AstrolabeJump](/api/category/astral/function.astral.AstrolabeJump)
+- [astral.GetSectorInfo](/api/category/astral/function.astral.GetSectorInfo)
