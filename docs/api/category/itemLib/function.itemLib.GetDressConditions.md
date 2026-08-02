@@ -44,4 +44,4 @@ end
 
 ## Смотрите также
 
-- [ENUM_DressResult_*](enumerations#enum_dressresult)
+- [ENUM_DressResult_*](/api/enums/enums.ENUM_DressResult.md)
