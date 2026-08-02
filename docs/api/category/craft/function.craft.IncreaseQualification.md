@@ -28,4 +28,4 @@ craft.IncreaseQualification()
 
 ## Смотрите также
 
-- [EVENT_DICE_CRAFT_CMD_FAILED](events.dice_craft#event-dice-craft-cmd-failed)
+- [EVENT_DICE_CRAFT_CMD_FAILED](/api/events/events.EVENT_DICE_.md#event-dice-craft-cmd-failed)
