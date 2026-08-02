@@ -28,5 +28,5 @@ end
 
 ## Смотрите также
 
-- [enchant.GetEnchants](function.enchant.GetEnchants)
-- [ENUM_EnchantSlot_...](enums.enchant)
+- [enchant.GetEnchants](/api/category/enchant/function.enchant.GetEnchants.md)
+- [ENUM_EnchantSlot_...](/api/enums/enums.ENUM_EnchantSlot.md)
