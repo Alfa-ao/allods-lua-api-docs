@@ -31,4 +31,4 @@ end
 
 ## Смотрите также
 
-- [LuaFullDateTime](LuaFullDateTime)
+- [LuaFullDateTime](/api/types/LuaFullDateTime.md)
