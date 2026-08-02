@@ -36,7 +36,7 @@ craft.DiceCraftState(): table|nil
 ```lua
 local state = craft.DiceCraftState()
 if state and state.inGame then
-    craft.DiceCraftLockSlot(slot, true)
+    craft.DiceCraftLockSlot(slot, true) -- not found
 end
 ```
 
@@ -46,6 +46,5 @@ end
 
 ## Смотрите также
 
-- [craft.DiceCraftPutItem](function.craft.DiceCraftPutItem)
-- [craft.DiceCraftEmptySlot](function.craft.DiceCraftEmptySlot)
-- [craft.DiceCraftLockSlot](function.craft.DiceCraftLockSlot)
+- [craft.DiceCraftPutItem](/api/category/craft/function.craft.DiceCraftPutItem.md)
+- [craft.DiceCraftEmptySlot](/api/category/craft/function.craft.DiceCraftEmptySlot.md)
