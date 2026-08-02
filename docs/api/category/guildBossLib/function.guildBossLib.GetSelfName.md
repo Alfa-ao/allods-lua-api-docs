@@ -30,4 +30,4 @@ local bossSelfName = guildBossLib.IsExist() and guildBossLib.GetSelfName()
 
 ## Смотрите также
 
-- [guildBossLib.IsExist](function.guildBossLib.IsExist)
+- [guildBossLib.IsExist](/api/category/guildBossLib/function.guildBossLib.IsExist.md)
