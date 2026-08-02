@@ -30,4 +30,4 @@ local itemIds = containerLib.GetAllSimilarItemIds( ITEM_CONT_INVENTORY, itemReso
 
 ## Смотрите также
 
-- [ITEM_CONT_...](#)
+- [ITEM_CONT_*](/api/constants/constants.ITEM_CONT.md)
