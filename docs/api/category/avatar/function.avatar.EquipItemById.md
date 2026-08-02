@@ -9,8 +9,7 @@ avatar.EquipItemById( itemId: ObjectId )
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`)
-Идентификатор предмета, который необходимо экипировать.
+- **`itemId`** (`ObjectId`) - Идентификатор предмета, который необходимо экипировать.
 
 ## Возвращаемые значения
 
@@ -20,6 +19,5 @@ avatar.EquipItemById( itemId: ObjectId )
 
 ### Экипировка предмета по идентификатору
 ```lua
-local itemId = 100500
 avatar.EquipItemById( itemId )
 ```
