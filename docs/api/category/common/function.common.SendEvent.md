@@ -46,4 +46,4 @@ common.SendEvent( "SCRIPT_SAMPLE_EVENT", { eventParam1 = value1, eventParam2 = v
 
 ## Смотрите также
 
-- [common.RegisterEventHandler](common.RegisterEventHandler)
+- [common.RegisterEventHandler](/api/category/common/function.common.RegisterEventHandler)
