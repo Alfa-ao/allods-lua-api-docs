@@ -34,5 +34,5 @@ end
 
 ## Смотрите также
 
-- [hangar.CanCustomize](function.hangar.CanCustomize)
-- [hangar.GetCustomizationSlotInfo](function.hangar.GetCustomizationSlotInfo)
+- [hangar.CanCustomize](/api/category/hangar/function.hangar.CanCustomize.md)
+- [hangar.GetCustomizationSlotInfo](/api/category/hangar/function.hangar.GetCustomizationSlotInfo.md)
