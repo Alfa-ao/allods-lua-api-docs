@@ -41,6 +41,6 @@ end
 
 ## Смотрите также
 
-- [EVENT_ASTRAL_SECTOR_CHECK_JUMP_RESULT](events.astral#event-astral-sector-check-jump-result)
-- [astral.GetAstrolabeInfoEx](function.astral.GetAstrolabeInfoEx)
-- [astral.GetPOIInfo](function.astral.GetPOIInfo)
+- [EVENT_ASTRAL_SECTOR_CHECK_JUMP_RESULT](/api/events/events.EVENT_ASTRAL_.md#event-astral-sector-check-jump-result)
+- [astral.GetAstrolabeInfoEx](/api/category/astral/function.astral.GetAstrolabeInfoEx)
+- [astral.GetPOIInfo](/api/category/astral/function.astral.GetPOIInfo)
