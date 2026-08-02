@@ -39,6 +39,6 @@ end
 
 ## Смотрите также
 
-- [guildBossLib.IsExist](function.guildBossLib.IsExist)
-- [guildBossLib.GetInfo](function.guildBossLib.GetInfo)
-- [guildBossLib.GetAbilitiesSlots](function.guildBossLib.GetAbilitiesSlots)
+- [guildBossLib.IsExist](/api/category/guildBossLib/function.guildBossLib.IsExist.md)
+- [guildBossLib.GetInfo](/api/category/guildBossLib/function.guildBossLib.GetInfo.md)
+- [guildBossLib.GetAbilitiesSlots](/api/category/guildBossLib/function.guildBossLib.GetAbilitiesSlots.md)
