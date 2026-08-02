@@ -33,4 +33,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetRecipeInfo](../avatar/function.avatar.GetRecipeInfo)
+- [avatar.GetRecipeInfo](/api/category/avatar/function.avatar.GetRecipeInfo.md)
