@@ -34,7 +34,7 @@ end
 
 ## Смотрите также
 
-- [hangar.GetActiveShipHull](function.hangar.GetActiveShipHull)
-- [hangar.GetHullInfo](function.hangar.GetHullInfo)
-- [hangar.SwitchShipMasterHull](function.hangar.SwitchShipMasterHull)
-- [EVENT_HANGAR_ACTIVE_SHIP_HULLS_CHANGED](events.hangar#event-hangar-active-ship-hulls-changed)
+- [hangar.GetActiveShipHull](/api/category/hangar/function.hangar.GetActiveShipHull.md)
+- [hangar.GetHullInfo](/api/category/hangar/function.hangar.GetHullInfo.md)
+- [hangar.SwitchShipMasterHull](/api/category/hangar/function.hangar.SwitchShipMasterHull.md)
+- [EVENT_HANGAR_ACTIVE_SHIP_HULLS_CHANGED](/api/events/events.EVENT_HANGAR_.md#event-hangar-active-ship-hulls-changed)
