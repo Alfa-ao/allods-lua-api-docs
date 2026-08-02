@@ -27,7 +27,7 @@ currencyExchange.CanBuy( crystalsToBuy: number, moneyToSpend: number ): boolean
 ```lua
 if currencyExchange.IsServiceActive() then
     if currencyExchange.CanBuy( crystalsToBuy, moneyToSpend ) then
-        currencyExchange.Buy( crystalsToBuy, moneyToSpend )
+        currencyExchange.Buy( crystalsToBuy, moneyToSpend ) -- not found
     end
 end
 ```
@@ -38,5 +38,4 @@ end
 
 ## Смотрите также
 
-- [currencyExchange.IsServiceActive](function.currencyExchange.IsServiceActive)
-- [currencyExchange.Buy](function.currencyExchange.Buy)
+- [currencyExchange.IsServiceActive](/api/category/currencyExchange/function.currencyExchange.IsServiceActive.md)
