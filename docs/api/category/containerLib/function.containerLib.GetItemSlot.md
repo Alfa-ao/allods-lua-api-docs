@@ -39,4 +39,4 @@ end
 
 ## Смотрите также
 
-- [ITEM_CONT_...](#item-cont)
+- [ITEM_CONT_*](/api/constants/constants.ITEM_CONT.md)
