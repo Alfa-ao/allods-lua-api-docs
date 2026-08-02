@@ -30,4 +30,4 @@ local isEnchantsCarrier = enchant.CanInsertEnchants( itemId )
 
 ## Смотрите также
 
-- [enchant.CanInsertEnchant](function.enchant.CanInsertEnchant)
+- [enchant.CanInsertEnchant](/api/category/enchant/function.enchant.CanInsertEnchant.md)
