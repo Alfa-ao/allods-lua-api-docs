@@ -37,5 +37,5 @@ end
 
 ## Смотрите также
 
-- [family.IsExist](function.family.IsExist)
-- [object.GetName](function.object.GetName)
+- [family.IsExist](/api/category/family/function.family.IsExist.md)
+- [object.GetName](/api/category/object/function.object.GetName.md)
