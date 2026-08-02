@@ -32,6 +32,6 @@ local slots = craft.DiceCraftGetPlacedItems()
 
 ## Смотрите также
 
-- [craft.DiceCraftEmptySlot](function.craft.DiceCraftEmptySlot)
-- [craft.DiceCraftPutItem](function.craft.DiceCraftPutItem)
-- [EVENT_DICE_CRAFT_SLOT_CHANGED](events.craft#event-dice-craft-slot-changed)
+- [craft.DiceCraftEmptySlot](/api/category/craft/function.craft.DiceCraftEmptySlot.md)
+- [craft.DiceCraftPutItem](/api/category/craft/function.craft.DiceCraftPutItem.md)
+- [EVENT_DICE_CRAFT_SLOT_CHANGED](/api/events/events.EVENT_DICE_.md#event-dice-craft-slot-changed)
