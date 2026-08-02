@@ -29,4 +29,4 @@ local enchants = enchant.GetEnchants( itemId )
 
 ## Смотрите также
 
-- [enchant.GetItemSlots](function.enchant.GetItemSlots)
+- [enchant.GetItemSlots](/api/category/enchant/function.enchant.GetItemSlots.md)
