@@ -41,5 +41,5 @@ local itemIds = containerLib.GetItems( ITEM_CONT_INVENTORY )
 
 ## Смотрите также
 
-- [ITEM_CONT_...](ссылка)
-- [containerLib.GetSize](ссылка)
+- [ITEM_CONT_*](/api/constants/constants.ITEM_CONT.md)
+- [containerLib.GetSize](/api/category/containerLib/function.containerLib.GetSize.md)
