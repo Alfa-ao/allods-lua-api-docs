@@ -33,6 +33,6 @@ end
 
 ## Смотрите также
 
-- [hangar.GetActiveShip](function.hangar.GetActiveShip)
-- [hangar.GetActiveShipHull](function.hangar.GetActiveShipHull)
-- [hangar.GetAvailableHulls](function.hangar.GetAvailableHulls)
+- [hangar.GetActiveShip](/api/category/hangar/function.hangar.GetActiveShip.md)
+- [hangar.GetActiveShipHull](/api/category/hangar/function.hangar.GetActiveShipHull.md)
+- [hangar.GetAvailableHulls](/api/category/hangar/function.hangar.GetAvailableHulls.md)
