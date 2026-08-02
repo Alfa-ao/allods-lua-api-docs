@@ -48,6 +48,6 @@ end
 
 ## Смотрите также
 
-- [ENUM_DominationFightTeam](enums.domination#enum-dominationfightteam)
-- [ENUM_DominationAreaState](enums.domination#enum-dominationareastate)
-- [dominationLib.GetObjectives()](function.dominationLib.GetObjectives)
+- [ENUM_DominationFightTeam](/api/enums/enums.ENUM_DominationFightTeam.md)
+- [ENUM_DominationAreaState](/api/enums/enums.ENUM_DominationAreaState.md)
+- [dominationLib.GetObjectives](/api/category/dominationLib/function.dominationLib.GetObjectives.md)
