@@ -40,4 +40,4 @@ end
 
 ## Смотрите также
 
-- [guild.GetRank](function.guild.GetRank)
+- [guild.GetRank](/api/category/guild/function.guild.GetRank.md)
