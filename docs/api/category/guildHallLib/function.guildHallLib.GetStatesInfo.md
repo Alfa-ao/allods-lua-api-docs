@@ -30,4 +30,4 @@ local guildHallStates = guildHallLib.IsExist() and guildHallLib.GetStatesInfo()
 
 ## Смотрите также
 
-- [guildHallLib.GetCurrentStateInfo](function.guildHallLib.GetCurrentStateInfo)
+- [guildHallLib.GetCurrentStateInfo](/api/category/guildHallLib/function.guildHallLib.GetCurrentStateInfo.md)
