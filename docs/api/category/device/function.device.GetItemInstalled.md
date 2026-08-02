@@ -37,4 +37,4 @@ local itemId = device.GetItemInstalled( usableDeviceId )
 
 ## Смотрите также
 
-- [USDEV_...](sdfgsd)
+- [USDEV_*](/api/constants/constants.USDEV.md)
