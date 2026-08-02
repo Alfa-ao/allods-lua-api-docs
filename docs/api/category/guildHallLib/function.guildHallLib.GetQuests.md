@@ -42,5 +42,5 @@ local questReward = firstGuildQuest and guildHallLib.GetQuestReward( firstGuildQ
 
 ## Смотрите также
 
-- [guildHallLib.GetQuestInfo](function.guildHallLib.GetQuestInfo)
-- [guildHallLib.GetQuestReward](function.guildHallLib.GetQuestReward)
+- [guildHallLib.GetQuestInfo](/api/category/guildHallLib/function.guildHallLib.GetQuestInfo.md)
+- [guildHallLib.GetQuestReward](/api/category/guildHallLib/function.guildHallLib.GetQuestReward.md)
