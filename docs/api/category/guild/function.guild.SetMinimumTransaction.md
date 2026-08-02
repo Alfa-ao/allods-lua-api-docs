@@ -28,4 +28,4 @@ guild.SetMinimumTransaction( 1000000 )
 
 ## Смотрите также
 
-- [EnumTabardType](#enumtabardtype)
+- [EnumTabardType](/api/enums/enums.ENUM_TabardType.md)
