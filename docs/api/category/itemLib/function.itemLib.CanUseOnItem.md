@@ -32,6 +32,6 @@ end
 
 ## Смотрите также
 
-- [avatar.UseItemOnItemAndTakeActions](function.avatar.UseItemOnItemAndTakeActions)
-- [itemLib.IsUseOnItemAndTakeActions](function.itemLib.IsUseOnItemAndTakeActions)
-- [itemLib.CanActivateForUseOnItem](function.itemLib.CanActivateForUseOnItem)
+- [avatar.UseItemOnItemAndTakeActions](/api/category/avatar/function.avatar.UseItemOnItemAndTakeActions.md)
+- [itemLib.IsUseOnItemAndTakeActions](/api/category/itemLib/function.itemLib.IsUseOnItemAndTakeActions.md)
+- [itemLib.CanActivateForUseOnItem](/api/category/itemLib/function.itemLib.CanActivateForUseOnItem.md)
