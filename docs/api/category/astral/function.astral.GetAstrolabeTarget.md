@@ -22,10 +22,10 @@ astral.GetAstrolabeTarget(): ObjectId | nil
 ```lua
 local sectorId = astral.GetAstrolabeTarget()
 if sectorId then
-  local sectorInfo = astral.GetSectorInfo( sectorId )
-  if sectorInfo then
-    LogInfo( "Идет разгон" )
-  end
+    local sectorInfo = astral.GetSectorInfo( sectorId )
+    if sectorInfo then
+        LogInfo( "Идет разгон" )
+    end
 end
 ```
 
@@ -35,4 +35,4 @@ end
 
 ## Смотрите также
 
-- [astral.GetSectorInfo](astral.GetSectorInfo)
+- [astral.GetSectorInfo](/api/category/astral/function.astral.GetSectorInfo)
