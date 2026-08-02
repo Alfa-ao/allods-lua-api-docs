@@ -35,5 +35,5 @@ end
 
 ## Смотрите также
 
-- [interaction.GetExchangeInviter](function.interaction.GetExchangeInviter)
-- [interaction.GetExchangeInvited](function.interaction.GetExchangeInvited)
+- [interaction.GetExchangeInviter](/api/category/interaction/function.interaction.GetExchangeInviter.md)
+- [interaction.GetExchangeInvited](/api/category/interaction/function.interaction.GetExchangeInvited.md)
