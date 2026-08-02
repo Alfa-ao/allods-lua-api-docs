@@ -44,5 +44,5 @@ end
 
 ## Смотрите также
 
-- [device.GetUsableDeviceActionInfo](function.device.GetUsableDeviceActionInfo)
-- [device.GetUsableDeviceInfo](function.device.GetUsableDeviceInfo)
+- [device.GetUsableDeviceActionInfo](/api/category/device/function.device.GetUsableDeviceActionInfo.md)
+- [device.GetUsableDeviceInfo](/api/category/device/function.device.GetUsableDeviceInfo.md)
