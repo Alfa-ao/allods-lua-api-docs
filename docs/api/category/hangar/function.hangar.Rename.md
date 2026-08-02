@@ -28,5 +28,5 @@ hangar.Rename( name )
 
 ## Смотрите также
 
-- [EVENT_TRANSPORT_RENAME_REPLY_RESULT](events.transport#event-transport-rename-reply-result)
-- [EVENT_GENERAL_ERROR](events.general#event-general-error)
+- [EVENT_TRANSPORT_RENAME_REPLY_RESULT](/api/events/events.EVENT_TRANSPORT_.md#event-transport-rename-reply-result)
+- [EVENT_GENERAL_ERROR](/api/events/events.EVENT_GENERAL_.md#event-general-error)
