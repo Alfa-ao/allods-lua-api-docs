@@ -33,4 +33,4 @@ end
 
 ## Смотрите также
 
-- [dominationLib.GetObjectiveInfo](function.dominationLib.GetObjectiveInfo)
+- [dominationLib.GetObjectiveInfo](/api/category/dominationLib/function.dominationLib.GetObjectiveInfo.md)
