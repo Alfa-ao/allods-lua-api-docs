@@ -45,5 +45,4 @@ end
 
 ## Смотрите также
 
-- [ENUM_SlotName_...](#enum_slotname)
-- [ENUM_BeastType_...](#enum_beasttype)
+- [ENUM_BeastType_...](/api/enums/enums.ENUM_BeastType.md)
