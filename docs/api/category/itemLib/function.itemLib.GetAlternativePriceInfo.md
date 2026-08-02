@@ -33,4 +33,4 @@ local value = alternativePriceInfo and alternativePriceInfo[0] and alternativePr
 
 ## Смотрите также
 
-- [CurrencyId:GetInfo()](CurrencyId:GetInfo)
+- [CurrencyId:GetInfo](/api/category/ResourceId/method.GetInfo.md)
