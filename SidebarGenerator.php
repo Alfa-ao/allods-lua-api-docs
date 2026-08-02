@@ -31,7 +31,7 @@ class SidebarGenerator
         $ignoreList = $this->config['ignore'] ?? [];
         
         $filterIterator = new RecursiveCallbackFilterIterator($dirIterator, function ($current, $key, $iterator) use ($ignoreList) {
-            // Файлы всегда пропускаем через фильтр (их отсечет проверка расширения ниже)
+            // Файлы всегда пропускаем через фильтр
             if (!$current->isDir()) {
                 return true;
             }
@@ -164,9 +164,9 @@ $generator = new SidebarGenerator('docs', [
     'rename' => [
         'text' => [
             'api' => 'Lua Api',
-            //'events' => 'События (Events)', 
-            //'constants' => 'Константы (Consts)', 
-            //'enums' => 'Перечисления (Enums)',
+            'events' => 'События (Events)', 
+            'constants' => 'Константы (Consts)', 
+            'enums' => 'Перечисления (Enums)',
             //'index' => 'Оглавление',
         ]
     ]
