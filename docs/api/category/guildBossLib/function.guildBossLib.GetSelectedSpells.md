@@ -32,5 +32,5 @@ local currentSpells = guildBossLib.IsExist() and guildBossLib.GetSelectedSpells(
 
 ## Смотрите также
 
-- [guildBossLib.IsExist](function.guildBossLib.IsExist)
-- [guildBossLib.SelectAbilities](function.guildBossLib.SelectAbilities)
+- [guildBossLib.IsExist](/api/category/guildBossLib/function.guildBossLib.IsExist.md)
+- [guildBossLib.SelectAbilities](/api/category/guildBossLib/function.guildBossLib.SelectAbilities.md)
