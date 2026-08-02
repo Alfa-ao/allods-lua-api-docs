@@ -32,4 +32,4 @@ end
 
 ## Смотрите также
 
-- [hangar.ChangeSlotCustomization](function.hangar.ChangeSlotCustomization)
+- [hangar.ChangeSlotCustomization](/api/category/hangar/function.hangar.ChangeSlotCustomization.md)
