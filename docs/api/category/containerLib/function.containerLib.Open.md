@@ -28,4 +28,4 @@ containerLib.Open( ITEM_CONT_DEPOSITE )
 
 ## Смотрите также
 
-- [ITEM_CONT_...](asdasda)
+- [ITEM_CONT_*](/api/constants/constants.ITEM_CONT.md)
