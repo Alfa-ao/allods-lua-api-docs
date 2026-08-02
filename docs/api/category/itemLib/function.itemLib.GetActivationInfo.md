@@ -49,5 +49,5 @@ end
 
 ## Смотрите также
 
-- [avatar.ActivateItem](function.avatar.ActivateItem)
-- [avatar.ActivateItemAlternative](function.avatar.ActivateItemAlternative)
+- [avatar.ActivateItem](/api/category/avatar/function.avatar.ActivateItem.md)
+- [avatar.ActivateItemAlternative](/api/category/avatar/function.avatar.ActivateItemAlternative.md)
