@@ -32,4 +32,4 @@ local activators = itemLib.GetActivators( itemId )
 
 ## Смотрите также
 
-- [avatar.ActivateItem](function.avatar.ActivateItem)
+- [avatar.ActivateItem](/api/category/avatar/function.avatar.ActivateItem.md)
