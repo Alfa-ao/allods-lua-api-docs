@@ -33,4 +33,4 @@ local success = craft.MakeForge( fid, rid, {
 
 ## Смотрите также
 
-- [craft.GetForgeRecipeInfo](function.craft.GetForgeRecipeInfo)
+- [craft.GetForgeRecipeInfo](/api/category/craft/function.craft.GetForgeRecipeInfo.md)
