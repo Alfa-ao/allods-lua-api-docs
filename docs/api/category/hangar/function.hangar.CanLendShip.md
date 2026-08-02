@@ -26,4 +26,4 @@ local canLend = hangar.CanLendShip()
 
 ## Смотрите также
 
-- [hangar.LendShip](function.hangar.LendShip)
+- [hangar.LendShip](/api/category/hangar/function.hangar.LendShip.md)
