@@ -38,5 +38,5 @@ end
 
 ## Смотрите также
 
-- [guildHallLib.IsExist](function.guildHallLib.IsExist)
-- [guildHallLib.CanCreate](function.guildHallLib.CanCreate)
+- [guildHallLib.IsExist](/api/category/guildHallLib/function.guildHallLib.IsExist.md)
+- [guildHallLib.CanCreate](/api/category/guildHallLib/function.guildHallLib.CanCreate.md)
