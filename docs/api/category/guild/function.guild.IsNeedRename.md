@@ -28,5 +28,5 @@ end
 
 ## Смотрите также
 
-- [EVENT_GUILD_NEED_RENAME_CHANGED](EVENT_GUILD_NEED_RENAME_CHANGED)
-- [guild.CanRename](guild.CanRename)
+- [EVENT_GUILD_NEED_RENAME_CHANGED](/api/events/events.EVENT_GUILD_.md)
+- [guild.CanRename](/api/category/guild/function.guild.CanRename)
