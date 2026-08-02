@@ -28,5 +28,5 @@ hangar.UnsummonShip()
 
 ## Смотрите также
 
-- [hangar.GetActiveShip](function.hangar.GetActiveShip)
-- [hangar.SummonShip](function.hangar.SummonShip)
+- [hangar.GetActiveShip](/api/category/hangar/function.hangar.GetActiveShip.md)
+- [hangar.SummonShip](/api/category/hangar/function.hangar.SummonShip.md)
