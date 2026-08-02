@@ -34,7 +34,7 @@ local canSwitchShipSkin = spellState and spellState.enabled
 
 ## Смотрите также
 
-- [hangar.SwitchShipSkin](function.hangar.SwitchShipSkin)
-- [spellLib.GetState](function.spellLib.GetState)
-- [EVENT_HANGAR_SPELL_CHANGED](events.hangar#event-hangar-spell-changed)
-- [EVENT_HANGAR_SPELL_EFFECT](events.hangar#event-hangar-spell-effect)
+- [hangar.SwitchShipSkin](/api/category/hangar/function.hangar.SwitchShipSkin.md)
+- [spellLib.GetState](/api/category/spellLib/function.spellLib.GetState.md)
+- [EVENT_HANGAR_SPELL_CHANGED](/api/events/events.EVENT_HANGAR_.md#event-hangar-spell-changed)
+- [EVENT_HANGAR_SPELL_EFFECT](/api/events/events.EVENT_HANGAR_.md#event-hangar-spell-effect)
