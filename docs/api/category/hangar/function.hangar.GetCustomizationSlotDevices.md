@@ -41,6 +41,6 @@ end
 
 ## Смотрите также
 
-- [hangar.CanCustomize](function.hangar.CanCustomize)
-- [hangar.GetCustomizationSlots](function.hangar.GetCustomizationSlots)
-- [hangar.GetDeviceInfo](function.hangar.GetDeviceInfo)
+- [hangar.CanCustomize](/api/category/hangar/function.hangar.CanCustomize.md)
+- [hangar.GetCustomizationSlots](/api/category/hangar/function.hangar.GetCustomizationSlots.md)
+- [hangar.GetDeviceInfo](/api/category/hangar/function.hangar.GetDeviceInfo.md)
