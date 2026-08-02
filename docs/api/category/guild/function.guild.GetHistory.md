@@ -32,7 +32,7 @@ guild.GetHistory( 3, ENUM_GuildHistoryOrder_OPERATIONTIME, false )
 
 ## Смотрите также
 
-- [guild.GetBankInfo](function.guild.GetBankInfo)
-- [EVENT_GUILD_BANK_OPERATION_RESULT](events.guild#event-guild-bank-operation-result)
-- [EVENT_GUILD_BANK_HISTORY_CHANGED](events.guild#event-guild-bank-history-changed)
-- [ENUM_GuildHistoryOrder](constants.guild#enum-guildhistoryorder)
+- [guild.GetBankInfo](/api/category/guild/function.guild.GetBankInfo.md)
+- [EVENT_GUILD_BANK_OPERATION_RESULT](/api/events/events.EVENT_GUILD_.md#event-guild-bank-operation-result)
+- [EVENT_GUILD_BANK_HISTORY_CHANGED](/api/events/events.EVENT_GUILD_.md#event-guild-bank-history-changed)
+- [ENUM_GuildHistoryOrder](/api/enums/enums.ENUM_GuildHistoryOrder.md)
