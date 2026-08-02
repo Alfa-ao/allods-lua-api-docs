@@ -38,4 +38,4 @@ end
 
 ## Смотрите также
 
-- [astral.GetSectorInfo](astral.GetSectorInfo)
+- [astral.GetSectorInfo](/api/category/astral/function.astral.GetSectorInfo)
