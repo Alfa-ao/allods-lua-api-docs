@@ -57,4 +57,4 @@ common.RegisterReactionHandler( OnReactionSampleReaction, "reaction_test" )
 
 ## Смотрите также
 
-- [EnumKeyboardFlags](EnumKeyboardFlags)
+- [KBF_](/api/constants/constants.KBF.md)
