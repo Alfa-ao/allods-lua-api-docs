@@ -49,5 +49,5 @@ end
 
 ## Смотрите также
 
-- [ENUM_BeastType_*](#enum-beasttype)
-- [ENUM_CreatureRace_*](#enum-creaturerace)
+- [ENUM_BeastType_*](/api/enums/enums.ENUM_BeastType.md)
+- [ENUM_CreatureRace_*](/api/enums/enums.ENUM_CreatureRace.md)
