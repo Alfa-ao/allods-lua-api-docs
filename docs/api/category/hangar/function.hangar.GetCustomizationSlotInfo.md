@@ -59,5 +59,5 @@ end
 
 ## Смотрите также
 
-- [hangar.GetDeviceInfo](function.hangar.GetDeviceInfo)
-- [hangar.GetCustomizationSlots](function.hangar.GetCustomizationSlots)
+- [hangar.GetDeviceInfo](/api/category/hangar/function.hangar.GetDeviceInfo.md)
+- [hangar.GetCustomizationSlots](/api/category/hangar/function.hangar.GetCustomizationSlots.md)
