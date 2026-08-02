@@ -35,4 +35,4 @@ end
 
 ## Смотрите также
 
-- [guild.GetLeader](function.guild.GetLeader)
+- [guild.GetLeader](/api/category/guild/function.guild.GetLeader.md)
