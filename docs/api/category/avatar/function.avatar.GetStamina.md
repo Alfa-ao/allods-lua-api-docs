@@ -26,7 +26,7 @@ local stat = avatar.GetStamina()
 
 ## Смотрите также
 
-- [avatar.GetInnateStats](avatar.GetInnateStats)
-- [EVENT_AVATAR_STATS_CHANGED](events.avatar#event-avatar-stats-changed)
-- [avatar.GetPower](avatar.GetPower)
-- [avatar.GetWisdom](avatar.GetWisdom)
+- [avatar.GetInnateStats](/api/category/avatar/function.avatar.GetInnateStats)
+- [EVENT_AVATAR_STATS_CHANGED](/api/events/events.EVENT_AVATAR_.md#event-avatar-stats-changed)
+- [avatar.GetPower](/api/category/avatar/function.avatar.GetPower)
+- [avatar.GetWisdom](/api/category/avatar/function.avatar.GetWisdom)
