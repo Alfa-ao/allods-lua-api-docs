@@ -37,4 +37,4 @@ end
 
 ## Смотрите также
 
-- [astral.GetObjectInfo](astral.GetObjectInfo)
+- [astral.GetObjectInfo](/api/category/astral/function.astral.GetObjectInfo)
