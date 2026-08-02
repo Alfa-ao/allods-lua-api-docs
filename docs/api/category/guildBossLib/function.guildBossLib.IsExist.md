@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [guildBossLib.GetInfo](function.guildBossLib.GetInfo)
+- [guildBossLib.GetInfo](/api/category/guildBossLib/function.guildBossLib.GetInfo.md)
