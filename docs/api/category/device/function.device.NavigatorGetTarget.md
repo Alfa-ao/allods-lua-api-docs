@@ -26,6 +26,6 @@ local targetId = device.NavigatorGetTarget()
 
 ## Смотрите также
 
-- [device.NavigatorSetTarget](function.device.NavigatorSetTarget)
-- [EVENT_TRANSPORT_OBSERVING_STARTED](events.transport#event-transport-observing-started)
-- [EVENT_TRANSPORT_OBSERVING_FINISHED](events.transport#event-transport-observing-finished)
+- [device.NavigatorSetTarget](/api/category/device/function.device.NavigatorSetTarget.md)
+- [EVENT_TRANSPORT_OBSERVING_STARTED](/api/events/events.EVENT_TRANSPORT_.md#event-transport-observing-started)
+- [EVENT_TRANSPORT_OBSERVING_FINISHED](/api/events/events.EVENT_TRANSPORT_.md#event-transport-observing-finished)
