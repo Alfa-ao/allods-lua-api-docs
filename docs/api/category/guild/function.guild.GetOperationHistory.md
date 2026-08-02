@@ -53,6 +53,6 @@ local firstTransactionValue = history[ 0 ] and history[ 0 ].balanceChange
 
 ## Смотрите также
 
-- [ENUM_MoneyChangeReason](#enum-moneychangereason)
-- [LuaFullDateTime](#luafulldatetime)
-- [ENUM_TabardType](#enum-tabardtype)
+- [ENUM_MoneyChangeReason](/api/enums/enums.ENUM_MoneyChangeReason.md)
+- [LuaFullDateTime](/api/types/LuaFullDateTime.md)
+- [ENUM_TabardType](/api/enums/enums.ENUM_TabardType.md)
