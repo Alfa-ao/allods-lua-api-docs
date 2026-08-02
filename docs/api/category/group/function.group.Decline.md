@@ -25,4 +25,4 @@ group.Decline()
 ```
 ## Смотрите также
 
-- [group.GetInviteInfo](group.GetInviteInfo)
+- [group.GetInviteInfo](/api/category/group/function.group.GetInviteInfo)
