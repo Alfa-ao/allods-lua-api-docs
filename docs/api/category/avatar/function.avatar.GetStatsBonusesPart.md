@@ -53,5 +53,5 @@ end
 
 ## Смотрите также
 
-- [EVENT_FAIRY_BONUS_CHANGED](events.avatar#event-fairy-bonus-changed)
-- [avatar.ChangeFairyBonus](function.avatar.ChangeFairyBonus)
+- [EVENT_FAIRY_BONUS_CHANGED](/api/events/events.EVENT_FAIRY_.md#event-fairy-bonus-changed)
+- [avatar.ChangeFairyBonus](/api/category/avatar/function.avatar.ChangeFairyBonus.md)
