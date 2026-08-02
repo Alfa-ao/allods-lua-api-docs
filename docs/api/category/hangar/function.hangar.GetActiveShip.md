@@ -35,6 +35,6 @@ end
 
 ## Смотрите также
 
-- [hangar.SummonShip](function.hangar.SummonShip)
-- [hangar.GetShips](function.hangar.GetShips)
-- [EVENT_HANGAR_ACTIVE_SHIP_CHANGED](events.hangar#event_hangar_active_ship_changed)
+- [hangar.SummonShip](/api/category/hangar/function.hangar.SummonShip.md)
+- [hangar.GetShips](/api/category/hangar/function.hangar.GetShips.md)
+- [EVENT_HANGAR_ACTIVE_SHIP_CHANGED](/api/events/events.EVENT_HANGAR_.md#event-hangar-active-ship-changed)
