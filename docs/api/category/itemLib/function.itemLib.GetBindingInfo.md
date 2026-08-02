@@ -39,4 +39,4 @@ local bindDescription = itemBinding and itemBinding.bindDescription
 
 ## Смотрите также
 
-- [ITEM_BINDING_...](#)
+- [ITEM_BINDING_...](/api/constants/constants.ITEM_BINDING.md)
