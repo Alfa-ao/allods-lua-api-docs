@@ -46,4 +46,4 @@ local itemCategoryName = itemCategoryInfo and itemCategoryInfo.name
 
 ## Смотрите также
 
-- [itemLib.GetCategory](function.itemLib.GetCategory)
+- [itemLib.GetCategory](/api/category/itemLib/function.itemLib.GetCategory.md)
