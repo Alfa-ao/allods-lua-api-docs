@@ -32,5 +32,5 @@ device.NavigatorSetTarget( nil )
 
 ## Смотрите также
 
-- [USDEV_*](sfsdf)
-- [EVENT_TRANSPORT_OBSERVING_*](dfghdg)
+- [USDEV_*](/api/constants/constants.USDEV.md)
+- [EVENT_TRANSPORT_OBSERVING_*](/api/events/events.EVENT_TRANSPORT_.md)
