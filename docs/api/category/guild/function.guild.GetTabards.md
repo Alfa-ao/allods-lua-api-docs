@@ -37,4 +37,4 @@ end
 
 ## Смотрите также
 
-- [ENUM_TabardType_...](../constants#enum-tabardtype)
+- [ENUM_TabardType_...](/api/enums/enums.ENUM_TabardType.md)
