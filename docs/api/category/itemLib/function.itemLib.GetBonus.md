@@ -66,6 +66,6 @@ end
 
 ## Смотрите также
 
-- [avatar.GetInnateStats](../avatar/function.avatar.GetInnateStats)
-- [avatar.GetResistances](../avatar/function.avatar.GetResistances)
-- [ENUM_SpecialStatType](../constants#enum-specialstattype)
+- [avatar.GetInnateStats](/api/category/avatar/function.avatar.GetInnateStats.md)
+- [avatar.GetResistances](/api/category/avatar/function.avatar.GetResistances.md)
+- [ENUM_SpecialStatType](/api/enums/enums.ENUM_SpecialStatType.md)
