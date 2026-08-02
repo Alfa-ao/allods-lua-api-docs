@@ -25,14 +25,10 @@ device.GetTransport( usableDeviceId: ObjectId ): ObjectId | nil
 ```lua
 local transportId = device.GetTransport( usableDeviceId )
 if transportId then
-    local health = transport.GetHealth( transportId )
+    local health = transport.GetHealth( transportId ) -- not found
 end
 ```
 
 ::: info Описание примера
 В примере запрашивается идентификатор транспорта для указанного устройства. Если транспорт успешно найден, извлекается значение его здоровья с помощью функции `transport.GetHealth`.
 :::
-
-## Смотрите также
-
-- [transport.GetHealth](function.transport.GetHealth)
