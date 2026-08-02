@@ -28,6 +28,6 @@ local memberInfo = group.GetMemberInfoByIndex( 2 )
 
 ## Смотрите также
 
-- [GROUP_MEMBER_STATE_...](/api/enums/group_member_state)
+- [GROUP_MEMBER_STATE_...](/api/constants/constants.GROUP_MEMBER_STATE.md)
 - [raid.GetMemberInfo](/api/category/raid/function.raid.GetMemberInfo)
 - [group.GetMembers](/api/category/group/function.group.GetMembers)
