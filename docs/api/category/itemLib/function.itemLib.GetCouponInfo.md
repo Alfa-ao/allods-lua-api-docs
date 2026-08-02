@@ -30,5 +30,5 @@ local couponInfo = itemLib.GetCouponInfo( itemResourceId )
 
 ## Смотрите также
 
-- [ItemId](ItemId)
-- [itemLib.GetResourceId](function.itemLib.GetResourceId)
+- [ItemId](/api/types/ItemId.md)
+- [itemLib.GetResourceId](/api/category/itemLib/function.itemLib.GetResourceId.md)
