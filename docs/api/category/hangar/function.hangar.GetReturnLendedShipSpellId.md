@@ -34,8 +34,8 @@ local canReturn = spellState and spellState.enabled
 
 ## Смотрите также
 
-- [spellLib.GetState](function.spellLib.GetState)
-- [protectedActions.RunSpell](function.protectedActions.RunSpell)
-- [EVENT_HANGAR_SPELL_CHANGED](events.hangar#event-hangar-spell-changed)
-- [EVENT_HANGAR_SPELL_EFFECT](events.hangar#event-hangar-spell-effect)
-- [hangar.GetLendShipSpellId](function.hangar.GetLendShipSpellId)
+- [spellLib.GetState](/api/category/spellLib/function.spellLib.GetState.md)
+- [avatar.RunSpell](/api/category/avatar/function.avatar.RunSpell.md)
+- [EVENT_HANGAR_SPELL_CHANGED](/api/events/events.EVENT_HANGAR_.md#event-hangar-spell-changed)
+- [EVENT_HANGAR_SPELL_EFFECT](/api/events/events.EVENT_HANGAR_.md#event-hangar-spell-effect)
+- [hangar.GetLendShipSpellId](/api/category/hangar/function.hangar.GetLendShipSpellId.md)
