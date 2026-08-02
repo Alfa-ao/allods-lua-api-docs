@@ -39,4 +39,4 @@ end
 
 ## Смотрите также
 
-- [ENUM_ToolProperty_*](ENUM_ToolProperty)
+- [ENUM_ToolProperty_*](/api/enums/enums.ENUM_ToolProperty.md)
