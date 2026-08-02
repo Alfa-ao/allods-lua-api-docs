@@ -50,4 +50,4 @@ end
 
 ## Смотрите также
 
-- [itemLib.GetExtraDescs](function.itemLib.GetExtraDescs)
+- [itemLib.GetExtraDescs](/api/category/itemLib/function.itemLib.GetExtraDescs.md)
