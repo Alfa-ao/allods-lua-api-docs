@@ -36,6 +36,6 @@ local canDo = enchant.CanInsertEnchant( enchantItemId, itemId )
 
 ## Смотрите также
 
-- [ENUM_EnchantInsertionResult](enums.enchant#enum-enchantinsertionresult)
-- [enchant.EnchantInsert](function.enchant.EnchantInsert)
-- [enchant.CanInsertEnchants](function.enchant.CanInsertEnchants)
+- [ENUM_EnchantInsertionResult](/api/enums/enums.ENUM_EnchantInsertionResult.md)
+- [enchant.EnchantInsert](/api/category/enchant/function.enchant.EnchantInsert.md)
+- [enchant.CanInsertEnchants](/api/category/enchant/function.enchant.CanInsertEnchants.md)
