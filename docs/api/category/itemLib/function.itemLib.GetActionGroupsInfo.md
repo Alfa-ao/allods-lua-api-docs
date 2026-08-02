@@ -40,7 +40,7 @@ end
 
 ## Смотрите также
 
-- [ActionGroupId](types.ActionGroupId)
-- [avatar.GetActionGroupStatBonus](function.avatar.GetActionGroupStatBonus)
-- [ENUM_InnateStats](ENUM_InnateStats)
-- [avatar.GetInnateStats](function.avatar.GetInnateStats)
+- [ActionGroupId](/api/types/ActionGroupId.md)
+- [avatar.GetActionGroupStatBonus](/api/category/avatar/function.avatar.GetActionGroupStatBonus.md)
+- [ENUM_InnateStats](/api/enums/enums.ENUM_InnateStats.md)
+- [avatar.GetInnateStats](/api/category/avatar/function.avatar.GetInnateStats.md)
