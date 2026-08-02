@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [family.IsExist](function.family.IsExist)
+- [family.IsExist](/api/category/family/function.family.IsExist.md)
