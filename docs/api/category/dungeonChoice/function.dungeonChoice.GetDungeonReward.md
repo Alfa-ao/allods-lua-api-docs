@@ -44,4 +44,4 @@ end
 
 ## Смотрите также
 
-- [dungeonChoice.GetList](function.dungeonChoice.GetList)
+- [dungeonChoice.GetList](/api/category/dungeonChoice/function.dungeonChoice.GetList.md)
