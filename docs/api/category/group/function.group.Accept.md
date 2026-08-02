@@ -30,4 +30,4 @@ group.Accept()
 
 ## Смотрите также
 
-- [group.GetInviteInfo](function.group.GetInviteInfo)
+- [group.GetInviteInfo](/api/category/group/function.group.GetInviteInfo.md)
