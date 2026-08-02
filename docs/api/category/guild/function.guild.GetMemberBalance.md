@@ -33,4 +33,4 @@ end
 
 ## Смотрите также
 
-- [guild.GetMembers](function.guild.GetMembers)
+- [guild.GetMembers](/api/category/guild/function.guild.GetMembers.md)
