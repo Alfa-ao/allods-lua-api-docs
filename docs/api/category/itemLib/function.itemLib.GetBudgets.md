@@ -30,4 +30,4 @@ local itemBudgets = itemLib.GetBudgets( itemId )
 
 ## Смотрите также
 
-- [ENUM_FloatingBudgetType](ENUM_FloatingBudgetType)
+- [ENUM_FloatingBudgetType](/api/enums/enums.ENUM_FloatingBudgetType.md)
