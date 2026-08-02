@@ -35,7 +35,6 @@ end
 
 ## Смотрите также
 
-- [craft.DiceCraftIsJoker](function.craft.DiceCraftIsJoker)
-- [craft.DiceCraftGetRecipes](function.craft.DiceCraftGetRecipes)
-- [avatar.GetRecipeInfo](../avatar/function.avatar.GetRecipeInfo)
-- [avatar.GetInventoryItemId](../avatar/function.avatar.GetInventoryItemId)
+- [craft.DiceCraftIsJoker](/api/category/craft/function.craft.DiceCraftIsJoker.md)
+- [craft.DiceCraftGetRecipes](/api/category/craft/function.craft.DiceCraftGetRecipes.md)
+- [avatar.GetRecipeInfo](/api/category/avatar/function.avatar.GetRecipeInfo.md)
