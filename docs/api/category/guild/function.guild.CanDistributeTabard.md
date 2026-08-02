@@ -32,5 +32,5 @@ end
 
 ## Смотрите также
 
-- [guild.DistributeTabard](function.guild.DistributeTabard)
-- [ENUM_TabardType_Champion](../constants#enum-tabardtype-champion)
+- [guild.DistributeTabard](/api/category/guild/function.guild.DistributeTabard.md)
+- [ENUM_TabardType_Champion](/api/enums/enums.ENUM_TabardType.md)
