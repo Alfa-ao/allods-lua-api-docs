@@ -39,4 +39,4 @@ end
 
 ## Смотрите также
 
-- [hangar.GetDeviceInfo](function.hangar.GetDeviceInfo)
+- [hangar.GetDeviceInfo](/api/category/hangar/function.hangar.GetDeviceInfo.md)
