@@ -30,4 +30,4 @@ local count = containerLib.GetResourceItemStackCount( itemId, ITEM_CONT_INVENTOR
 
 ## Смотрите также
 
-- [ITEM_CONT_...](fgfg)
+- [ITEM_CONT_*](/api/constants/constants.ITEM_CONT.md)
