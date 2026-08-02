@@ -44,5 +44,5 @@ end
 
 ## Смотрите также
 
-- [hangar.GetCustomizationSlots](function.hangar.GetCustomizationSlots)
-- [hangar.GetCustomizationSlotDevices](function.hangar.GetCustomizationSlotDevices)
+- [hangar.GetCustomizationSlots](/api/category/hangar/function.hangar.GetCustomizationSlots.md)
+- [hangar.GetCustomizationSlotDevices](/api/category/hangar/function.hangar.GetCustomizationSlotDevices.md)
