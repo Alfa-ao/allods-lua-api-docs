@@ -28,4 +28,4 @@ guild.GetAvatarHistory()
 
 ## Смотрите также
 
-- [EVENT_GUILD_AVATAR_HISTORY](events.guild#event-guild-avatar-history)
+- [EVENT_GUILD_AVATAR_HISTORY](/api/events/events.EVENT_GUILD_.md#event-guild-avatar-history)
