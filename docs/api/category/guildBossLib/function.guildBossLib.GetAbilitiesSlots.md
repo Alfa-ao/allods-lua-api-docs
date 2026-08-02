@@ -35,4 +35,4 @@ local abilitiesSlotsInfo = guildBossLib.GetAbilitiesSlots()
 
 ## Смотрите также
 
-- [ENUM_GuildBossAbilitySlot](dsafsdaf)
+- [ENUM_GuildBossAbilitySlot](/api/enums/enums.ENUM_GuildBossAbilitySlot.md)
