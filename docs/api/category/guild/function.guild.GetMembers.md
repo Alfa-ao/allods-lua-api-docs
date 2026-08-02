@@ -38,4 +38,4 @@ end
 
 ## Смотрите также
 
-- [guild.GetMemberInfo](function.guild.GetMemberInfo)
+- [guild.GetMemberInfo](/api/category/guild/function.guild.GetMemberInfo.md)
