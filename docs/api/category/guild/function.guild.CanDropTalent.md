@@ -46,4 +46,4 @@ end
 
 ## Смотрите также
 
-- [guild.DropTalent](guild.DropTalent)
+- [guild.DropTalent](/api/category/guild/function.guild.DropTalent)
