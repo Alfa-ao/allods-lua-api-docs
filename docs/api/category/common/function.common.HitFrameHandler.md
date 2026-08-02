@@ -31,4 +31,4 @@ common.HitFrameHandler()
 
 ## Смотрите также
 
-- [common.RegisterFrameHandler](common.registerframehandler)
+- [common.RegisterFrameHandler](/api/category/common/function.common.RegisterFrameHandler)
