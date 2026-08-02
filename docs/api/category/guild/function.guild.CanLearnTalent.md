@@ -53,4 +53,4 @@ local resultForBoss = guild.CanLearnTalent( 0, 0, 1, ENUM_TalentType_BOSS ) -- �
 
 ## Смотрите также
 
-- [ENUM_TalentType](enums)
+- [ENUM_TalentType](/api/enums/enums.ENUM_TalentType.md)
