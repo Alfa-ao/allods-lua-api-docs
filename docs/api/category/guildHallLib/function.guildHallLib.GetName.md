@@ -32,4 +32,4 @@ local guildHallName = guildHallLib.IsExist() and guildHallLib.GetName()
 
 ## Смотрите также
 
-- [guildHallLib.IsExist](function.guildHallLib.IsExist)
+- [guildHallLib.IsExist](/api/category/guildHallLib/function.guildHallLib.IsExist.md)
