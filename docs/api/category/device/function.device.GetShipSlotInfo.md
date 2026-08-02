@@ -47,5 +47,4 @@ end
 
 ## Смотрите также
 
-- [SHIP_SIDE_...](/api/enums/SHIP_SIDE)
-- [SlotName](/api/enums/SlotName)
+- [SHIP_SIDE_...](/api/constants/constants.SHIP_SIDE.md)
