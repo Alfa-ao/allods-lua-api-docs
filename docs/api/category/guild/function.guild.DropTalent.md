@@ -39,4 +39,4 @@ end
 
 ## Смотрите также
 
-- [guild.CanDropTalent](guild.CanDropTalent)
+- [guild.CanDropTalent](/api/category/guild/function.guild.CanDropTalent)
