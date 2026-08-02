@@ -36,4 +36,4 @@ end
 
 ## Смотрите также
 
-- [astral.GetPOIInfo](astral.GetPOIInfo)
+- [astral.GetPOIInfo](/api/category/astral/function.astral.GetPOIInfo)
