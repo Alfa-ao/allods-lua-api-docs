@@ -28,5 +28,5 @@ containerLib.Close( ITEM_CONT_DEPOSITE )
 
 ## Смотрите также
 
-- [containerLib.IsOpen](function.containerLib.IsOpen)
-- [Константы (ITEM_CONT_*)](constants.containerLib)
+- [containerLib.IsOpen](/api/category/containerLib/function.containerLib.IsOpen.md)
+- [ITEM_CONT_*](/api/constants/constants.ITEM_CONT.md)
