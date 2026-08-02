@@ -30,7 +30,7 @@ enchant.EnchantInsert( enchantItemId, itemId )
 
 ## Смотрите также
 
-- [enchant.EnchantExtract](function.enchant.EnchantExtract)
-- [enchant.CanInsertEnchant](function.enchant.CanInsertEnchant)
-- [EVENT_GAME_ITEM_CHANGED](events#event-game-item-changed)
-- [EVENT_ITEM_SERVER_CMD_FINISHED](events#event-item-server-cmd-finished)
+- [enchant.EnchantExtract](/api/category/enchant/function.enchant.EnchantExtract.md)
+- [enchant.CanInsertEnchant](/api/category/enchant/function.enchant.CanInsertEnchant.md)
+- [EVENT_GAME_ITEM_CHANGED](/api/events/events.EVENT_GAME_.md#event-game-item-changed)
+- [EVENT_ITEM_SERVER_CMD_FINISHED](/api/events/events.EVENT_ITEM_.md#event-item-server-cmd-finished)
