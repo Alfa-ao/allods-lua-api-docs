@@ -28,5 +28,5 @@ local activators = itemLib.GetActivatorsAlternative( itemId )
 
 ## Смотрите также
 
-- [CurrencyId](CurrencyId)
-- [avatar.ActivateItemAlternative](function.avatar.ActivateItemAlternative)
+- [CurrencyId](/api/types/CurrencyId.md)
+- [avatar.ActivateItemAlternative](/api/category/avatar/function.avatar.ActivateItemAlternative.md)
