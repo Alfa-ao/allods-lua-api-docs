@@ -32,7 +32,7 @@ local canLend = spellState and spellState.enabled
 
 ## Смотрите также
 
-- [spellLib.GetState](function.spellLib.GetState)
-- [EVENT_HANGAR_SPELL_CHANGED](events.hangar#event-hangar-spell-changed)
-- [EVENT_HANGAR_SPELL_EFFECT](events.hangar#event-hangar-spell-effect)
-- [hangar.GetReturnLendedShipSpellId](function.hangar.GetReturnLendedShipSpellId)
+- [spellLib.GetState](/api/category/spellLib/function.spellLib.GetState.md)
+- [EVENT_HANGAR_SPELL_CHANGED](/api/events/events.EVENT_HANGAR_.md#event-hangar-spell-changed)
+- [EVENT_HANGAR_SPELL_EFFECT](/api/events/events.EVENT_HANGAR_.md#event-hangar-spell-effect)
+- [hangar.GetReturnLendedShipSpellId](/api/category/hangar/function.hangar.GetReturnLendedShipSpellId.md)
