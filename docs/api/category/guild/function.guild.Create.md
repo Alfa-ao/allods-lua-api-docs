@@ -34,5 +34,5 @@ guild.Create( itemId, guildName )
 
 ## Смотрите также
 
-- [EVENT_GENERAL_ERROR](../events#event-general-error)
-- [EVENT_GUILD_NAME_NOT_AVAILABLE](../events#event-guild-name-not-available)
+- [EVENT_GENERAL_ERROR](/api/events/events.EVENT_GENERAL_.md#event-general-error)
+- [EVENT_GUILD_NAME_NOT_AVAILABLE](/api/events/events.EVENT_GUILD_.md#event-guild-name-not-available)
