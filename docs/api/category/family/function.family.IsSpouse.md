@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [object.GetName](function.object.GetName)
+- [object.GetName](/api/category/object/function.object.GetName.md)
