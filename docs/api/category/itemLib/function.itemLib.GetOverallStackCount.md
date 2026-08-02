@@ -26,4 +26,4 @@ local itemOverallStackCount = itemLib.GetOverallStackCount( itemId )
 
 ## Смотрите также
 
-- [itemLib.GetStackInfo](function.itemLib.GetStackInfo)
+- [itemLib.GetStackInfo](/api/category/itemLib/function.itemLib.GetStackInfo.md)
