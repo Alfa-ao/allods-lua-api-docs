@@ -23,7 +23,7 @@ itemLib.GetChildCategories( itemCategoryId: ItemCategoryId ): table
 ### Обход дерева категорий предметов
 
 ```lua
-local roots = avatar.GetItemRootCategories()
+local roots = itemLib.GetRootCategories()
 for i = 0, GetTableSize( roots ) do
     local categoryInfo = itemLib.GetCategoryInfo( roots[ i ] )
     if categoryInfo then
@@ -46,6 +46,5 @@ end
 
 ## Смотрите также
 
-- [avatar.GetItemRootCategories](function.avatar.GetItemRootCategories)
-- [itemLib.GetCategoryInfo](function.itemLib.GetCategoryInfo)
-- [GetTableSize](function.common.GetTableSize)
+- [itemLib.GetRootCategories](/api/category/itemLib/function.itemLib.GetRootCategories.md)
+- [itemLib.GetCategoryInfo](/api/category/itemLib/function.itemLib.GetCategoryInfo.md)
