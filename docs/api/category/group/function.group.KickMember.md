@@ -38,4 +38,4 @@ end
 
 ## Смотрите также
 
-- [group.CanKickMember](function.group.CanKickMember)
+- [group.CanKickMember](/api/category/group/function.group.CanKickMember.md)
