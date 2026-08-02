@@ -41,4 +41,4 @@ end
 
 ## Смотрите также
 
-- [guild.GetRankInfo](guild.GetRankInfo)
+- [guild.GetRankInfo](/api/category/guild/function.guild.GetRankInfo)
