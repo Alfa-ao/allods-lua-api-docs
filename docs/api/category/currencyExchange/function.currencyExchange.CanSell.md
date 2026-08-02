@@ -30,7 +30,7 @@ local moneyToGet = 500
 
 if currencyExchange.IsServiceActive() then
     if currencyExchange.CanSell( crystalsToSell, moneyToGet ) then
-        currencyExchange.Sell( crystalsToSell, moneyToGet )
+        currencyExchange.Sell( crystalsToSell, moneyToGet ) -- not found
     end
 end
 ```
@@ -41,5 +41,4 @@ end
 
 ## Смотрите также
 
-- [currencyExchange.IsServiceActive](function.currencyExchange.IsServiceActive)
-- [currencyExchange.Sell](function.currencyExchange.Sell)
+- [currencyExchange.IsServiceActive](/api/category/currencyExchange/function.currencyExchange.IsServiceActive.md)
