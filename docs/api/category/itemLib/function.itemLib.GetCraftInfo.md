@@ -59,4 +59,4 @@ local isJoker = info and info.isAlchemyJoker
 
 ## Смотрите также
 
-- [avatar.GetComponentInfo](function.avatar.GetComponentInfo)
+- [avatar.GetComponentInfo](/api/category/avatar/function.avatar.GetComponentInfo.md)
