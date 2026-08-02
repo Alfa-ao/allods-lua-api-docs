@@ -28,4 +28,4 @@ end
 
 ## Смотрите также
 
-- [customizationLib.UninstallItem](function.customizationLib.UninstallItem)
+- [customizationLib.UninstallItem](/api/category/customizationLib/function.customizationLib.UninstallItem.md)
