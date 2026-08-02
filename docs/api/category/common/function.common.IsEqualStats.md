@@ -28,4 +28,4 @@ local isEqualStats = common.IsEqualStats( specialStatId, ENUM_InnateStats_Vitali
 
 ## Смотрите также
 
-- [ENUM_InnateStats_*](enums.innatestats)
+- [ENUM_InnateStats_*](/api/enums/enums.ENUM_InnateStats.md)
