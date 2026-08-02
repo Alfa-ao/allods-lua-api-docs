@@ -35,7 +35,7 @@ end
 
 ## Смотрите также
 
-- [hangar.GetSkinInfo](function.hangar.GetSkinInfo)
-- [hangar.GetAvailableSkins](function.hangar.GetAvailableSkins)
-- [hangar.SwitchShipSkin](function.hangar.SwitchShipSkin)
-- [EVENT_HANGAR_ACTIVE_SKIN_CHANGED](events.hangar#event-hangar-active-skin-changed)
+- [hangar.GetSkinInfo](/api/category/hangar/function.hangar.GetSkinInfo.md)
+- [hangar.GetAvailableSkins](/api/category/hangar/function.hangar.GetAvailableSkins.md)
+- [hangar.SwitchShipSkin](/api/category/hangar/function.hangar.SwitchShipSkin.md)
+- [EVENT_HANGAR_ACTIVE_SKIN_CHANGED](/api/events/events.EVENT_HANGAR_.md#event-hangar-active-skin-changed)
