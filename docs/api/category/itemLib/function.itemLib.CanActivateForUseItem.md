@@ -33,5 +33,5 @@ end
 
 ## Смотрите также
 
-- [avatar.UseItemAndTakeActions](function.avatar.UseItemAndTakeActions)
-- [itemLib.IsUseItemAndTakeActions](function.itemLib.IsUseItemAndTakeActions)
+- [avatar.UseItemAndTakeActions](/api/category/avatar/function.avatar.UseItemAndTakeActions.md)
+- [itemLib.IsUseItemAndTakeActions](/api/category/itemLib/function.itemLib.IsUseItemAndTakeActions.md)
