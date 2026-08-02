@@ -48,6 +48,6 @@ local memberInfo = group.GetMemberInfo( memberId )
 
 ## Смотрите также
 
-- [GROUP_MEMBER_STATE](enumerations.group#group_member_state)
-- [raid.GetMemberInfo](function.raid.GetMemberInfo)
-- [group.GetMembers](function.group.GetMembers)
+- [GROUP_MEMBER_STATE](/api/constants/constants.GROUP_MEMBER_STATE.md)
+- [raid.GetMemberInfo](/api/category/raid/function.raid.GetMemberInfo.md)
+- [group.GetMembers](/api/category/group/function.group.GetMembers.md)
