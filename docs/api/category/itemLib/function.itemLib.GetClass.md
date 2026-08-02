@@ -34,4 +34,4 @@ local itemClassName = itemClassInfo and itemClassInfo.name
 
 ## Смотрите также
 
-- [itemLib.GetClassInfo](function.itemLib.GetClassInfo)
+- [itemLib.GetClassInfo](/api/category/itemLib/function.itemLib.GetClassInfo.md)
