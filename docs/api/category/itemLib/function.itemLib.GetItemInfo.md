@@ -74,6 +74,6 @@ local itemInfo = itemLib.GetItemInfo( itemId )
 
 ## Смотрите также
 
-- [DRESS_SLOT_*](dfhgfdgh)
-- [REPUTATION_LEVEL_*](dghfgh)
-- [ITEM_CONT_EQUIPMENT_RITUAL](dsafsadf)
+- [DRESS_SLOT_*](/api/constants/constants.DRESS_SLOT.md)
+- [REPUTATION_LEVEL_*](/api/constants/constants.REPUTATION_LEVEL.md)
+- [ITEM_CONT_*](/api/constants/constants.ITEM_CONT.md)
