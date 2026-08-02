@@ -28,4 +28,4 @@ guild.EnableProgressReply( true )
 
 ## Смотрите также
 
-- [EVENT_GUILD_ENABLE_PROGRESS_REQUEST](EVENT_GUILD_ENABLE_PROGRESS_REQUEST)
+- [EVENT_GUILD_ENABLE_PROGRESS_REQUEST](/api/events/events.EVENT_GUILD_.md)
