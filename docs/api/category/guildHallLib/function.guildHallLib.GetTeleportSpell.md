@@ -31,4 +31,4 @@ local teleportSpellState = guildHallTeleport and spellLib.GetState( guildHallTel
 
 ## Смотрите также
 
-- [spellLib.GetState](../spellLib/function.spellLib.GetState)
+- [spellLib.GetState](/api/category/spellLib/function.spellLib.GetState.md)
