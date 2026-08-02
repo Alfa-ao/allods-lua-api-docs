@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [craft.DiceCraftRecipeIsSameItem](function.craft.DiceCraftRecipeIsSameItem)
+- [craft.DiceCraftRecipeIsSameItem](/api/category/craft/function.craft.DiceCraftRecipeIsSameItem.md)
