@@ -28,7 +28,3 @@ if currencyId then
     local currencyInfo = avatar.GetCurrencyInfo( currencyId )
 end
 ```
-
-## Смотрите также
-
-- [avatar.GetCurrencyInfo](function.avatar.GetCurrencyInfo)
