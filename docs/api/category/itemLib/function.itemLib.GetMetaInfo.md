@@ -45,4 +45,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetMetaUpgradeResults](function.avatar.GetMetaUpgradeResults)
+- [avatar.GetMetaUpgradeResults](/api/category/avatar/function.avatar.GetMetaUpgradeResults.md)
