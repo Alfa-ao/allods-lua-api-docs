@@ -45,4 +45,4 @@ end
 
 ## Смотрите также
 
-- [READY_CHECK_READY_STATE](constants#ready-check-ready-state)
+- [READY_CHECK_READY_STATE](/api/constants/constants.READY_CHECK_READY_STATE.md)
