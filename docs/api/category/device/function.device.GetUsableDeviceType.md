@@ -28,4 +28,4 @@ local type = device.GetUsableDeviceType( usableDeviceId )
 
 ## Смотрите также
 
-- [USDEV_*](sdfsdf)
+- [USDEV_*](/api/constants/constants.USDEV.md)
