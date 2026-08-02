@@ -36,4 +36,4 @@ end
 
 ## Смотрите также
 
-- [guild.ClearStoredTalents](guild.ClearStoredTalents)
+- [guild.ClearStoredTalents](/api/category/guild/function.guild.ClearStoredTalents)
