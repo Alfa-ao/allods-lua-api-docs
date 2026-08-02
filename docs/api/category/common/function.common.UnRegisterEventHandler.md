@@ -44,4 +44,4 @@ common.UnRegisterEventHandler( OnEventSampleMainPlayer, "EVENT_SAMPLE", { unitId
 
 ## Смотрите также
 
-- [common.RegisterEventHandler](common.RegisterEventHandler)
+- [common.RegisterEventHandler](/api/category/common/function.common.RegisterEventHandler)
