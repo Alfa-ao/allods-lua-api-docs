@@ -28,4 +28,4 @@ end
 
 ## Смотрите также
 
-- [hangar.RemoveDevice](function.hangar.RemoveDevice)
+- [hangar.RemoveDevice](/api/category/hangar/function.hangar.RemoveDevice.md)
