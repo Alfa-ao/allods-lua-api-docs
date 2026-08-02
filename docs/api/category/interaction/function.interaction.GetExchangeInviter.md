@@ -48,5 +48,4 @@ end
 
 ## Смотрите также
 
-- [interaction.GetExchangeSlotCount](function.interaction.GetExchangeSlotCount)
-- [avatar.GetItemInfo](function.avatar.GetItemInfo)
+- [interaction.GetExchangeSlotCount](/api/category/interaction/function.interaction.GetExchangeSlotCount.md)
