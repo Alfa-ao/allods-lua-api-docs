@@ -40,4 +40,4 @@ guild.ApplyStoredTalents()
 
 ## Смотрите также
 
-- [guild.ApplyStoredTalents](guild.ApplyStoredTalents)
+- [guild.ApplyStoredTalents](/api/category/guild/function.guild.ApplyStoredTalents)
