@@ -60,4 +60,4 @@ end
 
 ## Смотрите также
 
-- [ENUM_ShipInfoMarker_...](enumerations#enum_shipinfomarker)
+- [ENUM_ShipInfoMarker_...](/api/enums/enums.ENUM_ShipInfoMarker.md)
