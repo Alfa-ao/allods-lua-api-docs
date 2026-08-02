@@ -38,4 +38,4 @@ end
 
 ## Смотрите также
 
-- [craft.DiceCraftGetRecipeInspiration](function.craft.DiceCraftGetRecipeInspiration)
+- [craft.DiceCraftGetRecipeInspiration](/api/category/craft/function.craft.DiceCraftGetRecipeInspiration.md)
