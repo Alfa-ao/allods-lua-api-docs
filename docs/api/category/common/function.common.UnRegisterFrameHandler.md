@@ -32,4 +32,4 @@ common.UnRegisterFrameHandler()
 
 ## Смотрите также
 
-- [common.RegisterFrameHandler](common.RegisterFrameHandler)
+- [common.RegisterFrameHandler](/api/category/common/function.common.RegisterFrameHandler)
