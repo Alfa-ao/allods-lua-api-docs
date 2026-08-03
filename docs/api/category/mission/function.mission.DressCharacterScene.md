@@ -34,8 +34,3 @@ end
 ::: info Описание примера
 В примере запрашивается информация о предмете. Если предмет существует, его идентификатор передается в функцию для примерки в нулевую сцену.
 :::
-
-## Смотрите также
-
-- [avatar.GetItemInfo](function.avatar.GetItemInfo)
-- [GetMaxCharacterSceneCount](function.GetMaxCharacterSceneCount)
