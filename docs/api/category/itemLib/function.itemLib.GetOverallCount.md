@@ -26,4 +26,4 @@ local itemOverallChargesCount = itemLib.GetOverallCount( itemId )
 
 ## Смотрите также
 
-- [itemLib.GetCountInfo](function.itemLib.GetCountInfo)
+- [itemLib.GetCountInfo](/api/category/itemLib/function.itemLib.GetCountInfo.md)
