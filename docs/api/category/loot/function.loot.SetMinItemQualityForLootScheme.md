@@ -29,4 +29,4 @@ loot.SetMinItemQualityForLootScheme( quality )
 
 ## Смотрите также
 
-- [ITEM_QUALITY_*](#)
+- [ITEM_QUALITY_*](/api/constants/constants.ITEM_QUALITY.md)
