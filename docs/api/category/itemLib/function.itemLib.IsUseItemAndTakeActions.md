@@ -19,4 +19,4 @@ itemLib.IsUseItemAndTakeActions( itemId: ObjectId ): boolean
 (HELP)
 ## Смотрите также
 
-- [avatar.UseItemAndTakeActions](../avatar/function.avatar.UseItemAndTakeActions)
+- [avatar.UseItemAndTakeActions](/api/category/avatar/function.avatar.UseItemAndTakeActions.md)
