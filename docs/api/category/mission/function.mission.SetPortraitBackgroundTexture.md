@@ -34,6 +34,6 @@ mission.SetPortraitBackgroundTexture( 0, false, wtPortrait, avatar.GetId() )
 
 ## Смотрите также
 
-- [mission.FreePortrait](../mission/function.mission.FreePortrait)
-- [EVENT_MISSION_FREE_PORTRAIT_SLOT](../events#event-mission-free-portrait-slot)
-- [Portraits](../classes#portraits)
+- [mission.FreePortrait](/api/category/mission/function.mission.FreePortrait.md)
+- [EVENT_MISSION_FREE_PORTRAIT_SLOT](/api/events/events.EVENT_MISSION_.md#event-mission-free-portrait-slot)
+- [Portraits](/articles/Portraits.md)
