@@ -28,5 +28,5 @@ local times = mwar.GetEventStartTimeEntries( eventId )
 
 ## Смотрите также
 
-- [TimeEntry](#)
-- [InstancedEventResourceId](#)
+- [TimeEntry](/api/types/TimeEntry.md)
+- [InstancedEventResourceId](/api/types/InstancedEventResourceId.md)
