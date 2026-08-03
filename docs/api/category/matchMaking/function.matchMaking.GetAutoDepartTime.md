@@ -26,4 +26,4 @@ local autoDepartTime = matchMaking.GetAutoDepartTime( eventId )
 
 ## Смотрите также
 
-- [EVENT_MATCH_MAKING_AUTO_DEPART_TIME_CHANGED](events.matchMaking#event-match-making-auto-depart-time-changed)
+- [EVENT_MATCH_MAKING_AUTO_DEPART_TIME_CHANGED](/api/events/events.EVENT_MATCH_.md#event-match-making-auto-depart-time-changed)
