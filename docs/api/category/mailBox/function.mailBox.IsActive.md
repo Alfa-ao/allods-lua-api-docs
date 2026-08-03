@@ -34,5 +34,5 @@ end
 
 ## Смотрите также
 
-- [mailBox.IsReady](function.mailBox.IsReady)
-- [avatar.IsExist](function.avatar.IsExist)
+- [mailBox.IsReady](/api/category/mailBox/function.mailBox.IsReady.md)
+- [avatar.IsExist](/api/category/avatar/function.avatar.IsExist.md)
