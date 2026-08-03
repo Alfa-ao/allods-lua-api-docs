@@ -30,5 +30,5 @@ mission.FreePortrait( 0, false )
 
 ## Смотрите также
 
-- [mission.SetPortraitBackgroundTexture](function.mission.SetPortraitBackgroundTexture)
-- [EVENT_MISSION_FREE_PORTRAIT_SLOT](events.mission#event-mission-free-portrait-slot)
+- [mission.SetPortraitBackgroundTexture](/api/category/mission/function.mission.SetPortraitBackgroundTexture.md)
+- [EVENT_MISSION_FREE_PORTRAIT_SLOT](/api/events/events.EVENT_MISSION_.md#event-mission-free-portrait-slot)
