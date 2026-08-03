@@ -28,5 +28,5 @@ local isUseOnItemAndTakeActions = itemLib.IsUseOnItemAndTakeActions( itemId, 3 )
 
 ## Смотрите также
 
-- [avatar.UseItemOnItemAndTakeActions](function.avatar.UseItemOnItemAndTakeActions)
-- [itemLib.CanActivateForUseOnItem](function.itemLib.CanActivateForUseOnItem)
+- [avatar.UseItemOnItemAndTakeActions](/api/category/avatar/function.avatar.UseItemOnItemAndTakeActions.md)
+- [itemLib.CanActivateForUseOnItem](/api/category/itemLib/function.itemLib.CanActivateForUseOnItem.md)
