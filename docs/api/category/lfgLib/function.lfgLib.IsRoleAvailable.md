@@ -36,4 +36,4 @@ local availableTank = lfgLib.IsRoleAvailable( ENUM_LFGRole_Tank )
 
 ## Смотрите также
 
-- [ENUM_LFGRole](#enum-lfgrole)
+- [ENUM_LFGRole](/api/enums/enums.ENUM_LFGRole.md)
