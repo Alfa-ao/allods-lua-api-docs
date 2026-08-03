@@ -32,4 +32,4 @@ local mailCount = mailBox.GetInfo().totalMessages
 
 ## Смотрите также
 
-- [EVENT_MAILBOX_CHANGED_ON_SERVER](events.mailbox#event-mailbox-changed-on-server)
+- [EVENT_MAILBOX_CHANGED_ON_SERVER](/api/events/events.EVENT_MAILBOX_.md#event-mailbox-changed-on-server)
