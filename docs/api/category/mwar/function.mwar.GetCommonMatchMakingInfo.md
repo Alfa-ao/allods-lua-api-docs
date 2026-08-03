@@ -32,4 +32,4 @@ local info = mwar.GetCommonMatchMakingInfo()
 
 ## Смотрите также
 
-- [InstancedEventResourceId](InstancedEventResourceId)
+- [InstancedEventResourceId](/api/types/InstancedEventResourceId.md)
