@@ -47,5 +47,5 @@ local medalRanks = medalsLib.GetMedalRanks(categories[0].subCategories[0].medals
 
 ## Смотрите также
 
-- [medalsLib.GetCategories](function.medalsLib.GetCategories)
-- [MedalId](types.MedalId)
+- [medalsLib.GetCategories](/api/category/medalsLib/function.medalsLib.GetCategories.md)
+- [MedalId](/api/types/MedalId.md)
