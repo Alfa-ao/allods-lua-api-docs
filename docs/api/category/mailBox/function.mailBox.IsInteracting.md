@@ -30,4 +30,4 @@ end
 
 ## Смотрите также
 
-- [mailBox.Open](function.mailBox.Open)
+- [mailBox.Open](/api/category/mailBox/function.mailBox.Open.md)
