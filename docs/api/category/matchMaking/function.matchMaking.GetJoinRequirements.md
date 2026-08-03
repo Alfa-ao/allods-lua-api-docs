@@ -49,4 +49,4 @@ end
 
 ## Смотрите также
 
-- [InstancedEventResourceId](types.InstancedEventResourceId)
+- [InstancedEventResourceId](/api/types/InstancedEventResourceId.md)
