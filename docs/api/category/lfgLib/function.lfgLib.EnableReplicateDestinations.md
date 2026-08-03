@@ -28,4 +28,4 @@ lfgLib.EnableReplicateDestinations( true )
 
 ## Смотрите также
 
-- [EVENT_LFG_DESTINATIONS_LIST_CHANGED](#event-lfg-destinations-list-changed)
+- [EVENT_LFG_DESTINATIONS_LIST_CHANGED](/api/events/events.EVENT_LFG_.md#event-lfg-destinations-list-changed)
