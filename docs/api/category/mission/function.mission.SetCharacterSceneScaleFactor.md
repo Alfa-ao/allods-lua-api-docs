@@ -30,4 +30,4 @@ mission.SetCharacterSceneScaleFactor( 0, 1.5 )
 
 ## Смотрите также
 
-- [mission.GetMaxCharacterSceneCount](function.mission.GetMaxCharacterSceneCount)
+- [mission.GetMaxCharacterSceneCount](/api/category/mission/function.mission.GetMaxCharacterSceneCount.md)
