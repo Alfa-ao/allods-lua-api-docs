@@ -32,4 +32,4 @@ local spellName = spellInfo and spellInfo.name
 
 ## Смотрите также
 
-- [spellLib.GetDescription](../spellLib/function.spellLib.GetDescription)
+- [spellLib.GetDescription](/api/category/spellLib/function.spellLib.GetDescription.md)
