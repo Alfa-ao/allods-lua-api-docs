@@ -32,4 +32,4 @@ mailBox.ExtractMailItems( mailId, nil )
 
 ## Смотрите также
 
-- [mailBox.IsReady](function.mailBox.IsReady)
+- [mailBox.IsReady](/api/category/mailBox/function.mailBox.IsReady.md)
