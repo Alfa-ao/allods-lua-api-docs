@@ -28,4 +28,4 @@ mission.CancelLogout()
 
 ## Смотрите также
 
-- [mission.Logout](function.mission.Logout)
+- [mission.Logout](/api/category/mission/function.mission.Logout.md)
