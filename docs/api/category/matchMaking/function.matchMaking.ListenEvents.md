@@ -32,4 +32,4 @@ end
 
 ## Смотрите также
 
-- [matchMaking.CanUseMatchMaking](function.matchMaking.CanUseMatchMaking)
+- [matchMaking.CanUseMatchMaking](/api/category/matchMaking/function.matchMaking.CanUseMatchMaking.md)
