@@ -25,7 +25,3 @@ mission.ResetCharacterSceneRotation( index: number )
 ```lua
 mission.ResetCharacterSceneRotation( 0 )
 ```
-
-## Смотрите также
-
-- [GetMaxCharacterSceneCount](function.mission.GetMaxCharacterSceneCount)
