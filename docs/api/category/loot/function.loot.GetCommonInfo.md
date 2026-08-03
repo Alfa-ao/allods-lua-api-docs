@@ -30,5 +30,5 @@ local info = loot.GetCommonInfo()
 
 ## Смотрите также
 
-- [loot.SelectLootGroup](function.loot.SelectLootGroup)
-- [LootGroupId](types#lootgroupid)
+- [loot.SelectLootGroup](/api/category/loot/function.loot.SelectLootGroup.md)
+- [LootGroupId](/api/types/LootGroupId.md)
