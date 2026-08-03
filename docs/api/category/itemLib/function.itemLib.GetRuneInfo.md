@@ -43,4 +43,4 @@ local zodiacSignInfo = zodiacSignId and itemLib.GetZodiacSignInfo( zodiacSignId 
 
 ## Смотрите также
 
-- [itemLib.GetZodiacSignInfo](function.itemLib.GetZodiacSignInfo)
+- [itemLib.GetZodiacSignInfo](/api/category/itemLib/function.itemLib.GetZodiacSignInfo.md)
