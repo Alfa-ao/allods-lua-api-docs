@@ -35,4 +35,4 @@ end
 
 ## Смотрите также
 
-- [lfgLib.Depart](function.lfgLib.Depart)
+- [lfgLib.Depart](/api/category/lfgLib/function.lfgLib.Depart.md)
