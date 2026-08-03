@@ -33,4 +33,4 @@ local itemStackCount = itemStack and itemStack.count
 
 ## Смотрите также
 
-- [itemLib.GetOverallStackCount](function.itemLib.GetOverallStackCount)
+- [itemLib.GetOverallStackCount](/api/category/itemLib/function.itemLib.GetOverallStackCount.md)
