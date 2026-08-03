@@ -28,4 +28,4 @@ mission.SetChatInputTarget( avatar.GetUniqueId() )
 
 ## Смотрите также
 
-- [avatar.GetUniqueId](function.avatar.GetUniqueId)
+- [avatar.GetUniqueId](/api/category/avatar/function.avatar.GetUniqueId.md)
