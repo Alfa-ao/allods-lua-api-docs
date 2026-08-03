@@ -10,7 +10,7 @@ lfgLib.GetDepartRequirements( destinationId: LfgDestinationId ): table | nil
 
 Функция извлекает и возвращает таблицу с требованиями для отправки в указанную локацию.
 
-Описание требований: [RequirementsTable](ewrqwer).
+Описание требований: [RequirementsTable](/api/types/RequirementsTable.md).
 
 ## Список параметров
 
