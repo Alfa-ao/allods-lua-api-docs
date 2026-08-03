@@ -32,5 +32,5 @@ object.AddToProjected( avatar.GetTarget(), ATTACHED_OBJECT_POS_UP )
 
 ## Смотрите также
 
-- [ATTACHED_OBJECT_POS_*](../constants#attached-object-pos)
-- [avatar.GetTarget](../avatar/function.avatar.GetTarget)
+- [ATTACHED_OBJECT_POS_*](/api/constants/constants.ATTACHED_OBJECT_POS_.md)
+- [avatar.GetTarget](/api/category/avatar/function.avatar.GetTarget.md)
