@@ -28,6 +28,6 @@ mount.GetValuedObject( mountId: ObjectId ): ValuedObject
 local valuedObject = mount.GetValuedObject( mountId )
 ```
 
-## Смотрите также {если на странице присутвуют (упоминается) ( кроме, LogInfo ) другие функции / ивенты / перечисления ENUM}
+## Смотрите также
 
-- [VAL_OBJ_TYPE_*](ValuedObject)
+- [VAL_OBJ_TYPE_*](/api/constants/constants.VAL_OBJ_TYPE_.md)
