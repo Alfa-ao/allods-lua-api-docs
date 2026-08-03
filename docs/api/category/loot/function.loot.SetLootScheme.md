@@ -29,4 +29,4 @@ loot.SetLootScheme( scheme )
 
 ## Смотрите также
 
-- [LOOT_SCHEME_TYPE_*](#)
+- [LOOT_SCHEME_TYPE_*](/api/constants/constants.LOOT_SCHEME_TYPE.md)
