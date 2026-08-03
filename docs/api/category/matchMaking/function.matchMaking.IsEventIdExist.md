@@ -32,4 +32,4 @@ end
 
 ## Смотрите также
 
-- [matchMaking.GetEventInfo](function.matchMaking.GetEventInfo)
+- [matchMaking.GetEventInfo](/api/category/matchMaking/function.matchMaking.GetEventInfo.md)
