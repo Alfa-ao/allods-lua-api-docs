@@ -27,4 +27,4 @@ local availableRoles = lfgLib.GetRoles()
 
 ## Смотрите также
 
-- [ENUM_LFGRole](#enum_lfgrole)
+- [ENUM_LFGRole](/api/enums/enums.ENUM_LFGRole.md)
