@@ -28,7 +28,6 @@ local mail = mailBox.GetMail( mailId )
 
 ## Смотрите также
 
-- [mailBox.GetMails](function.mailBox.GetMails)
-- [mailBox.RequestMail](function.mailBox.RequestMail)
-- [mailBox.RequestMails](function.mailBox.RequestMails)
-- [EVENT_MAILBOX_CHANGED_ON_SERVER](events.mailBox#event-mailbox-changed-on-server)
+- [mailBox.GetMails](/api/category/mailBox/function.mailBox.GetMails.md)
+- [mailBox.RequestMails](/api/category/mailBox/function.mailBox.RequestMails.md)
+- [EVENT_MAILBOX_CHANGED_ON_SERVER](/api/events/events.EVENT_MAILBOX_.md#event-mailbox-changed-on-server)
