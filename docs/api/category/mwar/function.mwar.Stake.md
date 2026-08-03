@@ -28,4 +28,4 @@ mwar.Stake( targetGuildId )
 
 ## Смотрите также
 
-- [mwar.GetLadderInfo](function.mwar.GetLadderInfo)
+- [mwar.GetLadderInfo](/api/category/mwar/function.mwar.GetLadderInfo.md)
