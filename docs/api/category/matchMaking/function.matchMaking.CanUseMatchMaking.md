@@ -35,4 +35,4 @@ end
 
 ## Смотрите также
 
-- [ENUM_ActionFailCause_*](../constants#enum-actionfailcause)
+- [ENUM_ActionFailCause_*](/api/enums/enums.ENUM_ActionFailCause.md)
