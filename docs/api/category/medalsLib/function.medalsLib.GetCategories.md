@@ -34,4 +34,4 @@ local categories = medalsLib.GetCategories()
 
 ## Смотрите также
 
-- [MedalId](MedalId)
+- [MedalId](/api/types/MedalId.md)
