@@ -33,6 +33,6 @@ local info = mwar.GetRatingProgressInfo()
 
 ## Смотрите также
 
-- [EVENT_MWAR_RATING_PROGRESS_CHANGED](events.mwar#event-mwar-rating-progress-changed)
-- [mwar.GetLadderInfo](function.mwar.GetLadderInfo)
-- [mwar.JoinRequestRaid](function.mwar.JoinRequestRaid)
+- [EVENT_MWAR_RATING_PROGRESS_CHANGED](/api/events/events.EVENT_MWAR_.md#event-mwar-rating-progress-changed)
+- [mwar.GetLadderInfo](/api/category/mwar/function.mwar.GetLadderInfo.md)
+- [mwar.JoinRequestRaid](/api/category/mwar/function.mwar.JoinRequestRaid.md)
