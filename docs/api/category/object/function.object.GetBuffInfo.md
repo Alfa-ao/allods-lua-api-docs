@@ -94,4 +94,4 @@ end
 
 ## Смотрите также
 
-- [EVENT_OBJECT_BUFF_ADDED](events#event-object-buff-added)
+- [EVENT_OBJECT_BUFF_ADDED](/api/events/events.EVENT_OBJECT_.md#event-object-buff-added)
