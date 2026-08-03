@@ -30,5 +30,5 @@ end
 
 ## Смотрите также
 
-- [lfgLib.GetDestinationRequirements](function.lfgLib.GetDestinationRequirements)
-- [EVENT_LFG_DESTINATION_AVAILABLE_CHANGED](events#event-lfg-destination-available-changed)
+- [lfgLib.GetDestinationRequirements](/api/category/lfgLib/function.lfgLib.GetDestinationRequirements.md)
+- [EVENT_LFG_DESTINATION_AVAILABLE_CHANGED](/api/events/events.EVENT_LFG_.md#event-lfg-destination-available-changed)
