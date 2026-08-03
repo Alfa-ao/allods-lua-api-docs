@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [mount.GetSkinInfo](mount.GetSkinInfo)
+- [mount.GetSkinInfo](/api/category/mount/function.mount.GetSkinInfo)
