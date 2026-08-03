@@ -28,4 +28,4 @@ mission.ClearCharacterScene( 0 )
 
 ## Смотрите также
 
-- [mission.GetMaxCharacterSceneCount](function.mission.GetMaxCharacterSceneCount)
+- [mission.GetMaxCharacterSceneCount](/api/category/mission/function.mission.GetMaxCharacterSceneCount.md)
