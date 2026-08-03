@@ -53,8 +53,8 @@ mwar.GetLadderInfo()
 
 ## Смотрите также
 
-- [EVENT_MWAR_LADDER_CHANGED](events.mwar#event-mwar-ladder-changed)
-- [mwar.ReplicateLadder](function.mwar.ReplicateLadder)
-- [mwar.GetCommonInfo](function.mwar.GetCommonInfo)
-- [mwar.GetGuildInfo](function.mwar.GetGuildInfo)
-- [LuaFullDateTime](types#luafulldatetime)
+- [EVENT_MWAR_LADDER_CHANGED](/api/events/events.EVENT_MWAR_.md#event-mwar-ladder-changed)
+- [mwar.ReplicateLadder](/api/category/mwar/function.mwar.ReplicateLadder.md)
+- [mwar.GetCommonInfo](/api/category/mwar/function.mwar.GetCommonInfo.md)
+- [mwar.GetGuildInfo](/api/category/mwar/function.mwar.GetGuildInfo.md)
+- [LuaFullDateTime](/api/types/LuaFullDateTime.md)
