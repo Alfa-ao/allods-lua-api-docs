@@ -34,5 +34,5 @@ end
 
 ## Смотрите также
 
-- [lfgLib.VoteYes](function.lfgLib.VoteYes)
-- [EVENT_LFG_VOTE](dghdfgh)
+- [lfgLib.VoteYes](/api/category/lfgLib/function.lfgLib.VoteYes.md)
+- [EVENT_LFG_VOTE](/api/events/events.EVENT_LFG_.md#event-lfg-vote)
