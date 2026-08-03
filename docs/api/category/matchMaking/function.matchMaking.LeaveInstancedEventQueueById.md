@@ -26,4 +26,4 @@ matchMaking.LeaveInstancedEventQueueById( eventResourceId )
 
 ## Смотрите также
 
-- [InstancedEventResourceId](#)
+- [InstancedEventResourceId](/api/types/InstancedEventResourceId.md)
