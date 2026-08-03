@@ -28,5 +28,5 @@ local isUseOnMountAndTakeActions = itemLib.IsUseOnMountAndTakeActions( itemId )
 
 ## Смотрите также
 
-- [avatar.UseItemOnMountAndTakeActions](../avatar/function.avatar.UseItemOnMountAndTakeActions)
-- [itemLib.CanActivateForUseOnMount](function.itemLib.CanActivateForUseOnMount)
+- [avatar.UseItemOnMountAndTakeActions](/api/category/avatar/function.avatar.UseItemOnMountAndTakeActions.md)
+- [itemLib.CanActivateForUseOnMount](/api/category/itemLib/function.itemLib.CanActivateForUseOnMount.md)
