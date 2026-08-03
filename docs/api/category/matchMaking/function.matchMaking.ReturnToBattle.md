@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [matchMaking.CanReturnToBattle](function.matchMaking.CanReturnToBattle)
+- [matchMaking.CanReturnToBattle](/api/category/matchMaking/function.matchMaking.CanReturnToBattle.md)
