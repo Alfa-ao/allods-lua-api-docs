@@ -21,14 +21,10 @@ mission.SetAEMarkDecal( decalId: DecalObjectId )
 
 ### Установка декала для AEMark
 ```lua
-local decalId = common.GetAddonRelatedDecal( "AEMark" )
+local decalId = common.GetAddonRelatedDecal( "AEMark" ) -- not found
 mission.SetAEMarkDecal( decalId )
 ```
 
 ::: info Описание примера
 В примере запрашивается идентификатор декала, связанного с аддоном, и устанавливается в качестве декала для AEMark.
 :::
-
-## Смотрите также
-
-- [common.GetAddonRelatedDecal](function.common.GetAddonRelatedDecal)
