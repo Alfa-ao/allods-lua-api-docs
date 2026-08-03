@@ -36,6 +36,6 @@ LogInfo( history.winLeadName )
 
 ## Смотрите также
 
-- [EVENT_MWAR_LADDER_CHANGED](#event-mwar-ladder-changed)
-- [mwar.ReplicateLadder](function.mwar.ReplicateLadder)
-- [LuaFullDateTime](../types/LuaFullDateTime)
+- [EVENT_MWAR_LADDER_CHANGED](/api/events/events.EVENT_MWAR_.md#event-mwar-ladder-changed)
+- [mwar.ReplicateLadder](/api/category/mwar/function.mwar.ReplicateLadder.md)
+- [LuaFullDateTime](/api/types/LuaFullDateTime.md)
