@@ -35,4 +35,4 @@ end
 
 ## Смотрите также
 
-- [medalsLib.GetMedalInfo](function.medalsLib.GetMedalInfo)
+- [medalsLib.GetMedalInfo](/api/category/medalsLib/function.medalsLib.GetMedalInfo.md)
