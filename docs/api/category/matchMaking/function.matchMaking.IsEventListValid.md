@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [matchMaking.ListenEvents](function.matchMaking.ListenEvents)
+- [matchMaking.ListenEvents](/api/category/matchMaking/function.matchMaking.ListenEvents.md)
