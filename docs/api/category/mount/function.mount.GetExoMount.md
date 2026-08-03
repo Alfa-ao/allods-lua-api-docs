@@ -31,4 +31,4 @@ local currentTalents = mount.GetSelectedTalents( exoMountId )
 
 ## Смотрите также
 
-- [EVENT_STABLE_MOUNTS_CHANGED](events.mount#event-stable-mounts-changed)
+- [EVENT_STABLE_MOUNTS_CHANGED](/api/events/events.EVENT_STABLE_.md#event-stable-mounts-changed)
