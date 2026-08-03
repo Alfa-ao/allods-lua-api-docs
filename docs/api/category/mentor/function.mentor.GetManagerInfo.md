@@ -42,4 +42,4 @@ end
 
 ## Смотрите также
 
-- [mentor.GetPlayerInfo](function.mentor.GetPlayerInfo)
+- [mentor.GetPlayerInfo](/api/category/mentor/function.mentor.GetPlayerInfo.md)
