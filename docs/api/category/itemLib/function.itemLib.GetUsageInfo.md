@@ -41,5 +41,5 @@ local itemUsageInfo = itemLib.GetUsageInfo( itemId )
 
 ## Смотрите также
 
-- [DRESS_SLOT_...](#dress-slot)
-- [REPUTATION_LEVEL_...](#reputation-level)
+- [DRESS_SLOT_*](/api/constants/constants.DRESS_SLOT.md)
+- [REPUTATION_LEVEL_...](/api/constants/constants.REPUTATION_LEVEL.md)
