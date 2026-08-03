@@ -66,4 +66,4 @@ end
 
 ## Смотрите также
 
-- [mount.GetMounts](mount.GetMounts)
+- [mount.GetMounts](/api/category/mount/function.mount.GetMounts)
