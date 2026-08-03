@@ -28,7 +28,3 @@ mission.SetCharacterSceneSmoothRotation( index: number, isSmooth: boolean )
 local index = 0
 mission.SetCharacterSceneSmoothRotation( index, false )
 ```
-
-## Смотрите также
-
-- [GetMaxCharacterSceneCount](function.mission.GetMaxCharacterSceneCount)
