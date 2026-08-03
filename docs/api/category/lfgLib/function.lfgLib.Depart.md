@@ -35,4 +35,4 @@ end
 
 ## Смотрите также
 
-- [lfgLib.GetCurrentDestination](function.lfgLib.GetCurrentDestination)
+- [lfgLib.GetCurrentDestination](/api/category/lfgLib/function.lfgLib.GetCurrentDestination.md)
