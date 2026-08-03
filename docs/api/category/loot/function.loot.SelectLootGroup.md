@@ -37,6 +37,6 @@ end
 
 ## Смотрите также
 
-- [loot.GetCommonInfo](function.loot.GetCommonInfo)
-- [loot.GetLootGroupPartInfo](function.loot.GetLootGroupPartInfo)
-- [LootGroupId](../types/LootGroupId)
+- [loot.GetCommonInfo](/api/category/loot/function.loot.GetCommonInfo.md)
+- [loot.GetLootGroupPartInfo](/api/category/loot/function.loot.GetLootGroupPartInfo.md)
+- [LootGroupId](/api/types/LootGroupId.md)
