@@ -30,5 +30,5 @@ mailBox.RequestMails( 0, 10 )
 
 ## Смотрите также
 
-- [mailBox.GetMails](dghdfghdfg)
-- [EVENT_MAILBOX_*](dghdgh)
+- [mailBox.GetMails](/api/category/mailBox/function.mailBox.GetMails.md)
+- [EVENT_MAILBOX_*](/api/events/events.EVENT_MAILBOX_.md)
