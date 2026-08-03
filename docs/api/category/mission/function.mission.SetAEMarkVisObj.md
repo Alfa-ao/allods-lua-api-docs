@@ -21,10 +21,6 @@ mission.SetAEMarkVisObj( visObjectId: VisObjectId )
 
 ### Назначение VisObject для AEMark
 ```lua
-local visObjId = common.GetAddonRelatedVisObject( "AEMark" )
+local visObjId = common.GetAddonRelatedVisObject( "AEMark" ) -- deprecated
 mission.SetAEMarkVisObj( visObjId )
 ```
-
-## Смотрите также
-
-- [common.GetAddonRelatedVisObject](function.common.GetAddonRelatedVisObject)
