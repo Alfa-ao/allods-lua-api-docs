@@ -34,5 +34,5 @@ local guildInfo = mwar.GetGuildInfo( guildId )
 
 ## Смотрите также
 
-- [mwar.GetLadderInfo](function.mwar.GetLadderInfo)
-- [EVENT_MWAR_LADDER_CHANGED](events.mwar#event-mwar-ladder-changed)
+- [mwar.GetLadderInfo](/api/category/mwar/function.mwar.GetLadderInfo.md)
+- [EVENT_MWAR_LADDER_CHANGED](/api/events/events.EVENT_MWAR_.md#event-mwar-ladder-changed)
