@@ -35,4 +35,4 @@ end
 
 ## Смотрите также
 
-- [mount.GetInfo](mount.GetInfo)
+- [mount.GetInfo](/api/category/mount/function.mount.GetInfo)
