@@ -40,4 +40,4 @@ mission.SetCharacterSceneSmoothRotation( 0, false )
 
 ## Смотрите также
 
-- [guildBossLib.GetVariations()](../guildBossLib/function.guildBossLib.GetVariations)
+- [guildBossLib.GetVariations](/api/category/guildBossLib/function.guildBossLib.GetVariations.md)
