@@ -54,4 +54,4 @@ end
 
 ## Смотрите также
 
-- [mount.GetMountSkins](mount.GetMountSkins)
+- [mount.GetMountSkins](/api/category/mount/function.mount.GetMountSkins)
