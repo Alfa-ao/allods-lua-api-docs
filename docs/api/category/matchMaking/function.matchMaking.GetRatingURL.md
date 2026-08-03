@@ -28,4 +28,4 @@ local ratingURL = matchMaking.GetRatingURL( ENUM_RatingArenaType_6x6 )
 
 ## Смотрите также
 
-- [ENUM_RatingArenaType](enums#enum-ratingarenatype)
+- [ENUM_RatingArenaType](/api/enums/enums.ENUM_RatingArenaType.md)
