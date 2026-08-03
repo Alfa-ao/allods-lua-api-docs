@@ -28,4 +28,4 @@ loot.SelectGreedNeedForLoot( rollId, choice )
 
 ## Смотрите также
 
-- [CHOICE_GREED_NEED_*](#)
+- [CHOICE_GREED_NEED_*](/api/constants/constants.CHOICE_GREED_NEED_.md)
