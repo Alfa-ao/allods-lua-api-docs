@@ -40,7 +40,3 @@ itemLib.GetPriceInfo( itemId: ObjectId ): table|nil
 local itemPrice = itemLib.GetPriceInfo( itemId )
 local itemSellPrice = itemPrice and itemPrice.sellPrice
 ```
-
-## Смотрите также
-
-- [avatar.GetCurrencyInfo](function.avatar.GetCurrencyInfo)
