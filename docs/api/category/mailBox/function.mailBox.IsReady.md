@@ -36,4 +36,4 @@ end
 
 ## Смотрите также
 
-- [EVENT_MAILBOX_CHANGED](#event_mailbox_changed)
+- [EVENT_MAILBOX_CHANGED](/api/events/events.EVENT_MAILBOX_.md#event-mailbox-changed)
