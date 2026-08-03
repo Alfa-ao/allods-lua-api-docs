@@ -36,4 +36,4 @@ mission.SetCharacterScenePosition( 0, { posX = 1.0; posY = 2.0; posZ = 0.0 } )
 
 ## Смотрите также
 
-- [mission.GetMaxCharacterSceneCount](function.mission.GetMaxCharacterSceneCount)
+- [mission.GetMaxCharacterSceneCount](/api/category/mission/function.mission.GetMaxCharacterSceneCount.md)
