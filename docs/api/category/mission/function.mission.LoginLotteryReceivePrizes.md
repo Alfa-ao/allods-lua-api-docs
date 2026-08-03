@@ -35,5 +35,5 @@ mission.LoginLotteryReceivePrizes( currencyId )
 
 ## Смотрите также
 
-- [mission.GetLoginLotteryInfo](function.mission.GetLoginLotteryInfo)
-- [itemLib.GetItemInfo](dsfsdfdsa)
+- [mission.GetLoginLotteryInfo](/api/category/mission/function.mission.GetLoginLotteryInfo.md)
+- [itemLib.GetItemInfo](/api/category/itemLib/function.itemLib.GetItemInfo.md)
