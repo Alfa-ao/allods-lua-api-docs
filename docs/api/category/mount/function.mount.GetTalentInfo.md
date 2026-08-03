@@ -46,5 +46,5 @@ local firstSlotTalentInfo = mount.GetTalentInfo( availableTalents[1][1] )
 
 ## Смотрите также
 
-- [mount.GetExoMount](mount.GetExoMount)
-- [mount.GetAvailableTalents](mount.GetAvailableTalents)
+- [mount.GetExoMount](/api/category/mount/function.mount.GetExoMount)
+- [mount.GetAvailableTalents](/api/category/mount/function.mount.GetAvailableTalents)
