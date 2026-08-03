@@ -38,5 +38,5 @@ end
 
 ## Смотрите также
 
-- [InstancedEventCategoryId](adsfsadfasd)
-- [matchMaking.GetEventCategories](function.matchMaking.GetEventCategories)
+- [InstancedEventCategoryId](/api/types/InstancedEventCategoryId.md)
+- [matchMaking.GetEventCategories](/api/category/matchMaking/function.matchMaking.GetEventCategories.md)
