@@ -12,7 +12,7 @@ mailBox.RequestMailGroupOperation( operation: number, mailList: table )
 
 ## Список параметров
 
-- **`operation`** (`number`(`CmdMailGroupOperationOperationType_*`)) - Тип операции.
+- **`operation`** (`number`(`CmdMailGroupOperationOperationType_*`)) - тип операции (`MARKREAD`, `GETATTACHMENT`, `DELETE`, `GETATTACHMENT_DELETE`)
 - **`mailList`** (`table`) - Список идентификаторов писем. Индексируется целыми числами от 0. Максимально допустимый размер - 20.
 
 ## Возвращаемые значения
@@ -29,6 +29,5 @@ mailBox.RequestMailGroupOperation( CmdMailGroupOperationOperationType_MARKREAD, 
 
 ## Смотрите также
 
-- [mailBox.GetMails](function.mailBox.GetMails)
-- [EVENT_MAILBOX_*](events.mailbox)
-- [CmdMailGroupOperationOperationType_*](sfdgsdfg)
+- [mailBox.GetMails](/api/category/mailBox/function.mailBox.GetMails.md)
+- [EVENT_MAILBOX_*](/api/events/events.EVENT_MAILBOX_.md)
