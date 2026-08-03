@@ -8,7 +8,7 @@
 lfgLib.GetDestinationRequirements( destinationId: LfgDestinationId ): table | nil
 ```
 
-Извлечение и возврат таблицы с условиями, необходимыми для входа в указанную локацию. Описание требований: [RequirementsTable](adfawefwae).
+Извлечение и возврат таблицы с условиями, необходимыми для входа в указанную локацию. Описание требований: [RequirementsTable](/api/types/RequirementsTable.md).
 
 ## Список параметров
 
@@ -51,4 +51,4 @@ end
 
 ## Смотрите также
 
-- [RequirementsTable](sdfadf)
+- [RequirementsTable](/api/types/RequirementsTable.md)
