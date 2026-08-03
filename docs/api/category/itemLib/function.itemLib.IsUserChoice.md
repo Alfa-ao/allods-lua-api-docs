@@ -20,4 +20,4 @@ itemLib.IsUserChoice( itemId: ObjectId ): boolean
 
 ## Смотрите также
 
-- [itemLib.IsUseItemAndTakeActions](function.itemLib.IsUseItemAndTakeActions)
+- [itemLib.IsUseItemAndTakeActions](/api/category/itemLib/function.itemLib.IsUseItemAndTakeActions.md)
