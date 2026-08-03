@@ -28,4 +28,4 @@ local quality = loot.GetMinItemQualityForLootScheme()
 
 ## Смотрите также
 
-- [ITEM_QUALITY_*](../constants#item-quality)
+- [ITEM_QUALITY_*](/api/constants/constants.ITEM_QUALITY.md)
