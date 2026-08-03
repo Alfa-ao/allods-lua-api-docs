@@ -66,6 +66,6 @@ end
 
 ## Смотрите также
 
-- [ENUM_MatchMakingMechanicsType_*](ENUM_MatchMakingMechanicsType_*)
-- [EVENT_MATCH_MAKING_CURRENT_BATTLE_CHANGED](events.match_making#event-match-making-current-battle-changed)
-- [matchMaking.GetEventProgressInfo](function.matchMaking.GetEventProgressInfo)
+- [ENUM_MatchMakingMechanicsType_*](/api/enums/enums.ENUM_MatchMakingMechanicsType.md)
+- [EVENT_MATCH_MAKING_CURRENT_BATTLE_CHANGED](/api/events/events.EVENT_MATCH_.md#event-match-making-current-battle-changed)
+- [matchMaking.GetEventProgressInfo](/api/category/matchMaking/function.matchMaking.GetEventProgressInfo.md)
