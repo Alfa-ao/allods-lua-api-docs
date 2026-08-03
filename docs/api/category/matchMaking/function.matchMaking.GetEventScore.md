@@ -39,4 +39,4 @@ local score1 = score and score[0] and score[0].amount
 
 ## Смотрите также
 
-- [EVENT_MATCH_MAKING_PROGRESS_ACHIEVEMENTS_CHANGED](events.matchMaking#event-match-making-progress-achievements-changed)
+- [EVENT_MATCH_MAKING_PROGRESS_ACHIEVEMENTS_CHANGED](/api/events/events.EVENT_MATCH_.md#event-match-making-progress-achievements-changed)
