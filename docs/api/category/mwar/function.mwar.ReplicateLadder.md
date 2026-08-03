@@ -27,5 +27,5 @@ mwar.ReplicateLadder( true )
 
 ## Смотрите также
 
-- [EVENT_MWAR_LADDER_CHANGED](events#event-mwar-ladder-changed)
-- [mwar.GetLadderInfo()](function.mwar.GetLadderInfo)
+- [EVENT_MWAR_LADDER_CHANGED](/api/events/events.EVENT_MWAR_.md#event-mwar-ladder-changed)
+- [mwar.GetLadderInfo](/api/category/mwar/function.mwar.GetLadderInfo.md)
