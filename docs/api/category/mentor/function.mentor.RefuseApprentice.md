@@ -35,4 +35,4 @@ end
 
 ## Смотрите также
 
-- [mentor.GetApprentices](function.mentor.GetApprentices)
+- [mentor.GetApprentices](/api/category/mentor/function.mentor.GetApprentices.md)
