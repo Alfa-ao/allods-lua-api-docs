@@ -30,5 +30,5 @@ local rolesInfo = matchMaking.GetMembersRoles()
 
 ## Смотрите также
 
-- [ENUM_LFGRole](ENUM_LFGRole)
-- [EVENT_MATCH_MAKING_MEMBERS_ROLES_CHANGED](EVENT_MATCH_MAKING_MEMBERS_ROLES_CHANGED)
+- [ENUM_LFGRole](/api/enums/enums.ENUM_LFGRole.md)
+- [EVENT_MATCH_MAKING_MEMBERS_ROLES_CHANGED](/api/events/events.EVENT_MATCH_.md)
