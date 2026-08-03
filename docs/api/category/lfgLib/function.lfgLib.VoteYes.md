@@ -30,6 +30,6 @@ end
 
 ## Смотрите также
 
-- [lfgLib.VoteNo](sfdg)
-- [EVENT_LFG_VOTE](sfdgdf)
-- [ENUM_LFGVoteType_*](fdghdfgh)
+- [lfgLib.VoteNo](/api/category/lfgLib/function.lfgLib.VoteNo.md)
+- [EVENT_LFG_VOTE](/api/events/events.EVENT_LFG_.md#event-lfg-vote)
+- [ENUM_LFGVoteType_*](/api/enums/enums.ENUM_LFGVoteType.md)
