@@ -68,7 +68,7 @@ end
 
 ## Смотрите также
 
-- [LuaRaceClassInfoPart](LuaRaceClassInfoPart)
-- [LuaSexInfoPart](LuaSexInfoPart)
-- [LuaFullDateTime](LuaFullDateTime)
-- [object.GetName](dsfsadf)
+- [LuaRaceClassInfoPart](/articles/LuaRaceClassInfoPart.md)
+- [LuaSexInfoPart](/articles/LuaSexInfoPart.md)
+- [LuaFullDateTime](/api/types/LuaFullDateTime.md)
+- [object.GetName](/api/category/object/function.object.GetName.md)
