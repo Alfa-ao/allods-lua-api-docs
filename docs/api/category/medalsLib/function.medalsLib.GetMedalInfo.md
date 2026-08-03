@@ -60,6 +60,6 @@ end
 
 ## Смотрите также
 
-- [medalsLib.GetMedals](function.medalsLib.GetMedals)
-- [medalsLib.GetCategories](function.medalsLib.GetCategories)
-- [DRESS_SLOT](dsfsf)
+- [medalsLib.GetMedals](/api/category/medalsLib/function.medalsLib.GetMedals.md)
+- [medalsLib.GetCategories](/api/category/medalsLib/function.medalsLib.GetCategories.md)
+- [DRESS_SLOT_*](/api/constants/constants.DRESS_SLOT.md)
