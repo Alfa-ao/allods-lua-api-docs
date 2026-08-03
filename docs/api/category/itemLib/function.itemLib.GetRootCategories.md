@@ -25,14 +25,14 @@ itemLib.GetRootCategories(): table
 ```lua
 local roots = itemLib.GetRootCategories()
 for i = 0, GetTableSize( roots ) do
-    local categoryInfo = avatar.GetItemCategoryInfo( roots[ i ] )
+    local categoryInfo = itemLib.GetCategoryInfo( roots[ i ] )
     if categoryInfo then
         local name = categoryInfo.name
     end
 
-    local childs = avatar.GetItemChildCategories( roots[ i ] )
+    local childs = itemLib.GetChildCategories( roots[ i ] )
     for j = 0, GetTableSize( childs ) do
-        local categoryInfo = avatar.GetItemCategoryInfo( childs[ 0 ] )
+        local categoryInfo = itemLib.GetCategoryInfo( childs[ 0 ] )
         if categoryInfo then
             local name = categoryInfo.name
         end
@@ -42,5 +42,5 @@ end
 
 ## Смотрите также
 
-- [avatar.GetItemCategoryInfo](function.avatar.GetItemCategoryInfo)
-- [avatar.GetItemChildCategories](function.avatar.GetItemChildCategories)
+- [itemLib.GetChildCategories](/api/category/itemLib/function.itemLib.GetChildCategories.md)
+- [itemLib.GetCategoryInfo](/api/category/itemLib/function.itemLib.GetCategoryInfo.md)
