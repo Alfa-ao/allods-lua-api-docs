@@ -36,7 +36,6 @@ local info = mission.GetLoginLotteryInfo()
 
 ## Смотрите также
 
-- [mission.LoginLotteryReceivePrizes](function.mission.LoginLotteryReceivePrizes)
-- [itemLib.GetItemInfo](function.itemLib.GetItemInfo)
-- [itemLib.GetStackInfo](function.itemLib.GetStackInfo)
-- [CurrencyId:GetInfo](function.CurrencyId.GetInfo)
+- [mission.LoginLotteryReceivePrizes](/api/category/mission/function.mission.LoginLotteryReceivePrizes.md)
+- [itemLib.GetItemInfo](/api/category/itemLib/function.itemLib.GetItemInfo.md)
+- [itemLib.GetStackInfo](/api/category/itemLib/function.itemLib.GetStackInfo.md)
