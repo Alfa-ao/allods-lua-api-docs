@@ -30,4 +30,4 @@ local categories = matchMaking.GetEventCategories()
 
 ## Смотрите также
 
-- [matchMaking.GetEventsByCategory](function.matchMaking.GetEventsByCategory)
+- [matchMaking.GetEventsByCategory](/api/category/matchMaking/function.matchMaking.GetEventsByCategory.md)
