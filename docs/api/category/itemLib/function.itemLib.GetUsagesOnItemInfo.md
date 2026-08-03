@@ -57,4 +57,4 @@ avatar.UseItemOnItemAndTakeActions( targetItemId, itemId, 1, itemUsagesOnItemInf
 
 ## Смотрите также
 
-- [avatar.UseItemOnItemAndTakeActions](../avatar/function.avatar.UseItemOnItemAndTakeActions)
+- [avatar.UseItemOnItemAndTakeActions](/api/category/avatar/function.avatar.UseItemOnItemAndTakeActions.md)
