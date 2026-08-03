@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [mount.GetStableInfo](mount.GetStableInfo)
+- [mount.GetStableInfo](/api/category/mount/function.mount.GetStableInfo)
