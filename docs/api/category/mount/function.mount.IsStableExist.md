@@ -37,6 +37,6 @@ end
 
 ## Смотрите также
 
-- [mount.GetActive](mount.GetActive)
-- [mount.GetInfo](mount.GetInfo)
-- [mount.GetActiveSatiation](mount.GetActiveSatiation)
+- [mount.GetActive](/api/category/mount/function.mount.GetActive)
+- [mount.GetInfo](/api/category/mount/function.mount.GetInfo)
+- [mount.GetActiveSatiation](/api/category/mount/function.mount.GetActiveSatiation)
