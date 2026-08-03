@@ -30,4 +30,4 @@ medalsLib.SearchMedals( "первым" )
 
 ## Смотрите также
 
-- [EVENT_MEDALS_SEARCH_RESULTS](events.medals#event-medals-search-results)
+- [EVENT_MEDALS_SEARCH_RESULTS](/api/events/events.EVENT_MEDALS_.md#event-medals-search-results)
