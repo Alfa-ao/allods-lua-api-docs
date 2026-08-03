@@ -30,5 +30,5 @@ object.AttachWidget2D( targetId, mainForm, ATTACHED_OBJECT_POS_UP )
 
 ## Смотрите также
 
-- [avatar.GetDetectedObjects](../avatar/function.avatar.GetDetectedObjects)
-- [object.GetDetectors](function.object.GetDetectors)
+- [avatar.GetDetectedObjects](/api/category/avatar/function.avatar.GetDetectedObjects.md)
+- [object.GetDetectors](/api/category/object/function.object.GetDetectors.md)
