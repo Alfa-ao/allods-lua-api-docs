@@ -35,4 +35,4 @@ end
 
 ## Смотрите также
 
-- [avatar.RunSpell](function.avatar.RunSpell)
+- [avatar.RunSpell](/api/category/avatar/function.avatar.RunSpell.md)
