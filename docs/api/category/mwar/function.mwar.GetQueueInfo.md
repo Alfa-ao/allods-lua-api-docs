@@ -40,6 +40,6 @@ local mwarQueueInfo = mwar.GetQueueInfo()
 
 ## Смотрите также
 
-- [EVENT_MWAR_QUEUE_CHANGED](../events/mwar.events#event-mwar-queue-changed)
-- [InstancedEventResourceId](../types#instancedeventresourceid)
-- [mwar.GetGuildInfo](function.mwar.GetGuildInfo)
+- [EVENT_MWAR_QUEUE_CHANGED](/api/events/events.EVENT_MWAR_.md#event-mwar-queue-changed)
+- [InstancedEventResourceId](/api/types/InstancedEventResourceId.md)
+- [mwar.GetGuildInfo](/api/category/mwar/function.mwar.GetGuildInfo.md)
