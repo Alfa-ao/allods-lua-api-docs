@@ -9,10 +9,6 @@ itemLib.GetQuality( itemId: ObjectId ): table|nil
 
 Функция возвращает таблицу с информацией о качестве указанного предмета. Если предмет не найден или информация недоступна, функция возвращает `nil`.
 
-::: info Перечисление
-- `ENUM_ITEM_QUALITY_*` - Перечисление возможных качеств предмета.
-:::
-
 ## Список параметров
 
 - **`itemId`** (`ObjectId`) - Идентификатор предмета.
@@ -22,7 +18,7 @@ itemLib.GetQuality( itemId: ObjectId ): table|nil
 Возвращает `table` | `nil`.
 При успешном получении информации возвращается таблица со следующими полями:
 
-- **`quality`** (`number`(`ENUM_ITEM_QUALITY_*`)) - Качество предмета.
+- **`quality`** (`number`(`ITEM_QUALITY_*`)) - Качество предмета.
 
 - **`isNeedVisualize`** (`boolean`) - Флаг, указывающий, требуется ли отображать рамку качества предмета в интерфейсе.
 
@@ -40,4 +36,4 @@ local quality = itemQuality and itemQuality.quality
 
 ## Смотрите также
 
-- [ENUM_ITEM_QUALITY_*](#enum-item-quality)
+- [ITEM_QUALITY_*](/api/constants/constants.ITEM_QUALITY.md)
