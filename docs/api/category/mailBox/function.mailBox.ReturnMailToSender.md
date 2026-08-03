@@ -30,4 +30,4 @@ mailBox.ReturnMailToSender( mailId )
 
 ## Смотрите также
 
-- [mailBox.IsReady](#)
+- [mailBox.IsReady](/api/category/mailBox/function.mailBox.IsReady.md)
