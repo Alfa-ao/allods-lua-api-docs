@@ -30,5 +30,5 @@ end
 
 ## Смотрите также
 
-- [loot.SetLootScheme](function.loot.SetLootScheme)
-- [LOOT_SCHEME_TYPE_*](constants.loot)
+- [loot.SetLootScheme](/api/category/loot/function.loot.SetLootScheme.md)
+- [LOOT_SCHEME_TYPE_*](/api/constants/constants.LOOT_SCHEME_TYPE.md)
