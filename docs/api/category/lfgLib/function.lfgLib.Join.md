@@ -37,5 +37,5 @@ lfgLib.Join( destinationId, roles )
 
 ## Смотрите также
 
-- [ENUM_LFGRole](ENUM_LFGRole)
-- [lfgLib.GetRoles()](function.lfgLib.GetRoles)
+- [ENUM_LFGRole](/api/enums/enums.ENUM_LFGRole.md)
+- [lfgLib.GetRoles](/api/category/lfgLib/function.lfgLib.GetRoles.md)
