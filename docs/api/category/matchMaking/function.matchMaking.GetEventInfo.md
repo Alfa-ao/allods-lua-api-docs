@@ -156,6 +156,6 @@ end
 
 ## Смотрите также
 
-- [InstancedEventResourceId](#InstancedEventResourceId)
-- [InstancedEventCategoryId](#InstancedEventCategoryId)
-- [ENUM_LFGEventDifficulty](#ENUM_LFGEventDifficulty)
+- [InstancedEventResourceId](/api/types/InstancedEventResourceId.md)
+- [InstancedEventCategoryId](/api/types/InstancedEventCategoryId.md)
+- [ENUM_LFGEventDifficulty](/api/enums/enums.ENUM_LFGEventDifficulty.md)
