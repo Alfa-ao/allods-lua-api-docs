@@ -44,4 +44,4 @@ avatar.UseItemOnMountAndTakeActions( mountId, itemId, 1, itemUsagesOnMountInfo[ 
 
 ## Смотрите также
 
-- [avatar.UseItemOnMountAndTakeActions](../avatar/function.avatar.UseItemOnMountAndTakeActions)
+- [avatar.UseItemOnMountAndTakeActions](/api/category/avatar/function.avatar.UseItemOnMountAndTakeActions.md)
