@@ -42,7 +42,7 @@ end
 
 ## Смотрите также
 
-- [mount.GetExoMount](mount.GetExoMount)
-- [mount.SelectTalents](mount.SelectTalents)
+- [mount.GetExoMount](/api/category/mount/function.mount.GetExoMount)
+- [mount.SelectTalents](/api/category/mount/function.mount.SelectTalents)
 - `EVENT_AVATAR_UNLOCKS_CHANGED`
 - `MountTalentId`
