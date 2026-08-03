@@ -8,7 +8,7 @@
 matchMaking.IsEventProgressExist(): boolean
 ```
 
-Функция возвращает статус наличия информации о прогрессе текущего инстанс-ивента. Возвращает `true`, если инстанс-ивент уже завершился либо получение информации о прогрессе включено запросом `matchMaking.ListenEventProgress()` и данные уже получены. Возвращает `false`, если информация отсутствует.
+Функция возвращает статус наличия информации о прогрессе текущего инстанс-ивента. Возвращает `true`, если инстанс-ивент уже завершился либо получение информации о прогрессе включено запросом `matchMaking.ListenEventProgress() -- deprecated` и данные уже получены. Возвращает `false`, если информация отсутствует.
 
 ## Список параметров
 
@@ -34,5 +34,4 @@ end
 
 ## Смотрите также
 
-- [matchMaking.ListenEventProgress](function.matchMaking.ListenEventProgress)
-- [matchMaking.GetEventProgressInfo](function.matchMaking.GetEventProgressInfo)
+- [matchMaking.GetEventProgressInfo](/api/category/matchMaking/function.matchMaking.GetEventProgressInfo.md)
