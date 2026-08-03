@@ -65,5 +65,5 @@ end
 
 ## Смотрите также
 
-- [ENUM_RatingArenaType](ENUM_RatingArenaType)
-- [matchMaking.IsRatingPvPScoreAvailable](function.matchMaking.IsRatingPvPScoreAvailable)
+- [ENUM_RatingArenaType](/api/enums/enums.ENUM_RatingArenaType.md)
+- [matchMaking.IsRatingPvPScoreAvailable](/api/category/matchMaking/function.matchMaking.IsRatingPvPScoreAvailable.md)
