@@ -28,4 +28,4 @@ medalsLib.InspectAvatarMedals( avatarId )
 
 ## Смотрите также
 
-- [EVENT_INSPECT_AVATAR_MEDALS_RESULT](events.medals#event-inspect-avatar-medals-result)
+- [EVENT_INSPECT_AVATAR_MEDALS_RESULT](/api/events/events.EVENT_INSPECT_.md#event-inspect-avatar-medals-result)
