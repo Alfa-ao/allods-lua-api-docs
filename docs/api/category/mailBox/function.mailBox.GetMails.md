@@ -84,9 +84,9 @@ local mailList = mailBox.GetMails()
 
 ## Смотрите также
 
-- [LuaFullDateTime](aewf)
-- [mailBox.GetLimits()](aewf)
-- [EVENT_CLIENT_MESSAGE](aewf)
-- [mailBox.RequestMails()](aewf)
-- [EVENT_MAILBOX_CHANGED_ON_SERVER](aewf)
-- [mailBox.GetMail()](aewf)
+- [LuaFullDateTime](/api/types/LuaFullDateTime.md)
+- [mailBox.GetLimits](/api/category/mailBox/function.mailBox.GetLimits.md)
+- [EVENT_CLIENT_MESSAGE](/api/events/events.EVENT_CLIENT_.md#event-client-message)
+- [mailBox.RequestMails](/api/category/mailBox/function.mailBox.RequestMails.md)
+- [EVENT_MAILBOX_CHANGED_ON_SERVER](/api/events/events.EVENT_MAILBOX_.md#event-mailbox-changed-on-server)
+- [mailBox.GetMail](/api/category/mailBox/function.mailBox.GetMail.md)
