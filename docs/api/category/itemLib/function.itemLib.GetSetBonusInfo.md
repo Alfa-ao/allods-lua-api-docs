@@ -43,5 +43,5 @@ end
 
 ## Смотрите также
 
-- [itemLib.GetSetBonusRoot](function.itemLib.GetSetBonusRoot)
-- [common.GetSetBonusInfo](function.common.GetSetBonusInfo)
+- [itemLib.GetSetBonusRoot](/api/category/itemLib/function.itemLib.GetSetBonusRoot.md)
+- [common.GetSetBonusInfo](/api/category/common/function.common.GetSetBonusInfo.md)
