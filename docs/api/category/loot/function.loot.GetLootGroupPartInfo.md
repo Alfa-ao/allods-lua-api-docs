@@ -30,7 +30,7 @@ local info = loot.GetLootGroupPartInfo()
 
 ## Смотрите также
 
-- [EVENT_LOOTSELECTOR_CHANGED](EVENT_LOOTSELECTOR_CHANGED)
-- [loot.GetCommonInfo](loot.GetCommonInfo)
-- [loot.SelectLootGroup](loot.SelectLootGroup)
-- [LootGroupId](LootGroupId)
+- [EVENT_LOOTSELECTOR_CHANGED](/api/events/events.EVENT_LOOTSELECTOR_.md)
+- [loot.GetCommonInfo](/api/category/loot/function.loot.GetCommonInfo)
+- [loot.SelectLootGroup](/api/category/loot/function.loot.SelectLootGroup)
+- [LootGroupId](/api/types/LootGroupId.md)
