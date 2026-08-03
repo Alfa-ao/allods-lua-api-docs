@@ -33,4 +33,4 @@ common.SetCursor( cursor )
 
 ## Смотрите также
 
-- [common.SetCursor](../common/function.common.SetCursor)
+- [common.SetCursor](/api/category/common/function.common.SetCursor.md)
