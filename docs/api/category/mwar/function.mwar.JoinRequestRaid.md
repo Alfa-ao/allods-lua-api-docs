@@ -28,4 +28,4 @@ mwar.JoinRequestRaid( targetGuildId )
 
 ## Смотрите также
 
-- [mwar.GetRatingProgressInfo](function.mwar.GetRatingProgressInfo)
+- [mwar.GetRatingProgressInfo](/api/category/mwar/function.mwar.GetRatingProgressInfo.md)
