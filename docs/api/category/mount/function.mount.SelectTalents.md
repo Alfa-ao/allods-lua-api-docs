@@ -49,7 +49,7 @@ mount.SelectTalents( exoMountId, talents )
 
 ## Смотрите также
 
-- [mount.GetExoMount](mount.GetExoMount)
-- [mount.GetSelectedTalents](mount.GetSelectedTalents)
-- [mount.GetAvailableTalents](mount.GetAvailableTalents)
-- [EVENT_STABLE_MOUNT_TALENTS_CHANGED](events.mount#event-stable-mount-talents-changed)
+- [mount.GetExoMount](/api/category/mount/function.mount.GetExoMount)
+- [mount.GetSelectedTalents](/api/category/mount/function.mount.GetSelectedTalents)
+- [mount.GetAvailableTalents](/api/category/mount/function.mount.GetAvailableTalents)
+- [EVENT_STABLE_MOUNT_TALENTS_CHANGED](/api/events/events.EVENT_STABLE_.md#event-stable-mount-talents-changed)
