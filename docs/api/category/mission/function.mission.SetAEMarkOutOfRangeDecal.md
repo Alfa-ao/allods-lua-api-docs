@@ -23,14 +23,10 @@ mission.SetAEMarkOutOfRangeDecal( decalId: DecalObjectId )
 ### Установка декала для области действия
 
 ```lua
-local decalId = common.GetAddonRelatedDecal( "AEMarkCross" )
+local decalId = common.GetAddonRelatedDecal( "AEMarkCross" ) -- not found
 mission.SetAEMarkOutOfRangeDecal( decalId )
 ```
 
 ::: info Описание примера
 В примере получают идентификатор декала, связанного с аддоном, и устанавливают его в качестве текстуры для отображения при выходе за область действия умения.
 :::
-
-## Смотрите также
-
-- [common.GetAddonRelatedDecal](function.common.GetAddonRelatedDecal)
