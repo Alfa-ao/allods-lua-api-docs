@@ -30,6 +30,6 @@ mission.Logout()
 
 ## Смотрите также
 
-- [EVENT_AVATAR_WILL_BE_REMOVED](events.avatar#event-avatar-will-be-removed)
-- [EVENT_AVATAR_LOGOUT_CANCELLED](events.avatar#event-avatar-logout-cancelled)
-- [mission.CancelLogout](function.mission.CancelLogout)
+- [EVENT_AVATAR_WILL_BE_REMOVED](/api/events/events.EVENT_AVATAR_.md#event-avatar-will-be-removed)
+- [EVENT_AVATAR_LOGOUT_CANCELLED](/api/events/events.EVENT_AVATAR_.md#event-avatar-logout-cancelled)
+- [mission.CancelLogout](/api/category/mission/function.mission.CancelLogout.md)
