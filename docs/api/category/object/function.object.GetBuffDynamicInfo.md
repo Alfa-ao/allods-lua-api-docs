@@ -56,4 +56,4 @@ end
 
 ## Смотрите также
 
-- [object.IsValidBuff](function.object.IsValidBuff)
+- [object.IsValidBuff](/api/category/object/function.object.IsValidBuff.md)
