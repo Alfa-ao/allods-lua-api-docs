@@ -46,15 +46,3 @@ mission.SetCharacterScene( 0, wtCharacterControl3D, unitId )
 ```lua
 mission.SetCharacterScene( CHAR_SCENE_CHARACTER, wtCharacterControl3D, unitId )
 ```
-
-## Смотрите также
-
-- [GetMaxCharacterSceneCount](function.mission.GetMaxCharacterSceneCount)
-- [CHAR_SCENE_CHARACTER](enum.CHAR_SCENE#char_scene_character)
-- [CHAR_SCENE_ITEMMALL](enum.CHAR_SCENE#char_scene_itemmall)
-- [CHAR_SCENE_INSPECT](enum.CHAR_SCENE#char_scene_inspect)
-- [CHAR_SCENE_MOUNT](enum.CHAR_SCENE#char_scene_mount)
-- [CHAR_SCENE_CHECKROOM](enum.CHAR_SCENE#char_scene_checkroom)
-- [CHAR_SCENE_FITTING](enum.CHAR_SCENE#char_scene_fitting)
-- [CHAR_SCENE_ACHIEVEMENT](enum.CHAR_SCENE#char_scene_achievement)
-- [CHAR_SCENE_GUILD_BOSS](enum.CHAR_SCENE#char_scene_guild_boss)
