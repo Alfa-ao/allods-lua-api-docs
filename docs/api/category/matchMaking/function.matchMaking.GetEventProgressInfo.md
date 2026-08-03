@@ -7,7 +7,7 @@
 matchMaking.GetEventProgressInfo(): table|nil
 ```
 
-Функция возвращает информацию о достижениях участников текущего или только что завершившегося инстанс-ивента. Информация доступна автоматически сразу после завершения инстанс-ивента либо может быть получена запросом `matchMaking.ListenEventProgress()`. В обоих случаях передается событие `EVENT_MATCH_MAKING_EVENT_PROGRESS_ADDED`.
+Функция возвращает информацию о достижениях участников текущего или только что завершившегося инстанс-ивента. Информация доступна автоматически сразу после завершения инстанс-ивента либо может быть получена запросом `matchMaking.ListenEventProgress() -- deprecated`. В обоих случаях передается событие `EVENT_MATCH_MAKING_EVENT_PROGRESS_ADDED`.
 
 ## Список параметров
 
@@ -83,10 +83,9 @@ end
 
 ## Смотрите также
 
-- [matchMaking.ListenEventProgress](function.matchMaking.ListenEventProgress)
-- [EVENT_MATCH_MAKING_EVENT_PROGRESS_ADDED](events.match_making#event-match-making-event-progress-added)
-- [LuaRaceClassInfoPart](types#luaraceclassinfopart)
-- [battleground.GetAvatarMark](function.battleground.GetAvatarMark)
-- [EVENT_MATCH_MAKING_EVENT_PROGRESS_MEMBERS_CHANGED](events.match_making#event-match-making-event-progress-members-changed)
-- [EVENT_MATCH_MAKING_EVENT_PROGRESS_MEMBER_CHANGED](events.match_making#event-match-making-event-progress-member-changed)
-- [EVENT_MATCH_MAKING_EVENT_PROGRESS_ROUNDS_CHANGED](events.match_making#event-match-making-event-progress-rounds-changed)
+- [LuaRaceClassInfoPart](/articles/LuaRaceClassInfoPart.md)
+- [battleground.GetAvatarMark](/api/category/battleground/function.battleground.GetAvatarMark.md)
+- [EVENT_MATCH_MAKING_EVENT_PROGRESS_ADDED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-progress-added)
+- [EVENT_MATCH_MAKING_EVENT_PROGRESS_MEMBER_CHANGED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-progress-member-changed)
+- [EVENT_MATCH_MAKING_EVENT_PROGRESS_MEMBERS_CHANGED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-progress-members-changed)
+- [EVENT_MATCH_MAKING_EVENT_PROGRESS_ROUNDS_CHANGED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-progress-rounds-changed)
