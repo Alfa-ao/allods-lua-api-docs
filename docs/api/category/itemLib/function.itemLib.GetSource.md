@@ -28,4 +28,4 @@ local itemSource = itemLib.GetSource( itemId )
 
 ## Смотрите также
 
-- [ENUM_ItemSource_*](../constants#enum-itemsource)
+- [ENUM_ItemSource_*](/api/enums/enums.ENUM_ItemSource.md)
