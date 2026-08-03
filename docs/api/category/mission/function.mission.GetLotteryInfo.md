@@ -61,5 +61,5 @@ end
 
 ## Смотрите также
 
-- [EVENT_LOTTERY_END](events.lottery#event-lottery-end)
-- [EVENT_LOTTERY_STATE_CHANGED](events.lottery#event-lottery-state-changed)
+- [EVENT_LOTTERY_END](/api/events/events.EVENT_LOTTERY_.md#event-lottery-end)
+- [EVENT_LOTTERY_STATE_CHANGED](/api/events/events.EVENT_LOTTERY_.md#event-lottery-state-changed)
