@@ -54,6 +54,4 @@ local info = mwar.GetCommonInfo()
 
 ## Смотрите также
 
-- [mwar.SetSectorBattleTime](function.mwar.SetSectorBattleTime)
-- [CurrencyId:GetInfo()](#)
-- [TimeTableId](#)
+- [TimeTableId](/api/types/TimeTableId.md)
