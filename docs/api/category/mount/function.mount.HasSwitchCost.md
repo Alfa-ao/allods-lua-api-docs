@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [mount.GetMetamorphBaseInfo](mount.GetMetamorphBaseInfo)
+- [mount.GetMetamorphBaseInfo](/api/category/mount/function.mount.GetMetamorphBaseInfo)
