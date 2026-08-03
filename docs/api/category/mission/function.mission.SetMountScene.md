@@ -36,5 +36,5 @@ mission.SetCharacterSceneSmoothRotation( 0, false )
 
 ## Смотрите также
 
-- [mission.SetCharacterScene](function.mission.SetCharacterScene)
-- [mission.SetCharacterSceneSmoothRotation](function.mission.SetCharacterSceneSmoothRotation)
+- [mission.SetCharacterScene](/api/category/mission/function.mission.SetCharacterScene.md)
+- [mission.SetCharacterSceneSmoothRotation](/api/category/mission/function.mission.SetCharacterSceneSmoothRotation.md)
