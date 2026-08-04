@@ -26,4 +26,4 @@ local leader = raid.GetLeader()
 
 ## Смотрите также
 
-- [UniqueId](UniqueId)
+- [UniqueId](/api/types/LuaApi.md)
