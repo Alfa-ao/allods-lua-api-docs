@@ -43,4 +43,4 @@ end
 
 ## Смотрите также
 
-- [remortCreation.SetSceneCharacterPos](function.remortCreation.SetSceneCharacterPos)
+- [remortCreation.SetSceneCharacterPos](/api/category/remortCreation/function.remortCreation.SetSceneCharacterPos.md)
