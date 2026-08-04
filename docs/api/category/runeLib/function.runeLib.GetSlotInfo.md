@@ -38,4 +38,4 @@ end
 
 ## Смотрите также
 
-- [DRESS_SLOT_*](#)
+- [DRESS_SLOT_*](/api/constants/constants.DRESS_SLOT.md)
