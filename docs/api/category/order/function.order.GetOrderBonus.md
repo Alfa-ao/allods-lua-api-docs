@@ -8,7 +8,7 @@
 order.GetOrderBonus(): OrderBonusId
 ```
 
-Функция возвращает идентификатор бонуса от ордена. Возвращаемые значения являются кэшированными. Для обновления данных требуется вызов `FunctionOrderRequestOrderInfo`.
+Функция возвращает идентификатор бонуса от ордена. Возвращаемые значения являются кэшированными. Для обновления данных требуется вызов `order.RequestOrderInfo`.
 
 ## Список параметров
 
@@ -20,4 +20,4 @@ order.GetOrderBonus(): OrderBonusId
 
 ## Смотрите также
 
-- [FunctionOrderRequestOrderInfo](#)
+- [order.RequestOrderInfo](/api/category/order/function.order.RequestOrderInfo.md)
