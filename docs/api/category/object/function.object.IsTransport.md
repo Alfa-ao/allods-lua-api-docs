@@ -33,5 +33,5 @@ end
 
 ## Смотрите также
 
-- [avatar.GetTarget](../avatar/function.avatar.GetTarget)
-- [object.GetName](function.object.GetName)
+- [avatar.GetTarget](/api/category/avatar/function.avatar.GetTarget.md)
+- [object.GetName](/api/category/object/function.object.GetName.md)
