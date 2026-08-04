@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [social.TeleportToBestFriend](function.social.TeleportToBestFriend)
+- [social.TeleportToBestFriend](/api/category/social/function.social.TeleportToBestFriend.md)
