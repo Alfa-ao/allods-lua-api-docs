@@ -42,5 +42,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetAbilityinfo](function.avatar.GetAbilityinfo)
-- [avatar.GetSpellInfo](function.avatar.GetSpellInfo)
+- [avatar.GetAbilityinfo](/api/category/avatar/function.avatar.GetAbilityInfo.md)
