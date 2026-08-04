@@ -31,4 +31,4 @@ local level = soulProgressLib.GetSoulLevelForExperience( value )
 
 ## Смотрите также
 
-- [soulProgressLib.GetExperienceBySoulLevel](function.soulProgressLib.GetExperienceBySoulLevel)
+- [soulProgressLib.GetExperienceBySoulLevel](/api/category/soulProgressLib/function.soulProgressLib.GetExperienceBySoulLevel.md)
