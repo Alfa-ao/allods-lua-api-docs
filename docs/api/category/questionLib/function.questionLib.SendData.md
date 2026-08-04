@@ -30,6 +30,6 @@ questionLib.SendData( questionId, result )
 
 ## Смотрите также
 
-- [questionLib.GetQuestions](function.questionLib.GetQuestions)
-- [questionLib.GetInfo](function.questionLib.GetInfo)
-- [CategoryQuestionType](../constants#categoryquestiontype)
+- [questionLib.GetQuestions](/api/category/questionLib/function.questionLib.GetQuestions.md)
+- [questionLib.GetInfo](/api/category/questionLib/function.questionLib.GetInfo.md)
+- [CategoryQuestionType](/articles/CategoryQuestionType.md)
