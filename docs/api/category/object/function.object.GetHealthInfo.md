@@ -48,5 +48,5 @@ end
 
 ## Смотрите также
 
-- [EVENT_OBJECT_HEALTH_CHANGED](events#event-object-health-changed)
-- [object.GetManaInfo](function.object.GetManaInfo)
+- [EVENT_OBJECT_HEALTH_CHANGED](/api/events/events.EVENT_OBJECT_.md#event-object-health-changed)
+- [object.GetManaInfo](/api/category/object/function.object.GetManaInfo.md)
