@@ -32,6 +32,6 @@ end
 
 ## Смотрите также
 
-- [EVENT_REMORT_ZOOM_TRIGGER_CHANGED](events.remort#event-remort-zoom-trigger-changed)
-- [remortCreation.IsZoomOnFace](function.remortCreation.IsZoomOnFace)
-- [remortCreation.ToggleZoom](function.remortCreation.ToggleZoom)
+- [EVENT_REMORT_ZOOM_TRIGGER_CHANGED](/api/events/events.EVENT_REMORT_.md#event-remort-zoom-trigger-changed)
+- [remortCreation.IsZoomOnFace](/api/category/remortCreation/function.remortCreation.IsZoomOnFace.md)
+- [remortCreation.ToggleZoom](/api/category/remortCreation/function.remortCreation.ToggleZoom.md)
