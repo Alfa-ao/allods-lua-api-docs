@@ -22,7 +22,7 @@ remort.ChooseSharedAbilities( abilities: table )
 ### Выбор умений и заклинаний для расшаривания
 ```lua
 local abilities = remort.GetAbilitiesForSharing()
-local spells = remort.GetSpellsForSharing()
+local spells = remort.GetSpellsForSharing() -- deprecated
 remort.ChooseSharedAbilities( { abilities[ 2 ], spells[ 0 ] } )
 ```
 
@@ -32,5 +32,4 @@ remort.ChooseSharedAbilities( { abilities[ 2 ], spells[ 0 ] } )
 
 ## Смотрите также
 
-- [remort.GetAbilitiesForSharing](function.remort.GetAbilitiesForSharing)
-- [remort.GetSpellsForSharing](function.remort.GetSpellsForSharing)
+- [remort.GetAbilitiesForSharing](/api/category/remort/function.remort.GetAbilitiesForSharing.md)
