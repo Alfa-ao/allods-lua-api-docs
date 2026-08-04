@@ -35,4 +35,4 @@ end
 
 ## Смотрите также
 
-- [RequirementsTable](#)
+- [RequirementsTable](/api/types/RequirementsTable.md)
