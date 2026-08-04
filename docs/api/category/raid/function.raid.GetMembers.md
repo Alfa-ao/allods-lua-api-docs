@@ -45,5 +45,5 @@ local members = raid.GetMembers()
 
 ## Смотрите также
 
-- [RAID_MEMBER_STATE_*](#)
-- [raid.GetMemberInfo](function.raid.GetMemberInfo)
+- [RAID_MEMBER_STATE_*](/api/constants/constants.RAID_MEMBER_STATE.md)
+- [raid.GetMemberInfo](/api/category/raid/function.raid.GetMemberInfo)
