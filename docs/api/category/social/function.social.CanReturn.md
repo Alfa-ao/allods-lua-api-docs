@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [social.ReturnFromBestFriend](function.social.ReturnFromBestFriend)
+- [social.ReturnFromBestFriend](/api/category/social/function.social.ReturnFromBestFriend.md)
