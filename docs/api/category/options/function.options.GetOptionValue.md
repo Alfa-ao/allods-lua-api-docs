@@ -33,6 +33,6 @@ local floatValue, stringValue = options.GetOptionValue( id )
 
 ## Смотрите также
 
-- [options.GetOptionInfo](function.options.GetOptionInfo)
-- [options.IsOptionEnabled](function.options.IsOptionEnabled)
-- [UI_OPTION_DATA_*](adsfasdf)
+- [options.GetOptionInfo](/api/category/options/function.options.GetOptionInfo.md)
+- [options.IsOptionEnabled](/api/category/options/function.options.IsOptionEnabled.md)
+- [UI_OPTION_DATA_*](index.md)
