@@ -48,8 +48,3 @@ local isKnownWidget = GetWidgetById(widget:GetInstanceId()) ~= nil
 ::: info Описание примера
 В примере демонстрируется сравнение уникальных идентификаторов виджетов и ресурсов заклинаний, а также использование `light userdata` в качестве ключей в таблице для быстрого поиска объектов по их идентификаторам.
 :::
-
-## Смотрите также
-
-- [WidgetSafe](widget_safe)
-- [ResourceId](resource_id)
