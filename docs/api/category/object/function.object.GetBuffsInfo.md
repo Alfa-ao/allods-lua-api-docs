@@ -43,4 +43,4 @@ end
 
 ## Смотрите также
 
-- [object.GetBuffInfo](function.object.GetBuffInfo)
+- [object.GetBuffInfo](/api/category/object/function.object.GetBuffInfo.md)
