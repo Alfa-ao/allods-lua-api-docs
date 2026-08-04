@@ -36,4 +36,4 @@ end
 
 ## Смотрите также
 
-- [social.GetFriendInfo](function.social.GetFriendInfo)
+- [social.GetFriendInfo](/api/category/social/function.social.GetFriendInfo.md)
