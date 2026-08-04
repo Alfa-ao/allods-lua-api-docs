@@ -25,6 +25,6 @@ hangar.LendShip( friendId )
 
 ## Смотрите также
 
-- [hangar.CanLendShip](function.hangar.CanLendShip)
-- [social.GetFriendList](function.social.GetFriendList)
-- [social.GetFriendInfo](function.social.GetFriendInfo)
+- [hangar.CanLendShip](/api/category/hangar/function.hangar.CanLendShip.md)
+- [social.GetFriendList](/api/category/social/function.social.GetFriendList.md)
+- [social.GetFriendInfo](/api/category/social/function.social.GetFriendInfo.md)
