@@ -33,8 +33,8 @@ end
 
 ## Смотрите также
 
-- [questionLib.GetInfo](function.questionLib.GetInfo)
-- [questionLib.SendData](function.questionLib.SendData)
-- [questionLib.Cancel](function.questionLib.Cancel)
-- [EVENT_QUESTION_ADDED](events.question#event-question-added)
-- [EVENT_QUESTION_REMOVED](events.question#event-question-removed)
+- [questionLib.GetInfo](/api/category/questionLib/function.questionLib.GetInfo.md)
+- [questionLib.SendData](/api/category/questionLib/function.questionLib.SendData.md)
+- [questionLib.Cancel](/api/category/questionLib/function.questionLib.Cancel.md)
+- [EVENT_QUESTION_ADDED](/api/events/events.EVENT_QUESTION_.md#event-question-added)
+- [EVENT_QUESTION_REMOVED](/api/events/events.EVENT_QUESTION_.md#event-question-removed)
