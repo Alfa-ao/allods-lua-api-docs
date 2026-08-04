@@ -26,4 +26,4 @@ raid.MapSaveResponse( true )
 
 ## Смотрите также
 
-- [EVENT_RAID_SAVE_MAP_QUESTION](events.raid#event-raid-save-map-question)
+- [EVENT_RAID_SAVE_MAP_QUESTION](/api/events/events.EVENT_RAID_.md#event-raid-save-map-question)
