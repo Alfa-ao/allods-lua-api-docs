@@ -30,4 +30,4 @@ local scenariosList = proceduralDungeonLib.GetScenarios()
 
 ## Смотрите также
 
-- [proceduralDungeonLib.GetScenarioInfo](function.proceduralDungeonLib.GetScenarioInfo)
+- [proceduralDungeonLib.GetScenarioInfo](/api/category/proceduralDungeonLib/function.proceduralDungeonLib.GetScenarioInfo.md)
