@@ -36,4 +36,4 @@ end
 
 ## Смотрите также
 
-- [raid.Invite](function.raid.Invite)
+- [raid.Invite](/api/category/raid/function.raid.Invite.md)
