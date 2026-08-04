@@ -45,5 +45,5 @@ end
 
 ## Смотрите также
 
-- [rules.GetEventInfo](function.rules.GetEventInfo)
-- [RULE_TYPE_ACTION](dafsfsaf)
+- [rules.GetEventInfo](/api/category/rules/function.rules.GetEventInfo.md)
+- [RULE_TYPE_ACTION](/api/constants/constants.RULE_TYPE.md)
