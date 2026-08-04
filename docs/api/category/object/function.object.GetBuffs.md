@@ -30,4 +30,4 @@ local activeBuffs = object.GetBuffs( avatar.GetId() )
 
 ## Смотрите также
 
-- [avatar.GetId](../avatar/function.avatar.GetId)
+- [avatar.GetId](/api/category/avatar/function.avatar.GetId.md)
