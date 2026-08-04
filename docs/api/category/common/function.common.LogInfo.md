@@ -44,4 +44,4 @@ common.LogInfo( "common", "Hello, ", userMods.ToWString( "another world!" ) )
 
 ## Смотрите также
 
-- [userMods.ToWString](userMods.ToWString)
+- [userMods.ToWString](/api/category/userMods/function.userMods.ToWString)
