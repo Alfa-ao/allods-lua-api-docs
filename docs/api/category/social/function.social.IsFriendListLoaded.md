@@ -29,4 +29,4 @@ end
 
 ## Смотрите также
 
-- [EVENT_AVATAR_FRIEND_LIST_LOADED](events.avatar#event-avatar-friend-list-loaded)
+- [EVENT_AVATAR_FRIEND_LIST_LOADED](/api/events/events.EVENT_AVATAR_.md#event-avatar-friend-list-loaded)
