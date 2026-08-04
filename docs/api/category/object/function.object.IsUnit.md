@@ -25,15 +25,15 @@ object.IsUnit( id: ObjectId ): boolean
 ```lua
 local id = avatar.GetTarget()
 if object.IsUnit( id ) then
-    local name = unit.GetName( id )
+    local name = object.GetName( id )
 end
 ```
 
 ::: info Описание примера
-В примере сначала получается идентификатор текущей цели с помощью `avatar.GetTarget()`. Затем проверяется, является ли полученный объект юнитом. Если проверка успешна, извлекается имя юнита через `unit.GetName()`.
+В примере сначала получается идентификатор текущей цели с помощью `avatar.GetTarget()`. Затем проверяется, является ли полученный объект юнитом. Если проверка успешна, извлекается имя юнита через `object.GetName()`.
 :::
 
 ## Смотрите также
 
-- [avatar.GetTarget](../avatar/function.avatar.GetTarget)
-- [unit.GetName](../unit/function.unit.GetName)
+- [avatar.GetTarget](/api/category/avatar/function.avatar.GetTarget.md)
+- [object.GetName](/api/category/object/function.object.GetName.md)
