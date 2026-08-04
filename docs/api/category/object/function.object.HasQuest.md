@@ -26,4 +26,4 @@ local hasQuest = object.HasQuest( avatar.GetTarget() )
 
 ## Смотрите также
 
-- [avatar.HasInteractorQuest](../avatar/function.avatar.HasInteractorQuest)
+- [avatar.HasInteractorQuest](/api/category/avatar/function.avatar.HasInteractorQuest.md)
