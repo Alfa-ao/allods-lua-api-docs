@@ -35,5 +35,5 @@ end
 
 ## Смотрите также
 
-- [avatar.GetId](../avatar/function.avatar.GetId)
-- [object.GetName](function.object.GetName)
+- [avatar.GetId](/api/category/avatar/function.avatar.GetId.md)
+- [object.GetName](/api/category/object/function.object.GetName.md)
