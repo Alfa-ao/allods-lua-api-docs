@@ -32,4 +32,4 @@ raid.Accept()
 
 ## Смотрите также
 
-- [raid.GetInviteInfo](function.raid.GetInviteInfo)
+- [raid.GetInviteInfo](/api/category/raid/function.raid.GetInviteInfo.md)
