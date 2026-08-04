@@ -59,7 +59,6 @@ end
 
 ## Смотрите также
 
-- [GamePosition](sdfg)
-- [MutationInfo](sdfg)
-- [GameState](sdfg)
-- [common.CreateValuedText](sfdgsdfg)
+- [GamePosition](/api/types/GamePosition.md)
+- [MutationInfo](/articles/MutationInfo.md)
+- [common.CreateValuedText](/api/category/common/function.common.CreateValuedText.md)
