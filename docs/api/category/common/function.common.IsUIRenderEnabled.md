@@ -26,4 +26,4 @@ local isUIVisible = common.IsUIRenderEnabled()
 
 ## Смотрите также
 
-- [common.EnableUIRender](common.EnableUIRender)
+- [common.EnableUIRender](/api/category/common/function.common.EnableUIRender)
