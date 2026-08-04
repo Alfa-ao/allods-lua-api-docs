@@ -52,6 +52,6 @@ local goalInfo = proceduralDungeonLib.GetGoalInfo( goalId )
 
 ## Смотрите также
 
-- [proceduralDungeonLib.GetGoals](function.proceduralDungeonLib.GetGoals)
-- [ENUM_EventGoalState](../constants#enum-eventgoalstate)
-- [ENUM_EventGoalType](../constants#enum-eventgoaltype)
+- [proceduralDungeonLib.GetGoals](/api/category/proceduralDungeonLib/function.proceduralDungeonLib.GetGoals.md)
+- [ENUM_EventGoalState](/api/enums/enums.ENUM_EventGoalState.md)
+- [ENUM_EventGoalType](/api/enums/enums.ENUM_EventGoalType.md)
