@@ -23,17 +23,17 @@ social.EndFriendship( friendId )
 ### Прекращение дружбы с лучшим побратимом
 
 ```lua
-local friendId = social.GetFiriendList()[ 0 ]
-if friendId and social.GetFiriendInfo( friendId ).isBestFriend then
+local friendId = social.GetFriendList()[ 0 ]
+if friendId and social.GetFriendInfo( friendId ).isBestFriend then
     social.EndFriendship( friendId )
 end
 ```
 
 ::: info Описание примера
-В примере извлекается идентификатор первого побратима из списка посредством вызова `social.GetFiriendList`. Далее проверяется, что побратим существует и является лучшим (`isBestFriend`), после чего вызывается `social.EndFriendship` для завершения дружбы.
+В примере извлекается идентификатор первого побратима из списка посредством вызова `social.GetFriendList`. Далее проверяется, что побратим существует и является лучшим (`isBestFriend`), после чего вызывается `social.EndFriendship` для завершения дружбы.
 :::
 
 ## Смотрите также
 
-- [social.GetFiriendList](function.social.GetFiriendList)
-- [social.GetFiriendInfo](function.social.GetFiriendInfo)
+- [social.GetFriendList](/api/category/social/function.social.GetFriendList.md)
+- [social.GetFriendInfo](/api/category/social/function.social.GetFriendInfo.md)
