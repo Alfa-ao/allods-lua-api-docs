@@ -32,6 +32,6 @@ local canSummonShip = spellState and spellState.enabled
 
 ## Смотрите также
 
-- [hangar.TakeAwayShip](function.hangar.TakeAwayShip)
-- [EVENT_HANGAR_SPELL_CHANGED](events.hangar#event-hangar-spell-changed)
-- [EVENT_HANGAR_SPELL_EFFECT](events.hangar#event-hangar-spell-effect)
+- [hangar.TakeAwayShip](/api/category/hangar/function.hangar.TakeAwayShip.md)
+- [EVENT_HANGAR_SPELL_CHANGED](/api/events/events.EVENT_HANGAR_.md#event-hangar-spell-changed)
+- [EVENT_HANGAR_SPELL_EFFECT](/api/events/events.EVENT_HANGAR_.md#event-hangar-spell-effect)
