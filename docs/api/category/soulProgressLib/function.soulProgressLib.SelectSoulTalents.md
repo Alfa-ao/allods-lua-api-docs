@@ -27,5 +27,5 @@ soulProgressLib.SelectSoulTalents( talents )
 
 ## Смотрите также
 
-- [soulProgressLib.RerollSoulTalents](function.soulProgressLib.RerollSoulTalents)
-- [EVENT_SOUL_PROGRESS_TALENTS_CHANGED](events#event-soul-progress-talents-changed)
+- [soulProgressLib.RerollSoulTalents](/api/category/soulProgressLib/function.soulProgressLib.RerollSoulTalents.md)
+- [EVENT_SOUL_PROGRESS_TALENTS_CHANGED](/api/events/events.EVENT_SOUL_.md#event-soul-progress-talents-changed)
