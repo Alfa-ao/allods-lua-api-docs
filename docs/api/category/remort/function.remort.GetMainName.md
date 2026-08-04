@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [remort.IsAlt](function.remort.IsAlt)
+- [remort.IsAlt](/api/category/remort/function.remort.IsAlt.md)
