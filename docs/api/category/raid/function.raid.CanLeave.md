@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [raid.Leave](function.raid.Leave)
+- [raid.Leave](/api/category/raid/function.raid.Leave.md)
