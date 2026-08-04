@@ -37,4 +37,4 @@ LogInfo( itemLib.GetItemInfo( info.goldDust ) )
 
 ## Смотрите также
 
-- [itemLib.GetItemInfo](function.itemLib.GetItemInfo)
+- [itemLib.GetItemInfo](/api/category/itemLib/function.itemLib.GetItemInfo.md)
