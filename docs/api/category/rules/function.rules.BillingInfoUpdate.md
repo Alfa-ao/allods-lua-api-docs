@@ -28,5 +28,5 @@ rules.BillingInfoUpdate()
 
 ## Смотрите также
 
-- [rules.BillingInfoGetBonusInfo](function.rules.BillingInfoGetBonusInfo)
-- [EVENT_BILLINGINFO_BONUS_STATUS_CHANGED](events.billing#event-billinginfo-bonus-status-changed)
+- [rules.BillingInfoGetBonusInfo](/api/category/rules/function.rules.BillingInfoGetBonusInfo.md)
+- [EVENT_BILLINGINFO_BONUS_STATUS_CHANGED](/api/events/events.EVENT_BILLINGINFO_.md#event-billinginfo-bonus-status-changed)
