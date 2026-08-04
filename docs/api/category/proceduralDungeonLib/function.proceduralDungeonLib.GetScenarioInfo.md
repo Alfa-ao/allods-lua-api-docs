@@ -36,6 +36,6 @@ local scenarioInfo = proceduralDungeonLib.GetScenarioInfo( scenarioId )
 
 ## Смотрите также
 
-- [proceduralDungeonLib.GetScenarios](function.proceduralDungeonLib.GetScenarios)
-- [proceduralDungeonLib.GetGoalInfo](function.proceduralDungeonLib.GetGoalInfo)
-- [ENUM_EventGoalState](../constants#enum-eventgoalstate)
+- [proceduralDungeonLib.GetScenarios](/api/category/proceduralDungeonLib/function.proceduralDungeonLib.GetScenarios.md)
+- [proceduralDungeonLib.GetGoalInfo](/api/category/proceduralDungeonLib/function.proceduralDungeonLib.GetGoalInfo.md)
+- [ENUM_EventGoalState](/api/enums/enums.ENUM_EventGoalState.md)
