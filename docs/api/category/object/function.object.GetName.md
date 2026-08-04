@@ -32,5 +32,5 @@ local transportName = object.GetName( unit.GetTransport( avatar.GetId() ) )
 
 ## Смотрите также
 
-- [avatar.GetTarget](../avatar/function.avatar.GetTarget)
-- [unit.GetTransport](../unit/function.unit.GetTransport)
+- [avatar.GetTarget](/api/category/avatar/function.avatar.GetTarget.md)
+- [unit.GetTransport](/api/category/unit/function.unit.GetTransport.md)
