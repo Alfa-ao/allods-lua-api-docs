@@ -34,7 +34,3 @@ remortCreation.SetChargenEquipType( equipType: number )
 ```lua
 remortCreation.SetChargenEquipType( CHARGEN_EQUIP_TYPE_HIGH_LEVEL )
 ```
-
-## Смотрите также
-
-- [CHARGEN_EQUIP_TYPE_*](#)
