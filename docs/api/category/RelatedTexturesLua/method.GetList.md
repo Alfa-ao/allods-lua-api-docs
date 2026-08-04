@@ -35,4 +35,4 @@ wtLoadingScreen:SetBacckgroundTexture(
 
 ## Смотрите также
 
-- [RelatedTexturesLua:GetTexture](RelatedTexturesLua.GetTexture)
+- [RelatedTexturesLua:GetTexture](/api/category/RelatedTexturesLua/method.GetTexture.md)
