@@ -32,4 +32,4 @@ end
 
 ## Смотрите также
 
-- [social.IsIgnoreListLoaded](function.social.IsIgnoreListLoaded)
+- [social.IsIgnoreListLoaded](/api/category/social/function.social.IsIgnoreListLoaded.md)
