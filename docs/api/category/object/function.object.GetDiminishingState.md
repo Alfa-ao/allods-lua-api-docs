@@ -26,6 +26,6 @@ local diminishingState = object.GetDiminishingState( avatar.GetId() )
 
 ## Смотрите также
 
-- [EVENT_OBJECT_DIMINISHING_GROUP_CHANGED](../events#event-object-diminishing-group-changed)
-- [EVENT_OBJECT_DIMINISHING_CHANGED](../events#event-object-diminishing-changed)
-- [ENUM_DiminishingGroup](../constants#enum-diminishinggroup)
+- [EVENT_OBJECT_DIMINISHING_GROUP_CHANGED](/api/events/events.EVENT_OBJECT_.md#event-object-diminishing-group-changed)
+- [EVENT_OBJECT_DIMINISHING_CHANGED](/api/events/events.EVENT_OBJECT_.md#event-object-diminishing-changed)
+- [ENUM_DiminishingGroup](/api/enums/enums.ENUM_DiminishingGroup.md)
