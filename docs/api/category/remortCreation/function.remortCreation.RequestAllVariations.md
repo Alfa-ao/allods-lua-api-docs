@@ -30,4 +30,4 @@ remortCreation.RequestAllVariations()
 
 ## Смотрите также
 
-- [EVENT_REMORT_VARIATIONS_INFO_CHANGED](events.remort#event-remort-variations-info-changed)
+- [EVENT_REMORT_VARIATIONS_INFO_CHANGED](/api/events/events.EVENT_REMORT_.md#event-remort-variations-info-changed)
