@@ -32,4 +32,4 @@ remortCreation.SetCameraPath( "cameraPath.(Route)", "targetPath.(Route)", 1.5 )
 
 ## Смотрите также
 
-- [EVENT_REMORT_CHARACTER_SCENE_CAMERA_READY](events.remort#event-remort-character-scene-camera-ready)
+- [EVENT_REMORT_CHARACTER_SCENE_CAMERA_READY](/api/events/events.EVENT_REMORT_.md#event-remort-character-scene-camera-ready)
