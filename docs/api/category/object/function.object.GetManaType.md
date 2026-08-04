@@ -38,5 +38,5 @@ local manaInfo = object.GetManaType( objectId ) ~= MANA_TYPE_NONE and object.Get
 
 ## Смотрите также
 
-- [object.GetManaInfo](function.object.GetManaInfo)
-- [MANA_TYPE_*](#)
+- [object.GetManaInfo](/api/category/object/function.object.GetManaInfo)
+- [MANA_TYPE_*](/api/constants/constants.MANA.md)
