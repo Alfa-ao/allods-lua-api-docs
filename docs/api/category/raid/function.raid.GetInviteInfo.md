@@ -40,4 +40,4 @@ end
 
 ## Смотрите также
 
-- [raid.Accept](function.raid.Accept)
+- [raid.Accept](/api/category/raid/function.raid.Accept.md)
