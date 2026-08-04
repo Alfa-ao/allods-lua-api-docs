@@ -28,4 +28,4 @@ raid.MapVarsSaveResponse( true )
 
 ## Смотрите также
 
-- [EVENT_RAID_ENTER_VARS_MAP_WARNING](events.raid#event-raid-enter-vars-map-warning)
+- [EVENT_RAID_ENTER_VARS_MAP_WARNING](/api/events/events.EVENT_RAID_.md#event-raid-enter-vars-map-warning)
