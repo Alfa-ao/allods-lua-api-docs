@@ -31,4 +31,4 @@ end
 
 ## Смотрите также
 
-- [GamePosition](GamePosition)
+- [GamePosition](/api/types/GamePosition.md)
