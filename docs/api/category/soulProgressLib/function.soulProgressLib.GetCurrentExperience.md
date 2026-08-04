@@ -28,5 +28,5 @@ local value = soulProgressLib.GetCurrentExperience()
 
 ## Смотрите также
 
-- [soulProgressLib.GetSoulLevelForExperience](function.soulProgressLib.GetSoulLevelForExperience)
-- [EVENT_SOUL_PROGRESS_EXPERIENCE_CHANGED](events#event-soul-progress-experience-changed)
+- [soulProgressLib.GetSoulLevelForExperience](/api/category/soulProgressLib/function.soulProgressLib.GetSoulLevelForExperience.md)
+- [EVENT_SOUL_PROGRESS_EXPERIENCE_CHANGED](/api/events/events.EVENT_SOUL_.md#event-soul-progress-experience-changed)
