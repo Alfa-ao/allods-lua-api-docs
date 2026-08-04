@@ -36,4 +36,4 @@ end
 
 ## Смотрите также
 
-- [social.GetIgnoreInfo](function.social.GetIgnoreInfo)
+- [social.GetIgnoreInfo](/api/category/social/function.social.GetIgnoreInfo.md)
