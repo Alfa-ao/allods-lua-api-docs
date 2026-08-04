@@ -49,4 +49,4 @@ end
 
 ## Смотрите также
 
-- [READY_CHECK_READY_STATE_*](enums#ready_check_ready_state)
+- [READY_CHECK_READY_STATE_*](/api/constants/constants.READY_CHECK_READY_STATE.md)
