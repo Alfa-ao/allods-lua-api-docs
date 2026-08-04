@@ -27,5 +27,5 @@ questionLib.Cancel( questionId )
 
 ## Смотрите также
 
-- [questionLib.GetQuestions()](function.questionLib.GetQuestions)
-- [questionLib.SendData()](function.questionLib.SendData)
+- [questionLib.GetQuestions](/api/category/questionLib/function.questionLib.GetQuestions.md)
+- [questionLib.SendData](/api/category/questionLib/function.questionLib.SendData.md)
