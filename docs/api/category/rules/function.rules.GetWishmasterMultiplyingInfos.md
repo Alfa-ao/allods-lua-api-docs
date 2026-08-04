@@ -52,4 +52,4 @@ end
 
 ## Смотрите также
 
-- [WishmasterResourceId](enumerations.WishmasterResourceId)
+- [WishmasterResourceId](/api/types/WishmasterResourceId.md)
