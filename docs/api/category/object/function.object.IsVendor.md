@@ -30,4 +30,4 @@ local isVendor = object.IsVendor( avatar.GetTarget() )
 
 ## Смотрите также
 
-- [avatar.IsInteractorVendor](../avatar/function.avatar.IsInteractorVendor)
+- [avatar.IsInteractorVendor](/api/category/avatar/function.avatar.IsInteractorVendor.md)
