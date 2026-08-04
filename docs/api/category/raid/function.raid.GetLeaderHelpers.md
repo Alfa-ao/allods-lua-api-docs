@@ -26,4 +26,4 @@ local leaderHelpers = raid.GetLeaderHelpers()
 
 ## Смотрите также
 
-- [UniqueId](#)
+- [UniqueId](/api/types/LuaApi.md)
