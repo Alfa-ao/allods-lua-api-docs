@@ -32,4 +32,4 @@ local stageInfo = premiumLib.GetStageInfo( 1 )
 
 ## Смотрите также
 
-- [EVENT_PREMIUM_STAGE_CHANGED](events#event-premium-stage-changed)
+- [EVENT_PREMIUM_STAGE_CHANGED](/api/events/events.EVENT_PREMIUM_.md#event-premium-stage-changed)
