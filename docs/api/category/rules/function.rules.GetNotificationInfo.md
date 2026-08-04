@@ -37,4 +37,4 @@ end
 
 ## Смотрите также
 
-- [ENUM_RuleNotificationType_*](sdgfdfsg)
+- [ENUM_RuleNotificationType_*](/api/enums/enums.ENUM_RuleNotificationType.md)
