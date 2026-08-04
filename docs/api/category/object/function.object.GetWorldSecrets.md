@@ -32,5 +32,5 @@ end
 
 ## Смотрите также
 
-- [object.HasWorldSecret](function.object.HasWorldSecret)
-- [avatar.GetSecretInfo](../avatar/function.avatar.GetSecretInfo)
+- [object.HasWorldSecret](/api/category/object/function.object.HasWorldSecret.md)
+- [avatar.GetSecretInfo](/api/category/avatar/function.avatar.GetSecretInfo.md)
