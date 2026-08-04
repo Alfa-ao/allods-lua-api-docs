@@ -32,4 +32,4 @@ end
 
 ## Смотрите также
 
-- [social.CanReturn](function.social.CanReturn)
+- [social.CanReturn](/api/category/social/function.social.CanReturn.md)
