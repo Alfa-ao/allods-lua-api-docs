@@ -48,5 +48,5 @@ end
 
 ## Смотрите также
 
-- [EVENT_REMORT_LIST_GAINED](events.remort#event-remort-list-gained)
-- [remort.CanGetRemortsList](function.remort.CanGetRemortsList)
+- [EVENT_REMORT_LIST_GAINED](/api/events/events.EVENT_REMORT_.md#event-remort-list-gained)
+- [remort.CanGetRemortsList](/api/category/remort/function.remort.CanGetRemortsList.md)
