@@ -78,7 +78,7 @@ end
 
 ## Смотрите также
 
-- [rules.BillingInfoGetBonuses](function.rules.BillingInfoGetBonuses)
-- [rules.BillingInfoUpdate](function.rules.BillingInfoUpdate)
-- [ENUM_ItemMallCurrency_*](ывапывап) (HELP)
-- [ENUM_Month_*](ывпып)
+- [rules.BillingInfoGetBonuses](/api/category/rules/function.rules.BillingInfoGetBonuses.md)
+- [rules.BillingInfoUpdate](/api/category/rules/function.rules.BillingInfoUpdate.md)
+- ENUM_ItemMallCurrency_* -- deprecated
+- [ENUM_Month_*](/api/enums/enums.ENUM_Month.md)
