@@ -28,4 +28,4 @@ end
 
 ## Смотрите также
 
-- [matchMaking.AwayBattleEvent](function.matchMaking.AwayBattleEvent)
+- [matchMaking.AwayBattleEvent](/api/category/matchMaking/function.matchMaking.AwayBattleEvent.md)
