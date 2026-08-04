@@ -40,4 +40,4 @@ end
 
 ## Смотрите также
 
-- [rules.GetEventInfo](function.rules.GetEventInfo)
+- [rules.GetEventInfo](/api/category/rules/function.rules.GetEventInfo.md)
