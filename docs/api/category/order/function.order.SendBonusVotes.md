@@ -29,4 +29,4 @@ order.SendBonusVotes( bonusIds )
 
 ## Смотрите также
 
-- [EVENT_ORDER_VOTE_ANSWER](events.order#event-order-vote-answer)
+- [EVENT_ORDER_VOTE_ANSWER](/api/events/events.EVENT_ORDER_.md#event-order-vote-answer)
