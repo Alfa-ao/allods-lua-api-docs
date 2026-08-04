@@ -49,4 +49,4 @@ end
 
 ## Смотрите также
 
-- [order.RequestOrderInfo](function.order.RequestOrderInfo)
+- [order.RequestOrderInfo](/api/category/order/function.order.RequestOrderInfo.md)
