@@ -67,7 +67,7 @@ end
 
 ## Смотрите также
 
-- [unit.GetFactionId](function.unit.GetFactionId)
-- [avatar.GetQuestReward](function.avatar.GetQuestReward)
-- [RULE_TYPE_*](enum.RULE_TYPE)
-- [QuestLocation](type.QuestLocation)
+- [unit.GetFactionId](/api/category/unit/function.unit.GetFactionId.md)
+- [avatar.GetQuestReward](/api/category/avatar/function.avatar.GetQuestReward.md)
+- [RULE_TYPE_*](/api/constants/constants.RULE_TYPE.md)
+- [QuestLocation](/api/types/QuestLocation.md)
