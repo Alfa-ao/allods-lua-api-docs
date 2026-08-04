@@ -29,7 +29,3 @@ ResourceId:GetPath()
 ```lua
 local widgetResource = widget1:GetPath()
 ```
-
-## Смотрите также
-
-- [ResourceId](types.ResourceId)
