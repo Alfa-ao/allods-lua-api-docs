@@ -28,4 +28,4 @@ object.RemoveFromProjected( avatar.GetTarget() )
 
 ## Смотрите также
 
-- [avatar.GetTarget](../avatar/function.avatar.GetTarget)
+- [avatar.GetTarget](/api/category/avatar/function.avatar.GetTarget.md)
