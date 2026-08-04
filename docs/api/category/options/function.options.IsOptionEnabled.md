@@ -32,6 +32,6 @@ end
 
 ## Смотрите также
 
-- [options.GetOptionIndex](function.options.GetOptionIndex)
-- [options.GetOptionValue](function.options.GetOptionValue)
-- [UI_OPTION_DATA_*](sdfgsdfg)
+- [options.GetOptionIndex](/api/category/options/function.options.GetOptionIndex.md)
+- [options.GetOptionValue](/api/category/options/function.options.GetOptionValue.md)
+- [UI_OPTION_DATA_*](index.md)
