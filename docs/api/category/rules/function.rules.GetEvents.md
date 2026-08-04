@@ -35,5 +35,5 @@ end
 
 ## Смотрите также
 
-- [EVENT_MISSION_RULES_CHANGED](events.mission_rules#event-mission-rules-changed)
-- [rules.GetEventInfo](function.rules.GetEventInfo)
+- [EVENT_MISSION_RULES_CHANGED](/api/events/events.EVENT_MISSION_.md#event-mission-rules-changed)
+- [rules.GetEventInfo](/api/category/rules/function.rules.GetEventInfo.md)
