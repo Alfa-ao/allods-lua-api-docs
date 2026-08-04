@@ -34,5 +34,5 @@ end
 
 ## Смотрите также
 
-- [remortCreation.IsZoomEnabled](function.remortCreation.IsZoomEnabled)
-- [remortCreation.IsZoomOnFace](function.remortCreation.IsZoomOnFace)
+- [remortCreation.IsZoomEnabled](/api/category/remortCreation/function.remortCreation.IsZoomEnabled.md)
+- [remortCreation.IsZoomOnFace](/api/category/remortCreation/function.remortCreation.IsZoomOnFace.md)
