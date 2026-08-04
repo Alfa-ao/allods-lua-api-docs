@@ -36,4 +36,4 @@ options.SetOptionEnabled( id, value, false )
 
 ## Смотрите также
 
-- [options.SetOptionIndex](function.options.SetOptionIndex)
+- [options.SetOptionIndex](/api/category/options/function.options.SetOptionIndex.md)
