@@ -27,8 +27,3 @@ object.StopVisualAction( objectId: ObjectId, channelIndex: number )
 ```lua
 object.StopVisualAction( objectId, VIS_ACTION_NPC_TALK )
 ```
-
-## Смотрите также
-
-- [VisActionId](../constants#visactionid)
-- [VIS_ACTION_*](../constants#vis-action)
