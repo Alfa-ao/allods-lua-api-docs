@@ -26,4 +26,4 @@ local talents = soulProgressLib.GetSelectedTalents()
 
 ## Смотрите также
 
-- [soulProgressLib.RerollSoulTalents](function.soulProgressLib.RerollSoulTalents)
+- [soulProgressLib.RerollSoulTalents](/api/category/soulProgressLib/function.soulProgressLib.RerollSoulTalents.md)
