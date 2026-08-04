@@ -72,8 +72,8 @@ end
 
 ## Смотрите также
 
-- [cartographer.GetZonesMapInfo](../cartographer/function.cartographer.GetZonesMapInfo)
-- [LuaRaceClassInfoPart](LuaRaceClassInfoPart)
-- [LuaSexInfoPart](LuaSexInfoPart)
-- [unit.GetSex](../unit/function.unit.GetSex)
-- [ENUM_AvatarOnlineStatus_*](ENUM_AvatarOnlineStatus_*)
+- [cartographer.GetZonesMapInfo](/api/category/cartographer/function.cartographer.GetZonesMapInfo.md)
+- [LuaRaceClassInfoPart](/articles/LuaRaceClassInfoPart.md)
+- [LuaSexInfoPart](/articles/LuaSexInfoPart.md)
+- [unit.GetSex](/api/category/unit/function.unit.GetSex.md)
+- [ENUM_AvatarOnlineStatus_*](/api/enums/enums.ENUM_Avatar.md)
