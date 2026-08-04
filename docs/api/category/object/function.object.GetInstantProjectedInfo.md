@@ -62,5 +62,5 @@ end
 
 ## Смотрите также
 
-- [object.GetProjectedInfo](function.object.GetProjectedInfo)
-- [ATTACHED_OBJECT_POS_*](../constants#attached-object-pos)
+- [object.GetProjectedInfo](/api/category/object/function.object.GetProjectedInfo.md)
+- [ATTACHED_OBJECT_POS_*](/api/constants/constants.ATTACHED_OBJECT_POS_.md)
