@@ -11,7 +11,7 @@ order.RequestOrderInfo()
 Функция отправляет запрос информации об ордене, включая бонусы, голоса, очки и позицию.
 
 ::: warning Замечание
-Об изменениях передается событие `EventOrderInfoChanged`. (HELP)
+Об изменениях передается событие `EVENT_ORDER_INFO_CHANGED`.
 :::
 
 ## Список параметров
@@ -24,4 +24,4 @@ order.RequestOrderInfo()
 
 ## Смотрите также
 
-- [EventOrderInfoChanged](events.order#eventorderinfochanged)
+- [EVENT_ORDER_INFO_CHANGED](/api/events/events.EVENT_ORDER_.md#event-order-info-changed)
