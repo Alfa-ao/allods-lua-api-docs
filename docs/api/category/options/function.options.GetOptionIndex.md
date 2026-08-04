@@ -34,6 +34,6 @@ end
 
 ## Смотрите также
 
-- [options.IsOptionEnabled](function.options.IsOptionEnabled)
-- [UI_OPTION_DATA_*](dfgsdfg)
-- [options.GetOptionInfo](function.options.GetOptionInfo)
+- [options.IsOptionEnabled](/api/category/options/function.options.IsOptionEnabled.md)
+- [UI_OPTION_DATA_*](index.md)
+- [options.GetOptionInfo](/api/category/options/function.options.GetOptionInfo.md)
