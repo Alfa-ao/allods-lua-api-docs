@@ -36,4 +36,4 @@ local remainingMs = object.IsValidBuff( data.buffId ) and object.GetBuffDynamicI
 
 ## Смотрите также
 
-- [object.GetBuffDynamicInfo](function.object.GetBuffDynamicInfo)
+- [object.GetBuffDynamicInfo](/api/category/object/function.object.GetBuffDynamicInfo.md)
