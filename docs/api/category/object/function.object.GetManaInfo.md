@@ -46,6 +46,6 @@ end
 
 ## Смотрите также
 
-- [MANA_TYPE_NONE](dsfsd)
-- [EVENT_OBJECT_MANA_CHANGED](../events#event-object-mana-changed)
-- [object.GetHealthInfo](function.object.GetHealthInfo)
+- [MANA_TYPE_NONE](/api/constants/constants.MANA.md)
+- [EVENT_OBJECT_MANA_CHANGED](/api/events/events.EVENT_OBJECT_.md#event-object-mana-changed)
+- [object.GetHealthInfo](/api/category/object/function.object.GetHealthInfo.md)
