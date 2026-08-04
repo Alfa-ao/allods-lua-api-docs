@@ -8,7 +8,7 @@
 order.RequestPrestigeAchivements()
 ```
 
-Функция отправляет запрос на получение достижений по престижу. Об изменении можно узнать из события `EventOrderAchievementsChanged`.
+Функция отправляет запрос на получение достижений по престижу. Об изменении можно узнать из события `EVENT_ORDER_ACHIEVEMENTS_CHANGED`.
 
 ## Список параметров
 
@@ -20,5 +20,5 @@ order.RequestPrestigeAchivements()
 
 ## Смотрите также
 
-- [order.GetPrestigeSections](function.order.GetPrestigeSections)
-- [EventOrderAchievementsChanged](events.order#event-order-achievements-changed)
+- [order.GetPrestigeSections](/api/category/order/function.order.GetPrestigeSections.md)
+- [EVENT_ORDER_ACHIEVEMENTS_CHANGED](/api/events/events.EVENT_ORDER_.md#event-order-achievements-changed)
