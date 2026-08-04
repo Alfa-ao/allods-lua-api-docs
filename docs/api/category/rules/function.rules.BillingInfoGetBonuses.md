@@ -33,4 +33,4 @@ end
 
 ## Смотрите также
 
-- [rules.BillingInfoGetBonusInfo](function.rules.BillingInfoGetBonusInfo)
+- [rules.BillingInfoGetBonusInfo](/api/category/rules/function.rules.BillingInfoGetBonusInfo.md)
