@@ -126,5 +126,5 @@ end
 
 ## Смотрите также
 
-- [ENUM_Month_*](#enum-month)
-- [ENUM_DayOfWeek_*](#enum-dayofweek)
+- [ENUM_Month_*](/api/enums/enums.ENUM_Month.md)
+- [ENUM_DayOfWeek_*](/api/enums/enums.ENUM_DayOfWeek.md)
