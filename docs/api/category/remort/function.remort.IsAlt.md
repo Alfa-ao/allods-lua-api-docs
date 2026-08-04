@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [remort.GetMainName](function.remort.GetMainName)
+- [remort.GetMainName](/api/category/remort/function.remort.GetMainName.md)
