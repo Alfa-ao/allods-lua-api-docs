@@ -37,4 +37,4 @@ end
 
 ## Смотрите также
 
-- [object.GetDetectors](function.object.GetDetectors)
+- [object.GetDetectors](/api/category/object/function.object.GetDetectors.md)
