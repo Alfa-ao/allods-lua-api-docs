@@ -28,4 +28,4 @@ raid.AddRight( playerId, right )
 
 ## Смотрите также
 
-- [RAID_MEMBER_RIGHT_*](../constants#raid-member-right)
+- [RAID_MEMBER_RIGHT_*](/api/constants/constants.RAID_MEMBER_RIGHT.md)
