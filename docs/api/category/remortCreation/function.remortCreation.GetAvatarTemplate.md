@@ -78,4 +78,4 @@ end
 
 ## Смотрите также
 
-- [remortCreation.RequestAllVariations](function.remortCreation.RequestAllVariations)
+- [remortCreation.RequestAllVariations](/api/category/remortCreation/function.remortCreation.RequestAllVariations.md)
