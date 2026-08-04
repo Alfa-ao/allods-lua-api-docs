@@ -34,4 +34,4 @@ local allPoints = proceduralDungeonLib.GetPoints()
 
 ## Смотрите также
 
-- [GamePosition](GamePosition)
+- [GamePosition](/api/types/GamePosition.md)
