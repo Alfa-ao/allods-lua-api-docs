@@ -28,4 +28,4 @@ local rigths = guild.GetRights( memberName )
 
 ## Смотрите также
 
-- [GUILD_MEMBER_RIGHT_...](#)
+- [GUILD_MEMBER_RIGHT_...](/api/constants/constants.GUILD_MEMBER_RIGHT.md)
