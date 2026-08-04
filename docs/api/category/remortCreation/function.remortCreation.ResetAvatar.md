@@ -84,6 +84,6 @@ end
 
 ## Смотрите также
 
-- [remort.CanGetRemortsList](function.remort.CanGetRemortsList)
-- [remort.GetRemortsList](function.remort.GetRemortsList)
-- [remortCreation.CreateAvatar](function.remortCreation.CreateAvatar)
+- [remort.CanGetRemortsList](/api/category/remort/function.remort.CanGetRemortsList.md)
+- [remort.GetRemortsList](/api/category/remort/function.remort.GetRemortsList.md)
+- [remortCreation.CreateAvatar](/api/category/remortCreation/function.remortCreation.CreateAvatar.md)
