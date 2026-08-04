@@ -35,12 +35,3 @@ wtLoadingScreenTipText:SetVal(
     )
 )
 ```
-
-::: info Описание примера
-В примере извлекается случайный текст из группы загрузочных подсказок и устанавливается в качестве значения для текстового элемента.
-:::
-
-## Смотрите также
-
-- [LOADING_TIPS:GetText](LOADING_TIPS:GetText)
-- [wtLoadingScreenTipText:SetVal](wtLoadingScreenTipText:SetVal)
