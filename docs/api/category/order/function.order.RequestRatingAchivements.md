@@ -7,7 +7,7 @@
 order.RequestRatingAchivements()
 ```
 
-Функция отправляет запрос на получение достижений по рейтингу. Об изменении можно узнать из события `EventOrderAchievementsChanged`.
+Функция отправляет запрос на получение достижений по рейтингу. Об изменении можно узнать из события `EVENT_ORDER_ACHIEVEMENTS_CHANGED`.
 
 ## Список параметров
 
@@ -19,4 +19,4 @@ order.RequestRatingAchivements()
 
 ## Смотрите также
 
-- [EventOrderAchievementsChanged](events.order#eventorderachievementschanged)
+- [EVENT_ORDER_ACHIEVEMENTS_CHANGED](/api/events/events.EVENT_ORDER_.md#event-order-achievements-changed)
