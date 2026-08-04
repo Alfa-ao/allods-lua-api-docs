@@ -51,4 +51,4 @@ end
 
 ## Смотрите также
 
-- [avatar.EnableClientDetector](../avatar/function.avatar.EnableClientDetector)
+- [avatar.EnableClientDetector](/api/category/avatar/function.avatar.EnableClientDetector.md)
