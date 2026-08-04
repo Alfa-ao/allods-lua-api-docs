@@ -42,6 +42,5 @@ end
 
 ## Смотрите также
 
-- [avatar.GetClassId](function.avatar.GetClassId)
-- [avatar.GetAbilityInfo](function.avatar.GetAbilityInfo)
-- [avatar.GetSpellInfo](function.avatar.GetSpellInfo)
+- [avatar.GetClassId](/api/category/avatar/function.avatar.GetClassId.md)
+- [avatar.GetAbilityInfo](/api/category/avatar/function.avatar.GetAbilityInfo.md)
