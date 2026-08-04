@@ -62,5 +62,5 @@ end
 
 ## Смотрите также
 
-- [order.RequestPrestigeAchivements](function.order.RequestPrestigeAchivements)
-- [order.RequestRatingAchivements](function.order.RequestRatingAchivements)
+- [order.RequestPrestigeAchivements](/api/category/order/function.order.RequestPrestigeAchivements.md)
+- [order.RequestRatingAchivements](/api/category/order/function.order.RequestRatingAchivements.md)
