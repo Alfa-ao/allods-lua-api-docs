@@ -129,5 +129,5 @@ end
 
 ## Смотрите также
 
-- [object.IsValidBuff](function.object.IsValidBuff)
-- [common.GetAbsTimeMs](../common/function.common.GetAbsTimeMs)
+- [object.IsValidBuff](/api/category/object/function.object.IsValidBuff.md)
+- [common.GetAbsTimeMs](/api/category/common/function.common.GetAbsTimeMs.md)
