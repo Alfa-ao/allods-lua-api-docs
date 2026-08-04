@@ -33,5 +33,5 @@ local spellHasBuffManager = object.HasBuffManager( avatar.GetSpellbook()[1] )
 
 ## Смотрите также
 
-- [avatar.GetId](../avatar/function.avatar.GetId)
-- [avatar.GetSpellbook](../avatar/function.avatar.GetSpellbook)
+- [avatar.GetId](/api/category/avatar/function.avatar.GetId.md)
+- [avatar.GetSpellbook](/api/category/avatar/function.avatar.GetSpellBook.md)
