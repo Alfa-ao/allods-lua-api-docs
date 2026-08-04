@@ -99,7 +99,6 @@ end
 
 ## Смотрите также
 
-- [avatar.GetInteractorInfo](../avatar/function.avatar.GetInteractorInfo)
-- [object.GetInteractorQuests](function.object.GetInteractorQuests)
-- [VENDOR_*](../constants#vendor)
-- [INTERACTION_*](../constants#interaction)
+- [avatar.GetInteractorInfo](/api/category/avatar/function.avatar.GetInteractorInfo.md)
+- [object.GetInteractorQuests](/api/category/object/function.object.GetInteractorQuests.md)
+- [VENDOR_*](/api/constants/constants.VENDOR.md)
