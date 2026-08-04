@@ -59,9 +59,9 @@ end
 
 ## Смотрите также
 
-- [EVENT_CLIENT_MESSAGE](../events#event-client-message)
-- [questionLib.GetQuestions](function.questionLib.GetQuestions)
-- [questionLib.SendData](function.questionLib.SendData)
-- [EVENT_QUESTION_ADDED](../events#event-question-added)
-- [EVENT_QUESTION_REMOVED](../events#event-question-removed)
-- [ENUM_Question_ShowResultsType](../enums#enum-question-showresultstype)
+- [EVENT_CLIENT_MESSAGE](/api/events/events.EVENT_CLIENT_.md#event-client-message)
+- [questionLib.GetQuestions](/api/category/questionLib/function.questionLib.GetQuestions.md)
+- [questionLib.SendData](/api/category/questionLib/function.questionLib.SendData.md)
+- [EVENT_QUESTION_ADDED](/api/events/events.EVENT_QUESTION_.md#event-question-added)
+- [EVENT_QUESTION_REMOVED](/api/events/events.EVENT_QUESTION_.md#event-question-removed)
+- [ENUM_Question_ShowResultsType](/api/enums/enums.ENUM_Question_ShowResultsType.md)
