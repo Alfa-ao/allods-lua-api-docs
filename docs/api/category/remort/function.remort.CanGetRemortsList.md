@@ -38,4 +38,4 @@ end
 
 ## Смотрите также
 
-- [remort.GetRemortsList](function.remort.GetRemortsList)
+- [remort.GetRemortsList](/api/category/remort/function.remort.GetRemortsList.md)
