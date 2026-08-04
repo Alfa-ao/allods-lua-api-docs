@@ -36,5 +36,5 @@ options.SetOptionIndex( id, index, false )
 
 ## Смотрите также
 
-- [options.SetOptionEnabled](function.options.SetOptionEnabled)
-- [UI_OPTION_DATA_*](dsgdsf)
+- [options.SetOptionEnabled](/api/category/options/function.options.SetOptionEnabled.md)
+- [UI_OPTION_DATA_*](index.md)
