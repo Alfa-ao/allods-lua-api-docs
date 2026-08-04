@@ -28,4 +28,4 @@ rules.WishmasterRollMultiplying( eventParams.resourceId )
 
 ## Смотрите также
 
-- [WishmasterResourceId](WishmasterResourceId)
+- [WishmasterResourceId](/api/types/WishmasterResourceId.md)
