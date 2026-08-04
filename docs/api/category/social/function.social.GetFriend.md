@@ -35,6 +35,6 @@ end
 
 ## Смотрите также
 
-- [social.GetFriendInfo](function.social.GetFriendInfo)
-- [object.GetName](../object/function.object.GetName)
-- [avatar.GetTarget](../avatar/function.avatar.GetTarget)
+- [social.GetFriendInfo](/api/category/social/function.social.GetFriendInfo.md)
+- [object.GetName](/api/category/object/function.object.GetName.md)
+- [avatar.GetTarget](/api/category/avatar/function.avatar.GetTarget.md)
