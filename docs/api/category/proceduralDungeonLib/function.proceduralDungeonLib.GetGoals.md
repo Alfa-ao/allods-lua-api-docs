@@ -28,4 +28,4 @@ local goalList = proceduralDungeonLib.GetGoals()
 
 ## Смотрите также
 
-- [proceduralDungeonLib.GetGoalInfo](function.proceduralDungeonLib.GetGoalInfo)
+- [proceduralDungeonLib.GetGoalInfo](/api/category/proceduralDungeonLib/function.proceduralDungeonLib.GetGoalInfo.md)
