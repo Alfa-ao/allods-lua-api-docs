@@ -70,7 +70,6 @@ end
 
 ## Смотрите также
 
-- [avatar.GetSpellBook](../avatar/function.avatar.GetSpellBook)
-- [SPELL_TYPE_*](sdfgsdg)
-- [ENUM_SubElement_*](dfhgfdh)
-- [SPELLBOOK_PAGE_*](dtrhrrdth)
+- [avatar.GetSpellBook](/api/category/avatar/function.avatar.GetSpellBook.md)
+- [ENUM_SubElement_*](/api/enums/enums.ENUM_SubElement.md)
+- [SPELLBOOK_PAGE_*](/api/constants/constants.SPELLBOOK_PAGE.md)
