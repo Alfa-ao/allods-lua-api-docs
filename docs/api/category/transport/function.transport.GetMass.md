@@ -32,5 +32,5 @@ local mass = transport.GetMass( unit.GetTransport( avatar.GetId() ) )
 
 ## Смотрите также
 
-- [unit.GetTransport](../unit/function.unit.GetTransport)
-- [avatar.GetId](../avatar/function.avatar.GetId)
+- [unit.GetTransport](/api/category/unit/function.unit.GetTransport.md)
+- [avatar.GetId](/api/category/avatar/function.avatar.GetId.md)
