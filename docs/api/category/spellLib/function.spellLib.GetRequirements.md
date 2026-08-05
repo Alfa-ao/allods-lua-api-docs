@@ -55,4 +55,4 @@ end
 
 ## Смотрите также
 
-- [RequirementsTable](RequirementsTable)
+- [RequirementsTable](/api/types/RequirementsTable.md)
