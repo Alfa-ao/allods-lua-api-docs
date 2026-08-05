@@ -31,4 +31,4 @@ local valuedObject = spellLib.GetValuedObject( spellId )
 
 ## Смотрите также
 
-- [VAL_OBJ_TYPE_SPELL](../constants#val_obj_type_spell)
+- [VAL_OBJ_TYPE_SPELL](/api/constants/constants.VAL_OBJ_TYPE_.md)
