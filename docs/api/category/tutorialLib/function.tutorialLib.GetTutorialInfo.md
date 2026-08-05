@@ -47,5 +47,5 @@ local testTutorialInfo = tutorialLib.GetTutorialInfo( tutorialLib.GetTutorialByS
 
 ## Смотрите также
 
-- [Enum_TutorialViewType](../constants#enum-tutorialviewtype)
-- [Enum_TutorialRunType](../constants#enum-tutorialruntype)
+- [Enum_TutorialViewType](/api/enums/enums.ENUM_TutorialViewType.md)
+- [Enum_TutorialRunType](/api/enums/enums.ENUM_TutorialRunType.md)
