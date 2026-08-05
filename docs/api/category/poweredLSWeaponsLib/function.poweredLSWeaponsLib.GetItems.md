@@ -39,4 +39,4 @@ local itemInfo = itemLib.GetItemInfo( items[ 1 ].item )
 
 ## Смотрите также
 
-- [itemLib.GetItemInfo](../itemLib/function.itemLib.GetItemInfo)
+- [itemLib.GetItemInfo](/api/category/itemLib/function.itemLib.GetItemInfo.md)
