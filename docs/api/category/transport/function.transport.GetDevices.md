@@ -26,7 +26,7 @@ transport.GetDevices( transportId: ObjectId ): table
 local transportId = unit.GetTransport( avatar.GetId() )
 if transportId then
     for _, deviceId in ipairs( transport.GetDevices( transportId ) ) do
-        local name = device.GetName( deviceId )
+        local name = object.GetName( deviceId )
     end
 end
 ```
@@ -37,6 +37,6 @@ end
 
 ## Смотрите также
 
-- [unit.GetTransport](../unit/function.unit.GetTransport)
-- [avatar.GetId](../avatar/function.avatar.GetId)
-- [device.GetName](../device/function.device.GetName)
+- [unit.GetTransport](/api/category/unit/function.unit.GetTransport.md)
+- [avatar.GetId](/api/category/avatar/function.avatar.GetId.md)
+- [object.GetName](/api/category/object/function.object.GetName.md)
