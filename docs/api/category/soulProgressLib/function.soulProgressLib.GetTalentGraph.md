@@ -50,5 +50,5 @@ local talentGraph = soulProgressLib.GetTalentGraph()
 
 ## Смотрите также
 
-- [SocketId](SocketId)
-- [ITEM_QUALITY_*](ITEM_QUALITY_*)
+- [SocketId](/api/types/SocketId.md)
+- [ITEM_QUALITY_*](/api/constants/constants.ITEM_QUALITY.md)
