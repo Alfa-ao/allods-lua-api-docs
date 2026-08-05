@@ -40,4 +40,4 @@ local premiumInfo = premiumLib.GetInfo()
 
 ## Смотрите также
 
-- [EVENT_PREMIUM_CHANGED](../events#event-premium-changed)
+- [EVENT_PREMIUM_CHANGED](/api/events/events.EVENT_PREMIUM_.md#event-premium-changed)
