@@ -25,4 +25,4 @@ tutorialLib.SearchTutorial( inputWidget:GetText() )
 
 ## Смотрите также
 
-- [EVENT_TUTORIAL_SEARCH_RESULT](../events/tutorial#event_tutorial_search_result)
+- [EVENT_TUTORIAL_SEARCH_RESULT](/api/events/events.EVENT_TUTORIAL_.md#event-tutorial-search-result)
