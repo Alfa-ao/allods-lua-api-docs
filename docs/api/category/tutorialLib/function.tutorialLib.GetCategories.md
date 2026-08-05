@@ -26,4 +26,4 @@ local tutorialCategoryInfo = tutorialLib.GetCategoryInfo( tutorialLib.GetCategor
 
 ## Смотрите также
 
-- [tutorialLib.GetCategoryInfo](function.tutorialLib.GetCategoryInfo)
+- [tutorialLib.GetCategoryInfo](/api/category/tutorialLib/function.tutorialLib.GetCategoryInfo.md)
