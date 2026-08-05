@@ -44,4 +44,4 @@ local testTutorialContent = tutorialLib.GetTutorialContent( tutorialLib.GetTutor
 
 ## Смотрите также
 
-- [tutorialLib.GetTutorialBySysName](function.tutorialLib.GetTutorialBySysName)
+- [tutorialLib.GetTutorialBySysName](/api/category/tutorialLib/function.tutorialLib.GetTutorialBySysName.md)
