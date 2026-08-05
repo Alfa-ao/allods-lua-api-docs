@@ -36,5 +36,5 @@ common.LogInfo( info.count )
 
 ## Смотрите также
 
-- [avatar.GetSpellBook](../avatar/function.avatar.GetSpellBook)
-- [itemLib.GetOverallStackCount](../itemLib/function.itemLib.GetOverallStackCount)
+- [avatar.GetSpellBook](/api/category/avatar/function.avatar.GetSpellBook.md)
+- [itemLib.GetOverallStackCount](/api/category/itemLib/function.itemLib.GetOverallStackCount.md)
