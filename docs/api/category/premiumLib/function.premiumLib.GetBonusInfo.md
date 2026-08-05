@@ -29,4 +29,4 @@ local bonusInfo = premiumLib.GetBonusInfo()
 
 ## Смотрите также
 
-- [LuaFullDateTime](#)
+- [LuaFullDateTime](/api/types/LuaFullDateTime.md)
