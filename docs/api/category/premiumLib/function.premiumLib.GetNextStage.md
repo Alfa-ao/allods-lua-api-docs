@@ -28,4 +28,4 @@ local nextPremiumStage = premiumLib.GetNextStage()
 
 ## Смотрите также
 
-- [premiumLib.GetStageInfo](function.premiumLib.GetStageInfo)
+- [premiumLib.GetStageInfo](/api/category/premiumLib/function.premiumLib.GetStageInfo.md)
