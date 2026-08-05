@@ -42,6 +42,6 @@ end
 
 ## Смотрите также
 
-- [SHIP_SIDE_*](../constants#ship-side)
-- [unit.GetTransport](../unit/function.unit.GetTransport)
-- [avatar.GetId](../avatar/function.avatar.GetId)
+- [SHIP_SIDE_*](/api/constants/constants.SHIP_SIDE.md)
+- [unit.GetTransport](/api/category/unit/function.unit.GetTransport.md)
+- [avatar.GetId](/api/category/avatar/function.avatar.GetId.md)
