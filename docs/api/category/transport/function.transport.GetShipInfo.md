@@ -45,4 +45,4 @@ end
 
 ## Смотрите также
 
-- [EVENT_TRANSPORT_SHIP_INFO_CHANGED](zdfgdgdg)
+- [EVENT_TRANSPORT_SHIP_INFO_CHANGED](/api/events/events.EVENT_TRANSPORT_.md#event-transport-ship-info-changed)
