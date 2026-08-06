@@ -23,10 +23,12 @@ loot.SetMinItemQualityForLootScheme( quality: number )
 ### Установка порогового качества
 
 ```lua
-local quality = ITEM_QUALITY_RARE
-loot.SetMinItemQualityForLootScheme( quality )
+if loot.CanSetLootScheme() then
+    loot.SetMinItemQualityForLootScheme( ITEM_QUALITY_RARE )
+end
 ```
 
 ## Смотрите также
 
 - [ITEM_QUALITY_*](/api/constants/constants.ITEM_QUALITY.md)
+- [loot.CanSetLootScheme](/api/category/loot/function.loot.CanSetLootScheme.md)
