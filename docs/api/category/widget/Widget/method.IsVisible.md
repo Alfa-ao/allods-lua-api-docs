@@ -28,5 +28,5 @@ local visible = widget:IsVisible()
 
 ## Смотрите также
 
-- [WidgetSafe:Show](method.Show)
-- [WidgetSafe:IsVisibleEx](method.IsVisibleEx)
+- [WidgetSafe:Show](method.Show.md)
+- [WidgetSafe:IsVisibleEx](method.IsVisibleEx.md)
