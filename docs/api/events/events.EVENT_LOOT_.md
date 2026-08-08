@@ -198,7 +198,7 @@ EVENT_LOOT_DISTRIBUTION_STARTED
 
 ## Смотрите также
 
-- [EVENT_LOOT_TO_DISTRIBUTE](#event-loot-to-distribute)
+- [EVENT_LOOT_TO_DISTRIBUTE](/api/events/events.EVENT_LOOT_.md#event-loot-to-distribute)
 
 ---
 
