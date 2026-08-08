@@ -33,5 +33,5 @@ LogInfo( "Back layer texture info:", backLayerTexture and common.GetTextureInfo(
 
 ## Смотрите также
 
-- [WidgetSafe:HasBackground](method.HasBackground)
-- [common.GetTextureInfo](../../common/function.common.GetTextureInfo)
+- [WidgetSafe:HasBackground](method.HasBackground.md)
+- [common.GetTextureInfo](/api/category/common/function.common.GetTextureInfo.md)
