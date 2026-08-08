@@ -25,5 +25,5 @@ local textContent = wtButton:GetWString()
 
 ## Смотрите также
 
-- [ButtonSafe:GetValuedText](ButtonSafe.GetValuedText)
-- [userMods.FromValuedText](userMods.FromValuedText)
+- [ButtonSafe:GetValuedText](method.GetValuedText.md)
+- [userMods.FromValuedText](/api/category/userMods/function.userMods.FromValuedText)
