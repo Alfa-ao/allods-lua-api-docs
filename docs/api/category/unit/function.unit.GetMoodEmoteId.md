@@ -36,4 +36,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetEmoteInfo](../avatar/function.avatar.GetEmoteInfo)
+- [avatar.GetEmoteInfo](/api/category/avatar/function.avatar.GetEmoteInfo.md)
