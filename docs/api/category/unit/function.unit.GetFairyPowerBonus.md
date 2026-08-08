@@ -32,4 +32,4 @@ local powerBonus = unit.GetFairyPowerBonus( unitId )
 
 ## Смотрите также
 
-- [EVENT_UNIT_FAIRY_CHANGED](../events#event-unit-fairy-changed)
+- [EVENT_UNIT_FAIRY_CHANGED](/api/events/events.EVENT_UNIT_.md#event-unit-fairy-changed)
