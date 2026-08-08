@@ -5,7 +5,7 @@
 ## Описание
 
 ```lua
-userMods.GetCallStack()
+userMods.GetCallStack(): table
 ```
 
 Возвращает lua стектрейс.
