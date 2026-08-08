@@ -23,7 +23,7 @@ WidgetSafe:DNDGetState(): number
 ### Проверка и отмена регистрации виджета
 
 ```lua
-if wtPanel:GetDNDState() ~= DND_STATE_NOT_REGISTERED then
+if wtPanel:DNDGetState() ~= DND_STATE_NOT_REGISTERED then
     wtPanel:DNDUnregister()
 end
 ```
@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [DND_STATE_*](DND_STATE_*)
+- [DND_STATE_*](/api/constants/constants.DND_STATE.md)
