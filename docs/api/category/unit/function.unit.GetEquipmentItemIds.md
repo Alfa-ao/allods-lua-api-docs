@@ -31,5 +31,5 @@ local helmId = arrEquipment[ DRESS_SLOT_HELM ]
 
 ## Смотрите также
 
-- [ITEM_CONT_*](../constants#item-cont)
-- [DRESS_SLOT_*](../constants#dress-slot)
+- [ITEM_CONT_*](/api/constants/constants.ITEM_CONT.md)
+- [DRESS_SLOT_*](/api/constants/constants.DRESS_SLOT.md)
