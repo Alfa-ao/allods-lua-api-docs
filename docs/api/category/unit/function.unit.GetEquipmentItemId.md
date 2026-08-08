@@ -31,5 +31,5 @@ unit.GetEquipmentItemId( unitId, slot, ITEM_CONT_EQUIPMENT )
 
 ## Смотрите также
 
-- [DRESS_SLOT_*](../constants)
-- [ITEM_CONT_*](../constants)
+- [DRESS_SLOT_*](/api/constants/constants.DRESS_SLOT.md)
+- [ITEM_CONT_*](/api/constants/constants.ITEM_CONT.md)
