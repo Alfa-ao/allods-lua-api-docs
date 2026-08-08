@@ -28,4 +28,4 @@ local hasWidgetAnyActiveEffect = wt:HasActiveEffects()
 
 ## Смотрите также
 
-- [ET_*](ссылка_1)
+- [ET_*](/api/constants/constants.ET.md)
