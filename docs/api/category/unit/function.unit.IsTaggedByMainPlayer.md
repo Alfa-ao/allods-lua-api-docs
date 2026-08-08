@@ -33,4 +33,4 @@ local isTaggedByMainPlayer = unit.IsTaggedByMainPlayer( unitId )
 
 ## Смотрите также
 
-- [EVENT_UNIT_TAG_CHANGED](EVENT_UNIT_TAG_CHANGED)
+- [EVENT_UNIT_TAG_CHANGED](/api/events/events.EVENT_UNIT_.md)
