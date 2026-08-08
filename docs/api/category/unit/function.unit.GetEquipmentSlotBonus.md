@@ -39,6 +39,6 @@ end
 
 ## Смотрите также
 
-- [DRESS_SLOT_*](../constants#dress-slot)
-- [ITEM_CONT_*](../constants#item-cont)
-- [itemLib.GetBonus](../itemLib/function.itemLib.GetBonus)
+- [DRESS_SLOT_*](/api/constants/constants.DRESS_SLOT.md)
+- [ITEM_CONT_*](/api/constants/constants.ITEM_CONT.md)
+- [itemLib.GetBonus](/api/category/itemLib/function.itemLib.GetBonus.md)
