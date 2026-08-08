@@ -32,7 +32,7 @@ unit.GetTrioInfo( unitId: ObjectId ): table | nil
 ### Получение информации о трио
 
 ```lua
-if unit.IsPlayer( unitId ) then
+if object.IsPlayer( unitId ) then
     local trio = unit.GetTrioInfo( unitId )
     if trio then
         LogInfo( "trio 2: ", userMods.FromWString( trio.name2 ), ", trio 3: ", userMods.FromWString( trio.name3 ) )
@@ -46,4 +46,4 @@ end
 
 ## Смотрите также
 
-- [unit.IsPlayer](function.unit.IsPlayer)
+- [object.IsPlayer](/api/category/object/function.object.IsPlayer.md)
