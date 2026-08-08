@@ -50,5 +50,5 @@ wtDynamic:DestroyWidget()
 
 ## Смотрите также
 
-- [RemoveItems](../ScrollableContainer/method.RemoveItems)
-- [RemoveAllWidget3D](../Control3D/method.RemoveAllWidget3D)
+- [ScrollableContainerSafe:RemoveItems](/api/category/widget/ScrollableContainer/method.RemoveItems.md)
+- [Control3DSafe:RemoveAllWidget3D](/api/category/widget/Control3D/method.RemoveAllWidget3D.md)
