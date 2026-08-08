@@ -28,4 +28,4 @@ LogInfo( wtTextView:GetTextStyle() )
 
 ## Смотрите также
 
-- [WidgetTextStyle](WidgetTextStyle)
+- [WidgetTextStyle](/articles/WidgetTextStyle.md)
