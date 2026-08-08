@@ -28,4 +28,4 @@ local will = unit.GetWill( unitId )
 
 ## Смотрите также
 
-- [EVENT_UNIT_WILL_CHANGED](ewafwef)
+- [EVENT_UNIT_WILL_CHANGED](/api/events/events.EVENT_UNIT_.md#event-unit-will-changed)
