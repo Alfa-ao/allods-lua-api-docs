@@ -1,0 +1,5 @@
+Типы маны:
+
+MANA_TYPE_MANA ( 0 )
+MANA_TYPE_ENERGY ( 1 )
+MANA_TYPE_NONE ( 2 )
