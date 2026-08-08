@@ -45,6 +45,6 @@ wtTestButton:PlayResizeEffect( nil, { sizeX = 0 }, 2000, EA_MONOTONOUS_INCREASE 
 
 ## Смотрите также
 
-- [EVENT_EFFECT_FINISHED](dgfhdfghdfh)
-- [EA_MONOTONOUS_INCREASE](fdghfdghfd)
-- [ET_RESIZE](dfhgfdgh)
+- [EVENT_EFFECT_FINISHED](/api/events/events.EVENT_EFFECT_.md#event-effect-finished)
+- [EA_MONOTONOUS_INCREASE](/api/constants/constants.EA.md)
+- [ET_RESIZE](/api/constants/constants.ET.md)
