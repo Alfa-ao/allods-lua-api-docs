@@ -35,4 +35,4 @@ wtScrollableContainer:SetContainerOffset( offset )
 
 ## Смотрите также
 
-- [ScrollableContainerSafe:GetContainerOffset](#)
+- [ScrollableContainerSafe:GetContainerOffset](method.GetContainerOffset.md)
