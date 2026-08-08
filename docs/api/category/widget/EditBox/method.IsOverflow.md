@@ -32,4 +32,4 @@ end
 
 ## Смотрите также
 
-- [EditBoxSafe:ShowScrollbar](function.EditBoxSafe.ShowScrollbar)
+- [EditBoxSafe:ShowScrollbar](method.ShowScrollbar.md)
