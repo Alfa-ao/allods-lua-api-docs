@@ -42,8 +42,8 @@ end
 
 ## Смотрите также
 
-- [DUMMY_TYPE](sdfgsdfg)
-- [ITEM_CONT](sfgsdfg)
-- [unit.GetRitualActivePreset](function.unit.GetRitualActivePreset)
-- [unit.GetEquipmentItemIds](function.unit.GetEquipmentItemIds)
-- [avatar.GetInspectInfo](../avatar/function.avatar.GetInspectInfo)
+- [DUMMY_TYPE_*](/api/constants/constants.DUMMY_TYPE.md)
+- [ITEM_CONT_*](/api/constants/constants.ITEM_CONT.md)
+- [unit.GetRitualActivePreset](/api/category/unit/function.unit.GetRitualActivePreset.md)
+- [unit.GetEquipmentItemIds](/api/category/unit/function.unit.GetEquipmentItemIds.md)
+- [avatar.GetInspectInfo](/api/category/avatar/function.avatar.GetInspectInfo.md)
