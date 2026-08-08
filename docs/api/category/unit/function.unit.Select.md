@@ -39,4 +39,4 @@ unit.Select( unitId, false, nil, nil, nil )
 
 ## Смотрите также
 
-- [Color](ссылка_1)
+- [Color](/api/types/LuaApi.md)
