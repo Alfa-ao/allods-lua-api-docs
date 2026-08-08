@@ -35,7 +35,3 @@ if wtElement:GetAddonType() == ENUM_ADDON_TYPE_USER then
     LogInfo( "Это виджет пользовательского аддона" )
 end
 ```
-
-## Смотрите также
-
-- [ENUM_ADDON_TYPE_*](dsfgsgdsg)
