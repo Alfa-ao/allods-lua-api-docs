@@ -26,4 +26,4 @@ local overtipCustomViewOption = unit.GetOvertipCustomView( unitId )
 
 ## Смотрите также
 
-- [ENUM_MobWorld_OvertipCustomView](../constants#enum-mobworld-overtipcustomview)
+- [ENUM_MobWorld_OvertipCustomView](/api/enums/enums.ENUM_MobWorld_OvertipCustomView.md)
