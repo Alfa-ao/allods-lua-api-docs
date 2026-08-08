@@ -5,7 +5,7 @@
 ## Описание
 
 ```lua
-userMods.FromValuedText( valuedText, oneLine )
+userMods.FromValuedText( valuedText: ValuedText, oneLine: boolean|nil ): string
 ```
 
 Возвращает переданный `ValuedText` в виде строки - развернутого HTML-представления этого текста.
@@ -16,11 +16,9 @@ userMods.FromValuedText( valuedText, oneLine )
 
 ## Список параметров
 
-- **`valuedText`** (`ValuedText`)  
-Переданный объект `ValuedText`.
+- **`valuedText`** (`ValuedText`) - Переданный объект `ValuedText`.
 
-- **`oneLine`** (`boolean` | `nil`)  
-Флаг форматирования вывода. Если `true` или `nil`, то вывод будет в одну строку. Если `false`, то вывод будет в виде форматированного HTML с отступами и переносами строк.
+- **`oneLine`** (`boolean` | `nil`) - Флаг форматирования вывода. Если `true` или `nil`, то вывод будет в одну строку. Если `false`, то вывод будет в виде форматированного HTML с отступами и переносами строк.
 
 ## Возвращаемые значения
 
