@@ -45,6 +45,6 @@ end
 
 ## Смотрите также
 
-- [DRESS_SLOT_*](../constants#dress-slot)
-- [ITEM_QUALITY_*](../constants#item-quality)
-- [EVENT_AVATAR_UNLOCKS_CHANGED](../events#event-avatar-unlocks-changed)
+- [DRESS_SLOT_*](/api/constants/constants.DRESS_SLOT.md)
+- [ITEM_QUALITY_*](/api/constants/constants.ITEM_QUALITY.md)
+- [EVENT_AVATAR_UNLOCKS_CHANGED](/api/events/events.EVENT_AVATAR_.md#event-avatar-unlocks-changed)
