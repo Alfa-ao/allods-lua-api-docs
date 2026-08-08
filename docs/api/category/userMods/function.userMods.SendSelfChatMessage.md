@@ -5,7 +5,7 @@
 ## Описание
 
 ```lua
-userMods.SendSelfChatMessage( message, messageLevel )
+userMods.SendSelfChatMessage( message: WString, messageLevel: string|nil )
 ```
 
 Выводит сообщение в чат в каналы группы Системные -> Дополнения. Сообщение не пересылается другим игрокам.
@@ -16,11 +16,9 @@ userMods.SendSelfChatMessage( message, messageLevel )
 
 ## Список параметров
 
-- **`message`** (`WString`)  
-Текст сообщения.
+- **`message`** (`WString`) - Текст сообщения.
 
-- **`messageLevel`** (`string` | `nil`)  
-Имя канала, в который будет выведено сообщение. По умолчанию `"message"`.
+- **`messageLevel`** (`string` | `nil`) - Имя канала, в который будет выведено сообщение. По умолчанию `"message"`.
 
 ## Возвращаемые значения
 
