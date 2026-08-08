@@ -28,4 +28,4 @@ wtDiscreteSlider:SetPos( wtDiscreteSlider:GetStepsCount() )
 
 ## Смотрите также
 
-- [DiscreteSliderSafe:GetStepsCount](dgfhdfh)
+- [DiscreteSliderSafe:GetStepsCount](method.GetStepsCount.md)
