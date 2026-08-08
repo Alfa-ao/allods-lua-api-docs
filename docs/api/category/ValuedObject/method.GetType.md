@@ -28,5 +28,4 @@ local type = itemValObj:GetType()
 
 ## Смотрите также
 
-- [ValuedObject](ValuedObject)
-- [VAL_OBJ_TYPE_*](VAL_OBJ_TYPE_*)
+- [VAL_OBJ_TYPE_*](/api/constants/constants.VAL_OBJ_TYPE_.md)
