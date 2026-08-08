@@ -51,6 +51,5 @@ wtTooltip:SetPlacementPlain( place )
 
 ## Смотрите также
 
-- [WIDGET_ALIGN_LOW_ABS](constants#widget-align-low-abs)
-- [WidgetSafe:GetPlacementPlain](method.GetPlacementPlain)
-- [WidgetSafe:SetPlacementPlain](method.SetPlacementPlain)
+- [WidgetSafe:GetPlacementPlain](method.GetPlacementPlain.md)
+- [WidgetSafe:SetPlacementPlain](method.SetPlacementPlain.md)
