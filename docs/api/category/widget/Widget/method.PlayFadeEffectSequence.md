@@ -75,5 +75,5 @@ wt:PlayFadeEffectSequence( {
 
 ## Смотрите также
 
-- [EA_*](#)
-- [ET_FADE](#)
+- [EA_*](/api/constants/constants.EA.md)
+- [ET_FADE](/api/constants/constants.ET.md)
