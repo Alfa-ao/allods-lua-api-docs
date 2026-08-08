@@ -37,5 +37,5 @@ wtTextView:SetVal( "object", unit.GetPlayerValuedObject( playerName ) )
 
 ## Смотрите также
 
-- [TextViewSafe:GetDefaultTag](method.GetDefaultTag)
-- [unit.GetPlayerValuedObject](../../unit/function.unit.GetPlayerValuedObject)
+- [TextViewSafe:GetDefaultTag](method.GetDefaultTag.md)
+- [unit.GetPlayerValuedObject](/api/category/unit/function.unit.GetPlayerValuedObject.md)
