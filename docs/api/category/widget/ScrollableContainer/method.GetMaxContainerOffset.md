@@ -33,4 +33,4 @@ wtScrollableContainer:SetContainerOffset( maxOffset / 2 )
 
 ## Смотрите также
 
-- [ScrollableContainerSafe:SetContainerOffset](function.ScrollableContainerSafe.SetContainerOffset)
+- [ScrollableContainerSafe:SetContainerOffset](method.SetContainerOffset.md)
