@@ -39,4 +39,4 @@ wtTextContainer:SetContainerOffset( offset )
 
 ## Смотрите также
 
-- [TextContainerSafe:SetContainerOffset](#)
+- [TextContainerSafe:SetContainerOffset](method.SetContainerOffset.md)
