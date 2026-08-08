@@ -35,4 +35,4 @@ end
 
 ## Смотрите также
 
-- [ENUM_CreatureRace_*](../constants#enum-creaturerace)
+- [ENUM_CreatureRace_*](/api/enums/enums.ENUM_CreatureRace.md)
