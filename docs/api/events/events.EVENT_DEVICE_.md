@@ -105,7 +105,7 @@ EVENT_DICE_CRAFT_PREPARED
 
 ## Смотрите также
 
-- [EVENT_DICE_CRAFT_CANCELED](#event-dice-craft-canceled)
+- [EVENT_DICE_CRAFT_CANCELED](/api/events/events.EVENT_DICE_.md#event-dice-craft-canceled)
 
 ---
 
