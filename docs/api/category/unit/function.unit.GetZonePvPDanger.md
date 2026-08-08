@@ -26,4 +26,4 @@ local pvpDanger = unit.GetZonePvPDanger( unitId )
 
 ## Смотрите также
 
-- [ENUM_ZoneDanger_*](#)
+- [ENUM_ZoneDanger_*](/api/enums/enums.ENUM_ZoneDanger.md)
