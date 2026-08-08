@@ -29,4 +29,4 @@ LogInfo( "color (r/g/b/a): ", color.r, "/", color.g, "/", color.b, "/", color.a 
 
 ## Смотрите также
 
-- [Color](sdfgdsfgdsfg)
+- [Color](/api/types/LuaApi.md)
