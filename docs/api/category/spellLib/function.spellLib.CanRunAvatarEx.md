@@ -33,4 +33,4 @@ self:Activate( spellLib.CanRunAvatarEx( spellbook[1] ) )
 
 ## Смотрите также
 
-- [avatar.GetSpellBook](../avatar/function.avatar.GetSpellBook)
+- [avatar.GetSpellBook](/api/category/avatar/function.avatar.GetSpellBook.md)
