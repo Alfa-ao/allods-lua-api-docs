@@ -28,4 +28,4 @@ local isTrainer = unit.IsTrainer( avatar.GetTarget() )
 
 ## Смотрите также
 
-- [avatar.IsInteractorTrainer](../avatar/function.avatar.IsInteractorTrainer)
+- [avatar.IsInteractorTrainer](/api/category/avatar/function.avatar.IsInteractorTrainer.md)
