@@ -37,5 +37,5 @@ end
 
 ## Смотрите также
 
-- [EVENT_PLAYER_TITLE_CHANGED](EVENT_PLAYER_TITLE_CHANGED)
-- [unit.GetPlayerTitles](function.unit.GetPlayerTitles)
+- [EVENT_PLAYER_TITLE_CHANGED](/api/events/events.EVENT_PLAYER_.md)
+- [unit.GetPlayerTitles](/api/category/unit/function.unit.GetPlayerTitles.md)
