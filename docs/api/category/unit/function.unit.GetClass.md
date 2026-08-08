@@ -68,4 +68,4 @@ local class = unit.GetClass( unitId )
 
 ## Смотрите также
 
-- [MANA_TYPE_*](#manatype)
+- [MANA_TYPE_*](/api/constants/constants.MANA.md)
