@@ -28,4 +28,4 @@ wtElement:SetTabOrder( 1 )
 
 ## Смотрите также
 
-- [WidgetSafe:GetTabOrder](method.GetTabOrder)
+- [WidgetSafe:GetTabOrder](method.GetTabOrder.md)
