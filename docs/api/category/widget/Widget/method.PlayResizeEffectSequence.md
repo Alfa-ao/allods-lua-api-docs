@@ -72,5 +72,5 @@ wt:PlayResizeEffectSequence( effectDesc )
 
 ## Смотрите также
 
-- [ET_RESIZE](dsfgdsf)
-- [EA_*](sdfgdsfg)
+- [ET_RESIZE](/api/constants/constants.ET.md)
+- [EA_*](/api/constants/constants.EA.md)
