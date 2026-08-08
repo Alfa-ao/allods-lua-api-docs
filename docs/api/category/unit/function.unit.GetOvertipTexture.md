@@ -8,7 +8,7 @@
 unit.GetOvertipTexture( unitId: ObjectId ): TextureId | nil
 ```
 
-Функция извлекает идентификатор специальной текстуры, ассоциированной с кричей, которую необходимо отображать в овертипе объекта. Подробности об установке текстуры описаны в справке к функции `CreatureSetOvertipAction`.
+Функция извлекает идентификатор специальной текстуры, ассоциированной с кричей, которую необходимо отображать в овертипе объекта.
 
 ## Список параметров
 
@@ -25,7 +25,3 @@ unit.GetOvertipTexture( unitId: ObjectId ): TextureId | nil
 ```lua
 local textureId = unit.GetOvertipTexture( unitId )
 ```
-
-## Смотрите также
-
-- [CreatureSetOvertipAction](CreatureSetOvertipAction)
