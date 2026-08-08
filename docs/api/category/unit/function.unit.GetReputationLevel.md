@@ -28,4 +28,4 @@ local level = unit.GetReputationLevel( mobId )
 
 ## Смотрите также
 
-- [REPUTATION_LEVEL_*](../constants#reputation-level)
+- [REPUTATION_LEVEL_*](/api/constants/constants.REPUTATION_LEVEL.md)
