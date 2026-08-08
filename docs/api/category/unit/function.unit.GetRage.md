@@ -26,4 +26,4 @@ local rage = unit.GetRage( unitId )
 
 ## Смотрите также
 
-- [EVENT_UNIT_RAGE_CHANGED](#event-unit-rage-changed)
+- [EVENT_UNIT_RAGE_CHANGED](/api/events/events.EVENT_UNIT_.md#event-unit-rage-changed)
