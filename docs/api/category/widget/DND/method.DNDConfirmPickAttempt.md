@@ -32,4 +32,4 @@ wtPanel:DNDConfirmPickAttempt()
 
 ## Смотрите также
 
-- [EVENT_DND_PICK_ATTEMPT](EVENT_DND_PICK_ATTEMPT)
+- [EVENT_DND_PICK_ATTEMPT](/api/events/events.EVENT_DND_.md)
