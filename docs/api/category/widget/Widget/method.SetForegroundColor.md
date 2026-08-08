@@ -29,4 +29,4 @@ wtElement:SetForegroundColor( { r = 1.0 } ) -- изменит только кр�
 
 ## Смотрите также
 
-- [Color](color)
+- [Color](/api/types/LuaApi.md)
