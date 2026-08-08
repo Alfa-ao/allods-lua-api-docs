@@ -35,4 +35,4 @@ end
 
 ## Смотрите также
 
-- [EVENT_PLAYER_TITLE_CHANGED](../events#event_player_title_changed)
+- [EVENT_PLAYER_TITLE_CHANGED](/api/events/events.EVENT_PLAYER_.md#event-player-title-changed)
