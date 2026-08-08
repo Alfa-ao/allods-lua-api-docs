@@ -24,7 +24,7 @@ EditLineSafe:GetPosObjectCount(): number
 
 ```lua
 local posObjectCount = wtEditLine:GetPosObjectCount()
-wtEditLine:SetPos( posObjectCount )
+wtEditLine:SetCursorPos( posObjectCount )
 ```
 
 ::: info Описание примера
@@ -33,4 +33,4 @@ wtEditLine:SetPos( posObjectCount )
 
 ## Смотрите также
 
-- [EditLineSafe:SetPos](function.ui.EditLineSafe.SetPos)
+- [wtEditLine:SetCursorPos](method.SetCursorPos.md)
