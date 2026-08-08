@@ -31,6 +31,6 @@ local spellGroups = spellbook[1] and spellLib.GetActionGroups( spellbook[1] )
 
 ## Смотрите также
 
-- [ActionGroupId](asdfasdfad)
-- [avatar.GetActionGroupStatBonus](../avatar/function.avatar.GetActionGroupStatBonus)
-- [avatar.GetSpellBook](../avatar/function.avatar.GetSpellBook)
+- [ActionGroupId](/api/types/ActionGroupId.md)
+- [avatar.GetActionGroupStatBonus](/api/category/avatar/function.avatar.GetActionGroupStatBonus.md)
+- [avatar.GetSpellBook](/api/category/avatar/function.avatar.GetSpellBook.md)
