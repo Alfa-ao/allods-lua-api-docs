@@ -57,7 +57,3 @@ Control3DSafe:AddWidget3D( widget: WidgetSafe, size: table, pos: GamePosition, a
 ```lua
 wtControl3D:AddWidget3D( widget, size, pos, true, false, 100.0, WIDGET_3D_BIND_POINT_HIGH, 0.5, 1.5 )
 ```
-
-## Смотрите также
-
-- [WIDGET_3D_BIND_POINT_*](constants.widget3d#widget-3d-bind-point)
