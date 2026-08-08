@@ -38,4 +38,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetQuestObjectiveInfo](../avatar/function.avatar.GetQuestObjectiveInfo)
+- [avatar.GetQuestObjectiveInfo](/api/category/avatar/function.avatar.GetQuestObjectiveInfo.md)
