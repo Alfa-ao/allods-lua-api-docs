@@ -88,4 +88,4 @@ EVENT_ITEM_SERVER_CMD_FINISHED
 
 - [enchant.EnchantInsert](/api/category/enchant/function.enchant.EnchantInsert.md)
 - [enchant.EnchantExtract](/api/category/enchant/function.enchant.EnchantExtract.md)
-- [EVENT_GAME_ITEM_CHANGED](/api/events/events.EVENT_GAME_.md#event_game_item_changed)
+- [EVENT_GAME_ITEM_CHANGED](/api/events/events.EVENT_GAME_.md#event-game-item-changed)
