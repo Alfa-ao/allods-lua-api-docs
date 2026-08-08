@@ -29,4 +29,4 @@ wtCooldown:Show( true )
 ## Смотрите также
 
 - [WidgetSafe:IsVisible](method.IsVisible.md)
-- [WidgetSafe:IsVisibleEx](method.IsVisibleEx)
+- [WidgetSafe:IsVisibleEx](method.IsVisibleEx.md)
