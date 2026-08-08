@@ -36,5 +36,4 @@ wtTextView:PlayTextScaleEffectSequence( effectDesc )
 
 ## Смотрите также
 
-- [PlayEffectSequence](sdfgsdfg)
-- [ET_TEXT_SCALE](sdfgsdg)
+- [ET_TEXT_SCALE](/api/constants/constants.ET.md)
