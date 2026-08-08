@@ -34,5 +34,5 @@ local class = unit.GetTrainerClass( unitId )
 
 ## Смотрите также
 
-- [unit.GetClass](function.unit.GetClass)
-- [MANA_TYPE_*](dfsdfsad)
+- [unit.GetClass](/api/category/unit/function.unit.GetClass.md)
+- [MANA_TYPE_*](/api/constants/constants.MANA.md)
