@@ -26,5 +26,5 @@ local textContent = wtTextView:GetWString()
 
 ## Смотрите также
 
-- [TextViewSafe:GetValuedText](method.GetValuedText)
-- [userMods.FromValuedText](../../userMods/function.userMods.FromValuedText)
+- [TextViewSafe:GetValuedText](method.GetValuedText.md)
+- [userMods.FromValuedText](/api/category/userMods/function.userMods.FromValuedText.md)
