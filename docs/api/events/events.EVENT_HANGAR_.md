@@ -17,7 +17,7 @@ EVENT_HANGAR_ACTIVE_HULL_CHANGED
 
 ### Смотрите также
 
-- [hangar.GetActiveShipHull]()
+- [hangar.GetActiveShipHull](/api/category/hangar/function.hangar.GetActiveShipHull.md)
 
 ---
 
@@ -37,7 +37,7 @@ EVENT_HANGAR_ACTIVE_SHIP_CHANGED
 
 ### Смотрите также
 
-- [hangar.GetActiveShip]()
+- [hangar.GetActiveShip](/api/category/hangar/function.hangar.GetActiveShip.md)
 
 ---
 
@@ -213,7 +213,7 @@ EVENT_HANGAR_SPELL_CHANGED
 - [hangar.GetSummonShipSpellId](/api/category/hangar/function.hangar.GetSummonShipSpellId.md)
 - [hangar.GetSwitchShipMasterHullSpellId](/api/category/hangar/function.hangar.GetSwitchShipMasterHullSpellId.md)
 - [hangar.GetSwitchShipSkinSpellId](/api/category/hangar/function.hangar.GetSwitchShipSkinSpellId.md)
-- [EVENT_HANGAR_SPELL_EFFECT](#event-hangar-spell-effect)
+- [EVENT_HANGAR_SPELL_EFFECT](/api/events/events.EVENT_HANGAR_.md#event-hangar-spell-effect)
 
 ---
 
@@ -237,5 +237,5 @@ EVENT_HANGAR_SPELL_EFFECT
 - [hangar.GetSummonShipSpellId](/api/category/hangar/function.hangar.GetSummonShipSpellId.md)
 - [hangar.GetSwitchShipMasterHullSpellId](/api/category/hangar/function.hangar.GetSwitchShipMasterHullSpellId.md)
 - [hangar.GetSwitchShipSkinSpellId](/api/category/hangar/function.hangar.GetSwitchShipSkinSpellId.md)
-- [EVENT_SPELLBOOK_ELEMENT_EFFECT](events.EVENT_SPELLBOOK_.md#event-spellbook-element-effect)
-- [EVENT_HANGAR_SPELL_CHANGED](#event-hangar-spell-changed)
+- [EVENT_SPELLBOOK_ELEMENT_EFFECT](/api/events/events.EVENT_SPELLBOOK_.md#event-spellbook-element-effect)
+- [EVENT_HANGAR_SPELL_CHANGED](/api/events/events.EVENT_HANGAR_.md#event-hangar-spell-changed)
