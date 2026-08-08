@@ -34,4 +34,4 @@ end
 
 ## Смотрите также
 
-- [RemoveWidget3D](sdfgdsfg)
+- [Control3DSafe:RemoveWidget3D](method.RemoveWidget3D.md)
