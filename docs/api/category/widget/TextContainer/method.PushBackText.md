@@ -34,4 +34,4 @@ wtTextContainer:PushBackText( common.CreateValuedText( {
 
 ## Смотрите также
 
-- [common.CreateValuedText](../../common/function.common.CreateValuedText)
+- [common.CreateValuedText](/api/category/common/function.common.CreateValuedText.md)
