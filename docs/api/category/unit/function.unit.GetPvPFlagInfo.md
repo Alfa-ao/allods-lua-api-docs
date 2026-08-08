@@ -45,17 +45,17 @@ unit.GetPvPFlagInfo( unitId: ObjectId ): table
 ```lua
 local pvp = unit.GetPvPFlagInfo( unitId )
 if pvp.isOn then
-    if unit.IsPlayer( unitId ) then
+    if object.IsPlayer( unitId ) then
         local serverPvP = pvp.serverFlag
     end
 end
 ```
 
 ::: info Описание примера
-В примере запрашивается информация о PvP-флаге юнита. Если флаг включен, дополнительно проверяется, является ли юнит игроком с помощью `unit.IsPlayer`. Для игроков извлекается значение флага, установленного сервером.
+В примере запрашивается информация о PvP-флаге юнита. Если флаг включен, дополнительно проверяется, является ли юнит игроком с помощью `object.IsPlayer`. Для игроков извлекается значение флага, установленного сервером.
 :::
 
 ## Смотрите также
 
-- [EVENT_UNIT_PVP_FLAG_CHANGED](../events/unit#event-unit-pvp-flag-changed)
-- [unit.IsPlayer](function.unit.IsPlayer)
+- [EVENT_UNIT_PVP_FLAG_CHANGED](/api/events/events.EVENT_UNIT_.md#event-unit-pvp-flag-changed)
+- [object.IsPlayer](/api/category/object/function.object.IsPlayer.md)
