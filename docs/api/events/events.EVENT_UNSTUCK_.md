@@ -23,4 +23,4 @@ EVENT_UNSTUCK_SPELL_CHANGED
 
 ## Смотрите также
 
-- [EVENT_SPELLBOOK_ELEMENT_EFFECT](/api/events/events.EVENT_SPELLBOOK_.md#event_spellbook_element_effect)
+- [EVENT_SPELLBOOK_ELEMENT_EFFECT](/api/events/events.EVENT_SPELLBOOK_.md#event-spellbook-element-effect)
