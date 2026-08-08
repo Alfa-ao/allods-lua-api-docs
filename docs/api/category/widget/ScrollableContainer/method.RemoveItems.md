@@ -29,7 +29,3 @@ ScrollableContainerSafe:RemoveItems()
 ```lua
 wtScrollableContainer:RemoveItems()
 ```
-
-## Смотрите также
-
-- [Owner:AddChild](function.Owner.AddChild)
