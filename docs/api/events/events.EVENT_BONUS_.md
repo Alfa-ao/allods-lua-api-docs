@@ -20,7 +20,7 @@ EVENT_BONUS_POOL_CHANGED
 ### Смотрите также
 
 - [ENUM_DevelopmentTrack_...](/api/enums/enums.ENUM_DevelopmentTrack.md)
-- [EVENT_BONUS_POOLS_CHANGED](events.EVENT_BONUS_.md#event-bonus-pool-changed)
+- [EVENT_BONUS_POOLS_CHANGED](/api/events/events.EVENT_BONUS_.md#event-bonus-pool-changed)
 
 ---
 
@@ -41,4 +41,4 @@ EVENT_BONUS_POOLS_CHANGED
 
 ### Смотрите также
 
-- [EVENT_BONUS_POOLS_CHANGED](events.EVENT_BONUS_.md#event-bonus-pool-changed)
+- [EVENT_BONUS_POOLS_CHANGED](/api/events/events.EVENT_BONUS_.md#event-bonus-pool-changed)
