@@ -5,7 +5,7 @@
 ## Описание
 
 ```lua
-userMods.ToWString( sysText )
+userMods.ToWString( sysText: string ): WString
 ```
 
 Возвращает локализуемую строку по обычной.
@@ -16,8 +16,7 @@ userMods.ToWString( sysText )
 
 ## Список параметров
 
-- **`sysText`** (`string`)  
-Исходная строка.
+- **`sysText`** (`string`) - Исходная строка.
 
 ## Возвращаемые значения
 
@@ -25,7 +24,7 @@ userMods.ToWString( sysText )
 
 ## Примеры
 
-### Пример использования `ToWString`
+### Конвертирование из string в WString
 
 ```lua
 local text = userMods.ToWString( "Debug information" )
