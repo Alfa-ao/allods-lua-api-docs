@@ -23,7 +23,7 @@ unit.GetPetName( unitId: ObjectId ): WString | nil
 ### Получение имени пета моба
 
 ```lua
-if not unit.IsPlayer( unitId ) then
+if not object.IsPlayer( unitId ) then
     local pet = unit.GetPetName( unitId )
     if pet then
         LogInfo( "pet: ", userMods.FromWString( pet ) )
@@ -37,5 +37,5 @@ end
 
 ## Смотрите также
 
-- [unit.IsPlayer](function.unit.IsPlayer)
-- [userMods.FromWString](function.userMods.FromWString)
+- [object.IsPlayer](/api/category/object/function.object.IsPlayer.md)
+- [userMods.FromWString](/api/category/userMods/function.userMods.FromWString.md)
