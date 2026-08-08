@@ -19,7 +19,7 @@ unit.GetPlayerValuedObject( name: WString, shardName: WString, uniqueId: WString
 
 - **`shardName`** (`WString`) - Имя шарда персонажа. Параметр является необязательным. Значение упаковывается в `ValuedObject` и может быть извлечено с помощью `GetShardName`.
 
-- **`uniqueId`** (`WString`) - Уникальный идентификатор персонажа. Параметр является необязательным. Значение аналогично извлекается с помощью `GetId`.
+- **`uniqueId`** (`WString`) - Уникальный идентификатор персонажа. Параметр является необязательным. Значение аналогично извлекается с помощью метода `GetId`.
 
 ## Возвращаемые значения
 
@@ -34,5 +34,4 @@ local valuedObject = unit.GetPlayerValuedObject( playerName, playerShardName )
 
 ## Смотрите также
 
-- [GetShardName](выпывп)
-- [GetId](выпвып)
+- [GetShardName](/api/category/ValuedObject/method.GetShardName.md)
