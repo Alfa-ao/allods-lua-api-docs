@@ -26,4 +26,4 @@ local wtCache = mainForm:GetFactoryCache()
 
 ## Смотрите также
 
-- [FactoryCache](FactoryCache)
+- FactoryCache HELP
