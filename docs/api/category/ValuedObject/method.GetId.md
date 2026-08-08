@@ -36,6 +36,4 @@ end
 
 ## Смотрите также
 
-- [ValuedObject](ValuedObject)
-- [TypeValuedObject](TypeValuedObject)
-- [VAL_OBJ_TYPE_*](VAL_OBJ_TYPE_ITEM)
+- [VAL_OBJ_TYPE_*](/api/constants/constants.VAL_OBJ_TYPE_.md)
