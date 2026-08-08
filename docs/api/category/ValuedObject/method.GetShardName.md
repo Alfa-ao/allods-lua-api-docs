@@ -36,5 +36,4 @@ end
 
 ## Смотрите также
 
-- [ValuedObject](ValuedObject)
-- [VAL_OBJ_TYPE_PLAYER](VAL_OBJ_TYPE_PLAYER)
+- [VAL_OBJ_TYPE_PLAYER](/api/constants/constants.VAL_OBJ_TYPE_.md)
