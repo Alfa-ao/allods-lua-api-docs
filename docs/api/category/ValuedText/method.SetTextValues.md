@@ -74,6 +74,11 @@ local tab2 = {
 }
 
 valuedText:SetTextValues( tab2 )
+
+-- LogInfo( valuedText )
+--     ValuedText: [[<html>aa2 <r name="obj21"><html>cc2 <r name="obj22"><html>ee2 <r name="obj23"></r> ff2 </html></r> dd2 </html></r> bb2 </html>]]
+-- LogInfo( valuedText:ToWString() )
+--     WString: [[aa2 cc2 ee2  ff2  dd2  bb2 ]]
 ```
 
 ::: info Описание примера
@@ -82,6 +87,6 @@ valuedText:SetTextValues( tab2 )
 
 ## Смотрите также
 
-- [valuedText:SetClassVal](method.SetClassVal)
-- [valuedText:SetVal](method.SetVal)
+- [valuedText:SetClassVal](method.SetClassVal.md)
+- [valuedText:SetVal](method.SetVal.md)
 - [common.CreateValuedText](/api/category/common/function.common.CreateValuedText)
