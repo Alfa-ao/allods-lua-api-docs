@@ -41,5 +41,5 @@ wt:PlayRotationEffect( 0, math.pi, 2000 )
 
 ## Смотрите также
 
-- [EVENT_EFFECT_FINISHED](dgfhdfghdfh)
-- [ET_TEXTURE_ROTATION](dfhgfdgh)
+- [EVENT_EFFECT_FINISHED](/api/events/events.EVENT_EFFECT_.md#event-effect-finished)
+- [ET_TEXTURE_ROTATION](/api/constants/constants.ET.md)
