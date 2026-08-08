@@ -72,7 +72,7 @@ EVENT_MATCH_MAKING_EVENT_AVAILABILITY_CHANGED
 
 - [matchMaking.GetEventInfo](/api/category/matchMaking/function.matchMaking.GetEventInfo.md)
 
-- [EVENT_MATCH_MAKING_EVENTS_AVAILABILITY_CHANGED](/api/events/events.EVENT_MATCH_MAKING_.md#event_match_making_events_availability_changed)
+- [EVENT_MATCH_MAKING_EVENTS_AVAILABILITY_CHANGED](/api/events/events.EVENT_MATCH_.md#event-match-making-events-availability-changed)
 
 ---
 
@@ -128,7 +128,7 @@ EVENT_MATCH_MAKING_EVENT_PROGRESS_COMPLETED_CHANGED
 
 ## Смотрите также
 
-- [EVENT_MATCH_MAKING_EVENT_PROGRESS_ADDED](/api/events/events.EVENT_MATCH_MAKING_.md#event_match_making_event_progress_added)
+- [EVENT_MATCH_MAKING_EVENT_PROGRESS_ADDED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-progress-added)
 - [matchMaking.GetEventProgressInfo](/api/category/matchMaking/function.matchMaking.GetEventProgressInfo.md)
 
 ---
@@ -149,7 +149,7 @@ EVENT_MATCH_MAKING_EVENT_PROGRESS_DURATION_CHANGED
 
 ## Смотрите также
 
-- [EVENT_MATCH_MAKING_EVENT_PROGRESS_ADDED](/api/events/events.EVENT_MATCH_MAKING_.md#event_match_making_event_progress_added)
+- [EVENT_MATCH_MAKING_EVENT_PROGRESS_ADDED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-progress-added)
 - [matchMaking.GetEventProgressInfo](/api/category/matchMaking/function.matchMaking.GetEventProgressInfo.md)
 
 ---
@@ -242,7 +242,7 @@ EVENT_MATCH_MAKING_EVENT_QUEUE_ADDED
 
 ## Смотрите также
 
-- [EVENT_MATCH_MAKING_EVENT_QUEUE_REMOVED](/api/events/events.EVENT_MATCH_MAKING_.md#event_match_making_event_queue_removed)
+- [EVENT_MATCH_MAKING_EVENT_QUEUE_REMOVED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-queue-removed)
 
 ---
 
@@ -262,7 +262,7 @@ EVENT_MATCH_MAKING_EVENT_QUEUE_REMOVED
 
 ## Смотрите также
 
-- [EVENT_MATCH_MAKING_EVENT_QUEUE_ADDED](/api/events/events.EVENT_MATCH_MAKING_.md#event_match_making_event_queue_added)
+- [EVENT_MATCH_MAKING_EVENT_QUEUE_ADDED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-queue-added)
 
 ---
 
@@ -282,8 +282,8 @@ EVENT_MATCH_MAKING_EVENT_QUEUES_REMOVED
 
 ## Смотрите также
 
-- [EVENT_MATCH_MAKING_EVENT_QUEUE_ADDED](/api/events/events.EVENT_MATCH_MAKING_.md#event_match_making_event_queue_added)
-- [EVENT_MATCH_MAKING_EVENT_QUEUE_REMOVED](/api/events/events.EVENT_MATCH_MAKING_.md#event_match_making_event_queue_removed)
+- [EVENT_MATCH_MAKING_EVENT_QUEUE_ADDED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-queue-added)
+- [EVENT_MATCH_MAKING_EVENT_QUEUE_REMOVED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-queue-removed)
 
 ---
 
@@ -324,7 +324,7 @@ EVENT_MATCH_MAKING_EVENTS_AVAILABILITY_CHANGED
 ## Смотрите также
 
 - [matchMaking.CanUseMatchMaking](/api/category/matchMaking/function.matchMaking.CanUseMatchMaking.md)
-- [EVENT_MATCH_MAKING_EVENT_AVAILABILITY_CHANGED](/api/events/events.EVENT_MATCH_MAKING_#event_match_making_event_availability_changed)
+- [EVENT_MATCH_MAKING_EVENT_AVAILABILITY_CHANGED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-availability-changed)
 
 ---
 
@@ -362,7 +362,7 @@ EVENT_MATCH_MAKING_EVENT_TELEPORT_REJECTED
 
 ## Смотрите также
 
-- [EVENT_MATCH_MAKING_EVENT_TELEPORT_REQUEST](/api/events/events.EVENT_MATCH_MAKING_.md#event_match_making_event_teleport_request)
+- [EVENT_MATCH_MAKING_EVENT_TELEPORT_REQUEST](/api/events/events.EVENT_MATCH_.md#event-match-making-event-teleport-request)
 
 ---
 
@@ -402,7 +402,7 @@ EVENT_MATCH_MAKING_EVENT_VISITS_CHANGED
 
 ## Смотрите также
 
-- [EVENT_LFG_DESTINATION_CHANGED](/api/events/events.EVENT_LFG_.md#event_lfg_destination_changed)
+- [EVENT_LFG_DESTINATION_CHANGED](/api/events/events.EVENT_LFG_.md#event-lfg-destination-changed)
 
 ---
 
