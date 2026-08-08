@@ -39,5 +39,5 @@ wt:PlayFadeEffect( nil, 0 ) -- плавное появление
 
 ## Смотрите также
 
-- [ET_](ывапывп)
-- [EVENT_EFFECT_FINISHED](ывапывап)
+- [ET_](/api/constants/constants.ET.md)
+- [EVENT_EFFECT_FINISHED](/api/events/events.EVENT_EFFECT_.md#event-effect-finished)
