@@ -107,7 +107,7 @@ EVENT_TRANSPORT_OBSERVING_FINISHED
 Параметры отсутствуют.
 
 ## Смотрите также
-- [EVENT_TRANSPORT_OBSERVING_STARTED]()
+- [EVENT_TRANSPORT_OBSERVING_STARTED](events.EVENT_TRANSPORT_.md#event-transport-observing-started)
 
 ---
 
