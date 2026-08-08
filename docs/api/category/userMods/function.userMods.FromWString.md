@@ -5,7 +5,7 @@
 ## Описание
 
 ```lua
-userMods.FromWString( localizedText )
+userMods.FromWString( localizedText: WString ): string
 ```
 
 Возвращает обычную строку по исходной локализуемой.
@@ -16,8 +16,7 @@ userMods.FromWString( localizedText )
 
 ## Список параметров
 
-- **`localizedText`** (`WString`)  
-Исходный локализуемый текст.
+- **`localizedText`** (`WString`) - Исходный локализуемый текст.
 
 ## Возвращаемые значения
 
