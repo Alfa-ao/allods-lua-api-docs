@@ -25,14 +25,14 @@ unit.GetActivePet( unitId: ObjectId ): ObjectId | nil
 ```lua
 local petId = unit.GetActivePet( unitId )
 if petId then
-    local petName = unit.GetName( petId )
+    local petName = object.GetName( petId )
 end
 ```
 
 ::: info Описание примера
-Выполняется запрос идентификатора активного пета для указанного юнита. Если пет существует (возвращаемое значение не равно `nil`), извлекается его имя с помощью функции `unit.GetName`.
+Выполняется запрос идентификатора активного пета для указанного юнита. Если пет существует (возвращаемое значение не равно `nil`), извлекается его имя с помощью функции `object.GetName`.
 :::
 
 ## Смотрите также
 
-- [unit.GetName](function.unit.GetName)
+- [object.GetName](/api/category/object/function.object.GetName.md)
