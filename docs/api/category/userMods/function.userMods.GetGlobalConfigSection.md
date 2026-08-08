@@ -5,7 +5,7 @@
 ## Описание
 
 ```lua
-userMods.GetGlobalConfigSection( sysName )
+userMods.GetGlobalConfigSection( sysName: string ): table|nil
 ```
 
 Возвращает таблицу с секцией из локального пользовательского конфига или nil, если секция не найдена.
@@ -16,8 +16,7 @@ userMods.GetGlobalConfigSection( sysName )
 
 ## Список параметров
 
-- **`sysName`** (`string`)  
-Название секции.
+- **`sysName`** (`string`) - Название секции.
 
 ## Возвращаемые значения
 
