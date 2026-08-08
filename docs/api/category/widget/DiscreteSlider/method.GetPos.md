@@ -28,4 +28,4 @@ local pos = wtDiscreteSlider:GetPos()
 
 ## Смотрите также
 
-- [DiscreteSliderSafe:GetStepsCount](dgfhdfh)
+- [DiscreteSliderSafe:GetStepsCount](method.GetStepsCount.md)
