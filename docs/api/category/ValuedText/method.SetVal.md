@@ -29,7 +29,3 @@ valuedText:SetVal( "value1", userMods.ToWString( "Some text value" ) )
 valuedText:SetVal( "value2", unit.GetSpellValuedObject( spellId ) )
 valuedText:SetVal( "value3", otherValuedText )
 ```
-
-## Смотрите также
-
-- [unit.GetSpellValuedObject](/api/category/unit/function.unit.GetSpellValuedObject)
