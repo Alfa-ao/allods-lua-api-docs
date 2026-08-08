@@ -28,4 +28,4 @@ local tabOrder = widget:GetTabOrder()
 
 ## Смотрите также
 
-- [WidgetSafe:SetTabOrder](method.SetTabOrder)
+- [WidgetSafe:SetTabOrder](method.SetTabOrder.md)
