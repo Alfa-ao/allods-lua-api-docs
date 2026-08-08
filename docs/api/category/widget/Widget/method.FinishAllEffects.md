@@ -1,6 +1,6 @@
 # WidgetSafe:FinishAllEffects
 
-Прерывает эффекты всех типов [ET_*](ttttttt).
+Прерывает эффекты всех типов [ET_*](/api/constants/constants.ET.md).
 
 ## Описание
 
