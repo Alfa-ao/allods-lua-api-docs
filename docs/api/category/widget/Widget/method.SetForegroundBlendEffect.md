@@ -28,4 +28,4 @@ wtElement:SetForegroundBlendEffect( BLEND_EFFECT_ADD )
 
 ## Смотрите также
 
-- [BLEND_EFFECT_*](BlendEffect)
+- [BLEND_EFFECT_*](/api/constants/constants.BLEND_EFFECT_.md)
