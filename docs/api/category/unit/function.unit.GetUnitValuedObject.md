@@ -33,4 +33,4 @@ local valuedObject = unit.GetUnitValuedObject( targetId )
 
 ## Смотрите также
 
-- [avatar.GetTarget](../avatar/function.avatar.GetTarget)
+- [avatar.GetTarget](/api/category/avatar/function.avatar.GetTarget.md)
