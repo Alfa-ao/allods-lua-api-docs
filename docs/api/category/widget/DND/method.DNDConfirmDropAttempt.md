@@ -32,4 +32,4 @@ wtPanel:DNDConfirmDropAttempt()
 
 ## Смотрите также
 
-- [EVENT_DND_DROP_ATTEMPT](EVENT_DND_DROP_ATTEMPT)
+- [EVENT_DND_DROP_ATTEMPT](/api/events/events.EVENT_DND_.md)
