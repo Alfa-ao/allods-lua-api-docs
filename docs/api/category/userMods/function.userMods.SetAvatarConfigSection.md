@@ -5,7 +5,7 @@
 ## Описание
 
 ```lua
-userMods.SetAvatarConfigSection( sysName, section )
+userMods.SetAvatarConfigSection( sysName: string, section: table|nil )
 ```
 
 Сохраняет/удаляет таблицу с секцией для текущего персонажа игрока в локальном пользовательском конфиге. Секции предназначены исключительно для сохранения настроек пользовательских дополнений.
@@ -16,11 +16,9 @@ userMods.SetAvatarConfigSection( sysName, section )
 
 ## Список параметров
 
-- **`sysName`** (`string`)  
-Название секции.
+- **`sysName`** (`string`) - Название секции.
 
-- **`section`** (`table` | `nil`)  
-Таблица с данными секции. Передача `nil` приводит к удалению секции.
+- **`section`** (`table` | `nil`) - Таблица с данными секции. Передача `nil` приводит к удалению секции.
 
 ## Возвращаемые значения
 
@@ -28,7 +26,7 @@ userMods.SetAvatarConfigSection( sysName, section )
 
 ## Примеры
 
-### Пример использования `SetAvatarConfigSection`
+### Сохранение параметров в конфиг
 
 ```lua
 local section = {}
