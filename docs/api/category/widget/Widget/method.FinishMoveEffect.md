@@ -1,6 +1,6 @@
 # WidgetSafe:FinishMoveEffect
 
-Прерывает эффект типа [ET_MOVE](ttttttt).
+Прерывает эффект типа [ET_MOVE](/api/constants/constants.ET.md).
 
 ## Описание
 
