@@ -31,4 +31,4 @@ common.LogInfo( spellLib.GetDescription( spellId ).name )
 
 ## Смотрите также
 
-- [spellLib.GetDescription](function.spellLib.GetDescription)
+- [spellLib.GetDescription](/api/category/spellLib/function.spellLib.GetDescription.md)
