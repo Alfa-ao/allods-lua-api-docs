@@ -67,5 +67,5 @@ wt:PlayRotationEffectSequence( {
 
 ## Смотрите также
 
-- [ET_TEXTURE_ROTATION](dsfgdsf)
-- [EA_*](sdfgdsfg)
+- [ET_TEXTURE_ROTATION](/api/constants/constants.ET.md)
+- [EA_*](/api/constants/constants.EA.md)
