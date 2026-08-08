@@ -28,4 +28,4 @@ wtDiscreteSlider:SetStepsCount( 4 )
 
 ## Смотрите также
 
-- [wtDiscreteSlider:GetStepsCount](sfdgsdf)
+- [wtDiscreteSlider:GetStepsCount](method.GetStepsCount.md)
