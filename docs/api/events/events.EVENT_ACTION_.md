@@ -301,10 +301,8 @@ EVENT_ACTION_RESULT_SPECIAL_SPELL
 
 ## Смотрите также
 
-- [ENUM_ACTION_](ENUM_ACTION_)
-- [ENUM_CreatureRace](ENUM_CreatureRace)
-- [ENUM_Normal](ENUM_Normal)
-- [ENUM_Crude](ENUM_Crude)
-- [REPUTATION_LEVEL_](REPUTATION_LEVEL_)
-- [EFFECT_TYPE_](EFFECT_TYPE_)
-- [EVENT_GLOBAL_COOLDOWN](EVENT_GLOBAL_COOLDOWN)
+- [ENUM_ACTION_](/api/enums/enums.ENUM_ACTION_RESULT_SPECIAL.md)
+- [ENUM_CreatureRace](/api/enums/enums.ENUM_CreatureRace.md)
+- [REPUTATION_LEVEL_](/api/constants/constants.REPUTATION_LEVEL.md)
+- [EFFECT_TYPE_](/api/constants/constants.EFFECT_TYPE.md)
+- [EVENT_GLOBAL_COOLDOWN](/api/events/events.EVENT_GLOBAL_.md#event-global-cooldown)
