@@ -263,7 +263,7 @@ EVENT_OBJECT_DIMINISHING_GROUP_CHANGED
 ## Смотрите также
 
 - [ENUM_DiminishingGroup](/api/enums/enums.ENUM_DiminishingGroup.md)
-- [EVENT_OBJECT_DIMINISHING_CHANGED](#event-object-diminishing-changed)
+- [EVENT_OBJECT_DIMINISHING_CHANGED](/api/events/events.EVENT_OBJECT_.md#event-object-diminishing-changed)
 
 ---
 
