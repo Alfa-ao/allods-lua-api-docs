@@ -31,4 +31,4 @@ end
 
 ## Смотрите также
 
-- [avatar.GetId](../avatar/function.avatar.GetId)
+- [avatar.GetId](/api/category/avatar/function.avatar.GetId.md)
