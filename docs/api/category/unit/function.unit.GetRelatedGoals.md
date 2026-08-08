@@ -32,5 +32,5 @@ end
 
 ## Смотрите также
 
-- [proceduralDungeonLib.GetGoalInfo](../proceduralDungeonLib/function.proceduralDungeonLib.GetGoalInfo)
-- [unit.GetRelatedQuestObjectives](function.unit.GetRelatedQuestObjectives)
+- [proceduralDungeonLib.GetGoalInfo](/api/category/proceduralDungeonLib/function.proceduralDungeonLib.GetGoalInfo.md)
+- [unit.GetRelatedQuestObjectives](/api/category/unit/function.unit.GetRelatedQuestObjectives.md)
