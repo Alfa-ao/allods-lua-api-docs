@@ -47,6 +47,5 @@ LogInfo( string.format( "Addon [%s] occupy %.2f%% of screen", ADDON_NAME, addonA
 
 ## Смотрите также
 
-- [common.GetPosConverterParams](../../common/function.common.GetPosConverterParams)
-- [GetRealRect](ывапвыапв)
-- [ENUM_AddonType](ывапвыпвыап)
+- [common.GetPosConverterParams](/api/category/common/function.common.GetPosConverterParams.md)
+- [WidgetSafe:GetRealRect](method.GetRealRect.md)
