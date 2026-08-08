@@ -30,4 +30,4 @@ local gearScore = unit.GetGearScore( unitId )
 
 ## Смотрите также
 
-- [avatar.IsInspectAllowed](../avatar/function.avatar.IsInspectAllowed)
+- [avatar.IsInspectAllowed](/api/category/avatar/function.avatar.IsInspectAllowed.md)
