@@ -30,6 +30,6 @@ wtScrollableContainer:Insert( 4, wtButton )
 
 ## Смотрите также
 
-- [ScrollableContainerSafe:PushFront](#)
-- [ScrollableContainerSafe:PushBack](#)
-- [ScrollableContainerSafe:GetElementCount](#)
+- [ScrollableContainerSafe:PushFront](method.PushFront.md)
+- [ScrollableContainerSafe:PushBack](method.PushBack.md)
+- [ScrollableContainerSafe:GetElementCount](method.GetElementCount.md)
