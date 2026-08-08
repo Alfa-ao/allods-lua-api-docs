@@ -28,4 +28,4 @@ widget:SetOnShowNotification( notify )
 
 ## Смотрите также
 
-- [EVENT_WIDGET_SHOW_CHANGED](sfdgsdfgsd)
+- [EVENT_WIDGET_SHOW_CHANGED](/api/events/events.EVENT_WIDGET_.md#event-widget-show-changed)
