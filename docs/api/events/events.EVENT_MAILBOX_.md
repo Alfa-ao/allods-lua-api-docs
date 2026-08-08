@@ -118,4 +118,4 @@ EVENT_MAILBOX_SERVER_OPERATION_RESULT
 
 ## Смотрите также
 
-- [EVENT_MAILBOX_CHANGED_ON_SERVER](#event-mailbox-changed-on-server)
+- [EVENT_MAILBOX_CHANGED_ON_SERVER](/api/events/events.EVENT_MAILBOX_.md#event-mailbox-changed-on-server)
