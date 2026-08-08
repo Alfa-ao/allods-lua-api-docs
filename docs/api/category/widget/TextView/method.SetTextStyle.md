@@ -33,4 +33,4 @@ wtTextView:SetTextStyle{ multiline = true, lineSpacing = 1.5 }
 
 ## Смотрите также
 
-- [WidgetTextStyle](widgettextstyle)
+- [WidgetTextStyle](/articles/WidgetTextStyle.md)
