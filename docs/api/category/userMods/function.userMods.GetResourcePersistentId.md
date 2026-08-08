@@ -5,7 +5,7 @@
 ## Описание
 
 ```lua
-userMods.GetResourcePersistentId( resourceId )
+userMods.GetResourcePersistentId( resourceId: userdata ): string|nil
 ```
 
 Возвращает постоянный уникальный строковый идентификатор произвольного ресурса. Представляет собой строку длинной 32 символа, состоящую из символов шестнадцатеричной системы исчисления, записанных в верхнем регистре.
@@ -21,8 +21,7 @@ userMods.GetResourcePersistentId( resourceId )
 
 ## Список параметров
 
-- **`resourceId`** (`userdata`)  
-Произвольный ресурс.
+- **`resourceId`** (`userdata`) - Произвольный ресурс.
 
 ## Возвращаемые значения
 
