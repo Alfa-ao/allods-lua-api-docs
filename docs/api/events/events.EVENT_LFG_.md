@@ -118,7 +118,7 @@ EVENT_LFG_DESTINATION_VISITS_CHANGED
 ## Смотрите также
 
 - [LfgDestinationId](/api/types/LfgDestinationId.md)
-- [EVENT_MATCH_MAKING_EVENT_VISITS_CHANGED](/api/events/events.EVENT_MATCH_MAKING_.md#event_match_making_event_visits_changed)
+- [EVENT_MATCH_MAKING_EVENT_VISITS_CHANGED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-visits-changed)
 
 ---
 
