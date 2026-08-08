@@ -25,15 +25,15 @@ unit.GetFollowers( unitId: ObjectId ): table | nil
 ```lua
 local followers = unit.GetFollowers( unitId )
 for _, followerId in pairs( followers ) do
-    local followerName = unit.GetName( followerId )
+    local followerName = object.GetName( followerId )
 end
 ```
 
 ::: info Описание примера
-В примере получается список подчинённых юнитов для указанного игрока. Затем в цикле перебираются все полученные идентификаторы, и для каждого извлекается имя юнита с помощью функции `unit.GetName`.
+В примере получается список подчинённых юнитов для указанного игрока. Затем в цикле перебираются все полученные идентификаторы, и для каждого извлекается имя юнита с помощью функции `object.GetName`.
 :::
 
 ## Смотрите также
 
-- [unit.GetName](function.unit.GetName)
-- [EVENT_UNIT_FOLLOWERS_LIST_CHANGED](events#event-unit-followers-list-changed)
+- [object.GetName](/api/category/object/function.object.GetName.md)
+- [EVENT_UNIT_FOLLOWERS_LIST_CHANGED](/api/events/events.EVENT_UNIT_.md#event-unit-followers-list-changed)
