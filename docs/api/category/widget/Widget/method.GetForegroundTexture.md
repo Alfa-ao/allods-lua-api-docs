@@ -28,5 +28,5 @@ LogInfo( "Front layer texture info:", frontLayerTexture and common.GetTextureInf
 
 ## Смотрите также
 
-- [WidgetSafe:HasForeground](method.HasForeground)
-- [common.GetTextureInfo](../../common/function.common.GetTextureInfo)
+- [WidgetSafe:HasForeground](method.HasForeground.md)
+- [common.GetTextureInfo](/api/category/common/function.common.GetTextureInfo.md)
