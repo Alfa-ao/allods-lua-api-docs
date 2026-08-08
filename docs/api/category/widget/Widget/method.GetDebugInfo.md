@@ -38,5 +38,5 @@ LogInfo( wtSample:GetDebugInfo() )
 
 ## Смотрите также
 
-- [Widget:GetId](method.GetId)
-- [Widget:GetAddonName](method.GetAddonName)
+- [Widget:GetId](method.GetId.md)
+- [Widget:GetAddonName](method.GetAddonName.md)
