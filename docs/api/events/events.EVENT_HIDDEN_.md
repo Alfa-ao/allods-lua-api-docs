@@ -18,4 +18,4 @@ EVENT_HIDDEN_CURRENCY_VALUE_CHANGED
 
 ## Смотрите также
 
-- [EVENT_CURRENCY_VALUE_CHANGED](/api/events/events.EVENT_CURRENCY_.md#event_currency_value_changed)
+- [EVENT_CURRENCY_VALUE_CHANGED](/api/events/events.EVENT_CURRENCY_.md#event-currency-value-changed)
