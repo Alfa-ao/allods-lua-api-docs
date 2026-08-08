@@ -45,6 +45,6 @@ wtTestButton:PlayMoveEffect( nil, { posX = 0 }, 2000, EA_MONOTONOUS_INCREASE )
 
 ## Смотрите также
 
-- [EVENT_EFFECT_FINISHED](dgfhdfghdfh)
-- [EA_MONOTONOUS_INCREASE](fdghfdghfd)
-- [ET_FADE](dfhgfdgh)
+- [EVENT_EFFECT_FINISHED](/api/events/events.EVENT_EFFECT_.md#event-effect-finished)
+- [EA_MONOTONOUS_INCREASE](/api/constants/constants.EA.md)
+- [ET_FADE](/api/constants/constants.ET.md)
