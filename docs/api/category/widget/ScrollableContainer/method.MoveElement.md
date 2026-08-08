@@ -43,6 +43,6 @@ wtContainer:Insert( b, wtContainer:RemoveAt( a ) )
 
 ## Смотрите также
 
-- [ScrollableContainerSafe:GetElementCount](#)
-- [ScrollableContainerSafe:Insert](#)
-- [ScrollableContainerSafe:RemoveAt](#)
+- [ScrollableContainerSafe:GetElementCount](method.GetElementCount.md)
+- [ScrollableContainerSafe:Insert](method.Insert.md)
+- [ScrollableContainerSafe:RemoveAt](method.RemoveAt.md)
