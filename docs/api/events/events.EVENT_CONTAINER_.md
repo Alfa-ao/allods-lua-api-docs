@@ -34,7 +34,7 @@ outline: deep
 
 ### Смотрите также
 
-- [EVENT_AVATAR_ITEM_TAKEN](events.EVENT_AVATAR_.md#event-avatar-item-taken)
+- [EVENT_AVATAR_ITEM_TAKEN](/api/events/events.EVENT_AVATAR_.md#event-avatar-item-taken)
 
 ---
 
