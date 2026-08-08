@@ -47,4 +47,4 @@ common.LogInfo( spellLib.GetAESectorProps( spellbook[1] ) )
 
 ## Смотрите также
 
-- [avatar.GetSpellBook](../avatar/function.avatar.GetSpellBook)
+- [avatar.GetSpellBook](/api/category/avatar/function.avatar.GetSpellBook.md)
