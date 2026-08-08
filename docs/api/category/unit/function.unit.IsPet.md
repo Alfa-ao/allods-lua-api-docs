@@ -29,4 +29,4 @@ local isPet = unit.IsPet( petId )
 
 ## Смотрите также
 
-- [unit.GetActivePet](function.unit.GetActivePet)
+- [unit.GetActivePet](/api/category/unit/function.unit.GetActivePet.md)
