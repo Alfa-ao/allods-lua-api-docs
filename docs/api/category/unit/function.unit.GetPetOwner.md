@@ -32,4 +32,4 @@ end
 
 ## Смотрите также
 
-- [unit.IsPet](function.unit.IsPet)
+- [unit.IsPet](/api/category/unit/function.unit.IsPet.md)
