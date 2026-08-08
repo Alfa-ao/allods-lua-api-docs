@@ -38,4 +38,4 @@ wtControl3D:SetWidget3DVisibleUnattached( widget, true )
 
 ## Смотрите также
 
-- [AddWidget3D](sdfsdf)
+- [AddWidget3D](method.AddWidget3D.md)
