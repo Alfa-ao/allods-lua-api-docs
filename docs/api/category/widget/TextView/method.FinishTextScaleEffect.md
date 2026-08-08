@@ -30,4 +30,4 @@ wtText:FinishTextScaleEffect()
 
 ## Смотрите также
 
-- [ET_TEXT_SCALE](sdfgdsfg) (HELP) Прерывает эффект типа ET_TEXT_SCALE
+- [ET_TEXT_SCALE](/api/constants/constants.ET.md)
