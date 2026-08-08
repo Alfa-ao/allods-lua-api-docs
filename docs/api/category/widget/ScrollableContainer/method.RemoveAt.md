@@ -31,6 +31,6 @@ wtScrollableContainer:RemoveAt( 5 )
 
 ## Смотрите также
 
-- [wtScrollableContainer:PopFront](method.PopFront)
-- [wtScrollableContainer:PopBack](method.PopBack)
-- [wtScrollableContainer:GetElementCount](method.GetElementCount)
+- [wtScrollableContainer:PopFront](method.PopFront.md)
+- [wtScrollableContainer:PopBack](method.PopBack.md)
+- [wtScrollableContainer:GetElementCount](method.GetElementCount.md)
