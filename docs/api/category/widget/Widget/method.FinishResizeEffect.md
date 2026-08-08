@@ -1,6 +1,6 @@
 # WidgetSafe:FinishResizeEffect
 
-Прерывает эффект типа [ET_RESIZE](ttttttt).
+Прерывает эффект типа [ET_RESIZE](/api/constants/constants.ET.md).
 
 ## Описание
 
