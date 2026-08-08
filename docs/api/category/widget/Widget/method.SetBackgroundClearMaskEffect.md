@@ -37,4 +37,4 @@ wtElement:SetBackgroundClearMaskEffect(
 
 ## Смотрите также
 
-- [Color](Color)
+- [Color](/api/types/LuaApi.md)
