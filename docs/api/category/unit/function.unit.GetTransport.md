@@ -25,15 +25,15 @@ unit.GetTransport( unitId: ObjectId ): ObjectId | nil
 ```lua
 local transportId = unit.GetTransport( avatar.GetId() )
 if transportId then
-    local energy = object.GetTransportEnergy( transportId )
+    local energy = transport.GetEnergy( transportId )
 end
 ```
 
 ::: info Описание примера
-Выполняется получение идентификатора транспортного средства, на котором находится главный персонаж. Если транспорт найден (значение не `nil`), запрашивается уровень энергии транспорта с помощью функции `object.GetTransportEnergy`.
+Выполняется получение идентификатора транспортного средства, на котором находится главный персонаж. Если транспорт найден (значение не `nil`), запрашивается уровень энергии транспорта с помощью функции `transport.GetEnergy`.
 :::
 
 ## Смотрите также
 
-- [avatar.GetId](../avatar/function.avatar.GetId)
-- [object.GetTransportEnergy](../object/function.object.GetTransportEnergy)
+- [avatar.GetId](/api/category/avatar/function.avatar.GetId.md)
+- [transport.GetEnergy](/api/category/transport/function.transport.GetEnergy.md)
