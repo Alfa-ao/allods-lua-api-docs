@@ -49,4 +49,4 @@ common.LogInfo( spellInfo.manaCost )
 
 ## Смотрите также
 
-- [avatar.GetSpellBook](../avatar/function.avatar.GetSpellBook)
+- [avatar.GetSpellBook](/api/category/avatar/function.avatar.GetSpellBook.md)
