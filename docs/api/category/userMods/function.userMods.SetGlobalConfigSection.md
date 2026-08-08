@@ -5,7 +5,7 @@
 ## Описание
 
 ```lua
-userMods.SetGlobalConfigSection( sysName, section )
+userMods.SetGlobalConfigSection( sysName: string, section: table|nil )
 ```
 
 Сохраняет/удаляет таблицу с секцией в локальном пользовательском конфиге для приложения.
@@ -16,11 +16,9 @@ userMods.SetGlobalConfigSection( sysName, section )
 
 ## Список параметров
 
-- **`sysName`** (`string`)  
-Название секции.
+- **`sysName`** (`string`) - Название секции.
 
-- **`section`** (`table` | `nil`)  
-Таблица с данными секции. Если передано `nil`, секция удаляется.
+- **`section`** (`table` | `nil`) - Таблица с данными секции. Если передано `nil`, секция удаляется.
 
 ## Возвращаемые значения
 
@@ -28,7 +26,7 @@ userMods.SetGlobalConfigSection( sysName, section )
 
 ## Примеры
 
-### Пример использования `SetGlobalConfigSection`
+### Сохранение секции в глобальном рахделе конфига
 
 ```lua
 local section = {}
