@@ -45,4 +45,4 @@ local wtNew = mainForm:CreateChildByDesc( desc )
 
 ## Смотрите также
 
-- [WidgetFactorySafe](dfsgdsgd)
+- WidgetFactorySafe(HELP)
