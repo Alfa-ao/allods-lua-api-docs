@@ -29,5 +29,5 @@ wheelOfLoot.RequestItems( wheelIds[0] )
 
 ## Смотрите также
 
-- [EVENT_WHEELOFLOOT_ITEMS](events#event-wheelofloot-items)
-- [wheelOfLoot.GetList](function.wheelOfLoot.GetList)
+- [EVENT_WHEELOFLOOT_ITEMS](/api/events/events.EVENT_WHEELOFLOOT_.md#event-wheelofloot-items)
+- [wheelOfLoot.GetList](/api/category/wheelOfLoot/function.wheelOfLoot.GetList.md)
