@@ -28,6 +28,6 @@ local visible = widget:IsVisibleEx()
 
 ## Смотрите также
 
-- [WidgetSafe:IsVisible](method.IsVisible)
-- [WidgetSafe:Show](method.Show)
-- [EVENT_WIDGET_SHOW_CHANGED](sdgdgdsgsdfg)
+- [WidgetSafe:IsVisible](method.IsVisible.md)
+- [WidgetSafe:Show](method.Show.md)
+- [EVENT_WIDGET_SHOW_CHANGED](/api/events/events.EVENT_WIDGET_.md#event-widget-show-changed)
