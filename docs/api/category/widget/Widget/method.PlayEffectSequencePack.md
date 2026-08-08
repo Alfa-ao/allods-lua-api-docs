@@ -8,7 +8,7 @@
 WidgetSafe:PlayEffectSequencePack( effectPack: table )
 ```
 
-Функция принимает таблицу, где ключом является тип эффекта `ET_*`, а значением - параметры цепочки эффектов `sequenceParams`. Описание параметров `sequenceParams` приводится в методе `WidgetSafe:PlayEffectSequence`. Для типа `ET_TEXTURE_ROTAION` используется метод `WidgetSafe:PlayRotationEffectSequence`.
+Функция принимает таблицу, где ключом является тип эффекта `ET_*`, а значением - параметры цепочки эффектов `sequenceParams`. Для типа `ET_TEXTURE_ROTAION` используется метод `WidgetSafe:PlayRotationEffectSequence`.
 
 ## Список параметров
 
@@ -73,7 +73,6 @@ wtTextView:PlayEffectSequencePack( {
 
 ## Смотрите также
 
-- [WidgetSafe:PlayEffectSequence](method.PlayEffectSequence)
-- [WidgetSafe:PlayRotationEffectSequence](method.PlayRotationEffectSequence)
-- [ET_*](sdfdasf)
-- [EA_SYMMETRIC_FLASH](EA_SYMMETRIC_FLASH)
+- [WidgetSafe:PlayRotationEffectSequence](method.PlayRotationEffectSequence.md)
+- [ET_*](/api/constants/constants.ET.md)
+- [EA_SYMMETRIC_FLASH](/api/constants/constants.EA.md)
