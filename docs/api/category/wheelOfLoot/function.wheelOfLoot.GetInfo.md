@@ -39,4 +39,4 @@ local wheelInfo = wheelOfLoot.GetInfo( wheelIds[0] )
 
 ## Смотрите также
 
-- [wheelOfLoot.GetList](function.wheelOfLoot.GetList)
+- [wheelOfLoot.GetList](/api/category/wheelOfLoot/function.wheelOfLoot.GetList.md)
