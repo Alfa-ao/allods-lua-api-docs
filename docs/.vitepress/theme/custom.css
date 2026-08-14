@@ -5,3 +5,25 @@
 .VPDoc.has-aside .content-container {
     max-width: none !important;
 }
+
+.DocSearch-Button .DocSearch-Button-Placeholder {
+    padding: 0 140px 0 0;
+}
+
+/* .vp-doc pre.center-by-longest {
+    width: fit-content;
+    max-width: 100%;
+    margin-inline: auto;
+    text-align: left;
+
+    white-space: pre-wrap;
+
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin-block: 0;
+} */
