@@ -167,7 +167,7 @@ $generator = new SidebarGenerator('docs', [
             'events' => 'События (Events)', 
             'constants' => 'Константы (Consts)', 
             'enums' => 'Перечисления (Enums)',
-            //'index' => 'Оглавление',
+            'guides' => 'Руководство/Гайды',
         ]
     ]
 ]);
