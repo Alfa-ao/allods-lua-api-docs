@@ -1,18 +1,18 @@
 # TextContainerSafe:PushFrontText
 
-Добавляет WString или ValuedText в начало контейнера.
+Добавляет string, WString или ValuedText в начало контейнера.
 
 ## Описание
 
 ```lua
-TextContainerSafe:PushFrontText( text: WString | ValuedText )
+TextContainerSafe:PushFrontText( text: string | WString | ValuedText )
 ```
 
-Порядок добавления задается в настройках контейнера. Для добавления WString в контейнере должны быть заданы formatFileRef и defaultTag.
+Функция добавляет string, WString или ValuedText в начало контейнера. Порядок добавления задается в настройках контейнера. Для добавления string, WString в контейнере должны быть заданы formatFileRef и defaultTag.
 
 ## Список параметров
 
-- **`text`** (`WString` | `ValuedText`) - добавляемый текст.
+- **`text`** (`string` | `WString` | `ValuedText`) - добавляемый текст.
 
 ## Возвращаемые значения
 
