@@ -33,7 +33,8 @@
 - **`UniqueId`** - Уникальный постоянный (кросс-серверный) идентификатор аватара.
 
 - [**`ResourceId`**](/api/category/ResourceId/) - группа типов, являющихся идентификаторами ресурсов из базы. Идентификаторы можно сравнивать, используя [`ResourceId:IsEqual( resource )`](/api/category/ResourceId/method.IsEqual.md).
-
+    - **`ComponentPropertyId`** - идентификатор компонента для крафтинга (в данный момент только алхимия).
+    
     - **`QuestId`** - идентификатор квеста.
         - Поля, доступные в [`ItemId:GetInfo()`](/api/category/ResourceId/method.GetInfo.md)
         
