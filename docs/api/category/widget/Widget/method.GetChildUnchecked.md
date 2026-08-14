@@ -14,7 +14,7 @@ WidgetSafe:GetChildUnchecked( name: string, recursive: boolean | nil ): WidgetSa
 
 - **`name`** (`string`) - Название искомого виджета.
 
-::: danger (Deprecated) 18.0
+::: danger <Badge type="danger" text="^18.0.0 - (Deprecated)" /> 
 - **`recursive`** (`boolean` | `nil`) - Флаг, определяющий необходимость рекурсивного поиска среди вложенных контролов. По умолчанию `false`.
 :::
 
