@@ -1,4 +1,5 @@
 # common.GetAddonName
+
 Возвращает имя аддона, в котором выполняется скрипт.
 
 ## Описание
@@ -24,13 +25,10 @@ common.GetAddonName(): string
 ## Примеры
 
 ### Получение имени текущего аддона
-```lua
-local name = common.GetAddonName()
-```
 
-::: info Описание примера
-В примере осуществляется получение имени аддона и сохранение результата в локальную переменную `name`.
-:::
+```lua
+local name = common.GetAddonName() -- LibreAlchemyV2
+```
 
 ## Смотрите также
 
