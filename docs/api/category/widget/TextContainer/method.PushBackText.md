@@ -1,17 +1,18 @@
 # TextContainerSafe:PushBackText
-Добавляет WString или ValuedText в конец контейнера.
+
+Добавляет string, WString или ValuedText в конец контейнера.
 
 ## Описание
 
 ```lua
-TextContainerSafe:PushBackText( text: WString | ValuedText )
+TextContainerSafe:PushBackText( text: string | WString | ValuedText )
 ```
 
-Функция добавляет WString или ValuedText в конец контейнера. Порядок добавления задается в настройках контейнера. Для добавления WString в контейнере должны быть заданы formatFileRef и defaultTag.
+Функция добавляет string, WString или ValuedText в конец контейнера. Порядок добавления задается в настройках контейнера. Для добавления string, WString в контейнере должны быть заданы formatFileRef и defaultTag.
 
 ## Список параметров
 
-- **`text`** (`WString` | `ValuedText`) - добавляемый текст.
+- **`text`** (`string` | `WString` | `ValuedText`) - добавляемый текст.
 
 ## Возвращаемые значения
 
@@ -29,7 +30,7 @@ wtTextContainer:PushBackText( common.CreateValuedText( {
 ```
 
 ::: info Описание примера
-Создается ValuedText с использованием форматирования и значений из полей ввода, после чего добавляется в текстовый контейнер.
+В примере создается форматированный текст с помощью функции `common.CreateValuedText`, который затем добавляется в конец текстового контейнера.
 :::
 
 ## Смотрите также
