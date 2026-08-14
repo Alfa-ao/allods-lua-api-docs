@@ -25,7 +25,7 @@ common.GetClientArch(): number
 ```lua
 local code = codeVariants[ common.GetClientArch() ]
 if code then
-  loadstring( code )()
+    loadstring( code )()
 else
     LogError( "No supported chunk variant found" )
 end
@@ -37,5 +37,5 @@ end
 
 ## Смотрите также
 
-- `CLIENT_ARCH_WIN32`
+- `CLIENT_ARCH_WIN32` (HELP)
 - `CLIENT_ARCH_WIN64`
