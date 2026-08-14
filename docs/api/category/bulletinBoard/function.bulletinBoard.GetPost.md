@@ -1,4 +1,5 @@
 # bulletinBoard.GetPost
+
 Возвращает информацию об указанном объявлении на доске объявлений.
 
 ## Описание
@@ -11,13 +12,13 @@ bulletinBoard.GetPost( postId: number ): table | nil
 
 ## Список параметров
 
-- **`postId`** (`number`)
-Уникальный идентификатор объявления на доске.
+- **`postId`** (`number`) - Уникальный идентификатор объявления на доске.
 
 ## Возвращаемые значения
 
 Возвращает таблицу (`table`) с информацией об объявлении или `nil`, если объявление не найдено.
 Поля возвращаемой таблицы:
+
 - **`postId`** (`number`) - уникальный идентификатор объявления.
 - **`isPremium`** (`boolean`) - `true`, если это платное (премиальное) сообщение.
 - **`name`** (`WString`) - имя персонажа, создавшего объявление.
@@ -36,6 +37,7 @@ bulletinBoard.GetPost( postId: number ): table | nil
 ## Примеры
 
 ### Получение и проверка информации об объявлении
+
 ```lua
 local post = bulletinBoard.GetPost( postId )
 if post then
@@ -45,5 +47,5 @@ end
 
 ## Смотрите также
 
-- LuaRaceClassInfoPart
+- LuaRaceClassInfoPart (HELP)
 - LuaSexInfoPart
