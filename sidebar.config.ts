@@ -8984,11 +8984,21 @@ export default [
         ]
     },
     {
-        text: "Guides",
+        text: "Руководство/Гайды",
         items: [
             {
-                text: "Introduction",
-                link: "/guides/introduction"
+                text: "ClassesImplementation",
+                collapsed: true,
+                items: [
+                    {
+                        text: "OOP_1",
+                        link: "/guides/ClassesImplementation/OOP_1"
+                    },
+                    {
+                        text: "OOP_2",
+                        link: "/guides/ClassesImplementation/OOP_2"
+                    }
+                ]
             }
         ]
     }
