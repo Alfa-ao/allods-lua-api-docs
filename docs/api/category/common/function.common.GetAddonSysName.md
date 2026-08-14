@@ -1,4 +1,5 @@
 # common.GetAddonSysName
+
 Возвращает системное имя аддона, в котором выполняется скрипт.
 
 ## Описание
@@ -21,5 +22,5 @@ common.GetAddonSysName(): string
 
 ### Получение системного имени текущего аддона
 ```lua
-local name = common.GetAddonSysName()
+local name = common.GetAddonSysName() -- UserAddon/LibreAlchemyV2
 ```
