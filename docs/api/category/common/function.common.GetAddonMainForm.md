@@ -1,4 +1,5 @@
 # common.GetAddonMainForm
+
 Возвращает главную форму указанного аддона.
 
 ## Описание
@@ -11,28 +12,28 @@ common.GetAddonMainForm( sysAddonName: string ): FormSafe | false | nil
 
 ## Список параметров
 
-- **`sysAddonName`** (`string`)
-Системное имя аддона, главную форму которого необходимо получить.
+- **`sysAddonName`** (`string`) - Системное имя аддона, главную форму которого необходимо получить.
 
 ## Возвращаемые значения
 
 Возвращает `FormSafe`, `false` или `nil`:
+
 - **`FormSafe`** - главная форма аддона.
+
 - **`false`** - не удалось получить форму аддона (вызов из пользовательского аддона и форма защищена, аддон выгружен или у аддона нет формы).
+
 - **`nil`** - аддон с указанным именем не существует.
 
 ## Примеры
 
 ### Получение главной формы аддона "Alchemy"
+
 ```lua
 local wtMainForm = common.GetAddonMainForm( "Alchemy" )
+
 if wtMainForm then
-  LogInfo( "Alchemy addon form name:", wtMainForm:GetName() )
+    LogInfo( "Alchemy addon form name:", wtMainForm:GetName() )
 else
-  LogError( "Can't get Alchemy addon main form" )
+    LogError( "Can't get Alchemy addon main form" )
 end
 ```
-
-::: info Описание примера
-В примере запрашивается главная форма аддона "Alchemy". Если форма успешно получена, в информационный лог выводится её имя с использованием метода `GetName`. В противном случае в лог ошибок выводится сообщение о невозможности получения формы.
-:::
