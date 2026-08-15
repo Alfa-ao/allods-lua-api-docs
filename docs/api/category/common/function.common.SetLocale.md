@@ -1,4 +1,5 @@
 # common.SetLocale
+
 Устанавливает текущую языковую локаль.
 
 ## Описание
@@ -21,6 +22,7 @@ common.SetLocale( locale: string | number )
 ## Примеры
 
 ### Установка первой доступной локали из списка
+
 ```lua
 local localeList = common.GetLocaleList()
 if localeList and localeList[1] then
