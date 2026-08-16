@@ -4,9 +4,15 @@
 
 ## Описание
 
+::: success VERSION: <Badge type="warning" text="^17.1.*" /> <Badge type="warning" text="^18.0.0" /> <Badge type="warning" text="Process" />
+
+Новая функция.
+
 ```lua
 options.GetOptionIndex( id: ObjectId | string ): number
 ```
+
+:::
 
 Функция возвращает номер варианта опции (baseIndex).
 
