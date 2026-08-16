@@ -1,3 +1,5 @@
+
+/* Тело сайта расширено */
 :root {
     --vp-layout-max-width: 1550px;
 }
@@ -6,10 +8,45 @@
     max-width: none !important;
 }
 
+
+
+/* Стили для кастомного блока ::: success */
+.custom-block.success {
+    border-color: var(--vp-custom-block-tip-border); /* Так-как нету стиля базового, подойдёт от tip */
+    color: var(--vp-c-text-1);
+    background-color: var(--vp-c-success-soft);
+}
+
+/* .custom-block.success .custom-block-title {
+    color: var(--vp-c-success-1);
+} */
+
+
+
+/* Стили для бейджа <Badge type="success" /> */
+.VPBadge.success {
+    border-color: transparent;
+    color: var(--vp-c-success-1);
+    background-color: var(--vp-c-success-soft);
+}
+
+
+
+/* Баджи с эффектами понижены. Позиция как строки */
+.VPBadge {
+    transform: none;
+}
+
+
+
+/* Контейнер header search расширено */
 .DocSearch-Button .DocSearch-Button-Placeholder {
     padding: 0 140px 0 0;
 }
 
+
+
+/* A:\GitHub\allods-lua-api-docs\docs\index.md */
 /* .vp-doc pre.center-by-longest {
     width: fit-content;
     max-width: 100%;
@@ -27,3 +64,47 @@
     padding: 0;
     margin-block: 0;
 } */
+
+
+
+/* SCROLLBAR тонкий */
+:root {
+    --scrollbar-size: 8px;
+    --scrollbar-thumb: rgba(120, 120, 120, 0.35);
+    --scrollbar-thumb-hover: rgba(120, 120, 120, 0.55);
+}
+
+.dark {
+    --scrollbar-thumb: rgba(130, 130, 130, 0.35);
+    --scrollbar-thumb-hover: rgba(150, 150, 150, 0.55);
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb) transparent;
+}
+
+/* Chrome, Edge, Safari, Blink/WebKit */
+*::-webkit-scrollbar {
+    width: var(--scrollbar-size);
+    height: var(--scrollbar-size);
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb);
+    border-radius: 9999px;
+    transition: background-color 0.2s ease;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: var(--scrollbar-thumb-hover);
+}
