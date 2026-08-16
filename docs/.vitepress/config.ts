@@ -1,10 +1,37 @@
 import { defineConfig } from 'vitepress'
 import { resolve } from 'path'
 import sidebar from './../../sidebar.config'
+import type { MarkdownRenderer } from 'vitepress'
+import container from 'markdown-it-container'
 
 const base = '/allods-lua-api-docs/'
 
 export default defineConfig( {
+    sitemap: {
+        hostname: `https://alfa-ao.github.io${base}`,
+        lastmodDateOnly: false
+    },
+    markdown: {
+        /* container: {
+            // @ts-expect-error - customContainers поддерживается VitePress, но отсутствует
+            customContainers: {
+                success: 'УСПЕШНО'
+            }
+        } */
+        config: (md: MarkdownRenderer) => {
+            md.use(container, 'success', {
+                render(tokens: any[], idx: number) {
+                    const token = tokens[idx]
+                    const info = token.info.trim().slice('success'.length).trim()
+                    if (token.nesting === 1) {
+                        const title = md.renderInline(info || 'УСПЕШНО')
+                        return `<div class="success custom-block"><p class="custom-block-title">${title}</p>\n`
+                    }
+                    return '</div>\n'
+                }
+            })
+        }
+    },
     vite: {
         resolve: {
             alias: { // vitepress генераторы Markdown не робят с этим:
@@ -45,7 +72,14 @@ export default defineConfig( {
                 text: 'Начало работы',
                 items: [
                     { text: 'Введение', link: '/guides/introduction' },
-                    { text: 'Установка аддонов', link: '/guides/installation' }
+                    { text: 'Установка аддонов', link: '/guides/installation' },
+                    { text: 'Alternative Search', link: '/search.md' },
+                    { text: 'CHANGELOG', collapsed: true, items: [
+                        { text: '18.0.0', link: '/changelog/18.0.0' },
+                        { text: '17.0.0', link: '/changelog/17.0.0' },
+                        { text: '16.0.0', link: '/changelog/16.0.0' },
+                        { text: '15.0.0', link: '/changelog/15.0.0' },
+                    ] },
                 ]
             },
             ...sidebar
