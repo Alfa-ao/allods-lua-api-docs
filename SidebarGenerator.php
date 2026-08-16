@@ -157,9 +157,10 @@ class SidebarGenerator
 
 $generator = new SidebarGenerator('docs', [
     'ignore' => [
-        '.vitepress',
-        'classes',
-        'public',
+        'docs/.vitepress',
+        'docs/public',
+        'docs/search.md',
+        'docs/changelog',
     ],
     'rename' => [
         'text' => [
