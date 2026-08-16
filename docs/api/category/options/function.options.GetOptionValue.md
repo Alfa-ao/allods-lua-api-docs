@@ -1,11 +1,19 @@
 # options.GetOptionValue
+
 Извлекает текущее числовое и строковое значение опции.
 
 ## Описание
 
+::: success VERSION: <Badge type="warning" text="^17.1.*" /> <Badge type="warning" text="^18.0.0" /> <Badge type="warning" text="Process" />
+
+Новая функция.
+
 ```lua
 options.GetOptionValue( id: ObjectId | string ): number, string
 ```
+
+:::
+
 Извлечение значений производится из массива `values` по текущему индексу `baseIndex`. Функция применяется исключительно для опций типов `UI_OPTION_DATA_DISCRETE` и `UI_OPTION_DATA_DISCRETE_FLOAT`.
 
 ::: warning Замечание
