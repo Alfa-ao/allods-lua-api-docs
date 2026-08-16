@@ -12,52 +12,42 @@ outline: deep
 
 Список изменений в игровом API.
 
-## 18.0.0
 
-### stateMainForm
+::: success <Badge type="success" text="Release" />
 
-::: tip <Badge type="warning" text="^18.0.0" /> {no-title}
-Более недоступно в скриптах.
+Релиз доступен на боевых серверах.
 
-Используйте [`common.GetAddonMainForm( addonName )`](/api/category/common/function.common.GetAddonMainForm.md)
 :::
 
+::: tip <Badge type="tip" text="Pre-release" />
 
-```lua
-local main = _G.stateMainForm:  -- [!code --]
-    GetChildChecked( "AlchemyV2" ): -- [!code --]
-    GetChildChecked( "MainFrame" )
-local main = common.GetAddonMainForm( "AlchemyV2" ): -- [!code ++]
-    GetChildChecked( "MainFrame" )
-```
+Релиз в грядущем обновлении.
 
----
+- [stateMainForm](#statemainform)
+- [WidgetSafe](#widgetsafe) - GetChildChecked, GetChildUnchecked.
 
-### WidgetSafe
-
-::: tip <Badge type="warning" text="^18.0.0" /> {no-title}
-Рекурсивный поиск детей объявляется **deprecated** и планируется к удалению.
-
-[`WidgetSafe:GetChildChecked( name: string, recursive: boolean|nil )`](/api/category/widget/Widget/method.GetChildChecked.md)
-
-[`WidgetSafe:GetChildUnchecked( name: string, recursive: boolean|nil )`](/api/category/widget/Widget/method.GetChildUnchecked.md)
-
-Параметр:
-
-- **`recursive`** - <Badge type="danger" text="deprecated" />
 :::
 
-```lua
-local main = common.GetAddonMainForm( "AlchemyV2" ):
-    GetChildChecked( "MainFrame" )
+::: warning <Badge type="warning" text="Process" />
 
-local rolls = main:GetChildChecked( "Alchemy" ):
-    GetChildChecked( "Rolls", true ) -- [!code --]
-    GetChildChecked( "Game" ): -- [!code ++]
-    GetChildChecked( "View" ): -- [!code ++]
-    GetChildChecked( "Rolls" ) -- [!code ++]
-```
+В процессе. Ожидается в любом из обновлений.
 
----
+- [UIAddon](#uiaddon)
+
+:::
+
+::: danger <Badge type="danger" text="Delete" />
+
+Удалено из API.
+
+::: 
+
+<!--@include: @/changelog/18.0.0.md-->
+
+<!--@include: @/changelog/17.0.0.md-->
+
+<!--@include: @/changelog/16.0.0.md-->
+
+<!--@include: @/changelog/15.0.0.md-->
 
 Дополняется...
