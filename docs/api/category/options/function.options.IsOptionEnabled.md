@@ -1,11 +1,18 @@
 # options.IsOptionEnabled
+
 Возвращает значение логической опции.
 
 ## Описание
 
+::: success VERSION: <Badge type="warning" text="^17.1.*" /> <Badge type="warning" text="^18.0.0" /> <Badge type="warning" text="Process" />
+
+Новая функция.
+
 ```lua
 options.IsOptionEnabled( id: ObjectId | string ): boolean
 ```
+
+:::
 
 Функция извлекает и возвращает текущее состояние опции, предназначенной для хранения логических значений.
 
@@ -24,6 +31,7 @@ options.IsOptionEnabled( id: ObjectId | string ): boolean
 ## Примеры
 
 ### Проверка состояния опции
+
 ```lua
 if options.IsOptionEnabled( id ) then
     -- Действие при включенной опции
