@@ -2,6 +2,8 @@
 
 Возвращает стиль текста.
 
+<Badge type="warning" text="17.0.01.46" /> <Badge type="success" text="Release" />
+
 ## Описание
 
 ```lua
