@@ -31,6 +31,9 @@
 - **`ObjectId`** - идентификатор объекта (в настоящее время `number (integer)` или `nil`).
 
 - **`UniqueId`** - Уникальный постоянный (кросс-серверный) идентификатор аватара.
+    ::: warning Начиная с <Badge type="warning" text="^17.1.*" /> <Badge type="warning" text="^18.0.0" /> <Badge type="warning" text="Process" />
+    Тип `UniqueId` меняется с userdata на `number (int64)` во всех связанных API. Соответственно все методы `UniqueId` исчезают.
+    :::
 
 - [**`ResourceId`**](/api/category/ResourceId/) - группа типов, являющихся идентификаторами ресурсов из базы. Идентификаторы можно сравнивать, используя [`ResourceId:IsEqual( resource )`](/api/category/ResourceId/method.IsEqual.md).
     - **`ComponentPropertyId`** - идентификатор компонента для крафтинга (в данный момент только алхимия).
