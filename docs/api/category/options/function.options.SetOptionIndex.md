@@ -4,9 +4,15 @@
 
 ## Описание
 
+::: success VERSION: <Badge type="warning" text="^17.1.*" /> <Badge type="warning" text="^18.0.0" /> <Badge type="warning" text="Process" />
+
+Новая функция.
+
 ```lua
 options.SetOptionIndex( id: ObjectId | string, index: number, apply: boolean | nil )
 ```
+
+:::
 
 Новое значение используется при выполнении команды Apply. Возможно немедленное применение при `apply = true`.
 
