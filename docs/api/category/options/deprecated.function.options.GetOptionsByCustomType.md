@@ -4,7 +4,7 @@
 
 ## Описание
 
-::: danger <Badge type="danger" text="^17.1.*" /> <Badge type="danger" text="^18.0.0" /> <Badge type="warning" text="Process" />
+::: danger VERSION: <Badge type="warning" text="^17.1.*" /> <Badge type="warning" text="^18.0.0" /> <Badge type="warning" text="Process" />
 
 Функция удалена.
 
