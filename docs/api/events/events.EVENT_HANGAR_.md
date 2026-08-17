@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_HANGAR_ACTIVE_HULL_CHANGED
 
 ### Описание
@@ -218,6 +215,8 @@ EVENT_HANGAR_SPELL_CHANGED
 ---
 
 ## EVENT_HANGAR_SPELL_EFFECT
+
+[<Badge type="warning" text="^18.0.0" />](/index.md#18.0.0-EVENT__EFFECT) <Badge type="tip" text="Pre-Release" />
 
 ### Описание
 
