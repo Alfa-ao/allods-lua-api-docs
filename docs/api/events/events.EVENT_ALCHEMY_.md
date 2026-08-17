@@ -1,8 +1,3 @@
----
-outline: deep
----
-# События Алхимии EVENT_ALCHEMY_*
-
 ## EVENT_ALCHEMY_CANCELED
 
 Передает статус завершения или прерывания процесса алхимии.
