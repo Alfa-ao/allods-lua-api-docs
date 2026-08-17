@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_BOX_OPERATION_RESULT
 
 ### Описание
