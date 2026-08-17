@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_CAMERA_DIRECTION_CHANGED
 
 Событие посылается каждый раз, когда у камеры меняется величина поворота (yaw).
