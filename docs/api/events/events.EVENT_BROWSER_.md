@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_BROWSER_DOWNLOAD_LINK
 
 ### Описание
