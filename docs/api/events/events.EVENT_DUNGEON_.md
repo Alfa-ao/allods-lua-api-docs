@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_DUNGEON_CHOICE_FINISHED
 
 ### Описание
