@@ -12,6 +12,6 @@ EVENT_PASSANGER_STATE_CHANGED
 
 - **`passangerState`** (`boolean`) - является ли персонаж пассажиром, к примеру, на двухместном маунте.
 
-## Смотрите также
+### Смотрите также
 
 - [avatar.IsPassangerState](/api/category/avatar/function.avatar.IsPassangerState.md)
