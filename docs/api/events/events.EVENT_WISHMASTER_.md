@@ -25,6 +25,6 @@ EVENT_WISHMASTER_MULTIPLYING
 
 - **`resourceId`** (`WishmasterResourceId`) - идентификатор Волшебной лампы.
 
-## Смотрите также
+### Смотрите также
 
 - [WishmasterResourceId](/api/types/LuaApi.md)
