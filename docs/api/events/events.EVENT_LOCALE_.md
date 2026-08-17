@@ -12,6 +12,6 @@ EVENT_LOCALE_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [common.GetLocale](/api/category/common/function.common.GetLocale.md)
