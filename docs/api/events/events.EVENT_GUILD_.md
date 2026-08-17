@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_GUILD_ACCEPTED
 
 ### Описание
@@ -195,7 +192,7 @@ EVENT_GUILD_AVATAR_HISTORY
 
     - **`sysChangeReason`** (`string`(`ENUM_MoneyChangeReason_*`)) - причина транзакции. Значения соответствуют перечислению `ENUM_MoneyChangeReason_*`.
 
-## Смотрите также
+### Смотрите также
 
 - [guild.GetAvatarHistory](/api/category/guild/function.guild.GetAvatarHistory.md)
 - [LuaFullDateTime](/api/types/LuaFullDateTime.md)
@@ -236,7 +233,7 @@ EVENT_GUILD_BANK_OPERATION_RESULT
 
 - **`sysOperationType`** (`string`(`ENUM_GuildBankOperation_*`)) - тип операции, которая завершилась. Значения соответствуют перечислению `ENUM_GuildBankOperation_*`.
 
-## Смотрите также
+### Смотрите также
 
 - [ENUM_GuildBankOperation](/api/enums/enums.ENUM_GuildBankOperation.md)
 
@@ -418,7 +415,7 @@ EVENT_GUILD_BUFFS_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [guild.GetBuffs](/api/category/guild/function.guild.GetBuffs.md)
 
@@ -941,7 +938,7 @@ EVENT_GUILD_MEMBER_ONLINE_STATUS_CHANGED
 
 - **`name`** (`WString`) - имя члена гильдии.
 
-## Смотрите также
+### Смотрите также
 
 - [guild.GetMemberInfo](/api/category/guild/function.guild.GetMemberInfo.md)
 
@@ -1101,7 +1098,7 @@ EVENT_GUILD_NAME_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [guild.Rename](/api/category/guild/function.guild.Rename.md)
 
@@ -1141,7 +1138,7 @@ EVENT_GUILD_NEED_RENAME_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [guild.IsNeedRename](/api/category/guild/function.guild.IsNeedRename.md)
 - [guild.CanRename](/api/category/guild/function.guild.CanRename.md)
@@ -1306,7 +1303,7 @@ EVENT_GUILD_ITEMS_HISTORY_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [guild.GetItemsHistory](/api/category/guild/function.guild.GetItemsHistory.md)
 
@@ -1326,7 +1323,7 @@ EVENT_GUILD_BANK_HISTORY_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [guild.GetHistory](/api/category/guild/function.guild.GetHistory.md)
 
