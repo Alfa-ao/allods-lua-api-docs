@@ -44,7 +44,7 @@ EVENT_MAILBOX_CHANGED_ON_SERVER
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [mailBox.RequestMails](/api/category/mailBox/function.mailBox.RequestMails.md)
 
@@ -116,6 +116,6 @@ EVENT_MAILBOX_SERVER_OPERATION_RESULT
 
 - **`sysResult`** (`string`(`MailServiceReply_*` | `ENUM_CreateMailResult_*`)) - статус завершения операции. Значения соответствуют перечислению `MailServiceReply_*` или `ENUM_CreateMailResult_*`.
 
-## Смотрите также
+### Смотрите также
 
 - [EVENT_MAILBOX_CHANGED_ON_SERVER](/api/events/events.EVENT_MAILBOX_.md#event-mailbox-changed-on-server)
