@@ -1,17 +1,25 @@
 ## EVENT_UNIT_CLASS_CHANGED
+
 ### Описание
+
 ```
 EVENT_UNIT_CLASS_CHANGED
 ```
+
 Событие присылается при изменении информации о классе юнита.
 
 ### Список параметров
+
 - **`unitId`** (`ObjectId`) - Идентификатор юнита.
 
 ---
 
 ## EVENT_UNIT_DAMAGE_RECEIVED
+
+[<Badge type="warning" text="^18.0.0" />](/index.md#18.0.0-EVENT_*) <Badge type="tip" text="Pre-Release" />
+
 ### Описание
+
 ```
 EVENT_UNIT_DAMAGE_RECEIVED
 ```
@@ -59,8 +67,8 @@ EVENT_UNIT_DAMAGE_RECEIVED
 - **`sourceTags`** (`table` of `CombatTagId` | `nil`) - Список усиливающих и ослабляющих эффектов на том, кто наносит повреждения.
 - **`targetTags`** (`table` of `CombatTagId` | `nil`) - Список усиливающих и ослабляющих эффектов на том, кто получает повреждения.
 
-## Смотрите также
-(HELP)
+### Смотрите также
+
 - [CombatTagId](/api/types/CombatTagId.md)
 
 ---
@@ -149,7 +157,7 @@ EVENT_UNIT_FOLLOWERS_LIST_CHANGED
 ### Список параметров
 - **`id`** (`ObjectId`) - Идентификатор игрока, у которого изменился список подчиненных юнитов.
 
-## Смотрите также
+### Смотрите также
 
 - [unit.GetFollowers](/api/category/unit/function.unit.GetFollowers.md)
 
@@ -266,7 +274,7 @@ EVENT_UNIT_RAGE_CHANGED
 ### Список параметров
 - **`unitId`** (`ObjectId`) - Идентификатор юнита.
 
-## Смотрите также
+### Смотрите также
 
 - [unit.GetRage](/api/category/unit/function.unit.GetRage.md)
 
@@ -295,7 +303,7 @@ EVENT_UNIT_TAG_CHANGED
 ### Список параметров
 - **`unitId`** (`ObjectId`) - Идентификатор моба.
 
-## Смотрите также
+### Смотрите также
 
 - [unit.IsTagged](/api/category/unit/function.unit.IsTagged.md)
 - [unit.IsTaggedByMainPlayer](/api/category/unit/function.unit.IsTaggedByMainPlayer.md)
@@ -338,7 +346,7 @@ EVENT_UNIT_WILL_CHANGED
 ### Список параметров
 - **`unitId`** (`ObjectId`) - Идентификатор юнита.
 
-## Смотрите также
+### Смотрите также
 
 - [unit.GetWill](/api/category/unit/function.unit.GetWill.md)
 
