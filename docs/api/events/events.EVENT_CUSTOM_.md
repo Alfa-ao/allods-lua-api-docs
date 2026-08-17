@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_CUSTOM_EMOTE
 
 ### Описание
