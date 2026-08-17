@@ -2,13 +2,15 @@
 
 Изменяет стиль текста.
 
-<Badge type="warning" text="17.0.01.46" /> <Badge type="success" text="Release" />
-
 ## Описание
+
+::: success VERSION: [<Badge type="warning" text="^17.1.*" />](/index.md#17.0.0-Widget-TextStyle) <Badge type="warning" text="Process" />
+Новая API
 
 ```lua
 TextViewSafe:SetTextStyle( styleTable: table )
 ```
+:::
 
 Описание стиля представлено в `WidgetTextStyle`. Допускается передача частичной таблицы стиля. Поля, не заданные в таблице, остаются без изменений.
 
