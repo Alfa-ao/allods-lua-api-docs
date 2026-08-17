@@ -48,6 +48,8 @@ EVENT_SPELLBOOK_ELEMENT_CHANGED
 
 ## EVENT_SPELLBOOK_ELEMENT_EFFECT
 
+[<Badge type="warning" text="^18.0.0" />](/index.md#18.0.0-EVENT__EFFECT) <Badge type="tip" text="Pre-Release" />
+
 ### Описание
 
 ```
