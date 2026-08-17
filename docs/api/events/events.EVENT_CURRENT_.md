@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_CURRENT_QUEST_CHANGED
 
 ### Описание
