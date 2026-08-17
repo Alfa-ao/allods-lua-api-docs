@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_CHANGE_ROOM_CHARACTER_SCENE_CAMERA_READY
 
 ### Описание
