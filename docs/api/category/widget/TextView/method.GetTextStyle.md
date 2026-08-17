@@ -2,13 +2,15 @@
 
 Возвращает стиль текста.
 
-<Badge type="warning" text="17.0.01.46" /> <Badge type="success" text="Release" />
-
 ## Описание
+
+::: success VERSION: [<Badge type="warning" text="^17.1.*" />](/index.md#17.0.0-Widget-TextStyle) <Badge type="warning" text="Process" />
+Новая API
 
 ```lua
 TextViewSafe:GetTextStyle(): table
 ```
+:::
 
 Функция возвращает таблицу, описывающую стиль текста. Описание структуры стиля содержится в `WidgetTextStyle`.
 
