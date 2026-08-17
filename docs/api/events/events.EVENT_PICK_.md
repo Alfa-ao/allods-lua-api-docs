@@ -28,6 +28,6 @@ if common.GetBitAnd(params.kbFlags, KBF_SHIFT) ~= 0 then
 end
 ```
 
-## Смотрите также
+### Смотрите также
 
 - [KBF_*](/api/constants/constants.KBF.md)
