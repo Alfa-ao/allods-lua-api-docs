@@ -8,6 +8,6 @@ EVENT_TRAINER_LEARN_ERROR
 ### Список параметров
 - **`errors`** (`table` of `number`(`LEARN_ERROR_...`)) - Индексированный с 0 список ошибок. Значения соответствуют перечислению `LEARN_ERROR_...`.
 
-## Смотрите также
+### Смотрите также
 
 - [LEARN_ERROR_...](/api/constants/constants.LEARN_ERROR.md)
