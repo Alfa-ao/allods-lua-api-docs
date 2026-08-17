@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_APPRENTICE_MENTOR_CHANGED
 
 ### Описание
