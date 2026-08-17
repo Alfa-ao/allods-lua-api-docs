@@ -11,7 +11,7 @@ EVENT_WIDGET_SHOW_CHANGED
 
 - **`addonName`** (`string`) - имя аддона, которому принадлежит виджет.
 
-## Смотрите также
+### Смотрите также
 
 - [SetOnShowNotification](/api/category/widget/Widget/method.SetOnShowNotification.md)
 - [IsVisibleEx](/api/category/widget/Widget/method.IsVisibleEx.md)
