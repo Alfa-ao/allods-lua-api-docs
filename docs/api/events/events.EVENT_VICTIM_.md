@@ -9,6 +9,6 @@ EVENT_VICTIM_TRACKER_CHANGED
 ### Список параметров
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [avatar.GetKills](/api/category/avatar/function.avatar.GetKills.md)
