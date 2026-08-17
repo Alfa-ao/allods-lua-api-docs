@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_DEPOSITE_BOX_CHANGED
 
 ### Описание
