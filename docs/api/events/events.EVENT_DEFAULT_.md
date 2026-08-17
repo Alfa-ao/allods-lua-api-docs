@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_DEFAULT_SPELL_CHANGED
 
 ### Описание
