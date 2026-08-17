@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_BATTLEGROUND_CHECKPOINT_ADDED
 
 ### Описание
@@ -63,6 +60,6 @@ EVENT_BATTLEGROUND_CHECKPOINT_STATE_CHANGED
 
 - **`checkpointId`** (`ObjectId`) - Идентификатор контрольной точки, чьё состояние изменилось.
 
-## Смотрите также
+### Смотрите также
 
 - [battleground.GetCheckpointInfo](/api/category/battleground/function.battleground.GetCheckpointInfo.md)
