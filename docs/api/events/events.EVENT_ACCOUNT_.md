@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_ACCOUNT_HAS_DESTROYED
 
 Уведомляет об уничтожении RunTime аккаунта по причине дисконнекта.
