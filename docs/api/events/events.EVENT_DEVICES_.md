@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_DEVICES_CHANGED
 
 ### Описание
