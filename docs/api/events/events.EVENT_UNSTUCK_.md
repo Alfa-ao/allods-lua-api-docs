@@ -1,26 +1,35 @@
 ## EVENT_UNSTUCK_SPELL_EFFECT
+
+[<Badge type="warning" text="^18.0.0" />](/index.md#18.0.0-EVENT__EFFECT) <Badge type="tip" text="Pre-Release" />
+
 ### Описание
+
 ```
 EVENT_UNSTUCK_SPELL_EFFECT
 ```
+
 Событие присылается при изменении спелла вытаскивания игрока, если он застрял.
 
 ### Список параметров
+
 - **`id`** (`SpellId`) - Id ресурса спелла.
 
 ---
 
 ## EVENT_UNSTUCK_SPELL_CHANGED
+
 ### Описание
+
 ```
 EVENT_UNSTUCK_SPELL_CHANGED
 ```
+
 Событие присылается при начале эффекта для спелла вытаскивания игрока, если он застрял. 
 
 ### Список параметров
 
 Параметры как в `EVENT_SPELLBOOK_ELEMENT_EFFECT`.
 
-## Смотрите также
+### Смотрите также
 
 - [EVENT_SPELLBOOK_ELEMENT_EFFECT](/api/events/events.EVENT_SPELLBOOK_.md#event-spellbook-element-effect)
