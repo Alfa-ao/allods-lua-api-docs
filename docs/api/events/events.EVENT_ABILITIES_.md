@@ -1,7 +1,4 @@
----
-outline: deep
----
-# EVENT_ABILITIES_ELEMENT_ADDED
+## EVENT_ABILITIES_ELEMENT_ADDED
 
 Событие посылается, когда в книге умений появляется новое пассивное умение.
 
@@ -9,13 +6,13 @@ outline: deep
 На этапе загрузки персонажа событие не посылается.
 :::
 
-## Поля события
+### Список параметров
 
 - **`id`** (`AbilityId`) - идентификатор ресурса пассивного умения.
 
 - **`silent`** (`boolean`) - `true`, если не нужно выводить уведомление (нотификацию) о получении умения.
 
-## Примеры
+### Примеры
 
 ### Обработка получения нового умения
 
@@ -30,10 +27,12 @@ common.RegisterEventHandler( function( eventData )
     end
 end, "EVENT_ABILITIES_ELEMENT_ADDED" )
 ```
+
 ::: info Описание примера
 В примере регистрируется обработчик события `EVENT_ABILITIES_ELEMENT_ADDED`. Проверяется поле `silent`, и если оно равно `false`, в лог выводится информация о полученном пассивном умении.
 :::
 
-## Смотрите также
+### Смотрите также
+
 - [avatar.GetAbilities](/api/category/avatar/function.avatar.GetAbilities.md)
 - [avatar.GetAbilityInfo](/api/category/avatar/function.avatar.GetAbilityInfo.md)
