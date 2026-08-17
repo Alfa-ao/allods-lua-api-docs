@@ -196,7 +196,7 @@ EVENT_LOOT_DISTRIBUTION_STARTED
 
 - **`itemObject`** (`ValuedObject`) - объект, содержащий информацию о предмете.
 
-## Смотрите также
+### Смотрите также
 
 - [EVENT_LOOT_TO_DISTRIBUTE](/api/events/events.EVENT_LOOT_.md#event-loot-to-distribute)
 
@@ -242,6 +242,8 @@ EVENT_LOOT_MARK
 
 ## EVENT_LOOT_TO_DISTRIBUTE
 
+[<Badge type="warning" text="^17.1.*" />](/index.md#17.0.0-UniqueId) [<Badge type="warning" text="^18.0.0" />](/index.md#17.0.0-UniqueId) <Badge type="warning" text="Process" />
+
 ### Описание
 
 ```
@@ -258,7 +260,7 @@ EVENT_LOOT_TO_DISTRIBUTE
 
 - **`looters`** (`table`) - список кросс-серверных уникальных идентификаторов игроков, принимающих участие в ролле (индексируется [0...]).
 
-## Смотрите также
+### Смотрите также
 
 - [raid.GetMemberInfo](/api/category/raid/function.raid.GetMemberInfo.md)
 - [group.GetMemberInfo](/api/category/group/function.group.GetMemberInfo.md)
