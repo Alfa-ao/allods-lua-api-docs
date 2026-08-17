@@ -2,9 +2,14 @@
 
 ### Описание
 
+::: danger Deprecated
+
+[<Badge type="warning" text="^18.0.0" />](/index.md#18.0.0-EVENT_*) <Badge type="tip" text="Pre-Release" />
+
 ```
 EVENT_HEALING_RECEIVED
 ```
+:::
 
 Событие присылается при лечении юнита. Для срабатывания данного события требуется указание идентификатора объекта ObjectId(number) в качестве параметра функции `common.RegisterEventHandler`.
 
