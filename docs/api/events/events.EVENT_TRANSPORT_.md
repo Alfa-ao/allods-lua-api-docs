@@ -106,7 +106,7 @@ EVENT_TRANSPORT_OBSERVING_FINISHED
 ### Список параметров
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 - [EVENT_TRANSPORT_OBSERVING_STARTED](events.EVENT_TRANSPORT_.md#event-transport-observing-started)
 
 ---
@@ -121,7 +121,7 @@ EVENT_TRANSPORT_OBSERVING_STARTED
 ### Список параметров
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [avatar.GetObservedTransport](/api/category/avatar/function.avatar.GetObservedTransport.md)
 - [avatar.GetObservedAstralUnit](/api/category/avatar/function.avatar.GetObservedAstralUnit.md)
@@ -208,7 +208,7 @@ EVENT_TRANSPORT_SHIP_INFO_CHANGED
 ### Список параметров
 - **`objectId`** (`ObjectId`) - Идентификатор транспортного средства.
 
-## Смотрите также
+### Смотрите также
 
 - [transport.GetShipInfo](/api/category/transport/function.transport.GetShipInfo.md)
 
