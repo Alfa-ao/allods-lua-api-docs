@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_DOMINATION_OBJECTIVE_ADDED
 
 ### Описание
@@ -15,7 +12,7 @@ EVENT_DOMINATION_OBJECTIVE_ADDED
 
 - **`id`** (`ObjectId`) - Идентификатор цели.
 
-## Смотрите также
+### Смотрите также
 
 - [dominationLib.GetObjectiveInfo](/api/category/dominationLib/function.dominationLib.GetObjectiveInfo.md)
 
@@ -54,7 +51,7 @@ EVENT_DOMINATION_OBJECTIVE_OWNER_CHANGED
 - **`owner`** (`number`(`ENUM_DominationFightTeam`)) - Команда, доминирующая над данной целью. Значения соответствуют перечислению `ENUM_DominationFightTeam`.
 - **`actualOwner`** (`number`(`ENUM_DominationFightTeam`)) - Команда, контролирующая данную цель. Значения соответствуют перечислению `ENUM_DominationFightTeam`.
 
-## Смотрите также
+### Смотрите также
 
 - [ENUM_DominationFightTeam](/api/enums/enums.ENUM_DominationFightTeam.md)
 
@@ -146,7 +143,7 @@ EVENT_DOMINATION_OBJECTIVE_STATE_CHANGED
 
 - **`state`** (`number`(`ENUM_DominationAreaState`)) - Текущее состояние цели. Значения соответствуют перечислению `ENUM_DominationAreaState`.
 
-## Смотрите также
+### Смотрите также
 
 - [ENUM_DominationAreaState](/api/enums/enums.ENUM_DominationAreaState.md)
 
@@ -167,7 +164,7 @@ EVENT_DOMINATION_OBJECTIVE_TEAM_CHANGED
 - **`id`** (`ObjectId`) - Идентификатор цели.
 - **`team`** (`number`(`ENUM_DominationFightTeam`)) - Команда, список персонажей которой изменился. Значения соответствуют перечислению `ENUM_DominationFightTeam`.
 
-## Смотрите также
+### Смотрите также
 
 - [ENUM_DominationFightTeam](/api/enums/enums.ENUM_DominationFightTeam.md)
 
