@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_CURRENCIES_CHANGED
 
 ### Описание
