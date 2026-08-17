@@ -28,7 +28,7 @@ EVENT_MWAR_LADDER_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [mwar.ReplicateLadder](/api/category/mwar/function.mwar.ReplicateLadder.md)
 - [mwar.GetLadderInfo](/api/category/mwar/function.mwar.GetLadderInfo.md)
@@ -49,7 +49,7 @@ EVENT_MWAR_QUEUE_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [mwar.GetQueueInfo](/api/category/mwar/function.mwar.GetQueueInfo.md)
 
@@ -69,6 +69,6 @@ EVENT_MWAR_RATING_PROGRESS_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [mwar.GetRatingProgressInfo](/api/category/mwar/function.mwar.GetRatingProgressInfo.md)
