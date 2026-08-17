@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_CONTAINER_CHANGED
 
 Уведомление об изменении контейнера главного игрока.
@@ -63,6 +60,8 @@ outline: deep
 ## EVENT_CONTAINER_ITEM_EFFECT
 
 Оповещение о начале эффекта для элемента в каком-либо контейнере.
+
+[<Badge type="warning" text="^18.0.0" />](/index.md#18.0.0-EVENT__EFFECT) <Badge type="tip" text="Pre-Release" />
 
 ### Описание
 
