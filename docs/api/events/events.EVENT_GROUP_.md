@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_GROUP_ACCEPT_ERROR
 
 ### Описание
@@ -246,6 +243,8 @@ EVENT_GROUP_LOOT_SCHEME_CHANGED
 
 ## EVENT_GROUP_MEMBER_ADDED
 
+[<Badge type="warning" text="^17.1.*" />](/index.md#17.0.0-UniqueId) [<Badge type="warning" text="^18.0.0" />](/index.md#17.0.0-UniqueId) <Badge type="warning" text="Process" />
+
 ### Описание
 
 ```
@@ -264,6 +263,8 @@ EVENT_GROUP_MEMBER_ADDED
 
 ## EVENT_GROUP_MEMBER_CHANGED
 
+[<Badge type="warning" text="^17.1.*" />](/index.md#17.0.0-UniqueId) [<Badge type="warning" text="^18.0.0" />](/index.md#17.0.0-UniqueId) <Badge type="warning" text="Process" />
+
 ### Описание
 
 ```
@@ -278,7 +279,7 @@ EVENT_GROUP_MEMBER_CHANGED
 - **`uniqueId`** (`UniqueId` | `nil`) - Постоянный идентификатор аватара (не меняется при релогинах), чьё состояние изменилось (см. `group.GetMembers()` и `group.GetMemberInfo(id)`, поле `uniqueId` в обоих случаях); `nil`, если это наёмник-моб.
 - **`id`** (`ObjectId` | `nil`) - Идентификатор члена группы; `nil`, если его нет поблизости (порвалась связь, в другой зоне и т.д.).
 
-## Смотрите также
+### Смотрите также
 
 - [group.GetMembers](/api/category/group/function.group.GetMembers.md)
 - [group.GetMemberInfo](/api/category/group/function.group.GetMemberInfo.md)
@@ -286,6 +287,8 @@ EVENT_GROUP_MEMBER_CHANGED
 ---
 
 ## EVENT_GROUP_MEMBER_REMOVED
+
+[<Badge type="warning" text="^17.1.*" />](/index.md#17.0.0-UniqueId) [<Badge type="warning" text="^18.0.0" />](/index.md#17.0.0-UniqueId) <Badge type="warning" text="Process" />
 
 ### Описание
 
