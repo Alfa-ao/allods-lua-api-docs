@@ -12,7 +12,7 @@ EVENT_LOTTERY_END
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [mission.GetLotteryInfo](/api/category/mission/function.mission.GetLotteryInfo.md)
 
@@ -32,6 +32,6 @@ EVENT_LOTTERY_STATE_CHANGED
 
 - **`state`** (`number`) - состояние, подробнее - EnumLotteryState.
 
-## Смотрите также
+### Смотрите также
 
 - [mission.GetLotteryInfo](/api/category/mission/function.mission.GetLotteryInfo.md)
