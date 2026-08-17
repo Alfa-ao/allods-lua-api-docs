@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_AFK_STATE_CHANGED
 
 ### Описание
