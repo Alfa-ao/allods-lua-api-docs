@@ -12,7 +12,7 @@ EVENT_LFG_ACTION_FAIL
 
 - **`cause`** (`number`(`ENUM_LfgActionFail`)) - причина сбоя. Значения соответствуют перечислению `ENUM_LfgActionFail`.
 
-## Смотрите также
+### Смотрите также
 
 - [ENUM_LfgActionFail](/api/enums/enums.ENUM_LfgActionFail.md)
 
@@ -32,7 +32,7 @@ EVENT_LFG_DEPART_AVAILABLE_CHANGED
 
 - **`available`** (`boolean`) - возможность отправки на текущую целевую локацию.
 
-## Смотрите также
+### Смотрите также
 
 - [LfgDestinationId](/api/types/LfgDestinationId.md)
 - [lfgLib.GetDepartRequirements](/api/category/lfgLib/function.lfgLib.GetDepartRequirements.md)
@@ -53,7 +53,7 @@ EVENT_LFG_DESTINATION_AVAILABLE_CHANGED
 
 - **`destination`** (`LfgDestinationId`) - идентификатор целевой локации.
 
-## Смотрите также
+### Смотрите также
 
 - [LfgDestinationId](/api/types/LfgDestinationId.md)
 - [lfgLib.IsDestinationAvailable](/api/category/lfgLib/function.lfgLib.IsDestinationAvailable.md)
@@ -75,7 +75,7 @@ EVENT_LFG_DESTINATION_CHANGED
 
 - **`destination`** (`LfgDestinationId`) - пункт назначения.
 
-## Смотрите также
+### Смотрите также
 
 - [LfgDestinationId](/api/types/LfgDestinationId.md)
 
@@ -95,7 +95,7 @@ EVENT_LFG_DESTINATIONS_LIST_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [lfgLib.EnableReplicateDestinations](/api/category/lfgLib/function.lfgLib.EnableReplicateDestinations.md)
 
@@ -115,7 +115,7 @@ EVENT_LFG_DESTINATION_VISITS_CHANGED
 
 - **`destination`** (`LfgDestinationId`) - пункт назначения.
 
-## Смотрите также
+### Смотрите также
 
 - [LfgDestinationId](/api/types/LfgDestinationId.md)
 - [EVENT_MATCH_MAKING_EVENT_VISITS_CHANGED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-visits-changed)
@@ -138,7 +138,7 @@ EVENT_LFG_JOIN
 
 - **`roles`** (`table`) - список вакантных ролей в группе. Значения соответствуют перечислению `ENUM_LFGRole`.
 
-## Смотрите также
+### Смотрите также
 
 - [LfgDestinationId](/api/types/LfgDestinationId.md)
 - [ENUM_LFGRole](/api/enums/enums.ENUM_LFGRole.md)
@@ -183,7 +183,7 @@ EVENT_LFG_VOTE
 
 - **`roles`** (`table`) - список вакантных ролей в группе. Значения соответствуют перечислению `ENUM_LFGRole`.
 
-## Смотрите также
+### Смотрите также
 
 - [ENUM_LFGRole](/api/enums/enums.ENUM_LFGRole.md)
 
