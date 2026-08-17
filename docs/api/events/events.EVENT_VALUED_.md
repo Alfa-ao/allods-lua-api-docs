@@ -36,7 +36,7 @@ EVENT_VALUED_OBJECT_DOUBLE_CLICKED
 
 - **`widget`** (`WidgetSafe`) - виджет, в котором находится ValuedObject.
 
-## Смотрите также
+### Смотрите также
 
 - [KBF_...](/api/constants/constants.KBF.md)
 - [MOUSE_BUTTON_...](/api/constants/constants.MOUSE_BUTTON.md)
@@ -66,7 +66,7 @@ EVENT_VALUED_OBJECT_MOUSEOVER
 
 - **`isActive`** (`boolean`) - true, если курсор мыши был наведён на объект. Если курсор был убран с объекта, то false.
 
-## Смотрите также
+### Смотрите также
 
 - [KBF_...](/api/constants/constants.KBF.md)
 - [MOUSE_BUTTON_...](/api/constants/constants.MOUSE_BUTTON.md)
