@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_BEAM_CANNON_SHOT_STARTED
 
 ### Описание
