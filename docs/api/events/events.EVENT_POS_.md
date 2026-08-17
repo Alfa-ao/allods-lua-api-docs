@@ -12,6 +12,6 @@ EVENT_POS_CONVERTER_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [common.GetPosConverterParams](/api/category/common/function.common.GetPosConverterParams.md)
