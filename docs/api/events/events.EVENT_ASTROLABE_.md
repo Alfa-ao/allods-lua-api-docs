@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_ASTROLABE_INFO_CHANGED
 
 ### Описание
@@ -42,6 +39,8 @@ EVENT_ASTROLABE_SPELL_CHANGED
 ## EVENT_ASTROLABE_SPELL_EFFECT
 
 Оповещение о начале эффекта для спелла астролябии на корабле.
+
+[<Badge type="warning" text="^18.0.0" />](/index.md#18.0.0-EVENT__EFFECT) <Badge type="tip" text="Pre-Release" />
 
 ### Описание
 
