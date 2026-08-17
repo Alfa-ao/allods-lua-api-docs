@@ -5057,6 +5057,18 @@ export default [
                         collapsed: true,
                         items: [
                             {
+                                text: "GetOptionByCustomId",
+                                link: "/api/category/options/deprecated.function.options.GetOptionByCustomId"
+                            },
+                            {
+                                text: "GetOptionsByCustomType",
+                                link: "/api/category/options/deprecated.function.options.GetOptionsByCustomType"
+                            },
+                            {
+                                text: "SetOptionCurrentIndex",
+                                link: "/api/category/options/deprecated.function.options.SetOptionCurrentIndex"
+                            },
+                            {
                                 text: "Apply",
                                 link: "/api/category/options/function.options.Apply"
                             },
@@ -6049,6 +6061,14 @@ export default [
                         collapsed: true,
                         items: [
                             {
+                                text: "GetDurationBuff",
+                                link: "/api/category/spellLib/deprecated.function.spellLib.GetDurationBuff"
+                            },
+                            {
+                                text: "HasDurationBuff",
+                                link: "/api/category/spellLib/deprecated.function.spellLib.HasDurationBuff"
+                            },
+                            {
                                 text: "CanRunAvatar",
                                 link: "/api/category/spellLib/function.spellLib.CanRunAvatar"
                             },
@@ -6461,6 +6481,10 @@ export default [
                             {
                                 text: "IsAggressive",
                                 link: "/api/category/unit/function.unit.IsAggressive"
+                            },
+                            {
+                                text: "IsAvatarRelated",
+                                link: "/api/category/unit/function.unit.IsAvatarRelated"
                             },
                             {
                                 text: "IsFatalityDeath",
