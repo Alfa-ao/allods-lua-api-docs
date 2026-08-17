@@ -2,6 +2,8 @@
 
 Возвращает идентификатор специального баффа, связанного с умением.
 
+[<Badge type="warning" text="17.0.01.41" />](/index.md#17.0.0-spellLib.GetDurationBuffId)
+
 ## Описание
 
 ```lua
