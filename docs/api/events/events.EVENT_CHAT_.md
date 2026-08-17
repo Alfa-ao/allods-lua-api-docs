@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_CHAT_AVATAR_MUTED
 
 ### Описание
@@ -25,6 +22,8 @@ EVENT_CHAT_AVATAR_MUTED
 ---
 
 ## EVENT_CHAT_MESSAGE
+
+[<Badge type="warning" text="^17.1.*" />](/index.md#17.0.0-UniqueId) [<Badge type="warning" text="^18.0.0" />](/index.md#17.0.0-UniqueId) <Badge type="warning" text="Process" />
 
 ### Описание
 
@@ -108,6 +107,8 @@ EVENT_CHAT_MESSAGE_REJECTED
 ---
 
 ## EVENT_CHAT_MESSAGE_WITH_OBJECTS
+
+[<Badge type="warning" text="^17.1.*" />](/index.md#17.0.0-UniqueId) [<Badge type="warning" text="^18.0.0" />](/index.md#17.0.0-UniqueId) <Badge type="warning" text="Process" />
 
 ### Описание
 
