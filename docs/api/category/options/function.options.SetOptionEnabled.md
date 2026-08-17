@@ -4,9 +4,9 @@
 
 ## Описание
 
-::: success VERSION: <Badge type="warning" text="^17.1.*" /> <Badge type="warning" text="^18.0.0" /> <Badge type="warning" text="Process" />
+::: success VERSION: [<Badge type="warning" text="^17.1.*" />](/index.md#17.0.0-options.SetOptionCurrentIndex) [<Badge type="warning" text="^18.0.0" />](/index.md#17.0.0-options.SetOptionCurrentIndex) <Badge type="warning" text="Process" />
 
-Новая функция.
+Новая API.
 
 ```lua
 options.SetOptionEnabled( id: ObjectId | string, value: boolean, apply: boolean | nil )
