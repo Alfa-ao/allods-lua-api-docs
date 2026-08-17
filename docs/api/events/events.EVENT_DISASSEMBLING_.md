@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_DISASSEMBLING_RESULT
 
 ### Описание
