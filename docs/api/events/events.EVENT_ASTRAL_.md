@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_ASTRAL_HUB_CHANGED
 
 ### Описание
