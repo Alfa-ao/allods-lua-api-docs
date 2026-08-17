@@ -14,7 +14,7 @@ EVENT_MAIL_CREATE_RESULT
 
 - **`recipientName`** (`WString`) - имя адресата.
 
-## Смотрите также
+### Смотрите также
 
 - [EnumCreateMailResult](/api/enums/enums.ENUM_CreateMailResult.md)
 
