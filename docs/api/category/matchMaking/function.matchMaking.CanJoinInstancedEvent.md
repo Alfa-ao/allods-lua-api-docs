@@ -1,5 +1,8 @@
 # matchMaking.CanJoinInstancedEvent
+
 Проверяет возможность принятия аватаром участия в указанном или любом доступном инстанс-ивенте.
+
+[<Badge type="warning" text="17.0.01.23" />](/index.md#17.0.0-matchMaking.CanJoinInstancedEvent)
 
 ## Описание
 
@@ -20,6 +23,7 @@ matchMaking.CanJoinInstancedEvent( eventId: ObjectId | InstancedEventResourceId 
 ## Примеры
 
 ### Проверка возможности вступления
+
 ```lua
 if matchMaking.CanJoinInstancedEvent( eventId ) then
     -- Действия при успешной проверке
