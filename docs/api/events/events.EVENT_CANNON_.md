@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_CANNON_SHOT_FINISHED
 
 ### Описание
