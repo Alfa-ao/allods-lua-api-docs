@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_BEST_FRIEND_RETURN_STATE_CHANGED
 
 ### Описание
@@ -34,6 +31,8 @@ EVENT_BEST_FRIEND_TELEPORT_SPELL_CHANGED
 ---
 
 ## EVENT_BEST_FRIEND_TELEPORT_SPELL_EFFECT
+
+[<Badge type="warning" text="^18.0.0" />](/index.md#18.0.0-EVENT__EFFECT) <Badge type="tip" text="Pre-Release" />
 
 ### Описание
 
