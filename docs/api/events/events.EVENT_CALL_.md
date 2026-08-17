@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_CALL_SPARK_COST_CHANGED
 
 ### Описание
