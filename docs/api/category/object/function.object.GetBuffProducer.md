@@ -1,5 +1,8 @@
 # object.GetBuffProducer
+
 Возвращает информацию об источнике бафа.
+
+[<Badge type="warning" text="17.0.01.41" />](/index.md#17.0.0-object.GetBuffProducer)
 
 ## Описание
 
@@ -18,14 +21,19 @@ object.GetBuffProducer( id: ObjectId ): table | nil
 Возвращает `table` | `nil` - таблица с информацией об источнике бафа, или `nil` при ошибке:
 
 - **`casterId`** (`ObjectId` | `nil`) - Идентификатор кастера, повесившего баф, если его можно получить.
+
 - **`spellId`** (`SpellId` | `nil`) - Идентификатор спелла, если баф повесили спеллом.
+
 - **`abilityId`** (`AbilityId` | `nil`) - Идентификатор абилки, если баф повесили абилкой.
+
 - **`buffId`** (`BuffId` | `nil`) - Идентификатор баффа, если баф повесили бафом.
+
 - **`mapModifierId`** (`MapModifierId` | `nil`) - Идентификатор модификатора карты, если баф повесили модификатором карты.
 
 ## Примеры
 
 ### Получение информации об источнике бафа
+
 ```lua
 local sourceInfo = object.GetBuffProducer( buffId )
 ```
