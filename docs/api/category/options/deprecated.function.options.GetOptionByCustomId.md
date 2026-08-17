@@ -4,14 +4,13 @@
 
 ## Описание
 
-::: danger VERSION: <Badge type="warning" text="^17.1.*" /> <Badge type="warning" text="^18.0.0" /> <Badge type="warning" text="Process" />
+::: danger Deprecated
 
-Функция удалена.
+VERSION: [<Badge type="warning" text="^17.1.*" />](/index.md#17.0.0-options.GetOptionsByCustom) [<Badge type="warning" text="^18.0.0" />](/index.md#17.0.0-options.GetOptionsByCustom) <Badge type="warning" text="Process" />
 
 ```lua
 options.GetOptionByCustomId( sysCustomId: string ): ObjectId | nil
 ```
-
 :::
 
 Функция возвращает идентификатор пользовательской опции по её текстовому идентификатору из базы.
