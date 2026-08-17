@@ -1,9 +1,3 @@
----
-outline: deep
----
-
-# EVENT_ADDON_*
-
 ## EVENT_ADDON_HEALTH_CHANGED
 
 Событие присылается при изменении показателей состояния аддона.
