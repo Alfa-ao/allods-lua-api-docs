@@ -2,6 +2,8 @@
 
 Возвращает информацию о бафе или его ресурсе.
 
+[<Badge type="warning" text="17.0.01.41" />](/index.md#17.0.0-object.GetBuffProducer)
+
 ## Описание
 
 ```lua
