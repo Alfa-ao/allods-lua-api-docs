@@ -96,7 +96,7 @@ EVENT_REMORT_ZOOM_TRIGGER_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [remortCreation.IsZoomEnabled](/api/category/remortCreation/function.remortCreation.IsZoomEnabled.md)
 - [remortCreation.IsZoomOnFace](/api/category/remortCreation/function.remortCreation.IsZoomOnFace.md)
