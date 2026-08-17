@@ -263,6 +263,6 @@ end
 common.RegisterEventHandler( OnAuctionUpdateResult, "EVENT_AUCTION_UPDATE_RESULT" )
 ```
 
-## Смотрите также
+### Смотрите также
 
 - [ENUM_Auction](/api/enums/enums.ENUM_Auction.md)
