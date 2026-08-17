@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_CANT_LEAVE_GAME_IN_COMBAT
 
 ### Описание
