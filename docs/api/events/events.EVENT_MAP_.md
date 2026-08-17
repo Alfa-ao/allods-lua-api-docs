@@ -12,7 +12,7 @@ EVENT_MAP_CHANNELS_INFO_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [avatar.GetChannelsInfo](/api/category/avatar/function.avatar.GetChannelsInfo.md)
 
