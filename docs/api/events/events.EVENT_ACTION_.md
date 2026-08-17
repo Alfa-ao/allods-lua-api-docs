@@ -1,10 +1,3 @@
----
-outline: deep
----
-# EVENT_ACTION_*
-
-Список событий `EVENT_ACTION_*`
-
 ## EVENT_ACTION_FAILED_EXPLOIT
 
 ### Описание
@@ -150,6 +143,8 @@ EVENT_ACTION_PANEL_ELEMENT_CHANGED
 ---
 
 ## EVENT_ACTION_PANEL_ELEMENT_EFFECT
+
+[<Badge type="warning" text="^18.0.0" />](/index.md#18.0.0-EVENT__EFFECT) <Badge type="tip" text="Pre-Release" />
 
 ### Описание
 
@@ -299,7 +294,7 @@ EVENT_ACTION_RESULT_SPECIAL_SPELL
 
 - **`spellId`** (`SpellId`) - идентификатор заклинания.
 
-## Смотрите также
+### Смотрите также
 
 - [ENUM_ACTION_](/api/enums/enums.ENUM_ACTION_RESULT_SPECIAL.md)
 - [ENUM_CreatureRace](/api/enums/enums.ENUM_CreatureRace.md)
