@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_CROSSHAIR_TARGET_POS_CHANGED
 
 ### Описание
