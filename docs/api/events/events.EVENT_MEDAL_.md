@@ -12,7 +12,7 @@ EVENT_MEDAL_ADDED
 
 - **`id`** (`ObjectId`) - идентификатор достижения.
 
-## Смотрите также
+### Смотрите также
 
 - [medalsLib.GetMedalInfo](/api/category/medalsLib/function.medalsLib.GetMedalInfo.md)
 
@@ -32,7 +32,7 @@ EVENT_MEDAL_PROGRESS_CHANGED
 
 - **`id`** (`ObjectId`) - идентификатор достижения.
 
-## Смотрите также
+### Смотрите также
 
 - [medalsLib.GetMedalInfo](/api/category/medalsLib/function.medalsLib.GetMedalInfo.md)
 
