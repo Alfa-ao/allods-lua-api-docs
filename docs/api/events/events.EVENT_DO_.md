@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_DO_WARP
 
 ### Описание
