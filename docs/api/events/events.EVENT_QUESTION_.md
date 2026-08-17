@@ -12,7 +12,7 @@ EVENT_QUESTION_ADDED
 
 - **`id`** (`ObjectId`) - Идентификатор появившегося вопроса.
 
-## Смотрите также
+### Смотрите также
 
 - [questionLib.GetQuestions](/api/category/questionLib/function.questionLib.GetQuestions.md)
 - [questionLib.GetInfo](/api/category/questionLib/function.questionLib.GetInfo.md)
@@ -33,7 +33,7 @@ EVENT_QUESTION_REMOVED
 
 - **`id`** (`ObjectId`) - Идентификатор удалённого вопроса.
 
-## Смотрите также
+### Смотрите также
 
 - [questionLib.GetQuestions](/api/category/questionLib/function.questionLib.GetQuestions.md)
 - [questionLib.GetInfo](/api/category/questionLib/function.questionLib.GetInfo.md)
@@ -54,6 +54,6 @@ EVENT_QUESTION_RESULTS_CHANGED
 
 - **`id`** (`ObjectId`) - Идентификатор опроса.
 
-## Смотрите также
+### Смотрите также
 
 - [questionLib.GetInfo](/api/category/questionLib/function.questionLib.GetInfo.md)
