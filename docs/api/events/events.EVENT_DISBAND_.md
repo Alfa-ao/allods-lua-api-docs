@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_DISBAND_GUILD_REQUEST
 
 ### Описание
