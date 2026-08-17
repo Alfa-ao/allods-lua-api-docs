@@ -124,7 +124,7 @@ EVENT_QUEST_FIND_NEXT_RESULT
 
 - **`questId`** (`QuestId` | `nil`) - Идентификатор выданного квеста, если в ответ на запрос сервер выдал квест-подсказку; `nil`, если подходящий квест не найден.
 
-## Смотрите также
+### Смотрите также
 
 - [avatar.FindNextQuest](/api/category/avatar/function.avatar.FindNextQuest.md)
 
