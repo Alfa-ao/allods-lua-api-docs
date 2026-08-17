@@ -12,7 +12,7 @@ EVENT_ORDER_ACHIEVEMENTS_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [order.RequestRatingAchivements](/api/category/order/function.order.RequestRatingAchivements.md)
 - [order.RequestPrestigeAchivements](/api/category/order/function.order.RequestPrestigeAchivements.md)
@@ -65,7 +65,7 @@ EVENT_ORDER_INFO_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [order.RequestOrderInfo](/api/category/order/function.order.RequestOrderInfo.md)
 
