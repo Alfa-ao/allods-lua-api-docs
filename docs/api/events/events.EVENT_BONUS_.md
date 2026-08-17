@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_BONUS_POOL_CHANGED
 
 ### Описание
