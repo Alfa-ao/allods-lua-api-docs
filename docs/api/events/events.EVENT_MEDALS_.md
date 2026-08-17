@@ -12,7 +12,7 @@ EVENT_MEDALS_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [medalsLib.GetMedals](/api/category/medalsLib/function.medalsLib.GetMedals.md)
 
@@ -32,6 +32,6 @@ EVENT_MEDALS_SEARCH_RESULTS
 
 - **`table`** (`table`) - таблица идентификаторов предметов, индексация начинается с 1.
 
-## Смотрите также
+### Смотрите также
 
 - [medalsLib.SearchMedals](/api/category/medalsLib/function.medalsLib.SearchMedals.md)
