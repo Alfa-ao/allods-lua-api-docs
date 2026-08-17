@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_AVATAR_ADDED_TO_FRIEND_LIST
 
 ### Описание
