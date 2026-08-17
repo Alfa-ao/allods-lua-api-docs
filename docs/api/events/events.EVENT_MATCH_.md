@@ -28,7 +28,7 @@ EVENT_MATCH_MAKING_CURRENT_BATTLE_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [matchMaking.GetCurrentBattleInfo](/api/category/matchMaking/function.matchMaking.GetCurrentBattleInfo.md)
 
@@ -48,7 +48,7 @@ EVENT_MATCH_MAKING_EVENT_ADDED
 
 - **`eventId`** (`ObjectId`) - id добавленного инстанс-ивента.
 
-## Смотрите также
+### Смотрите также
 
 - [matchMaking.ListenEvents](/api/category/matchMaking/function.matchMaking.ListenEvents.md)
 
@@ -68,7 +68,7 @@ EVENT_MATCH_MAKING_EVENT_AVAILABILITY_CHANGED
 
 - **`eventId`** (`ObjectId`) - id инстанс-ивента, чья доступность изменилась.
 
-## Смотрите также
+### Смотрите также
 
 - [matchMaking.GetEventInfo](/api/category/matchMaking/function.matchMaking.GetEventInfo.md)
 
@@ -90,7 +90,7 @@ EVENT_MATCH_MAKING_EVENT_DOUBLE_BONUS_CHANGED
 
 - **`eventId`** (`ObjectId`) - id инстанс-ивента, чей бонус изменился.
 
-## Смотрите также
+### Смотрите также
 
 - [matchMaking.GetEventInfo](/api/category/matchMaking/function.matchMaking.GetEventInfo.md)
 
@@ -126,7 +126,7 @@ EVENT_MATCH_MAKING_EVENT_PROGRESS_COMPLETED_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [EVENT_MATCH_MAKING_EVENT_PROGRESS_ADDED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-progress-added)
 - [matchMaking.GetEventProgressInfo](/api/category/matchMaking/function.matchMaking.GetEventProgressInfo.md)
@@ -147,7 +147,7 @@ EVENT_MATCH_MAKING_EVENT_PROGRESS_DURATION_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [EVENT_MATCH_MAKING_EVENT_PROGRESS_ADDED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-progress-added)
 - [matchMaking.GetEventProgressInfo](/api/category/matchMaking/function.matchMaking.GetEventProgressInfo.md)
@@ -168,7 +168,7 @@ EVENT_MATCH_MAKING_EVENT_PROGRESS_MEMBER_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [matchMaking.GetEventProgressInfo](/api/category/matchMaking/function.matchMaking.GetEventProgressInfo.md)
 
@@ -220,7 +220,7 @@ EVENT_MATCH_MAKING_EVENT_PROGRESS_ROUNDS_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [matchMaking.GetEventProgressInfo](/api/category/matchMaking/function.matchMaking.GetEventProgressInfo.md)
 
@@ -240,7 +240,7 @@ EVENT_MATCH_MAKING_EVENT_QUEUE_ADDED
 
 - **`eventId`** (`ObjectId`) - id инстанс-ивента.
 
-## Смотрите также
+### Смотрите также
 
 - [EVENT_MATCH_MAKING_EVENT_QUEUE_REMOVED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-queue-removed)
 
@@ -260,7 +260,7 @@ EVENT_MATCH_MAKING_EVENT_QUEUE_REMOVED
 
 - **`eventId`** (`ObjectId`) - id инстанс-ивента.
 
-## Смотрите также
+### Смотрите также
 
 - [EVENT_MATCH_MAKING_EVENT_QUEUE_ADDED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-queue-added)
 
@@ -280,7 +280,7 @@ EVENT_MATCH_MAKING_EVENT_QUEUES_REMOVED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [EVENT_MATCH_MAKING_EVENT_QUEUE_ADDED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-queue-added)
 - [EVENT_MATCH_MAKING_EVENT_QUEUE_REMOVED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-queue-removed)
@@ -301,7 +301,7 @@ EVENT_MATCH_MAKING_EVENT_REMOVED
 
 - **`eventId`** (`ObjectId`) - id удалённого инстанс-ивента.
 
-## Смотрите также
+### Смотрите также
 
 - [matchMaking.ListenEvents](/api/category/matchMaking/function.matchMaking.ListenEvents.md)
 
@@ -321,7 +321,7 @@ EVENT_MATCH_MAKING_EVENTS_AVAILABILITY_CHANGED
 
 - **`isAvailable`** (`boolean`) - true если способность появилась, иначе false.
 
-## Смотрите также
+### Смотрите также
 
 - [matchMaking.CanUseMatchMaking](/api/category/matchMaking/function.matchMaking.CanUseMatchMaking.md)
 - [EVENT_MATCH_MAKING_EVENT_AVAILABILITY_CHANGED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-availability-changed)
@@ -360,7 +360,7 @@ EVENT_MATCH_MAKING_EVENT_TELEPORT_REJECTED
 
 - **`isTimeout`** (`boolean`) - если true, то приглашение потеряло силу из-за истечения времени, если false, то из-за отказа игрока или кого-то из членов группы.
 
-## Смотрите также
+### Смотрите также
 
 - [EVENT_MATCH_MAKING_EVENT_TELEPORT_REQUEST](/api/events/events.EVENT_MATCH_.md#event-match-making-event-teleport-request)
 
@@ -400,7 +400,7 @@ EVENT_MATCH_MAKING_EVENT_VISITS_CHANGED
 
 - **`eventId`** (`ObjectId`) - id добавленного инстанс-ивента.
 
-## Смотрите также
+### Смотрите также
 
 - [EVENT_LFG_DESTINATION_CHANGED](/api/events/events.EVENT_LFG_.md#event-lfg-destination-changed)
 
@@ -420,7 +420,7 @@ EVENT_MATCH_MAKING_JOIN_TIME_CHANGED
 
 - **`eventId`** (`ObjectId`) - id инстанс-ивента, для которого изменилась оценка времени ожидания присоединения.
 
-## Смотрите также
+### Смотрите также
 
 - [matchMaking.ListenEvents](/api/category/matchMaking/function.matchMaking.ListenEvents.md)
 
@@ -456,7 +456,7 @@ EVENT_MATCH_MAKING_PROGRESS_ACHIEVEMENTS_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [matchMaking.GetEventProgressInfo](/api/category/matchMaking/function.matchMaking.GetEventProgressInfo.md)
 
