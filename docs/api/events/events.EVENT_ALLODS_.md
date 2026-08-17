@@ -28,7 +28,7 @@ EVENT_ALLODS_GOAL_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [common.GetAllodsGoals](/api/category/common/function.common.GetAllodsGoals.md)
 
