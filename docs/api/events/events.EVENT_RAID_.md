@@ -243,6 +243,8 @@ EVENT_RAID_LEADER_CHANGED
 
 ## EVENT_RAID_LEADER_HELPER_CHANGED
 
+[<Badge type="warning" text="^17.1.*" />](/index.md#17.0.0-UniqueId) [<Badge type="warning" text="^18.0.0" />](/index.md#17.0.0-UniqueId) <Badge type="warning" text="Process" />
+
 ### Описание
 
 ```lua
@@ -260,6 +262,8 @@ EVENT_RAID_LEADER_HELPER_CHANGED
 
 ## EVENT_RAID_LOOT_MASTER_CHANGED
 
+[<Badge type="warning" text="^17.1.*" />](/index.md#17.0.0-UniqueId) [<Badge type="warning" text="^18.0.0" />](/index.md#17.0.0-UniqueId) <Badge type="warning" text="Process" />
+
 ### Описание
 
 ```lua
@@ -276,6 +280,8 @@ EVENT_RAID_LOOT_MASTER_CHANGED
 ---
 
 ## EVENT_RAID_MEMBER_ADDED
+
+[<Badge type="warning" text="^17.1.*" />](/index.md#17.0.0-UniqueId) [<Badge type="warning" text="^18.0.0" />](/index.md#17.0.0-UniqueId) <Badge type="warning" text="Process" />
 
 ### Описание
 
@@ -295,6 +301,8 @@ EVENT_RAID_MEMBER_ADDED
 
 ## EVENT_RAID_MEMBER_CHANGED
 
+[<Badge type="warning" text="^17.1.*" />](/index.md#17.0.0-UniqueId) [<Badge type="warning" text="^18.0.0" />](/index.md#17.0.0-UniqueId) <Badge type="warning" text="Process" />
+
 ### Описание
 
 ```lua
@@ -309,7 +317,7 @@ EVENT_RAID_MEMBER_CHANGED
 - **`id`** (`ObjectId` | `nil`) - Идентификатор игрока, если доступен.
 - **`uniqueId`** (`UniqueId` | `nil`) - Уникальный постоянный идентификатор персонажа.
 
-## Смотрите также
+### Смотрите также
 
 - [RAID_MEMBER_STATE_*](/api/constants/constants.RAID_MEMBER_STATE.md)
 
@@ -332,6 +340,8 @@ EVENT_RAID_MEMBER_POSITION_UPDATED
 ---
 
 ## EVENT_RAID_MEMBER_REMOVED
+
+[<Badge type="warning" text="^17.1.*" />](/index.md#17.0.0-UniqueId) [<Badge type="warning" text="^18.0.0" />](/index.md#17.0.0-UniqueId) <Badge type="warning" text="Process" />
 
 ### Описание
 
@@ -364,6 +374,6 @@ EVENT_RAID_SAVE_MAP_QUESTION
 - **`timeoutMs`** (`number`) - Таймаут на ответ в миллисекундах.
 - **`mapName`** (`WString` | `nil`) - Название локации, если возможно получить.
 
-### Смотрите также
+#### Смотрите также
 
 - [raid.MapSaveResponse](/api/category/raid/function.raid.MapSaveResponse.md)
