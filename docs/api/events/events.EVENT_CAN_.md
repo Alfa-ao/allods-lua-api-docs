@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_CAN_CREATE_GUILD_HERE_RESPONSE
 
 ### Описание
