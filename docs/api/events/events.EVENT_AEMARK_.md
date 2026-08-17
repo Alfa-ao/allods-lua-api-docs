@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_AEMARK_POINT_CLICKED
 
 ### Описание
