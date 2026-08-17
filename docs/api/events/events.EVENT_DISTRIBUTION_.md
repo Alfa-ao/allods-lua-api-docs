@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_DISTRIBUTION_FINISHED
 
 ### Описание
