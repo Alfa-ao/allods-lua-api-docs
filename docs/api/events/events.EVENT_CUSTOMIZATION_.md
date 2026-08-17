@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_CUSTOMIZATION_ACTIVE_SLOT_CHANGED
 
 ### Описание
