@@ -15,7 +15,7 @@ EVENT_BILLINGINFO_BONUS_CHANGED
 
 - **`bonusId`** (`BillingBonusId`) - идентификатор бонуса, информация о котором изменилась.
 
-## Смотрите также
+### Смотрите также
 
 - [rules.BillingInfoGetBonusInfo](/api/category/rules/function.rules.BillingInfoGetBonusInfo.md)
 
@@ -35,7 +35,7 @@ EVENT_BILLINGINFO_BONUS_STATUS_CHANGED
 
 - **`status`** (`string`) - статус выполнения запроса (`"ENUM_MsgGetBonusListResultResult_..."`). Указывает, удачно ли выполнен запрос или причину неудачи.
 
-## Смотрите также
+### Смотрите также
 
 - [rules.BillingInfoUpdate](/api/category/rules/function.rules.BillingInfoUpdate.md)
 - [rules.BillingInfoGetBonusInfo](/api/category/rules/function.rules.BillingInfoGetBonusInfo.md)
