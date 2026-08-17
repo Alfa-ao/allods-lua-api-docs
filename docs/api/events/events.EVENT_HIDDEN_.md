@@ -16,6 +16,6 @@ EVENT_HIDDEN_CURRENCY_VALUE_CHANGED
 
 - **`sysName`** (`string`) - внутреннее имя альтернативной валюты.
 
-## Смотрите также
+### Смотрите также
 
 - [EVENT_CURRENCY_VALUE_CHANGED](/api/events/events.EVENT_CURRENCY_.md#event-currency-value-changed)
