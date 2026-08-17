@@ -90,7 +90,11 @@ class SidebarGenerator
                 $stack[$depth + 1] = &$context[$lastIndex]['items'];
                 
             } elseif ($file->isFile() && $file->getExtension() === 'md') {
-                if ($filename === 'index.md') {
+                // Фильтр для игнорирования файлов
+                $ignoreList = $this->config['ignore'] ?? [];
+            
+                if ( in_array ( $filename, $ignoreList ) )
+                {
                     continue;
                 }
                 
@@ -157,10 +161,11 @@ class SidebarGenerator
 
 $generator = new SidebarGenerator('docs', [
     'ignore' => [
-        'docs/.vitepress',
-        'docs/public',
-        'docs/search.md',
-        'docs/changelog',
+        '.vitepress',
+        'changelog',
+        'public',
+        'index.md',
+        'search.md',
     ],
     'rename' => [
         'text' => [
