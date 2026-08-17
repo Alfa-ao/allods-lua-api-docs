@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_CONTEXT_ACTION_POINT_STARTED
 
 ### Описание
