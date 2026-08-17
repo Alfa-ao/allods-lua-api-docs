@@ -1,6 +1,3 @@
----
-outline: deep
----
 ## EVENT_CHARACTER_CLASS_CHANGER_CHANGED
 
 ### Описание
