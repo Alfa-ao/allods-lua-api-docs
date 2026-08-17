@@ -10,8 +10,7 @@ WidgetSafe:GetChildChecked( name: string, recursive: boolean|nil ): WidgetSafe
 
 Функция выполняет поиск дочернего элемента управления по имени. 
 
-::: danger
-Если элемент не найден, происходит ошибка.
+::: danger Если элемент не найден, происходит ошибка.
 
 ```
 Widgets::GetChildWidget: Widget [1146][WidgetPanel]: (<Addon_Name>)->mainForm.wt..., Resource: [Serialized] hasn't child with name: <name>
@@ -25,7 +24,10 @@ Widgets::GetChildWidget: Widget [1146][WidgetPanel]: (<Addon_Name>)->mainForm.wt
 
 - **`name`** (`string`) - Название искомого виджета.
 
-::: danger <Badge type="danger" text="^18.0.0 - (Deprecated)" /> 
+::: danger Deprecated
+
+[<Badge type="warning" text="^18.0.0" />](/index.md#18.0.0-WidgetSafe) <Badge type="tip" text="Pre-release" />
+
 - **`recursive`** (`boolean` | `nil`) - Флаг, определяющий необходимость рекурсивного поиска среди вложенных контролов. По умолчанию `false`.
 :::
 
