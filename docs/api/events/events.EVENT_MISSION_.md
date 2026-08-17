@@ -12,7 +12,7 @@ EVENT_MISSION_FREE_PORTRAIT_SLOT
 
 - **`slot`** (`number`) - слот с портретом.
 
-## Смотрите также
+### Смотрите также
 
 - [mission.FreePortrait](/api/category/mission/function.mission.FreePortrait.md)
 - [mission.SetPortraitBackgroundTexture](/api/category/mission/function.mission.SetPortraitBackgroundTexture.md)
@@ -49,7 +49,7 @@ EVENT_MISSION_RULE_ADDED
 
 - **`ruleId`** (`RuleId`) - идентификатор ресурса события.
 
-## Смотрите также
+### Смотрите также
 
 - [rules.GetEventByRuleId](/api/category/rules/function.rules.GetEventByRuleId.md)
 
@@ -69,7 +69,7 @@ EVENT_MISSION_RULE_CHANGED
 
 - **`ruleId`** (`RuleId`) - идентификатор ресурса события.
 
-## Смотрите также
+### Смотрите также
 
 - [rules.GetEventByRuleId](/api/category/rules/function.rules.GetEventByRuleId.md)
 
@@ -105,7 +105,7 @@ EVENT_MISSION_RULE_REMOVED
 
 - **`ruleId`** (`RuleId`) - идентификатор ресурса события.
 
-## Смотрите также
+### Смотрите также
 
 - [rules.GetEventByRuleId](/api/category/rules/function.rules.GetEventByRuleId.md)
 
