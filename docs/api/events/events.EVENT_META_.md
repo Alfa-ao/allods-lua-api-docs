@@ -62,7 +62,7 @@ EVENT_META_UPGRADE_RESULT
 
 - **`resultId`** (`ObjectId`) - идентификатор полученного предмета.
 
-## Смотрите также
+### Смотрите также
 
 - [avatar.UpgradeMetaItem](/api/category/avatar/function.avatar.UpgradeMetaItem.md)
 - [avatar.GetMetaUpgradeResults](/api/category/avatar/function.avatar.GetMetaUpgradeResults.md)
