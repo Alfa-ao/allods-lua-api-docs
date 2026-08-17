@@ -28,7 +28,7 @@ EVENT_TARGET_SALES_ADDED
 
 - **`id`** (`ObjectId`) - Идентификатор.
 
-## Смотрите также
+### Смотрите также
 
 - [avatar.GetTargetSales](/api/category/avatar/function.avatar.GetTargetSales.md)
 
@@ -44,6 +44,6 @@ EVENT_TARGET_SALES_CHANGED
 ### Список параметров
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [avatar.GetTargetSales](/api/category/avatar/function.avatar.GetTargetSales.md)
