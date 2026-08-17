@@ -60,7 +60,7 @@ EVENT_PLAYER_TITLE_CHANGED
 
 - **`id`** (`ObjectId`) - идентификатор юнита.
 
-## Смотрите также
+### Смотрите также
 
 - [unit.GetPlayerTitle](/api/category/unit/function.unit.GetPlayerTitle.md)
 
@@ -80,6 +80,6 @@ EVENT_PLAYER_TITLES_CHANGED
 
 - **`id`** (`ObjectId`) - идентификатор персонажа.
 
-## Смотрите также
+### Смотрите также
 
 - [unit.GetPlayerTitle](/api/category/unit/function.unit.GetPlayerTitle.md)
