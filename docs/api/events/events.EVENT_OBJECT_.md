@@ -236,7 +236,7 @@ EVENT_OBJECT_DIMINISHING_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [object.GetDiminishingState](/api/category/object/function.object.GetDiminishingState.md)
 
@@ -260,7 +260,7 @@ EVENT_OBJECT_DIMINISHING_GROUP_CHANGED
 
 - **`level`** (`number`) - уровень диминишинга (от 0 до 3, где 0 - полное отсутствие диминишинга, 3 - полное сопротивление контролям из данной группы).
 
-## Смотрите также
+### Смотрите также
 
 - [ENUM_DiminishingGroup](/api/enums/enums.ENUM_DiminishingGroup.md)
 - [EVENT_OBJECT_DIMINISHING_CHANGED](/api/events/events.EVENT_OBJECT_.md#event-object-diminishing-changed)
@@ -293,7 +293,7 @@ EVENT_OBJECT_HEALTH_CHANGED
 
 - **`isInvulnerableChanged`** (`boolean`) - поменялся ли `isInvulnerable` (состояние неуязвимости).
 
-## Смотрите также
+### Смотрите также
 
 - [object.GetHealthInfo](/api/category/object/function.object.GetHealthInfo.md)
 
@@ -319,7 +319,7 @@ EVENT_OBJECT_MANA_CHANGED
 
 - **`manaPercentsDelta`** (`number` | `nil`) - на сколько изменилась относительная величина маны, если такая информация доступна для этого объекта.
 
-## Смотрите также
+### Смотрите также
 
 - [object.GetManaInfo](/api/category/object/function.object.GetManaInfo.md)
 
