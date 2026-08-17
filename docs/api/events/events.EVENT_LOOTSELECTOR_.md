@@ -12,6 +12,6 @@ EVENT_LOOTSELECTOR_CHANGED
 
 Параметры отсутствуют.
 
-## Смотрите также
+### Смотрите также
 
 - [loot.GetLootGroupPartInfo](/api/category/loot/function.loot.GetLootGroupPartInfo.md)
