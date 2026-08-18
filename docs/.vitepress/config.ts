@@ -47,6 +47,8 @@ export default defineConfig( {
     lang: 'ru-RU',
     
     head: [
+        ['meta', { name: 'yandex-verification', content: '21833890508c0856' }],
+        ['meta', { name: 'google-site-verification', content: 'g3L7ZeF4Q12uQLXbVaYlDeSTpaLpW0bgbPAjm-0_N4I' }],
         ['link', { rel: 'icon', type: 'image/x-icon', href: `${base}/favicon.ico` }],
         // ['style', {}, `
         //     :root {
@@ -62,8 +64,9 @@ export default defineConfig( {
         logo: '/logo.png', // docs/public/logo.png
         nav: [
             { text: 'Главная', link: '/' },
-            { text: 'Руководства', link: '/guides/introduction' },
-            { text: 'API Справочник', link: '/api/' }
+            { text: 'Сообщить об неточности', link: 'https://github.com/Alfa-ao/allods-lua-api-docs/issues/new' },
+            //{ text: 'Руководства', link: '/guides/introduction' },
+            //{ text: 'API Справочник', link: '/api/' }
         ],
         
         //sidebar,
