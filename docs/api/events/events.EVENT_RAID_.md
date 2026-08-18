@@ -279,6 +279,32 @@ EVENT_RAID_LOOT_MASTER_CHANGED
 
 ---
 
+## EVENT_RAID_MEMBER_ACTIVE_PET_CHANGED
+
+[<Badge type="warning" text="17.0.01.43" />](/index.md#17.0.0-..._MEMBER_ACTIVE_PET_CHANGED)
+
+### Описание
+
+```lua
+EVENT_RAID_MEMBER_ACTIVE_PET_CHANGED
+```
+
+Событие присылается если у одного из членов в рейде меняется питомец.
+
+События взаимоисключающие.
+- Если игрок в Группе: игра отправит только `EVENT_GROUP_MEMBER_ACTIVE_PET_CHANGED`. Рейдовое событие не сработает.
+- Если игрок в Рейде: игра отправит только `EVENT_RAID_MEMBER_ACTIVE_PET_CHANGED`. Групповое событие не сработает.
+
+### Список параметров
+
+- **`playerId`** (`ObjectId`) - идентификатор члена рейда.
+
+### Смотрите также
+
+- [EVENT_PARTY_MEMBER_ACTIVE_PET_CHANGED](/api/events/events.EVENT_PARTY_.md#event-party-member-active-pet-changed)
+
+---
+
 ## EVENT_RAID_MEMBER_ADDED
 
 [<Badge type="warning" text="^17.1.*" />](/index.md#17.0.0-UniqueId) [<Badge type="warning" text="^18.0.0" />](/index.md#17.0.0-UniqueId) <Badge type="warning" text="Process" />
@@ -374,6 +400,15 @@ EVENT_RAID_SAVE_MAP_QUESTION
 - **`timeoutMs`** (`number`) - Таймаут на ответ в миллисекундах.
 - **`mapName`** (`WString` | `nil`) - Название локации, если возможно получить.
 
-#### Смотрите также
+### Смотрите также
 
 - [raid.MapSaveResponse](/api/category/raid/function.raid.MapSaveResponse.md)
+
+
+
+
+
+
+
+
+
