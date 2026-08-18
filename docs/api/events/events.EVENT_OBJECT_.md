@@ -301,6 +301,8 @@ EVENT_OBJECT_HEALTH_CHANGED
 
 ## EVENT_OBJECT_MANA_CHANGED
 
+[<Badge type="warning" text="17.0.01.43" />](/index.md#17.0.0-EVENT_MANA)
+
 ### Описание
 
 ```
