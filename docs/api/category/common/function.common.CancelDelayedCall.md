@@ -1,5 +1,8 @@
 # common.CancelDelayedCall
+
 Отменяет запланированный отложенный вызов функции.
+
+[<Badge type="warning" text="17.0.01.41" />](/index.md#17.0.0-common.DelayedCall)
 
 ## Описание
 
@@ -15,8 +18,7 @@ common.CancelDelayedCall( functionRef: integer ): boolean
 
 ## Список параметров
 
-- **`functionRef`** (`integer`)
-Ссылка на функцию, полученная из возвращаемого значения `common.DelayedCall`.
+- **`functionRef`** (`integer`) - Ссылка на функцию, полученная из возвращаемого значения `common.DelayedCall`.
 
 ## Возвращаемые значения
 
@@ -25,6 +27,7 @@ common.CancelDelayedCall( functionRef: integer ): boolean
 ## Примеры
 
 ### Отмена отложенного вызова
+
 ```lua
 local callRef = common.DelayedCall( 5000, function()
     LogInfo( "Отложенное действие выполнено." )
