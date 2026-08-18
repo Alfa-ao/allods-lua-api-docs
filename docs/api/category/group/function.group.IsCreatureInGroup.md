@@ -1,5 +1,8 @@
 # group.IsCreatureInGroup
-Возвращает `true`, если указанный игрок или наемник-NPC находится в группе главного игрока.
+
+Находится ли указанный игрок или наемник-NPC в группе главного игрока.
+
+[<Badge type="warning" text="^17.1.*" />](/index.md#17.0.0-UniqueId) [<Badge type="warning" text="^18.0.0" />](/index.md#17.0.0-UniqueId) <Badge type="warning" text="Process" />
 
 ## Описание
 
