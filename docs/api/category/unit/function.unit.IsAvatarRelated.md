@@ -2,7 +2,7 @@
 
 Определяет, связан ли объект с аватаром.
 
-<Badge type="warning" text="17.0.01.43" />
+[<Badge type="warning" text="17.0.01.43" />](/index.md#17.0.0-unit.IsAvatarRelated)
 
 ## Описание
 
