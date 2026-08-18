@@ -169,7 +169,8 @@ $generator = new SidebarGenerator('docs', [
     ],
     'rename' => [
         'text' => [
-            'api' => 'Lua Api',
+            'api' => 'API Справочник',
+            'articles' => 'Иные Pages',
             'events' => 'События (Events)', 
             'constants' => 'Константы (Consts)', 
             'enums' => 'Перечисления (Enums)',
