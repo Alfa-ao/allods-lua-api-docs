@@ -114,10 +114,6 @@ end
 common.RegisterEventHandler( OnDeviceCooldownsEnableChanged, "EVENT_DEVICE_COOLDOWNS_ENABLE_CHANGED" )
 ```
 
-## Смотрите также
-
-- [avatar.GetUsableDeviceInfo]()
-
 ---
 
 ## EVENT_DEVICE_COOLDOWN_STARTED
@@ -176,8 +172,8 @@ common.RegisterEventHandler( OnDeviceDamageReceived, "EVENT_DEVICE_DAMAGE_RECEIV
 
 ## Смотрите также
 
-- [EVENT_UNIT_DAMAGE_RECEIVED]()
-- [common.RegisterEventHandler]()
+- [EVENT_UNIT_DAMAGE_RECEIVED](/api/events/events.EVENT_UNIT_.md#event-unit-damage-received)
+- [common.RegisterEventHandler](/api/category/common/function.common.RegisterEventHandler.md)
 
 ---
 
@@ -264,6 +260,10 @@ end
 
 common.RegisterEventHandler( OnDeviceOfflineReason, "EVENT_DEVICE_OFFLINE_REASON" )
 ```
+
+## Смотрите также
+
+- [ENUM_TurnReason](/api/enums/enums.ENUM_TurnReason.md)
 
 ---
 
