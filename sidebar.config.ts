@@ -1,6 +1,6 @@
 export default [
     {
-        text: "Lua Api",
+        text: "API Справочник",
         items: [
             {
                 text: "Category",
@@ -6243,6 +6243,18 @@ export default [
                         collapsed: true,
                         items: [
                             {
+                                text: "GetMana",
+                                link: "/api/category/unit/deprecated.function.unit.GetMana"
+                            },
+                            {
+                                text: "GetManaPercentage",
+                                link: "/api/category/unit/deprecated.function.unit.GetManaPercentage"
+                            },
+                            {
+                                text: "GetPetName",
+                                link: "/api/category/unit/deprecated.function.unit.GetPetName"
+                            },
+                            {
                                 text: "CanHaveEnemy",
                                 link: "/api/category/unit/function.unit.CanHaveEnemy"
                             },
@@ -8967,7 +8979,7 @@ export default [
         ]
     },
     {
-        text: "Articles",
+        text: "Иные Pages",
         items: [
             {
                 text: "CategoryQuestionType",
