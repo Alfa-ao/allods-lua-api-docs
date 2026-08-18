@@ -1,5 +1,8 @@
 # avatar.GetQuestsLimit
+
 Возвращает текущее и максимально допустимое количество заданий в журнале заданий.
+
+[<Badge type="warning" text="17.0.01.23" />](/index.md#17.0.0-avatar.GetQuestsLimit)
 
 ## Описание
 
@@ -26,6 +29,7 @@ avatar.GetQuestsLimit(): number, number
 ## Примеры
 
 ### Вывод информации о лимитах заданий в лог
+
 ```lua
 local current, max = avatar.GetQuestsLimit()
 LogInfo( "Limit: ", current, " / ", max )
