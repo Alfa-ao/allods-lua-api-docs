@@ -1,5 +1,7 @@
 ## EVENT_GLOBAL_COOLDOWN
 
+16.0.00.42
+
 ### Описание
 
 ```
