@@ -50,15 +50,6 @@ export default defineConfig( {
         ['meta', { name: 'yandex-verification', content: '21833890508c0856' }],
         ['meta', { name: 'google-site-verification', content: 'g3L7ZeF4Q12uQLXbVaYlDeSTpaLpW0bgbPAjm-0_N4I' }],
         ['link', { rel: 'icon', type: 'image/x-icon', href: `${base}/favicon.ico` }],
-        // ['style', {}, `
-        //     :root {
-        //         --vp-sidebar-width: 320px; /* Увеличиваем ширину сайдбара */
-        //     }
-        //     .VPSidebar {
-        //         padding-left: 32px !important;
-        //         padding-right: 32px !important;
-        //     }`
-        // ]
     ],
     themeConfig: {
         logo: '/logo.png', // docs/public/logo.png
