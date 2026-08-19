@@ -38,7 +38,7 @@ outline: deep
 Релиз в грядущем обновлении.
 
 - [stateMainForm](#18.0.0-stateMainForm)
-- [WidgetSafe](#18.0.0-WidgetSafe) - GetChildChecked, GetChildUnchecked.
+- [WidgetSafe](#18.0.0-WidgetSafe)
 - [EVENT_..._EFFECT](#18.0.0-EVENT__EFFECT)
 - [spellLib.*DurationBuff](#18.0.0-spellLib._DurationBuff)
 - [EVENT_*](#18.0.0-EVENT_*)
@@ -69,6 +69,7 @@ outline: deep
 
 - [UNIT_MANA](#17.0.0-UNIT_MANA)
 - [unit.GetPetName](#17.0.0-unit.GetPetName)
+- [matchMaking.CanJoinInstancedEvent...](#17.0.0-matchMaking.CanJoinInstancedEvent)
 
 ::: 
 
