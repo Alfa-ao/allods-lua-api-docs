@@ -39,4 +39,4 @@
 
 ## Перечисления (Константы)
 
-<!--@include: @/api/category/ValuedObject/index.md{5,32}-->
+<!--@include: @/api/constants/constants.VAL_OBJ_TYPE_.md{5,32}-->
