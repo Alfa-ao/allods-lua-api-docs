@@ -5,7 +5,7 @@
 ## Описание
 
 ```lua
-RelatedTexturesLua:HasTexture( sysName )
+RelatedTexturesLua:HasTexture( sysName ): boolean
 ```
 
 Проверка существования текстуры с данным идентификатором в группе.
