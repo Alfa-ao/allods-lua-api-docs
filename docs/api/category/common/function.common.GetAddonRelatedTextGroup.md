@@ -1,4 +1,5 @@
 # common.GetAddonRelatedTextGroup
+
 Возвращает группу связанных с аддоном текстовых ресурсов.
 
 ## Описание
@@ -11,10 +12,8 @@ common.GetAddonRelatedTextGroup( sysGroup: string, optional: boolean|nil ): Rela
 
 ## Список параметров
 
-- **`sysGroup`** (`string`)
-Идентификатор искомой группы текстовых ресурсов.
-- **`optional`** (`boolean` | `nil`)
-Флаг, определяющий поведение при отсутствии группы. Если передано `true`, отсутствие искомой группы не считается ошибкой. По умолчанию принимает значение `false`.
+- **`sysGroup`** (`string`) - Идентификатор искомой группы текстовых ресурсов.
+- **`optional`** (`boolean` | `nil`) - Флаг, определяющий поведение при отсутствии группы. Если передано `true`, отсутствие искомой группы не считается ошибкой. По умолчанию принимает значение `false`.
 
 ## Возвращаемые значения
 
@@ -121,4 +120,5 @@ end
 
 ## Смотрите также
 
-- [RelatedTextsLua](/api/types/RelatedTextsLua.md)
+- [RelatedTextsLua](/api/types/LuaApi.md)
+- [common.GetStateRelatedTextGroup](function.common.GetStateRelatedTextGroup.md)
