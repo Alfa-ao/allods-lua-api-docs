@@ -5,7 +5,7 @@
 ## Описание
 
 ```lua
-wheelOfLoot.GetInfo( id: number )
+wheelOfLoot.GetInfo( id: number ): table
 ```
 
 Функция извлекает и возвращает данные запрашиваемого колеса лута.
