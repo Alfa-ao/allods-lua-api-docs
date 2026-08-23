@@ -14,6 +14,18 @@ auction.GetAuctions(): table
 Функция не выполняет самостоятельный поиск. Она лишь возвращает результаты уже выполненного запроса `auction.Search`.
 :::
 
+::: warning Game::LuaAuctionGetAuctions: player cannot use auction
+Во избежании данной ошибки стоит использовать следующее:
+
+```lua
+local interactorInfo = avatar.GetInteractorInfo()
+    
+if interactorInfo and interactorInfo.isAuction then
+    return auction.GetAuctions()
+end
+```
+:::
+
 ## Список параметров
 
 Параметры отсутствуют.
@@ -40,3 +52,7 @@ end
 ::: info Описание примера
 В примере сначала извлекается таблица идентификаторов аукционов. Затем с помощью цикла `for` происходит перебор всех элементов таблицы. Поскольку индексация начинается с нуля, цикл выполняется от `0` до `GetTableSize(auctions) - 1`. На каждой итерации идентификатор передается в функцию `auction.GetAuctionInfo` для получения детальной информации о конкретном аукционе.
 :::
+
+## Смотрите также
+
+- [avatar.GetInteractorInfo](/api/category/avatar/function.avatar.GetInteractorInfo.md)
