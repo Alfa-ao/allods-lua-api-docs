@@ -25,7 +25,7 @@ outline: deep
 `ValuedText` создаётся с помощью функции [`common.CreateValuedText( values )`](/api/category/common/function.common.CreateValuedText.md).
 
 ::: warning Важно
-Lua работает с `userdata` по ссылке, а не по значению. Поэтому для создания отдельной копии `ValuedText` нужно пользоваться специальной функцией [`ValuedText:CreateCopy`](method.CreateCopy.md).
+Lua работает с `userdata` по ссылке, а не по значению. Поэтому для создания отдельной копии `ValuedText` нужно пользоваться специальной функцией [`ValuedText:CreateCopy`](/api/category/ValuedText/method.CreateCopy.md).
 :::
 
 **Перегруженные операции:**
@@ -36,14 +36,14 @@ Lua работает с `userdata` по ссылке, а не по значен�
 ## Подстановка значений
 
 Новые значения подставляются с помощью следующих методов:
-- [`ValuedText:SetTextValues( values )`](method.SetTextValues.md)
-- [`ValuedText:SetVal( key, value )`](method.SetVal.md)
-- [`ValuedText:SetClassVal( key, value )`](method.SetClassVal.md)
-- [`ValuedText:SetTagAttributes( isRTag, tagName, tagAttributes )`](method.SetTagAttributes.md)
+- [`ValuedText:SetTextValues( values )`](/api/category/ValuedText/method.SetTextValues.md)
+- [`ValuedText:SetVal( key, value )`](/api/category/ValuedText/method.SetVal.md)
+- [`ValuedText:SetClassVal( key, value )`](/api/category/ValuedText/method.SetClassVal.md)
+- [`ValuedText:SetTagAttributes( isRTag, tagName, tagAttributes )`](/api/category/ValuedText/method.SetTagAttributes.md)
 
 ::: warning Не рекомендуется использовать
-- [`ValuedText:SetFormat( format )`](method.SetFormat.md)
-- [`ValuedText:SetPlainText( text )`](method.SetPlainText.md)
+- [`ValuedText:SetFormat( format )`](/api/category/ValuedText/method.SetFormat.md)
+- [`ValuedText:SetPlainText( text )`](/api/category/ValuedText/method.SetPlainText.md)
 :::
 
 Для подстановки используются только теги `<r/>` и `<rs>...</rs>`.
