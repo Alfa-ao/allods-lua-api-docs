@@ -103,8 +103,8 @@
 
 ## Работа с текстом
 
-- [**`WString`**](/api/category/WString/) - локализуемая строка.
+- [**`WString`**](/api/types/WString.md) - локализуемая строка.
 
-- [**`ValuedText`**](ValuedText.md) - размеченный текст с подстановками.
+- [**`ValuedText`**](/api/types/ValuedText.md) - размеченный текст с подстановками.
 
-- [**`ValuedObject`**](/api/category/ValuedObject/) - обертка игрового объекта для подстановки в `ValuedText`.
+- [**`ValuedObject`**](/api/types/ValuedObject.md) - обертка игрового объекта для подстановки в `ValuedText`.
