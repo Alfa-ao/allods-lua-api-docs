@@ -35,11 +35,11 @@
     Тип `UniqueId` меняется с userdata на `number (int64)` во всех связанных API. Соответственно все методы `UniqueId` исчезают.
     :::
 
-- [**`ResourceId`**](/api/category/ResourceId/) - группа типов, являющихся идентификаторами ресурсов из базы. Идентификаторы можно сравнивать, используя [`ResourceId:IsEqual( resource )`](/api/category/ResourceId/method.IsEqual.md).
+- [**`ResourceId`**](/api/category/ResourceId/) - группа типов, являющихся идентификаторами ресурсов из базы. Идентификаторы можно сравнивать, используя [**`ResourceId:IsEqual`**](/api/category/ResourceId/method.IsEqual.md).
     - **`ComponentPropertyId`** - идентификатор компонента для крафтинга (в данный момент только алхимия).
     
     - **`QuestId`** - идентификатор квеста.
-        - Поля, доступные в [`ItemId:GetInfo()`](/api/category/ResourceId/method.GetInfo.md)
+        - Поля, доступные в [**`ItemId:GetInfo`**](/api/category/ResourceId/method.GetInfo.md)
         
         ```
         finishText: WString - финальное описание
@@ -51,7 +51,7 @@
         questCategory: Number(ENUM_QuestCategory) - категория квеста
         ```
         
-        - [`ENUM_QuestCategory`](/api/enums/enums.ENUM_QuestCategory.md)
+        - [**`ENUM_QuestCategory`**](/api/enums/enums.ENUM_QuestCategory.md)
         
     - **`SpellId`** - идентификатор умения (spell).
 
@@ -69,13 +69,15 @@
 
 - **`Color`** - цвет в виде таблицы с полями `a`, `r`, `g`, `b` типа `number (float)`. Диапазон значений `[0..1]`. Пример: `{ r = 1, g = 0, b = 0, a = 0.2 }`.
     
-    - [<Badge type="warning" text="15.0.02.04" />](/index.md#15.0.0-LuaApiTypes-Color) - Теперь цвет можно передать не только в виде таблицы, но и в виде числа `0xAARRGGBB` или hex-строки `"0xAARRGGBB"`.
+    - [<Badge type="warning" text="15.0.02.04" />](/index.md#15.0.0-LuaApiTypes-Color) - Теперь цвет можно передать не только в виде таблицы, но и в виде числа `0xAA0000FF` или hex-строки `"0xAA0000FF"`.
 
 - **`GamePosition`** - игровые координаты.
 
-- **`RelatedTextsLua`** - группа текстовых ресурсов.
+- [**`RelatedTextsLua`**](RelatedTextsLua.md) - Объект, представляющий собой группу текстовых ресурсов.
 
-- **`RelatedTexturesLua`** - группа текстурных ресурсов.
+- [**`RelatedTexturesLua`**](RelatedTexturesLua.md) - Объект, представляющий собой группу текстурных ресурсов.
+
+- [**`RelatedWidgetsLua`**](RelatedWidgetsLua.md) - Объект, представляющий собой группу шаблонов виджетов..
 
 ## Типы виджетов
 
@@ -83,7 +85,7 @@
 
 - **`WidgetsSystemSafe`** - система виджетов в целом.
 
-- **`WidgetSafe`** - базовый тип для виджетов. Можно сравнивать, используя [`ResourceId:IsEqual( resource )`](/api/category/ResourceId/method.IsEqual.md).
+- **`WidgetSafe`** - базовый тип для виджетов. Можно сравнивать, используя [**`ResourceId:IsEqual( resource )`**](/api/category/ResourceId/method.IsEqual.md).
 
 - **`ButtonSafe`** - кнопка.
 
@@ -103,6 +105,6 @@
 
 - [**`WString`**](/api/category/WString/) - локализуемая строка.
 
-- [**`ValuedText`**](/api/category/ValuedText/) - размеченный текст с подстановками.
+- [**`ValuedText`**](ValuedText.md) - размеченный текст с подстановками.
 
 - [**`ValuedObject`**](/api/category/ValuedObject/) - обертка игрового объекта для подстановки в `ValuedText`.
