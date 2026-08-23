@@ -23,7 +23,7 @@ ValuedTextSafe:HasObjects(): boolean
 ### Проверка наличия объектов
 
 ```lua
-if IsVt( object.desc ) and object.desc:HasObjects() then -- (HELP) IsVt
+if apitype( object.desc ) == "ValuedText" and object.desc:HasObjects() then
     LogInfo( "Need handle mouseover" )
 end
 ```
