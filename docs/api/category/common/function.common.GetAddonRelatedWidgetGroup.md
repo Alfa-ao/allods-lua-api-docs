@@ -86,4 +86,5 @@ end
 
 ## Смотрите также
 
-- [RelatedTexturesLua](/api/types/RelatedTexturesLua.md)
+- [RelatedWidgetsLua](/api/types/LuaApi.md)
+- [common.GetStateRelatedWidgetGroup](function.common.GetStateRelatedWidgetGroup.md)
