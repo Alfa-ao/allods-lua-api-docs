@@ -27,7 +27,7 @@ ValuedTextSafe:IsEmpty(): boolean
 ### Проверка текста на пустоту
 
 ```lua
-if IsVt( object.desc ) and not object.desc:IsEmpty() then -- (HELP) IsVt
+if apitype( object.desc ) == "ValuedText" and not object.desc:IsEmpty() then
     LogInfo( "Object description:", object.desc )
 end
 ```
