@@ -98,4 +98,5 @@ end
 
 ## Смотрите также
 
-- [RelatedTexturesLua](/api/types/RelatedTexturesLua.md)
+- [RelatedTexturesLua](/api/types/LuaApi.md)
+- [common.GetStateRelatedTextureGroup](function.common.GetStateRelatedTextureGroup.md)
