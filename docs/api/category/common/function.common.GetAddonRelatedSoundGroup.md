@@ -1,4 +1,5 @@
 # common.GetAddonRelatedSoundGroup
+
 Извлекает группу звуковых ресурсов, связанных с аддоном.
 
 ## Описание
@@ -15,10 +16,9 @@ common.GetAddonRelatedSoundGroup( sysGroup: string, optional: boolean | nil ): R
 
 ## Список параметров
 
-- **`sysGroup`** (`string`)
-Идентификатор запрашиваемой звуковой группы.
-- **`optional`** (`boolean` | `nil`)
-Флаг, определяющий поведение при отсутствии искомой группы. Если передано `true`, отсутствие группы не считается ошибкой. По умолчанию принимает значение `false`.
+- **`sysGroup`** (`string`) - Идентификатор запрашиваемой звуковой группы.
+
+- **`optional`** (`boolean` | `nil`) - Флаг, определяющий поведение при отсутствии искомой группы. Если передано `true`, отсутствие группы не считается ошибкой. По умолчанию принимает значение `false`.
 
 ## Возвращаемые значения
 
@@ -27,10 +27,12 @@ common.GetAddonRelatedSoundGroup( sysGroup: string, optional: boolean | nil ): R
 ## Примеры
 
 ### Получение группы звуковых ресурсов
+
 ```lua
 local group = common.GetAddonRelatedSoundGroup( "TestGroup" )
 ```
 
 ## Смотрите также
 
-- [RelatedSoundsLua](/api/types/RelatedSoundsLua.md)
+- [RelatedSoundsLua](/api/types/LuaApi.md)
+- [common.GetStateRelatedSoundGroup](function.common.GetStateRelatedSoundGroup.md)
