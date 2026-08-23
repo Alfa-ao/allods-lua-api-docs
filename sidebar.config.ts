@@ -4191,6 +4191,14 @@ export default [
                         collapsed: true,
                         items: [
                             {
+                                text: "CanJoinInstancedEventById",
+                                link: "/api/category/matchMaking/deprecated.function.matchMaking.CanJoinInstancedEventById"
+                            },
+                            {
+                                text: "CanJoinInstancedEvents",
+                                link: "/api/category/matchMaking/deprecated.function.matchMaking.CanJoinInstancedEvents"
+                            },
+                            {
                                 text: "AwayBattleEvent",
                                 link: "/api/category/matchMaking/function.matchMaking.AwayBattleEvent"
                             },
@@ -6615,8 +6623,7 @@ export default [
                                 text: "GetType",
                                 link: "/api/category/ValuedObject/method.GetType"
                             }
-                        ],
-                        link: "/api/category/ValuedObject/index"
+                        ]
                     },
                     {
                         text: "ValuedText",
@@ -6662,8 +6669,7 @@ export default [
                                 text: "ToWString",
                                 link: "/api/category/ValuedText/method.ToWString"
                             }
-                        ],
-                        link: "/api/category/ValuedText/index"
+                        ]
                     },
                     {
                         text: "WheelOfLoot",
@@ -7524,8 +7530,7 @@ export default [
                                 text: "Truncate",
                                 link: "/api/category/WString/WString.Truncate"
                             }
-                        ],
-                        link: "/api/category/WString/index"
+                        ]
                     },
                     {
                         text: "__",
@@ -8971,8 +8976,20 @@ export default [
                         link: "/api/types/TimeTableId"
                     },
                     {
+                        text: "ValuedObject",
+                        link: "/api/types/ValuedObject"
+                    },
+                    {
+                        text: "ValuedText",
+                        link: "/api/types/ValuedText"
+                    },
+                    {
                         text: "WishmasterResourceId",
                         link: "/api/types/WishmasterResourceId"
+                    },
+                    {
+                        text: "WString",
+                        link: "/api/types/WString"
                     }
                 ]
             }
