@@ -148,7 +148,7 @@ EVENT_CHAT_MESSAGE_WITH_OBJECTS
 
 ### Смотрите также
 
-- [`TypeValuedObject`](/api/category/ValuedObject/index.md)
+- [`TypeValuedObject`](/api/types/ValuedObject.md)
 
 ---
 
