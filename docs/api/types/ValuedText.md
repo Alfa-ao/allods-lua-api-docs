@@ -272,7 +272,7 @@ local valuedText = common.CreateValuedText{
 <UIAddon>
     <!-- ... -->
 	<styleSheets>
-		<Item href="Widgets/Css/Example.(WidgetCss).xdb" />
+		<Item href="Widgets/Styles.(WidgetCss).xdb" />
 	</styleSheets>
 </UIAddon>
 ```
@@ -292,8 +292,10 @@ local valuedText = common.CreateValuedText {
 3. Стиль, созданный в аддоне, виден всем аддонам, пока загружен его создатель, и может быть использован в любых других аддонах.
 :::
 
-::: success Более подробно можно ознакомиться:
-`Аллоды Онлайн\data\Mods\Docs\ModdingDocuments.zip\ModdingDocuments\ResourceSystem`
+::: info Более подробно можно ознакомиться:
+```
+Аллоды Онлайн\data\Mods\Docs\ModdingDocuments.zip\ModdingDocuments\ResourceSystem
+```
 :::
 
 ---
