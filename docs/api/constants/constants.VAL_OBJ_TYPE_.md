@@ -1,7 +1,7 @@
 # VAL_OBJ_TYPE
 
 Типы идентификаторов значений:
-<!-- A:\GitHub\allods-lua-api-docs\docs\api\types\ValuedObject.md -->
+<!-- A:\GitHub\allods-lua-api-docs\docs\api\types\ValuedObjectLua.md -->
 ```lua
 VAL_OBJ_TYPE_UNKNOWN, -- 0
 VAL_OBJ_TYPE_ITEM, -- 1
@@ -31,4 +31,4 @@ VAL_OBJ_TYPE_LFG_DESTINATION, -- 24
 VAL_OBJ_TYPE_ACTION_GROUP -- 25
 ```
 
-[ValuedObject](/api/types/ValuedObject.md)
+[ValuedObject](/api/types/ValuedObjectLua.md)
