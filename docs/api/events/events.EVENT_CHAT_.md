@@ -148,7 +148,7 @@ EVENT_CHAT_MESSAGE_WITH_OBJECTS
 
 ### Смотрите также
 
-- [`TypeValuedObject`](/api/types/ValuedObject.md)
+- [`TypeValuedObject`](/api/types/ValuedObjectLua.md)
 
 ---
 
