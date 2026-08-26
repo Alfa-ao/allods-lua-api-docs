@@ -16,7 +16,7 @@ ValuedObject:GetId(): ObjectId | UniqueId
 
 ## Возвращаемые значения
 
-Возвращает `ObjectId` | `UniqueId` - В зависимости от типа подставляемого объекта возвращаются разные типы идентификаторов. См. [TypeValuedObject](/api/types/ValuedObject.md).
+Возвращает `ObjectId` | `UniqueId` - В зависимости от типа подставляемого объекта возвращаются разные типы идентификаторов. См. [TypeValuedObject](/api/types/ValuedObjectLua.md).
 
 ## Примеры
 
