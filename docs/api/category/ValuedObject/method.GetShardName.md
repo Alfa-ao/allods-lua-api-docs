@@ -5,14 +5,20 @@
 ## Описание
 
 ```lua
-ValuedObject:GetShardName(): WString | nil
+ValuedObject:GetShardName(): WString
 ```
 
 Функция возвращает имя шарда или `nil`, если метод вызван для объекта, не являющегося игроком.
 
 ::: warning Замечание
 
-Метод доступен только у `ValuedObjectPlayer`. У остальных `ValuedObject` возвращается `nil`.
+Метод доступен только у `ValuedObjectPlayer`. ~~У остальных `ValuedObject` возвращается `nil`.~~
+
+**Иначе выбрасывает исключение:**
+
+```
+UI::LuaValuedObjectGetShardName: ValuedObject is not ValuedObjectPlayer
+```
 
 :::
 
@@ -22,7 +28,7 @@ ValuedObject:GetShardName(): WString | nil
 
 ## Возвращаемые значения
 
-Возвращает `WString` | `nil` - имя шарда или `nil`.
+Возвращает `WString` - имя шарда.
 
 ## Примеры
 
