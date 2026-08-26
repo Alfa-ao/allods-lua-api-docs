@@ -1,4 +1,5 @@
 # mount.GetAvailableTalents
+
 Возвращает список доступных для выбора талантов маунта.
 
 ## Описание
@@ -11,21 +12,24 @@ mount.GetAvailableTalents( mountId: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`mountId`** (`ObjectId`)
-Идентификатор маунта.
+- **`mountId`** (`ObjectId`) - Идентификатор маунта.
 
 ## Возвращаемые значения
 
-Возвращает `table` или `nil`.
-Таблица содержит список слотов под таланты (индексация с 1). Каждая ячейка представляет собой таблицу со следующими полями:
-- `name` (`WString` | `nil`) - название.
-- `description` (`WString` | `nil`) - описание.
-- `hasCustomRank` (`boolean`) - `true`, если таланты для данного слота имеют ранги.
-- `talents` (`table`) - список доступных для данного слота талантов (индексация с 1), элементы имеют тип `MountTalentId`.
+Возвращает `table` или `nil`. Таблица содержит список слотов под таланты (индексация с 1). Каждая ячейка представляет собой таблицу со следующими полями:
+
+- **`name`** (`WString` | `nil`) - название.
+
+- **`description`** (`WString` | `nil`) - описание.
+
+- **`hasCustomRank`** (`boolean`) - `true`, если таланты для данного слота имеют ранги.
+
+- **`talents`** (`table`) - список доступных для данного слота талантов (индексация с 1), элементы имеют тип `MountTalentId`.
 
 ## Примеры
 
 ### Получение и выбор талантов для экзо-маунта
+
 ```lua
 local exoMountId = mount.GetExoMount()
 local availableTalents = mount.GetAvailableTalents( exoMountId )
@@ -44,5 +48,5 @@ end
 
 - [mount.GetExoMount](/api/category/mount/function.mount.GetExoMount)
 - [mount.SelectTalents](/api/category/mount/function.mount.SelectTalents)
-- `EVENT_AVATAR_UNLOCKS_CHANGED`
-- `MountTalentId`
+- [EVENT_AVATAR_UNLOCKS_CHANGED](/api/events/events.EVENT_AVATAR_.md#event-avatar-unlock-changed)
+- [MountTalentId](/api/types/MountTalentId.md)
