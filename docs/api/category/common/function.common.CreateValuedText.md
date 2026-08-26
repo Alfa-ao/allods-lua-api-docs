@@ -42,4 +42,4 @@ local vtCountRecipes = common.CreateValuedText{
 
 ## Смотрите также
 
-- [ValuedText](/api/types/ValuedText.md)
+- [ValuedText](/api/types/ValuedTextLua.md)
