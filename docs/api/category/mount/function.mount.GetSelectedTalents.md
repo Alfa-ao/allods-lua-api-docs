@@ -1,4 +1,5 @@
 # mount.GetSelectedTalents
+
 Возвращает текущий список выбранных талантов маунта.
 
 ## Описание
@@ -11,8 +12,7 @@ mount.GetSelectedTalents( mountId: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`mountId`** (`ObjectId`)
-Уникальный идентификатор маунта, для которого необходимо получить список талантов.
+- **`mountId`** (`ObjectId`) - Уникальный идентификатор маунта, для которого необходимо получить список талантов.
 
 ## Возвращаемые значения
 
@@ -22,6 +22,7 @@ mount.GetSelectedTalents( mountId: ObjectId ): table | nil
 ## Примеры
 
 ### Получение списка талантов экзо-маунта
+
 ```lua
 local exoMountId = mount.GetExoMount()
 local currentTalents = mount.GetSelectedTalents( exoMountId )
