@@ -36,7 +36,7 @@
     :::
 
 - [**`ResourceId`**](/api/category/ResourceId/) - группа типов, являющихся идентификаторами ресурсов из базы. Идентификаторы можно сравнивать, используя [**`ResourceId:IsEqual`**](/api/category/ResourceId/method.IsEqual.md).
-    - **`ComponentPropertyId`** - идентификатор компонента для крафтинга (в данный момент только алхимия).
+    - [**`ComponentPropertyId`**](/api/types/ComponentPropertyId.md) - Идентификатор компонента для крафтинга (в данный момент только алхимия).
     
     - **`QuestId`** - идентификатор квеста.
         - Поля, доступные в [**`ItemId:GetInfo`**](/api/category/ResourceId/method.GetInfo.md)
@@ -54,16 +54,22 @@
         - [**`ENUM_QuestCategory`**](/api/enums/enums.ENUM_QuestCategory.md)
         
     - **`SpellId`** - идентификатор умения (spell).
+    
+    - [**`SkillId`**](/api/types/SkillId.md) - Идентификатор умения.
 
     - **`ItemCategoryId`** - идентификатор категории предмета.
 
-    - **`TextureId`** - идентификатор текстуры из базы.
+    - [**`TextureId`**](/api/types/TextureId.md) - идентификатор текстуры из базы.
+    
+    - [**`UITextureId`**](/api/types/UITextureId.md) - Идентификатор интерфейсной текстуры.
 
     - **`VisObjectId`** - идентификатор визуального объекта из базы.
 
     - **`AliasVisObjectId`** - Идентификатор визуального объекта-обвязки представляет ресурс объекта в базе. Служит для реализации автоматической подмены ресурсов (для коллекционных изданий и т.п.).
 
     - **`Sound2DId`** - идентификатор звука из базы.
+    
+    - [**`MountTalentId`**](/api/types/MountTalentId.md) - Идентификатор таланта маунта.
     
     - и т.д.
 
@@ -105,6 +111,6 @@
 
 - [**`WString`**](/api/types/WString.md) - локализуемая строка.
 
-- [**`ValuedText`**](/api/types/ValuedText.md) - размеченный текст с подстановками.
+- [**`ValuedText`**](/api/types/ValuedTextLua.md) - размеченный текст с подстановками.
 
-- [**`ValuedObject`**](/api/types/ValuedObject.md) - обертка игрового объекта для подстановки в `ValuedText`.
+- [**`ValuedObject`**](/api/types/ValuedObjectLua.md) - обертка игрового объекта для подстановки в `ValuedText`.
