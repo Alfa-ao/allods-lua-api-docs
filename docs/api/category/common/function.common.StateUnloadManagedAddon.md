@@ -1,5 +1,8 @@
 # common.StateUnloadManagedAddon
+
 Выгружает указанный пользовательский аддон из памяти игры.
+
+[<Badge type="warning" text="16.0.00.46" />](/changelog/16.0.0.md#16.0.0-ADDON_LOAD)
 
 ## Описание
 
@@ -15,8 +18,7 @@ common.StateUnloadManagedAddon( name: string )
 
 ## Список параметров
 
-- **`name`** (`string`)
-Имя выгружаемого аддона.
+- **`name`** (`string`) - Имя выгружаемого аддона.
 
 ## Возвращаемые значения
 
@@ -25,6 +27,7 @@ common.StateUnloadManagedAddon( name: string )
 ## Примеры
 
 ### Выгрузка аддона Cartographer
+
 ```lua
 common.StateUnloadManagedAddon( "Cartographer" )
 ```
