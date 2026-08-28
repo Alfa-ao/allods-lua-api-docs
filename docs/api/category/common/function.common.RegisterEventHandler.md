@@ -1,5 +1,8 @@
 # common.RegisterEventHandler
+
 Подписывает обработчик аддона на указанное системное событие.
+
+[<Badge type="warning" text="16.0.00.46" />](/changelog/16.0.0.md#16.0.0-common.RegisterEventHandler)
 
 ## Описание
 
@@ -22,16 +25,15 @@ common.RegisterEventHandler( eventFunction: function, sysEventName: string, filt
 
 ## Список параметров
 
-- **`eventFunction`** (`function`)
-Функция-обработчик события. Обязана соответствовать установленному шаблону обработчика.
-- **`sysEventName`** (`string`)
-Название системного события, на которое осуществляется подписка.
-- **`filter`** (`table` | `nil`)
-Таблица фильтрации сообщения. Если передан `nil` или параметр опущен, фильтрация не применяется, и управление переходит в обработчик при любых параметрах пришедшего события.
-Допустимые типы ключей: `number` (int), `string`.
-Допустимые типы значений: `number`, `string`, `boolean`, `wstring`, `indexable_userdata`.
-- **`registerPersonal`** (`boolean` | `nil`)
-Флаг автоматической активации персональных событий (`personalEvents`), если это применимо для данного события. По умолчанию принимает значение `true`.
+- **`eventFunction`** (`function`) - Функция-обработчик события. Обязана соответствовать установленному шаблону обработчика.
+
+- **`sysEventName`** (`string`) - Название системного события, на которое осуществляется подписка.
+
+- **`filter`** (`table` | `nil`) - Таблица фильтрации сообщения. Если передан `nil` или параметр опущен, фильтрация не применяется, и управление переходит в обработчик при любых параметрах пришедшего события.
+    - Допустимые типы ключей: `number` (int), `string`.
+    - Допустимые типы значений: `number`, `string`, `boolean`, `wstring`, `indexable_userdata`.
+    
+- **`registerPersonal`** (`boolean` | `nil`) - Флаг автоматической активации персональных событий (`personalEvents`), если это применимо для данного события. По умолчанию принимает значение `true`.
 
 ## Возвращаемые значения
 
@@ -40,6 +42,7 @@ common.RegisterEventHandler( eventFunction: function, sysEventName: string, filt
 ## Примеры
 
 ### Базовая регистрация обработчика события
+
 ```lua
 function OnEventSample( params )
     -- Обработка события
@@ -53,6 +56,7 @@ common.RegisterEventHandler( OnEventSample, "EVENT_SAMPLE" )
 :::
 
 ### Регистрация обработчика с фильтром по главному игроку
+
 ```lua
 function OnEventSampleMainPlayer( params )
     -- Обработка события только для главного игрока
@@ -66,6 +70,7 @@ common.RegisterEventHandler( OnEventSampleMainPlayer, "EVENT_SAMPLE", { unitId =
 :::
 
 ### Рекомендованный шаблон функции
+
 ```lua
 -- параметры:
 -- eventData: table - поля таблицы зависят от события
