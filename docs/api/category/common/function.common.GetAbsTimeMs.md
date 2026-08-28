@@ -1,5 +1,8 @@
 # common.GetAbsTimeMs
+
 Возвращает значение основного игрового таймера.
+
+[<Badge type="warning" text="16.0.00.49" />](/changelog/16.0.0.md#16.0.0-common.GetAbsTimeMs)
 
 ## Описание
 
@@ -20,6 +23,7 @@ common.GetAbsTimeMs(): number
 ## Примеры
 
 ### Измерение прошедшего времени в секундах
+
 ```lua
 local startTime = common.GetAbsTimeMs()
 
