@@ -1,5 +1,8 @@
 # common.StateLoadManagedAddon
+
 Загружает указанный управляемый аддон.
+
+[<Badge type="warning" text="16.0.00.46" />](/changelog/16.0.0.md#16.0.0-ADDON_LOAD)
 
 ## Описание
 
@@ -15,8 +18,7 @@ common.StateLoadManagedAddon( name: string )
 
 ## Список параметров
 
-- **`name`** (`string`)
-Имя аддона, который необходимо загрузить.
+- **`name`** (`string`) - Имя аддона, который необходимо загрузить.
 
 ## Возвращаемые значения
 
@@ -25,6 +27,7 @@ common.StateLoadManagedAddon( name: string )
 ## Примеры
 
 ### Загрузка аддона Cartographer
+
 ```lua
 common.StateLoadManagedAddon( "Cartographer" )
 ```
