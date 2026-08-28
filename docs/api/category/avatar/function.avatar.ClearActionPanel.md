@@ -1,5 +1,8 @@
 # avatar.ClearActionPanel
+
 Полностью очищает текущую раскладку панели действий.
+
+[<Badge type="warning" text="16.0.01.65" />](/changelog/16.0.0.md#16.0.0-avatar.SaveActionPanel)
 
 ## Описание
 
@@ -28,6 +31,7 @@ avatar.ClearActionPanel()
 ## Примеры
 
 ### Очистка текущей панели действий
+
 ```lua
 avatar.ClearActionPanel()
 ```
