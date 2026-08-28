@@ -2283,6 +2283,10 @@ export default [
                                 link: "/api/category/common/function.common.SendEvent"
                             },
                             {
+                                text: "SendUserModsEvent",
+                                link: "/api/category/common/function.common.SendUserModsEvent"
+                            },
+                            {
                                 text: "SetCursor",
                                 link: "/api/category/common/function.common.SetCursor"
                             },
@@ -8896,6 +8900,10 @@ export default [
                         link: "/api/types/CombatTagId"
                     },
                     {
+                        text: "ComponentPropertyId",
+                        link: "/api/types/ComponentPropertyId"
+                    },
+                    {
                         text: "CurrencyId",
                         link: "/api/types/CurrencyId"
                     },
@@ -8940,6 +8948,10 @@ export default [
                         link: "/api/types/MedalId"
                     },
                     {
+                        text: "MountTalentId",
+                        link: "/api/types/MountTalentId"
+                    },
+                    {
                         text: "QuestLocation",
                         link: "/api/types/QuestLocation"
                     },
@@ -8964,8 +8976,16 @@ export default [
                         link: "/api/types/RequirementsTable"
                     },
                     {
+                        text: "SkillId",
+                        link: "/api/types/SkillId"
+                    },
+                    {
                         text: "SocketId",
                         link: "/api/types/SocketId"
+                    },
+                    {
+                        text: "TextureId",
+                        link: "/api/types/TextureId"
                     },
                     {
                         text: "TimeEntry",
@@ -8976,12 +8996,20 @@ export default [
                         link: "/api/types/TimeTableId"
                     },
                     {
-                        text: "ValuedObject",
-                        link: "/api/types/ValuedObject"
+                        text: "UITextureId",
+                        link: "/api/types/UITextureId"
                     },
                     {
-                        text: "ValuedText",
-                        link: "/api/types/ValuedText"
+                        text: "ValuedObjectLua",
+                        link: "/api/types/ValuedObjectLua"
+                    },
+                    {
+                        text: "ValuedTextLua",
+                        link: "/api/types/ValuedTextLua"
+                    },
+                    {
+                        text: "WidgetPlacementLua",
+                        link: "/api/types/WidgetPlacementLua"
                     },
                     {
                         text: "WishmasterResourceId",
@@ -9025,10 +9053,6 @@ export default [
             {
                 text: "Portraits",
                 link: "/articles/Portraits"
-            },
-            {
-                text: "WidgetPlacementLua",
-                link: "/articles/WidgetPlacementLua"
             },
             {
                 text: "WidgetTextStyle",
