@@ -2,7 +2,7 @@
 
 Возвращает имя аддона, в котором выполняется скрипт.
 
-<Badge type="success" text="14.0.01" />
+<Badge type="success" text="14.0.01" /> [<Badge type="warning" text="16.0.00.46" />](/changelog/16.0.0.md#16.0.0-common.GetAddonSysName)
 
 ## Описание
 
