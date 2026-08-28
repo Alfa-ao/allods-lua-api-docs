@@ -2,6 +2,8 @@
 
 Удаляет обработчик события кадра.
 
+[<Badge type="warning" text="16.0.00.49" />](/changelog/16.0.0.md#16.0.0-common.RegisterFrameHandler)
+
 ## Описание
 
 ```lua
