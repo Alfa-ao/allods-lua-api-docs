@@ -1,5 +1,7 @@
 ## ADDON_STATE
 
+[<Badge type="warning" text="16.0.00.46" />](/changelog/16.0.0.md#16.0.0-ADDON_LOAD)
+
 Состояние аддона.
 
 ### Список значений
