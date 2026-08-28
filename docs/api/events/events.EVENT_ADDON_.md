@@ -28,6 +28,8 @@ EVENT_ADDON_HEALTH_CHANGED
 
 Уведомление об изменении состояния аддона.
 
+[<Badge type="warning" text="16.0.00.46" />](/changelog/16.0.0.md#16.0.0-EVENT_ADDON_*)
+
 ### Описание
 
 ```lua
