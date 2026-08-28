@@ -1,5 +1,8 @@
 # common.StateReloadManagedAddon
+
 Перезагружает указанный управляемый аддон.
+
+[<Badge type="warning" text="16.0.00.46" />](/changelog/16.0.0.md#16.0.0-ADDON_LOAD)
 
 ## Описание
 
@@ -15,8 +18,7 @@ common.StateReloadManagedAddon( name: string )
 
 ## Список параметров
 
-- **`name`** (`string`)
-Имя аддона, который необходимо перезагрузить.
+- **`name`** (`string`) - Имя аддона, который необходимо перезагрузить.
 
 ## Возвращаемые значения
 
@@ -25,6 +27,7 @@ common.StateReloadManagedAddon( name: string )
 ## Примеры
 
 ### Перезагрузка аддона Cartographer
+
 ```lua
 common.StateReloadManagedAddon( "Cartographer" )
 ```
