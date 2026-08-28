@@ -1,5 +1,8 @@
 # common.GetStateManagedAddons
+
 Возвращает информацию об аддонах, доступных для программного управления.
+
+[<Badge type="warning" text="16.0.00.46" />](/changelog/16.0.0.md#16.0.0-ADDON_LOAD)
 
 ## Описание
 
@@ -17,12 +20,15 @@ common.GetStateManagedAddons(): table
 
 Возвращает `table` - индексированную (начиная с 1) таблицу, содержащую вложенные таблицы с информацией по каждому доступному аддону.
 Поля вложенной таблицы:
+
 - **`name`** (`string`) - имя аддона.
+
 - **`state`** (`number`) - текущий статус аддона. Значения соответствуют перечислению `ADDON_STATE_*`.
 
 ## Примеры
 
 ### Загрузка всех неактивных управляемых аддонов
+
 ```lua
 local managedAddons = common.GetStateManagedAddons()
 for _, addon in ipairs( managedAddons ) do
