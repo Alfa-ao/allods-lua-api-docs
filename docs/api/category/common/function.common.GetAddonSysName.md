@@ -2,6 +2,8 @@
 
 Возвращает системное имя аддона, в котором выполняется скрипт.
 
+[<Badge type="warning" text="16.0.00.46" />](/changelog/16.0.0.md#16.0.0-common.GetAddonSysName)
+
 ## Описание
 
 ```lua
@@ -21,6 +23,7 @@ common.GetAddonSysName(): string
 ## Примеры
 
 ### Получение системного имени текущего аддона
+
 ```lua
 local name = common.GetAddonSysName() -- UserAddon/LibreAlchemyV2
 ```
