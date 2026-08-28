@@ -1,5 +1,8 @@
 # common.HitFrameHandler
+
 Взводит флаг `hit` обработчика события кадра.
+
+[<Badge type="warning" text="16.0.00.49" />](/changelog/16.0.0.md#16.0.0-common.RegisterFrameHandler)
 
 ## Описание
 
@@ -12,6 +15,7 @@ common.HitFrameHandler()
 Подробная информация об обработчике события кадра представлена в описании функции `common.RegisterFrameHandler`.
 
 ## Список параметров
+
 Отсутствуют.
 
 ## Возвращаемые значения
@@ -21,13 +25,10 @@ common.HitFrameHandler()
 ## Примеры
 
 ### Взведение флага обработчика
+
 ```lua
 common.HitFrameHandler()
 ```
-
-::: info Описание примера
-Выполняется взведение флага `hit` для обработчика события кадра.
-:::
 
 ## Смотрите также
 
