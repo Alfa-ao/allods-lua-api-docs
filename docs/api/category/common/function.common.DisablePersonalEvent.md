@@ -1,5 +1,8 @@
 # common.DisablePersonalEvent
+
 Отключает отправку персонального события для указанного объекта.
+
+[<Badge type="warning" text="16.0.00.46" />](/changelog/16.0.0.md#16.0.0-common.EnablePersonalEvent)
 
 ## Описание
 
@@ -15,10 +18,9 @@ common.DisablePersonalEvent( sysEventName: string, object: ObjectId )
 
 ## Список параметров
 
-- **`sysEventName`** (`string`)
-Название события, отправка которого отключается.
-- **`object`** (`ObjectId`)
-Идентификатор объекта, для которого отключается персональное событие.
+- **`sysEventName`** (`string`) - Название события, отправка которого отключается.
+
+- **`object`** (`ObjectId`) - Идентификатор объекта, для которого отключается персональное событие.
 
 ## Возвращаемые значения
 
@@ -27,6 +29,7 @@ common.DisablePersonalEvent( sysEventName: string, object: ObjectId )
 ## Примеры
 
 ### Отключение отправки события для аватара
+
 ```lua
 common.DisablePersonalEvent( "EVENT_OBJECT_BUFF_ADDED", avatar.GetId() )
 ```
