@@ -16,6 +16,7 @@ medalsLib.GetMedalRanks( medalId: ObjectId ): table | nil
 
 ## Возвращаемые значения
 
+<!--
 Возвращает `table` | `nil` - список рангов достижения, индексация в котором начинается с 1.
 
 - **`completeProgress`** (`number`) - Количество очков прогресса, необходимых для завершения ранга.
@@ -31,21 +32,27 @@ medalsLib.GetMedalRanks( medalId: ObjectId ): table | nil
 - **`reward`** (`table`) - Награда, таблица с полями.
 
 - **`description`** (`wstring`) - Описание награды.
+-->
+
+Возвращает `table` | `nil` - список `MedalRankId` рангов достижения, индексация в котором начинается с 1.
 
 ## Примеры
 
 ### Получение рангов достижения
 
 ```lua
-local categories = medalsLib.GetCategories()
-local medalRanks = medalsLib.GetMedalRanks(categories[0].subCategories[0].medals[0])
+local medals = medalsLib.GetMedals() -- table(1344) { [0] => number(183617), ... }
+local rank = medalsLib.GetMedalRanks( medals[0] ) -- table { [1] => MedalRankId }
+local info = rank[1]:GetInfo()
+--[[ log( info )
+table(3) {
+    ["completeProgress"] => number(1)
+    ["description"] => WString(17) "Получить питомца."
+    ["score"] => number(10)
+} ]]
 ```
-
-::: info Описание примера
-В примере запрашивается список категорий достижений, после чего извлекается идентификатор достижения из первой подкатегории первой категории. Полученный идентификатор передается в функцию для получения списка рангов.
-:::
 
 ## Смотрите также
 
-- [medalsLib.GetCategories](/api/category/medalsLib/function.medalsLib.GetCategories.md)
 - [MedalId](/api/types/MedalId.md)
+- [MedalRankId](/api/types/MedalRankId.md)
