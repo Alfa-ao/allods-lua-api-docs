@@ -1,9 +1,10 @@
- LuaFullDateTime
+# LuaFullDateTime
 
 Полная информация о времени какого-либо события.
 
 Таблица с полями:
 
+```
 y: number (integer) - год
 m: number (integer) - месяц (начиная с 1)
 d: number (integer) - день (начиная с 1)
@@ -19,5 +20,9 @@ month: number (enum ENUM_Month...) - месяц начала события с 0
 sysMonth: string (enum "ENUM_Month...") - месяц начала события
 
 overallMs: number (integer) - Unix time (общее время в миллисекундах прошедшее с 1-го января 1970 года)
+```
 
-См. ENUM_Month..., ENUM_DayOfWeek...
+## Смотрите также
+
+- [ENUM_Month](/api/enums/enums.ENUM_Month.md)
+- [ENUM_DayOfWeek](/api/enums/enums.ENUM_DayOfWeek.md)
