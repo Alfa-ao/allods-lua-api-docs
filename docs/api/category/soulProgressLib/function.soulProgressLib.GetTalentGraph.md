@@ -24,6 +24,28 @@ soulProgressLib.GetTalentGraph(): table
 
     - **`secondNodeId`** (`number`) - идентификатор второго узла ребра.
 
+
+```
+table(3) {
+    ["edges"] => table(622) {
+        [0] => table(2) {
+            ["firstNodeId"] => number(1)
+            ["secondNodeId"] => number(23)
+        }
+        [1] => table(2) {
+            ["firstNodeId"] => number(1)
+            ["secondNodeId"] => number(145)
+        }
+        [2] => table(2) {
+            ["firstNodeId"] => number(1)
+            ["secondNodeId"] => number(479)
+        }
+        ...
+    }
+}
+```
+
+<!--
 - **`nodes`** (`table`) - список узлов, каждая ячейка таблица с полями:
 
     - **`id`** (`number`) - идентификатор узла.
@@ -39,6 +61,7 @@ soulProgressLib.GetTalentGraph(): table
     - **`quality`** (`number`(`ITEM_QUALITY_*`)) - качество.
 
 - **`version`** (`number`) - версия дерева.
+-->
 
 ## Примеры
 
@@ -47,8 +70,3 @@ soulProgressLib.GetTalentGraph(): table
 ```lua
 local talentGraph = soulProgressLib.GetTalentGraph()
 ```
-
-## Смотрите также
-
-- [SocketId](/api/types/SocketId.md)
-- [ITEM_QUALITY_*](/api/constants/constants.ITEM_QUALITY.md)
