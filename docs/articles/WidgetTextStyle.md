@@ -1,4 +1,8 @@
-WidgetTextStyle. Стиль текста
+# WidgetTextStyle
+
+Стиль текста
+
+```
 multiline: boolean - многострочный текст. По умолчанию false
 
 wrapText: boolean - переносить текст на следующую строку, если он не влезает в размеры виджета. Для многострочного текста. По умолчанию true
@@ -24,3 +28,4 @@ ALIGNY_MIDDLE - посередине
 ALIGNY_BOTTOM - по нижнему краю
 
 blendEffect: number (enum BLEND_EFFECT_...) - способ наложения текстур. По умолчанию BLEND_EFFECT_ALPHABLND
+```
