@@ -1,8 +1,11 @@
-ItemId
-Идентификатор ресурса предмета. Пользовательский тип данных (см. также LuaApiTypes). Один из типов группы ResourceId. Идентификатор ресурса предмета в базе.
+# ItemId
 
-Поля, доступные в ItemId:GetInfo()
+Идентификатор ресурса предмета. Один из типов группы `ResourceId`. Идентификатор ресурса предмета в базе.
 
-  description: WString - описание
-  image:TextureId - иконка
-  name:WString - имя
+Поля, доступные в `ItemId:GetInfo()`
+
+```
+description: WString - описание
+image:TextureId - иконка
+name:WString - имя
+```
