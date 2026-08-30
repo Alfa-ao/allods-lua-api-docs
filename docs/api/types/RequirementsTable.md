@@ -1,7 +1,8 @@
- RequirementsTable
+# RequirementsTable
 
 Таблица, представляющая описание требований (например к использованию заклинания). Содержит список таблиц:
 
+```
 RequirementsTable: table of tables (requirements) - индексированный с 0 список таблиц - описаний требований.
  Каждое требование представляет собой таблицу с полями:
   type: number (enum AFCT_...) or nil - Если требование составное, то значение перечисления enum AFCT_..., у простых требований это поле отсутствует.
@@ -32,37 +33,38 @@ RequirementsTable: table of tables (requirements) - индексированны
     sysRace: string or nil
     sysPsionicContactType: string or nil
     reputationLevel: number or nil
+```
 
-Описание требований: "ENUM_ActionFailCause_...".
+## Пример
 
-Дополнительные параметры как в EVENT_ACTION_FAILED_SPELL.
-
-enum AFCT_...:
-
-AFCT_Or - любое из требований может выполниться
-AFCT_And - все требования должны выполняться
-AFCT_Pet - все требования должны выполняться на ПИТОМЦЕ
-AFCT_Not - дочернее требование не должно выполняться
-
--- пример использования
+```lua
 local spellbook = avatar.GetSpellBook()
-local reqs = avatar.GetSpellRequirements( spellbook[0] )
+local reqs = spellLib.GetRequirements( spellbook[0] )
 
 local firstRequirement = nil
 
 if reqs then
-  local req = reqs.casterConditions[0]
-  if req then
+    local req = reqs.casterConditions[0]
+    if req then
 
-    if req.type then
+        if req.type then
 
-      req = req.childs[ 0 ]
-      if req then
-        firstRequirement = req.sysCause
-      end
+            req = req.childs[ 0 ]
+            if req then
+                firstRequirement = req.sysCause
+            end
 
-    else
-      firstRequirement = req.sysCause
+        else
+            firstRequirement = req.sysCause
+        end
     end
-  end
 end
+```
+
+## Смотрите также
+
+- [AFCT_*](/api/constants/constants.AFCT_.md)
+- [ENUM_ActionFailCause_*](/api/enums/enums.ENUM_ActionFailCause.md)
+- [EVENT_ACTION_FAILED_SPELL](/api/events/events.EVENT_ACTION_.md#event-action-failed-spell)
+- [avatar.GetSpellBook](/api/category/avatar/function.avatar.GetSpellBook.md)
+- [spellLib.GetRequirements](/api/category/spellLib/function.spellLib.GetRequirements.md)
