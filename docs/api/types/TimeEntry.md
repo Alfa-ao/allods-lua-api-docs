@@ -1,7 +1,7 @@
- TimeEntry
+# TimeEntry
 
 Формат передачи времени. В зависимости от типа (type) заполняются определённые поля.
-
+```
 hourly: table or nil - если интервал ежечасный, то таблица с полями:
   type: String - тип
   minute: number (integer) - минута начала события, начиная с 0
@@ -36,7 +36,11 @@ now: table or nil - если интервал "сейчас", то таблиц�
 
 never: table or nil - если интервал "никогда", то таблица с полями:
   type: String - тип
+```
 
-    mwar.GetEventStartTimeEntries()
+## Смотрите также
 
-    rules.GetEventTimeIntervals()
+- [mwar.GetEventStartTimeEntries](/api/category/mwar/function.mwar.GetEventStartTimeEntries.md)
+- [rules.GetEventTimeIntervals](/api/category/rules/function.rules.GetEventTimeIntervals.md)
+- [ENUM_DayOfWeek](/api/enums/enums.ENUM_DayOfWeek.md)
+- [ENUM_Month](/api/enums/enums.ENUM_Month.md)
