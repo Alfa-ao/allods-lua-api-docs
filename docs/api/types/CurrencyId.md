@@ -1,8 +1,10 @@
-CurrencyId
-Идентификатор альтернативной игровой валюты. Пользовательский тип данных (см. также LuaApiTypes). Один из типов группы ResourceId. (В настоящее время идентификатор альтернативной игровой валюты - идентификатор его ресурса в базе.)
+# CurrencyId
 
-Поля, доступные в CurrencyId:GetInfo()
+Идентификатор альтернативной игровой валюты. Один из типов группы `ResourceId`. (В настоящее время идентификатор альтернативной игровой валюты - идентификатор его ресурса в базе).
 
+Поля, доступные в `CurrencyId:GetInfo()`
+
+```
 category: CurrencyCategoryId (ResourceId) - категория
 description: WString - описание
 sourceDescription: GlossaryId or nil - идентификатор ресурса универсального описателя для источника валюты (при наличии)
@@ -17,4 +19,9 @@ sysStorage: string - тип хранилища строкой
 sysName: string - системное имя
 visualizeMode: number (enum ENUM_CURRENCY_VISUALIZE_MODE_...) - тип визуализации
 sysVisualizeMode: string - тип визуализации строкой
-См. ENUM_CURRENCY_STORAGE_...
+```
+
+## Смотрите также
+
+- [ENUM_CURRENCY_STORAGE_*](/api/enums/enums.ENUM_CURRENCY_STORAGE.md)
+- [ENUM_CURRENCY_VISUALIZE_MODE_*](/api/enums/enums.ENUM_CURRENCY_VISUALIZE_MODE.md)
