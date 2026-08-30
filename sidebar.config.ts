@@ -5787,8 +5787,7 @@ export default [
                                 text: "IsEqual",
                                 link: "/api/category/ResourceId/method.IsEqual"
                             }
-                        ],
-                        link: "/api/category/ResourceId/index"
+                        ]
                     },
                     {
                         text: "Rules",
@@ -7597,6 +7596,10 @@ export default [
                         link: "/api/constants/constants.CHOICE_GREED_NEED_"
                     },
                     {
+                        text: "CRAFTING",
+                        link: "/api/constants/constants.CRAFTING"
+                    },
+                    {
                         text: "DND_STATE",
                         link: "/api/constants/constants.DND_STATE"
                     },
@@ -7703,6 +7706,10 @@ export default [
                     {
                         text: "RULE_TYPE",
                         link: "/api/constants/constants.RULE_TYPE"
+                    },
+                    {
+                        text: "SEX",
+                        link: "/api/constants/constants.SEX"
                     },
                     {
                         text: "SHIP_SIDE",
@@ -7965,6 +7972,10 @@ export default [
                     {
                         text: "ENUM_MailServiceReply",
                         link: "/api/enums/enums.ENUM_MailServiceReply"
+                    },
+                    {
+                        text: "ENUM_ManaType",
+                        link: "/api/enums/enums.ENUM_ManaType"
                     },
                     {
                         text: "ENUM_MatchMakingMechanicsType",
@@ -8888,12 +8899,44 @@ export default [
                 ]
             },
             {
-                text: "Types",
+                text: "LuaApiTypes",
                 collapsed: true,
                 items: [
                     {
+                        text: "AbilityId",
+                        link: "/api/types/AbilityId"
+                    },
+                    {
                         text: "ActionGroupId",
                         link: "/api/types/ActionGroupId"
+                    },
+                    {
+                        text: "AliasVisObjectId",
+                        link: "/api/types/AliasVisObjectId"
+                    },
+                    {
+                        text: "AstralSectorId",
+                        link: "/api/types/AstralSectorId"
+                    },
+                    {
+                        text: "BattlegroundMarkId",
+                        link: "/api/types/BattlegroundMarkId"
+                    },
+                    {
+                        text: "BillingBonusId",
+                        link: "/api/types/BillingBonusId"
+                    },
+                    {
+                        text: "BuffId",
+                        link: "/api/types/BuffId"
+                    },
+                    {
+                        text: "CharacterClassId",
+                        link: "/api/types/CharacterClassId"
+                    },
+                    {
+                        text: "CharacterFormId",
+                        link: "/api/types/CharacterFormId"
                     },
                     {
                         text: "CombatTagId",
@@ -8904,16 +8947,40 @@ export default [
                         link: "/api/types/ComponentPropertyId"
                     },
                     {
+                        text: "CurrencyCategoryId",
+                        link: "/api/types/CurrencyCategoryId"
+                    },
+                    {
                         text: "CurrencyId",
                         link: "/api/types/CurrencyId"
+                    },
+                    {
+                        text: "DecalObjectId",
+                        link: "/api/types/DecalObjectId"
+                    },
+                    {
+                        text: "FactionId",
+                        link: "/api/types/FactionId"
                     },
                     {
                         text: "GamePosition",
                         link: "/api/types/GamePosition"
                     },
                     {
+                        text: "Geodata",
+                        link: "/api/types/Geodata"
+                    },
+                    {
+                        text: "GlossaryId",
+                        link: "/api/types/GlossaryId"
+                    },
+                    {
                         text: "GoalId",
                         link: "/api/types/GoalId"
+                    },
+                    {
+                        text: "InnateStatSecondary",
+                        link: "/api/types/InnateStatSecondary"
                     },
                     {
                         text: "InstancedEventCategoryId",
@@ -8924,12 +8991,28 @@ export default [
                         link: "/api/types/InstancedEventResourceId"
                     },
                     {
+                        text: "ItemCategoryId",
+                        link: "/api/types/ItemCategoryId"
+                    },
+                    {
                         text: "ItemId",
                         link: "/api/types/ItemId"
                     },
                     {
+                        text: "LfgDestinationCategoryId",
+                        link: "/api/types/LfgDestinationCategoryId"
+                    },
+                    {
                         text: "LfgDestinationId",
                         link: "/api/types/LfgDestinationId"
+                    },
+                    {
+                        text: "LifestyleCategoryId",
+                        link: "/api/types/LifestyleCategoryId"
+                    },
+                    {
+                        text: "LifestyleCollectionId",
+                        link: "/api/types/LifestyleCollectionId"
                     },
                     {
                         text: "LootGroupId",
@@ -8944,16 +9027,52 @@ export default [
                         link: "/api/types/LuaFullDateTime"
                     },
                     {
+                        text: "LuaRaceClassInfoPart",
+                        link: "/api/types/LuaRaceClassInfoPart"
+                    },
+                    {
+                        text: "LuaSexInfoPart",
+                        link: "/api/types/LuaSexInfoPart"
+                    },
+                    {
+                        text: "MapModifierId",
+                        link: "/api/types/MapModifierId"
+                    },
+                    {
                         text: "MedalId",
                         link: "/api/types/MedalId"
+                    },
+                    {
+                        text: "MedalRankId",
+                        link: "/api/types/MedalRankId"
+                    },
+                    {
+                        text: "MountTalentGroupId",
+                        link: "/api/types/MountTalentGroupId"
                     },
                     {
                         text: "MountTalentId",
                         link: "/api/types/MountTalentId"
                     },
                     {
+                        text: "MutationInfo",
+                        link: "/api/types/MutationInfo"
+                    },
+                    {
+                        text: "PostTypeId",
+                        link: "/api/types/PostTypeId"
+                    },
+                    {
+                        text: "QuestId",
+                        link: "/api/types/QuestId"
+                    },
+                    {
                         text: "QuestLocation",
                         link: "/api/types/QuestLocation"
+                    },
+                    {
+                        text: "RecipeId",
+                        link: "/api/types/RecipeId"
                     },
                     {
                         text: "RelatedSoundsLua",
@@ -8976,12 +9095,40 @@ export default [
                         link: "/api/types/RequirementsTable"
                     },
                     {
+                        text: "ResourceId",
+                        link: "/api/types/ResourceId"
+                    },
+                    {
+                        text: "RuleId",
+                        link: "/api/types/RuleId"
+                    },
+                    {
+                        text: "ShipSkinId",
+                        link: "/api/types/ShipSkinId"
+                    },
+                    {
                         text: "SkillId",
                         link: "/api/types/SkillId"
                     },
                     {
                         text: "SocketId",
                         link: "/api/types/SocketId"
+                    },
+                    {
+                        text: "Sound2DId",
+                        link: "/api/types/Sound2DId"
+                    },
+                    {
+                        text: "SpecialStatId",
+                        link: "/api/types/SpecialStatId"
+                    },
+                    {
+                        text: "SpellId",
+                        link: "/api/types/SpellId"
+                    },
+                    {
+                        text: "TeleportMasterId",
+                        link: "/api/types/TeleportMasterId"
                     },
                     {
                         text: "TextureId",
@@ -8996,8 +9143,20 @@ export default [
                         link: "/api/types/TimeTableId"
                     },
                     {
+                        text: "TutorialCategoryId",
+                        link: "/api/types/TutorialCategoryId"
+                    },
+                    {
+                        text: "TutorialId",
+                        link: "/api/types/TutorialId"
+                    },
+                    {
                         text: "UITextureId",
                         link: "/api/types/UITextureId"
+                    },
+                    {
+                        text: "UnlockCategoryId",
+                        link: "/api/types/UnlockCategoryId"
                     },
                     {
                         text: "ValuedObjectLua",
@@ -9006,6 +9165,26 @@ export default [
                     {
                         text: "ValuedTextLua",
                         link: "/api/types/ValuedTextLua"
+                    },
+                    {
+                        text: "VisActionId",
+                        link: "/api/types/VisActionId"
+                    },
+                    {
+                        text: "VisObjectId",
+                        link: "/api/types/VisObjectId"
+                    },
+                    {
+                        text: "VisualShipId",
+                        link: "/api/types/VisualShipId"
+                    },
+                    {
+                        text: "VoteId",
+                        link: "/api/types/VoteId"
+                    },
+                    {
+                        text: "WidgetDesc",
+                        link: "/api/types/WidgetDesc"
                     },
                     {
                         text: "WidgetPlacementLua",
@@ -9019,7 +9198,8 @@ export default [
                         text: "WString",
                         link: "/api/types/WString"
                     }
-                ]
+                ],
+                link: "/api/types/LuaApi.md"
             }
         ]
     },
@@ -9031,24 +9211,12 @@ export default [
                 link: "/articles/CategoryQuestionType"
             },
             {
+                text: "CategoryRelatedResources",
+                link: "/articles/CategoryRelatedResources"
+            },
+            {
                 text: "DeviceViewSight",
                 link: "/articles/DeviceViewSight"
-            },
-            {
-                text: "Geodata",
-                link: "/articles/Geodata"
-            },
-            {
-                text: "LuaRaceClassInfoPart",
-                link: "/articles/LuaRaceClassInfoPart"
-            },
-            {
-                text: "LuaSexInfoPart",
-                link: "/articles/LuaSexInfoPart"
-            },
-            {
-                text: "MutationInfo",
-                link: "/articles/MutationInfo"
             },
             {
                 text: "Portraits",
