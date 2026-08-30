@@ -8,7 +8,8 @@ class SidebarGenerator
      * @param array $config Конфигурация:
      *   [
      *     'rename' => ['text' => ['api' => 'Lua Api']],
-     *     'ignore' => ['.vitepress', 'node_modules', 'api/deprecated']
+     *     'ignore' => ['.vitepress', 'node_modules', 'api/deprecated'],
+     *     'defaultPage' => [ '/docs/api/types' => [ 'name' => 'LuaApiTypes', 'link' => '/api/types/LuaApi.md' ] ],
      *   ]
      */
     public function __construct(
@@ -83,6 +84,29 @@ class SidebarGenerator
                     $linkPath = $subPath === '' ? $filename : $subPath . '/' . $filename;
                     $item['link'] = $this->normalizeLink($linkPath . '/index');
                 }
+                
+                // --- Обработка параметра defaultPage ---
+                $defaultPages = $this->config['defaultPage'] ?? [];
+                $relativeDirPath = $subPath === '' ? $filename : $subPath . '/' . $filename;
+
+                foreach ($defaultPages as $configPath => $pageData) {
+                    // Нормализация пути из параметра
+                    $normalizedConfigPath = ltrim($configPath, '/');
+                    $normalizedConfigPath = preg_replace('#^' . preg_quote($this->rootDir, '#') . '/?#', '', $normalizedConfigPath);
+                    $normalizedConfigPath = trim($normalizedConfigPath, '/');
+
+                    
+                    if ($normalizedConfigPath === $relativeDirPath) {
+                        if (isset($pageData['text'])) {
+                            $item['text'] = $pageData['text'];
+                        }
+                        if (isset($pageData['link'])) {
+                            $item['link'] = $this->normalizeLink($pageData['link']);
+                        }
+                        break;
+                    }
+                }
+                // -------------------------------------
                 
                 $context[] = $item;
                 $lastIndex = count($context) - 1;
@@ -176,7 +200,10 @@ $generator = new SidebarGenerator('docs', [
             'enums' => 'Перечисления (Enums)',
             'guides' => 'Руководство/Гайды',
         ]
-    ]
+    ],
+    'defaultPage' => [
+        '/docs/api/types' => [ 'text' => 'LuaApiTypes', 'link' => '/api/types/LuaApi.md' ]
+    ],
 ]);
 
 
