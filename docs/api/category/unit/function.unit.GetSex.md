@@ -40,3 +40,7 @@ if sex then
     common.LogInfo( sex.raceSexName .. " - это " .. sex.name )
 end
 ```
+
+## Смотрите также
+
+- [SEX_*](/api/constants/constants.SEX.md)
