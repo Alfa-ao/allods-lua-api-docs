@@ -1,4 +1,5 @@
 # objects.GetTrackInfo
+
 Возвращает описание отслеживаемого объекта в зоне игрока.
 
 ## Описание
@@ -44,21 +45,28 @@ objects.GetTrackInfo( trackId: ObjectId ): table | nil
 ## Примеры
 
 ### Получение и форматирование описания отслеживаемого объекта
+
 ```lua
 local trackInfo = objects.GetTrackInfo( trackId )
 if trackInfo then
-    local valuedText = common.CreateValuedText()
-    valuedText:SetFormat( trackInfo.text )
-    valuedText:SetVal( "name", trackInfo.playerName )
+    local valuedText = common.CreateValuedText {
+        format = trackInfo.text,
+        name = trackInfo.playerName
+    }
 end
 ```
 
-::: info Описание примера
-В примере сначала запрашивается информация об отслеживаемом объекте. Если объект найден, создается объект форматированного текста, в который устанавливается шаблон строки из описания объекта и подставляется имя игрока.
-:::
+### Получение информации о мутации
+
+```lua
+local trackInfo = objects.GetTrackInfo( trackId )
+if trackInfo and trackInfo.mutation then
+    local buffInfo = object.GetBuffInfo( trackInfo.mutation.buff )
+end
+```
 
 ## Смотрите также
 
 - [GamePosition](/api/types/GamePosition.md)
-- [MutationInfo](/articles/MutationInfo.md)
+- [MutationInfo](/api/types/MutationInfo.md)
 - [common.CreateValuedText](/api/category/common/function.common.CreateValuedText.md)
