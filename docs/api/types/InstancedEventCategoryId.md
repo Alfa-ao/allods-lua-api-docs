@@ -1,19 +1,11 @@
-InstancedEventCategoryId
-Идентификатор ресурса категории сражения (инстанс-ивента). Пользовательский тип данных (см. также LuaApiTypes). Один из типов группы ResourceId.
+# InstancedEventCategoryId
 
-Об идентификаторах этого типа с помощью функции GetInfo() может быть получена информация:
+Идентификатор ресурса категории сражения (инстанс-ивента). Один из типов группы `ResourceId`.
 
--- объявление:
-function GetInfo( self )
+Поля, доступные в `InstancedEventCategoryId:GetInfo()`
 
--- параметры:
-self: InstancedEventCategoryId (not nil) - идентификатор ресурса
-
--- возвращаемое значение:
-table - таблица с полями:
-  name: WString - название категории
-  sysName: String - служебное название категории
-  allowDummyPass: Boolean - доступность Бескорыстной Помощи для эвентов из данной категории, true - доступна
-
--- пример:
-local info = InstancedEventCategoryId:GetInfo()
+```
+name: WString - название категории
+sysName: String - служебное название категории
+allowDummyPass: Boolean - доступность Бескорыстной Помощи для эвентов из данной категории, true - доступна
+```
