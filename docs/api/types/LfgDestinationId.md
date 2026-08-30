@@ -1,9 +1,10 @@
-LfgDestinationId
+# LfgDestinationId
 
-Идентификатор активности для LFG(сбора группы). Пользовательский тип данных (см. также LuaApiTypes). Один из типов группы ResourceId.
+Идентификатор активности для LFG(сбора группы). Один из типов группы `ResourceId`.
 
-Поля, доступные в LfgDestinationId:GetInfo()
+Поля, доступные в `LfgDestinationId:GetInfo()`
 
+```
 name: wstring or nil - название активности
 description: wstring or nil - описание активности
 requiredItem: ItemId or nil - ресурс необходимый для отправки
@@ -18,7 +19,8 @@ instancedEvent: InstancedEventResourceId or nil - эвент связанный 
 difficulty: wstring or nil - сложность активности текстом
 difficultyMode: Number(ENUM_LFGEventDifficulty) - сложность активности индексом
 sysDifficultyMode: String(ENUM_LFGEventDifficulty) - сложность активности строкой
+```
 
-См. также
+## Смотрите также
 
-    ENUM_LFGEventDifficulty
+- [ENUM_LFGEventDifficulty](/api/enums/enums.ENUM_LFGEventDifficulty.md)
