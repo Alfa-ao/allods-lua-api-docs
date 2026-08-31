@@ -1,4 +1,5 @@
 # cartographer.GetSosObjects
+
 Возвращает таблицу с идентификаторами объектов SOS.
 
 ## Описание
@@ -20,6 +21,7 @@ cartographer.GetSosObjects(): table
 ## Примеры
 
 ### Перебор и получение информации об объектах SOS
+
 ```lua
 for _, sosObjectId in ipairs( cartographer.GetSosObjects() ) do
     local sosObject = cartographer.GetSosInfo( sosObjectId )
