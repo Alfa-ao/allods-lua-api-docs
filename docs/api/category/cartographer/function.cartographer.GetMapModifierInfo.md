@@ -1,4 +1,5 @@
 # cartographer.GetMapModifierInfo
+
 Возвращает интерфейсные данные модификатора карты.
 
 ## Описание
@@ -11,30 +12,30 @@ cartographer.GetMapModifierInfo( mapModifierId: MapModifierId ): table | nil
 
 ## Список параметров
 
-- **`mapModifierId`** (`MapModifierId`)
-Идентификатор ресурса модификатора карты.
+- **`mapModifierId`** (`MapModifierId`) - Идентификатор ресурса модификатора карты.
 
 ## Возвращаемые значения
 
 Возвращает `table` или `nil`.
 
 Если модификатор найден, возвращается таблица со следующими полями:
-- **`name`** (`WString`)
-Имя модификатора.
-- **`description`** (`WString`)
-Описание модификатора.
-- **`difficult`** (`number`)
-Сложность модификатора.
-- **`finishTime`** (`number` | `nil`)
-Дата окончания действия модификатора в формате timestamp, если время окончания задано.
-- **`image`** (`TextureId`)
-Идентификатор текстуры иконки модификатора. Поле доступно только при запросе расширенной информации (`UIState`).
+
+- **`name`** (`WString`) - Имя модификатора.
+
+- **`description`** (`WString`) - Описание модификатора.
+
+- **`difficult`** (`number`) - Сложность модификатора.
+
+- **`finishTime`** (`number` | `nil`) - Дата окончания действия модификатора в формате timestamp, если время окончания задано.
+
+- **`image`** (`TextureId`) - Идентификатор текстуры иконки модификатора. Поле доступно только при запросе расширенной информации (`UIState`).
 
 Возвращает `nil`, если модификатор не найден или передан некорректный идентификатор.
 
 ## Примеры
 
 ### Получение и применение иконки модификатора
+
 ```lua
 local mapModifiers = cartographer.GetCurrentMapModifiers()
 local modifierInfo = mapModifiers[0] and cartographer.GetMapModifierInfo( mapModifiers[0] )
