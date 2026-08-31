@@ -1,4 +1,5 @@
 # cartographer.IsFinalQuestCompleted
+
 Определяет, выполнено ли финализирующее задание интерфейсной карты.
 
 ## Описание
@@ -11,8 +12,7 @@ cartographer.IsFinalQuestCompleted( zonesMapId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`zonesMapId`** (`ObjectId`)
-Идентификатор интерфейсной карты.
+- **`zonesMapId`** (`ObjectId`) - Идентификатор интерфейсной карты.
 
 ## Возвращаемые значения
 
@@ -21,6 +21,7 @@ cartographer.IsFinalQuestCompleted( zonesMapId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка статуса финализирующего задания
+
 ```lua
 local isFinalQuestCompleted = cartographer.IsFinalQuestCompleted( zonesMapId )
 ```
