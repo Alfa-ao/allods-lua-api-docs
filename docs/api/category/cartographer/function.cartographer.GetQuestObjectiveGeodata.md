@@ -1,4 +1,5 @@
 # cartographer.GetQuestObjectiveGeodata
+
 Возвращает таблицу геодат для проецирования реальных координат точек цели задания в координаты текстуры интерфейсной карты.
 
 ## Описание
@@ -11,10 +12,8 @@ cartographer.GetQuestObjectiveGeodata( objectiveId: QuestId, zonesMapId: ObjectI
 
 ## Список параметров
 
-- **`objectiveId`** (`QuestId`)
-Идентификатор цели задания.
-- **`zonesMapId`** (`ObjectId`)
-Идентификатор интерфейсной карты зоны, для которой требуется получить геодату.
+- **`objectiveId`** (`QuestId`) - Идентификатор цели задания.
+- **`zonesMapId`** (`ObjectId`) - Идентификатор интерфейсной карты зоны, для которой требуется получить геодату.
 
 ## Возвращаемые значения
 
@@ -23,6 +22,7 @@ cartographer.GetQuestObjectiveGeodata( objectiveId: QuestId, zonesMapId: ObjectI
 ## Примеры
 
 ### Проецирование координат точек цели задания на текстуру карты
+
 ```lua
 local function GetTexturePos( pos, geodata )
     local pixelsPerMeterX = ( MAP_TEXTURE_X / geodata.width )
@@ -63,5 +63,5 @@ end
 
 ## Смотрите также
 
-- [Geodata](/articles/Geodata.md)
+- [Geodata](/api/types/Geodata.md)
 - [avatar.GetQuestObjectiveInfo](/api/category/avatar/function.avatar.GetQuestObjectiveInfo.md)
