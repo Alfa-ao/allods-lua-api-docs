@@ -1,4 +1,5 @@
 # cartographer.GetZonesMapId
+
 Возвращает идентификатор интерфейсной карты зоны по уникальному имени.
 
 ## Описание
@@ -11,8 +12,7 @@ cartographer.GetZonesMapId( sysName: string ): ObjectId | nil
 
 ## Список параметров
 
-- **`sysName`** (`string`)
-Уникальное системное имя карты зоны.
+- **`sysName`** (`string`) - Уникальное системное имя карты зоны.
 
 ## Возвращаемые значения
 
@@ -21,6 +21,7 @@ cartographer.GetZonesMapId( sysName: string ): ObjectId | nil
 ## Примеры
 
 ### Получение и установка текстуры карты зоны
+
 ```lua
 local zonesMapId = cartographer.GetZonesMapId( "ZoneLeague1" )
 if zonesMapId then
