@@ -1,4 +1,5 @@
 # cartographer.GetSosInfo
+
 Извлекает и возвращает детальную информацию об объекте SOS, размещенном на карте.
 
 ## Описание
@@ -11,23 +12,30 @@ cartographer.GetSosInfo( id: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`id`** (`ObjectId`)
-Уникальный идентификатор объекта SOS, информацию о котором необходимо получить.
+- **`id`** (`ObjectId`) - Уникальный идентификатор объекта SOS, информацию о котором необходимо получить.
 
 ## Возвращаемые значения
 
 Возвращает таблицу (`table`) с информацией об объекте SOS или `nil`, если объект не найден:
+
 - **`id`** (`ObjectId`) - уникальный идентификатор объекта.
+
 - **`durationMs`** (`number`) - общая длительность отображения объекта на карте в миллисекундах.
+
 - **`remainingMs`** (`number`) - оставшееся время до завершения отображения объекта в миллисекундах.
+
 - **`requesterName`** (`WString`) - имя игрока, отправившего призыв о помощи.
+
 - **`zonesMapId`** (`ObjectId` | `nil`) - идентификатор интерфейсной карты, на которой размещен объект.
+
 - **`position`** (`GamePosition`) - координаты позиции объекта на указанной карте.
+
 - **`message`** (`WString`) - текстовое сообщение, прикрепленное к призыву о помощи.
 
 ## Примеры
 
 ### Получение и перебор списка всех активных объектов SOS
+
 ```lua
 local sosObjects = cartographer.GetSosObjects()
 for i = 0, GetTableSize( sosObjects ) - 1 do
@@ -44,5 +52,5 @@ end
 
 ## Смотрите также
 
-- [Geodata](/articles/Geodata.md)
+- [Geodata](/api/types/Geodata.md)
 - [cartographer.GetSosObjects](/api/category/cartographer/function.cartographer.GetSosObjects.md)
