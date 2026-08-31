@@ -1,4 +1,5 @@
 # cartographer.GetMapMarkers
+
 Возвращает список идентификаторов ресурсов типов маркеров, присутствующих на заданной интерфейсной карте.
 
 ## Описание
@@ -11,8 +12,7 @@ cartographer.GetMapMarkers( zonesMapId: ObjectId ): table
 
 ## Список параметров
 
-- **`zonesMapId`** (`ObjectId`)
-Уникальный идентификатор интерфейсной карты, для которой необходимо получить список маркеров.
+- **`zonesMapId`** (`ObjectId`) - Уникальный идентификатор интерфейсной карты, для которой необходимо получить список маркеров.
 
 ## Возвращаемые значения
 
@@ -21,6 +21,7 @@ cartographer.GetMapMarkers( zonesMapId: ObjectId ): table
 ## Примеры
 
 ### Получение и перебор списка маркеров на карте
+
 ```lua
 local markers = cartographer.GetMapMarkers( zonesMapId )
 for i, markerId in pairs( markers ) do
