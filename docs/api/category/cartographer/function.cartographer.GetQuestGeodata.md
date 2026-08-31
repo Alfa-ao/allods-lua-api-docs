@@ -1,4 +1,5 @@
 # cartographer.GetQuestGeodata
+
 Извлекает и возвращает геодату, необходимую для проецирования реальных координат точки возвращения задания в координаты текстуры интерфейсной карты.
 
 ## Описание
@@ -11,21 +12,21 @@ cartographer.GetQuestGeodata( questId: QuestId, zonesMapId: ObjectId ): table | 
 
 ## Список параметров
 
-- **`questId`** (`QuestId`)
-Уникальный идентификатор задания.
-- **`zonesMapId`** (`ObjectId`)
-Идентификатор интерфейсной карты зоны, для которой необходимо получить геодату.
+- **`questId`** (`QuestId`) - Уникальный идентификатор задания.
+
+- **`zonesMapId`** (`ObjectId`) - Идентификатор интерфейсной карты зоны, для которой необходимо получить геодату.
 
 ## Возвращаемые значения
 
 Возвращает `table` с информацией о геодате или `nil` в случае возникновения ошибки.
 Структура возвращаемой таблицы:
-- **`returnGeodata`** (`Geodata` | `nil`)
-Геодата точки возвращения.
+
+- **`returnGeodata`** (`Geodata` | `nil`) - Геодата точки возвращения.
 
 ## Примеры
 
 ### Вычисление координат текстуры для точки возвращения задания
+
 ```lua
 function GetTexturePos( pos, geoData )
     local pixelsPerMeterX = ( MAP_TEXTURE_X / geoData.width )
@@ -55,5 +56,5 @@ end
 
 ## Смотрите также
 
-- [Geodata](/articles/Geodata.md)
+- [Geodata](/api/types/Geodata.md)
 - [object.GetPos](/api/category/object/function.object.GetPos.md)
