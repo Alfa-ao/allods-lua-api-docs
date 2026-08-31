@@ -1,4 +1,5 @@
 # cartographer.IsCurrentZoneRiftMap
+
 Проверяет, является ли текущая зона рифтом.
 
 ## Описание
@@ -14,11 +15,13 @@ cartographer.IsCurrentZoneRiftMap(): boolean
 Параметры отсутствуют.
 
 ## Возвращаемые значения
+
 `boolean` - `true`, если текущая зона является рифтом, и `false` в противном случае.
 
 ## Примеры
 
 ### Проверка типа текущей зоны
+
 ```lua
 local isRiftMap = cartographer.IsCurrentZoneRiftMap()
 LogInfo( "Является ли зона рифтом: ", isRiftMap )
