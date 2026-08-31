@@ -5,18 +5,18 @@
 ## Описание
 
 ```lua
-checkroomLib.GetCollections( categoryId: CheckRoomCategoryId ): table
+checkroomLib.GetCollections( categoryId: LifestyleCategoryId ): table
 ```
 
 Функция возвращает индексированный с 1 список идентификаторов ресурсов коллекций одной корневой категории гардероба.
 
 ## Список параметров
 
-- **`categoryId`** (`CheckRoomCategoryId`) - идентификатор ресурса корневой категории гардероба.
+- **`categoryId`** (`LifestyleCategoryId`) - идентификатор ресурса корневой категории гардероба.
 
 ## Возвращаемые значения
 
-Возвращает `table` - индексированный с 1 список идентификаторов ресурсов (`CheckRoomCollectionId`) коллекций этой категории.
+Возвращает `table` - индексированный с 1 список идентификаторов ресурсов (`LifestyleCollectionId`) коллекций этой категории.
 
 ## Примеры
 
