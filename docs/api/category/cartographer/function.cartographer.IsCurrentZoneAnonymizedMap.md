@@ -1,4 +1,5 @@
 # cartographer.IsCurrentZoneAnonymizedMap
+
 Проверяет, является ли карта, на которой находится персонаж, анонимной.
 
 ## Описание
@@ -10,6 +11,7 @@ cartographer.IsCurrentZoneAnonymizedMap(): boolean
 Функция возвращает логическое значение, указывающее на то, является ли текущая карта, на которой находится персонаж, анонимной.
 
 ## Список параметров
+
 Функция не принимает параметров.
 
 ## Возвращаемые значения
@@ -19,6 +21,7 @@ cartographer.IsCurrentZoneAnonymizedMap(): boolean
 ## Примеры
 
 ### Вывод статуса анонимной карты в лог
+
 ```lua
 local isAnonymized = cartographer.IsCurrentZoneAnonymizedMap()
 LogInfo( "Текущая карта анонимна: ", tostring( isAnonymized ) )
