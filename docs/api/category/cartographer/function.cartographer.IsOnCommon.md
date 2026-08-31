@@ -1,4 +1,5 @@
 # cartographer.IsOnCommon
+
 Проверяет, является ли текущая карта межсерверной.
 
 ## Описание
@@ -20,6 +21,7 @@ cartographer.IsOnCommon(): boolean
 ## Примеры
 
 ### Проверка типа текущей карты
+
 ```lua
 local isOnCommonMap = cartographer.IsOnCommon()
 if isOnCommonMap then
