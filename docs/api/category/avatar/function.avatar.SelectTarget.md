@@ -11,16 +11,16 @@ avatar.SelectTarget( unitId: ObjectId )
 ::: warning Замечание
 В пользовательских аддонах функция работает исключительно в обработчиках реакции на действия мыши (например, на нажатие кнопки) и не срабатывает в обработчиках перемещения.
 :::
-<!--
-::: warning Error
-Для избежания следующих ошибок, нужно:
 
-- Гарантировать передачу идентификатора валидного юнита [unit.IsAvatarRelated](/api/category/unit/function.unit.IsAvatarRelated.html)
+::: warning Error
+Для избежания следующих ошибок, нужно выполнить условие:
+
+- (object.IsExist)[/api/category/object/function.object.IsExist.md]
     ```
     Game::LuaMissionAvatarAllowedReactionSelectTarget: Unit with ObjectId [145396] not found (not an Unit?)
     ```
 :::
--->
+
 ## Список параметров
 
 - **`unitId`** (`ObjectId`) - Уникальный идентификатор юнита, который необходимо установить в качестве цели.
