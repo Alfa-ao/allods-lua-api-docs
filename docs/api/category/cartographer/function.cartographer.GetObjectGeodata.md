@@ -1,4 +1,5 @@
 # cartographer.GetObjectGeodata
+
 Возвращает геодату для проецирования координат интерактивного объекта в координаты текстуры интерфейсной карты.
 
 ## Описание
@@ -15,10 +16,9 @@ cartographer.GetObjectGeodata( objectId: ObjectId, zonesMapId: ObjectId|nil ): t
 
 ## Список параметров
 
-- **`objectId`** (`ObjectId`)
-Идентификатор интерактивного объекта.
-- **`zonesMapId`** (`ObjectId` | `nil`)
-Идентификатор интерфейсной карты зоны, для которой требуется получить геодату. Если передано значение `nil`, используется зона, в которой находится объект.
+- **`objectId`** (`ObjectId`) - Идентификатор интерактивного объекта.
+
+- **`zonesMapId`** (`ObjectId` | `nil`) - Идентификатор интерфейсной карты зоны, для которой требуется получить геодату. Если передано значение `nil`, используется зона, в которой находится объект.
 
 ## Возвращаемые значения
 
@@ -27,6 +27,7 @@ cartographer.GetObjectGeodata( objectId: ObjectId, zonesMapId: ObjectId|nil ): t
 ## Примеры
 
 ### Вычисление позиции объекта на текстуре карты
+
 ```lua
 local geodata = cartographer.GetObjectGeodata( objectId, currentZonesMapId )
 if geodata then
@@ -49,4 +50,4 @@ end
 
 ## Смотрите также
 
-- [Geodata](/articles/Geodata.md)
+- [Geodata](/api/types/Geodata.md)
