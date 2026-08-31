@@ -1,4 +1,5 @@
 # cartographer.GetMapModifierValuedObject
+
 Формирует и возвращает новый экземпляр ValuedObject для модификатора карты.
 
 ## Описание
@@ -9,28 +10,28 @@ cartographer.GetMapModifierValuedObject( mapModifierId: MapModifierId ): ValuedO
 
 Функция создает и возвращает новый экземпляр `ValuedObject`, связанный с указанным модификатором карты. 
 
-Возвращаемый объект обладает следующими характеристиками:
-- Тип объекта - `VAL_OBJ_TYPE_MAP_MODIFIER`.
-- Текст - имя модификатора карты.
-- Изображение - иконка модификатора карты.
-- `Id` (`MapModifierId`) - идентификатор ресурса модификатора карты.
-
 ::: warning Замечание
 Поскольку `ValuedObject` представляет собой `userdata`, Lua работает с такими объектами по ссылке, а не по значению.
 :::
 
 ## Список параметров
 
-- **`mapModifierId`** (`MapModifierId`)
-Идентификатор модификатора карты, для которого необходимо получить объект.
+- **`mapModifierId`** (`MapModifierId`) - Идентификатор модификатора карты, для которого необходимо получить объект.
 
 ## Возвращаемые значения
 
 Возвращает `ValuedObject` - новый экземпляр объекта, содержащий информацию о модификаторе карты.
 
+Возвращаемый объект обладает следующими характеристиками:
+- Тип объекта - `VAL_OBJ_TYPE_MAP_MODIFIER`.
+- Текст - имя модификатора карты.
+- Изображение - иконка модификатора карты.
+- `Id` (`MapModifierId`) - идентификатор ресурса модификатора карты.
+
 ## Примеры
 
 ### Получение объекта модификатора карты
+
 ```lua
 local mapModifiers = cartographer.GetCurrentMapModifiers()
 local valuedObject = mapModifiers[0] and cartographer.GetMapModifierValuedObject( mapModifiers[0] )
@@ -42,6 +43,6 @@ local valuedObject = mapModifiers[0] and cartographer.GetMapModifierValuedObject
 
 ## Смотрите также
 
-- [MapModifierId](/api/types/LuaApi.md)
+- [MapModifierId](/api/types/MapModifierId.md)
 - [cartographer.GetCurrentMapModifiers](/api/category/cartographer/function.cartographer.GetCurrentMapModifiers)
 - [EVENT_UNIT_DAMAGE_RECEIVED](/api/events/events.EVENT_UNIT_.md#event-unit-damage-received)
