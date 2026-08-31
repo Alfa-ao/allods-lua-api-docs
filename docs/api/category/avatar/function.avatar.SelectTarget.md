@@ -11,7 +11,7 @@ avatar.SelectTarget( unitId: ObjectId )
 ::: warning Замечание
 В пользовательских аддонах функция работает исключительно в обработчиках реакции на действия мыши (например, на нажатие кнопки) и не срабатывает в обработчиках перемещения.
 :::
-
+<!--
 ::: warning Error
 Для избежания следующих ошибок, нужно:
 
@@ -20,7 +20,7 @@ avatar.SelectTarget( unitId: ObjectId )
     Game::LuaMissionAvatarAllowedReactionSelectTarget: Unit with ObjectId [145396] not found (not an Unit?)
     ```
 :::
-
+-->
 ## Список параметров
 
 - **`unitId`** (`ObjectId`) - Уникальный идентификатор юнита, который необходимо установить в качестве цели.
