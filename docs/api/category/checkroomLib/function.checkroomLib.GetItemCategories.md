@@ -1,4 +1,5 @@
 # checkroomLib.GetItemCategories
+
 Возвращает категорию и коллекцию гардероба, в которой находится данный предмет.
 
 ## Описание
@@ -17,9 +18,9 @@ checkroomLib.GetItemCategories( itemId: ObjectId ): table | nil
 
 Возвращает `table` или `nil`. Если предмет является гардеробным, возвращается таблица со следующими полями:
 
-- **`categoryId`** (`CheckRoomCategoryId`) - идентификатор ресурса категории.
+- **`categoryId`** (`LifestyleCategoryId`) - идентификатор ресурса категории.
 
-- **`collectionId`** (`CheckRoomCollectionId`) - идентификатор ресурса коллекции.
+- **`collectionId`** (`LifestyleCollectionId`) - идентификатор ресурса коллекции.
 
 ## Примеры
 
