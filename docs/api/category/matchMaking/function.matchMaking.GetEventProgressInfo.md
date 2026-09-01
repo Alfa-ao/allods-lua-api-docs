@@ -83,7 +83,7 @@ end
 
 ## Смотрите также
 
-- [LuaRaceClassInfoPart](/articles/LuaRaceClassInfoPart.md)
+- [LuaRaceClassInfoPart](/api/types/LuaRaceClassInfoPart.md)
 - [battleground.GetAvatarMark](/api/category/battleground/function.battleground.GetAvatarMark.md)
 - [EVENT_MATCH_MAKING_EVENT_PROGRESS_ADDED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-progress-added)
 - [EVENT_MATCH_MAKING_EVENT_PROGRESS_MEMBER_CHANGED](/api/events/events.EVENT_MATCH_.md#event-match-making-event-progress-member-changed)
