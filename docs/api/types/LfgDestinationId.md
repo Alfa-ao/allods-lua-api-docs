@@ -15,7 +15,7 @@ minAvatarLvl: Number(int) - минимальный уровень персона
 maxMembers: Number(int) - максимальное количество участников
 maxEventDuration: Number(int) - максимальная длительность активности
 soloMode: Boolean - если true, локация доступна только для одного игрока
-instancedEvent: InstancedEventResourceId or nil - эвент связанный с данной локацией
+instancedEvent: InstancedEventResourceId or nil - ивент связанный с данной локацией
 difficulty: wstring or nil - сложность активности текстом
 difficultyMode: Number(ENUM_LFGEventDifficulty) - сложность активности индексом
 sysDifficultyMode: String(ENUM_LFGEventDifficulty) - сложность активности строкой
