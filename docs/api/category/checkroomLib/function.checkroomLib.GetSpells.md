@@ -5,14 +5,14 @@
 ## Описание
 
 ```lua
-checkroomLib.GetSpells( collectionId: CheckRoomCollectionId ): table
+checkroomLib.GetSpells( collectionId: LifestyleCollectionId ): table
 ```
 
 Функция возвращает таблицу, содержащую идентификаторы ресурсов заклинаний, относящихся к заданной коллекции гардероба. Индексация элементов в возвращаемой таблице начинается с единицы.
 
 ## Список параметров
 
-- **`collectionId`** (`CheckRoomCollectionId`) - Идентификатор ресурса коллекции гардероба.
+- **`collectionId`** (`LifestyleCollectionId`) - Идентификатор ресурса коллекции гардероба.
 
 ## Возвращаемые значения
 
