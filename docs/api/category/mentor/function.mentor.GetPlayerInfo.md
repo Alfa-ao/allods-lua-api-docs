@@ -68,7 +68,7 @@ end
 
 ## Смотрите также
 
-- [LuaRaceClassInfoPart](/articles/LuaRaceClassInfoPart.md)
-- [LuaSexInfoPart](/articles/LuaSexInfoPart.md)
+- [LuaRaceClassInfoPart](/api/types/LuaRaceClassInfoPart.md)
+- [LuaSexInfoPart](/api/types/LuaSexInfoPart.md)
 - [LuaFullDateTime](/api/types/LuaFullDateTime.md)
 - [object.GetName](/api/category/object/function.object.GetName.md)
