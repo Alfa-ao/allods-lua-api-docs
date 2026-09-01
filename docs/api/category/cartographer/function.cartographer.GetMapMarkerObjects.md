@@ -1,4 +1,5 @@
 # cartographer.GetMapMarkerObjects
+
 Извлекает и возвращает список глобальных координат объектов, помеченных заданным маркером на интерфейсной карте.
 
 ## Описание
@@ -11,20 +12,19 @@ cartographer.GetMapMarkerObjects( zonesMapId: ObjectId, markerId: InterfaceMapMa
 
 ## Список параметров
 
-- **`zonesMapId`** (`ObjectId`)
-Идентификатор интерфейсной карты.
-- **`markerId`** (`InterfaceMapMarkerId`)
-Идентификатор ресурса маркера.
+- **`zonesMapId`** (`ObjectId`) - Идентификатор интерфейсной карты.
+
+- **`markerId`** (`InterfaceMapMarkerId`) - Идентификатор ресурса маркера.
 
 ## Возвращаемые значения
 
 Возвращает таблицу (`table`), содержащую вложенные таблицы с описаниями объектов. Индексация элементов начинается с нуля.
 
 Структура вложенной таблицы:
-- **`pos`** (`GamePosition`)
-Глобальные координаты объекта.
-- **`geodata`** (`table` | `nil`)
-Таблица с данными геодаты зоны, если она была получена. В противном случае возвращает `nil`.
+
+- **`pos`** (`GamePosition`) - Глобальные координаты объекта.
+
+- **`geodata`** (`geodata` | `nil`) - Таблица с данными геодаты зоны, если она была получена. В противном случае возвращает `nil`.
 
 Поля таблицы `geodata`:
 - `x` (`number`) - Мировая координата X точки левого нижнего угла карты.
@@ -35,6 +35,7 @@ cartographer.GetMapMarkerObjects( zonesMapId: ObjectId, markerId: InterfaceMapMa
 ## Примеры
 
 ### Перебор всех маркеров и получение их объектов
+
 ```lua
 local markers = cartographer.GetMapMarkers( zonesMapId )
 for i, markerId in pairs( markers ) do
