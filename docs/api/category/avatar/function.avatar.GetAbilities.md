@@ -1,4 +1,5 @@
 # avatar.GetAbilities
+
 Возвращает список идентификаторов пассивных умений.
 
 ## Описание
@@ -21,9 +22,10 @@ avatar.GetAbilities(): table
 ### Перебор пассивных умений и получение их названий
 ```lua
 local abilities = avatar.GetAbilities()
-for i, id in pairs( abilities ) do
-  local abilityInfo = avatar.GetAbilityInfo( id )
-  local name = abilityInfo.name
+
+for _, id in ipairs( abilities ) do
+    local abilityInfo = avatar.GetAbilityInfo( id )
+    local name = abilityInfo.name
 end
 ```
 
