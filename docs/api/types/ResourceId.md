@@ -17,47 +17,53 @@ outline: deep
 
 - [ResourceId:IsEqual](/api/category/ResourceId/method.IsEqual.md) - выполняет сравнение идентификаторов.
 
+
+
+
 ## Базовые типы ресурсов
 
-### AliasVisObjectId
+### [AliasVisObjectId](/api/types/AliasVisObjectId.md)
 
 Идентификатор визуального объекта-обвязки представляет ресурс объекта в базе. Служит для реализации автоматической подмены ресурсов (для коллекционных изданий и т.п.).
 
 ---
 
-### DecalObjectId
+### [DecalObjectId](/api/types/DecalObjectId.md)
 
 Идентификатор декола из базы.
 
 ---
 
-### Sound2DId
+### [Sound2DId](/api/types/Sound2DId.md)
 
 Идентификатор звука из базы.
 
 ---
 
-### TextureId
+### [TextureId](/api/types/TextureId.md)
 
 Идентификатор текстуры из базы.
 
 ---
 
-### UITextureId
+### [UITextureId](/api/types/UITextureId.md)
 
 Идентификатор интерфейсной текстуры.
 
 ---
 
-### VisActionId
+### [VisActionId](/api/types/VisActionId.md)
 
 Идентификатор визуального скрипта из базы.
 
 ---
 
-### VisObjectId
+### [VisObjectId](/api/types/VisObjectId.md)
 
 Идентификатор визуального объекта из базы.
+
+
+
 
 ## Гейммеханические идентификаторы
 
@@ -65,15 +71,21 @@ outline: deep
 Эти идентификаторы можно сохранять между сессиями.
 :::
 
+### [AbilityId](/api/types/AbilityId.md)
+
+Идентификатор пассивного умения из базы.
+
+---
+
 ### [ActionGroupId](/api/types/ActionGroupId.md)
 
 Идентификатор группы заклинаний.
 
 ---
 
-### [AbilityId](/api/types/AbilityId.md)
+### [AstralSectorId]
 
-Идентификатор пассивного умения из базы.
+Идентификатор астрального сектора.
 
 ---
 
@@ -101,15 +113,15 @@ outline: deep
 
 ---
 
-### [CheckRoomCategoryId](/api/types/CheckRoomCategoryId.md)
+### [CharacterFormId]
 
-Категория гардероба.
+Идентификатор ресурса формы класса аватара игрока.
 
 ---
 
-### [CheckRoomCollectionId](/api/types/CheckRoomCollectionId.md)
+### [CombatTagId]
 
-Коллекция гардероба.
+Идентификатор эффекта наложенного на игрока в бою.
 
 ---
 
@@ -161,6 +173,18 @@ outline: deep
 
 ---
 
+### [LifestyleCategoryId](/api/types/LifestyleCategoryId.md)
+
+Категория гардероба.
+
+---
+
+### [LifestyleCollectionId](/api/types/LifestyleCollectionId.md)
+
+Коллекция гардероба.
+
+---
+
 ### [LootGroupId](/api/types/LootGroupId.md)
 
 Вариант выбора лута, падающего на астральных островах.
@@ -187,31 +211,13 @@ outline: deep
 
 ### [QuestId](/api/types/QuestId.md)
 
-Идентификатор квеста, заданный идентификатором его квестового ресурса из базы. Поля, доступные в [ItemId:GetInfo](/api/category/ResourceId/method.GetInfo.md):
-
-```
-finishText: WString - финальное описание
-startText: WString - стартовое описание
-goal: WString - описание рекомендации
-image: TextureId - иконка
-name: WString - имя
-isAutomatic: boolean - true если это дейлик, иначе false
-questCategory: number(ENUM_QuestCategory) - категория квеста
-```
-
-- [ENUM_QuestCategory](/api/enums/enums.ENUM_QuestCategory.md)
+Идентификатор задания.
 
 ---
 
 ### [RecipeId](/api/types/RecipeId.md)
 
 Идентификатор рецепта из базы.
-
----
-
-### [RewardsExchangeCategoryId](/api/types/RewardsExchangeCategoryId.md)
-
-Категория наград для биржи наград.
 
 ---
 
@@ -224,12 +230,6 @@ questCategory: number(ENUM_QuestCategory) - категория квеста
 ### [SpellId](/api/types/SpellId.md)
 
 Идентификатор заклинания (spell).
-
----
-
-### [TierId](/api/types/TierId.md)
-
-Тир награды для биржи наград.
 
 ---
 
