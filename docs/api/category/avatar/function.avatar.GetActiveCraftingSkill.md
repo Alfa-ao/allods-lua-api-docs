@@ -1,4 +1,5 @@
 # avatar.GetActiveCraftingSkill
+
 Возвращает идентификатор крафтового навыка, процесс создания предметов по которому в данный момент активен.
 
 ## Описание
@@ -19,6 +20,7 @@ avatar.GetActiveCraftingSkill(): SkillId | nil
 ## Примеры
 
 ### Получение идентификатора активного крафта
+
 ```lua
 local skillId = avatar.GetActiveCraftingSkill()
 if skillId then
