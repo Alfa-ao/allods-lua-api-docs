@@ -1,4 +1,5 @@
 # cartographer.GetMapBlocks
+
 Возвращает список идентификаторов блоков интерфейсных карт.
 
 ## Описание
@@ -20,6 +21,7 @@ cartographer.GetMapBlocks(): table
 ## Примеры
 
 ### Получение и перебор списка блоков карт
+
 ```lua
 local mapBlocks = cartographer.GetMapBlocks()
 for i = 0, GetTableSize( mapBlocks ) - 1 do
