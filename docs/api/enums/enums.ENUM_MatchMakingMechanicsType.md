@@ -18,7 +18,7 @@
 
 - **`ENUM_MatchMakingMechanicsType_RATING_ARENA`** (`number`) - Рейтинговая арена.
 
-- **`ENUM_MatchMakingMechanicsType_ANNIVERSARY_EVENT`** (`number`) - Юбилейный эвент.
+- **`ENUM_MatchMakingMechanicsType_ANNIVERSARY_EVENT`** (`number`) - Юбилейный ивент.
 
 - **`ENUM_MatchMakingMechanicsType_GLADIATOR_ARENA`** (`number`) - Гладиаторская арена.
 
