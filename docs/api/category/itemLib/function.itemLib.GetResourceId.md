@@ -27,6 +27,6 @@ local resourceId = itemLib.GetResourceId( itemId )
 
 ## Смотрите также
 
-- [ResourceId](/api/category/ResourceId/index.md)
+- [ResourceId](/api/types/ResourceId.md)
 - [ResourceId:IsEqual](/api/category/ResourceId/method.IsEqual.md)
 - [ResourceId:GetInfo](/api/category/ResourceId/method.GetInfo.md)
