@@ -21,7 +21,7 @@ mission.SetAEMarkDecal( decalId: DecalObjectId )
 
 ### Установка декала для AEMark
 ```lua
-local decalId = common.GetAddonRelatedDecal( "AEMark" ) -- not found
+local decalId = common.GetAddonRelatedDecal( "AEMark" ) -- DEPRECATED
 mission.SetAEMarkDecal( decalId )
 ```
 
