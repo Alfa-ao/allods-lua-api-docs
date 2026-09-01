@@ -5,14 +5,14 @@
 ## Описание
 
 ```lua
-checkroomLib.GetItems( collectionId: CheckRoomCollectionId ): table
+checkroomLib.GetItems( collectionId: LifestyleCollectionId ): table
 ```
 
 Функция возвращает индексированный с 1 список идентификаторов предметов, относящихся к заданной коллекции гардероба.
 
 ## Список параметров
 
-- **`collectionId`** (`CheckRoomCollectionId`) - Идентификатор ресурса коллекции гардероба.
+- **`collectionId`** (`LifestyleCollectionId`) - Идентификатор ресурса коллекции гардероба.
 
 ## Возвращаемые значения
 
