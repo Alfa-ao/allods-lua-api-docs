@@ -73,7 +73,7 @@ end
 ## Смотрите также
 
 - [cartographer.GetZonesMapInfo](/api/category/cartographer/function.cartographer.GetZonesMapInfo.md)
-- [LuaRaceClassInfoPart](/articles/LuaRaceClassInfoPart.md)
-- [LuaSexInfoPart](/articles/LuaSexInfoPart.md)
+- [LuaRaceClassInfoPart](/api/types/LuaRaceClassInfoPart.md)
+- [LuaSexInfoPart](/api/types/LuaSexInfoPart.md)
 - [unit.GetSex](/api/category/unit/function.unit.GetSex.md)
 - [ENUM_AvatarOnlineStatus_*](/api/enums/enums.ENUM_Avatar.md)
