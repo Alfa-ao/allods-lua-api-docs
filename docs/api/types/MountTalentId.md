@@ -2,7 +2,7 @@
 
 Идентификатор таланта маунта. Пользовательский тип данных (см. также LuaApiTypes). Один из типов группы `ResourceId`.
 
-Поля, доступные в MountTalentId:GetInfo()
+Поля, доступные в `MountTalentId:GetInfo()`
 
 - **`price`** (`number`) - стоимость при выборе.
 
