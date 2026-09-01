@@ -1,4 +1,5 @@
 # avatar.GetActionGroupStatBonus
+
 Возвращает информацию о бонусе к характеристикам аватара при использовании заклинаний из указанной группы.
 
 ## Описание
@@ -21,18 +22,32 @@ avatar.GetActionGroupStatBonus( actionGroupId: ActionGroupId ): table | nil
 ## Примеры
 
 ### Получение и вывод бонусов к характеристикам для группы заклинаний
+
 ```lua
 local spellbook = avatar.GetSpellBook()
-local spellGroups = spellbook[0] and avatar.GetSpellActionGroups( spellbook[0] )
-if spellGroups and spellGroups[ 0 ] then
-  common.LogInfo( avatar.GetActionGroupInfo(spellGroups[0]).name )
-  
-  local bonuses = avatar.GetActionGroupStatBonus(spellGroups[0])
-  if bonuses then
-    for stat, bonus in pairs(bonuses) do
-      common.LogInfo( "  stat #", stat, " has bonus ", bonus )
+local spellGroups = spellbook[1] and spellLib.GetActionGroups( spellbook[1] )
+--[[ table(2) {
+    [1] => userdata(ActionGroupId) = {
+        GetInfo = table(1) {
+            ["name"] => WString(41) "Эффекты, сбрасывающие сундук Арены Смерти"
+        }
+    }
+    [2] => userdata(ActionGroupId) = {
+        GetInfo = table(1) {
+            ["name"] => WString(28) "Способности ездового питомца"
+        }
+    }
+} ]]
+
+if spellGroups and spellGroups[ 2 ] then
+    log( userMods.FromWString( spellGroups[2]:GetInfo().name ) ) -- string(28) "Способности ездового питомца"
+    
+    local bonuses = avatar.GetActionGroupStatBonus(spellGroups[2]) -- table(0) {}
+    if bonuses then
+        for stat, bonus in pairs(bonuses) do
+            log( "  stat #", stat, " has bonus ", bonus )
+        end
     end
-  end
 end
 ```
 
