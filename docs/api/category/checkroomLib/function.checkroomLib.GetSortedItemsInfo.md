@@ -5,14 +5,14 @@
 ## Описание
 
 ```lua
-checkroomLib.GetSortedItemsInfo( collectionId: CheckRoomCollectionId ): table
+checkroomLib.GetSortedItemsInfo( collectionId: LifestyleCollectionId ): table
 ```
 
 Функция возвращает индексированный с 1 отсортированный список информации о предметах в одной коллекции гардероба. Первоначально сортировка осуществляется по слоту одежды или оружия. Если слот одинаковый, то дальнейшая сортировка производится по имени предмета.
 
 ## Список параметров
 
-- **`collectionId`** (`CheckRoomCollectionId`) - идентификатор ресурса коллекции гардероба.
+- **`collectionId`** (`LifestyleCollectionId`) - идентификатор ресурса коллекции гардероба.
 
 ## Возвращаемые значения
 
