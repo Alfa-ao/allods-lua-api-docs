@@ -48,7 +48,7 @@ matchMaking.GetEventInfo( eventId: ObjectId ): table | nil
 
 - **`requiredCurrency`** (`CurrencyId` | `nil`) - Альтернативная валюта, необходимая для отправки.
 
-- **`isHighPriority`** (`boolean`) - Флаг приоритетного эвента (должен быть выше остальных в списке).
+- **`isHighPriority`** (`boolean`) - Флаг приоритетного ивента (должен быть выше остальных в списке).
 
 - **`mechanicsType`** (`number`(`ENUM_MatchMakingMechanicsType_*`)) - Тип игровой механики.
 
@@ -56,11 +56,11 @@ matchMaking.GetEventInfo( eventId: ObjectId ): table | nil
 
 - **`maxVisitsPerWeek`** (`number`) - Максимальное количество посещений ивента в неделю (`0` - без ограничений).
 
-- **`exclusive`** (`boolean`) - Флаг, запрещающий становиться одновременно в очередь к этому и любому другому эвенту.
+- **`exclusive`** (`boolean`) - Флаг, запрещающий становиться одновременно в очередь к этому и любому другому ивенту.
 
 - **`leaderOnly`** (`boolean`) - Флаг, указывающий, что за выход или постановку в очередь отвечает только лидер группы (соло аватар считается сам себе лидером).
 
-- **`ticket`** (`ItemId` | `nil`) - Идентификатор предмета-билета на эвент. `nil`, если нет информации. При постановке в очередь проверяется наличие предмета, он забирается перед телепортацией.
+- **`ticket`** (`ItemId` | `nil`) - Идентификатор предмета-билета на ивент. `nil`, если нет информации. При постановке в очередь проверяется наличие предмета, он забирается перед телепортацией.
 
 - **`activeEventJoinPeriod`** (`number`) - Возможность присоединения к арене новых игроков в течение определенного периода после старта. Значение меньше `0` - можно присоединяться всегда, равно `0` - нельзя вообще, иначе - период в миллисекундах.
 
@@ -94,8 +94,8 @@ matchMaking.GetEventInfo( eventId: ObjectId ): table | nil
   - **`mwarLadder`** (`table` | `nil`) - Групповое сражение Доминиона (таблица с теми же полями, что и у `solo`).
   - **`ratingPvP`** (`table` | `nil`) - Рейтинговая арена.
   - **`randomBG`** (`table` | `nil`) - Случайное бг.
-  - **`lfgRaid`** (`table` | `nil`) - Рейдовый PvE эвент.
-  - **`lfg`** (`table` | `nil`) - PvE эвент.
+  - **`lfgRaid`** (`table` | `nil`) - Рейдовый PvE ивент.
+  - **`lfg`** (`table` | `nil`) - PvE ивент.
 
 
 ::: info
@@ -135,11 +135,11 @@ matchMaking.GetEventInfo( eventId: ObjectId ): table | nil
 
 - **`inviteTimeout`** (`number`) - Задержка при телепорте на арену в миллисекундах.
 
-- **`difficulty`** (`WString` | `nil`) - Сложность эвента текстом.
+- **`difficulty`** (`WString` | `nil`) - Сложность ивента текстом.
 
-- **`difficultyMode`** (`number`(`ENUM_LFGEventDifficulty`)) - Сложность эвента индексом.
+- **`difficultyMode`** (`number`(`ENUM_LFGEventDifficulty`)) - Сложность ивента индексом.
 
-- **`sysDifficultyMode`** (`string`(`ENUM_LFGEventDifficulty`)) - Сложность эвента строкой.
+- **`sysDifficultyMode`** (`string`(`ENUM_LFGEventDifficulty`)) - Сложность ивента строкой.
 
 ## Примеры
 
