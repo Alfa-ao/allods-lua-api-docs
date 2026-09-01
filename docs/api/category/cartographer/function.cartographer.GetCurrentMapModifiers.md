@@ -1,4 +1,5 @@
 # cartographer.GetCurrentMapModifiers
+
 Извлекает список идентификаторов модификаторов карты, на которой находится главный игрок.
 
 ## Описание
@@ -20,6 +21,7 @@ cartographer.GetCurrentMapModifiers(): table
 ## Примеры
 
 ### Получение и применение информации о модификаторе карты
+
 ```lua
 local mapModifiers = cartographer.GetCurrentMapModifiers()
 local modifierInfo = mapModifiers[0] and cartographer.GetMapModifierInfo( mapModifiers[0] )
@@ -35,4 +37,5 @@ end
 ## Смотрите также
 
 - [cartographer.GetMapModifierInfo](/api/category/cartographer/function.cartographer.GetMapModifierInfo)
-- `MapModifierId`
+
+- [MapModifierId](/api/types/MapModifierId.md)
