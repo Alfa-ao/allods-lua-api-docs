@@ -1,4 +1,5 @@
 # cartographer.GetMapGeodata
+
 Возвращает геодату для проецирования координат интерактивного объекта реального мира в координаты текстуры интерфейсной карты.
 
 ## Описание
@@ -11,8 +12,7 @@ cartographer.GetMapGeodata( zonesMapId: ObjectId ): table
 
 ## Список параметров
 
-- **`zonesMapId`** (`ObjectId`)
-Идентификатор интерфейсной карты зоны, геодата которой запрашивается.
+- **`zonesMapId`** (`ObjectId`) - Идентификатор интерфейсной карты зоны, геодата которой запрашивается.
 
 ## Возвращаемые значения
 
@@ -21,6 +21,7 @@ cartographer.GetMapGeodata( zonesMapId: ObjectId ): table
 ## Примеры
 
 ### Получение геодаты текущей зоны
+
 ```lua
 local geodata = cartographer.GetMapGeodata( currentZonesMapId )
 LogInfo( geodata )
@@ -28,4 +29,4 @@ LogInfo( geodata )
 
 ## Смотрите также
 
-- [Geodata](/articles/Geodata.md)
+- [Geodata](/api/types/Geodata.md)
