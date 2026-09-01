@@ -1,5 +1,7 @@
 # cartographer.GetMapBlockInfo
+
 Возвращает описание блока интерфейсных карт.
+
 ## Описание
 
 ```lua
@@ -10,23 +12,28 @@ cartographer.GetMapBlockInfo( mapBlockId: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`mapBlockId`** (`ObjectId`)
-Уникальный идентификатор блока интерфейсных карт.
+- **`mapBlockId`** (`ObjectId`) - Уникальный идентификатор блока интерфейсных карт.
 
 ## Возвращаемые значения
 
 Возвращает таблицу (`table`) с информацией о блоке или `nil`, если блок не найден.
 
 Структура возвращаемой таблицы:
+
 - **`id`** (`ObjectId`) - уникальный идентификатор блока.
+
 - **`name`** (`WString`) - имя блока.
+
 - **`description`** (`WString`) - описание блока.
+
 - **`isShowInList`** (`boolean`) - `true`, если блок отображается в главном списке блоков.
+
 - **`zonesMaps`** (`table`) - таблица, содержащая идентификаторы (`ObjectId`) интерфейсных карт зон, входящих в данный блок.
 
 ## Примеры
 
 ### Получение и перебор информации о блоках карт
+
 ```lua
 local mapBlocks = cartographer.GetMapBlocks()
 for i = 0, GetTableSize( mapBlocks ) - 1 do
