@@ -1,4 +1,5 @@
 # cartographer.CanNavigateToPoint
+
 Проверяет возможность построения пути для указанной интерфейсной карты.
 
 ## Описание
@@ -11,8 +12,7 @@ cartographer.CanNavigateToPoint( zonesMapId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`zonesMapId`** (`ObjectId`)
-Уникальный идентификатор интерфейсной карты, для которой выполняется проверка доступности пути.
+- **`zonesMapId`** (`ObjectId`) - Уникальный идентификатор интерфейсной карты, для которой выполняется проверка доступности пути.
 
 ## Возвращаемые значения
 
@@ -21,6 +21,7 @@ cartographer.CanNavigateToPoint( zonesMapId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка возможности и запуск навигации
+
 ```lua
 if cartographer.CanNavigateToPoint( questLocation.zonesMapId ) then
     cartographer.NavigateToPoint( questLocation.zonesMapId, questLocation.position ) -- Deprecated
