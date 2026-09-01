@@ -1,4 +1,5 @@
 # cartographer.GetCurrentZoneAttributes
+
 Возвращает таблицу строковых атрибутов зоны, в которой находится главный игрок.
 
 ## Описание
@@ -20,6 +21,7 @@ cartographer.GetCurrentZoneAttributes(): table
 ## Примеры
 
 ### Проверка наличия специфического атрибута зоны
+
 ```lua
 if cartographer.GetCurrentZoneAttributes()[ "Goblinoball" ] then
     LogInfo( "Это зона для гоблинобола." )
