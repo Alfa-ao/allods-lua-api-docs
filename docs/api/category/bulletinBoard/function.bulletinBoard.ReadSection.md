@@ -1,4 +1,5 @@
 # bulletinBoard.ReadSection
+
 Возвращает информацию о содержимом указанного раздела доски объявлений.
 
 ## Описание
@@ -11,8 +12,7 @@ bulletinBoard.ReadSection( postTypeId: PostTypeId ): table | nil
 
 ## Список параметров
 
-- **`postTypeId`** (`PostTypeId`)
-Уникальный идентификатор раздела доски объявлений.
+- **`postTypeId`** (`PostTypeId`) - Уникальный идентификатор раздела доски объявлений.
 
 ## Возвращаемые значения
 
@@ -24,6 +24,7 @@ bulletinBoard.ReadSection( postTypeId: PostTypeId ): table | nil
 ## Примеры
 
 ### Получение и перебор списка объявлений в разделе
+
 ```lua
 local postIds = bulletinBoard.ReadSection( postTypeId )
 if postIds then
