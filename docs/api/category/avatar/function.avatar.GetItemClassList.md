@@ -1,5 +1,6 @@
 # avatar.GetItemClassList
-Возвращает список классов предметов (ItemClass).
+
+Возвращает список классов предметов.
 
 ## Описание
 
@@ -20,6 +21,7 @@ avatar.GetItemClassList(): table
 ## Примеры
 
 ### Получение и обработка списка доступных классов предметов
+
 ```lua
 local itemClassList = avatar.GetItemClassList()
 if itemClassList then
