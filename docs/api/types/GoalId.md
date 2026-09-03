@@ -10,7 +10,7 @@ description: WString - описание цели
 finishPredicates: table со списком предикатов
 locations: table - список ключевых локаций, каждый элемент представляет собой таблицу с полями
 locator: QuestLocation - таблица с описаниями точек цели задания
-rewards: table of GoalReward - список наград
+rewards: table of GoalReward(HELP) - список наград
 shortDescription: WString - краткое описание, для экрана загрузки
 showPredicates: table, список предикатов для отображения
 stages: table, список этапов типа GoalId
