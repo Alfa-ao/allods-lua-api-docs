@@ -1,4 +1,5 @@
 # remort.GetClassAbilitiesForSharing
+
 Возвращает список умений, доступных для передачи альтернативному персонажу игроком указанного класса.
 
 ## Описание
@@ -26,6 +27,7 @@ remort.GetClassAbilitiesForSharing( classId: CharacterClassId ): table
 ## Примеры
 
 ### Получение и обработка списка передаваемых умений
+
 ```lua
 local abilities = remort.GetClassAbilitiesForSharing( avatar.GetClassId() )
 for i, entry in ipairs( abilities ) do
