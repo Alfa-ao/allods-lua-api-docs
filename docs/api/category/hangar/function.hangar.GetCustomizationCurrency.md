@@ -10,6 +10,14 @@ hangar.GetCustomizationCurrency(): CurrencyId | nil
 
 Функция возвращает идентификатор альтернативной валюты, используемой для замены устройств в ангаре. Получение данных возможно только после начала процесса кастомизации.
 
+::: warning Возможные ошибки
+
+```
+Game::LuaHangarGetCustomizationCurrency: Ship customization not allowed
+```
+
+:::
+
 ## Список параметров
 
 Параметры отсутствуют.
