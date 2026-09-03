@@ -3,3 +3,7 @@
 Идентификатор ресурса категории обучения. Один из типов группы `ResourceId`. Идентификатор ресурса категории обучения в базе.
 
 Поля, доступные в `TutorialCategoryId:GetInfo()` - Нет.
+
+## Смотрите также
+
+- [tutorialLib.GetCategoryInfo](/api/category/tutorialLib/function.tutorialLib.GetCategoryInfo.md)
