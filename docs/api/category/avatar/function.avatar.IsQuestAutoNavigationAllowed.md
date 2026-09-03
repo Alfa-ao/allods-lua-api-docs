@@ -1,4 +1,5 @@
 # avatar.IsQuestAutoNavigationAllowed
+
 Проверяет доступность автонавигации для указанного задания.
 
 ## Описание
@@ -11,8 +12,7 @@ avatar.IsQuestAutoNavigationAllowed( questId: QuestId ): boolean
 
 ## Список параметров
 
-- **`questId`** (`QuestId`)
-Уникальный идентификатор задания, для которого выполняется проверка доступности автонавигации.
+- **`questId`** (`QuestId`) - Уникальный идентификатор задания, для которого выполняется проверка доступности автонавигации.
 
 ## Возвращаемые значения
 
@@ -21,8 +21,8 @@ avatar.IsQuestAutoNavigationAllowed( questId: QuestId ): boolean
 ## Примеры
 
 ### Проверка доступности автонавигации
+
 ```lua
-local questId = 12345 -- Идентификатор задания
 local autoNavigationAllowed = avatar.IsQuestAutoNavigationAllowed( questId )
 
 if autoNavigationAllowed then
