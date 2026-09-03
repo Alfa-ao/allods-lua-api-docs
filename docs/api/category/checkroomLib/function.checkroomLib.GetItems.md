@@ -25,7 +25,7 @@ checkroomLib.GetItems( collectionId: LifestyleCollectionId ): table
 ```lua
 local categories = checkroomLib.GetCategories()
 local collections = checkroomLib.GetCollections( categories[ 1 ] )
-local items = checkroomLib.GetItems( collection[ 1 ] )
+local items = checkroomLib.GetItems( collections[ 1 ] )
 local itemInfo = itemLib.GetItemInfo( items[ 1 ] )
 ```
 
