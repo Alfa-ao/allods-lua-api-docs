@@ -8963,6 +8963,14 @@ export default [
                         link: "/api/types/FactionId"
                     },
                     {
+                        text: "ForgeCraftRecipeId",
+                        link: "/api/types/ForgeCraftRecipeId"
+                    },
+                    {
+                        text: "ForgeCraftResourceId",
+                        link: "/api/types/ForgeCraftResourceId"
+                    },
+                    {
                         text: "GamePosition",
                         link: "/api/types/GamePosition"
                     },
@@ -8991,8 +8999,16 @@ export default [
                         link: "/api/types/InstancedEventResourceId"
                     },
                     {
+                        text: "InterfaceMapMarkerId",
+                        link: "/api/types/InterfaceMapMarkerId"
+                    },
+                    {
                         text: "ItemCategoryId",
                         link: "/api/types/ItemCategoryId"
+                    },
+                    {
+                        text: "ItemClassId",
+                        link: "/api/types/ItemClassId"
                     },
                     {
                         text: "ItemId",
@@ -9059,6 +9075,14 @@ export default [
                         link: "/api/types/MutationInfo"
                     },
                     {
+                        text: "OrderBonusId",
+                        link: "/api/types/OrderBonusId"
+                    },
+                    {
+                        text: "PersistentId",
+                        link: "/api/types/PersistentId"
+                    },
+                    {
                         text: "PostTypeId",
                         link: "/api/types/PostTypeId"
                     },
@@ -9073,6 +9097,10 @@ export default [
                     {
                         text: "RecipeId",
                         link: "/api/types/RecipeId"
+                    },
+                    {
+                        text: "ReforgeResourceId",
+                        link: "/api/types/ReforgeResourceId"
                     },
                     {
                         text: "RelatedSoundsLua",
@@ -9159,12 +9187,20 @@ export default [
                         link: "/api/types/UnlockCategoryId"
                     },
                     {
+                        text: "UnlockId",
+                        link: "/api/types/UnlockId"
+                    },
+                    {
                         text: "ValuedObjectLua",
                         link: "/api/types/ValuedObjectLua"
                     },
                     {
                         text: "ValuedTextLua",
                         link: "/api/types/ValuedTextLua"
+                    },
+                    {
+                        text: "VariableId",
+                        link: "/api/types/VariableId"
                     },
                     {
                         text: "VisActionId",
@@ -9197,6 +9233,10 @@ export default [
                     {
                         text: "WString",
                         link: "/api/types/WString"
+                    },
+                    {
+                        text: "ZodiacSignId",
+                        link: "/api/types/ZodiacSignId"
                     }
                 ],
                 link: "/api/types/LuaApi.md"
