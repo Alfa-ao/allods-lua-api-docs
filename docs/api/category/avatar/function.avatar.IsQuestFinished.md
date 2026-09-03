@@ -1,4 +1,5 @@
 # avatar.IsQuestFinished
+
 Проверяет статус завершения задания.
 
 ## Описание
@@ -11,17 +12,17 @@ avatar.IsQuestFinished( questId: QuestId ): boolean
 
 ## Список параметров
 
-- **`questId`** (`QuestId`)
-Идентификатор ресурса задания, статус которого необходимо проверить.
+- **`questId`** (`QuestId`) - Идентификатор ресурса задания, статус которого необходимо проверить.
 
 ## Возвращаемые значения
-`boolean` - `true`, если задание завершено, иначе `false`.
+
+Возвращает `boolean` - `true`, если задание завершено, иначе `false`.
 
 ## Примеры
 
 ### Проверка статуса выполнения задания
+
 ```lua
-local questId = 12345 -- Идентификатор проверяемого задания
 local isQuestFinished = avatar.IsQuestFinished( questId )
 
 if isQuestFinished then
