@@ -1,4 +1,5 @@
 # avatar.TeleportToLocation
+
 Телепортирует главного игрока в указанную точку телепортации.
 
 ## Описание
@@ -11,8 +12,7 @@ avatar.TeleportToLocation( locationId: ObjectId | TeleportMasterId )
 
 ## Список параметров
 
-- **`locationId`** (`ObjectId` | `TeleportMasterId`)
-Идентификатор точки телепортации, в которую необходимо переместить игрока. Значение берется из списка точек телепортации, имеющихся у текущего мастера телепорта.
+- **`locationId`** (`ObjectId` | `TeleportMasterId`) - Идентификатор точки телепортации, в которую необходимо переместить игрока. Значение берется из списка точек телепортации, имеющихся у текущего мастера телепорта.
 
 ## Возвращаемые значения
 
@@ -21,7 +21,7 @@ avatar.TeleportToLocation( locationId: ObjectId | TeleportMasterId )
 ## Примеры
 
 ### Телепортация игрока в заданную точку
+
 ```lua
-local locationId = 12345 -- Идентификатор точки телепортации из списка мастера
 avatar.TeleportToLocation( locationId )
 ```
