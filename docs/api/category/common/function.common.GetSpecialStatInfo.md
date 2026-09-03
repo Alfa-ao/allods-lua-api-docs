@@ -1,4 +1,5 @@
 # common.GetSpecialStatInfo
+
 Возвращает базовую информацию о Special-характеристике.
 
 ## Описание
@@ -11,25 +12,24 @@ common.GetSpecialStatInfo( specialStatId: SpecialStatId ): table | nil
 
 ## Список параметров
 
-- **`specialStatId`** (`SpecialStatId`)
-Уникальный идентификатор ресурса Special-стата.
+- **`specialStatId`** (`SpecialStatId`) - Уникальный идентификатор ресурса Special-стата.
 
 ## Возвращаемые значения
 
-Возвращает `table` или `nil`.
-Если информация успешно получена, возвращается таблица со следующими полями:
-- **`name`** (`WString`) - полное название Special-стата.
-- **`tooltipName`** (`WString`) - упрощенное название Special-стата.
-- **`shortDescription`** (`WString`) - краткое описание Special-стата.
-- **`type`** (`number`) - класс характеристики, соответствует значениям перечисления `ENUM_SpecialStatType`.
+Возвращает `table` или `nil`. Если информация успешно получена, возвращается таблица со следующими полями:
 
-Возвращает `nil`, если Special-стат с заданным идентификатором не существует.
+- **`name`** (`WString`) - полное название Special-стата.
+
+- **`tooltipName`** (`WString`) - упрощенное название.
+
+- **`shortDescription`** (`WString`) - краткое описание.
+
+- **`type`** (`number`) - класс характеристики, соответствует значениям перечисления `ENUM_SpecialStatType`.
 
 ## Примеры
 
 ### Получение информации о Special-характеристике
 ```lua
-local specialStatId = 12345 -- Идентификатор Special-стата
 local statInfo = common.GetSpecialStatInfo( specialStatId )
 
 if statInfo then
