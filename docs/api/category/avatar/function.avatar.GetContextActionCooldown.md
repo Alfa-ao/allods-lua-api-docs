@@ -1,4 +1,5 @@
 # avatar.GetContextActionCooldown
+
 Возвращает информацию о кулдауне контекстного действия.
 
 ## Описание
@@ -22,14 +23,16 @@ avatar.GetContextActionCooldown( id: ObjectId ): table | nil
 Возвращает таблицу (`table`) с информацией о кулдауне или `nil`, если действие не существует.
 
 Поля возвращаемой таблицы:
+
 - **`durationMs`** (`number`) - общая длительность кулдауна в миллисекундах.
+
 - **`remainingMs`** (`number`) - оставшееся время действия кулдауна в миллисекундах.
 
 ## Примеры
 
 ### Получение информации о кулдауне действия
+
 ```lua
-local actionId = 12345 -- Идентификатор контекстного действия
 local actionCooldown = avatar.GetContextActionCooldown( actionId )
 
 if actionCooldown then
