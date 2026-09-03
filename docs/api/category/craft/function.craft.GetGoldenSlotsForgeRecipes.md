@@ -1,4 +1,5 @@
 # craft.GetGoldenSlotsForgeRecipes
+
 Возвращает список доступных рецептов для объединения золотых слотов.
 
 ## Описание
@@ -15,12 +16,12 @@ craft.GetGoldenSlotsForgeRecipes( ignorePredicates: boolean | nil ): table | nil
 
 ## Возвращаемые значения
 
-Возвращает `table` или `nil`.
-Таблица содержит список идентификаторов рецептов (`ForgeRecipeId`) для forge крафта, индексируемый от 1. При ошибке возвращается `nil`.
+Возвращает `table` - список идентификаторов рецептов (`ForgeCraftRecipeId`) для forge крафта, индексируемый от `1`. При ошибке возвращается `nil`.
 
 ## Примеры
 
 ### Получение списка рецептов
+
 ```lua
 local recipes = craft.GetGoldenSlotsForgeRecipes()
 ```
