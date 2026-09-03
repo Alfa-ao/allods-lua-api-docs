@@ -22,8 +22,8 @@ avatar.GetUnlocks(): table
 ### Перебор и вывод названий всех доступных возможностей
 ```lua
 local unlocks = avatar.GetUnlocks()
-for i = 0, GetTableSize( unlocks ) - 1 do
-    local info = avatar.GetUnlockInfo( unlocks[ i ] )
+for _, unlockId in ipairs( unlocks ) do
+    local info = avatar.GetUnlockInfo( unlockId )
     if info then
         LogInfo( info.name )
     end
