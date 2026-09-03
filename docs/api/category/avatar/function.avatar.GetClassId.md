@@ -1,4 +1,5 @@
 # avatar.GetClassId
+
 Возвращает идентификатор класса главного персонажа.
 
 ## Описание
@@ -15,11 +16,12 @@ avatar.GetClassId(): CharacterClassId
 
 ## Возвращаемые значения
 
-Возвращает `CharacterClassId` (`number`) - числовой идентификатор класса главного персонажа.
+Возвращает `CharacterClassId` (`CharacterClassId`) - числовой идентификатор класса главного персонажа.
 
 ## Примеры
 
 ### Получение идентификатора класса
+
 ```lua
 local characterClassId = avatar.GetClassId()
 ```
