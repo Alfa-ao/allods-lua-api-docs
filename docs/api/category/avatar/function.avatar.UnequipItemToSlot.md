@@ -1,4 +1,5 @@
 # avatar.UnequipItemToSlot
+
 Снимает указанный предмет из экипировки и помещает его в заданную ячейку инвентаря.
 
 ## Описание
@@ -11,10 +12,9 @@ avatar.UnequipItemToSlot( itemId: ObjectId, inventorySlot: number )
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`)
-Уникальный идентификатор предмета, который необходимо снять с персонажа.
-- **`inventorySlot`** (`number`)
-Индекс целевой ячейки в инвентаре, куда будет перемещен предмет. Допустимый диапазон значений: от `0` до `GetInventorySize() - 1`.
+- **`itemId`** (`ObjectId`) - Уникальный идентификатор предмета, который необходимо снять с персонажа.
+
+- **`inventorySlot`** (`number`) - Индекс целевой ячейки в инвентаре, куда будет перемещен предмет. Допустимый диапазон значений: от `0` до `GetInventorySize() - 1`.
 
 ## Возвращаемые значения
 
@@ -23,8 +23,8 @@ avatar.UnequipItemToSlot( itemId: ObjectId, inventorySlot: number )
 ## Примеры
 
 ### Снятие предмета в последнюю ячейку инвентаря
+
 ```lua
-local itemId = 12345
 local inventorySize = avatar.GetInventorySize()
 local targetSlot = inventorySize - 1
 
@@ -37,4 +37,4 @@ avatar.UnequipItemToSlot( itemId, targetSlot )
 
 ## Смотрите также
 
-- `avatar.GetInventorySize`
+- [avatar.GetInventorySize] - HELP
