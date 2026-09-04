@@ -1,4 +1,5 @@
 # guildBossLib.GetSelfName
+
 Возвращает собственное имя босс гильдии, данное ему при создании.
 
 ## Описание
@@ -20,13 +21,10 @@ guildBossLib.GetSelfName(): WString|nil
 ## Примеры
 
 ### Получение имени босс гильдии
+
 ```lua
 local bossSelfName = guildBossLib.IsExist() and guildBossLib.GetSelfName()
 ```
-
-::: info Описание примера
-В примере сначала проверяется существование босс гильдии с помощью `guildBossLib.IsExist()`. Если босс существует, извлекается его собственное имя через `guildBossLib.GetSelfName()`.
-:::
 
 ## Смотрите также
 
