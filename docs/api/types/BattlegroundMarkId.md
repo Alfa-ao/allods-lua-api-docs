@@ -5,6 +5,8 @@
 Поля, доступные в [BattlegroundMarkId:GetInfo](/api/category/ResourceId/method.GetInfo.md)
 
 ```
-image: WString - идентификатор иконки
-sysName: string or nil - системное название команды
+["image"] => userdata(UITextureId) = {} - идентификатор иконки
+["sysName"] => string(4) "Blue" - системное название команды
+["sysTeam"] => string(20) "ENUM_FightTeam_FIRST"
+["team"] => number(0)
 ```
