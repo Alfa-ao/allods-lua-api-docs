@@ -35,7 +35,7 @@ local valuedText = common.CreateValuedText()
 -- format = <html>Возможно, есть рецепты: <r name="count"/> шт.</html>
 
 local vtCountRecipes = common.CreateValuedText{
-    format = self._services.locale:Get( "EXAMPLE_TEXT" ),
+    format = relatedText:Get( "EXAMPLE_TEXT" ),
     count = 5,
 }
 ```
