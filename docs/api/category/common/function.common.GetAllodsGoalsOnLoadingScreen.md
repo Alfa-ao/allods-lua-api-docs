@@ -1,4 +1,5 @@
 # common.GetAllodsGoalsOnLoadingScreen
+
 Возвращает список целей текущего аватара для отображения на загрузочном экране миссии.
 
 ## Описание
@@ -20,14 +21,15 @@ common.GetAllodsGoalsOnLoadingScreen(): table | nil
 ## Примеры
 
 ### Получение и отображение случайной цели на загрузочном экране
+
 ```lua
 local goals = common.GetAllodsGoalsOnLoadingScreen()
 self.wtGoal:Show( goals ~= nil )
 if goals then
-  local _, goal = table.getrandom( goals )
-  local info = goal:GetInfo()
-  self.wtGoal.wtDescription:SetVal( "value", info.shortDescription or info.description )
-  self.wtGoal.wtHeader:SetVal( "value", info.title )
+    local _, goal = table.getrandom( goals )
+    local info = goal:GetInfo()
+    self.wtGoal.wtDescription:SetVal( "value", info.shortDescription or info.description )
+    self.wtGoal.wtHeader:SetVal( "value", info.title )
 end
 ```
 
