@@ -29,8 +29,7 @@ runeLib.GetSlotInfo( dressSlot: number ): table | nil
 ### Получение информации о слоте
 
 ```lua
-local dressSlot = 0
-local runeSlotInfo = runeLib.GetSlotInfo( dressSlot )
+local runeSlotInfo = runeLib.GetSlotInfo( DRESS_SLOT_OFFENSIVERUNE1 )
 if runeSlotInfo then
     local requiredLevel = runeSlotInfo.requiredLevel
 end
