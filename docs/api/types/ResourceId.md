@@ -62,6 +62,8 @@ outline: deep
 
 Идентификатор визуального объекта из базы.
 
+---
+
 
 
 
@@ -83,7 +85,7 @@ outline: deep
 
 ---
 
-### [AstralSectorId]
+### [AstralSectorId](/api/types/AstralSectorId.md)
 
 Идентификатор астрального сектора.
 
@@ -113,13 +115,13 @@ outline: deep
 
 ---
 
-### [CharacterFormId]
+### [CharacterFormId](/api/types/CharacterFormId.md)
 
 Идентификатор ресурса формы класса аватара игрока.
 
 ---
 
-### [CombatTagId]
+### [CombatTagId](/api/types/CombatTagId.md)
 
 Идентификатор эффекта наложенного на игрока в бою.
 
@@ -149,6 +151,36 @@ outline: deep
 
 ---
 
+### [ForgeCraftRecipeId](/api/types/ForgeCraftRecipeId.md)
+
+Идентификатор рецепта forge крафта.
+
+---
+
+### [ForgeCraftResourceId](/api/types/ForgeCraftResourceId.md)
+
+Идентификатор ресурса forge крафта.
+
+---
+
+### [GlossaryId](/api/types/GlossaryId.md)
+
+Идентификатор универсального описателя.
+
+---
+
+### [GoalId](/api/types/GoalId.md)
+
+Идентификатор цели.
+
+---
+
+### [InstancedEventCategoryId](/api/types/InstancedEventCategoryId.md)
+
+Идентификатор ресурса категории сражения (инстанс-ивента).
+
+---
+
 ### [InstancedEventResourceId](/api/types/InstancedEventResourceId.md)
 
 Идентификатор сражения.
@@ -167,9 +199,27 @@ outline: deep
 
 ---
 
+### [ItemClassId](/api/types/ItemClassId.md)
+
+Идентификатор класса предмета.
+
+---
+
 ### [ItemId](/api/types/ItemId.md)
 
 Идентификатор ресурса предмета в базе.
+
+---
+
+### [LfgDestinationCategoryId](/api/types/LfgDestinationCategoryId.md)
+
+Идентификатор категории цели для LFG(сбора группы).
+
+---
+
+### [LfgDestinationId](/api/types/LfgDestinationId.md)
+
+Идентификатор активности для LFG(сбора группы).
 
 ---
 
@@ -197,9 +247,33 @@ outline: deep
 
 ---
 
+### [MedalId](/api/types/MedalId.md)
+
+Идентификатор ресурса достижения.
+
+---
+
+### [MedalRankId](/api/types/MedalRankId.md)
+
+Идентификатор ресурса ранга достижения.
+
+---
+
 ### [MountTalentId](/api/types/MountTalentId.md)
 
 Идентификатор таланта маунта.
+
+---
+
+### [MountTalentGroupId](/api/types/MountTalentGroupId.md)
+
+Идентификатор группы талантов маунта.
+
+---
+
+### [OrderBonusId](/api/types/OrderBonusId.md)
+
+Идентификатор бонуса ордена.
 
 ---
 
@@ -221,9 +295,39 @@ outline: deep
 
 ---
 
+### [ReforgeResourceId](/api/types/ReforgeResourceId.md)
+
+Идентификатор ресурса (тира) для этого reforge-крафта.
+
+---
+
+### [RuleId](/api/types/RuleId.md)
+
+Идентификатор ресурса переодического события.
+
+---
+
+### [ShipSkinId](/api/types/ShipSkinId.md)
+
+Идентификатор скина корпуса корабля.
+
+---
+
 ### [SkillId](/api/types/SkillId.md)
 
 Идентификатор умения.
+
+---
+
+### [Sound2DId](/api/types/Sound2DId.md)
+
+Идентификатор звука.
+
+---
+
+### [SpecialStatId](/api/types/SpecialStatId.md)
+
+Идентификатор специальной характеристики.
 
 ---
 
@@ -233,8 +337,66 @@ outline: deep
 
 ---
 
+### [TeleportMasterId](/api/types/TeleportMasterId.md)
+
+Идентификатор мастера телепорта.
+
+---
+
+### [TimeTableId](/api/types/TimeTableId.md)
+
+Идентификатор таблицы с предустановленным списком времен/дат (как правило обозначают периодически повторяющиеся события).
+
+---
+
+### [TutorialCategoryId](/api/types/TutorialCategoryId.md)
+
+Идентификатор ресурса категории обучения.
+
+---
+
+### [TutorialId](/api/types/TutorialId.md)
+
+Идентификатор ресурса обучения.
+
+---
+
+### [UnlockCategoryId](/api/types/UnlockCategoryId.md)
+
+Идентификатор категории анлоков.
+
+---
+
+### [UnlockId](/api/types/UnlockId.md)
+
+Идентификатор ресурса возможности.
+
+---
+
+### [VariableId](/api/types/VariableId.md)
+
+Идентификатор ресурса геймдизайнерской переменной.
+
+---
+
+### [VisualShipId](/api/types/VisualShipId.md)
+
+Идентификатор корпуса корабля.
+
+---
+
+### [VoteId](/api/types/VoteId.md)
+
+Идентификатор голосования.
+
+---
+
 ### [WishmasterResourceId](/api/types/WishmasterResourceId.md)
 
 Идентификатор ресурса исполнителя желаний.
 
 ---
+
+### [ZodiacSignId](/api/types/ZodiacSignId.md)
+
+Идентификатор знака зодиака.
