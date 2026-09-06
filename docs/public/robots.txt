@@ -1,0 +1,1 @@
+Sitemap: https://alfa-ao.github.io/allods-lua-api-docs/sitemap.xml
