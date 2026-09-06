@@ -1,4 +1,4 @@
-# MountTalentId
+# MountTalentGroupId
 
 Идентификатор группы талантов маунта. Один из типов группы `ResourceId`.
 
