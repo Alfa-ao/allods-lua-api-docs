@@ -6926,18 +6926,55 @@ export default [
                                 ]
                             },
                             {
-                                text: "Form",
+                                text: "FactoryCache",
                                 collapsed: true,
                                 items: [
                                     {
-                                        text: "GetFactoryCache",
-                                        link: "/api/category/widget/Form/method.GetFactoryCache"
+                                        text: "AddChild",
+                                        link: "/api/category/widget/FactoryCache/method.AddChild"
                                     },
                                     {
-                                        text: "GetWidgetCoreTree",
-                                        link: "/api/category/widget/Form/method.GetWidgetCoreTree"
+                                        text: "CreateChildByDesc",
+                                        link: "/api/category/widget/FactoryCache/method.CreateChildByDesc"
+                                    },
+                                    {
+                                        text: "GetDebugInfo",
+                                        link: "/api/category/widget/FactoryCache/method.GetDebugInfo"
+                                    },
+                                    {
+                                        text: "GetFactoryCache",
+                                        link: "/api/category/widget/FactoryCache/method.GetFactoryCache"
+                                    },
+                                    {
+                                        text: "GetId",
+                                        link: "/api/category/widget/FactoryCache/method.GetId"
+                                    },
+                                    {
+                                        text: "GetInstanceId",
+                                        link: "/api/category/widget/FactoryCache/method.GetInstanceId"
+                                    },
+                                    {
+                                        text: "GetName",
+                                        link: "/api/category/widget/FactoryCache/method.GetName"
+                                    },
+                                    {
+                                        text: "GetParent",
+                                        link: "/api/category/widget/FactoryCache/method.GetParent"
+                                    },
+                                    {
+                                        text: "IsEqual",
+                                        link: "/api/category/widget/FactoryCache/method.IsEqual"
+                                    },
+                                    {
+                                        text: "IsValid",
+                                        link: "/api/category/widget/FactoryCache/method.IsValid"
                                     }
                                 ]
+                            },
+                            {
+                                text: "Form",
+                                collapsed: true,
+                                items: []
                             },
                             {
                                 text: "ScrollableContainer",
@@ -7308,6 +7345,10 @@ export default [
                                     {
                                         text: "GetTransparentInput",
                                         link: "/api/category/widget/Widget/method.GetTransparentInput"
+                                    },
+                                    {
+                                        text: "GetWidgetCoreTree",
+                                        link: "/api/category/widget/Widget/method.GetWidgetCoreTree"
                                     },
                                     {
                                         text: "GetWidgetDesc",
@@ -8961,6 +9002,10 @@ export default [
                     {
                         text: "FactionId",
                         link: "/api/types/FactionId"
+                    },
+                    {
+                        text: "FactoryCache",
+                        link: "/api/types/FactoryCache"
                     },
                     {
                         text: "ForgeCraftRecipeId",
