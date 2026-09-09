@@ -1,4 +1,5 @@
 # containerLib.IsInteracting
+
 Определяет возможность открытия контейнера посредством взаимодействия с соответствующим NPC.
 
 ## Описание
@@ -20,6 +21,7 @@ containerLib.IsInteracting( slotType: number ): boolean
 ## Примеры
 
 ### Проверка и открытие контейнера
+
 ```lua
 if containerLib.IsInteracting( ITEM_CONT_DEPOSITE ) and not containerLib.IsOpen( ITEM_CONT_DEPOSITE ) then
     containerLib.Open( ITEM_CONT_DEPOSITE )
