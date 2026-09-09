@@ -1,4 +1,5 @@
 # interaction.GetExchangeInviter
+
 Возвращает информацию об игроке, начавшем торговлю.
 
 ## Описание
@@ -32,6 +33,7 @@ interaction.GetExchangeInviter(): table|nil
 ## Примеры
 
 ### Получение информации о предметах на обменном столе
+
 ```lua
 local offerInfo = interaction.GetExchangeInviter()
 for i = 0, interaction.GetExchangeSlotCount() - 1 do
