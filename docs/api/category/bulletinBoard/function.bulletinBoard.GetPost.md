@@ -17,9 +17,9 @@ bulletinBoard.GetPost( postId: number ): table | nil
 ## Возвращаемые значения
 
 Возвращает таблицу (`table`) с информацией об объявлении или `nil`, если объявление не найдено.
-Поля возвращаемой таблицы:
 
 - **`postId`** (`number`) - уникальный идентификатор объявления.
+
 - **`isPremium`** (`boolean`) - `true`, если это платное (премиальное) сообщение.
 - **`name`** (`WString`) - имя персонажа, создавшего объявление.
 - **`guild`** (`WString`) - название гильдии персонажа (если персонаж состоит в гильдии).
@@ -47,5 +47,5 @@ end
 
 ## Смотрите также
 
-- LuaRaceClassInfoPart (HELP)
-- LuaSexInfoPart
+- [LuaRaceClassInfoPart](/api/types/LuaRaceClassInfoPart.md)
+- [LuaSexInfoPart](/api/types/LuaSexInfoPart.md)
