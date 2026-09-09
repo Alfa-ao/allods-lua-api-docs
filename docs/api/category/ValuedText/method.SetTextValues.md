@@ -24,9 +24,9 @@ ValuedTextSafe:SetTextValues( textValues: table )
 
 - Если значение имеет тип `string` - неявно выполняется `SetClassVal( key, value )`.
 
-- Если значение имеет тип `int` - неявно выполняется `SetVal( key, IntWs( value ) )`. (HELP)
+- Если значение имеет тип `int` - неявно выполняется `SetVal( key, userMods.ToWString( value ):ToInt() )`.
 
-- Если значение имеет тип `float` - неявно выполняется `SetVal( key, FloatWs( value ) )`. (HELP)
+- Если значение имеет тип `float` - неявно выполняется `SetVal( key, userMods.ToWString( value ):ToInt() )`.
 
 - Если значение имеет тип `WString` / `ValuedText` / `ValuedObject` - неявно выполняется `SetVal( key, value )`.
 
