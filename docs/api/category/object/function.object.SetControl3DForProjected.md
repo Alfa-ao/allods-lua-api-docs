@@ -1,4 +1,5 @@
 # object.SetControl3DForProjected
+
 Задает 3D-control для списка проецируемых объектов.
 
 ## Описание
@@ -20,8 +21,9 @@ object.SetControl3DForProjected( wtControl3D: Control3DSafe )
 ## Примеры
 
 ### Получение и установка 3D-control
+
 ```lua
-local wtMainAddonMainForm = common.GetAddonMainForm( "Main" ) -- (HELP) проверить
+local wtMainAddonMainForm = common.GetAddonMainForm( "UsserAddon/Main" )
 local wtControl3D = wtMainAddonMainForm:GetChildChecked( "MainScreenControl3D", false )
 object.SetControl3DForProjected( wtControl3D )
 ```
