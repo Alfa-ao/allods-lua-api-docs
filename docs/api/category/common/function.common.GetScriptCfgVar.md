@@ -1,4 +1,5 @@
 # common.GetScriptCfgVar
+
 Возвращает значение скриптовой переменной из конфигурационного файла.
 
 ## Описание
@@ -23,8 +24,7 @@ common.GetScriptCfgVar( name: string ): boolean | number | string | nil
 
 ## Список параметров
 
-- **`name`** (`string`)
-Имя скриптовой переменной, значение которой необходимо получить.
+- **`name`** (`string`) - Имя скриптовой переменной, значение которой необходимо получить.
 
 ## Возвращаемые значения
 
@@ -33,6 +33,7 @@ common.GetScriptCfgVar( name: string ): boolean | number | string | nil
 ## Примеры
 
 ### Получение значения скриптовой переменной
+
 ```lua
 local chatSize = common.GetScriptCfgVar( "chat_size" )
 ```
