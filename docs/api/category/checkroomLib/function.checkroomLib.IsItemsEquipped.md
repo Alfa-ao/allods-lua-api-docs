@@ -7,7 +7,7 @@
 ```lua
 checkroomLib.IsItemsEquipped( itemIds: table ): table
 ```
-(HELP) аналог сам на себя
+
 Функция выступает массовым аналогом `checkroomLib.IsItemEquipped` и проверяет статус экипировки для списка предметов.
 
 ## Список параметров
@@ -23,10 +23,9 @@ checkroomLib.IsItemsEquipped( itemIds: table ): table
 ### Проверка статуса экипировки списка предметов
 
 ```lua
-local itemIds = { 12345, 67890 }
 local isItemsEquipped = checkroomLib.IsItemsEquipped( itemIds )
 ```
 
 ## Смотрите также
-(HELP) аналог сам на себя
-- [checkroomLib.IsItemEquipped](/api/category/checkroomLib/function.checkroomLib.IsItemEquipped.md)
+
+- [checkroomLib.IsItemEquipped](/api/category/checkroomLib/function.checkroomLib.IsItemEquipped.md) - (Item)
