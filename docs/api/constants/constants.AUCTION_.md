@@ -15,35 +15,25 @@ outline: deep
 
 ### Список констант
 
-- **`AUCTION_ORDERFIELD_NAME`** (`number` `0`)
-Задает сортировку результатов по имени лота.
+- **`AUCTION_ORDERFIELD_NAME`** (`number` `0`) - Задает сортировку результатов по имени лота.
 
-- **`AUCTION_ORDERFIELD_CLASS`** (`number` `1`)
-Задает сортировку результатов по классу предмета.
+- **`AUCTION_ORDERFIELD_CLASS`** (`number` `1`) - Задает сортировку результатов по классу предмета.
 
-- **`AUCTION_ORDERFIELD_SLOT`** (`number` `2`)
-Задает сортировку результатов по слоту экипировки предмета.
+- **`AUCTION_ORDERFIELD_SLOT`** (`number` `2`) - Задает сортировку результатов по слоту экипировки предмета.
 
-- **`AUCTION_ORDERFIELD_RARETY`** (`number` `3`)
-Задает сортировку результатов по редкости (качеству) предмета.
+- **`AUCTION_ORDERFIELD_RARETY`** (`number` `3`) - Задает сортировку результатов по редкости (качеству) предмета.
 
-- **`AUCTION_ORDERFIELD_LEVEL`** (`number` `4`)
-Задает сортировку результатов по уровню предмета.
+- **`AUCTION_ORDERFIELD_LEVEL`** (`number` `4`) - Задает сортировку результатов по уровню предмета.
 
-- **`AUCTION_ORDERFIELD_TYPE`** (`number` `5`)
-Задает сортировку результатов по типу предмета.
+- **`AUCTION_ORDERFIELD_TYPE`** (`number` `5`) - Задает сортировку результатов по типу предмета.
 
-- **`AUCTION_ORDERFIELD_BID`** (`number` `6`)
-Задает сортировку результатов по размеру текущей ставки.
+- **`AUCTION_ORDERFIELD_BID`** (`number` `6`) - Задает сортировку результатов по размеру текущей ставки.
 
-- **`AUCTION_ORDERFIELD_BUYOUT`** (`number` `7`)
-Задает сортировку результатов по цене выкупа.
+- **`AUCTION_ORDERFIELD_BUYOUT`** (`number` `7`) - Задает сортировку результатов по цене выкупа.
 
-- **`AUCTION_ORDERFIELD_LEFTTIME`** (`number` `8`)
-Задает сортировку результатов по оставшемуся времени до завершения торгов.
+- **`AUCTION_ORDERFIELD_LEFTTIME`** (`number` `8`) - Задает сортировку результатов по оставшемуся времени до завершения торгов.
 
-- **`AUCTION_ORDERFIELD_NONE`** (`number` `9`)
-Порядок элементов определяется на стороне сервера.
+- **`AUCTION_ORDERFIELD_NONE`** (`number` `9`) - Порядок элементов определяется на стороне сервера.
 
 ### Примеры
 
@@ -60,8 +50,6 @@ auction.Search( filter, AUCTION_ORDERFIELD_NAME, true, 1 )
 
 #### Сортировка по классу предмета (AUCTION_ORDERFIELD_CLASS)
 
-(HELP) Уточнить itemClass
-
 ```lua
 local filter = { itemClass = "WEAPON" }
 auction.Search( filter, AUCTION_ORDERFIELD_CLASS, true, 1 )
@@ -73,7 +61,7 @@ auction.Search( filter, AUCTION_ORDERFIELD_CLASS, true, 1 )
 
 #### Сортировка по слоту экипировки (AUCTION_ORDERFIELD_SLOT)
 
-(HELP) Уточнить dressSlot EnumDressSlot.html
+- [DRESS_SLOT_*](/api/constants/constants.DRESS_SLOT.md)
 
 ```lua
 local filter = { dressSlot = DRESS_SLOT_RUNE }
@@ -86,8 +74,6 @@ auction.Search( filter, AUCTION_ORDERFIELD_SLOT, true, 1 )
 
 #### Сортировка по редкости (AUCTION_ORDERFIELD_RARETY)
 
-(HELP) Указать ссылку на ITEM_QUALITY_*
-
 ```lua
 local filter = { rarityMin = ITEM_QUALITY_EPIC, rarityMax = ITEM_QUALITY_DRAGON }
 auction.Search( filter, AUCTION_ORDERFIELD_RARETY, false, 1 )
@@ -97,9 +83,11 @@ auction.Search( filter, AUCTION_ORDERFIELD_RARETY, false, 1 )
 Ищутся предметы от обычного до эпического качества. Сортировка выполняется по убыванию редкости (от эпического к обычному), так как передан параметр `false`.
 :::
 
-::: danger (DEPRECATED)
-AUCTION_ORDERFIELD_RARETY -> AUCTION_ORDERFIELD_RARITY
+::: warning Опечатка в API
+AUCTION_ORDERFIELD_RARETY(на боевом) -> AUCTION_ORDERFIELD_RARITY
 :::
+
+- [ITEM_QUALITY_*](/api/constants/constants.ITEM_QUALITY.md)
 
 #### Сортировка по уровню (AUCTION_ORDERFIELD_LEVEL)
 
@@ -114,10 +102,8 @@ auction.Search( filter, AUCTION_ORDERFIELD_LEVEL, false, 1 )
 
 #### Сортировка по типу предмета (AUCTION_ORDERFIELD_TYPE)
 
-(HELP) Уточнить категории
-
 ```lua
-local filter = { rootCategory = 1 }
+local filter = { rootCategory = itemLib.GetCategory( itemId ) }
 auction.Search( filter, AUCTION_ORDERFIELD_TYPE, true, 1 )
 ```
 
@@ -185,17 +171,13 @@ auction.Search( filter, AUCTION_ORDERFIELD_NONE, false, 1 )
 
 ### Список констант
 
-- **`AUCTION_CREATETIME_HOURS12`** (`number` `0`)
-Задает длительность аукциона 12 часов.
+- **`AUCTION_CREATETIME_HOURS12`** (`number` `0`) - Задает длительность аукциона 12 часов.
 
-- **`AUCTION_CREATETIME_HOURS24`** (`number` `1`)
-Задает длительность аукциона 24 часа.
+- **`AUCTION_CREATETIME_HOURS24`** (`number` `1`) - Задает длительность аукциона 24 часа.
 
-- **`AUCTION_CREATETIME_HOURS36`** (`number` `2`)
-Задает длительность аукциона 36 часов.
+- **`AUCTION_CREATETIME_HOURS36`** (`number` `2`) - Задает длительность аукциона 36 часов.
 
-- **`AUCTION_CREATETIME_HOURS48`** (`number` `3`)
-Задает длительность аукциона 48 часов.
+- **`AUCTION_CREATETIME_HOURS48`** (`number` `3`) - Задает длительность аукциона 48 часов.
 
 ### Примеры
 
