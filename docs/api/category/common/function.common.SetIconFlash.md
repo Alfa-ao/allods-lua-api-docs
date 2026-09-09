@@ -1,4 +1,5 @@
 # common.SetIconFlash
+
 Инициирует мигание иконки в панели задач до момента получения окном приложения фокуса.
 
 ## Описание
@@ -11,8 +12,7 @@ common.SetIconFlash( flashCount: number )
 
 ## Список параметров
 
-- **`flashCount`** (`number`)
-Количество миганий (вспышек) иконки.
+- **`flashCount`** (`number`) - Количество миганий (вспышек) иконки.
 
 ## Возвращаемые значения
 
@@ -21,6 +21,7 @@ common.SetIconFlash( flashCount: number )
 ## Примеры
 
 ### Запуск мигания иконки
+
 ```lua
 common.SetIconFlash( 3 )
 ```
