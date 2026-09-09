@@ -5,7 +5,7 @@
 ## Описание
 
 ```lua
-interaction.GetExchangeInvited(): table|nil
+interaction.GetExchangeInvited(): table | nil
 ```
 
 Функция возвращает таблицу с информацией об игроке, принявшем приглашение на торговлю, или `nil`, если обмен не начат.
