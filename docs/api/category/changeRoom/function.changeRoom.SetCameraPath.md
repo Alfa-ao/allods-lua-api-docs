@@ -16,14 +16,11 @@ changeRoom.SetCameraPath( cameraPath: string, targetPath: string, delay: number 
 
 ## Список параметров
 
-- **`cameraPath`** (`string`)
-Имя маршрута движения камеры. Указывается без пути и расширения файла.
+- **`cameraPath`** (`string`) - Имя маршрута движения камеры. Указывается без пути и расширения файла.
 
-- **`targetPath`** (`string`)
-Имя маршрута движения прицела (точки фокусировки) камеры. Указывается без пути и расширения файла.
+- **`targetPath`** (`string`) - Имя маршрута движения прицела (точки фокусировки) камеры. Указывается без пути и расширения файла.
 
-- **`delay`** (`number`)
-Задержка в секундах перед началом движения камеры.
+- **`delay`** (`number`) - Задержка в секундах перед началом движения камеры.
 
 ## Возвращаемые значения
 
@@ -32,8 +29,9 @@ changeRoom.SetCameraPath( cameraPath: string, targetPath: string, delay: number 
 ## Примеры
 
 ### Запуск камеры с задержкой
-(HELP) (Route) ???
+
 ```lua
+-- (Route) - Maps/<Map>/GlobalObjects/Routes/...
 changeRoom.SetCameraPath( "cameraPath.(Route)", "targetPath.(Route)", 1.5 )
 ```
 
