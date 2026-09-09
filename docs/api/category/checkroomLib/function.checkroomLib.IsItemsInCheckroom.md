@@ -7,7 +7,7 @@
 ```lua
 checkroomLib.IsItemsInCheckroom( itemIds: table ): table
 ```
-(HELP)массовым аналогом функции
+
 Функция возвращает таблицу с признаками наличия каждого указанного предмета в гардеробе или экипировке аватара и является массовым аналогом функции `checkroomLib.IsItemInCheckroom`.
 
 ## Список параметров
@@ -23,10 +23,9 @@ checkroomLib.IsItemsInCheckroom( itemIds: table ): table
 ### Проверка наличия предметов
 
 ```lua
-local itemIds = { 101, 102, 103 }
 local isItemsInCheckroom = checkroomLib.IsItemsInCheckroom( itemIds )
 ```
 
 ## Смотрите также
-(HELP)массовым аналогом функции
-- [checkroomLib.IsItemInCheckroom](/api/category/checkroomLib/function.checkroomLib.IsItemInCheckroom.md)
+
+- [checkroomLib.IsItemInCheckroom](/api/category/checkroomLib/function.checkroomLib.IsItemInCheckroom.md) - (Item)
