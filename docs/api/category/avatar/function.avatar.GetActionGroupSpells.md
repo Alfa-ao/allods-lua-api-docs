@@ -7,6 +7,7 @@
 ```lua
 avatar.GetActionGroupSpells( actionGroupId: actionGroupId, characterClassId: characterClassId ): table
 ```
+
 Извлекает и возвращает таблицу с идентификаторами заклинаний, которые входят в указанную группу и доступны для заданного класса персонажа. Возвращаемая таблица индексируется с нуля.
 
 ## Список параметров
@@ -27,7 +28,8 @@ avatar.GetActionGroupSpells( actionGroupId: actionGroupId, characterClassId: cha
 local spells = avatar.GetActionGroupSpells(actionGroupId, characterClassId)
 
 for index, spellId in pairs(spells) do
-    local spellInfo = avatar.GetSpellInfo(spellId) (help)
+    local spellInfo = spellId:GetInfo() -- [!code ++]
+    local spellInfo = avatar.GetSpellInfo(spellId) -- [!code --]
     if spellInfo then
         common.LogInfo(spellInfo.name)
     end
