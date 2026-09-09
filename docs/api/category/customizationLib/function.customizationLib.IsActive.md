@@ -1,4 +1,5 @@
 # customizationLib.IsActive
+
 Определяет, активна ли кастомизация помещения или объекта.
 
 ## Описание
@@ -20,6 +21,7 @@ customizationLib.IsActive(): boolean
 ## Примеры
 
 ### Проверка состояния кастомизации
+
 ```lua
 if customizationLib.IsActive() then
     customizationLib.UninstallItem()
