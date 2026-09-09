@@ -10,7 +10,7 @@ object.Highlight( objectId: ObjectId, type: string, color: Color | nil, color2: 
 
 Функция управляет параметрами подсветки интерактивного объекта. Поддерживается изменение цвета подсветки, цвета окружения и модификаторов теней окружения.
 
-::: info Перечисление (HELP)
+::: info Перечисление
 - **`SELECTION`** - цвет подсветки (a, r, g, b), накладывается на объект.
 
 - **`AMBIENT`** - цвет окружения (r, g, b).
@@ -22,7 +22,7 @@ object.Highlight( objectId: ObjectId, type: string, color: Color | nil, color2: 
 
 - **`objectId`** (`ObjectId`) - идентификатор интерактивного объекта.
 
-- **`type`** (`string`("SELECTION", "AMBIENT", "OCCLUSION")) - тип изменяемого параметра.
+- **`type`** (`string`) - тип изменяемого параметра. ("SELECTION", "AMBIENT", "OCCLUSION")
 
 - **`color`** (`Color` | `nil`) - начальный цвет изменяемого параметра.
 
