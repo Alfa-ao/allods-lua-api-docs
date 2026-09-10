@@ -1,4 +1,9 @@
+---
+description: Возвращает уровень астрального анлока указанного игрока.
+---
+
 # astral.GetPlayerUnlockLevel
+
 Возвращает уровень астрального анлока указанного игрока.
 
 ## Описание
@@ -24,6 +29,7 @@ astral.GetPlayerUnlockLevel( playerId: ObjectId ): number
 ## Примеры
 
 ### Получение уровня астрального анлока
+
 ```lua
 local level = astral.GetPlayerUnlockLevel( playerId )
 ```
