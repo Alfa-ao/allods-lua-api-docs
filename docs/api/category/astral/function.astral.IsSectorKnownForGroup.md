@@ -1,4 +1,9 @@
+---
+description: Определяет доступность астрального сектора для игрока с учетом группового анлока.
+---
+
 # astral.IsSectorKnownForGroup
+
 Определяет доступность астрального сектора для игрока с учетом группового анлока.
 
 ## Описание
@@ -14,6 +19,7 @@ astral.IsSectorKnownForGroup( playerId: ObjectId, sectorId: ObjectId ): boolean
 ## Список параметров
 
 - **`playerId`** (`ObjectId`) - Уникальный идентификатор игрока, для которого производится проверка.
+
 - **`sectorId`** (`ObjectId`) - Уникальный идентификатор астрального сектора, доступность которого необходимо проверить.
 
 ## Возвращаемые значения
@@ -23,6 +29,7 @@ astral.IsSectorKnownForGroup( playerId: ObjectId, sectorId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка доступности астрального сектора
+
 ```lua
 local sectorVisible = astral.IsSectorKnownForGroup( playerId, sectorId )
 ```
