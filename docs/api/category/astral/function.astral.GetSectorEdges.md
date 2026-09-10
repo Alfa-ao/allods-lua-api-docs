@@ -1,4 +1,9 @@
+---
+description: Возвращает список идентификаторов всех секторов, связанных с заданным сектором.
+---
+
 # astral.GetSectorEdges
+
 Возвращает список идентификаторов всех секторов, связанных с заданным сектором.
 
 ## Описание
@@ -20,6 +25,7 @@ astral.GetSectorEdges( sectorId: ObjectId|AstralSectorId ): table
 ## Примеры
 
 ### Получение и перебор списка связанных секторов
+
 ```lua
 local edges = astral.GetSectorEdges( sectorId )
 for i, objectId in ipairs( edges ) do
