@@ -1,4 +1,9 @@
+---
+description: Возвращает уровень астрального моба.
+---
+
 # astralUnit.GetLevel
+
 Возвращает уровень астрального моба.
 
 ## Описание
@@ -20,6 +25,7 @@ astralUnit.GetLevel( unitId: ObjectId ): number
 ## Примеры
 
 ### Получение уровня астрального моба
+
 ```lua
 local level = astralUnit.GetLevel( unitId )
 ```
