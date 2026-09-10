@@ -1,4 +1,9 @@
+---
+description: Возвращает список заданий игрока, связанных с указанным астральным сектором.
+---
+
 # astral.GetSectorRelatedQuests
+
 Возвращает список заданий игрока, связанных с указанным астральным сектором.
 
 ## Описание
@@ -20,6 +25,7 @@ astral.GetSectorRelatedQuests( sectorId: ObjectId ): table
 ## Примеры
 
 ### Получение и обработка списка заданий сектора
+
 ```lua
 local quests = astral.GetSectorRelatedQuests( sectorId )
 for i, questId in pairs( quests ) do
