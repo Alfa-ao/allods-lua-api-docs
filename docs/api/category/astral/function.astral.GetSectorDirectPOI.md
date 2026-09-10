@@ -1,4 +1,9 @@
+---
+description: Возвращает идентификатор точки астрального события в заданном секторе для совершения прямого прыжка.
+---
+
 # astral.GetSectorDirectPOI
+
 Возвращает идентификатор точки астрального события в заданном секторе для совершения прямого прыжка.
 
 ## Описание
@@ -20,6 +25,7 @@ astral.GetSectorDirectPOI( sectorId: ObjectId ): ObjectId | nil
 ## Примеры
 
 ### Получение и проверка информации о точке прямого прыжка
+
 ```lua
 local directPoi = astral.GetSectorDirectPOI( sectorId )
 if directPoi then
