@@ -1,4 +1,9 @@
+---
+description: Возвращает список идентификаторов точек астральных ивентов в заданном секторе.
+---
+
 # astral.GetSectorPOIs
+
 Возвращает список идентификаторов точек астральных ивентов в заданном секторе.
 
 ## Описание
@@ -20,6 +25,7 @@ astral.GetSectorPOIs( sectorId: ObjectId ): table
 ## Примеры
 
 ### Получение и обработка информации о первой точке интереса в секторе
+
 ```lua
 local pois = astral.GetSectorPOIs( sectorId )
 if pois[ 1 ] then
