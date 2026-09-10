@@ -1,4 +1,9 @@
+---
+description: Принимает задание у NPC, находящегося в текущей цели аватара.
+---
+
 # avatar.AcceptQuest
+
 Принимает задание у NPC, находящегося в текущей цели аватара.
 
 ## Описание
@@ -22,6 +27,7 @@ avatar.AcceptQuest( questId: QuestId )
 ## Примеры
 
 ### Принятие задания у текущей цели
+
 ```lua
 local targetId = avatar.GetTargetId()
 
