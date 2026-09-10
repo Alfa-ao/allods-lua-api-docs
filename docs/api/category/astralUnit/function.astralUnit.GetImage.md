@@ -1,4 +1,9 @@
+---
+description: Возвращает иконку астрального моба, отображаемую на карте.
+---
+
 # astralUnit.GetImage
+
 Возвращает иконку астрального моба, отображаемую на карте.
 
 ## Описание
@@ -20,6 +25,7 @@ astralUnit.GetImage( unitId: ObjectId ): TextureId
 ## Примеры
 
 ### Получение иконки астрального моба
+
 ```lua
 local textureId = astralUnit.GetImage( unitId )
 ```
