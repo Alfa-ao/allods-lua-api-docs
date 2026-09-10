@@ -73,12 +73,18 @@ outline: deep
 
 ::: 
 
-<!--@include: @/changelog/18.0.0.md-->
+## 18.0.0
 
-<!--@include: @/changelog/17.0.0.md-->
+<!--@include: @/changelog/18.0.0.md#basic-usage-->
 
-<!--@include: @/changelog/16.0.0.md-->
+## 17.0.0
 
-<!--@include: @/changelog/15.0.0.md-->
+<!--@include: @/changelog/17.0.0.md#basic-usage-->
 
-Дополняется...
+## 16.0.0
+
+<!--@include: @/changelog/16.0.0.md#basic-usage-->
+
+## 15.0.0
+
+<!--@include: @/changelog/15.0.0.md#basic-usage-->
