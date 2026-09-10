@@ -1,4 +1,9 @@
+---
+description: Возвращает признак наличия агрессии астрального юнита к кораблю главного игрока.
+---
+
 # astralUnit.HasAggro
+
 Возвращает признак наличия агрессии астрального юнита к кораблю главного игрока.
 
 ## Описание
@@ -20,6 +25,7 @@ astralUnit.HasAggro( unitId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка агрессивности астрального юнита
+
 ```lua
 local isAstralUnitInCombatWithMainPlayer = astralUnit.HasAggro( unitId )
 ```
