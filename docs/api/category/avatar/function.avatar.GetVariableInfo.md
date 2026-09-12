@@ -11,25 +11,48 @@ avatar.GetVariableInfo( variableId: VariableId|string ): table|nil
 
 ## Список параметров
 
-- **`variableId`** (`VariableId` | `string`)
-Идентификатор ресурса переменной или её внутриигровой строковый алиас.
+- **`variableId`** (`VariableId` | `string`) - Идентификатор ресурса переменной или её внутриигровой строковый алиас.
+
+::: info Список строковых алиасов
+- BloodPool
+- Drive
+- MageEnergyInstability
+- MageFireInstability
+- MageIceInstability
+- LightCanon
+- PurityCanon
+- MaterielEnergyType
+- EngineerOverheating
+- StressManaType
+- DemonRage
+- PriestZeal
+- PriestFaith
+:::
 
 ## Возвращаемые значения
 
 Возвращает таблицу (`table`) с информацией о переменной или `nil`, если переменная не существует на аватаре или текущей карте.
 
 Структура возвращаемой таблицы:
+
 - **`id`** (`VariableId`) - уникальный идентификатор переменной.
+
 - **`sysName`** (`string`) - внутриигровой псевдоним переменной.
+
 - **`name`** (`WString`) - локализованное название переменной.
+
 - **`value`** (`number`) - текущее значение переменной.
+
 - **`minValue`** (`number`) - минимально возможное значение переменной.
+
 - **`maxValue`** (`number`) - максимально возможное значение переменной.
+
 - **`hasRelatedSpell`** (`boolean`) - флаг, указывающий, влияет ли переменная на какие-либо заклинания игрока (требуется ли она для их работы).
 
 ## Примеры
 
 ### Получение информации о первой доступной переменной
+
 ```lua
 local ids = avatar.GetVariables()
 if ids and ids[1] then
