@@ -34,8 +34,10 @@ local valuedText = common.CreateValuedText()
 ```lua
 -- format = <html>Возможно, есть рецепты: <r name="count"/> шт.</html>
 
+local group = common.GetAddonRelatedTextGroup( "EXAMPLE", true )
+
 local vtCountRecipes = common.CreateValuedText{
-    format = relatedText:Get( "EXAMPLE_TEXT" ),
+    format = group:GetText( "EXAMPLE_TEXT" ),
     count = 5,
 }
 ```
