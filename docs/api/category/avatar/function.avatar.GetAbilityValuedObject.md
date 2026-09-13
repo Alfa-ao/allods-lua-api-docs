@@ -1,4 +1,9 @@
+---
+description: Создает и возвращает новый экземпляр `ValuedObject` для пассивного умения.
+---
+
 # avatar.GetAbilityValuedObject
+
 Создает и возвращает новый экземпляр `ValuedObject` для пассивного умения.
 
 ## Описание
@@ -18,11 +23,13 @@ avatar.GetAbilityValuedObject( abilityId: number ): ValuedObject
 - **`abilityId`** (`number`) - Идентификатор ресурса пассивного умения.
 
 ## Возвращаемые значения
-`ValuedObject` - Новый экземпляр `ValuedObject`, содержащий данные о пассивном умении.
+
+Возвращает новый экземпляр `ValuedObject`, содержащий данные о пассивном умении.
 
 ## Примеры
 
 ### Получение объекта пассивного умения
+
 ```lua
 local abilityId = abilities[0]
 local valuedObject = avatar.GetAbilityValuedObject( abilityId )
