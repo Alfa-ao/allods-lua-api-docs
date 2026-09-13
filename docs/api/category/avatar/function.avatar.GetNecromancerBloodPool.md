@@ -1,4 +1,9 @@
+---
+description: Извлекает и возвращает данные о пуле крови (BloodPool) некроманта.
+---
+
 # avatar.GetNecromancerBloodPool
+
 Извлекает и возвращает данные о пуле крови (BloodPool) некроманта.
 
 ## Описание
