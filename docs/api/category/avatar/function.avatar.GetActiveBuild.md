@@ -1,4 +1,9 @@
+---
+description: Возвращает номер активной специализации аватара.
+---
+
 # avatar.GetActiveBuild
+
 Возвращает номер активной специализации аватара.
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.GetActiveBuild(): number | nil
 ## Примеры
 
 ### Получение и вывод номера активной специализации
+
 ```lua
 local buildIndex = avatar.GetActiveBuild()
 LogInfo( "Активная специализация: ", buildIndex )
