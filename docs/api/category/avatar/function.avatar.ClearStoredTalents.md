@@ -1,4 +1,9 @@
+---
+description: Сбрасывает помеченные таланты и вехи.
+---
+
 # avatar.ClearStoredTalents
+
 Сбрасывает помеченные таланты и вехи.
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.ClearStoredTalents()
 ## Примеры
 
 ### Сохранение и последующий сброс отметок талантов
+
 ```lua
 avatar.StoreFieldTalent( field, row, column )
 avatar.ClearStoredTalents()
