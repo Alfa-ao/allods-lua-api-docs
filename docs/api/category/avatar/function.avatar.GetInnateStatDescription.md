@@ -1,4 +1,9 @@
+---
+description: Возвращает описание InnateStat характеристики аватара.
+---
+
 # avatar.GetInnateStatDescription
+
 Возвращает описание InnateStat характеристики аватара.
 
 ## Описание
