@@ -1,4 +1,9 @@
+---
+description: Закрывает сумку с лутом.
+---
+
 # avatar.CloseLootBag
+
 Закрывает сумку с лутом.
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.CloseLootBag()
 ## Примеры
 
 ### Закрытие окна сумки с добычей
+
 ```lua
 avatar.CloseLootBag()
 ```
