@@ -1,4 +1,9 @@
+---
+description: Отклоняет предложение принять разделяемое задание от другого игрока.
+---
+
 # avatar.DeclineShareQuest
+
 Отклоняет предложение принять разделяемое задание от другого игрока.
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.DeclineShareQuest( shareId: ObjectId )
 ## Примеры
 
 ### Отказ от принятия разделяемого задания
+
 ```lua
 avatar.DeclineShareQuest( shareId )
 ```
