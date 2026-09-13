@@ -1,4 +1,9 @@
+---
+description: Возвращает количество очков, заработанных в событии.
+---
+
 # avatar.GetAchievementValue
+
 Возвращает количество очков, заработанных в событии.
 
 ## Описание
@@ -14,11 +19,13 @@ avatar.GetAchievementValue( ruleId: number ): number
 - **`ruleId`** (`number`) - Идентификатор события.
 
 ## Возвращаемые значения
-`number` - количество очков, заработанных в событии.
+
+Возвращает `number` - количество очков, заработанных в событии.
 
 ## Примеры
 
 ### Получение значения очков за событие
+
 ```lua
 local achievementValue = avatar.GetAchievementValue(ruleId)
 ```
