@@ -1,4 +1,9 @@
+---
+description: Экипирует предмет с указанным идентификатором в заданный слот экипировки.
+---
+
 # avatar.EquipItemByIdToSlot
+
 Экипирует предмет с указанным идентификатором в заданный слот экипировки.
 
 ## Описание
@@ -22,6 +27,7 @@ avatar.EquipItemByIdToSlot( itemId: ObjectId, equipSlot: number )
 ## Примеры
 
 ### Экипировка предмета в слот для левой руки
+
 ```lua
 avatar.EquipItemByIdToSlot( itemId, DRESS_SLOT_OFFHAND )
 ```
