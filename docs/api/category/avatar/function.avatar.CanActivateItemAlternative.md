@@ -1,4 +1,9 @@
+---
+description: Проверяет возможность активации предмета за счет указанной альтернативной валюты.
+---
+
 # avatar.CanActivateItemAlternative
+
 Проверяет возможность активации предмета за счет указанной альтернативной валюты.
 
 ## Описание
@@ -14,6 +19,7 @@ avatar.CanActivateItemAlternative( itemId: ObjectId, currencyId: CurrencyId ): b
 ## Список параметров
 
 - **`itemId`** (`ObjectId`) - Уникальный идентификатор предмета.
+
 - **`currencyId`** (`CurrencyId`) - Идентификатор альтернативной валюты.
 
 ## Возвращаемые значения
@@ -23,6 +29,7 @@ avatar.CanActivateItemAlternative( itemId: ObjectId, currencyId: CurrencyId ): b
 ## Примеры
 
 ### Проверка возможности активации предмета
+
 ```lua
 local canActivate = avatar.CanActivateItemAlternative( itemId, currencyId )
 ```
