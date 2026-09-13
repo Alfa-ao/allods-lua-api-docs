@@ -1,4 +1,9 @@
+---
+description: Конвертирует метаитем-улучшитель в обычный предмет применением на н
+---
+
 # avatar.ConvertMetaEnhancer
+
 Конвертирует метаитем-улучшитель в обычный предмет применением на нём предмета-инструмента.
 
 ## Описание
@@ -26,6 +31,7 @@ avatar.ConvertMetaEnhancer( itemId: ObjectId, instrumentId: ObjectId )
 ## Примеры
 
 ### Конвертация метапредмета с предварительной проверкой
+
 ```lua
 local metaInfo = avatar.GetItemMetaInfo( itemId )
 local itemInfo = avatar.GetItemInfo( instrumentId )
