@@ -1,4 +1,9 @@
+---
+description: Возвращает новый экземпляр ValuedObject для указанного бафа.
+---
+
 # avatar.GetBuffValuedObject
+
 Возвращает новый экземпляр ValuedObject для указанного бафа.
 
 ## Описание
