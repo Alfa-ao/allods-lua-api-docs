@@ -11,6 +11,13 @@ export default defineConfig( {
         hostname: `https://alfa-ao.github.io${base}`,
         lastmodDateOnly: false
     },
+    
+    /* sitemap: {
+        hostname:  `https://alfa-ao.github.io${base}`,
+        transformItems(items) {
+            return items.filter((item) => !item.url.includes('migration'))
+        }
+    }, */
     markdown: {
         /* container: {
             // @ts-expect-error - customContainers поддерживается VitePress, но отсутствует
