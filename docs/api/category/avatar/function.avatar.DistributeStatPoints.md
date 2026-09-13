@@ -1,4 +1,9 @@
+---
+description: Окончательно распределяет пункты характеристик
+---
+
 # avatar.DistributeStatPoints
+
 Окончательно распределяет пункты характеристик, предварительно запланированные к распределению функцией `avatar.ImproveInnateStat`.
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.DistributeStatPoints()
 ## Примеры
 
 ### Распределение запланированных пунктов характеристик
+
 ```lua
 avatar.DistributeStatPoints()
 ```
