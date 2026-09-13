@@ -1,4 +1,9 @@
+---
+description: Завершает использование активного устройства.
+---
+
 # avatar.DeactivateUsableDevice
+
 Завершает использование активного устройства.
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.DeactivateUsableDevice()
 ## Примеры
 
 ### Завершение использования устройства
+
 ```lua
 avatar.DeactivateUsableDevice()
 ```
