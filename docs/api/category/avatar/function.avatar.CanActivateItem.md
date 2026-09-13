@@ -1,4 +1,9 @@
+---
+description: Проверяет возможность активации предмета указанным инструментом-активатором.
+---
+
 # avatar.CanActivateItem
+
 Проверяет возможность активации предмета указанным инструментом-активатором.
 
 ## Описание
@@ -16,6 +21,7 @@ avatar.CanActivateItem( itemId: ObjectId, instrumentId: ObjectId )
 ## Список параметров
 
 - **`itemId`** (`ObjectId`) - Идентификатор предмета, который планируется активировать.
+
 - **`instrumentId`** (`ObjectId`) - Идентификатор инструмента-активатора, применяемого для активации предмета.
 
 ## Возвращаемые значения
@@ -25,6 +31,7 @@ avatar.CanActivateItem( itemId: ObjectId, instrumentId: ObjectId )
 ## Примеры
 
 ### Проверка возможности активации предмета
+
 ```lua
 avatar.CanActivateItem( itemId, instrumentId )
 ```
