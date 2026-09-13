@@ -1,4 +1,9 @@
+---
+description: Проверяет возможность размещения предмета в слот основы улучшателя мета-предметов.
+---
+
 # avatar.CanPlaceMetaUpgradeSource
+
 Проверяет возможность размещения предмета в слот основы улучшателя мета-предметов.
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.CanPlaceMetaUpgradeSource( sourceId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка возможности размещения предмета
+
 ```lua
 local canPlace = avatar.CanPlaceMetaUpgradeSource( sourceId )
 ```
