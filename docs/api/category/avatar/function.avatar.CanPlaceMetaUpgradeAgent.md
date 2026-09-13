@@ -1,4 +1,9 @@
+---
+description: Проверяет возможность помещения предмета в основу агента мета-предметов.
+---
+
 # avatar.CanPlaceMetaUpgradeAgent
+
 Проверяет возможность помещения предмета в основу агента мета-предметов.
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.CanPlaceMetaUpgradeAgent( agentId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка возможности помещения предмета
+
 ```lua
 local canPlace = avatar.CanPlaceMetaUpgradeAgent( agentId )
 ```
