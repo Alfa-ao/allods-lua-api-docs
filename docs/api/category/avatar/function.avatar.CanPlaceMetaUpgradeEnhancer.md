@@ -1,4 +1,9 @@
+---
+description: Проверяет возможность размещения предмета-улучшителя в слот улучшаемого мета-предмета.
+---
+
 # avatar.CanPlaceMetaUpgradeEnhancer
+
 Проверяет возможность размещения предмета-улучшителя в слот улучшаемого мета-предмета.
 
 ## Описание
@@ -12,6 +17,7 @@ avatar.CanPlaceMetaUpgradeEnhancer( sourceId: ObjectId | nil, enhancerId: Object
 ## Список параметров
 
 - **`sourceId`** (`ObjectId` | `nil`) - Уникальный идентификатор улучшаемого предмета. Передача значения `nil` допустима, если для конкретного типа улучшения источник не требуется.
+
 - **`enhancerId`** (`ObjectId`) - Уникальный идентификатор предмета-улучшителя, который планируется поместить в слот.
 
 ## Возвращаемые значения
@@ -21,6 +27,7 @@ avatar.CanPlaceMetaUpgradeEnhancer( sourceId: ObjectId | nil, enhancerId: Object
 ## Примеры
 
 ### Проверка возможности размещения улучшителя
+
 ```lua
 local sourceItem = avatar.GetItemInfo( sourceId )
 if sourceItem then
