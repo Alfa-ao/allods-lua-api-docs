@@ -1,4 +1,9 @@
+---
+description: Отправляет запрос на получение задания, направляющего к NPC для выдачи следующего доступного квеста из цепочки этапа тайны мира.
+---
+
 # avatar.FindNextSecretComponentQuest
+
 Отправляет запрос на получение задания, направляющего к NPC для выдачи следующего доступного квеста из цепочки этапа тайны мира.
 
 ## Описание
@@ -6,6 +11,7 @@
 ```lua
 avatar.FindNextSecretComponentQuest( secretId: number, componentIndex: number )
 ```
+
 Отправляет запрос на получение задания, направляющего к NPC для выдачи следующего доступного квеста из цепочки этапа тайны мира. Результатом выполнения запроса является передача события `EVENT_QUEST_FIND_NEXT_RESULT`.
 
 ::: warning Замечание
@@ -15,6 +21,7 @@ avatar.FindNextSecretComponentQuest( secretId: number, componentIndex: number )
 ## Список параметров
 
 - **`secretId`** (`number`) - Идентификатор основного квеста тайны мира.
+
 - **`componentIndex`** (`number`) - Порядковый номер запрашиваемой компоненты, получаемый через `avatar.GetSecretComponents`.
 
 ## Возвращаемые значения
