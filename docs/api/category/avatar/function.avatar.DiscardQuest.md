@@ -1,4 +1,9 @@
+---
+description: Инициирует удаление задания из журнала заданий аватара.
+---
+
 # avatar.DiscardQuest
+
 Инициирует удаление задания из журнала заданий аватара.
 
 ## Описание
@@ -24,6 +29,7 @@ avatar.DiscardQuest( questId: QuestId )
 ## Примеры
 
 ### Удаление задания из журнала
+
 ```lua
 avatar.DiscardQuest( questId )
 ```
