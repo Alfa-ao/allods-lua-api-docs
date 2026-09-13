@@ -1,10 +1,17 @@
+---
+description: Экипирует предмет по указанному идентификатору.
+---
+
 # avatar.EquipItemById
+
 Экипирует предмет по указанному идентификатору.
+
 ## Описание
 
 ```lua
 avatar.EquipItemById( itemId: ObjectId )
 ```
+
 Экипирует предмет по указанному идентификатору. Предмет обязан находиться в одном из контейнеров (например, `ITEM_CONT_...`). Получить предметы в контейнере позволяет функция `containerLib.GetItems( slotType )`. Особое внимание требуется при работе с `ITEM_CONT_CHECKROOM` и `ITEM_CONT_POWEREDLSWEAPON`. Возвращаемое значение отсутствует.
 
 ## Список параметров
@@ -18,6 +25,7 @@ avatar.EquipItemById( itemId: ObjectId )
 ## Примеры
 
 ### Экипировка предмета по идентификатору
+
 ```lua
 avatar.EquipItemById( itemId )
 ```
