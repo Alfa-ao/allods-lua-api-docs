@@ -1,4 +1,9 @@
+---
+description: Определяет возможность разбора указанного предмета заданным инструментом.
+---
+
 # avatar.CanDisassembleItem
+
 Определяет возможность разбора указанного предмета заданным инструментом.
 
 ## Описание
@@ -12,6 +17,7 @@ avatar.CanDisassembleItem( instrumentId: ObjectId, itemId: number ): boolean
 ## Список параметров
 
 - **`instrumentId`** (`ObjectId`) - Идентификатор инструмента, предназначенного для разбора, находящегося в контейнере.
+
 - **`itemId`** (`number`) - Идентификатор предмета, который планируется разобрать, находящегося в контейнере.
 
 ## Возвращаемые значения
@@ -21,6 +27,7 @@ avatar.CanDisassembleItem( instrumentId: ObjectId, itemId: number ): boolean
 ## Примеры
 
 ### Проверка возможности разбора предмета
+
 ```lua
 local canDisassemble = avatar.CanDisassembleItem( instrumentId, itemId )
 ```
