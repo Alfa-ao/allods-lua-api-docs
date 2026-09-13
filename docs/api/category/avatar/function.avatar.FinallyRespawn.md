@@ -1,4 +1,9 @@
+---
+description: Оживляет аватар из чистилища в мир.
+---
+
 # avatar.FinallyRespawn
+
 Оживляет аватар из чистилища в мир.
 
 ## Описание
@@ -6,6 +11,7 @@
 ```lua
 avatar.FinallyRespawn()
 ```
+
 Оживляет аватар из чистилища в мир.
 
 ## Список параметров
@@ -19,6 +25,7 @@ avatar.FinallyRespawn()
 ## Примеры
 
 ### Проверка готовности и оживление аватара
+
 ```lua
 if avatar.IsReadyForFinallyRespawn() then
   avatar.FinallyRespawn()
