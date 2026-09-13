@@ -1,4 +1,9 @@
+---
+description: Проверяет возможность обновления или изучения таланта в указанной ячейке поля талантов.
+---
+
 # avatar.CanUpdateFieldTalent
+
 Проверяет возможность обновления или изучения таланта в указанной ячейке поля талантов.
 
 ## Описание
@@ -24,6 +29,7 @@ avatar.CanUpdateFieldTalent( field: number, row: number, column: number ): boole
 ## Примеры
 
 ### Проверка возможности изучения или обновления таланта
+
 ```lua
 local field = 1
 local row = 2
