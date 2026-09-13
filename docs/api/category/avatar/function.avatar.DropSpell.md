@@ -1,4 +1,9 @@
+---
+description: Сбрасывает подготовленное заклинание.
+---
+
 # avatar.DropSpell
+
 Сбрасывает подготовленное заклинание.
 
 ## Описание
@@ -26,6 +31,7 @@ avatar.DropSpell( spellId: SpellId )
 ## Примеры
 
 ### Сброс первого заклинания из книги заклинаний
+
 ```lua
 local spellbook = avatar.GetSpellBook()
 avatar.DropSpell( spellbook[ 1 ] )
