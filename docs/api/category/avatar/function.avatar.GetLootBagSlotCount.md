@@ -25,6 +25,7 @@ avatar.GetLootBagSlotCount(): number
 ## Примеры
 
 ### Получение количества слотов в сумке с лутом
+
 ```lua
 local slotCount = avatar.GetLootBagSlotCount()
 LogInfo( "Общее число слотов в сумке с лутом: ", slotCount )
