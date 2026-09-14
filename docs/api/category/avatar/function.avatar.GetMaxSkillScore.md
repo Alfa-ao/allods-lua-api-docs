@@ -26,6 +26,7 @@ avatar.GetMaxSkillScore( skillId: ObjectId ): number
 ## Примеры
 
 ### Получение предельного уровня скилла
+
 ```lua
 local skillId = 123 -- Идентификатор нужного скилла
 local maxScore = avatar.GetMaxSkillScore( skillId )
