@@ -1,4 +1,9 @@
+---
+description: Проверяет наличие квестов на выдачу или принятие у текущего собеседника.
+---
+
 # avatar.HasInteractorQuest
+
 Проверяет наличие квестов на выдачу или принятие у текущего собеседника.
 
 ## Описание
@@ -24,6 +29,7 @@ avatar.HasInteractorQuest(): boolean
 ## Примеры
 
 ### Проверка наличия квестов у собеседника
+
 ```lua
 local hasQuest = avatar.HasInteractorQuest()
 ```
