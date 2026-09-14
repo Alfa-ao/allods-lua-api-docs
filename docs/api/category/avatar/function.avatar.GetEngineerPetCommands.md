@@ -25,6 +25,7 @@ avatar.GetEngineerPetCommands(): table
 ## Примеры
 
 ### Получение и вывод названий специальных заклинаний инженера
+
 ```lua
 local spells = avatar.GetEngineerPetCommands()
 for index, spellId in ipairs( spells ) do
