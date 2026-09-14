@@ -25,6 +25,7 @@ avatar.GetCurrencyDescription( currencyId: CurrencyId ): ValuedText | nil
 ## Примеры
 
 ### Получение описания первой валюты из категории
+
 ```lua
 local ids = avatar.GetCategoryCurrencies( categoryId )
 if ids and ids[0] then
