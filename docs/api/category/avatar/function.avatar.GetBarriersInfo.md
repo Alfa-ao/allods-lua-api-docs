@@ -22,11 +22,13 @@ avatar.GetBarriersInfo(): table
 
 Возвращает таблицу (`table`), индексированную от `0` до `BarriersCount - 1`. Значениями элементов являются таблицы со следующими полями:
 - **`damage`** (`number`) - величина текущего накопленного урона в барьере.
+
 - **`remainingTimeMs`** (`number`) - оставшееся время до разрешения барьера в миллисекундах.
 
 ## Примеры
 
 ### Получение и вывод информации о барьерах
+
 ```lua
 local barriers = avatar.GetBarriersInfo()
 for i = 0, GetTableSize( barriers ) - 1 do
