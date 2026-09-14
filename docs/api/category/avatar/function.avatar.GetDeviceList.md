@@ -25,6 +25,7 @@ avatar.GetDeviceList(): table
 ## Примеры
 
 ### Получение и перебор списка видимых устройств
+
 ```lua
 local devices = avatar.GetDeviceList()
 for _, value in ipairs( devices ) do
