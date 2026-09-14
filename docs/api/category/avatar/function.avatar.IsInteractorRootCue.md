@@ -1,4 +1,9 @@
+---
+description: Определяет наличие начальной реплики у собеседника для старта диалога.
+---
+
 # avatar.IsInteractorRootCue
+
 Определяет наличие начальной реплики у собеседника для старта диалога.
 
 ## Описание
@@ -19,6 +24,7 @@ avatar.IsInteractorRootCue(): boolean
 ## Примеры
 
 ### Проверка наличия начальной реплики
+
 ```lua
 local inRootCue = avatar.IsInteractorRootCue()
 if inRootCue then
