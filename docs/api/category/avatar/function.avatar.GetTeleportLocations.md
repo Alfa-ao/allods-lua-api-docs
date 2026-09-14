@@ -25,6 +25,7 @@ avatar.GetTeleportLocations(): table
 ## Примеры
 
 ### Получение информации о первой доступной точке телепортации
+
 ```lua
 local list = avatar.GetTeleportLocations()
 if list[1] then
