@@ -1,4 +1,9 @@
+---
+description: Проверяет валидность и доступность идентификатора точки телепорта.
+---
+
 # avatar.IsTeleportLocationValid
+
 Проверяет валидность и доступность идентификатора точки телепорта.
 
 ## Описание
@@ -21,6 +26,7 @@ avatar.IsTeleportLocationValid( locationId: ObjectId | TeleportMasterId ): boole
 ## Примеры
 
 ### Проверка доступности точки телепорта
+
 ```lua
 if avatar.IsTeleportLocationValid( locationId ) then
     LogInfo( "Точка телепорта валидна" )
