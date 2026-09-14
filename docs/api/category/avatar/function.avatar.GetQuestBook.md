@@ -25,6 +25,7 @@ avatar.GetQuestBook(): table
 ## Примеры
 
 ### Перебор и вывод идентификаторов активных заданий
+
 ```lua
 local book = avatar.GetQuestBook()
 for k, v in ipairs( book ) do
