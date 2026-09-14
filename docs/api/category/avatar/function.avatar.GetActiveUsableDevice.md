@@ -27,6 +27,7 @@ avatar.GetActiveUsableDevice(): ObjectId | nil
 ## Примеры
 
 ### Получение информации об активном устройстве и его действиях
+
 ```lua
 local deviceId = avatar.GetActiveUsableDevice()
 local info = avatar.GetUsableDeviceInfo( deviceId )
