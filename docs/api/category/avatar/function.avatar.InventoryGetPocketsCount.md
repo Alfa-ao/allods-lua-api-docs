@@ -1,4 +1,9 @@
+---
+description: Возвращает число карманов в инвентаре главного персонажа.
+---
+
 # avatar.InventoryGetPocketsCount
+
 Возвращает число карманов в инвентаре главного персонажа.
 
 ## Описание
@@ -19,6 +24,7 @@ avatar.InventoryGetPocketsCount(): number
 ## Примеры
 
 ### Получение количества карманов в инвентаре
+
 ```lua
 local pocketsCount = avatar.InventoryGetPocketsCount()
 ```
