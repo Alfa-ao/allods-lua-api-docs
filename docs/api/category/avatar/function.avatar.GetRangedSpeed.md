@@ -22,11 +22,13 @@ avatar.GetRangedSpeed(): table
 
 Возвращает таблицу (`table`):
 - **`base`** (`number`) - базовое значение скорости атаки.
+
 - **`effective`** (`number`) - эффективное (текущее) значение скорости атаки.
 
 ## Примеры
 
 ### Получение и вывод скорости атаки
+
 ```lua
 local speed = avatar.GetRangedSpeed()
 common.LogInfo( "speed base:" .. speed.base .. " speed effective:" .. speed.effective )
