@@ -16,7 +16,9 @@ avatar.GetFieldTalentInfo( field: number, row: number, column: number ): table |
 ## Список параметров
 
 - **`field`** (`number`) - Номер поля талантов.
+
 - **`row`** (`number`) - Номер строки в указанном поле.
+
 - **`column`** (`number`) - Номер столбца в указанном поле.
 
 ## Возвращаемые значения
@@ -26,6 +28,7 @@ avatar.GetFieldTalentInfo( field: number, row: number, column: number ): table |
 ## Примеры
 
 ### Получение информации о таланте
+
 ```lua
 local field = 1
 local row = 2
