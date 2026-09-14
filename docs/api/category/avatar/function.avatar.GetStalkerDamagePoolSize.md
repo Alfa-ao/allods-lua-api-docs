@@ -25,6 +25,7 @@ avatar.GetStalkerDamagePoolSize(): number
 ## Примеры
 
 ### Вывод размера пула урона барьера в лог
+
 ```lua
 common.LogInfo( avatar.GetStalkerDamagePoolSize() )
 ```
