@@ -1,4 +1,9 @@
+---
+description: Возвращает признак того, жив ли аватар.
+---
+
 # avatar.IsAlive
+
 Возвращает признак того, жив ли аватар.
 
 ## Описание
@@ -19,6 +24,7 @@ avatar.IsAlive(): boolean
 ## Примеры
 
 ### Проверка состояния аватара
+
 ```lua
 if avatar.IsAlive() then
     LogInfo( "avatar alive" )
