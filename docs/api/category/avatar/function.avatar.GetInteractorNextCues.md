@@ -29,6 +29,7 @@ avatar.GetInteractorNextCues(): table
 ## Примеры
 
 ### Получение и обработка списка доступных ответов
+
 ```lua
 local nextCues = avatar.GetInteractorNextCues()
 if nextCues[0] then
