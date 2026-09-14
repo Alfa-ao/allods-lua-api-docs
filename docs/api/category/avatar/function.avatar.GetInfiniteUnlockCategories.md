@@ -24,6 +24,7 @@ avatar.GetInfiniteUnlockCategories(): table
 ## Примеры
 
 ### Перебор и вывод названий доступных постоянных возможностей
+
 ```lua
 for _, categoryId in ipairs( avatar.GetInfiniteUnlockCategories() ) do
     local info = categoryId:GetInfo()
