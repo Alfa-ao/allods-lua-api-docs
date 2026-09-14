@@ -23,11 +23,13 @@ avatar.GetRecipeAfflatusItem( id: RecipeId ): ItemId | nil
 
 Возвращает `ItemId` или `nil`:
 - **`ItemId`** - идентификатор предмета, выдающего озарение.
+
 - **`nil`** - если рецепт не найден по идентификатору или предмет озарения не прописан в рецепте.
 
 ## Примеры
 
 ### Получение предмета озарения для рецепта
+
 ```lua
 local recipeId = 1001
 local itemId = avatar.GetRecipeAfflatusItem( recipeId )
