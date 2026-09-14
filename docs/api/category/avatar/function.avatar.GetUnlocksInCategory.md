@@ -1,5 +1,11 @@
+---
+description: Возвращает список идентификаторов доступных возможностей (анлоков) главного игрока в заданной категории.
+---
+
 # avatar.GetUnlocksInCategory
+
 Возвращает список идентификаторов доступных возможностей (анлоков) главного игрока в заданной категории.
+
 ## Описание
 
 ```lua
@@ -20,6 +26,7 @@ avatar.GetUnlocksInCategory( unlockCategoryId: UnlockCategoryId ): table
 ## Примеры
 
 ### Перебор всех категорий и вывод названий доступных возможностей
+
 ```lua
 for _, unlockCategoryId in ipairs( avatar.GetUnlockCategories() ) do
     LogInfo( unlockCategoryId:GetInfo().name )
