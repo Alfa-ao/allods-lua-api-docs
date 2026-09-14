@@ -25,6 +25,7 @@ avatar.GetPsionicOrders(): table
 ## Примеры
 
 ### Получение и вывод названий специальных заклинаний
+
 ```lua
 local spells = avatar.GetPsionicOrders()
 for index, spellId in ipairs(spells) do
