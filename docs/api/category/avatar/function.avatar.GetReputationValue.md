@@ -26,6 +26,7 @@ avatar.GetReputationValue( reputationLevel: number ): number | nil
 ## Примеры
 
 ### Получение значения репутации для заданного уровня
+
 ```lua
 local reputationValue = avatar.GetReputationValue( REPUTATION_LEVEL_FRIENDLY )
 if reputationValue then
