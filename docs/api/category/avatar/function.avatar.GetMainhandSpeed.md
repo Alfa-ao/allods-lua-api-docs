@@ -22,11 +22,13 @@ avatar.GetMainhandSpeed(): table
 
 Возвращает `table`:
 - **`base`** (`number`) - базовое значение скорости атаки.
+
 - **`effective`** (`number`) - эффективное (текущее) значение скорости атаки с учетом всех модификаторов.
 
 ## Примеры
 
 ### Получение и вывод значений скорости атаки
+
 ```lua
 local speed = avatar.GetMainhandSpeed()
 LogInfo( "speed base:" .. speed.base .. " speed effective:" .. speed.effective )
