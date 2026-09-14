@@ -26,6 +26,7 @@ avatar.GetInfiniteUnlocksInCategory( unlockCategoryId: UnlockCategoryId ): table
 ## Примеры
 
 ### Перебор всех категорий и вывод названий разблокированных возможностей
+
 ```lua
 for _, unlockCategoryId in ipairs( avatar.GetInfiniteUnlockCategories() ) do
     LogInfo( unlockCategoryId:GetInfo().name )
