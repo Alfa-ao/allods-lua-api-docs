@@ -24,6 +24,7 @@ avatar.GetCommonFieldTalentInfo( field: number ): table | nil
 
 Если данные найдены, таблица содержит следующие поля:
 - **`name`** (`WString`) - локализованное название поля талантов.
+
 - **`image`** (`UISingleTexture`) - иконка поля талантов.
 
 Если информация отсутствует, возвращается `nil`.
@@ -31,6 +32,7 @@ avatar.GetCommonFieldTalentInfo( field: number ): table | nil
 ## Примеры
 
 ### Получение информации о поле талантов
+
 ```lua
 local fieldIndex = 1
 local talentInfo = avatar.GetCommonFieldTalentInfo( fieldIndex )
