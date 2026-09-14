@@ -25,6 +25,7 @@ avatar.GetTemporaryUnlockCategories(): table
 ## Примеры
 
 ### Перебор и вывод названий активных временных возможностей
+
 ```lua
 for _, categoryId in ipairs( avatar.GetTemporaryUnlockCategories() ) do
     local info = categoryId:GetInfo()
