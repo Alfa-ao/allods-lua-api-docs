@@ -27,11 +27,13 @@ avatar.GetCurrencyValue( currencyId: CurrencyId | nil ): table | nil
 
 Поля возвращаемой таблицы:
 - **`value`** (`number`) - текущее количество валюты у игрока.
+
 - **`maxValue`** (`number` | `nil`) - максимально возможное количество валюты, если такой лимит задан системой.
 
 ## Примеры
 
 ### Получение и анализ количества альтернативной валюты
+
 ```lua
 local myrrhId = avatar.GetCurrencyId( "myrrh" )
 if myrrhId then
