@@ -28,8 +28,10 @@ avatar.GetMapInstanceKick(): table | nil
 Если счетчик выброса активен, возвращается таблица со следующими полями:
 - **`durationMs`** (`number`)
 Общее время на выброс из инстанса в миллисекундах.
+
 - **`remainingMs`** (`number`)
 Оставшееся время до выброса из инстанса в миллисекундах.
+
 - **`sysCause`** (`string`)
 Причина выброса. Значение соответствует одному из перечислений `ENUM_AvatarKickCause_*`.
 
@@ -38,6 +40,7 @@ avatar.GetMapInstanceKick(): table | nil
 ## Примеры
 
 ### Получение и вывод оставшегося времени до выброса
+
 ```lua
 local timeInfo = avatar.GetMapInstanceKick()
 if timeInfo then
