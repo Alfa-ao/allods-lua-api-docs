@@ -1,4 +1,9 @@
+---
+description: Проверяет наличие реплики для разговора у текущего собеседника.
+---
+
 # avatar.HasInteractorCue
+
 Проверяет наличие реплики для разговора у текущего собеседника.
 
 ## Описание
@@ -27,6 +32,7 @@ avatar.HasInteractorCue(): boolean
 ## Примеры
 
 ### Проверка наличия реплики у собеседника
+
 ```lua
 local hasCue = avatar.HasInteractorCue()
 ```
