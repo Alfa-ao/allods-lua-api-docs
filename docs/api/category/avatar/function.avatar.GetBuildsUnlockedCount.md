@@ -25,6 +25,7 @@ avatar.GetBuildsUnlockedCount(): number
 ## Примеры
 
 ### Вывод количества доступных специализаций в лог
+
 ```lua
 LogInfo( avatar.GetBuildsUnlockedCount() )
 ```
