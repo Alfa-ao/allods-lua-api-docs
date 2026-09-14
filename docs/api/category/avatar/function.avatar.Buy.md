@@ -1,4 +1,9 @@
+---
+description: Отправляет запрос на покупку предмета у NPC-торговца.
+---
+
 # avatar.Buy
+
 Отправляет запрос на покупку предмета у NPC-торговца.
 
 ## Описание
@@ -12,6 +17,7 @@ avatar.Buy( objectId: ObjectId, quantity: number )
 ## Список параметров
 
 - **`objectId`** (`ObjectId`) - Уникальный идентификатор предмета в списке товаров NPC-торговца, который необходимо приобрести.
+
 - **`quantity`** (`number`) - Целочисленное значение, определяющее количество предметов для покупки.
 
 ## Возвращаемые значения
@@ -21,11 +27,12 @@ avatar.Buy( objectId: ObjectId, quantity: number )
 ## Примеры
 
 ### Покупка предмета из списка торговца
+
 ```lua
 local list = avatar.GetVendorList()
 if list[0] then
-  local itemId = list[0].id
-  avatar.Buy( itemId, 1 )
+    local itemId = list[0].id
+    avatar.Buy( itemId, 1 )
 end
 ```
 
