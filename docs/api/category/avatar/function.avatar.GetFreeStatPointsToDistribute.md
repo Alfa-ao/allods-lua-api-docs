@@ -28,6 +28,7 @@ avatar.GetFreeStatPointsToDistribute(): integer | nil
 ## Примеры
 
 ### Получение количества свободных очков характеристик
+
 ```lua
 local points = avatar.GetFreeStatPointsToDistribute()
 ```
