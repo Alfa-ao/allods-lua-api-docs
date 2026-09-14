@@ -25,14 +25,17 @@ avatar.GetStalkerDamagePoolInfo(): table | nil
 Структура возвращаемой таблицы:
 - **`damage`** (`number`)
 Текущее значение урона в i-том барьере.
+
 - **`resolveTime`** (`number`)
 Время в миллисекундах, оставшееся до исчезновения i-го барьера.
+
 - **`internalId`** (`number`)
 Внутренний уникальный идентификатор i-го барьера.
 
 ## Примеры
 
 ### Получение и вывод информации о барьерах
+
 ```lua
 local stalkerPools = avatar.GetStalkerDamagePoolInfo()
 if stalkerPools then
