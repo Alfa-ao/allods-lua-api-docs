@@ -23,11 +23,13 @@ avatar.GetBaseTalentTableSize(): table
 Возвращает таблицу (`table`):
 
 - **`layersCount`** (`number`) - Количество строк в базовой таблице талантов.
+
 - **`linesCount`** (`number`) - Количество столбцов в базовой таблице талантов.
 
 ## Примеры
 
 ### Получение размера базовой таблицы талантов
+
 ```lua
 local size = avatar.GetBaseTalentTableSize()
 ```
