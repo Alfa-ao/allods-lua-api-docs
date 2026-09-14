@@ -27,8 +27,11 @@ avatar.GetComponentInfo( id: ComponentPropertyId ): table | nil
 Возвращает `table` или `nil`.
 Если компонент найден, возвращается таблица со следующими полями:
 - **`id`** (`ComponentPropertyId`) - идентификатор ресурса компонента.
+
 - **`name`** (`WString`) - название компонента.
+
 - **`description`** (`WString`) - описание компонента.
+
 - **`image`** (`TextureId`) - идентификатор текстуры для иконки компонента (используется в UI).
 
 Если компонент не найден по идентификатору, возвращается `nil`.
@@ -36,6 +39,7 @@ avatar.GetComponentInfo( id: ComponentPropertyId ): table | nil
 ## Примеры
 
 ### Получение и вывод названий компонентов алхимического барабана
+
 ```lua
 local drumInfo = avatar.GetAlchemyDrumInfo( drum )
 local components = drumInfo.components
