@@ -23,20 +23,26 @@ avatar.GetManaRegen(): table
 Возвращает `table`:
 - **`base`** (`number`)
 Базовое значение регенерации маны за тик.
+
 - **`talents`** (`number`)
 Величина регенерации маны за тик, получаемая от талантов.
+
 - **`equipment`** (`number`)
 Величина регенерации маны за тик, получаемая от надетых на игрока предметов.
+
 - **`buffs`** (`number`)
 Величина регенерации маны за тик, получаемая от активных баффов.
+
 - **`effective`** (`number`)
 Эффективное (текущее итоговое) значение регенерации маны за тик.
+
 - **`tickMs`** (`number`)
 Длительность тика регенерации в миллисекундах.
 
 ## Примеры
 
 ### Получение и вывод значений регенерации маны
+
 ```lua
 local manaRegen = avatar.GetManaRegen()
 LogInfo( "manaregen base: ", manaRegen.base, " manaregen effective: ", manaRegen.effective )
