@@ -25,6 +25,7 @@ avatar.GetSpellBook(): table
 ## Примеры
 
 ### Получение и вывод названий всех заклинаний аватара
+
 ```lua
 local spellbook = avatar.GetSpellBook()
 for i, id in ipairs( spellbook ) do
