@@ -1,4 +1,9 @@
+---
+description: Возвращает количество свободных вех развития, доступных для распределения в просматриваемой специализации.
+---
+
 # avatar.GetViewedBuildFreeRubyPoints
+
 Возвращает количество свободных вех развития, доступных для распределения в просматриваемой специализации.
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.GetViewedBuildFreeRubyPoints(): number
 ## Примеры
 
 ### Получение количества свободных вех развития
+
 ```lua
 local rubyPoints = avatar.GetViewedBuildFreeRubyPoints()
 ```
