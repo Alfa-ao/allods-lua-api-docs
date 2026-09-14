@@ -25,6 +25,7 @@ avatar.GetExpToLevel( level: number ): number
 ## Примеры
 
 ### Получение опыта для перехода на следующий уровень
+
 ```lua
 local avatarId = avatar.GetId()
 local currentLevel = unit.GetLevel( avatarId )
