@@ -22,11 +22,13 @@ avatar.GetHearthStoneCooldown(): table
 
 Возвращает таблицу (`table`):
 - **`remainingMs`** (`number`) - Оставшееся время кулдауна в миллисекундах.
+
 - **`durationMs`** (`number`) - Общая длительность кулдауна в миллисекундах.
 
 ## Примеры
 
 ### Получение информации о кулдауне камня возвращения
+
 ```lua
 local cooldown = avatar.GetHearthStoneCooldown()
 if cooldown.remainingMs > 0 then
