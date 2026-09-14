@@ -25,6 +25,7 @@ avatar.GetCategoryCurrencies( categoryId: CurrencyCategoryId ): table
 ## Примеры
 
 ### Получение информации о первой валюте в категории
+
 ```lua
 local ids = avatar.GetCategoryCurrencies( categoryId )
 if ids and ids[0] then
