@@ -25,6 +25,7 @@ avatar.GetQuestHistory(): table
 ## Примеры
 
 ### Перебор и вывод идентификаторов выполненных квестов
+
 ```lua
 local book = avatar.GetQuestHistory()
 for index, questId in ipairs( book ) do
