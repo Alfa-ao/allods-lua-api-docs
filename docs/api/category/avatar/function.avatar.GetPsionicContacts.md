@@ -34,6 +34,7 @@ avatar.GetPsionicContacts(): table
 ## Примеры
 
 ### Получение информации о псионических контактах
+
 ```lua
 local contacts = avatar.GetPsionicContacts()
 
