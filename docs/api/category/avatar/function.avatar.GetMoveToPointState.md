@@ -22,6 +22,7 @@ avatar.GetMoveToPointState(): table
 
 Возвращает `table`:
 - **`isMoving`** (`boolean`) - `true`, если персонаж находится в режиме движения в точку.
+
 - **`position`** (`table`) - таблица с координатами целевой точки. Присутствует, если `isMoving` имеет значение `true`. Содержит следующие поля:
   - **`posX`** (`number`) - координата X целевой точки.
   - **`posY`** (`number`) - координата Y целевой точки.
@@ -30,6 +31,7 @@ avatar.GetMoveToPointState(): table
 ## Примеры
 
 ### Получение и вывод координат целевой точки
+
 ```lua
 local moveToPoint = avatar.GetMoveToPointState()
 if moveToPoint.isMoving then
