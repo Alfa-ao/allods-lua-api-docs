@@ -25,6 +25,7 @@ avatar.GetDetectedObjects(): table
 ## Примеры
 
 ### Получение и перебор списка отслеживаемых объектов
+
 ```lua
 local detectedObjects = avatar.GetDetectedObjects()
 for i, objectId in ipairs( detectedObjects ) do
