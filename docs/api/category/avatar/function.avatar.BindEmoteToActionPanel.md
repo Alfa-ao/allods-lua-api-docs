@@ -1,4 +1,9 @@
+---
+description: Привязывает запуск эмоции главного персонажа к указанному слоту панели действий.
+---
+
 # avatar.BindEmoteToActionPanel
+
 Привязывает запуск эмоции главного персонажа к указанному слоту панели действий.
 
 ## Описание
@@ -12,6 +17,7 @@ avatar.BindEmoteToActionPanel( emoteId: ObjectId, index: number )
 ## Список параметров
 
 - **`emoteId`** (`ObjectId`) - Уникальный идентификатор эмоции, которая привязывается к слоту панели действий.
+
 - **`index`** (`number`) - Индекс целевого слота на панели действий. Нумерация слотов начинается с нуля.
 
 ## Возвращаемые значения
@@ -21,6 +27,7 @@ avatar.BindEmoteToActionPanel( emoteId: ObjectId, index: number )
 ## Примеры
 
 ### Привязка эмоции к первому слоту панели
+
 ```lua
 local slotIndex = 0 -- Индекс первого слота на панели действий
 avatar.BindEmoteToActionPanel( emoteId, slotIndex )
