@@ -24,6 +24,7 @@ avatar.GetInterlocutor(): ObjectId | nil
 ## Примеры
 
 ### Получение идентификатора собеседника
+
 ```lua
 local unitId = avatar.GetInterlocutor()
 ```
