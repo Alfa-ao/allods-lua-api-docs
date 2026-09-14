@@ -1,4 +1,9 @@
+---
+description: Возвращает признак наличия камня возвращения (HearthStone) у аватара.
+---
+
 # avatar.HasHearthStone
+
 Возвращает признак наличия камня возвращения (HearthStone) у аватара.
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.HasHearthStone(): boolean
 ## Примеры
 
 ### Проверка наличия камня возвращения
+
 ```lua
 if avatar.HasHearthStone() then
     LogInfo( "Avatar has HearthStone" )
