@@ -22,11 +22,13 @@ avatar.GetTimeAfterRespawn(): number | nil
 
 Возвращает `number` или `nil`:
 - **`number`** - время в миллисекундах после появления игрока на кладбище.
+
 - **`nil`** - если игрок не находится в состоянии воскрешения.
 
 ## Примеры
 
 ### Получение времени после воскрешения
+
 ```lua
 local time = avatar.GetTimeAfterRespawn()
 ```
