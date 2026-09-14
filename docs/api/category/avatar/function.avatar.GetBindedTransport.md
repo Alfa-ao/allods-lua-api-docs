@@ -25,6 +25,7 @@ avatar.GetBindedTransport(): ObjectId | nil
 ## Примеры
 
 ### Получение идентификатора и проверка энергии транспорта
+
 ```lua
 local transportId = avatar.GetBindedTransport()
 if transportId then
