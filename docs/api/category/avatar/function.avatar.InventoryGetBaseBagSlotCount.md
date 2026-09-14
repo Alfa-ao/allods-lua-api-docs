@@ -1,4 +1,9 @@
+---
+description: Возвращает базовое количество слотов в основной сумке инвентаря главного персонажа.
+---
+
 # avatar.InventoryGetBaseBagSlotCount
+
 Возвращает базовое количество слотов в основной сумке инвентаря главного персонажа.
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.InventoryGetBaseBagSlotCount(): number
 ## Примеры
 
 ### Получение базового количества слотов инвентаря
+
 ```lua
 local baseCount = avatar.InventoryGetBaseBagSlotCount()
 ```
