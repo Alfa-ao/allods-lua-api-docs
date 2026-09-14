@@ -25,6 +25,7 @@ avatar.GetSparkCost(): number | nil
 ## Примеры
 
 ### Получение стоимости вызова искры
+
 ```lua
 local price = avatar.GetSparkCost()
 if price then
