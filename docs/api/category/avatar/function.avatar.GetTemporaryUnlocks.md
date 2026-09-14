@@ -25,6 +25,7 @@ avatar.GetTemporaryUnlocks(): table
 ## Примеры
 
 ### Получение и перебор списка временных возможностей
+
 ```lua
 local unlocks = avatar.GetTemporaryUnlocks()
 for i = 0, GetTableSize( unlocks ) - 1 do
