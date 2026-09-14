@@ -25,6 +25,7 @@ avatar.GetSecrets(): table
 ## Примеры
 
 ### Получение и перебор списка тайн мира
+
 ```lua
 local secrets = avatar.GetSecrets()
 for i, secretId in ipairs( secrets ) do
