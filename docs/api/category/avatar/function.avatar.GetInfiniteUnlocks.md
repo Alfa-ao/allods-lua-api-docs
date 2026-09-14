@@ -25,6 +25,7 @@ avatar.GetInfiniteUnlocks(): table
 ## Примеры
 
 ### Получение и перебор бесконечных возможностей
+
 ```lua
 local unlocks = avatar.GetInfiniteUnlocks()
 for _, unlockId in ipairs( unlocks ) do
