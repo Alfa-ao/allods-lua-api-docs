@@ -1,4 +1,9 @@
+---
+description: Проверяет выполнение условия, заданного дизайнером.
+---
+
 # avatar.IsConditionValid
+
 Проверяет выполнение условия, заданного дизайнером.
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.IsConditionValid( alias: string ): boolean
 ## Примеры
 
 ### Проверка выполнения условия
+
 ```lua
 local isValid = avatar.IsConditionValid( "PRESENT_IN_BAG" )
 ```
