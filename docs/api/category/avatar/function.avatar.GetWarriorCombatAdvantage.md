@@ -1,4 +1,9 @@
+---
+description: Возвращает величину боевого духа воина.
+---
+
 # avatar.GetWarriorCombatAdvantage
+
 Возвращает величину боевого духа воина.
 
 ## Описание
@@ -19,6 +24,7 @@ avatar.GetWarriorCombatAdvantage(): number
 ## Примеры
 
 ### Получение величины боевого духа
+
 ```lua
 local combatAdvantage = avatar.GetWarriorCombatAdvantage()
 ```
