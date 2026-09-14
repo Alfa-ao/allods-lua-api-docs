@@ -25,6 +25,7 @@ avatar.GetStamina(): table
 ## Примеры
 
 ### Получение данных о выносливости
+
 ```lua
 local stat = avatar.GetStamina()
 ```
