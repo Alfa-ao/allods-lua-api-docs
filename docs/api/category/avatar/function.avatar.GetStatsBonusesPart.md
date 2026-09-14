@@ -23,6 +23,7 @@ avatar.GetStatsBonusesPart(): table | nil
 Возвращает `table` или `nil`. Значение `nil` возвращается, если информация отсутствует.
 Иначе возвращается таблица со следующими полями:
 - **`isBonusesEmpty`** (`boolean`) - не используется.
+
 - **`fairyBonus`** (`table` | `nil`) - информация о бонусе от покровителя. Таблица содержит следующие поля:
   - `statPointsCount` (`number`) - величина бонуса.
   - `currentStat` (`number`) - индекс характеристики из таблицы `allowedStats`, к которой предоставляется бонус.
@@ -45,6 +46,7 @@ avatar.GetStatsBonusesPart(): table | nil
 ## Примеры
 
 ### Получение величины бонуса от покровителя
+
 ```lua
 local bonuses = avatar.GetStatsBonusesPart()
 if bonuses then
