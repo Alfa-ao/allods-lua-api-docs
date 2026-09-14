@@ -25,6 +25,7 @@ avatar.GetRubyStartLevel(): number
 ## Примеры
 
 ### Получение уровня начала распределения вех
+
 ```lua
 local level = avatar.GetRubyStartLevel()
 ```
