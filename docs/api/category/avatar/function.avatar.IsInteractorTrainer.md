@@ -1,4 +1,9 @@
+---
+description: Возвращает признак того, что собеседник является учителем.
+---
+
 # avatar.IsInteractorTrainer
+
 Возвращает признак того, что собеседник является учителем.
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.IsInteractorTrainer(): boolean
 ## Примеры
 
 ### Проверка собеседника на роль учителя
+
 ```lua
 function OnInteractionStarted(eventData)
     local isTrainer = avatar.IsInteractorTrainer()
