@@ -1,4 +1,9 @@
+---
+description: Определяет наличие доступа главного персонажа к классовому каналу чата псиоников.
+---
+
 # avatar.HasPsionicChannel
+
 Определяет наличие доступа главного персонажа к классовому каналу чата псиоников.
 
 ## Описание
@@ -19,6 +24,7 @@ avatar.HasPsionicChannel(): boolean
 ## Примеры
 
 ### Проверка доступа к каналу чата
+
 ```lua
 local canViewPsionicChannel = avatar.HasPsionicChannel()
 ```
