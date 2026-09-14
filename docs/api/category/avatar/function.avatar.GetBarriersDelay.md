@@ -25,6 +25,7 @@ avatar.GetBarriersDelay(): number
 ## Примеры
 
 ### Получение длительности барьеров
+
 ```lua
 local delayMs = avatar.GetBarriersDelay()
 ```
