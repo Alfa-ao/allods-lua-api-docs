@@ -24,6 +24,7 @@ avatar.GetTarget(): ObjectId | nil
 ## Примеры
 
 ### Получение идентификатора текущей цели
+
 ```lua
 local unitId = avatar.GetTarget()
 ```
