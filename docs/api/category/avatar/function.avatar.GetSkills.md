@@ -25,6 +25,7 @@ avatar.GetSkills(): table
 ## Примеры
 
 ### Получение и перебор списка доступных скилов
+
 ```lua
 local skills = avatar.GetSkills()
 for i = 0, GetTableSize( skills ) - 1 do
