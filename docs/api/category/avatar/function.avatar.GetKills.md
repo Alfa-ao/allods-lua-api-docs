@@ -25,6 +25,7 @@ avatar.GetKills(): number | nil
 ## Примеры
 
 ### Получение количества PvP-убийств
+
 ```lua
 local kills = avatar.GetKills()
 if kills then
