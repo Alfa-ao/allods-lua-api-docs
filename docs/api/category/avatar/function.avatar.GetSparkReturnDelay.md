@@ -26,6 +26,7 @@ avatar.GetSparkReturnDelay(): number | nil
 ## Примеры
 
 ### Получение и проверка времени возвращения искры
+
 ```lua
 local delay = avatar.GetSparkReturnDelay()
 if delay then
