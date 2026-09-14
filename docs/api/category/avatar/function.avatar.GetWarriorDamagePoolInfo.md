@@ -1,4 +1,9 @@
+---
+description: Возвращает значения барьеров воина при их наличии и активности.
+---
+
 # avatar.GetWarriorDamagePoolInfo
+
 Возвращает значения барьеров воина при их наличии и активности.
 
 ## Описание
@@ -18,6 +23,7 @@ avatar.GetWarriorDamagePoolInfo(): table | nil
 Возвращает `table` или `nil`.
 Если барьеры активны, возвращается таблица со следующими полями:
 - **`value`** (`number`) - текущее значение урона в барьере.
+
 - **`limit`** (`number`) - лимит урона в барьере.
 
 В противном случае возвращается `nil`.
@@ -25,6 +31,7 @@ avatar.GetWarriorDamagePoolInfo(): table | nil
 ## Примеры
 
 ### Вывод текущего значения урона в барьере
+
 ```lua
 local poolInfo = avatar.GetWarriorDamagePoolInfo()
 if poolInfo then
