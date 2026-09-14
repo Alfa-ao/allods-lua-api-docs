@@ -25,6 +25,7 @@ avatar.GetCurrentQuest(): QuestId | nil
 ## Примеры
 
 ### Получение и вывод информации о текущем квесте
+
 ```lua
 local currentQuestId = avatar.GetCurrentQuest()
 if currentQuestId then
