@@ -5,6 +5,7 @@ description: Возвращает таблицу с информацией о с
 # avatar.GetResistances
 
 Возвращает таблицу с информацией о сопротивляемостях аватара.
+
 ## Описание
 
 ```lua
@@ -24,6 +25,7 @@ avatar.GetResistances(): table
 ## Примеры
 
 ### Перебор и вывод значений сопротивляемостей
+
 ```lua
 local stats = avatar.GetResistances()
 for i = 0, GetTableSize( stats ) - 1 do
