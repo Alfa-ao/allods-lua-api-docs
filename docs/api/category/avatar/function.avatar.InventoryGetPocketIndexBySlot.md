@@ -1,4 +1,9 @@
+---
+description: Возвращает индекс кармана инвентаря, в котором расположен указанный слот.
+---
+
 # avatar.InventoryGetPocketIndexBySlot
+
 Возвращает индекс кармана инвентаря, в котором расположен указанный слот.
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.InventoryGetPocketIndexBySlot( slot: number ): number
 ## Примеры
 
 ### Определение кармана для слота инвентаря
+
 ```lua
 local slotIndex = 15
 local pocketIndex = avatar.InventoryGetPocketIndexBySlot( slotIndex )
