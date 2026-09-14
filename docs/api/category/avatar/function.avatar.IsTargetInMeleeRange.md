@@ -1,4 +1,9 @@
+---
+description: Проверяет, находится ли выбранный юнит в радиусе ближнего боя.
+---
+
 # avatar.IsTargetInMeleeRange
+
 Проверяет, находится ли выбранный юнит в радиусе ближнего боя.
 
 ## Описание
@@ -19,6 +24,7 @@ avatar.IsTargetInMeleeRange(): boolean
 ## Примеры
 
 ### Проверка дистанции до выбранной цели
+
 ```lua
 local inMeleeRange = avatar.IsTargetInMeleeRange()
 if inMeleeRange then
