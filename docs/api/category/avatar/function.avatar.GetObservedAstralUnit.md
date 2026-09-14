@@ -25,6 +25,7 @@ avatar.GetObservedAstralUnit(): ObjectId | nil
 ## Примеры
 
 ### Проверка просматриваемого объекта навигатором
+
 ```lua
 local unitId = avatar.GetObservedAstralUnit()
 local transportId = avatar.GetObservedTransport()
