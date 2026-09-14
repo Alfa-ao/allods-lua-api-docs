@@ -1,4 +1,9 @@
+---
+description: Возвращает состояние детектора интерактивных объектов на клиенте.
+---
+
 # avatar.IsClientDetectorEnabled
+
 Возвращает состояние детектора интерактивных объектов на клиенте.
 
 ## Описание
@@ -21,6 +26,7 @@ avatar.IsClientDetectorEnabled( type: number ): boolean
 ## Примеры
 
 ### Проверка состояния детектора квестодателей
+
 ```lua
 if avatar.IsClientDetectorEnabled( CLIENT_DETECTOR_QUEST_NPC ) then
     LogInfo( "детектор квестодателей включен" )
