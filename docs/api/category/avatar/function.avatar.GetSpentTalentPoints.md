@@ -25,6 +25,7 @@ avatar.GetSpentTalentPoints(): number
 ## Примеры
 
 ### Получение количества вложенных очков талантов
+
 ```lua
 local spentTalentPoints = avatar.GetSpentTalentPoints()
 ```
