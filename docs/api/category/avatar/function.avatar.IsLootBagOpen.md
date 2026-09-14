@@ -1,4 +1,9 @@
+---
+description: Возвращает состояние сумки с лутом на сервере.
+---
+
 # avatar.IsLootBagOpen
+
 Возвращает состояние сумки с лутом на сервере.
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.IsLootBagOpen(): boolean
 ## Примеры
 
 ### Проверка состояния сумки с лутом
+
 ```lua
 local isOpen = avatar.IsLootBagOpen()
 if isOpen then
