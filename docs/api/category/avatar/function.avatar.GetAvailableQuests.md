@@ -29,6 +29,7 @@ avatar.GetAvailableQuests(): table
 ## Примеры
 
 ### Получение и проверка списка доступных квестов
+
 ```lua
 local availableQuestList = avatar.GetAvailableQuests()
 if availableQuestList then
