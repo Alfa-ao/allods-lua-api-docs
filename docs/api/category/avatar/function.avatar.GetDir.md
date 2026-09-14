@@ -25,6 +25,7 @@ avatar.GetDir(): number
 ## Примеры
 
 ### Получение направления аватара
+
 ```lua
 local dir = avatar.GetDir()
 ```
