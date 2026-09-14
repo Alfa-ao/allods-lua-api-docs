@@ -1,4 +1,9 @@
+---
+description: Покупает предмет у NPC-торговца и помещает его в указанный слот инвентаря.
+---
+
 # avatar.BuyToSlot
+
 Покупает предмет у NPC-торговца и помещает его в указанный слот инвентаря.
 
 ## Описание
@@ -12,7 +17,9 @@ avatar.BuyToSlot( objectId: ObjectId, quantity: number, slot: number ): nil
 ## Список параметров
 
 - **`objectId`** (`ObjectId`) - Уникальный идентификатор предмета, который необходимо приобрести у NPC-торговца.
+
 - **`quantity`** (`number`) - Количество единиц предмета для покупки. Значение должно быть целым положительным числом.
+
 - **`slot`** (`number`) - Номер слота инвентаря, в который будет помещен купленный предмет.
 
 ## Возвращаемые значения
@@ -22,6 +29,7 @@ avatar.BuyToSlot( objectId: ObjectId, quantity: number, slot: number ): nil
 ## Примеры
 
 ### Покупка первого предмета из списка торговца
+
 ```lua
 local targetSlot = 12
 local vendorList = avatar.GetVendorList()
