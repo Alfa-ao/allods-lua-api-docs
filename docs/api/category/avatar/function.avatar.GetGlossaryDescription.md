@@ -25,6 +25,7 @@ avatar.GetGlossaryDescription( glossaryId: GlossaryId ): ValuedText
 ## Примеры
 
 ### Получение описания ресурса глоссария
+
 ```lua
 local valuedText = avatar.GetGlossaryDescription( glossaryId )
 ```
