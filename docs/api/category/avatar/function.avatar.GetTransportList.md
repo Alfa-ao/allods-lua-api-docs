@@ -1,4 +1,9 @@
+---
+description: Извлекает список идентификаторов всех транспортов, находящихся в зоне действия аватара.
+---
+
 # avatar.GetTransportList
+
 Извлекает список идентификаторов всех транспортов, находящихся в зоне действия аватара.
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.GetTransportList(): table
 ## Примеры
 
 ### Получение и перебор списка видимых транспортов
+
 ```lua
 local transports = avatar.GetTransportList()
 for _key, transportId in ipairs( transports ) do
