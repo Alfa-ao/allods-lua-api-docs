@@ -1,4 +1,9 @@
+---
+description: Возвращает таблицу с информацией о кармане инвентаря главного игрока.
+---
+
 # avatar.InventoryGetPocketInfo
+
 Возвращает таблицу с информацией о кармане инвентаря главного игрока.
 
 ## Описание
@@ -22,8 +27,11 @@ avatar.InventoryGetPocketInfo( pocketIndex: number ): table | nil
 
 Структура возвращаемой таблицы:
 - **`firstIndex`** (`number`) - первый индекс слота кармана в общем массиве слотов инвентаря.
+
 - **`size`** (`number`) - размер кармана.
+
 - **`name`** (`WString`) - название категории.
+
 - **`description`** (`WString`) - описание категории.
 
 Часть, доступная только в контексте UIState:
@@ -32,6 +40,7 @@ avatar.InventoryGetPocketInfo( pocketIndex: number ): table | nil
 ## Примеры
 
 ### Получение информации о кармане и предметах в нем
+
 ```lua
 local pocketIndex = 0
 local pocketInfo = avatar.InventoryGetPocketInfo( pocketIndex )
