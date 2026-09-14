@@ -25,11 +25,13 @@ avatar.GetImprovedInnateStats(): table | nil
 
 Возвращает `table` или `nil`:
 - **`table`** - таблица, аналогичная возвращаемой функцией `avatar.GetInnateStats()`, содержащая характеристики с учётом намеченных к распределению пунктов.
+
 - **`nil`** - если информация о характеристиках отсутствует или функция `avatar.CanImproveInnateStats()` возвращает `false`.
 
 ## Примеры
 
 ### Получение улучшенных характеристик аватара
+
 ```lua
 if avatar.CanImproveInnateStats() then
     local stats = avatar.GetImprovedInnateStats()
