@@ -26,6 +26,7 @@ avatar.GetStatPointsToDistribute(): table | nil
 ## Примеры
 
 ### Получение пунктов для распределения с предварительной проверкой
+
 ```lua
 if avatar.CanImproveInnateStats() then
     local points = avatar.GetStatPointsToDistribute()
