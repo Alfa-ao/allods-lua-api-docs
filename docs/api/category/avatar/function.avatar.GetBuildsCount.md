@@ -29,6 +29,7 @@ avatar.GetBuildsCount(): number
 ## Примеры
 
 ### Вывод количества специализаций в лог
+
 ```lua
 local buildsCount = avatar.GetBuildsCount()
 LogInfo( buildsCount )
