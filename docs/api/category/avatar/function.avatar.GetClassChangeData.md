@@ -26,6 +26,7 @@ avatar.GetClassChangeData(): table
 ## Примеры
 
 ### Получение и вывод идентификатора заклинания смены класса
+
 ```lua
 local classChangeData = avatar.GetClassChangeData()
 LogInfo( "Change class spell:", classChangeData.freeClassChangeSpell )
