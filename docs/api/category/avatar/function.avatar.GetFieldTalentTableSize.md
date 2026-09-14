@@ -23,12 +23,15 @@ avatar.GetFieldTalentTableSize(): table
 Возвращает таблицу (`table`):
 
 - **`fieldsCount`** (`number`) - Количество полей талантов.
+
 - **`rowsCount`** (`number`) - Количество строк в поле талантов.
+
 - **`columnsCount`** (`number`) - Количество столбцов в поле талантов.
 
 ## Примеры
 
 ### Получение и использование размерности поля талантов
+
 ```lua
 local size = avatar.GetFieldTalentTableSize()
 if size then
