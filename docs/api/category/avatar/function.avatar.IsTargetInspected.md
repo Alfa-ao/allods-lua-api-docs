@@ -1,4 +1,9 @@
+---
+description: Определяет, инспектируется ли цель главного игрока.
+---
+
 # avatar.IsTargetInspected
+
 Определяет, инспектируется ли цель главного игрока.
 
 ## Описание
@@ -24,6 +29,7 @@ avatar.IsTargetInspected(): boolean
 ## Примеры
 
 ### Завершение инспекции при активном состоянии
+
 ```lua
 if avatar.IsTargetInspected() then
     avatar.EndInspect()
