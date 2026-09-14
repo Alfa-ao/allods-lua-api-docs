@@ -1,4 +1,9 @@
+---
+description: Высчитывает и возвращает текущий рейтинг экипировки аватара.
+---
+
 # avatar.CalcCurrentGearScore
+
 Высчитывает и возвращает текущий рейтинг экипировки аватара.
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.CalcCurrentGearScore(): number
 ## Примеры
 
 ### Получение и вывод текущего рейтинга экипировки
+
 ```lua
 local avatarCurrentGearScore = avatar.CalcCurrentGearScore()
 LogInfo( "Текущий рейтинг экипировки: ", avatarCurrentGearScore )
