@@ -32,6 +32,7 @@ avatar.GetInteractorInfo(): table | nil
 ## Примеры
 
 ### Получение информации о собеседнике и проверка типа
+
 ```lua
 local info = avatar.GetInteractorInfo()
 if info then
