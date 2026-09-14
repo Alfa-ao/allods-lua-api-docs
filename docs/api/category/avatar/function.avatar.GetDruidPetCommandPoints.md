@@ -23,12 +23,15 @@ avatar.GetDruidPetCommandPoints(): table | nil
 
 Если питомец друида активен, возвращается таблица (`table`) со следующими полями:
 - **`value`** (`number`) - текущее значение ресурса CommandPoints.
+
 - **`minValue`** (`number`) - минимальное значение (нижняя граница допустимого диапазона).
+
 - **`maxValue`** (`number`) - максимальное значение (верхняя граница допустимого диапазона).
 
 ## Примеры
 
 ### Получение и проверка значения CommandPoints
+
 ```lua
 local commandPoints = avatar.GetDruidPetCommandPoints()
 
