@@ -27,6 +27,7 @@ avatar.GetNextLevelUnlockInfo(): table | nil
 
 Если следующий уровень заблокирован из-за отсутствия возможности, возвращается таблица со следующими полями:
 - **`unlockName`** (`WString`) - название требуемой возможности.
+
 - **`unlockDescription`** (`WString`) - описание действий, необходимых для получения данной возможности.
 
 Если следующий уровень не заблокирован или информация отсутствует, возвращается `nil`.
@@ -34,6 +35,7 @@ avatar.GetNextLevelUnlockInfo(): table | nil
 ## Примеры
 
 ### Проверка блокировки следующего уровня и получение информации о требуемой возможности
+
 ```lua
 if avatar.IsNextLevelLocked() then
     local info = avatar.GetNextLevelUnlockInfo()
