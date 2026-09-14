@@ -22,12 +22,15 @@ avatar.GetNecromancerBloodPool(): table
 
 Возвращает `table`:
 - **`value`** (`number`) - текущее значение пула крови.
+
 - **`minValue`** (`number`) - минимальное значение (нижняя граница допустимого диапазона).
+
 - **`maxValue`** (`number`) - максимальное значение (верхняя граница допустимого диапазона).
 
 ## Примеры
 
 ### Получение и вывод текущего значения пула крови
+
 ```lua
 local bloodPool = avatar.GetNecromancerBloodPool()
 LogInfo( "bloodPool = ", bloodPool.value )
