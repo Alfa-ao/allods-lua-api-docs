@@ -29,6 +29,7 @@ avatar.GetHearthStoneSpell(): SpellId | nil
 ## Примеры
 
 ### Получение идентификатора заклинания камня возвращения
+
 ```lua
 local spellId = avatar.GetHearthStoneSpell()
 if spellId then
