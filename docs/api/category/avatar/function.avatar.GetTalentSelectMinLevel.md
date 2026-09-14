@@ -25,6 +25,7 @@ avatar.GetTalentSelectMinLevel(): number
 ## Примеры
 
 ### Получение минимального уровня для распределения талантов
+
 ```lua
 local talentSelectMinLevel = avatar.GetTalentSelectMinLevel()
 ```
