@@ -25,6 +25,7 @@ avatar.GetMoney(): number
 ## Примеры
 
 ### Получение и вывод количества денег
+
 ```lua
 local money = avatar.GetMoney()
 LogInfo( "Количество денег: ", money )
