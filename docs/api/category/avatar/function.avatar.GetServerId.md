@@ -25,6 +25,7 @@ avatar.GetServerId(): PersistentId
 ## Примеры
 
 ### Получение серверного идентификатора аватара
+
 ```lua
 local id = avatar.GetServerId()
 ```
