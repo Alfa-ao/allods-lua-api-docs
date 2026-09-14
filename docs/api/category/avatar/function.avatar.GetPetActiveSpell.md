@@ -25,6 +25,7 @@ avatar.GetPetActiveSpell(): number
 ## Примеры
 
 ### Проверка и смена активного заклинания
+
 ```lua
 local spells = avatar.GetPetSpells()
 if spells[ 0 ] and ( 0 ~= avatar.GetPetActiveSpell() ) then
