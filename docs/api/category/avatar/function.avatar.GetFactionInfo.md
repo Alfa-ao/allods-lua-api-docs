@@ -23,12 +23,15 @@ avatar.GetFactionInfo( factionId: FactionId ): table | nil
 Возвращает `table` или `nil`. Если данные успешно получены, возвращается таблица со следующими полями:
 
 - **`isSame`** (`boolean`) - `true`, если указанная фракция является фракцией главного игрока (MainPlayer).
+
 - **`isFriend`** (`boolean`) - `true`, если указанная фракция является дружественной.
+
 - **`isPassive`** (`boolean`) - `true`, если указанная фракция не является агрессивной.
 
 ## Примеры
 
 ### Получение информации о фракции главного игрока
+
 ```lua
 local factionId = unit.GetFactionId( avatar.GetId() )
 local factionInfo = factionId and avatar.GetFactionInfo( factionId )
