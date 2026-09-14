@@ -29,6 +29,7 @@ avatar.GetId(): ObjectId | nil
 ## Примеры
 
 ### Получение идентификатора аватара
+
 ```lua
 local id = avatar.GetId()
 if id then
