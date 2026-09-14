@@ -1,4 +1,9 @@
+---
+description: Проверяет возможность инспектирования другого игрока.
+---
+
 # avatar.IsInspectAllowed
+
 Проверяет возможность инспектирования другого игрока.
 
 ## Описание
@@ -19,6 +24,7 @@ avatar.IsInspectAllowed(): boolean
 ## Примеры
 
 ### Инициация инспектирования с предварительной проверкой
+
 ```lua
 if avatar.IsInspectAllowed() then
     avatar.StartInspect( unitId )
