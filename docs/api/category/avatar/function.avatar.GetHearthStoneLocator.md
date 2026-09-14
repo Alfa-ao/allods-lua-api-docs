@@ -22,13 +22,17 @@ avatar.GetHearthStoneLocator(): table
 
 Возвращает таблицу (`table`):
 - **`map`** (`WString`) - имя карты, на которой находится точка возвращения.
+
 - **`zone`** (`WString`) - имя зоны, в которой находится точка возвращения.
+
 - **`locator`** (`WString`) - строковый идентификатор (локатор) точки возвращения.
+
 - **`locationId`** (`ObjectId`) - уникальный идентификатор точки телепортации, предназначенный для использования в функции `avatar.UseHearthStoneToLocation`.
 
 ## Примеры
 
 ### Получение информации о месте назначения камня возвращения
+
 ```lua
 local locatorInfo = avatar.GetHearthStoneLocator()
 if locatorInfo then
