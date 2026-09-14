@@ -25,6 +25,7 @@ avatar.GetReturnableQuests(): table
 ## Примеры
 
 ### Получение списка заданий для сдачи
+
 ```lua
 local retQuestList = avatar.GetReturnableQuests()
 ```
