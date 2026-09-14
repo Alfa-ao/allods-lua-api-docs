@@ -5,6 +5,7 @@ description: Возвращает информацию для смены кла�
 # avatar.GetClassChangerInfo
 
 Возвращает информацию для смены класса аватара, включая варианты замены экипировки.
+
 ## Описание
 
 ```lua
@@ -36,6 +37,7 @@ avatar.GetClassChangerInfo(): table | nil
 ## Примеры
 
 ### Получение информации о замене класса
+
 ```lua
 local info = avatar.GetClassChangerInfo()
 ```
