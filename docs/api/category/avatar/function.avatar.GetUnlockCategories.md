@@ -1,4 +1,9 @@
+---
+description: Возвращает список категорий возможностей (анлоков), имеющихся у аватара.
+---
+
 # avatar.GetUnlockCategories
+
 Возвращает список категорий возможностей (анлоков), имеющихся у аватара.
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.GetUnlockCategories(): table
 ## Примеры
 
 ### Перебор и вывод названий доступных категорий
+
 ```lua
 for _, categoryId in ipairs( avatar.GetUnlockCategories() ) do
     local info = categoryId:GetInfo()
