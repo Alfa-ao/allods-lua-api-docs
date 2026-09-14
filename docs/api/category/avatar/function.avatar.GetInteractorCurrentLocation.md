@@ -25,6 +25,7 @@ avatar.GetInteractorCurrentLocation(): ObjectId | nil
 ## Примеры
 
 ### Получение информации о текущей точке телепортации
+
 ```lua
 local locationId = avatar.GetInteractorCurrentLocation()
 if locationId then
