@@ -5,6 +5,7 @@ description: Возвращает список приглашений от иг�
 # avatar.GetQuestShareInvitations
 
 Возвращает список приглашений от игроков, делящихся своими заданиями.
+
 ## Описание
 
 ```lua
@@ -22,14 +23,17 @@ avatar.GetQuestShareInvitations(): table
 Возвращает таблицу (`table`), индексированную с единицы. Элементы таблицы представляют собой таблицы со следующими полями:
 - **`shareId`** (`ObjectId`)
 Уникальный идентификатор приглашения.
+
 - **`questId`** (`QuestId`)
 Идентификатор задания.
+
 - **`sharerName`** (`WString`)
 Имя игрока, который делится заданием.
 
 ## Примеры
 
 ### Получение и обработка списка приглашений
+
 ```lua
 local invitations = avatar.GetQuestShareInvitations()
 for _, info in ipairs( invitations ) do
