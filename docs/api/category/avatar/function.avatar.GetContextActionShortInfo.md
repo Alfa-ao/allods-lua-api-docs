@@ -30,9 +30,13 @@ avatar.GetContextActionShortInfo( id: ObjectId ): table | nil
 
 Возвращает таблицу (`table`):
 - **`image`** (`TextureId`) - идентификатор текстуры для иконки (реализовано только для UI).
+
 - **`enabled`** (`boolean`) - значение `true`, если действие доступно, и `false`, если недоступно.
+
 - **`sysType`** (`string`) - название типа контекстного действия (строковый enum `ENUM_CONTEXT_ACTION_TYPE_XXX`).
+
 - **`objectId`** (`ObjectId` | `nil`) - идентификатор объекта, к которому применяется контекстное действие, если он существует.
+
 - **`cooldown`** (`table` | `nil`) - информация о кулдауне, если она доступна. Таблица содержит следующие поля:
     - `durationMs` (`number`) - длительность кулдауна в миллисекундах.
     - `remainingMs` (`number`) - оставшееся время кулдауна в миллисекундах.
@@ -42,6 +46,7 @@ avatar.GetContextActionShortInfo( id: ObjectId ): table | nil
 ## Примеры
 
 ### Получение информации о доступности действия
+
 ```lua
 local actionInfo = avatar.GetContextActionShortInfo( id )
 if actionInfo then
