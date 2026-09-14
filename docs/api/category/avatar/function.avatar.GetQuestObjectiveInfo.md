@@ -36,23 +36,37 @@ avatar.GetQuestObjectiveInfo( objectiveId: ObjectId ): table | nil
 
 Структура возвращаемой таблицы:
 - **`questId`** (`QuestId`) - идентификатор ресурса квеста.
+
 - **`id`** (`ObjectId`) - идентификатор цели квеста.
+
 - **`name`** (`WString`) - название цели квеста.
+
 - **`description`** (`WString`) - описание цели квеста.
+
 - **`sysDebugName`** (`string` | `nil`) - дебажный строковый идентификатор (путь к файлу) или `nil` для финальной версии.
+
 - **`progress`** (`number`) - текущее значение счетчика (например, количество уже собранных предметов).
+
 - **`required`** (`number`) - целевое значение счетчика (например, необходимое количество предметов).
+
 - **`isInternal`** (`boolean`) - `true`, если счётчик внутренний (счётчик и маркер не отображаются пользователю).
+
 - **`type`** (`number`) - тип цели квеста (одна из констант `QUEST_COUNT_...`).
+
 - **`showCounterValue`** (`boolean`) - `true`, если необходимо отображать пользователю прогресс (значения `progress` и `required`).
+
 - **`alwaysShowMarker`** (`boolean`) - `true`, если необходимо всегда отображать маркер квеста на карте, даже при `isInternal == true`.
+
 - **`items`** (`table`) - таблица с идентификаторами (`ObjectId`) предметов, если имеется их список.
+
 - **`dressSlots`** (`table`) - таблица со значениями слотов (`DRESS_SLOT_...`), если имеется список слотов предметов.
+
 - **`locations`** (`table`) - таблица с описаниями точек цели задания (структура `QuestLocation`).
 
 ## Примеры
 
 ### Получение и перебор локаций цели задания
+
 ```lua
 local objectiveInfo = avatar.GetQuestObjectiveInfo( objectiveId )
 if objectiveInfo then
