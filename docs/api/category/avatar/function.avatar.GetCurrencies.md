@@ -25,6 +25,7 @@ avatar.GetCurrencies(): table
 ## Примеры
 
 ### Получение информации о первой доступной валюте
+
 ```lua
 local ids = avatar.GetCurrencies()
 if ids and ids[0] then
