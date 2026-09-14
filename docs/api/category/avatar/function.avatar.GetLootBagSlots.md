@@ -22,11 +22,13 @@ avatar.GetLootBagSlots(): table
 
 Возвращает таблицу (`table`), содержащую следующие поля:
 - **`money`** (`number`) - количество денег в сумке с лутом.
+
 - **`items`** (`table`) - список идентификаторов вещей в сумке. Индексируется от `0` до `avatar.GetLootBagSlotCount() - 1`. Элементы списка имеют тип `ObjectId`, для пустых слотов возвращается `nil`.
 
 ## Примеры
 
 ### Получение содержимого сумки с лутом
+
 ```lua
 local loot = avatar.GetLootBagSlots()
 local lootMoney = loot.money
