@@ -1,4 +1,9 @@
+---
+description: Определяет, находится ли персонаж в состоянии пассажира.
+---
+
 # avatar.IsPassangerState
+
 Определяет, находится ли персонаж в состоянии пассажира.
 
 ## Описание
@@ -19,6 +24,7 @@ avatar.IsPassangerState(): boolean
 ## Примеры
 
 ### Проверка состояния пассажира
+
 ```lua
 local isPassangerState = avatar.IsPassangerState()
 ```
