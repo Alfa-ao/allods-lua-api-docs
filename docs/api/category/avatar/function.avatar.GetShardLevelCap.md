@@ -24,6 +24,7 @@ avatar.GetShardLevelCap(): number
 ## Примеры
 
 ### Получение максимального уровня шарда
+
 ```lua
 local levelCap = avatar.GetShardLevelCap()
 ```
