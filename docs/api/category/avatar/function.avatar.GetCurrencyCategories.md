@@ -25,6 +25,7 @@ avatar.GetCurrencyCategories(): table
 ## Примеры
 
 ### Получение и обработка списка категорий валют
+
 ```lua
 local ids = avatar.GetCurrencyCategories()
 if ids and ids[0] then
