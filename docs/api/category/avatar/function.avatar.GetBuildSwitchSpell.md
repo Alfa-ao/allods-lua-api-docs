@@ -25,6 +25,7 @@ avatar.GetBuildSwitchSpell(): number
 ## Примеры
 
 ### Получение и вывод требований для переключения билда
+
 ```lua
 local spellId = avatar.GetBuildSwitchSpell()
 if spellId then
