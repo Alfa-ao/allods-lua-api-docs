@@ -26,6 +26,7 @@ avatar.GetQuestImage( questId: QuestId ): TextureId | nil
 ## Примеры
 
 ### Получение изображения описания задания
+
 ```lua
 local image = avatar.GetQuestImage( questId )
 ```
