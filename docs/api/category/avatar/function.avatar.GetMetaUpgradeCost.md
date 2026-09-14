@@ -18,8 +18,10 @@ avatar.GetMetaUpgradeCost( sourceId: ObjectId, enhancerId: ObjectId, agentId: Ob
 
 - **`sourceId`** (`ObjectId`)
 Идентификатор предмета, который подлежит улучшению.
+
 - **`enhancerId`** (`ObjectId`)
 Идентификатор предмета-улучшителя, применяемого для модификации целевого предмета.
+
 - **`agentId`** (`ObjectId`)
 Идентификатор агента улучшения, осуществляющего операцию модификации.
 
@@ -30,6 +32,7 @@ avatar.GetMetaUpgradeCost( sourceId: ObjectId, enhancerId: ObjectId, agentId: Ob
 ## Примеры
 
 ### Вычисление стоимости улучшения мета-предмета
+
 ```lua
 local meta = avatar.GetItemMetaInfo( sourceId )
 if meta then
