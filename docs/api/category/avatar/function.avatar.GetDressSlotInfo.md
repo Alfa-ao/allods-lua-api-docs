@@ -26,6 +26,7 @@ avatar.GetDressSlotInfo( dressSlot: number ): table | nil
 ## Примеры
 
 ### Получение и вывод информации о слоте шлема
+
 ```lua
 local slotInfo = avatar.GetDressSlotInfo( DRESS_SLOT_HELM )
 LogInfo( "Информация о слоте: ", slotInfo )
