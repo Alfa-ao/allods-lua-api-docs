@@ -35,6 +35,7 @@ avatar.GetBuffValuedObject( buffId: BuffId ): ValuedObject
 ## Примеры
 
 ### Получение объекта бафа
+
 ```lua
 local valuedObject = avatar.GetBuffValuedObject( buffId )
 ```
