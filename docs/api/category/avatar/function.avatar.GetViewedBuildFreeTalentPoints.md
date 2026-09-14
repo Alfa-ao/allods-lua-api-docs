@@ -1,4 +1,9 @@
+---
+description: Возвращает количество свободных очков умений, доступных для распределения в просматриваемой специализации.
+---
+
 # avatar.GetViewedBuildFreeTalentPoints
+
 Возвращает количество свободных очков умений, доступных для распределения в просматриваемой специализации.
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.GetViewedBuildFreeTalentPoints(): number
 ## Примеры
 
 ### Получение количества свободных очков умений
+
 ```lua
 local talents = avatar.GetViewedBuildFreeTalentPoints()
 ```
