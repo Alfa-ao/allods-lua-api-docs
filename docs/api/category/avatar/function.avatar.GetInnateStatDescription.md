@@ -26,6 +26,7 @@ avatar.GetInnateStatDescription( sysName: string ): ValuedText | nil
 ## Примеры
 
 ### Получение описания характеристики "Воля"
+
 ```lua
 local willDesc = avatar.GetInnateStatDescription( "ENUM_InnateStats_Will" )
 ```
