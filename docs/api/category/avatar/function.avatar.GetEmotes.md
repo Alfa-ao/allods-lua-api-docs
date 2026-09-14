@@ -5,6 +5,7 @@ description: Возвращает список идентификаторов д
 # avatar.GetEmotes
 
 Возвращает список идентификаторов доступных эмоций.
+
 ## Описание
 
 ```lua
@@ -24,6 +25,7 @@ avatar.GetEmotes(): table
 ## Примеры
 
 ### Получение и перебор списка доступных эмоций
+
 ```lua
 local emotes = avatar.GetEmotes()
 for i, id in ipairs( emotes ) do
