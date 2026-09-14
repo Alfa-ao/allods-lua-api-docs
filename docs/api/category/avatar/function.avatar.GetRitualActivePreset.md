@@ -24,6 +24,7 @@ avatar.GetRitualActivePreset(): number
 ## Примеры
 
 ### Получение идентификатора активного набора
+
 ```lua
 local activePreset = avatar.GetRitualActivePreset()
 ```
