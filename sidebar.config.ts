@@ -6972,11 +6972,6 @@ export default [
                                 ]
                             },
                             {
-                                text: "Form",
-                                collapsed: true,
-                                items: []
-                            },
-                            {
                                 text: "ScrollableContainer",
                                 collapsed: true,
                                 items: [
@@ -7579,28 +7574,7 @@ export default [
                     {
                         text: "__",
                         collapsed: true,
-                        items: [
-                            {
-                                text: "Apitype",
-                                link: "/api/category/__/function.apitype"
-                            },
-                            {
-                                text: "Global",
-                                link: "/api/category/__/function.Global"
-                            },
-                            {
-                                text: "GlobalConst",
-                                link: "/api/category/__/function.GlobalConst"
-                            },
-                            {
-                                text: "HasGlobalConst",
-                                link: "/api/category/__/function.HasGlobalConst"
-                            },
-                            {
-                                text: "Isindexableudata",
-                                link: "/api/category/__/function.isindexableudata"
-                            }
-                        ]
+                        items: []
                     }
                 ]
             },
@@ -8936,6 +8910,50 @@ export default [
                     {
                         text: "EVENT_WISHMASTER_",
                         link: "/api/events/events.EVENT_WISHMASTER_"
+                    }
+                ]
+            },
+            {
+                text: "Functions",
+                collapsed: true,
+                items: [
+                    {
+                        text: "Apitype",
+                        link: "/api/functions/function.apitype"
+                    },
+                    {
+                        text: "Global",
+                        link: "/api/functions/function.Global"
+                    },
+                    {
+                        text: "GlobalConst",
+                        link: "/api/functions/function.GlobalConst"
+                    },
+                    {
+                        text: "HasGlobalConst",
+                        link: "/api/functions/function.HasGlobalConst"
+                    },
+                    {
+                        text: "Isindexableudata",
+                        link: "/api/functions/function.isindexableudata"
+                    },
+                    {
+                        text: "Table",
+                        collapsed: true,
+                        items: [
+                            {
+                                text: "Clone",
+                                link: "/api/functions/table/function.table.clone"
+                            },
+                            {
+                                text: "Nkeys",
+                                link: "/api/functions/table/function.table.nkeys"
+                            },
+                            {
+                                text: "Sclone",
+                                link: "/api/functions/table/function.table.sclone"
+                            }
+                        ]
                     }
                 ]
             },
