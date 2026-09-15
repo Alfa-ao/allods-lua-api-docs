@@ -8914,7 +8914,7 @@ export default [
                 ]
             },
             {
-                text: "Functions",
+                text: "Функции",
                 collapsed: true,
                 items: [
                     {
