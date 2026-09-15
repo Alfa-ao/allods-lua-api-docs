@@ -1,5 +1,5 @@
 ---
-description: Проверяет наличие `durationBuff` у спелла в ресурсе.
+description: Проверяет наличие durationBuff у спелла в ресурсе.
 ---
 
 # spellLib.HasDurationBuff

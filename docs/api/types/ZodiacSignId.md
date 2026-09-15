@@ -1,5 +1,5 @@
 ---
-description: Идентификатор знака зодиака. Один из типов группы `ResourceId`.
+description: Идентификатор знака зодиака. Один из типов группы ResourceId.
 ---
 
 # ZodiacSignId

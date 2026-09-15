@@ -1,5 +1,5 @@
 ---
-description: Идентификатор Волшебной лампы. Один из типов группы `ResourceId`.
+description: Идентификатор Волшебной лампы. Один из типов группы ResourceId.
 ---
 
 # WishmasterResourceId

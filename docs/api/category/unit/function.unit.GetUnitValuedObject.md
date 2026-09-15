@@ -1,5 +1,5 @@
 ---
-description: Возвращает новый экземпляр `ValuedObject` по идентификатору существа.
+description: Возвращает новый экземпляр ValuedObject по идентификатору существа.
 ---
 
 # unit.GetUnitValuedObject

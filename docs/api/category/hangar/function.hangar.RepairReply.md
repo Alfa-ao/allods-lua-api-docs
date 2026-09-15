@@ -1,5 +1,5 @@
 ---
-description: Отвечает на запрос о ремонте корабля, связанный с событием `EVENT_HANGAR_REPAIR_QUESTION`.
+description: Отвечает на запрос о ремонте корабля, связанный с событием EVENT_HANGAR_REPAIR_QUESTION.
 ---
 
 # hangar.RepairReply

@@ -1,5 +1,5 @@
 ---
-description: Возвращает дату и время в формате `LuaFullDateTime`, преобразуя Unix time из количества миллисекунд.
+description: Возвращает дату и время в формате LuaFullDateTime, преобразуя Unix time из количества миллисекунд.
 ---
 
 # common.GetDateTimeFromMs

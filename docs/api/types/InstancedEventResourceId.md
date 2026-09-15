@@ -1,5 +1,5 @@
 ---
-description: Идентификатор ресурса сражения (инстанс-ивента). Один из типов группы `ResourceId`.
+description: Идентификатор ресурса сражения (инстанс-ивента). Один из типов группы ResourceId.
 ---
 
 # InstancedEventResourceId

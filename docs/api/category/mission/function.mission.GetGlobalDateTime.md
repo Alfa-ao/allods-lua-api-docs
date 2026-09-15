@@ -1,5 +1,5 @@
 ---
-description: Возвращает серверное время в формате `LuaFullDateTime` для вычисления дельты глобальных событий.
+description: Возвращает серверное время в формате LuaFullDateTime для вычисления дельты глобальных событий.
 ---
 
 # mission.GetGlobalDateTime

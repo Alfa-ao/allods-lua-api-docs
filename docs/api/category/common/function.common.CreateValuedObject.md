@@ -1,5 +1,5 @@
 ---
-description: Создает и возвращает новый экземпляр `ValuedObject`.
+description: Создает и возвращает новый экземпляр ValuedObject.
 ---
 
 # common.CreateValuedObject

@@ -1,5 +1,5 @@
 ---
-description: Идентификатор активности для LFG(сбора группы). Один из типов группы `ResourceId`.
+description: Идентификатор активности для LFG(сбора группы). Один из типов группы ResourceId.
 ---
 
 # LfgDestinationId

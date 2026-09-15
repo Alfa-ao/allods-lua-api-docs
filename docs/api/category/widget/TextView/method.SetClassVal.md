@@ -1,5 +1,5 @@
 ---
-description: Задает значение для подстановки класса (из тега `rs`) для данного `TextViewSafe`.
+description: Задает значение для подстановки класса (из тега rs) для данного TextViewSafe.
 ---
 
 # TextViewSafe:SetClassVal

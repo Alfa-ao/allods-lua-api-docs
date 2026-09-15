@@ -1,5 +1,5 @@
 ---
-description: Идентификатор группы талантов маунта. Один из типов группы `ResourceId`.
+description: Идентификатор группы талантов маунта. Один из типов группы ResourceId.
 ---
 
 # MountTalentGroupId

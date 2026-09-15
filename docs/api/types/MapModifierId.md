@@ -1,5 +1,5 @@
 ---
-description: Идентификатор модификатора карты. Один из типов группы `ResourceId`.
+description: Идентификатор модификатора карты. Один из типов группы ResourceId.
 ---
 
 # MapModifierId

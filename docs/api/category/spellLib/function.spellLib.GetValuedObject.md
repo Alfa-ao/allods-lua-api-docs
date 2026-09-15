@@ -1,5 +1,5 @@
 ---
-description: Возвращает новый экземпляр `ValuedObject` для заклинания.
+description: Возвращает новый экземпляр ValuedObject для заклинания.
 ---
 
 # spellLib.GetValuedObject

@@ -1,5 +1,5 @@
 ---
-description: Возвращает полную таблицу `WidgetPlacement` с действительными значениями всех полей, вычисляя неявные параметры.
+description: Возвращает полную таблицу WidgetPlacement с действительными значениями всех полей, вычисляя неявные параметры.
 ---
 
 # WidgetSafe:GetSmartPlacementPlain

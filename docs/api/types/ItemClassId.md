@@ -1,5 +1,5 @@
 ---
-description: Идентификатор класса предмета. Один из типов группы `ResourceId`.
+description: Идентификатор класса предмета. Один из типов группы ResourceId.
 ---
 
 # ItemClassId

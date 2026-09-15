@@ -1,5 +1,5 @@
 ---
-description: Локализуемая строка. Специальный вариант userdata, имя метатаблицы `WString`, неиндексируемая `userdata`. Все методы имеют lua error handling (большая часть API имеет game error handling)
+description: Локализуемая строка. Специальный вариант userdata, имя метатаблицы WString, неиндексируемая userdata. Все методы имеют lua error handling (большая часть API имеет game error handling)
 ---
 
 # WString

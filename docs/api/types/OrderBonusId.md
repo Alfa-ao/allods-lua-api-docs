@@ -1,5 +1,5 @@
 ---
-description: Идентификатор бонуса ордена. Один из типов группы `ResourceId`.
+description: Идентификатор бонуса ордена. Один из типов группы ResourceId.
 ---
 
 # OrderBonusId

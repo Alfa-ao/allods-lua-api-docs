@@ -1,5 +1,5 @@
 ---
-description: Идентификатор класса аватара. Один из типов группы `ResourceId`.
+description: Идентификатор класса аватара. Один из типов группы ResourceId.
 ---
 
 # CharacterClassId

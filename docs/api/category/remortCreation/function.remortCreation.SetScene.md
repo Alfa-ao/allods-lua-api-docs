@@ -1,5 +1,5 @@
 ---
-description: Создает сцену для работы с персонажами для указанного `Control3DSafe`.
+description: Создает сцену для работы с персонажами для указанного Control3DSafe.
 ---
 
 # remortCreation.SetScene

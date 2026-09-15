@@ -1,5 +1,5 @@
 ---
-description: Возвращает таблицу с индексами вариаций внешнего вида главного игрока из списков, сформированных функцией `changeRoom.GetAvatarTemplate`.
+description: Возвращает таблицу с индексами вариаций внешнего вида главного игрока из списков, сформированных функцией changeRoom.GetAvatarTemplate.
 ---
 
 # changeRoom.GetPlayerIndexes

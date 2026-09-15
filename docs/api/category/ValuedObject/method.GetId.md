@@ -1,5 +1,5 @@
 ---
-description: Возвращает идентификатор объекта `ValuedObject`.
+description: Возвращает идентификатор объекта ValuedObject.
 ---
 
 # ValuedObject:GetId

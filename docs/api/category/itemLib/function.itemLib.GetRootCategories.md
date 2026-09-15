@@ -1,5 +1,5 @@
 ---
-description: Возвращает список идентификаторов (`ItemCategoryId`) корневых категорий предметов.
+description: Возвращает список идентификаторов (ItemCategoryId) корневых категорий предметов.
 ---
 
 # itemLib.GetRootCategories

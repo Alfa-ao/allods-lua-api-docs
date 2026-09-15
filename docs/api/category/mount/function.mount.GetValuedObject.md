@@ -1,5 +1,5 @@
 ---
-description: Возвращает новый экземпляр `ValuedObject` по идентификатору маунта.
+description: Возвращает новый экземпляр ValuedObject по идентификатору маунта.
 ---
 
 # mount.GetValuedObject

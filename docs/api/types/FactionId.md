@@ -1,5 +1,5 @@
 ---
-description: Идентификатор фракции. Один из типов группы `ResourceId`.
+description: Идентификатор фракции. Один из типов группы ResourceId.
 ---
 
 # FactionId

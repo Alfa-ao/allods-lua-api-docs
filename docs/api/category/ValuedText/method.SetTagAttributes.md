@@ -1,5 +1,5 @@
 ---
-description: Изменяет значения атрибутов у тега или тегов в экземпляре `ValuedText`.
+description: Изменяет значения атрибутов у тега или тегов в экземпляре ValuedText.
 ---
 
 # ValuedTextSafe:SetTagAttributes

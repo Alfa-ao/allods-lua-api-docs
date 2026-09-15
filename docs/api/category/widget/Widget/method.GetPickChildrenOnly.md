@@ -1,5 +1,5 @@
 ---
-description: Получает статус атрибута `PickChildrenOnly` для виджета.
+description: Получает статус атрибута PickChildrenOnly для виджета.
 ---
 
 # WidgetSafe:GetPickChildrenOnly

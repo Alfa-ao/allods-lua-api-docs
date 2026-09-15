@@ -1,5 +1,5 @@
 ---
-description: Создает и возвращает новый экземпляр `ValuedObject` для пассивного умения.
+description: Создает и возвращает новый экземпляр ValuedObject для пассивного умения.
 ---
 
 # avatar.GetAbilityValuedObject

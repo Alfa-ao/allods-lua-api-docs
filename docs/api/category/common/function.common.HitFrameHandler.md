@@ -1,5 +1,5 @@
 ---
-description: Взводит флаг `hit` обработчика события кадра.
+description: Взводит флаг hit обработчика события кадра.
 ---
 
 # common.HitFrameHandler

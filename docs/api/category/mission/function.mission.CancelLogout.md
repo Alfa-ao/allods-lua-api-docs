@@ -1,5 +1,5 @@
 ---
-description: Отменяет завершение сессии после вызова `mission.Logout`.
+description: Отменяет завершение сессии после вызова mission.Logout.
 ---
 
 # mission.CancelLogout
