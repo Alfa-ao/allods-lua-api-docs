@@ -1,5 +1,5 @@
 ---
-description: Задает значение для подстановки класса из тега "rs" для элемента ButtonSafe.
+description: Задает значение для подстановки класса из тега rs для элемента ButtonSafe.
 ---
 
 # ButtonSafe:SetClassVal

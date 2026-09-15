@@ -1,5 +1,5 @@
 ---
-description: Проверяет, находится ли указанный интерактивный объект в радиусе "meleeRange".
+description: Проверяет, находится ли указанный интерактивный объект в радиусе meleeRange.
 ---
 
 # object.IsInUsageRange

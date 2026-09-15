@@ -1,5 +1,5 @@
 ---
-description: Задает значение для подстановки класса (из тега "rs") для данного ValuedText.
+description: Задает значение для подстановки класса (из тега rs) для данного ValuedText.
 ---
 
 # ValuedTextSafe:SetClassVal

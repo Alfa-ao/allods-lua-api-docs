@@ -1,5 +1,5 @@
 ---
-description: Возвращает информацию о лотерее "Лото".
+description: Возвращает информацию о лотерее Лото.
 ---
 
 # mission.GetLotteryInfo
