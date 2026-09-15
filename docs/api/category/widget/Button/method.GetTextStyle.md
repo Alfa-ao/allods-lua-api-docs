@@ -1,5 +1,5 @@
 ---
-description: Поведение, параметры и возвращаемые значения идентичны [TextView:GetTextStyle]
+description: Поведение, параметры и возвращаемые значения идентичны TextView.GetTextStyle
 ---
 
 # ButtonSafe:GetTextStyle
