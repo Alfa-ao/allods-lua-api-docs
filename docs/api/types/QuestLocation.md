@@ -1,3 +1,7 @@
+---
+description: QuestLocation описывает одну точку на карте.
+---
+
 # QuestLocation
 
 QuestLocation описывает одну точку на карте.

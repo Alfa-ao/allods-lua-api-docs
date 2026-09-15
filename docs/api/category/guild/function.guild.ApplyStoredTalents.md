@@ -1,4 +1,9 @@
+---
+description: Выучивает помеченные таланты и вехи.
+---
+
 # guild.ApplyStoredTalents
+
 Выучивает помеченные таланты и вехи.
 
 ## Описание
@@ -20,6 +25,7 @@ guild.ApplyStoredTalents()
 ## Примеры
 
 ### Пометка и применение талантов
+
 ```lua
 guild.StoreTalent( field, row, column )
 guild.ApplyStoredTalents()

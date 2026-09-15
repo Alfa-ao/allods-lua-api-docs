@@ -1,4 +1,9 @@
+---
+description: Возвращает архитектуру клиента игры.
+---
+
 # common.GetClientArch
+
 Возвращает архитектуру клиента игры.
 
 ## Описание
@@ -17,11 +22,13 @@ common.GetClientArch(): number
 
 Возвращает `number` - архитектуру клиента. Значение соответствует одной из констант перечисления `CLIENT_ARCH_*`:
 - **`CLIENT_ARCH_WIN32`** - 32-разрядная архитектура Windows.
+
 - **`CLIENT_ARCH_WIN64`** - 64-разрядная архитектура Windows.
 
 ## Примеры
 
 ### Выбор и загрузка специфичного для архитектуры кода
+
 ```lua
 local code = codeVariants[ common.GetClientArch() ]
 if code then

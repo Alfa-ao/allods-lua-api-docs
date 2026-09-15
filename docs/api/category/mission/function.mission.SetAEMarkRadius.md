@@ -1,3 +1,7 @@
+---
+description: Устанавливает радиус AEMark.
+---
+
 # mission.SetAEMarkRadius
 
 Устанавливает радиус AEMark.

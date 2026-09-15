@@ -1,4 +1,9 @@
+---
+description: Получает список бонусов, имеющихся в данный момент у аккаунта.
+---
+
 # rules.BillingInfoGetBonuses
+
 Получает список бонусов, имеющихся в данный момент у аккаунта.
 
 ## Описание
@@ -20,6 +25,7 @@ rules.BillingInfoGetBonuses(): table | nil
 ## Примеры
 
 ### Получение информации о первом бонусе
+
 ```lua
 local bonuses = rules.BillingInfoGetBonuses()
 if bonuses and bonuses[0] then

@@ -50,13 +50,13 @@ export default defineConfig( {
     },
     base,
     title: "Allods Online Lua API",
-    description: "Современная документация по Lua API для игры Аллоды Онлайн",
+    description: "Документация по Lua API для игры Аллоды Онлайн",
     lang: 'ru-RU',
     
     head: [
         ['meta', { name: 'yandex-verification', content: '21833890508c0856' }],
         ['meta', { name: 'google-site-verification', content: 'g3L7ZeF4Q12uQLXbVaYlDeSTpaLpW0bgbPAjm-0_N4I' }],
-        ['link', { rel: 'icon', type: 'image/x-icon', href: `${base}/favicon.ico` }],
+        ['link', { rel: 'icon', type: 'image/x-icon', href: `${base}favicon.ico` }],
     ],
     themeConfig: {
         logo: '/logo.png', // docs/public/logo.png

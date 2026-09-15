@@ -1,4 +1,9 @@
+---
+description: Возвращает список детекторов, отслеживающих объект.
+---
+
 # object.GetDetectors
+
 Возвращает список детекторов, отслеживающих объект.
 
 ## Описание
@@ -42,6 +47,7 @@ object.GetDetectors( objectId: ObjectId ): table
 ## Примеры
 
 ### Проверка наличия детектора
+
 ```lua
 local detectors = object.GetDetectors( objectId )
 if detectors[ CLIENT_DETECTOR_QUEST_NPC ] then

@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о состоянии боевой цели режима Domination.
+---
+
 # dominationLib.GetObjectiveInfo
+
 Возвращает информацию о состоянии боевой цели режима Domination.
 
 ## Описание
@@ -21,20 +26,31 @@ dominationLib.GetObjectiveInfo( id: ObjectId ): table|nil
 - **`id`** (`ObjectId`) - Идентификатор цели.
 
 - **`firstTeam`** (`table` | `nil`) - Список идентификаторов (`ObjectId`) персонажей первой команды, находящихся вблизи данной цели. Индексация начинается с `0`.
+
 - **`secondTeam`** (`table` | `nil`) - Список идентификаторов (`ObjectId`) персонажей второй команды, находящихся вблизи данной цели. Индексация начинается с `0`.
+
 - **`disabled`** (`boolean`) - Состояние активности цели.
+
 - **`radius`** (`number`) - Радиус окрестности, в которой необходимо находиться для захвата цели.
+
 - **`owner`** (`number` (`ENUM_DominationFightTeam`)) - Доминирующая команда.
+
 - **`actualOwner`** (`number` (`ENUM_DominationFightTeam`)) - Команда, контролирующая данную цель.
+
 - **`state`** (`number` (`ENUM_DominationAreaState`)) - Текущее состояние цели.
+
 - **`progress`** (`number`) - Прогресс захвата цели.
+
 - **`progressToCapture`** (`number`) - Количество очков, необходимых для захвата цели.
+
 - **`timeSwitched`** (`number` (`int64`)) - Время последнего обновления данных.
+
 - **`timeToCapture`** (`number` (`int64`)) - Прогнозируемое время захвата в текущих условиях.
 
 ## Примеры
 
 ### Получение информации о первой доступной цели
+
 ```lua
 local objectives = dominationLib.GetObjectives()
 if objectives then

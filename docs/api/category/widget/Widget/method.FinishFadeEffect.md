@@ -1,3 +1,7 @@
+---
+description: Прерывает эффект типа `ET_FADE`.
+---
+
 # WidgetSafe:FinishFadeEffect
 
 Прерывает эффект типа `ET_FADE`.

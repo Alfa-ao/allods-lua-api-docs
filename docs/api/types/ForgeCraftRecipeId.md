@@ -1,3 +1,7 @@
+---
+description: Идентификатор рецепта forge крафта. Один из типов группы `ResourceId`.
+---
+
 # ForgeCraftRecipeId
 
 Идентификатор рецепта forge крафта. Один из типов группы `ResourceId`.

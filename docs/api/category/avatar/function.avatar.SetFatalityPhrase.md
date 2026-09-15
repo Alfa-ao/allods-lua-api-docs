@@ -1,4 +1,9 @@
+---
+description: Устанавливает фразу для добивания.
+---
+
 # avatar.SetFatalityPhrase
+
 Устанавливает фразу для добивания.
 
 ## Описание
@@ -25,6 +30,7 @@ avatar.SetFatalityPhrase( message: WString )
 ## Примеры
 
 ### Установка фразы из текстового поля
+
 ```lua
 avatar.SetFatalityPhrase( wEditLine:GetText() )
 ```

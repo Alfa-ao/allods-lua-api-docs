@@ -1,4 +1,9 @@
+---
+description: Возвращает причину невыполнения предиката для заданного предмета.
+---
+
 # itemLib.GetBlockingPredicateCause
+
 Возвращает причину невыполнения предиката для заданного предмета.
 
 ## Описание
@@ -28,6 +33,7 @@ itemLib.GetBlockingPredicateCause( itemId: ObjectId ): table|nil
 ## Примеры
 
 ### Получение и обработка причины невыполнения предиката
+
 ```lua
 local cause = itemLib.GetBlockingPredicateCause( itemId )
 if cause then

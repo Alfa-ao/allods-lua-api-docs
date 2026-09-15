@@ -1,4 +1,9 @@
+---
+description: Проверяет существование оплота гильдии.
+---
+
 # guildHallLib.IsExist
+
 Проверяет существование оплота гильдии.
 
 ## Описание
@@ -20,6 +25,7 @@ guildHallLib.IsExist(): boolean
 ## Примеры
 
 ### Проверка и создание оплота гильдии
+
 ```lua
 if not guildHallLib.IsExist() and guildHallLib.CanCreate().result == true then
     guildHallLib.Create( guildHallName )

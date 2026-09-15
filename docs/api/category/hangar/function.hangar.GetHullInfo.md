@@ -1,4 +1,9 @@
+---
+description: Извлекает информацию о корпусе корабля.
+---
+
 # hangar.GetHullInfo
+
 Извлекает информацию о корпусе корабля.
 
 ## Описание
@@ -28,6 +33,7 @@ hangar.GetHullInfo( hullId: VisualShipId ): table|nil
 ## Примеры
 
 ### Получение информации о первом доступном корпусе
+
 ```lua
 local hulls = hangar.GetAvailableHulls()
 if hulls and hulls[0] then

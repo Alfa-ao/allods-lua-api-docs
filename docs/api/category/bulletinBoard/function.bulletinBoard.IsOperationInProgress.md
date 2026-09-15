@@ -1,4 +1,9 @@
+---
+description: Определяет, выполняется ли в данный момент операция с доской объявлений.
+---
+
 # bulletinBoard.IsOperationInProgress
+
 Определяет, выполняется ли в данный момент операция с доской объявлений.
 
 ## Описание
@@ -24,6 +29,7 @@ bulletinBoard.IsOperationInProgress(): boolean
 ## Примеры
 
 ### Проверка статуса перед выполнением действия
+
 ```lua
 if bulletinBoard.IsOperationInProgress() then
     -- запретить редактирование и удаление объявлений

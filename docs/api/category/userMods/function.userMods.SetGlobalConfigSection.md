@@ -1,3 +1,7 @@
+---
+description: Сохраняет или удаляет таблицу с секцией global.
+---
+
 # userMods.SetGlobalConfigSection
 
 Сохраняет или удаляет таблицу с секцией global.

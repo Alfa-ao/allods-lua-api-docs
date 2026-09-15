@@ -1,4 +1,9 @@
+---
+description: Определяет наличие запрещенных слов в переданном тексте.
+---
+
 # common.IsTextFiltered
+
 Определяет наличие запрещенных слов в переданном тексте.
 
 ## Описание
@@ -21,6 +26,7 @@ common.IsTextFiltered( text: WString ): boolean
 ## Примеры
 
 ### Проверка текста на наличие запрещенных слов
+
 ```lua
 local text = userMods.ToWString( "Пример текста для проверки" )
 local isFiltered = common.IsTextFiltered( text )

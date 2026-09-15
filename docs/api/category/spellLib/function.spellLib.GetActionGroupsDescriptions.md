@@ -1,4 +1,9 @@
+---
+description: Возвращает список дополнительных описаний групп, к которым принадлежит заклинание.
+---
+
 # spellLib.GetActionGroupsDescriptions
+
 Возвращает список дополнительных описаний групп, к которым принадлежит заклинание.
 
 ## Описание
@@ -20,6 +25,7 @@ spellLib.GetActionGroupsDescriptions( id: SpellId ): table
 ## Примеры
 
 ### Получение описаний групп заклинания
+
 ```lua
 local spellbook = avatar.GetSpellBook()
 local spellGroupsDescs = spellbook[ 1 ] and spellLib.GetActionGroupsDescriptions( spellbook[ 1 ] )

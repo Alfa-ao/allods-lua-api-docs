@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о стоимости размещения платного сообщения.
+---
+
 # bulletinBoard.GetPostPriceInfo
+
 Возвращает информацию о стоимости размещения платного сообщения.
 
 ## Описание
@@ -18,6 +23,7 @@ bulletinBoard.GetPostPriceInfo(): table | nil
 Возвращает `table` или `nil`:
 - **`currencyId`** (`CurrencyId`)
 Идентификатор денежной единицы, используемой для оплаты размещения.
+
 - **`currencyValue`** (`number`)
 Стоимость размещения одного объявления в указанных единицах валюты.
 
@@ -26,6 +32,7 @@ bulletinBoard.GetPostPriceInfo(): table | nil
 ## Примеры
 
 ### Получение и вывод информации о валюте размещения объявления
+
 ```lua
 local postPriceInfo = bulletinBoard.GetPostPriceInfo()
 local currency = avatar.GetCurrencyInfo( postPriceInfo.currencyId )

@@ -1,3 +1,7 @@
+---
+description: Возвращает информацию о рецепте для forge крафта.
+---
+
 # craft.GetForgeRecipeInfo
 
 Возвращает информацию о рецепте для forge крафта.
@@ -25,9 +29,13 @@ craft.GetForgeRecipeInfo( recipeId: ForgeCraftRecipeId ): table | nil
 - **`description`** (`ValuedText` | `nil`) - Описание с подставленными текущими значениями параметров.
 
 - **`tierResource`** (`ForgeResourceId` | `nil`) - Идентификатор ресурса (тира) для этого forge-крафта, если доступен, иначе `nil`.
+
 - **`result`** (`ObjectId` | `nil`) - Итем, получаемый в результате форжа.
+
 - **`resources`** (`table`) - Индексированный с 1 список требуемых ресурсов в виде необходимых итемов.
+
 - **`available`** (`boolean`) - `true`, если рецепт доступен, иначе `false`.
+
 - **`requirements`** (`RequirementsTable` | `nil`) - Если `available == false`, то список условий необходимых для получения доступа к рецепту, иначе `nil`.
 
 - **`altCurrencies`** (`table`) - Индексированный с `1` список требуемой альтвалюты, каждая ячейка таблица с полями:

@@ -1,4 +1,9 @@
+---
+description: Запускает эффект масштабирования текста в TextView.
+---
+
 # TextViewSafe:PlayTextScaleEffect
+
 Запускает эффект масштабирования текста в TextView.
 
 ## Описание
@@ -31,6 +36,7 @@ TextViewSafe:PlayTextScaleEffect( start: number | nil, finish: number | nil, tim
 ## Примеры
 
 ### Запуск эффекта масштабирования
+
 ```lua
 wtTextView:PlayTextScaleEffect( 0.5, 2.0, 1000, EA_SYMMETRIC_FLASH )
 ```

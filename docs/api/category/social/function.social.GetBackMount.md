@@ -1,4 +1,9 @@
+---
+description: Забирает ездовое животное главного игрока у побратима.
+---
+
 # social.GetBackMount
+
 Забирает ездовое животное главного игрока у побратима.
 
 ## Описание
@@ -20,6 +25,7 @@ social.GetBackMount( mountId: ObjectId )
 ## Примеры
 
 ### Возврат ездового животного от побратима
+
 ```lua
 social.GetBackMount( mountId )
 ```

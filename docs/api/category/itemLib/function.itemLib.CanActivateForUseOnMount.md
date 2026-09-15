@@ -1,4 +1,9 @@
+---
+description: Проверяет возможность активации предмета для применения на маунте.
+---
+
 # itemLib.CanActivateForUseOnMount
+
 Проверяет возможность активации предмета для применения на маунте.
 
 ## Описание
@@ -20,6 +25,7 @@ itemLib.CanActivateForUseOnMount( itemId: ObjectId ): boolean|nil
 ## Примеры
 
 ### Проверка возможности активации предмета
+
 ```lua
 local canActivate = false
 if itemLib.IsUseOnMountAndTakeActions( itemId ) then

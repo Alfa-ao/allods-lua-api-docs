@@ -1,3 +1,7 @@
+---
+description: Перемещает предмет.
+---
+
 # containerLib.MoveItem
 
 Перемещает предмет.

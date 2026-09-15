@@ -1,4 +1,9 @@
+---
+description: Помечает талант из базовой таблицы талантов для последующего изучения.
+---
+
 # avatar.StoreBaseTalent
+
 Помечает талант из базовой таблицы талантов для последующего изучения.
 
 ## Описание
@@ -13,6 +18,7 @@ avatar.StoreBaseTalent( layer: number, line: number )
 
 - **`layer`** (`number`)
 Номер строки в базовой таблице талантов.
+
 - **`line`** (`number`)
 Номер столбца в базовой таблице талантов.
 
@@ -23,6 +29,7 @@ avatar.StoreBaseTalent( layer: number, line: number )
 ## Примеры
 
 ### Пометка и применение таланта
+
 ```lua
 local layer = 1
 local line = 2

@@ -1,4 +1,9 @@
+---
+description: Возвращает идентификатор скина маунта, который предоставляет предмет при использовании.
+---
+
 # itemLib.GetIncludedMountSkin
+
 Возвращает идентификатор скина маунта, который предоставляет предмет при использовании.
 
 ## Описание
@@ -20,6 +25,7 @@ itemLib.GetIncludedMountSkin( itemId: ObjectId ): ObjectId | nil
 ## Примеры
 
 ### Получение идентификатора скина маунта
+
 ```lua
 local mountSkinId = itemLib.GetIncludedMountSkin( itemId )
 ```

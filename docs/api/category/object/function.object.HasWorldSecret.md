@@ -1,4 +1,9 @@
+---
+description: Определяет возможность завершения тайны мира интерактивным объектом.
+---
+
 # object.HasWorldSecret
+
 Определяет возможность завершения тайны мира интерактивным объектом.
 
 ## Описание
@@ -20,6 +25,7 @@ object.HasWorldSecret( id: ObjectId ): boolean
 ## Примеры
 
 ### Проверка возможности завершения тайны мира
+
 ```lua
 local canFinishWorldSecret = object.HasWorldSecret( avatar.GetTarget() )
 ```

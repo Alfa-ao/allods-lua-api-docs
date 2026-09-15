@@ -1,4 +1,9 @@
+---
+description: Очищает все подставленные значения в ValuedText-е кнопки.
+---
+
 # ButtonSafe:ClearValues
+
 Очищает все подставленные значения в ValuedText-е кнопки.
 
 ## Описание
@@ -20,6 +25,7 @@ ButtonSafe:ClearValues()
 ## Примеры
 
 ### Очистка значений текстового поля кнопки
+
 ```lua
 wtButton:ClearValues()
 ```

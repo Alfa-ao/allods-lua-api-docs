@@ -1,4 +1,9 @@
+---
+description: Возвращает идентификатор рула (ивента) для прокачанного оружия.
+---
+
 # poweredLSWeaponsLib.GetEvent
+
 Возвращает идентификатор рула (ивента) для прокачанного оружия.
 
 ## Описание
@@ -20,6 +25,7 @@ poweredLSWeaponsLib.GetEvent(): RuleId | nil
 ## Примеры
 
 ### Получение идентификатора рула
+
 ```lua
 local ruleId = poweredLSWeaponsLib.GetEvent()
 ```

@@ -1,4 +1,9 @@
+---
+description: Возвращает текущий курс покупки кристаллов в сервисе обмена валют.
+---
+
 # currencyExchange.CalcBuyRate
+
 Возвращает текущий курс покупки кристаллов в сервисе обмена валют.
 
 ## Описание
@@ -20,6 +25,7 @@ currencyExchange.CalcBuyRate(): number
 ## Примеры
 
 ### Проверка и получение курса
+
 ```lua
 if currencyExchange.IsServiceActive() then
     local buyRate = currencyExchange.CalcBuyRate()

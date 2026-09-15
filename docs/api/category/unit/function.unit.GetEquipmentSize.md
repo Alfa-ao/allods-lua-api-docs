@@ -1,4 +1,9 @@
+---
+description: Возвращает количество слотов под экипировку у данного юнита.
+---
+
 # unit.GetEquipmentSize
+
 Возвращает количество слотов под экипировку у данного юнита.
 
 ## Описание
@@ -20,6 +25,7 @@ unit.GetEquipmentSize( unitId: ObjectId ): number
 ## Примеры
 
 ### Получение количества слотов экипировки
+
 ```lua
 local size = unit.GetEquipmentSize( unitId )
 ```

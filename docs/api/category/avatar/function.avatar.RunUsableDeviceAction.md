@@ -1,4 +1,9 @@
+---
+description: Инициирует выполнение действия используемого устройства.
+---
+
 # avatar.RunUsableDeviceAction
+
 Инициирует выполнение действия используемого устройства.
 
 ## Описание
@@ -25,6 +30,7 @@ avatar.RunUsableDeviceAction( index: number )
 ## Примеры
 
 ### Инициация действия устройства по индексу
+
 ```lua
 local actionIndex = 0
 avatar.RunUsableDeviceAction( actionIndex )

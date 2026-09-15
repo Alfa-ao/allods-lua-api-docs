@@ -1,4 +1,9 @@
+---
+description: Отправляет голоса за бонусы.
+---
+
 # order.SendBonusVotes
+
 Отправляет голоса за бонусы.
 
 ## Описание
@@ -22,6 +27,7 @@ order.SendBonusVotes( bonusIds: table )
 ## Примеры
 
 ### Отправка голосов за бонусы
+
 ```lua
 local bonusIds = { 1, 2, 3 }
 order.SendBonusVotes( bonusIds )

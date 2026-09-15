@@ -1,4 +1,9 @@
+---
+description: Проверяет наличие активных транзакций, связанных с указанным слотом контейнера.
+---
+
 # containerLib.IsItemSlotEnabled
+
 Проверяет наличие активных транзакций, связанных с указанным слотом контейнера.
 
 ## Описание
@@ -21,6 +26,7 @@ containerLib.IsItemSlotEnabled( slotType: number, slot: number ): boolean
 ## Примеры
 
 ### Проверка доступности слота инвентаря
+
 ```lua
 local actionsAvailable = containerLib.IsItemSlotEnabled( ITEM_CONT_INVENTORY, 12 )
 ```

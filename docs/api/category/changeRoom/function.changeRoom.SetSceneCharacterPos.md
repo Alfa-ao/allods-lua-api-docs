@@ -1,5 +1,11 @@
+---
+description: Задает позицию выбранного персонажа в сцене относительно центральной точки.
+---
+
 # changeRoom.SetSceneCharacterPos
+
 Задает позицию выбранного персонажа в сцене относительно центральной точки.
+
 ## Описание
 
 ```lua
@@ -12,6 +18,7 @@ changeRoom.SetSceneCharacterPos( characterId: ObjectId, pos: table )
 
 - **`characterId`** (`ObjectId`)
 Идентификатор персонажа в сцене.
+
 - **`pos`** (`table`)
 Таблица с относительной позицией персонажа.
 - `posX` (`number`) - смещение в сцене по X.
@@ -25,6 +32,7 @@ changeRoom.SetSceneCharacterPos( characterId: ObjectId, pos: table )
 ## Примеры
 
 ### Установка позиции питомца в сцене
+
 ```lua
 changeRoom.SetSceneCharacterPos( petId, { posX = 1.0, posY = 2.0, posZ = 0.0 } )
 ```

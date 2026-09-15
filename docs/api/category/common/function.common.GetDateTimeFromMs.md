@@ -1,4 +1,9 @@
+---
+description: Возвращает дату и время в формате `LuaFullDateTime`, преобразуя Unix time из количества миллисекунд.
+---
+
 # common.GetDateTimeFromMs
+
 Возвращает дату и время в формате `LuaFullDateTime`, преобразуя Unix time из количества миллисекунд.
 
 ## Описание
@@ -21,6 +26,7 @@ Unix time, представляющий собой количество милл
 ## Примеры
 
 ### Получение и вывод даты из миллисекунд
+
 ```lua
 local date = common.GetDateTimeFromMs( 123456789012345 )
 if date then

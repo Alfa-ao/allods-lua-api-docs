@@ -1,4 +1,9 @@
+---
+description: Приглашает игрока к торговле (обмену вещами).
+---
+
 # interaction.InviteToExchange
+
 Приглашает игрока к торговле (обмену вещами).
 
 ## Описание
@@ -20,6 +25,7 @@ interaction.InviteToExchange( invitedName: WString )
 ## Примеры
 
 ### Приглашение цели к обмену
+
 ```lua
 interaction.InviteToExchange( object.GetName( avatar.GetTarget() ) )
 ```

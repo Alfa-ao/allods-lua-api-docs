@@ -1,4 +1,9 @@
+---
+description: Проверяет, включен ли звук в клиенте игры.
+---
+
 # common.IsSoundEnabled
+
 Проверяет, включен ли звук в клиенте игры.
 
 ## Описание
@@ -24,6 +29,7 @@ common.IsSoundEnabled(): boolean
 ## Примеры
 
 ### Инициализация звуковых функций в зависимости от состояния
+
 ```lua
 local isSoundEnabled = common.IsSoundEnabled()
 if isSoundEnabled then

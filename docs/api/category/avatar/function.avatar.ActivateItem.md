@@ -1,4 +1,9 @@
+---
+description: Активирует неактивированный предмет с использованием специального инструмента-активатора.
+---
+
 # avatar.ActivateItem
+
 Активирует неактивированный предмет с использованием специального инструмента-активатора.
 
 ## Описание
@@ -30,6 +35,7 @@ avatar.ActivateItem( itemId: ObjectId, instrumentId: ObjectId )
 ## Примеры
 
 ### Активация предмета с предварительной проверкой
+
 ```lua
 if avatar.CanActivateItem( itemId, instrumentId ) then
     avatar.ActivateItem( itemId, instrumentId )

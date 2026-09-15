@@ -1,3 +1,7 @@
+---
+description: Возвращает уникальные идентификаторы помощников лидера рейда.
+---
+
 # raid.GetLeaderHelpers
 
 Возвращает уникальные идентификаторы помощников лидера рейда.
@@ -23,6 +27,7 @@ raid.GetLeaderHelpers(): table | nil
 ## Примеры
 
 ### Получение списка помощников
+
 ```lua
 local leaderHelpers = raid.GetLeaderHelpers()
 ```

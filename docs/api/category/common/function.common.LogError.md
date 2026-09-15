@@ -1,4 +1,9 @@
+---
+description: Выводит список строк в консоль или чат с уровнем ошибки и заданным фильтром.
+---
+
 # common.LogError
+
 Выводит список строк в консоль или чат с уровнем ошибки и заданным фильтром.
 
 ## Описание
@@ -13,8 +18,10 @@ common.LogError( filter: string, text01: string|WString, ...: string|WString )
 
 - **`filter`** (`string`)
 Фильтр логирования. Если фильтр не включен соответствующими командами, сообщение игнорируется.
+
 - **`text01`** (`string` | `WString`)
 Первый обязательный текстовый аргумент.
+
 - **`...`** (`string` | `WString`)
 Список необязательных текстовых аргументов, которые объединяются с первым аргументом.
 
@@ -25,11 +32,13 @@ common.LogError( filter: string, text01: string|WString, ...: string|WString )
 ## Примеры
 
 ### Вывод сообщения с использованием обычной строки
+
 ```lua
 common.LogError( "my_filter", "Total Crash! (script/data, not code)" )
 ```
 
 ### Вывод сообщения с использованием локализованной строки
+
 ```lua
 common.LogError( "my_filter", "Total Crash! ", userMods.ToWString( "(script/data, not code)" ) )
 ```

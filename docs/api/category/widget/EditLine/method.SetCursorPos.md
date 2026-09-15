@@ -1,3 +1,7 @@
+---
+description: Задает позицию курсора для EditLine.
+---
+
 # EditLineSafe:SetCursorPos
 
 Задает позицию курсора для EditLine.

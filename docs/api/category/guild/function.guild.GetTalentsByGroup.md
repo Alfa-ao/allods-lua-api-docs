@@ -1,4 +1,9 @@
+---
+description: Возвращает координаты всех талантов заданной группы.
+---
+
 # guild.GetTalentsByGroup
+
 Возвращает координаты всех талантов заданной группы.
 
 ## Описание
@@ -19,7 +24,9 @@ guild.GetTalentsByGroup( groupName: string ): table | nil
 Возвращает `table` или `nil`.
 Если группа найдена, возвращается таблица, содержащая следующие поля для каждого таланта:
 - **`field`** (`number`) - поле, на котором расположен талант.
+
 - **`row`** (`number`) - строка, в которой расположен талант.
+
 - **`column`** (`number`) - столбец, в котором расположен талант.
 
 В случае ошибки возвращается `nil`.
@@ -27,6 +34,7 @@ guild.GetTalentsByGroup( groupName: string ): table | nil
 ## Примеры
 
 ### Получение информации о талантах группы
+
 ```lua
 local groupName = "Основная"
 local info = guild.GetTalentsByGroup( groupName )

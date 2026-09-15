@@ -1,4 +1,9 @@
+---
+description: Возвращает список дополнительных строк описания предмета.
+---
+
 # itemLib.GetExtraDescs
+
 Возвращает список дополнительных строк описания предмета.
 
 ## Описание
@@ -19,6 +24,7 @@ itemLib.GetExtraDescs( itemId: ObjectId ): table
 ## Примеры
 
 ### Перебор дополнительных описаний
+
 ```lua
 local extraDescs = itemLib.GetExtraDescs( itemId )
 for i = 0, GetTableSize( extraDescs ) - 1 do

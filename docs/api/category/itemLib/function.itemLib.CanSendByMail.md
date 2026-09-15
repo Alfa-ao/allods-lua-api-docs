@@ -1,4 +1,9 @@
+---
+description: Проверяет возможность передачи предмета по внутриигровой почте.
+---
+
 # itemLib.CanSendByMail
+
 Проверяет возможность передачи предмета по внутриигровой почте.
 
 ## Описание
@@ -20,6 +25,7 @@ itemLib.CanSendByMail( itemId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка возможности отправки предмета
+
 ```lua
 local canSendByMail = itemLib.CanSendByMail( itemId )
 if canSendByMail then

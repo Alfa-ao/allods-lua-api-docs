@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о цене текущего устройства в заданном слоте.
+---
+
 # hangar.GetCustomizationCost
+
 Возвращает информацию о цене текущего устройства в заданном слоте.
 
 ## Описание
@@ -20,6 +25,7 @@ hangar.GetCustomizationCost( slotId: ObjectId ): number
 ## Примеры
 
 ### Получение стоимости кастомизации для всех слотов
+
 ```lua
 local slots = hangar.GetCustomizationSlots()
 if slots then

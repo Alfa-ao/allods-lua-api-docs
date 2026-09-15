@@ -1,4 +1,9 @@
+---
+description: Возвращает группу связанных с аддоном шаблонов виджетов.
+---
+
 # common.GetAddonRelatedWidgetGroup
+
 Возвращает группу связанных с аддоном шаблонов виджетов.
 
 ## Описание
@@ -13,6 +18,7 @@ common.GetAddonRelatedWidgetGroup( sysGroup: string, optional: boolean|nil ): Re
 
 - **`sysGroup`** (`string`)
 Идентификатор искомой группы шаблонов виджетов.
+
 - **`optional`** (`boolean` | `nil`)
 Флаг, определяющий поведение при отсутствии группы. Если передано значение `true`, отсутствие искомой группы не считается ошибкой. По умолчанию `false`.
 
@@ -23,6 +29,7 @@ common.GetAddonRelatedWidgetGroup( sysGroup: string, optional: boolean|nil ): Re
 ## Примеры
 
 ### Получение и использование группы шаблонов виджетов
+
 ```lua
 local GetWidgetDesc
 --------------------------------------------------------------------------------

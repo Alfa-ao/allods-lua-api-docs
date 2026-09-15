@@ -1,4 +1,9 @@
+---
+description: Возвращает список умений, которые главный игрок может расшарить для использования своим альтом (реморт).
+---
+
 # remort.GetAbilitiesForSharing
+
 Возвращает список умений, которые главный игрок может расшарить для использования своим альтом (реморт).
 
 ## Описание
@@ -26,6 +31,7 @@ remort.GetAbilitiesForSharing(): table
 ## Примеры
 
 ### Получение списка умений для расшаривания
+
 ```lua
 local abilities = remort.GetAbilitiesForSharing()
 for i, entry in ipairs( abilities ) do

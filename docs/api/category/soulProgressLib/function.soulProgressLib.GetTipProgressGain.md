@@ -1,4 +1,9 @@
+---
+description: Возвращает подсказку по прокачке души с указанием активностей и награды.
+---
+
 # soulProgressLib.GetTipProgressGain
+
 Возвращает подсказку по прокачке души с указанием активностей и награды.
 
 ## Описание
@@ -20,6 +25,7 @@ soulProgressLib.GetTipProgressGain(): ValuedText | nil
 ## Примеры
 
 ### Получение подсказки по прокачке
+
 ```lua
 local tip = soulProgressLib.GetTipProgressGain()
 ```

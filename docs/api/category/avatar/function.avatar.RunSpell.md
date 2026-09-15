@@ -1,4 +1,9 @@
+---
+description: Начинает сотворение заклинания на цель по умолчанию.
+---
+
 # avatar.RunSpell
+
 Начинает сотворение заклинания на цель по умолчанию.
 
 ## Описание
@@ -27,6 +32,7 @@ avatar.RunSpell( spellId: SpellId )
 ## Примеры
 
 ### Сотворение первого заклинания из книги
+
 ```lua
 local spellbook = avatar.GetSpellBook()
 avatar.RunSpell( spellbook[1] )

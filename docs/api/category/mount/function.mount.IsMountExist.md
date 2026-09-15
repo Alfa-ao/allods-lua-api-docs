@@ -1,4 +1,9 @@
+---
+description: Проверяет наличие указанного ездового животного в конюшне главного игрока.
+---
+
 # mount.IsMountExist
+
 Проверяет наличие указанного ездового животного в конюшне главного игрока.
 
 ## Описание
@@ -21,6 +26,7 @@ mount.IsMountExist( mountId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка наличия маунта и получение информации
+
 ```lua
 if mount.IsMountExist( mountId ) then
     local mountInfo = mount.GetInfo( mountId )

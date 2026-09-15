@@ -1,3 +1,7 @@
+---
+description: Назначает VisObject-ы для AEMark типа AEMarkSector.
+---
+
 # mission.SetAESectorVisObj
 
 Назначает VisObject-ы для AEMark типа AEMarkSector.

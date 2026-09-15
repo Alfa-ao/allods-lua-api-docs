@@ -1,3 +1,7 @@
+---
+description: Прерывает эффекты всех типов [ET_*](/api/constants/constants.ET.md).
+---
+
 # WidgetSafe:FinishAllEffects
 
 Прерывает эффекты всех типов [ET_*](/api/constants/constants.ET.md).

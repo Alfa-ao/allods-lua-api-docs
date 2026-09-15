@@ -1,3 +1,7 @@
+---
+description: Скрывает или отображает полосу прокрутки виджета EditBox.
+---
+
 # EditBoxSafe:ShowScrollbar
 
 Скрывает или отображает полосу прокрутки виджета EditBox.

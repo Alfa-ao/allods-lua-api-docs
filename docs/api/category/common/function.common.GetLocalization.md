@@ -1,4 +1,9 @@
+---
+description: Возвращает строковый идентификатор текущей языковой локализации.
+---
+
 # common.GetLocalization
+
 Возвращает строковый идентификатор текущей языковой локализации.
 
 ## Описание
@@ -20,6 +25,7 @@ common.GetLocalization(): string
 ## Примеры
 
 ### Получение текущей локализации
+
 ```lua
 local currentLocale = common.GetLocalization()
 LogInfo( "Текущая локализация: ", currentLocale )

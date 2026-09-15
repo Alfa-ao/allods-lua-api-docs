@@ -1,3 +1,7 @@
+---
+description: Возвращает полную таблицу WidgetPlacement.
+---
+
 # WidgetSafe:GetPlacementPlain
 
 Возвращает полную таблицу WidgetPlacement.

@@ -1,4 +1,9 @@
+---
+description: Проверяет возможность применения предмета на маунте.
+---
+
 # itemLib.CanUseOnMount
+
 Проверяет возможность применения предмета на маунте.
 
 ## Описание
@@ -22,6 +27,7 @@ itemLib.CanUseOnMount( itemId: ObjectId, mountId: ObjectId ): boolean | nil
 ## Примеры
 
 ### Проверка возможности применения предмета на маунте
+
 ```lua
 if itemLib.CanUseOnMount( itemId, mountId ) then
     avatar.UseOnMountAndTakeActions( itemId, mountId )

@@ -1,4 +1,9 @@
+---
+description: Возвращает клиентскую дату и время в формате LuaFullDateTime.
+---
+
 # common.GetLocalDateTime
+
 Возвращает клиентскую дату и время в формате LuaFullDateTime.
 
 ## Описание
@@ -20,6 +25,7 @@ common.GetLocalDateTime(): table
 ## Примеры
 
 ### Получение и вывод текущей клиентской даты
+
 ```lua
 local date = common.GetLocalDateTime()
 LogInfo( "date: ", date.d, ".", date.m, ".", date.y )

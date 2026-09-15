@@ -1,4 +1,9 @@
+---
+description: Возвращает список активных достижений.
+---
+
 # medalsLib.GetMedals
+
 Возвращает список активных достижений.
 
 ## Описание
@@ -22,6 +27,7 @@ medalsLib.GetMedals(): table|nil
 ## Примеры
 
 ### Получение информации о достижении
+
 ```lua
 local medals = medalsLib.GetMedals()
 if medals then

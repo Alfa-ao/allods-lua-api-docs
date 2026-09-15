@@ -1,4 +1,9 @@
+---
+description: Удаляет назначенную горячую клавишу из пользовательских настроек управления.
+---
+
 # binding.RemoveBind
+
 Удаляет назначенную горячую клавишу из пользовательских настроек управления.
 
 ## Описание
@@ -13,8 +18,10 @@ binding.RemoveBind( sysSectionName: string, sysBindName: string, index: number )
 
 - **`sysSectionName`** (`string`)
 Идентификатор секции настроек.
+
 - **`sysBindName`** (`string`)
 Идентификатор бинда (реакции).
+
 - **`index`** (`number`)
 Индекс горячей клавиши для данного бинда.
 
@@ -25,6 +32,7 @@ binding.RemoveBind( sysSectionName: string, sysBindName: string, index: number )
 ## Примеры
 
 ### Удаление первой привязанной клавиши
+
 ```lua
 binding.RemoveBind( sysSectionName, sysBindName, 0 )
 ```

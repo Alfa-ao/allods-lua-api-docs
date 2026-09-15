@@ -1,4 +1,9 @@
+---
+description: Возвращает цель устройства-навигатора корабля главного игрока.
+---
+
 # device.NavigatorGetTarget
+
 Возвращает цель устройства-навигатора корабля главного игрока.
 
 ## Описание
@@ -20,6 +25,7 @@ device.NavigatorGetTarget(): ObjectId | nil
 ## Примеры
 
 ### Получение цели навигатора
+
 ```lua
 local targetId = device.NavigatorGetTarget()
 ```

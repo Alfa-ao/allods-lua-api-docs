@@ -1,3 +1,7 @@
+---
+description: Создает холл гильдии.
+---
+
 # guild.CreateGuildHall
 
 Создает холл гильдии.

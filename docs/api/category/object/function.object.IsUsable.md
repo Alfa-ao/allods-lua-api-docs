@@ -1,4 +1,9 @@
+---
+description: Определяет возможность принципиального использования объекта.
+---
+
 # object.IsUsable
+
 Определяет возможность принципиального использования объекта.
 
 ## Описание
@@ -20,6 +25,7 @@ object.IsUsable( objectId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка возможности использования объекта
+
 ```lua
 local isUsable = object.IsUsable( objectId )
 ```

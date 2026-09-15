@@ -1,3 +1,7 @@
+---
+description: Показывает или скрывает маркер зоны типа AEMarkSector.
+---
+
 # mission.ShowAESector
 
 Показывает или скрывает маркер зоны типа AEMarkSector.

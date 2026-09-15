@@ -1,3 +1,7 @@
+---
+description: Возвращает таблицу с секцией аватара.
+---
+
 # userMods.GetAvatarConfigSection
 
 Возвращает таблицу с секцией аватара.

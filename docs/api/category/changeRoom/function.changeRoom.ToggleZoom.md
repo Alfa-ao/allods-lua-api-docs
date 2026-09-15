@@ -1,4 +1,9 @@
+---
+description: Переключает состояние приближения камеры к лицу персонажа в экранах выбора или создания персонажа.
+---
+
 # changeRoom.ToggleZoom
+
 Переключает состояние приближения камеры к лицу персонажа в экранах выбора или создания персонажа.
 
 ## Описание
@@ -20,6 +25,7 @@ changeRoom.ToggleZoom()
 ## Примеры
 
 ### Безопасное переключение масштаба камеры
+
 ```lua
 if changeRoom.IsZoomEnabled() and not changeRoom.IsZoomOnFace() then
     changeRoom.ToggleZoom()

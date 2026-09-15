@@ -1,3 +1,7 @@
+---
+description: Возвращает информацию об AEMark типа AEMarkSector у спелла.
+---
+
 # spellLib.GetAESectorProps
 
 Возвращает информацию об AEMark типа AEMarkSector у спелла.

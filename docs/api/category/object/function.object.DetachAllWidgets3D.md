@@ -20,6 +20,7 @@ object.DetachAllWidgets3D( objectId: ObjectId )
 ## Примеры
 
 ### Отвязка всех Widget3D от объекта
+
 ```lua
 object.DetachAllWidgets3D( objectId )
 ```

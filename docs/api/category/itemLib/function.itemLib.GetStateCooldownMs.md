@@ -1,4 +1,9 @@
+---
+description: Возвращает длительность специального суточного кулдауна на использование предмета.
+---
+
 # itemLib.GetStateCooldownMs
+
 Возвращает длительность специального суточного кулдауна на использование предмета.
 
 ## Описание
@@ -19,6 +24,7 @@ itemLib.GetStateCooldownMs( itemId: ObjectId ): number | nil
 ## Примеры
 
 ### Получение оставшегося времени кулдауна
+
 ```lua
 local remainingMs = itemLib.GetStateCooldownMs( itemId )
 if remainingMs then

@@ -1,3 +1,7 @@
+---
+description: Возвращает информацию о расе и классе по их индексам.
+---
+
 # remortCreation.GetAvatarTemplatesRaceClassInfo
 
 Возвращает информацию о расе и классе по их индексам.

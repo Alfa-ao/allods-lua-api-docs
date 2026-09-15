@@ -1,4 +1,9 @@
+---
+description: Рассчитывает количество опыта, затрачиваемого на сброс талантов.
+---
+
 # soulProgressLib.GetRerollPrice
+
 Рассчитывает количество опыта, затрачиваемого на сброс талантов.
 
 ## Описание
@@ -20,6 +25,7 @@ soulProgressLib.GetRerollPrice(): number
 ## Примеры
 
 ### Получение стоимости сброса талантов
+
 ```lua
 local value = soulProgressLib.GetRerollPrice()
 ```

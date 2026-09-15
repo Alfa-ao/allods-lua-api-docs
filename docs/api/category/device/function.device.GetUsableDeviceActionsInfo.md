@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию обо всех действиях устройства.
+---
+
 # device.GetUsableDeviceActionsInfo
+
 Возвращает информацию обо всех действиях устройства.
 
 ## Описание
@@ -23,6 +28,7 @@ device.GetUsableDeviceActionsInfo( usableDeviceId: ObjectId ): table|nil
 ## Примеры
 
 ### Получение списка действий устройства
+
 ```lua
 local info = device.GetUsableDeviceInfo( usableDeviceId )
 

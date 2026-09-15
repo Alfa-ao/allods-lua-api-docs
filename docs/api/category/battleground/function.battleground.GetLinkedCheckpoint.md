@@ -1,4 +1,9 @@
+---
+description: Возвращает связанную контрольную точку баттлграунда для указанного идентификатора.
+---
+
 # battleground.GetLinkedCheckpoint
+
 Возвращает связанную контрольную точку баттлграунда для указанного идентификатора.
 
 ## Описание
@@ -21,6 +26,7 @@ battleground.GetLinkedCheckpoint( checkpointId: ObjectId ): ObjectId | nil
 ## Примеры
 
 ### Получение связанной контрольной точки
+
 ```lua
 local linkedPointId = battleground.GetLinkedCheckpoint( checkpointId )
 ```

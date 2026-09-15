@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о поле талантов гильдии.
+---
+
 # guild.GetFieldInfo
+
 Возвращает информацию о поле талантов гильдии.
 
 ## Описание
@@ -18,9 +23,13 @@ guild.GetFieldInfo( field: number ): table | nil
 Возвращает `table` или `nil`.
 Если информация о поле успешно получена, возвращается таблица со следующими полями:
 - **`name`** (`WString`) - локализованное название поля.
+
 - **`image`** (`UISingleTexture` | `nil`) - иконка поля.
+
 - **`description`** (`WString` | `nil`) - локализованное описание поля.
+
 - **`startRow`** (`number`) - стартовый ряд поля.
+
 - **`startColumn`** (`number`) - стартовая колонка поля.
 
 Возвращает `nil`, если информация о поле отсутствует.
@@ -28,6 +37,7 @@ guild.GetFieldInfo( field: number ): table | nil
 ## Примеры
 
 ### Получение информации о поле талантов
+
 ```lua
 local fieldIndex = 1
 local fieldInfo = guild.GetFieldInfo( fieldIndex )

@@ -1,4 +1,9 @@
+---
+description: Проверяет, находится ли аватар в инстанс-ивенте, в который он попал через механизм матчмейкинга.
+---
+
 # matchMaking.IsAvatarInMatchMakingEvent
+
 Проверяет, находится ли аватар в инстанс-ивенте, в который он попал через механизм матчмейкинга.
 
 ## Описание
@@ -20,6 +25,7 @@ matchMaking.IsAvatarInMatchMakingEvent(): boolean
 ## Примеры
 
 ### Проверка нахождения в инстанс-ивенте
+
 ```lua
 if matchMaking.IsAvatarInMatchMakingEvent() then
     LogInfo( "It is mm event" )

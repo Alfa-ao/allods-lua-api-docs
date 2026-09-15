@@ -1,3 +1,7 @@
+---
+description: Возвращает информацию о доступных разделах доски объявлений.
+---
+
 # bulletinBoard.GetSectionInfos
 
 Возвращает информацию о доступных разделах доски объявлений.
@@ -31,6 +35,7 @@ bulletinBoard.GetSectionInfos(): table
 ## Примеры
 
 ### Получение и перебор списка доступных разделов
+
 ```lua
 local sectionInfos = bulletinBoard.GetSectionInfos()
 for i = 0, GetTableSize( sectionInfos ) - 1 do

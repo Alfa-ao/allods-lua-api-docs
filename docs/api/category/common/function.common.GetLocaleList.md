@@ -1,4 +1,9 @@
+---
+description: Возвращает список доступных для выбора локалей (раскладок клавиатуры).
+---
+
 # common.GetLocaleList
+
 Возвращает список доступных для выбора локалей (раскладок клавиатуры).
 
 ## Описание
@@ -21,6 +26,7 @@ common.GetLocaleList(): table | nil
 ## Примеры
 
 ### Получение и вывод первой доступной локали
+
 ```lua
 local localeList = common.GetLocaleList()
 if localeList and localeList[1] then

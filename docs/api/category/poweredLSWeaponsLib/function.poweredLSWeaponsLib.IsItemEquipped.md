@@ -1,4 +1,9 @@
+---
+description: Определяет факт экипировки указанного или аналогичного предмета на персонажа.
+---
+
 # poweredLSWeaponsLib.IsItemEquipped
+
 Определяет факт экипировки указанного или аналогичного предмета на персонажа.
 
 ## Описание
@@ -20,6 +25,7 @@ poweredLSWeaponsLib.IsItemEquipped( itemId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка наличия предмета в экипировке
+
 ```lua
 local isItemEquipped = poweredLSWeaponsLib.IsItemEquipped( itemId )
 ```

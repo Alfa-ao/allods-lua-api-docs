@@ -1,3 +1,7 @@
+---
+description: Меняет местами пару элементов контейнера.
+---
+
 # ScrollableContainerSafe:SwapElements
 
 Меняет местами пару элементов контейнера.

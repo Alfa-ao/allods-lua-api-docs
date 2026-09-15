@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о взаимодействиях с объектом, доступных главному игроку.
+---
+
 # object.GetInteractorInfo
+
 Возвращает информацию о взаимодействиях с объектом, доступных главному игроку.
 
 ## Описание
@@ -82,6 +87,7 @@ object.GetInteractorInfo( objectId: ObjectId ): table | nil
 ## Примеры
 
 ### Получение информации о взаимодействии с целью
+
 ```lua
 local info = object.GetInteractorInfo( avatar.GetTarget() )
 if info then

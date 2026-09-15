@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о сценарии.
+---
+
 # proceduralDungeonLib.GetScenarioInfo
+
 Возвращает информацию о сценарии.
 
 ## Описание
@@ -30,6 +35,7 @@ proceduralDungeonLib.GetScenarioInfo( scenarioId: ObjectId ): table | nil
 ## Примеры
 
 ### Получение информации о сценарии
+
 ```lua
 local scenarioInfo = proceduralDungeonLib.GetScenarioInfo( scenarioId )
 ```

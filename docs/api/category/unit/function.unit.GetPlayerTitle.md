@@ -1,4 +1,9 @@
+---
+description: Возвращает все возможные титулы игрока.
+---
+
 # unit.GetPlayerTitles
+
 Возвращает все возможные титулы игрока.
 
 ## Описание
@@ -26,6 +31,7 @@ unit.GetPlayerTitles( unitId: ObjectId ): table | nil
 ## Примеры
 
 ### Получение и вывод титулов игрока
+
 ```lua
 local titles = unit.GetPlayerTitles( unitId )
 if titles then

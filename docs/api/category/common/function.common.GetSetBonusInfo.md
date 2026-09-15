@@ -1,4 +1,9 @@
+---
+description: Извлекает и возвращает базовую информацию о бонусе комплектной экипировки.
+---
+
 # common.GetSetBonusInfo
+
 Извлекает и возвращает базовую информацию о бонусе комплектной экипировки.
 
 ## Описание
@@ -19,13 +24,17 @@ common.GetSetBonusInfo( setBonusId: SetBonusId ): table | nil
 Возвращает `table` или `nil`.
 Если бонус найден, возвращается таблица со следующими полями:
 - **`name`** (`WString`) - название сетового бонуса.
+
 - **`description`** (`ValuedText`) - основное описание сетового бонуса.
+
 - **`loreDescription`** (`WString`) - художественное описание сетового бонуса.
+
 - **`sourceDescription`** (`GlossaryId`) - идентификатор ресурса для описания источника получения бонуса.
 
 ## Примеры
 
 ### Получение и вывод информации о сетовом бонусе
+
 ```lua
 local setBonusInfo = common.GetSetBonusInfo( setBonusId )
 if setBonusInfo then

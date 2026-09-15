@@ -1,4 +1,9 @@
+---
+description: Возвращает возможность и условия изучения таланта гильдии.
+---
+
 # guild.CanLearnTalent
+
 Возвращает возможность и условия изучения таланта гильдии.
 
 ## Описание
@@ -17,10 +22,13 @@ guild.CanLearnTalent( field: number, row: number, column: number, talentType: ?n
 
 - **`field`** (`number`)
 Номер поля дерева талантов.
+
 - **`row`** (`number`)
 Номер строки на выбранном поле.
+
 - **`column`** (`number`)
 Номер столбца на выбранном поле.
+
 - **`talentType`** (`number` | `nil`)
 Тип таланта. Задается значением из перечисления `ENUM_TalentType`. При передаче `nil` используется тип по умолчанию.
 
@@ -30,6 +38,7 @@ guild.CanLearnTalent( field: number, row: number, column: number, talentType: ?n
 Возвращаемая таблица содержит следующие поля:
 - **`result`** (`boolean`)
 `true`, если изучение таланта доступно.
+
 - **`requirements`** (`table` | `nil`)
 Требования для изучения таланта.
 - `nearFieldClosed` (`boolean`) - `true`, если рядом нет открытых талантов.
@@ -42,6 +51,7 @@ guild.CanLearnTalent( field: number, row: number, column: number, talentType: ?n
 ## Примеры
 
 ### Проверка условий изучения таланта гильдии и таланта босса
+
 ```lua
 local resultForGuild = guild.CanLearnTalent( 0, 4, 5 ) -- проверить условия изучения вехи гильдии
 local resultForBoss = guild.CanLearnTalent( 0, 0, 1, ENUM_TalentType_BOSS ) -- проверить условия изучения второго таланта босса гильдии

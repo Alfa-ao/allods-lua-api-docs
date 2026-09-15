@@ -1,4 +1,9 @@
+---
+description: Проверяет, является ли предмет оружием.
+---
+
 # itemLib.IsWeapon
+
 Проверяет, является ли предмет оружием.
 
 ## Описание
@@ -20,6 +25,7 @@ itemLib.IsWeapon( itemId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка типа предмета
+
 ```lua
 local itemIsWeapon = itemLib.IsWeapon( itemId )
 ```

@@ -1,4 +1,9 @@
+---
+description: Создает и возвращает объект для работы с двухмерным звуком.
+---
+
 # common.CreateSound
+
 Создает и возвращает объект для работы с двухмерным звуком.
 
 ## Описание
@@ -28,6 +33,7 @@ common.CreateSound( soundId: Sound2DId ): Sound2DLua | nil
 ## Примеры
 
 ### Проверка наличия и воспроизведение звука
+
 ```lua
 local hasSound = group:HasSound( sysName )
 if hasSound then

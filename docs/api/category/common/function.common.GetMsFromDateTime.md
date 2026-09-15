@@ -1,4 +1,9 @@
+---
+description: Возвращает Unix time (количество миллисекунд с 1 января 1970 года) на основе заданной даты и времени.
+---
+
 # common.GetMsFromDateTime
+
 Возвращает Unix time (количество миллисекунд с 1 января 1970 года) на основе заданной даты и времени.
 
 ## Описание
@@ -28,6 +33,7 @@ common.GetMsFromDateTime( timeTable: table ): number
 ## Примеры
 
 ### Получение текущего времени в миллисекундах
+
 ```lua
 local ms = common.GetMsFromDateTime( common.GetLocalDateTime() )
 ```

@@ -1,4 +1,9 @@
+---
+description: Проверяет валидность переданного имени аватара.
+---
+
 # common.IsAvatarNameValid
+
 Проверяет валидность переданного имени аватара.
 
 ## Описание
@@ -21,6 +26,7 @@ common.IsAvatarNameValid( name: WString ): boolean
 ## Примеры
 
 ### Проверка корректности имени
+
 ```lua
 local rawName = "ТестовоеИмя"
 local wName = userMods.ToWString(rawName)

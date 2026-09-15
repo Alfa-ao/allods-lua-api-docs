@@ -1,4 +1,9 @@
+---
+description: Возвращает коэффициент масштабирования текста внутри текстового контрола.
+---
+
 # TextViewSafe:GetTextScale
+
 Возвращает коэффициент масштабирования текста внутри текстового контрола.
 
 ## Описание
@@ -24,6 +29,7 @@ TextViewSafe:GetTextScale()
 ## Примеры
 
 ### Получение коэффициента масштабирования
+
 ```lua
 local scale = wtTextView:GetTextScale()
 if not scale then

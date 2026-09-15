@@ -1,4 +1,9 @@
+---
+description: Проверяет наличие квестов на выдачу или приём у интерактивного объекта.
+---
+
 # object.HasQuest
+
 Проверяет наличие квестов на выдачу или приём у интерактивного объекта.
 
 ## Описание
@@ -20,6 +25,7 @@ object.HasQuest( id: ObjectId ): boolean
 ## Примеры
 
 ### Проверка наличия квеста у цели
+
 ```lua
 local hasQuest = object.HasQuest( avatar.GetTarget() )
 ```

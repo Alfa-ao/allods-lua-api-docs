@@ -1,4 +1,9 @@
+---
+description: Осуществляет выбор для ролла Greed/Need.
+---
+
 # loot.SelectGreedNeedForLoot
+
 Осуществляет выбор для ролла Greed/Need.
 
 ## Описание
@@ -21,6 +26,7 @@ loot.SelectGreedNeedForLoot( rollId: ObjectId, choice: number )
 ## Примеры
 
 ### Выбор паса для ролла
+
 ```lua
 choice = CHOICE_GREED_NEED_PASS
 loot.SelectGreedNeedForLoot( rollId, choice )

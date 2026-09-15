@@ -1,4 +1,9 @@
+---
+description: Возвращает таблицу с индексами вариаций внешнего вида главного игрока из списков, сформированных функцией `changeRoom.GetAvatarTemplate`.
+---
+
 # changeRoom.GetPlayerIndexes
+
 Возвращает таблицу с индексами вариаций внешнего вида главного игрока из списков, сформированных функцией `changeRoom.GetAvatarTemplate`.
 
 ## Описание
@@ -20,20 +25,26 @@ changeRoom.GetPlayerIndexes(): table | nil
 Если данные успешно получены, возвращается таблица со следующими полями:
 - **`primary`** (`table` | `VariationsTable`)
 Таблица, описывающая вариации основного персонажа.
+
 - **`secondary`** (`table` | `VariationsTable` | `nil`)
 Таблица, описывающая вариации второго персонажа, если он есть.
+
 - **`tertiary`** (`table` | `VariationsTable` | `nil`)
 Таблица, описывающая вариации третьего персонажа, если он есть.
+
 - **`pet`** (`table` | `VariationsTable` | `nil`)
 Таблица, описывающая вариации питомца, если он есть.
+
 - **`petIndex`** (`number` | `integer` | `nil`)
 Индекс текущего облика питомца, если он есть.
 
 Структура таблицы `VariationsTable`:
 - **`name`** (`WString`)
 Имя персонажа.
+
 - **`sexId`** (`number` | `ENUM_SEX_...`)
 Пол игрока. Значения соответствуют перечислению `SEX_...` (`SEX_UNKNOWN`, `SEX_MALE`, `SEX_FEMALE`).
+
 - **`variations`** (`table`)
 Таблица с индексами вариаций внешнего вида:
   - `skin` (`number` | `integer`) - индекс (с нуля) вариации кожи.
@@ -48,6 +59,7 @@ changeRoom.GetPlayerIndexes(): table | nil
 ## Примеры
 
 ### Получение индекса вариации кожи основного персонажа
+
 ```lua
 local template = changeRoom.GetAvatarTemplate( true )
 local indexes = changeRoom.GetPlayerIndexes()

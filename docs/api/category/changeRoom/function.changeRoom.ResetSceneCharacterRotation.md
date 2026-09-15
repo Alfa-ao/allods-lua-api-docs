@@ -1,4 +1,9 @@
+---
+description: Сбрасывает вращение выбранного персонажа в сцене главного меню.
+---
+
 # changeRoom.ResetSceneCharacterRotation
+
 Сбрасывает вращение выбранного персонажа в сцене главного меню.
 
 ## Описание
@@ -21,6 +26,7 @@ changeRoom.ResetSceneCharacterRotation( characterId: ObjectId )
 ## Примеры
 
 ### Сброс вращения основного персонажа
+
 ```lua
 changeRoom.ResetSceneCharacterRotation( primaryCharacterId )
 ```

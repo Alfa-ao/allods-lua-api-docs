@@ -1,4 +1,9 @@
+---
+description: Извлекает информацию об альтернативной цене предмета.
+---
+
 # itemLib.GetAlternativePriceInfo
+
 Извлекает информацию об альтернативной цене предмета.
 
 ## Описание
@@ -26,6 +31,7 @@ itemLib.GetAlternativePriceInfo( itemId: ObjectId ): table|nil
 ## Примеры
 
 ### Получение альтернативной цены
+
 ```lua
 local alternativePriceInfo = itemLib.GetAlternativePriceInfo( itemId )
 local value = alternativePriceInfo and alternativePriceInfo[0] and alternativePriceInfo[0].value

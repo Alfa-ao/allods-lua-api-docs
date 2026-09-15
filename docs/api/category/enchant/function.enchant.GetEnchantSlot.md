@@ -1,4 +1,9 @@
+---
+description: Возвращает слот, предназначенный для установки энчанта.
+---
+
 # enchant.GetEnchantSlot
+
 Возвращает слот, предназначенный для установки энчанта.
 
 ## Описание
@@ -20,6 +25,7 @@ enchant.GetEnchantSlot( itemId: ObjectId ): number
 ## Примеры
 
 ### Проверка и получение слота энчанта
+
 ```lua
 if enchant.IsEnchant( itemId ) then
     local slot = enchant.GetEnchantSlot( itemId )

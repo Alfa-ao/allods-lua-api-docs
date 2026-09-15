@@ -1,3 +1,7 @@
+---
+description: Переключает схему распределения ролла с master на greed-need.
+---
+
 # loot.SwitchToGreedNeed
 
 Переключает схему распределения ролла с master на greed-need.

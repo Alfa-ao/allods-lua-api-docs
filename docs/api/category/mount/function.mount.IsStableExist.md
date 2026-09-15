@@ -1,4 +1,9 @@
+---
+description: Проверяет наличие конюшни у главного игрока.
+---
+
 # mount.IsStableExist
+
 Проверяет наличие конюшни у главного игрока.
 
 ## Описание
@@ -18,6 +23,7 @@ mount.IsStableExist(): boolean
 ## Примеры
 
 ### Проверка наличия конюшни и получение информации о сытости активного маунта
+
 ```lua
 if mount.IsStableExist() then
     local activeId = mount.GetActive()

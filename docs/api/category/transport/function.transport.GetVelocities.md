@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о скоростях перемещения транспортного средства в пространстве.
+---
+
 # transport.GetVelocities
+
 Возвращает информацию о скоростях перемещения транспортного средства в пространстве.
 
 ## Описание
@@ -26,6 +31,7 @@ transport.GetVelocities( transportId: ObjectId ): table
 ## Примеры
 
 ### Получение горизонтальной скорости транспорта
+
 ```lua
 local transportId = unit.GetTransport( avatar.GetId() )
 if transportId then

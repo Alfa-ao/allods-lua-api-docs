@@ -1,4 +1,9 @@
+---
+description: Назначает свойства для маркера типа сектор.
+---
+
 # mission.SetAESectorProps
+
 Назначает свойства для маркера типа сектор.
 
 ## Описание
@@ -22,6 +27,7 @@ mission.SetAESectorProps( range: number, angle: number )
 ## Примеры
 
 ### Назначение свойств сектора
+
 ```lua
 mission.SetAESectorProps( 40.0, Math.pi / 3 )
 ```

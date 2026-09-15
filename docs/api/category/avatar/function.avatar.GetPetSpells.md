@@ -25,6 +25,7 @@ avatar.GetPetSpells(): table
 ## Примеры
 
 ### Получение информации об активном заклинании пета
+
 ```lua
 local spells = avatar.GetPetSpells()
 local spellIndex = avatar.GetPetActiveSpell()

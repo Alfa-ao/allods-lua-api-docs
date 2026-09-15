@@ -1,4 +1,9 @@
+---
+description: Открывает гардероб.
+---
+
 # checkroomLib.Open
+
 Открывает гардероб.
 
 ## Описание
@@ -20,6 +25,7 @@ checkroomLib.Open()
 ## Примеры
 
 ### Открытие гардероба с проверкой состояния
+
 ```lua
 if not checkroomLib.IsOpened() then
     checkroomLib.Open()

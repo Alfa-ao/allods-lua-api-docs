@@ -1,4 +1,9 @@
+---
+description: Возвращает параметры окна игры.
+---
+
 # common.GetPosConverterParams
+
 Возвращает параметры окна игры.
 
 ## Описание
@@ -45,15 +50,21 @@ gfx_reference_size_y = [600:2160]
 
 Возвращает `table` со следующими полями:
 - **`fullVirtualSizeX`** (`number`) - текущий виртуальный размер окна по оси X.
+
 - **`fullVirtualSizeY`** (`number`) - текущий виртуальный размер окна по оси Y.
+
 - **`realSizeX`** (`number`) - реальный размер окна по оси X.
+
 - **`realSizeY`** (`number`) - реальный размер окна по оси Y.
+
 - **`referenceVirtualSizeX`** (`number`) - базовый виртуальный размер окна по оси X.
+
 - **`referenceVirtualSizeY`** (`number`) - базовый виртуальный размер окна по оси Y.
 
 ## Примеры
 
 ### Получение и вывод параметров окна игры
+
 ```lua
 local posConverter = common.GetPosConverterParams()
 

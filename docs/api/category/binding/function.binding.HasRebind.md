@@ -1,4 +1,9 @@
+---
+description: Проверяет наличие распознанной горячей клавиши.
+---
+
 # binding.HasRebind
+
 Проверяет наличие распознанной горячей клавиши.
 
 ## Описание
@@ -20,6 +25,7 @@ binding.HasRebind(): boolean
 ## Примеры
 
 ### Проверка и применение распознанной горячей клавиши
+
 ```lua
 if binding.HasRebind() then
     binding.ApplyRebind()

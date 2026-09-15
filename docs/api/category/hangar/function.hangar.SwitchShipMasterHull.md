@@ -1,4 +1,9 @@
+---
+description: Меняет корпус активному кораблю главного игрока на заданный.
+---
+
 # hangar.SwitchShipMasterHull
+
 Меняет корпус активному кораблю главного игрока на заданный.
 
 ## Описание
@@ -20,6 +25,7 @@ hangar.SwitchShipMasterHull( hullId: VisualShipId )
 ## Примеры
 
 ### Смена корпуса активного корабля
+
 ```lua
 local hulls = hangar.GetAvailableHulls()
 if hulls and hulls[0] then

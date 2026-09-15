@@ -1,3 +1,7 @@
+---
+description: Возвращает тип объекта ValuedObject.
+---
+
 # ValuedObject:GetType
 
 Возвращает тип объекта ValuedObject.

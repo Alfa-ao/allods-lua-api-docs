@@ -1,3 +1,7 @@
+---
+description: Меняет формат текста.
+---
+
 # TextViewSafe:SetFormat
 
 Меняет формат текста.

@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о диминишинге (сопротивлении контролю) объекта.
+---
+
 # object.GetDiminishingState
+
 Возвращает информацию о диминишинге (сопротивлении контролю) объекта.
 
 ## Описание
@@ -20,6 +25,7 @@ object.GetDiminishingState( objectId: ObjectId ): table
 ## Примеры
 
 ### Получение состояния диминишинга
+
 ```lua
 local diminishingState = object.GetDiminishingState( avatar.GetId() )
 ```

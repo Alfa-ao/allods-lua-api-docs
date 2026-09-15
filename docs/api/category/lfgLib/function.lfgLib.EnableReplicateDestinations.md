@@ -1,3 +1,7 @@
+---
+description: Включает и выключает репликацию активностей для LFG.
+---
+
 # lfgLib.EnableReplicateDestinations
 
 Включает и выключает репликацию активностей для LFG.

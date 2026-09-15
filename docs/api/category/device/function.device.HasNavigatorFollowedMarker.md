@@ -1,4 +1,9 @@
+---
+description: Возвращает статус преследования корабля главного игрока активным навигационным устройством.
+---
+
 # device.HasNavigatorFollowedMarker
+
 Возвращает статус преследования корабля главного игрока активным навигационным устройством.
 
 ## Описание
@@ -28,6 +33,7 @@ device.HasNavigatorFollowedMarker(): boolean|nil
 ## Примеры
 
 ### Проверка статуса преследования
+
 ```lua
 local hasNavigatorFollowedMarker = device.HasNavigatorFollowedMarker()
 if hasNavigatorFollowedMarker == true then

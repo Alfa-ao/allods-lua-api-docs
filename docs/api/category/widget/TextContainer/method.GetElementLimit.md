@@ -1,4 +1,9 @@
+---
+description: Возвращает максимальное количество элементов в контейнере.
+---
+
 # TextContainerSafe:GetElementLimit
+
 Возвращает максимальное количество элементов в контейнере.
 
 ## Описание
@@ -20,6 +25,7 @@ TextContainerSafe:GetElementLimit(): number
 ## Примеры
 
 ### Получение лимита элементов
+
 ```lua
 local count = wtTextContainer:GetElementLimit()
 ```

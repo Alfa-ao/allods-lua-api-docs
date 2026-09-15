@@ -1,4 +1,9 @@
+---
+description: Определяет, назумлена ли камера на лицо при выборе или создании персонажа.
+---
+
 # changeRoom.IsZoomOnFace
+
 Определяет, назумлена ли камера на лицо при выборе или создании персонажа.
 
 ## Описание
@@ -20,6 +25,7 @@ changeRoom.IsZoomOnFace(): boolean
 ## Примеры
 
 ### Переключение зума при отсутствии фокуса на лице
+
 ```lua
 if changeRoom.IsZoomEnabled() and not changeRoom.IsZoomOnFace() then
   changeRoom.ToggleZoom()

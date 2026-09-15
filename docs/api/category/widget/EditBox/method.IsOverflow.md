@@ -1,4 +1,9 @@
+---
+description: Определяет, превышает ли объем текста размеры текстового поля EditBox.
+---
+
 # EditBoxSafe:IsOverflow
+
 Определяет, превышает ли объем текста размеры текстового поля EditBox.
 
 ## Описание
@@ -20,6 +25,7 @@ EditBoxSafe:IsOverflow()
 ## Примеры
 
 ### Отображение полосы прокрутки при переполнении
+
 ```lua
 if wtEditBox:IsOverflow() then
     wtEditBox:ShowScrollbar( true )

@@ -1,3 +1,7 @@
+---
+description: Добавляет string, WString или ValuedText в начало контейнера.
+---
+
 # TextContainerSafe:PushFrontText
 
 Добавляет string, WString или ValuedText в начало контейнера.

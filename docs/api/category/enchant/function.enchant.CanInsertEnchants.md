@@ -1,4 +1,9 @@
+---
+description: Определяет возможность вставки энчантов в предмет.
+---
+
 # enchant.CanInsertEnchants
+
 Определяет возможность вставки энчантов в предмет.
 
 ## Описание
@@ -24,6 +29,7 @@ enchant.CanInsertEnchants( itemId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка возможности вставки энчантов
+
 ```lua
 local isEnchantsCarrier = enchant.CanInsertEnchants( itemId )
 ```

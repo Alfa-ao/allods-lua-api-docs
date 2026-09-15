@@ -1,4 +1,9 @@
+---
+description: Возвращает идентификатор спелла для отбирания ранее одолженного корабля.
+---
+
 # hangar.GetTakeAwaySpellId
+
 Возвращает идентификатор спелла для отбирания ранее одолженного корабля.
 
 ## Описание
@@ -20,6 +25,7 @@ hangar.GetTakeAwaySpellId(): SpellId | nil
 ## Примеры
 
 ### Получение состояния спелла
+
 ```lua
 local spellId = hangar.GetTakeAwaySpellId()
 local spellState = spellId and spellLib.GetState( spellId ) or nil

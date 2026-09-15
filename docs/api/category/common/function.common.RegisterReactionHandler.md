@@ -1,4 +1,9 @@
+---
+description: Подписывает функцию-обработчик аддона на указанную системную реакцию.
+---
+
 # common.RegisterReactionHandler
+
 Подписывает функцию-обработчик аддона на указанную системную реакцию.
 
 ## Описание
@@ -13,6 +18,7 @@ common.RegisterReactionHandler( reactionFunction: function, sysReactionName: str
 
 - **`reactionFunction`** (`function`)
 Функция-обработчик, вызываемая при наступлении реакции. Прототип функции: `function OnReactionHandler( params: table )`.
+
 - **`sysReactionName`** (`string`)
 Уникальное имя системной реакции, на которую осуществляется подписка.
 
@@ -23,6 +29,7 @@ common.RegisterReactionHandler( reactionFunction: function, sysReactionName: str
 ## Примеры
 
 ### Регистрация обработчика реакции
+
 ```lua
 function OnReactionSample( params )
 end
@@ -31,6 +38,7 @@ common.RegisterReactionHandler( OnReactionSample, "reaction_sample" )
 ```
 
 ### Рекомендованный шаблон функции
+
 ```lua
 -- параметры:
 -- params: table, поля:

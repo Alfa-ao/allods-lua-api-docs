@@ -1,3 +1,7 @@
+---
+description: Возвращает текст ValuedObject-а.
+---
+
 # ValuedObject:GetText
 
 Возвращает текст ValuedObject-а.

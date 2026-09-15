@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о прогрессе ремонта корабля в ангаре.
+---
+
 # hangar.GetRepairProgress
+
 Возвращает информацию о прогрессе ремонта корабля в ангаре.
 
 ## Описание
@@ -34,6 +39,7 @@ hangar.GetRepairProgress(): table|nil
 ## Примеры
 
 ### Получение процента ремонта
+
 ```lua
 local progress = hangar.GetRepairProgress()
 if progress then

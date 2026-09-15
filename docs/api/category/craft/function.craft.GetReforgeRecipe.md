@@ -1,3 +1,7 @@
+---
+description: Возвращает текущий рецепт и предмет для reforge крафта.
+---
+
 # craft.GetReforgeRecipe
 
 Возвращает текущий рецепт и предмет для reforge крафта.
@@ -19,6 +23,7 @@ craft.GetReforgeRecipe(): table | nil
 Возвращает таблицу (`table`) или `nil`, если рецепт не был установлен.
 
 - **`recipe`** (`ReforgeResourceId`) - идентификатор ресурса для reforge крафта.
+
 - **`itemId`** (`ObjectId`) - идентификатор предмета для reforge крафта.
 
 ## Примеры

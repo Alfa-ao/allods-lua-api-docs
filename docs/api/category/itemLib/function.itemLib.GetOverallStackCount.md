@@ -1,4 +1,9 @@
+---
+description: Возвращает суммарное количество всех подобных предметов у игрока в сумке и в инвентаре с учётом количеств в пачках.
+---
+
 # itemLib.GetOverallStackCount
+
 Возвращает суммарное количество всех подобных предметов у игрока в сумке и в инвентаре с учётом количеств в пачках.
 
 ## Описание
@@ -20,6 +25,7 @@ itemLib.GetOverallStackCount( itemId: ObjectId ): integer
 ## Примеры
 
 ### Подсчёт общего количества предметов
+
 ```lua
 local itemOverallStackCount = itemLib.GetOverallStackCount( itemId )
 ```

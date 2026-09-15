@@ -1,4 +1,9 @@
+---
+description: Поворачивает выбранного персонажа в сцене.
+---
+
 # changeRoom.RotateSceneCharacter
+
 Поворачивает выбранного персонажа в сцене.
 
 ## Описание
@@ -13,6 +18,7 @@ changeRoom.RotateSceneCharacter( characterId: ObjectId, angle: number )
 
 - **`characterId`** (`ObjectId`)
 Идентификатор персонажа в сцене, которого требуется повернуть.
+
 - **`angle`** (`number`)
 Угол поворота в градусах.
 
@@ -23,6 +29,7 @@ changeRoom.RotateSceneCharacter( characterId: ObjectId, angle: number )
 ## Примеры
 
 ### Поворот основного персонажа на заданный угол
+
 ```lua
 changeRoom.RotateSceneCharacter( primaryCharacterId, 20 )
 ```

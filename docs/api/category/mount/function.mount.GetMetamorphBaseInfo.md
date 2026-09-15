@@ -1,4 +1,9 @@
+---
+description: Возвращает базовую информацию о метаморфе.
+---
+
 # mount.GetMetamorphBaseInfo
+
 Возвращает базовую информацию о метаморфе.
 
 ## Описание
@@ -17,11 +22,13 @@ mount.GetMetamorphBaseInfo(): table
 
 Возвращает `table` со следующими полями:
 - **`switchCost`** (`number`) - цена переключения маунта на метаморфе.
+
 - **`switchCostcurrencyId`** (`CurrencyId` | `nil`) - идентификатор ресурса альтернативной валюты, затрачиваемой на переключение маунта. Если информация недоступна, возвращается `nil`.
 
 ## Примеры
 
 ### Получение стоимости переключения метаморфа
+
 ```lua
 local info = mount.GetMetamorphBaseInfo()
 LogInfo( info.switchCost )

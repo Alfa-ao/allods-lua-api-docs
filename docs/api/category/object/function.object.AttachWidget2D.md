@@ -24,6 +24,7 @@ object.AttachWidget2D( objectId: ObjectId, widget: WidgetSafe, pos: number )
 ## Примеры
 
 ### Прикрепление виджета к цели
+
 ```lua
 object.AttachWidget2D( targetId, mainForm, ATTACHED_OBJECT_POS_UP )
 ```

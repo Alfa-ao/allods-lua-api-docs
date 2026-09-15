@@ -1,4 +1,9 @@
+---
+description: Задает номер активной специализации персонажа.
+---
+
 # avatar.SetActiveBuild
+
 Задает номер активной специализации персонажа.
 
 ## Описание
@@ -25,6 +30,7 @@ avatar.SetActiveBuild( index: number )
 ## Примеры
 
 ### Переключение на первую доступную специализацию
+
 ```lua
 local buildsCount = avatar.GetBuildsCount()
 if buildsCount > 0 then

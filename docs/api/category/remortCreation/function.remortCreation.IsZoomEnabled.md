@@ -1,4 +1,9 @@
+---
+description: Определяет возможность приближения камеры к лицу при выборе или создании персонажа.
+---
+
 # remortCreation.IsZoomEnabled
+
 Определяет возможность приближения камеры к лицу при выборе или создании персонажа.
 
 ## Описание
@@ -20,6 +25,7 @@ remortCreation.IsZoomEnabled(): boolean
 ## Примеры
 
 ### Проверка и переключение масштаба
+
 ```lua
 if remortCreation.IsZoomEnabled() and not remortCreation.IsZoomOnFace() then
     remortCreation.ToggleZoom()

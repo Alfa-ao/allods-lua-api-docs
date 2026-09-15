@@ -1,3 +1,7 @@
+---
+description: Удаляет всех персонажей со сцены.
+---
+
 # mission.ClearCharacterScene
 
 Удаляет всех персонажей со сцены.

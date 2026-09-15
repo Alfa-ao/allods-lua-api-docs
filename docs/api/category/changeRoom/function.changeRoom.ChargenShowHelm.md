@@ -1,3 +1,7 @@
+---
+description: Устанавливает признак отображения шлемов на персонажах в экране создания персонажей.
+---
+
 # changeRoom.ChargenShowHelm
 
 Устанавливает признак отображения шлемов на персонажах в экране создания персонажей.
@@ -29,4 +33,3 @@ changeRoom.ChargenShowHelm( show: boolean )
 
 ```lua
 changeRoom.ChargenShowHelm( true )
-```

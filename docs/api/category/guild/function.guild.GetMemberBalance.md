@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о балансе члена гильдии в гильдейском банке.
+---
+
 # guild.GetMemberBalance
+
 Возвращает информацию о балансе члена гильдии в гильдейском банке.
 
 ## Описание
@@ -20,6 +25,7 @@ guild.GetMemberBalance( memberId: ObjectId ): number
 ## Примеры
 
 ### Получение баланса первого члена гильдии
+
 ```lua
 local members = guild.GetMembers()
 if members[ 0 ] then

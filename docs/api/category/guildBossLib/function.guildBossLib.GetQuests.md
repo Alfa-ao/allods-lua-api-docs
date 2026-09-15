@@ -1,4 +1,9 @@
+---
+description: Возвращает список заданий для прогресса босса гильдии.
+---
+
 # guildBossLib.GetQuests
+
 Возвращает список заданий для прогресса босса гильдии.
 
 ## Описание
@@ -28,6 +33,7 @@ guildBossLib.GetQuests(): table | nil
 ## Примеры
 
 ### Получение информации о награде за первое задание
+
 ```lua
 local guildBossQuests = guildBossLib.IsExist() and guildBossLib.GetQuests()
 local firstGuildQuest = guildBossQuests and guildBossQuests[1]

@@ -1,3 +1,7 @@
+---
+description: Уничтожает виджет.
+---
+
 # WidgetSafe:DestroyWidget
 
 Уничтожает виджет.

@@ -1,3 +1,7 @@
+---
+description: Преобразует ValuedText в WString.
+---
+
 # ValuedTextSafe:ToWString
 
 Преобразует ValuedText в WString.

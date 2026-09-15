@@ -1,4 +1,9 @@
+---
+description: Определяет, является ли интерактивный объект торговцем.
+---
+
 # object.IsVendor
+
 Определяет, является ли интерактивный объект торговцем.
 
 ## Описание
@@ -24,6 +29,7 @@ object.IsVendor( id: ObjectId ): boolean
 ## Примеры
 
 ### Проверка целевого объекта
+
 ```lua
 local isVendor = object.IsVendor( avatar.GetTarget() )
 ```

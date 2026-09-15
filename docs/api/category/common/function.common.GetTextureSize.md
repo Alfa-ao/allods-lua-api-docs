@@ -1,4 +1,9 @@
+---
+description: Возвращает реальные размеры текстуры из ресурса.
+---
+
 # common.GetTextureSize
+
 Возвращает реальные размеры текстуры из ресурса.
 
 ## Описание
@@ -19,12 +24,14 @@ common.GetTextureSize( textureId: TextureId ): table | nil
 Возвращает `table` или `nil`:
 - **`sizeX`** (`number`)
 Реальная ширина текстуры.
+
 - **`sizeY`** (`number`)
 Реальная высота текстуры.
 
 ## Примеры
 
 ### Получение размеров текстуры заклинания
+
 ```lua
 local spellInfo = avatar.GetSpellInfo( spellId )
 local textureId = spellInfo and spellInfo.texture

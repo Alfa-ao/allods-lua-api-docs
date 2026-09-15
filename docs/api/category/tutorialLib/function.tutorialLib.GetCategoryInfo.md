@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о категории обучения.
+---
+
 # tutorialLib.GetCategoryInfo
+
 Возвращает информацию о категории обучения.
 
 ## Описание
@@ -25,6 +30,7 @@ tutorialLib.GetCategoryInfo( id: TutorialCategoryId ): table
 ## Примеры
 
 ### Получение информации о категории
+
 ```lua
 local tutorialCategoryInfo = tutorialLib.GetCategoryInfo( tutorialLib.GetCategories()[1] )
 ```

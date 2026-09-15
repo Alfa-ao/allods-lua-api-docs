@@ -1,4 +1,9 @@
+---
+description: Определяет, отзумлена ли камера на максимум при выборе или создании персонажа.
+---
+
 # remortCreation.IsZoomOnFar
+
 Определяет, отзумлена ли камера на максимум при выборе или создании персонажа.
 
 ## Описание
@@ -20,6 +25,7 @@ remortCreation.IsZoomOnFar(): boolean
 ## Примеры
 
 ### Проверка и изменение состояния зума
+
 ```lua
 if remortCreation.IsZoomEnabled() and not remortCreation.IsZoomOnFar() then
     remortCreation.ToggleZoom()

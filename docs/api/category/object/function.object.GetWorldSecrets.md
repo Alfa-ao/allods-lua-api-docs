@@ -1,4 +1,9 @@
+---
+description: Возвращает список идентификаторов тайн мира, которые может завершить указанный объект.
+---
+
 # object.GetWorldSecrets
+
 Возвращает список идентификаторов тайн мира, которые может завершить указанный объект.
 
 ## Описание
@@ -19,6 +24,7 @@ object.GetWorldSecrets( objectId: ObjectId ): table
 ## Примеры
 
 ### Получение и перебор списка тайн мира
+
 ```lua
 local secrets = object.GetWorldSecrets( objectId )
 for i, secretId in pairs( secrets ) do

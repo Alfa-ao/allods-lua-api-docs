@@ -1,4 +1,9 @@
+---
+description: Сбрасывает веху из поля талантов гильдии за альтвалюту.
+---
+
 # guild.DropTalent
+
 Сбрасывает веху из поля талантов гильдии за альтвалюту.
 
 ## Описание
@@ -27,6 +32,7 @@ guild.DropTalent( field: number, row: number, column: number )
 ## Примеры
 
 ### Проверка возможности и сброс вехи талантов
+
 ```lua
 if guild.CanDropTalent( field, row, column ) then
     guild.DropTalent( field, row, column )

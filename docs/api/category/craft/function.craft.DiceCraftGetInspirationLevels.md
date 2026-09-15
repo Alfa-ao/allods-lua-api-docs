@@ -1,3 +1,7 @@
+---
+description: Возвращает список уровней вдохновения.
+---
+
 # craft.DiceCraftGetInspirationLevels
 
 Возвращает список уровней вдохновения.

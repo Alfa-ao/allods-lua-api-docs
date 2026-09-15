@@ -1,4 +1,9 @@
+---
+description: Возвращает содержимое обучения и данные, необходимые для его отображения.
+---
+
 # tutorialLib.GetTutorialContent
+
 Возвращает содержимое обучения и данные, необходимые для его отображения.
 
 ## Описание
@@ -38,6 +43,7 @@ tutorialLib.GetTutorialContent( id: TutorialId ): table | nil
 ## Примеры
 
 ### Получение содержимого обучения
+
 ```lua
 local testTutorialContent = tutorialLib.GetTutorialContent( tutorialLib.GetTutorialBySysName( "test" ) )
 ```

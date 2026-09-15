@@ -1,4 +1,9 @@
+---
+description: Возвращает идентификатор заклинания для запуска следующего этапа сценария боевой арены.
+---
+
 # battleground.GetHeroesArenaStartStageSpell
+
 Возвращает идентификатор заклинания для запуска следующего этапа сценария боевой арены.
 
 ## Описание
@@ -20,6 +25,7 @@ battleground.GetHeroesArenaStartStageSpell(): SpellId | nil
 ## Примеры
 
 ### Получение и запуск заклинания перехода на следующий этап
+
 ```lua
 local spellId = battleground.GetHeroesArenaStartStageSpell()
 if spellId then

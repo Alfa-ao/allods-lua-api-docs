@@ -1,3 +1,7 @@
+---
+description: Извлекает текущее числовое и строковое значение опции.
+---
+
 # options.GetOptionValue
 
 Извлекает текущее числовое и строковое значение опции.
@@ -35,6 +39,7 @@ options.GetOptionValue( id: ObjectId | string ): number, string
 ## Примеры
 
 ### Получение значения опции
+
 ```lua
 local floatValue, stringValue = options.GetOptionValue( id )
 ```

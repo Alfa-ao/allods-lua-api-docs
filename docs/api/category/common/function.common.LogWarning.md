@@ -1,4 +1,9 @@
+---
+description: Выводит объединенные строки в консоль или чат с уровнем логирования WARNING.
+---
+
 # common.LogWarning
+
 Выводит объединенные строки в консоль или чат с уровнем логирования WARNING.
 
 ## Описание
@@ -17,8 +22,10 @@ common.LogWarning( filter: string, text01: string|WString, ...: string|WString )
 
 - **`filter`** (`string`)
 Фильтр логирования. Определяет необходимость вывода сообщения в консоль на основе настроек отладки.
+
 - **`text01`** (`string` | `WString`)
 Первый обязательный текстовый аргумент.
+
 - **`...`** (`string` | `WString`)
 Список необязательных текстовых аргументов. Все переданные аргументы объединяются с первым аргументом в единую строку.
 
@@ -29,11 +36,13 @@ common.LogWarning( filter: string, text01: string|WString, ...: string|WString )
 ## Примеры
 
 ### Вывод предупреждения с использованием нелокализованной строки
+
 ```lua
 common.LogWarning( "common", "The operation may be too long!" )
 ```
 
 ### Объединение нелокализованной и локализованной строк
+
 ```lua
 common.LogWarning( "common", "The operation may be too long! ", userMods.ToWString( "Or very-very-very long!" ) )
 ```

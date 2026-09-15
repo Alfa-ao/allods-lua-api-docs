@@ -1,4 +1,9 @@
+---
+description: Инициирует выполнение действия интерактивного устройства на заданную точку местности.
+---
+
 # avatar.RunUsableDeviceActionPoint
+
 Инициирует выполнение действия интерактивного устройства на заданную точку местности.
 
 ## Описание
@@ -28,6 +33,7 @@ avatar.RunUsableDeviceActionPoint( index: number, pos: GamePosition )
 ## Примеры
 
 ### Выполнение действия устройства по координатам
+
 ```lua
 local deviceInfo = avatar.GetUsableDeviceInfo()
 if deviceInfo and deviceInfo.actionsCount > 0 then

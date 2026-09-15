@@ -1,3 +1,7 @@
+---
+description: Возвращает список боевых целей в режиме Domination.
+---
+
 # dominationLib.GetObjectives
 
 Возвращает список боевых целей в режиме Domination.

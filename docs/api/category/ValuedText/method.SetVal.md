@@ -1,3 +1,7 @@
+---
+description: Задает подстановочное значение для данного ValuedText.
+---
+
 # ValuedTextSafe:SetVal
 
 Задает подстановочное значение для данного ValuedText.

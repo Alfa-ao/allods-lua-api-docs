@@ -1,4 +1,9 @@
+---
+description: Возвращает идентификатор спелла, используемого для смены корпуса корабля.
+---
+
 # hangar.GetSwitchShipMasterHullSpellId
+
 Возвращает идентификатор спелла, используемого для смены корпуса корабля.
 
 ## Описание
@@ -19,6 +24,7 @@ hangar.GetSwitchShipMasterHullSpellId(): SpellId|nil
 ## Примеры
 
 ### Получение состояния спелла смены корпуса
+
 ```lua
 local spellId = hangar.GetSwitchShipMasterHullSpellId()
 local spellState = spellId and spellLib.GetState( spellId ) or nil

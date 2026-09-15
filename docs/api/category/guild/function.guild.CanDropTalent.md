@@ -1,4 +1,9 @@
+---
+description: Проверяет возможность сброса вехи из поля талантов гильдии за альтвалюту.
+---
+
 # guild.CanDropTalent
+
 Проверяет возможность сброса вехи из поля талантов гильдии за альтвалюту.
 
 ## Описание
@@ -13,8 +18,10 @@ guild.CanDropTalent( field: number, row: number, column: number ): boolean, tabl
 
 - **`field`** (`number`)
 Номер поля талантов.
+
 - **`row`** (`number`)
 Номер строки.
+
 - **`column`** (`number`)
 Номер столбца.
 
@@ -30,6 +37,7 @@ guild.CanDropTalent( field: number, row: number, column: number ): boolean, tabl
 ## Примеры
 
 ### Проверка возможности и сброс таланта
+
 ```lua
 local field = 1
 local row = 2

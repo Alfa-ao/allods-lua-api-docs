@@ -1,3 +1,7 @@
+---
+description: Удаляет символ после курсора.
+---
+
 # EditLineSafe:DeleteCharAtCursorPos
 
 Удаляет символ после курсора.

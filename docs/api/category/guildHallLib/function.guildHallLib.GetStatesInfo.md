@@ -1,4 +1,9 @@
+---
+description: Возвращает список состояний оплота гильдии и их описание.
+---
+
 # guildHallLib.GetStatesInfo
+
 Возвращает список состояний оплота гильдии и их описание.
 
 ## Описание
@@ -24,6 +29,7 @@ guildHallLib.GetStatesInfo(): table|nil
 ## Примеры
 
 ### Получение списка состояний оплота
+
 ```lua
 local guildHallStates = guildHallLib.IsExist() and guildHallLib.GetStatesInfo()
 ```

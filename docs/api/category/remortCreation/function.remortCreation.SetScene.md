@@ -1,4 +1,9 @@
+---
+description: Создает сцену для работы с персонажами для указанного `Control3DSafe`.
+---
+
 # remortCreation.SetScene
+
 Создает сцену для работы с персонажами для указанного `Control3DSafe`.
 
 ## Описание
@@ -23,6 +28,7 @@ remortCreation.SetScene( wtControl3D, sceneName )
 ## Примеры
 
 ### Создание сцены
+
 ```lua
 remortCreation.SetScene( wtControl3D, "coolScene" )
 ```

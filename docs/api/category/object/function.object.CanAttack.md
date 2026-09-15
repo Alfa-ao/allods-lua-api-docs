@@ -1,4 +1,9 @@
+---
+description: Определяет возможность атаки указанного объекта.
+---
+
 # object.CanAttack
+
 Определяет возможность атаки указанного объекта.
 
 ## Описание
@@ -20,6 +25,7 @@ object.CanAttack( objectId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка возможности атаки
+
 ```lua
 local canAttack = object.CanAttack( objectId )
 ```

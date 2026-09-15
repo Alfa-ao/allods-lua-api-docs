@@ -1,3 +1,7 @@
+---
+description: Выполняет крафт типа forge с указанными параметрами.
+---
+
 # craft.MakeForge
 
 Выполняет крафт типа forge с указанными параметрами.
@@ -15,6 +19,7 @@ craft.MakeForge( forgeId: ForgeCraftResourceId, recipeId: ForgeCraftRecipeId, co
 - **`forgeId`** (`ForgeCraftResourceId`) - Ресурс forge крафта (поле `tierResource` в `craft.GetForgeRecipeInfo`).
 
 - **`recipeId`** (`ForgeCraftRecipeId`) - Ресурс рецепта крафта.
+
 - **`components`** (`table`) - Таблица таблиц компонентов (индексы внешней таблицы от `0` до `MAX_FORGE_COMPONENT_COUNT`). Значение - таблица (индексированная с `1`) с `ObjectId` предметов компонентов в порядке приоритета применения.
 
 ## Возвращаемые значения
@@ -24,6 +29,7 @@ craft.MakeForge( forgeId: ForgeCraftResourceId, recipeId: ForgeCraftRecipeId, co
 ## Примеры
 
 ### Выполнение крафта с приоритетными компонентами
+
 ```lua
 local success = craft.MakeForge( fid, rid, {
     [0] = { component0HighPriorityId, component0LowPriorityId },

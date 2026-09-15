@@ -1,4 +1,9 @@
+---
+description: Извлекает информацию о текущих боевых ролях персонажей в группе.
+---
+
 # matchMaking.GetMembersRoles
+
 Извлекает информацию о текущих боевых ролях персонажей в группе.
 
 ## Описание
@@ -24,6 +29,7 @@ matchMaking.GetMembersRoles( eventId: ObjectId | nil ): table
 ## Примеры
 
 ### Получение ролей в текущей активности
+
 ```lua
 local rolesInfo = matchMaking.GetMembersRoles()
 ```

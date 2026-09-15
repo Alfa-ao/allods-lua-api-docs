@@ -1,5 +1,11 @@
+---
+description: Возвращает системное имя распознанной горячей клавиши.
+---
+
 # binding.GetRebindKey
+
 Возвращает системное имя распознанной горячей клавиши.
+
 ## Описание
 
 ```lua
@@ -19,6 +25,7 @@ binding.GetRebindKey(): string | nil
 ## Примеры
 
 ### Проверка распознанной клавиши и обработка отмены
+
 ```lua
 if binding.HasRebind() then
     if binding.GetRebindKey() == "ESC" then

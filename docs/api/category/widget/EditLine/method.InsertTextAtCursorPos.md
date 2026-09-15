@@ -1,3 +1,7 @@
+---
+description: Вставляет текст в текущую позицию курсора EditLine.
+---
+
 # EditLineSafe:InsertTextAtCursorPos
 
 Вставляет текст в текущую позицию курсора EditLine.

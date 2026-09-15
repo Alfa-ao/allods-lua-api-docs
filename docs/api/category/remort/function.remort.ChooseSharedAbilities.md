@@ -1,4 +1,9 @@
+---
+description: Расшаривает умения и заклинания главного игрока для использования альтом.
+---
+
 # remort.ChooseSharedAbilities
+
 Расшаривает умения и заклинания главного игрока для использования альтом.
 
 ## Описание
@@ -20,6 +25,7 @@ remort.ChooseSharedAbilities( abilities: table )
 ## Примеры
 
 ### Выбор умений и заклинаний для расшаривания
+
 ```lua
 local abilities = remort.GetAbilitiesForSharing()
 local spells = remort.GetSpellsForSharing() -- deprecated

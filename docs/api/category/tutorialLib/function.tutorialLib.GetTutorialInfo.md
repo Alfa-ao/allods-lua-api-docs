@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию об общих свойствах обучения.
+---
+
 # tutorialLib.GetTutorialInfo
+
 Возвращает информацию об общих свойствах обучения.
 
 ## Описание
@@ -41,6 +46,7 @@ tutorialLib.GetTutorialInfo( id: TutorialId ): table|nil
 ## Примеры
 
 ### Получение информации об обучении
+
 ```lua
 local testTutorialInfo = tutorialLib.GetTutorialInfo( tutorialLib.GetTutorialBySysName( "test" ) )
 ```

@@ -1,4 +1,9 @@
+---
+description: Создает пользовательский снимок экрана.
+---
+
 # common.MakeUserScreenshot
+
 Создает пользовательский снимок экрана.
 
 ## Описание
@@ -21,11 +26,13 @@ common.MakeUserScreenshot( postpone: boolean | nil )
 ## Примеры
 
 ### Немедленное создание снимка
+
 ```lua
 common.MakeUserScreenshot( nil )
 ```
 
 ### Создание снимка с задержкой для обновления интерфейса
+
 ```lua
 common.MakeUserScreenshot( true )
 ```

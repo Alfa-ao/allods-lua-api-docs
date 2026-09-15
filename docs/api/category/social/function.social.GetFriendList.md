@@ -1,4 +1,9 @@
+---
+description: Возвращает список друзей текущего аватара игрока.
+---
+
 # social.GetFriendList
+
 Возвращает список друзей текущего аватара игрока.
 
 ## Описание
@@ -20,6 +25,7 @@ social.GetFriendList(): table
 ## Примеры
 
 ### Итерация по списку друзей
+
 ```lua
 local friends = social.GetFriendList()
 for i = 0, GetTableSize( friends ) - 1 do

@@ -1,4 +1,9 @@
+---
+description: Возвращает случайное имя для транспортного средства.
+---
+
 # hangar.GetRandomName
+
 Возвращает случайное имя для транспортного средства.
 
 ## Описание
@@ -20,6 +25,7 @@ hangar.GetRandomName(): WString
 ## Примеры
 
 ### Получение случайного имени
+
 ```lua
 local randomName = hangar.GetRandomName()
 ```

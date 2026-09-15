@@ -1,3 +1,7 @@
+---
+description: Возвращает таблицу с секцией global.
+---
+
 # userMods.GetGlobalConfigSection
 
 Возвращает таблицу с секцией global.

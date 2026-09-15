@@ -22,6 +22,7 @@ object.DetachWidget3D( objectId: ObjectId, widget: WidgetSafe )
 ## Примеры
 
 ### Отвязка контрола от объекта
+
 ```lua
 object.DetachWidget3D( objectId, widget )
 ```

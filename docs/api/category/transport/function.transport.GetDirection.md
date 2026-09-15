@@ -1,4 +1,9 @@
+---
+description: Возвращает величину поворота (yaw) транспортного средства в радианах.
+---
+
 # transport.GetDirection
+
 Возвращает величину поворота (yaw) транспортного средства в радианах.
 
 ## Описание
@@ -24,6 +29,7 @@ transport.GetDirection( transportId: ObjectId ): number
 ## Примеры
 
 ### Получение направления транспортного средства
+
 ```lua
 local transportId = unit.GetTransport( avatar.GetId() )
 if transportId then

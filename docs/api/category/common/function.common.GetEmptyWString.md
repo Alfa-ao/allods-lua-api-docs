@@ -1,4 +1,9 @@
+---
+description: Возвращает пустую локализуемую строку.
+---
+
 # common.GetEmptyWString
+
 Возвращает пустую локализуемую строку.
 
 ## Описание
@@ -20,6 +25,7 @@ common.GetEmptyWString(): WString
 ## Примеры
 
 ### Получение пустой строки для инициализации
+
 ```lua
 local emptyText = common.GetEmptyWString()
 ```

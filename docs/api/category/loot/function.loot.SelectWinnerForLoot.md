@@ -1,3 +1,7 @@
+---
+description: Назначает победителя для Master ролла.
+---
+
 # loot.SelectWinnerForLoot
 
 Назначает победителя для Master ролла.

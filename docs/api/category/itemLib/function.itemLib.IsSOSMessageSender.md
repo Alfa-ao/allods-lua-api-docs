@@ -1,4 +1,9 @@
+---
+description: Проверяет, является ли предмет сигнальным фейерверком.
+---
+
 # itemLib.IsSOSMessageSender
+
 Проверяет, является ли предмет сигнальным фейерверком.
 
 ## Описание
@@ -20,6 +25,7 @@ itemLib.IsSOSMessageSender( itemId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка предмета
+
 ```lua
 local itemIsSOSMessageSender = itemLib.IsSOSMessageSender( itemId )
 ```

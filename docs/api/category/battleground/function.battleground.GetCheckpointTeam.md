@@ -1,4 +1,9 @@
+---
+description: Возвращает идентификатор команды, которой принадлежит указанная контрольная точка на поле боя.
+---
+
 # battleground.GetCheckpointTeam
+
 Возвращает идентификатор команды, которой принадлежит указанная контрольная точка на поле боя.
 
 ## Описание
@@ -21,6 +26,7 @@ battleground.GetCheckpointTeam( checkpointId: ObjectId ): BattlegroundMarkId | n
 ## Примеры
 
 ### Получение идентификатора команды контрольной точки
+
 ```lua
 local teamId = battleground.GetCheckpointTeam( checkpointId )
 ```

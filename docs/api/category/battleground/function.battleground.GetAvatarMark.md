@@ -1,4 +1,9 @@
+---
+description: Возвращает идентификатор команды баттлграунда, к которой принадлежит аватар.
+---
+
 # battleground.GetAvatarMark
+
 Возвращает идентификатор команды баттлграунда, к которой принадлежит аватар.
 
 ## Описание
@@ -20,6 +25,7 @@ battleground.GetAvatarMark(): BattlegroundMarkId | nil
 ## Примеры
 
 ### Получение и вывод системного имени команды
+
 ```lua
 local commandMarkId = battleground.GetAvatarMark()
 if commandMarkId then

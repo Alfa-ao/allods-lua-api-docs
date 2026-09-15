@@ -1,4 +1,9 @@
+---
+description: Телепортирует игрока в указанную точку.
+---
+
 # avatar.UseHearthStoneToLocation
+
 Телепортирует игрока в указанную точку.
 
 ## Описание
@@ -21,6 +26,7 @@ avatar.UseHearthStoneToLocation( locationId: ObjectId | TeleportMasterId )
 ## Примеры
 
 ### Телепортация в указанную точку
+
 ```lua
 avatar.UseHearthStoneToLocation( locationId )
 ```

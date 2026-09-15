@@ -1,4 +1,9 @@
+---
+description: Выставляет коэффициент масштабирования для выбранного персонажа в сцене.
+---
+
 # changeRoom.SetSceneCharacterScaleFactor
+
 Выставляет коэффициент масштабирования для выбранного персонажа в сцене.
 
 ## Описание
@@ -13,6 +18,7 @@ changeRoom.SetSceneCharacterScaleFactor( characterId: ObjectId, scale: number )
 
 - **`characterId`** (`ObjectId`)
 Идентификатор персонажа в сцене, для которого необходимо задать масштаб. Значение не может быть `nil`.
+
 - **`scale`** (`number`)
 Коэффициент масштабирования (число с плавающей точкой) для указанного персонажа.
 
@@ -23,6 +29,7 @@ changeRoom.SetSceneCharacterScaleFactor( characterId: ObjectId, scale: number )
 ## Примеры
 
 ### Установка масштаба для основного персонажа
+
 ```lua
 changeRoom.SetSceneCharacterScaleFactor( primaryCharacterId, 1.5 )
 ```

@@ -1,3 +1,7 @@
+---
+description: Задает неформатированный текст для данного ValuedText.
+---
+
 # ValuedTextSafe:SetPlainText
 
 Задает неформатированный текст для данного ValuedText.

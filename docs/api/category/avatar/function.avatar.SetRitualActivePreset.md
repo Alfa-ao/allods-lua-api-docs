@@ -1,4 +1,9 @@
+---
+description: Устанавливает активный набор ритуальных вещей.
+---
+
 # avatar.SetRitualActivePreset
+
 Устанавливает активный набор ритуальных вещей.
 
 ## Описание
@@ -25,6 +30,7 @@ avatar.SetRitualActivePreset( preset: number )
 ## Примеры
 
 ### Установка вторичного набора ритуальных вещей
+
 ```lua
 avatar.SetRitualActivePreset( DUMMY_TYPE_SECONDARY )
 ```

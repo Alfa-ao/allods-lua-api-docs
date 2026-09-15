@@ -1,4 +1,9 @@
+---
+description: Изменяет описание гильдии.
+---
+
 # guild.SetDescription
+
 Изменяет описание гильдии.
 
 ## Описание
@@ -23,6 +28,7 @@ guild.SetDescription( description: WString )
 ## Примеры
 
 ### Установка описания
+
 ```lua
 guild.SetDescription( description )
 ```

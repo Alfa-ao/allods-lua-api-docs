@@ -1,3 +1,7 @@
+---
+description: Возвращает стиль текста.
+---
+
 # TextViewSafe:GetTextStyle
 
 Возвращает стиль текста.

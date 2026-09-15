@@ -1,4 +1,9 @@
+---
+description: Проверяет, является ли предмет пробником.
+---
+
 # itemLib.IsProbe
+
 Проверяет, является ли предмет пробником.
 
 ## Описание
@@ -19,6 +24,7 @@ itemLib.IsProbe( itemId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка предмета
+
 ```lua
 local isProbe = itemLib.IsProbe( itemId )
 ```

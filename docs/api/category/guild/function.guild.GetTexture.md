@@ -1,4 +1,9 @@
+---
+description: Возвращает текстуру гильдии.
+---
+
 # guild.GetTexture
+
 Возвращает текстуру гильдии.
 
 ## Описание
@@ -20,6 +25,7 @@ guild.GetTexture(): TextureId | nil
 ## Примеры
 
 ### Получение и применение текстуры гильдии
+
 ```lua
 local texture = guild.GetTexture()
 if texture then

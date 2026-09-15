@@ -1,4 +1,9 @@
+---
+description: Возвращает курс продажи кристаллов в сервисе обмена валют.
+---
+
 # currencyExchange.CalcSellRate
+
 Возвращает курс продажи кристаллов в сервисе обмена валют.
 
 ## Описание
@@ -20,6 +25,7 @@ currencyExchange.CalcSellRate(): number
 ## Примеры
 
 ### Расчет курса продажи
+
 ```lua
 if currencyExchange.IsServiceActive() then
     local sellRate = currencyExchange.CalcSellRate()

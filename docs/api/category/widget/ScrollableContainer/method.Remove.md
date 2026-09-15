@@ -1,4 +1,9 @@
+---
+description: Удаляет указанный элемент из контейнера по переданному виджету.
+---
+
 # ScrollableContainerSafe:Remove
+
 Удаляет указанный элемент из контейнера по переданному виджету.
 
 ## Описание
@@ -23,6 +28,7 @@ ScrollableContainerSafe:Remove( widget: WidgetSafe )
 ## Примеры
 
 ### Удаление элемента из контейнера
+
 ```lua
 wtScrollableContainer:Remove( wtButton )
 ```

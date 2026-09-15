@@ -1,4 +1,9 @@
+---
+description: Размещает в сцене аватаров по информации о главном игроке и задает пол для основных и дополнительных персонажей.
+---
+
 # changeRoom.SetSceneAvatarByTemplate
+
 Размещает в сцене аватаров по информации о главном игроке и задает пол для основных и дополнительных персонажей.
 
 ## Описание
@@ -13,12 +18,16 @@ changeRoom.SetSceneAvatarByTemplate( isPrimaryMale: boolean, isTrio2Male: boolea
 
 - **`isPrimaryMale`** (`boolean`)
 Пол основного персонажа.
+
 - **`isTrio2Male`** (`boolean`)
 Пол второго (дополнительного) персонажа. Параметр игнорируется, если персонаж не является трио.
+
 - **`isTrio3Male`** (`boolean`)
 Пол третьего (дополнительного) персонажа. Параметр игнорируется, если персонаж не является трио.
+
 - **`petIndex`** (`number` | `nil`)
 Индекс облика пета, если он присутствует.
+
 - **`growthIndex`** (`number` | `nil`)
 Номер стадии развития персонажа, начиная с 0.
 
@@ -29,6 +38,7 @@ changeRoom.SetSceneAvatarByTemplate( isPrimaryMale: boolean, isTrio2Male: boolea
 ## Примеры
 
 ### Размещение аватаров с заданными параметрами
+
 ```lua
 changeRoom.SetSceneAvatarByTemplate( true, true, true, 1, 1 )
 ```

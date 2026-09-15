@@ -1,4 +1,9 @@
+---
+description: Проверяет, находится ли щит в состоянии регенерирования.
+---
+
 # device.IsShieldRegenInProgress
+
 Проверяет, находится ли щит в состоянии регенерирования.
 
 ## Описание
@@ -20,6 +25,7 @@ device.IsShieldRegenInProgress( shieldDeviceId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка состояния регенерации щита
+
 ```lua
 if device.IsShieldRegenInProgress( shieldDeviceId ) then
     LogInfo( "regeneration" )

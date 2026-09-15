@@ -1,3 +1,7 @@
+---
+description: Возвращает информацию о задании.
+---
+
 # proceduralDungeonLib.GetGoalInfo
 
 Возвращает информацию о задании.

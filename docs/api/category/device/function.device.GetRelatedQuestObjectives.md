@@ -1,4 +1,9 @@
+---
+description: Возвращает список целей заданий игрока, которые связаны с указанным устройством.
+---
+
 # device.GetRelatedQuestObjectives
+
 Возвращает список целей заданий игрока, которые связаны с указанным устройством.
 
 ## Описание
@@ -21,6 +26,7 @@ device.GetRelatedQuestObjectives( deviceId: ObjectId ): table|nil
 ## Примеры
 
 ### Получение и проверка связанных целей заданий
+
 ```lua
 local questObjectives = device.GetRelatedQuestObjectives( deviceId )
 if questObjectives and questObjectives[ 1 ] then

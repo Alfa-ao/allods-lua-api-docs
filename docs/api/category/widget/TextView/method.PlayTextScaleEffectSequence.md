@@ -1,3 +1,7 @@
+---
+description: Запускает цепочку эффектов масштабирования текста в TextView.
+---
+
 # TextViewSafe:PlayTextScaleEffectSequence
 
 Запускает цепочку эффектов масштабирования текста в TextView.

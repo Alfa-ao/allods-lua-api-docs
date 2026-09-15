@@ -1,3 +1,7 @@
+---
+description: Запускает эффект поворота текстур виджета.
+---
+
 # WidgetSafe:PlayRotationWithChildrenEffect
 
 Запускает эффект поворота текстур виджета.

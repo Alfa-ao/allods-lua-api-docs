@@ -1,3 +1,7 @@
+---
+description: Меняет текстуру для фонового слоя.
+---
+
 # WidgetSafe:SetBackgroundTexture
 
 Меняет текстуру для фонового слоя.

@@ -1,4 +1,9 @@
+---
+description: Возвращает идентификатор ресурса альтернативной валюты талантов маунта.
+---
+
 # mount.GetTalentCurrency
+
 Возвращает идентификатор ресурса альтернативной валюты талантов маунта.
 
 ## Описание
@@ -20,6 +25,7 @@ mount.GetTalentCurrency(): CurrencyId | nil
 ## Примеры
 
 ### Получение идентификатора альтернативной валюты
+
 ```lua
 local talentCurrency = mount.GetTalentCurrency()
 ```

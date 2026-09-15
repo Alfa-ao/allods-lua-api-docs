@@ -1,3 +1,7 @@
+---
+description: Возвращает текстуру фонового слоя.
+---
+
 # WidgetSafe:GetBackgroundTexture
 
 Возвращает текстуру фонового слоя.

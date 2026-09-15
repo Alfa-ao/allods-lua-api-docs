@@ -1,4 +1,9 @@
+---
+description: Применяет новые значения для опции или коллекции.
+---
+
 # options.Apply
+
 Применяет новые значения для опции или коллекции.
 
 ## Описание
@@ -19,6 +24,7 @@ options.Apply( optionBaseId: ObjectId )
 ## Примеры
 
 ### Применение значений опции
+
 ```lua
 options.Apply( optionBaseId )
 ```

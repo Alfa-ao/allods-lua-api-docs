@@ -1,4 +1,9 @@
+---
+description: Извлекает информацию об истории недавних сражений.
+---
+
 # mwar.GetGuildHistory
+
 Извлекает информацию об истории недавних сражений.
 
 ## Описание
@@ -29,6 +34,7 @@ mwar.GetGuildHistory(): table | nil
 ## Примеры
 
 ### Получение истории сражений
+
 ```lua
 local history = mwar.GetGuildHistory()
 LogInfo( history.winLeadName )

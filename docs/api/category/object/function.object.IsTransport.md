@@ -1,4 +1,9 @@
+---
+description: Определяет, является ли интерактивный объект транспортом.
+---
+
 # object.IsTransport
+
 Определяет, является ли интерактивный объект транспортом.
 
 ## Описание
@@ -20,6 +25,7 @@ object.IsTransport( id: ObjectId ): boolean
 ## Примеры
 
 ### Проверка объекта на принадлежность к транспорту
+
 ```lua
 local id = avatar.GetTarget()
 if object.IsTransport( id ) then

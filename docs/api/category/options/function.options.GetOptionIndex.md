@@ -1,3 +1,7 @@
+---
+description: Возвращает номер варианта опции (baseIndex).
+---
+
 # options.GetOptionIndex
 
 Возвращает номер варианта опции (baseIndex).

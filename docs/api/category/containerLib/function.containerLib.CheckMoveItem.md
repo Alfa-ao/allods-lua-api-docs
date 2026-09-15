@@ -1,3 +1,7 @@
+---
+description: Проверяет возможность перемещения предмета.
+---
+
 # containerLib.CheckMoveItem
 
 Проверяет возможность перемещения предмета.
@@ -43,3 +47,4 @@ containerLib.CheckMoveItem( itemId, ITEM_CONT_INVENTORY, 12, nil )
 ## Смотрите также
 
 - [containerLib.CheckMoveSlotItem](/api/category/containerLib/function.containerLib.CheckMoveSlotItem.md)
+- [ITEM_CONT_INVENTORY](/api/constants/constants.ITEM_CONT.md)

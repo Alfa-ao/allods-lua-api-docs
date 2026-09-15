@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о гильдии, участвующей в Доминионе.
+---
+
 # mwar.GetGuildInfo
+
 Возвращает информацию о гильдии, участвующей в Доминионе.
 
 ## Описание
@@ -28,6 +33,7 @@ mwar.GetGuildInfo( guildId: ObjectId ): table | nil
 ## Примеры
 
 ### Получение информации о гильдии
+
 ```lua
 local guildInfo = mwar.GetGuildInfo( guildId )
 ```

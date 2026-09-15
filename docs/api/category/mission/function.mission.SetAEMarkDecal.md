@@ -1,4 +1,9 @@
+---
+description: Устанавливает декал для AEMark.
+---
+
 # mission.SetAEMarkDecal
+
 Устанавливает декал для AEMark.
 
 ## Описание
@@ -20,6 +25,7 @@ mission.SetAEMarkDecal( decalId: DecalObjectId )
 ## Примеры
 
 ### Установка декала для AEMark
+
 ```lua
 local decalId = common.GetAddonRelatedDecal( "AEMark" ) -- DEPRECATED
 mission.SetAEMarkDecal( decalId )

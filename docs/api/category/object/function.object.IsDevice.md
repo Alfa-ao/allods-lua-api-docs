@@ -1,4 +1,9 @@
+---
+description: Определяет, является ли интерактивный объект устройством.
+---
+
 # object.IsDevice
+
 Определяет, является ли интерактивный объект устройством.
 
 ## Описание
@@ -20,6 +25,7 @@ object.IsDevice( id: ObjectId ): boolean
 ## Примеры
 
 ### Проверка объекта на принадлежность к устройствам
+
 ```lua
 local id = avatar.GetTarget()
 if object.IsDevice( id ) then

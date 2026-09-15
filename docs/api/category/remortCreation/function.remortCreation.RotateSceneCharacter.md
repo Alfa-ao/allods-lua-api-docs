@@ -1,3 +1,7 @@
+---
+description: Поворачивает указанного персонажа в сцене.
+---
+
 # remortCreation.RotateSceneCharacter
 
 Поворачивает указанного персонажа в сцене.

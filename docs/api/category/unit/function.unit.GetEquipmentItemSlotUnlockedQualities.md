@@ -1,4 +1,9 @@
+---
+description: Возвращает состояние разблокированности слота экипировки для главного или инспектируемого игрока.
+---
+
 # unit.GetEquipmentItemSlotUnlockedQualities
+
 Возвращает состояние разблокированности слота экипировки для главного или инспектируемого игрока.
 
 ## Описание
@@ -25,6 +30,7 @@ unit.GetEquipmentItemSlotUnlockedQualities( unitId: ObjectId, equipmentSlot: num
 ## Примеры
 
 ### Проверка состояния разблокированности слота
+
 ```lua
 local unlock = unit.GetEquipmentItemSlotUnlockedQualities( unitId, equipmentSlot )
 if unlock.isFullyUnlocked then

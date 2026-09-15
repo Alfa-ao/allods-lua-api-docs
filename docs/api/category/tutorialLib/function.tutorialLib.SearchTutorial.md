@@ -1,4 +1,9 @@
+---
+description: Инициирует поиск обучения, результат которого передается через событие EVENT_TUTORIAL_SEARCH_RESULT.
+---
+
 # tutorialLib.SearchTutorial
+
 Инициирует поиск обучения, результат которого передается через событие EVENT_TUTORIAL_SEARCH_RESULT.
 
 ## Описание
@@ -19,6 +24,7 @@ tutorialLib.SearchTutorial( request: WString )
 ## Примеры
 
 ### Базовый вызов функции
+
 ```lua
 tutorialLib.SearchTutorial( inputWidget:GetText() )
 ```

@@ -1,4 +1,9 @@
+---
+description: Возвращает текущую версию Lua API.
+---
+
 # common.GetApiVersion
+
 Возвращает текущую версию Lua API.
 
 ## Описание
@@ -25,6 +30,7 @@ common.GetApiVersion(): number
 ## Примеры
 
 ### Проверка версии API для аддона
+
 ```lua
 local version = common.GetApiVersion()
 if version > addonApiVersion then

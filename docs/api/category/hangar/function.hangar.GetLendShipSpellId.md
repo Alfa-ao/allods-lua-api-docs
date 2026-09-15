@@ -1,4 +1,9 @@
+---
+description: Возвращает идентификатор спелла, используемого для передачи корабля.
+---
+
 # hangar.GetLendShipSpellId
+
 Возвращает идентификатор спелла, используемого для передачи корабля.
 
 ## Описание
@@ -20,6 +25,7 @@ hangar.GetLendShipSpellId(): SpellId | nil
 ## Примеры
 
 ### Проверка возможности передачи корабля
+
 ```lua
 local spellId = hangar.GetLendShipSpellId()
 local spellState = spellId and spellLib.GetState( spellId ) or nil

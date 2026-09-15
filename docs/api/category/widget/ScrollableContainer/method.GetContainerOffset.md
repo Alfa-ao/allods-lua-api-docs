@@ -1,3 +1,7 @@
+---
+description: Возвращает значение текущей прокрутки контейнера.
+---
+
 # ScrollableContainerSafe:GetContainerOffset
 
 Возвращает значение текущей прокрутки контейнера.

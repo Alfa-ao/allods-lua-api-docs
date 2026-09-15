@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о временном предмете, если предмет таковым является.
+---
+
 # itemLib.GetTemporaryInfo
+
 Возвращает информацию о временном предмете, если предмет таковым является.
 
 ## Описание
@@ -26,6 +31,7 @@ itemLib.GetTemporaryInfo( itemId: ObjectId ): table | nil
 ## Примеры
 
 ### Получение оставшегося времени жизни предмета
+
 ```lua
 local itemTemporaryInfo = itemLib.GetTemporaryInfo( itemId )
 local remainingMs = itemTemporaryInfo and itemTemporaryInfo.remainingMs

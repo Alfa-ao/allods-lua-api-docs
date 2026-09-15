@@ -1,4 +1,9 @@
+---
+description: Завершает взаимодействие с NPC.
+---
+
 # avatar.StopInteract
+
 Завершает взаимодействие с NPC.
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.StopInteract()
 ## Примеры
 
 ### Закрытие окна взаимодействия
+
 ```lua
 avatar.StopInteract()
 ```

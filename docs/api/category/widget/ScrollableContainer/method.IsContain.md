@@ -1,3 +1,7 @@
+---
+description: Проверяет наличие виджета в контейнере.
+---
+
 # ScrollableContainerSafe:IsContain
 
 Проверяет наличие виджета в контейнере.

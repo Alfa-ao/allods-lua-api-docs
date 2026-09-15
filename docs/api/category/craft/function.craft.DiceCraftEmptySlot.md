@@ -1,3 +1,7 @@
+---
+description: Делает заданный слот пустым.
+---
+
 # craft.DiceCraftEmptySlot
 
 Делает заданный слот пустым.

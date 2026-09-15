@@ -1,3 +1,7 @@
+---
+description: Выставляет аватара в сцене по заданному шаблону.
+---
+
 # remortCreation.SetSceneAvatarByTemplate
 
 Выставляет аватара в сцене по заданному шаблону.

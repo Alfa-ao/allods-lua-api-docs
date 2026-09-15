@@ -1,4 +1,9 @@
+---
+description: Возвращает идентификатор спелла для завершения текущего сценария процедурного данжа.
+---
+
 # proceduralDungeonLib.GetStopScenarioSpell
+
 Возвращает идентификатор спелла для завершения текущего сценария процедурного данжа.
 
 ## Описание
@@ -20,6 +25,7 @@ proceduralDungeonLib.GetStopScenarioSpell(): SpellId | nil
 ## Примеры
 
 ### Завершение сценария процедурного данжа
+
 ```lua
 local spellId = proceduralDungeonLib.GetStopScenarioSpell()
 if spellId then

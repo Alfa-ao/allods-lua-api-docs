@@ -1,3 +1,7 @@
+---
+description: Изменяет значение прокрутки контейнера.
+---
+
 # ScrollableContainerSafe:SetContainerOffset
 
 Изменяет значение прокрутки контейнера.

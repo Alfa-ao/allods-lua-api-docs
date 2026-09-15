@@ -1,3 +1,7 @@
+---
+description: Перемещает элемент контейнера.
+---
+
 # ScrollableContainerSafe:MoveElement
 
 Перемещает элемент контейнера.

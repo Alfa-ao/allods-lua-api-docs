@@ -1,4 +1,9 @@
+---
+description: Выбирает таланты души.
+---
+
 # soulProgressLib.SelectSoulTalents
+
 Выбирает таланты души.
 
 ## Описание
@@ -20,6 +25,7 @@ soulProgressLib.SelectSoulTalents( talents: table )
 ## Примеры
 
 ### Выбор талантов души
+
 ```lua
 local talents = { 1, 2, 3 }
 soulProgressLib.SelectSoulTalents( talents )

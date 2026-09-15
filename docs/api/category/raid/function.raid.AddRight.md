@@ -1,3 +1,7 @@
+---
+description: Добавляет право члену рейда.
+---
+
 # raid.AddRight
 
 Добавляет право члену рейда.
@@ -25,6 +29,7 @@ raid.AddRight( uniqueId: UniqueId, right: number )
 ## Примеры
 
 ### Добавление права участнику
+
 ```lua
 raid.AddRight( playerId, right )
 ```

@@ -1,4 +1,9 @@
+---
+description: Отписывает обработчик аддона от указанной реакции.
+---
+
 # common.UnRegisterReactionHandler
+
 Отписывает обработчик аддона от указанной реакции.
 
 ## Описание
@@ -13,6 +18,7 @@ common.UnRegisterReactionHandler( reactionFunction: function, sysReactionName: s
 
 - **`reactionFunction`** (`function`)
 Функция-обработчик, которую необходимо отписать от реакции.
+
 - **`sysReactionName`** (`string`)
 Системное название реакции, от которой производится отписка.
 
@@ -23,6 +29,7 @@ common.UnRegisterReactionHandler( reactionFunction: function, sysReactionName: s
 ## Примеры
 
 ### Отписка обработчика от реакции
+
 ```lua
 common.UnRegisterReactionHandler( OnReactionSample, "reaction_sample" )
 ```

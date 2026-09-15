@@ -1,4 +1,9 @@
+---
+description: Выводит аватар из очереди на инстанс-ивент.
+---
+
 # matchMaking.LeaveInstancedEventQueueById
+
 Выводит аватар из очереди на инстанс-ивент.
 
 ## Описание
@@ -20,6 +25,7 @@ matchMaking.LeaveInstancedEventQueueById( eventResourceId: InstancedEventResourc
 ## Примеры
 
 ### Выход из очереди на инстанс-ивент
+
 ```lua
 matchMaking.LeaveInstancedEventQueueById( eventResourceId )
 ```

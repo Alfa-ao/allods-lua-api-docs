@@ -1,4 +1,9 @@
+---
+description: Извлекает список идентификаторов контрольных точек баттлграунда при участии аватара в сражении.
+---
+
 # battleground.GetCheckpoints
+
 Извлекает список идентификаторов контрольных точек баттлграунда при участии аватара в сражении.
 
 ## Описание
@@ -20,6 +25,7 @@ battleground.GetCheckpoints(): table
 ## Примеры
 
 ### Получение информации о первой контрольной точке
+
 ```lua
 local checkpoints = battleground.GetCheckpoints()
 if checkpoints[0] ~= nil then

@@ -1,4 +1,9 @@
+---
+description: Возвращает идентификатор заклинания, прикреплённого к предмету.
+---
+
 # itemLib.GetSpell
+
 Возвращает идентификатор заклинания, прикреплённого к предмету.
 
 ## Описание
@@ -20,6 +25,7 @@ itemLib.GetSpell( itemId: ObjectId ): SpellId | nil
 ## Примеры
 
 ### Получение названия заклинания предмета
+
 ```lua
 local spellId = itemLib.GetSpell( itemId )
 local spellInfo = spellId and spellLib.GetDescription( spellId )

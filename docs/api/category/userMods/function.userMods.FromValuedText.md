@@ -1,3 +1,7 @@
+---
+description: Возвращает переданный `ValuedText` в виде строки.
+---
+
 # userMods.FromValuedText
 
 Возвращает переданный `ValuedText` в виде строки.

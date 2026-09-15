@@ -1,4 +1,9 @@
+---
+description: Извлекает общую информацию о вознаграждениях за вход в игру.
+---
+
 # mission.GetLoginLotteryInfo
+
 Извлекает общую информацию о вознаграждениях за вход в игру.
 
 ## Описание
@@ -30,6 +35,7 @@ mission.GetLoginLotteryInfo(): table|nil
 ## Примеры
 
 ### Получение информации о вознаграждениях
+
 ```lua
 local info = mission.GetLoginLotteryInfo()
 ```

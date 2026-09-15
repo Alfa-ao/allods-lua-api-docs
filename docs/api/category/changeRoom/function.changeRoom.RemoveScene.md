@@ -1,4 +1,9 @@
+---
+description: Убирает ранее созданную сцену, если она существует.
+---
+
 # changeRoom.RemoveScene
+
 Убирает ранее созданную сцену, если она существует.
 
 ## Описание
@@ -20,6 +25,7 @@ changeRoom.RemoveScene()
 ## Примеры
 
 ### Очистка сцены
+
 ```lua
 changeRoom.RemoveScene()
 ```

@@ -25,6 +25,7 @@ astral.GetObjects(): table
 ## Примеры
 
 ### Перебор и получение информации об астральных объектах
+
 ```lua
 local objects = astral.GetObjects()
 

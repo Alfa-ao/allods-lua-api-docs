@@ -1,4 +1,9 @@
+---
+description: Проверяет наличие предмета в прокачанном оружии или экипировке аватара.
+---
+
 # poweredLSWeaponsLib.IsItemInPoweredContainer
+
 Проверяет наличие предмета в прокачанном оружии или экипировке аватара.
 
 ## Описание
@@ -20,6 +25,7 @@ poweredLSWeaponsLib.IsItemInPoweredContainer( itemId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка наличия предмета
+
 ```lua
 local isItemInPoweredContainer = poweredLSWeaponsLib.IsItemInPoweredContainer( itemId )
 ```

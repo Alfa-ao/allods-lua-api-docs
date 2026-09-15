@@ -1,4 +1,9 @@
+---
+description: Возвращает текущие значения костей.
+---
+
 # craft.DiceCraftGetCurrentDices
+
 Возвращает текущие значения костей.
 
 ## Описание
@@ -26,6 +31,7 @@ craft.DiceCraftGetCurrentDices()
 ## Примеры
 
 ### Получение текущих значений костей
+
 ```lua
 local dices = craft.DiceCraftGetCurrentDices()
 ```

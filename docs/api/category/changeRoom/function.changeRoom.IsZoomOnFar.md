@@ -1,4 +1,9 @@
+---
+description: Определяет, отзумлена ли камера на максимум.
+---
+
 # changeRoom.IsZoomOnFar
+
 Определяет, отзумлена ли камера на максимум.
 
 ## Описание
@@ -20,6 +25,7 @@ changeRoom.IsZoomOnFar(): boolean
 ## Примеры
 
 ### Переключение зума, если он не установлен на максимум
+
 ```lua
 if changeRoom.IsZoomEnabled() and not changeRoom.IsZoomOnFar() then
   changeRoom.ToggleZoom()

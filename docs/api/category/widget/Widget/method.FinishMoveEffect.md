@@ -1,3 +1,7 @@
+---
+description: Прерывает эффект типа [ET_MOVE](/api/constants/constants.ET.md).
+---
+
 # WidgetSafe:FinishMoveEffect
 
 Прерывает эффект типа [ET_MOVE](/api/constants/constants.ET.md).

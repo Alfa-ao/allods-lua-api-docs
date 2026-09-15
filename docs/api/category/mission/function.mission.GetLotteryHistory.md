@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о победителях в лотерее "Лото".
+---
+
 # mission.GetLotteryHistory
+
 Возвращает информацию о победителях в лотерее "Лото".
 
 ## Описание
@@ -40,6 +45,7 @@ mission.GetLotteryHistory(): table|nil
 ## Примеры
 
 ### Получение информации о победителе
+
 ```lua
 local info = mission.GetLotteryHistory()
 if info then

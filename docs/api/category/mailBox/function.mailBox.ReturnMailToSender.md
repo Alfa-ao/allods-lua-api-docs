@@ -1,4 +1,9 @@
+---
+description: Инициирует возврат письма отправителю.
+---
+
 # mailBox.ReturnMailToSender
+
 Инициирует возврат письма отправителю.
 
 ## Описание
@@ -24,6 +29,7 @@ mailBox.ReturnMailToSender( mailId: ObjectId ): boolean
 ## Примеры
 
 ### Возврат письма отправителю
+
 ```lua
 mailBox.ReturnMailToSender( mailId )
 ```

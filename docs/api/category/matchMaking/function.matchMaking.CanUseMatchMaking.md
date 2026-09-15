@@ -1,4 +1,9 @@
+---
+description: Определяет, может ли аватар вообще участвовать в инстанс-ивентах.
+---
+
 # matchMaking.CanUseMatchMaking
+
 Определяет, может ли аватар вообще участвовать в инстанс-ивентах.
 
 ## Описание
@@ -23,6 +28,7 @@ matchMaking.CanUseMatchMaking(): boolean, string
 ## Примеры
 
 ### Проверка возможности участия и подписка на события
+
 ```lua
 if matchMaking.CanUseMatchMaking() then
     matchMaking.ListenEvents( true )

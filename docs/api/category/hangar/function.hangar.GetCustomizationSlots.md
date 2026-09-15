@@ -1,4 +1,9 @@
+---
+description: Возвращает список слотов для визуальной кастомизации корабля в ангаре главного игрока.
+---
+
 # hangar.GetCustomizationSlots
+
 Возвращает список слотов для визуальной кастомизации корабля в ангаре главного игрока.
 
 ## Описание
@@ -20,6 +25,7 @@ hangar.GetCustomizationSlots(): table
 ## Примеры
 
 ### Итерация по доступным слотам кастомизации
+
 ```lua
 if hangar.CanCustomize() then
     for i, slotId in ipairs( hangar.GetCustomizationSlots() ) do

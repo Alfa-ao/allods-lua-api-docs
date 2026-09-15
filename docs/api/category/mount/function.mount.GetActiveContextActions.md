@@ -1,4 +1,9 @@
+---
+description: Возвращает текущий список контекстных действий ездового животного главного игрока.
+---
+
 # mount.GetActiveContextActions
+
 Возвращает текущий список контекстных действий ездового животного главного игрока.
 
 ## Описание
@@ -22,6 +27,7 @@ mount.GetActiveContextActions(): table | nil
 ## Примеры
 
 ### Получение списка контекстных действий
+
 ```lua
 local contextActions = mount.GetActiveContextActions()
 ```

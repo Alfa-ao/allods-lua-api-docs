@@ -1,3 +1,7 @@
+---
+description: Меняет формат текста для данного ValuedText.
+---
+
 # ValuedTextSafe:SetFormat
 
 Меняет формат текста для данного ValuedText.

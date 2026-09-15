@@ -1,4 +1,9 @@
+---
+description: Возвращает цель пушки.
+---
+
 # device.GetCannonTarget
+
 Возвращает цель пушки.
 
 ## Описание
@@ -15,11 +20,13 @@ device.GetCannonTarget( cannonDeviceId: ObjectId ): ObjectId|nil
 ## Возвращаемые значения
 
 Возвращает `ObjectId` или `nil`.
+
 - **`result`** (`ObjectId` | `nil`) - Идентификатор цели (интерактивный объект).
 
 ## Примеры
 
 ### Получение цели пушки
+
 ```lua
 local id = device.GetCannonTarget( deviceId )
 ```

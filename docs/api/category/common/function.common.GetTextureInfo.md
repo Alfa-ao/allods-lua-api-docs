@@ -1,4 +1,9 @@
+---
+description: Извлекает и возвращает детальную информацию о текстуре по её идентификатору.
+---
+
 # common.GetTextureInfo
+
 Извлекает и возвращает детальную информацию о текстуре по её идентификатору.
 
 ## Описание
@@ -22,9 +27,13 @@ common.GetTextureInfo( textureId: TextureId ): ?table
 
 Возвращает таблицу (`table`) со следующими полями:
 - **`xdbFile`** (`string`) - путь до xdb файла текстуры. Если файл недоступен, возвращается строка `"(serialized)"`.
+
 - **`binaryFile`** (`string`) - путь до bin файла текстуры. Доступен всегда.
+
 - **`type`** (`number`) - тип текстуры. Возможные значения: `0` (DXT1), `1` (DXT3), `2` (DXT5).
+
 - **`realWidth`** (`number`) - реальная ширина текстуры в пикселях.
+
 - **`realHeight`** (`number`) - реальная высота текстуры в пикселях.
 
 или `nil`, если текстура не найдена.
@@ -32,6 +41,7 @@ common.GetTextureInfo( textureId: TextureId ): ?table
 ## Примеры
 
 ### Получение информации о текстуре заклинания
+
 ```lua
 local spellInfo = avatar.GetSpellInfo( spellId )
 local textureId = spellInfo and spellInfo.texture

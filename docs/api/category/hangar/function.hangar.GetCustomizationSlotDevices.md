@@ -1,4 +1,9 @@
+---
+description: Возвращает список идентификаторов устройств для кастомизации определённого слота корабля, имеющихся в ангаре.
+---
+
 # hangar.GetCustomizationSlotDevices
+
 Возвращает список идентификаторов устройств для кастомизации определённого слота корабля, имеющихся в ангаре.
 
 ## Описание
@@ -24,6 +29,7 @@ hangar.GetCustomizationSlotDevices( slotId: ObjectId ): table
 ## Примеры
 
 ### Получение устройств кастомизации для всех доступных слотов
+
 ```lua
 if hangar.CanCustomize() then
     for i, slotId in ipairs( hangar.GetCustomizationSlots() ) do

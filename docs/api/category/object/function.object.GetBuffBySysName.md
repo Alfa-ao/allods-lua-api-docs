@@ -1,4 +1,9 @@
+---
+description: Выполняет поиск инстансов баффа с заданным системным именем на указанном объекте.
+---
+
 # object.GetBuffBySysName
+
 Выполняет поиск инстансов баффа с заданным системным именем на указанном объекте.
 
 ## Описание
@@ -22,6 +27,7 @@ object.GetBuffBySysName( objectId: ObjectId, sysName: string ): ObjectId | nil
 ## Примеры
 
 ### Проверка наличия баффа у персонажа
+
 ```lua
 if object.GetBuffBySysName( avatar.GetId(), FLAG_BUFF_NAME ) then
     -- Действия при наличии баффа

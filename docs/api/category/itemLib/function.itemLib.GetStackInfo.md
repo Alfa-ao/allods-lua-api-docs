@@ -1,4 +1,9 @@
+---
+description: Извлекает информацию о стеке предмета.
+---
+
 # itemLib.GetStackInfo
+
 Извлекает информацию о стеке предмета.
 
 ## Описание
@@ -26,6 +31,7 @@ itemLib.GetStackInfo( itemId: ObjectId ): table | nil
 ## Примеры
 
 ### Получение количества предметов в стеке
+
 ```lua
 local itemStack = itemLib.GetStackInfo( itemId )
 local itemStackCount = itemStack and itemStack.count

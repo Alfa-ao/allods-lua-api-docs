@@ -1,3 +1,7 @@
+---
+description: Создает и возвращает новый экземпляр `ValuedObject`.
+---
+
 # common.CreateValuedObject
 
 Создает и возвращает новый экземпляр `ValuedObject`.

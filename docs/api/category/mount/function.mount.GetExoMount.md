@@ -1,4 +1,9 @@
+---
+description: Возвращает идентификатор имеющегося экзоскелета.
+---
+
 # mount.GetExoMount
+
 Возвращает идентификатор имеющегося экзоскелета.
 
 ## Описание
@@ -20,6 +25,7 @@ mount.GetExoMount(): ObjectId | nil
 ## Примеры
 
 ### Получение идентификатора и талантов экзоскелета
+
 ```lua
 local exoMountId = mount.GetExoMount()
 local currentTalents = mount.GetSelectedTalents( exoMountId )

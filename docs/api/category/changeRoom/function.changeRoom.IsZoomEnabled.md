@@ -1,4 +1,9 @@
+---
+description: Определяет доступность масштабирования лица при выборе или создании персонажа.
+---
+
 # changeRoom.IsZoomEnabled
+
 Определяет доступность масштабирования лица при выборе или создании персонажа.
 
 ## Описание
@@ -24,6 +29,7 @@ changeRoom.IsZoomEnabled(): boolean
 ## Примеры
 
 ### Проверка доступности и переключение режима масштабирования
+
 ```lua
 if changeRoom.IsZoomEnabled() and not changeRoom.IsZoomOnFace() then
     changeRoom.ToggleZoom()

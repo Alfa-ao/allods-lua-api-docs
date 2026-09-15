@@ -1,4 +1,9 @@
+---
+description: Возвращает количество похожих предметов в указанном контейнере.
+---
+
 # containerLib.GetSimilarItemStackCount
+
 Возвращает количество похожих предметов в указанном контейнере.
 
 ## Описание
@@ -22,6 +27,7 @@ containerLib.GetSimilarItemStackCount( id: ObjectId, slotType: number ): number
 ## Примеры
 
 ### Получение количества похожих предметов в инвентаре
+
 ```lua
 local count = containerLib.GetSimilarItemStackCount( itemId, ITEM_CONT_INVENTORY )
 ```

@@ -1,4 +1,9 @@
+---
+description: Возвращает элемент прокручиваемого контейнера по указанной позиции.
+---
+
 # ScrollableContainerSafe:At
+
 Возвращает элемент прокручиваемого контейнера по указанной позиции.
 
 ## Описание
@@ -20,6 +25,7 @@ ScrollableContainerSafe:At( pos: number ): WidgetSafe | nil
 ## Примеры
 
 ### Получение элемента по индексу
+
 ```lua
 local wtButton = wtScrollableContainer:At( 5 )
 ```

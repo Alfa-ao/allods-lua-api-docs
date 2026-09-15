@@ -1,3 +1,7 @@
+---
+description: Возвращает серверное время в формате unixTimeMs.
+---
+
 # mission.GetWorldTimeMs
 
 Возвращает серверное время в формате unixTimeMs.

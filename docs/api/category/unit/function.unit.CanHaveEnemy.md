@@ -1,4 +1,9 @@
+---
+description: Возвращает признак возможности наличия врагов у юнита.
+---
+
 # unit.CanHaveEnemy
+
 Возвращает признак возможности наличия врагов у юнита.
 
 ## Описание
@@ -20,6 +25,7 @@ unit.CanHaveEnemy( unitId: ObjectId ): boolean
 ## Примеры
 
 ### Получение признака наличия врагов
+
 ```lua
 local canHaveEnemy = unit.CanHaveEnemy( unitId )
 ```

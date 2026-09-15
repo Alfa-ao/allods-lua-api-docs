@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о бафе для отображения в тултипе.
+---
+
 # object.GetBuffTooltipInfo
+
 Возвращает информацию о бафе для отображения в тултипе.
 
 ## Описание
@@ -36,6 +41,7 @@ object.GetBuffTooltipInfo( id: ObjectId | BuffId ): table | nil
 ## Примеры
 
 ### Получение информации о бафе для тултипа
+
 ```lua
 templates[ TOOLTIP_BUFF ].GetDataFrom = function( self, params )
 	local data

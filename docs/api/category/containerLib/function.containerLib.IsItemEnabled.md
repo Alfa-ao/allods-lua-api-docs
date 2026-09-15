@@ -1,4 +1,9 @@
+---
+description: Проверяет наличие активных транзакций, связанных с указанным предметом.
+---
+
 # containerLib.IsItemEnabled
+
 Проверяет наличие активных транзакций, связанных с указанным предметом.
 
 ## Описание
@@ -18,6 +23,7 @@ containerLib.IsItemEnabled( itemId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка доступности действий с предметом
+
 ```lua
 local actionsAvailable = containerLib.IsItemEnabled( itemId )
 ```

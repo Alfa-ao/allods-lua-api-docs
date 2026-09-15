@@ -1,4 +1,9 @@
+---
+description: Выставляет указанную вариацию для выбранного персонажа в сцене.
+---
+
 # changeRoom.SetSceneCharacterVariation
+
 Выставляет указанную вариацию для выбранного персонажа в сцене.
 
 ## Описание
@@ -17,6 +22,7 @@ changeRoom.SetSceneCharacterVariation( characterId: ObjectId, variation: table )
 
 - **`characterId`** (`ObjectId`)
 Идентификатор персонажа в сцене.
+
 - **`variation`** (`table`)
 Таблица с информацией, задающей вариацию для аватара. Поля:
 - `skinTexture` (`number`) - индекс вариации тела [0..].
@@ -35,6 +41,7 @@ changeRoom.SetSceneCharacterVariation( characterId: ObjectId, variation: table )
 ## Примеры
 
 ### Установка вариации для основного персонажа
+
 ```lua
 local variation = {
     skinTexture = 0,

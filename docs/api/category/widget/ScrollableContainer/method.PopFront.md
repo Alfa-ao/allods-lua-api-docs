@@ -1,3 +1,7 @@
+---
+description: Удаляет первый элемент из контейнера.
+---
+
 # ScrollableContainerSafe:PopFront
 
 Удаляет первый элемент из контейнера.

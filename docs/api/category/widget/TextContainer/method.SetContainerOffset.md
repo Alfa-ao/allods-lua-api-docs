@@ -1,3 +1,7 @@
+---
+description: Изменяет значение прокрутки контейнера.
+---
+
 # TextContainerSafe:SetContainerOffset
 
 Изменяет значение прокрутки контейнера.

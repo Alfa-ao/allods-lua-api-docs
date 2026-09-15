@@ -1,4 +1,9 @@
+---
+description: Извлекает информацию о пользовательском бинде.
+---
+
 # binding.GetBind
+
 Извлекает информацию о пользовательском бинде.
 
 ## Описание
@@ -17,6 +22,7 @@ binding.GetBind( sysSectionName: string, sysBindName: string ): table | nil
 
 - **`sysSectionName`** (`string`)
 Идентификатор секции, к которой принадлежит бинд.
+
 - **`sysBindName`** (`string`)
 Идентификатор (служебное название) искомого бинда.
 
@@ -26,8 +32,10 @@ binding.GetBind( sysSectionName: string, sysBindName: string ): table | nil
 Таблица содержит следующие поля:
 - **`sysName`** (`string`)
 Служебное название (идентификатор) бинда (то же самое, что и `sysBindName`).
+
 - **`name`** (`WString`)
 Локализованное название бинда.
+
 - **`keys`** (`table`)
 Список комбинаций клавиш бинда. Индексация начинается с `0`. Может содержать произвольное количество элементов (вплоть до нуля).
   - (`table`) - список клавиш, из которых состоит данная комбинация. Индексация также начинается с `0`.
@@ -36,6 +44,7 @@ binding.GetBind( sysSectionName: string, sysBindName: string ): table | nil
 ## Примеры
 
 ### Получение и вывод информации о бинде
+
 ```lua
 local bind = binding.GetBind( sysSectionName, sysBindName )
 if bind then

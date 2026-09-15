@@ -1,4 +1,9 @@
+---
+description: Возвращает имя шарда, на котором происходит игра.
+---
+
 # mission.GetShardName
+
 Возвращает имя шарда, на котором происходит игра.
 
 ## Описание
@@ -20,6 +25,7 @@ mission.GetShardName(): string
 ## Примеры
 
 ### Получение имени текущего шарда
+
 ```lua
 LogInfo( "shardName: ", mission.GetShardName() )
 ```

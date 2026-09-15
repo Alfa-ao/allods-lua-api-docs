@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о слоте и контейнере, содержащем предмет.
+---
+
 # containerLib.GetItemSlot
+
 Возвращает информацию о слоте и контейнере, содержащем предмет.
 
 ## Описание
@@ -28,6 +33,7 @@ containerLib.GetItemSlot( itemId: ObjectId, slotType: number | nil )
 ## Примеры
 
 ### Поиск предмета во всех открытых контейнерах
+
 ```lua
 local slotType, slot = containerLib.GetItemSlot( itemId )
 if slotType then

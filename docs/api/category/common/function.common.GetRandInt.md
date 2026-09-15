@@ -1,4 +1,9 @@
+---
+description: Генерирует целое псевдо-случайное число в заданном диапазоне.
+---
+
 # common.GetRandInt
+
 Генерирует целое псевдо-случайное число в заданном диапазоне.
 
 ## Описание
@@ -24,6 +29,7 @@ common.GetRandInt( min: number, max: number ): number
 ## Примеры
 
 ### Генерация и вывод случайного числа
+
 ```lua
 local randValue = common.GetRandInt( 10, 20 )
 LogInfo( "rand int: " .. tostring( randValue ) )

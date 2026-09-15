@@ -1,4 +1,9 @@
+---
+description: Покупает корабельное устройство, находясь в ангаре в режиме замены.
+---
+
 # hangar.PurchaseDevice
+
 Покупает корабельное устройство, находясь в ангаре в режиме замены.
 
 ## Описание
@@ -20,6 +25,7 @@ hangar.PurchaseDevice( deviceId: ObjectId )
 ## Примеры
 
 ### Покупка корабельного устройства
+
 ```lua
 hangar.PurchaseDevice( allowedDeviceId )
 ```

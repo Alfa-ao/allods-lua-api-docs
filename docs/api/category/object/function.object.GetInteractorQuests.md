@@ -1,4 +1,9 @@
+---
+description: Извлекает списки квестов, имеющих отношение к интерактивному объекту, для вычисления квестовой метки.
+---
+
 # object.GetInteractorQuests
+
 Извлекает списки квестов, имеющих отношение к интерактивному объекту, для вычисления квестовой метки.
 
 ## Описание
@@ -28,6 +33,7 @@ object.GetInteractorQuests( objectId: ObjectId ): table | nil
 ## Примеры
 
 ### Получение списка квестов для выдачи
+
 ```lua
 local quests = object.GetInteractorQuests( objectId )
 if quests then

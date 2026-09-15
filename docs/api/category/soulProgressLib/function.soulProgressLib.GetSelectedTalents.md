@@ -1,4 +1,9 @@
+---
+description: Возвращает активированные таланты души.
+---
+
 # soulProgressLib.GetSelectedTalents
+
 Возвращает активированные таланты души.
 
 ## Описание
@@ -20,6 +25,7 @@ soulProgressLib.GetSelectedTalents(): table
 ## Примеры
 
 ### Получение списка активных талантов
+
 ```lua
 local talents = soulProgressLib.GetSelectedTalents()
 ```

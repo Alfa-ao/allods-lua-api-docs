@@ -25,6 +25,7 @@ avatar.GetPos(): GamePosition
 ## Примеры
 
 ### Получение и вывод координаты X аватара
+
 ```lua
 local pos = avatar.GetPos()
 LogInfo( "x: ", pos.posX )

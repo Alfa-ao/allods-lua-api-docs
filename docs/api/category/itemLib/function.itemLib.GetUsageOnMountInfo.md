@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию об использовании предмета на маунте.
+---
+
 # itemLib.GetUsageOnMountInfo
+
 Возвращает информацию об использовании предмета на маунте.
 
 ## Описание
@@ -28,6 +33,7 @@ itemLib.GetUsageOnMountInfo( itemId: ObjectId, mountId: ObjectId ): table
 ## Примеры
 
 ### Получение информации об использовании
+
 ```lua
 local itemUsageOnMountInfo = itemLib.GetUsageOnMountInfo( itemId, mountId )
 ```

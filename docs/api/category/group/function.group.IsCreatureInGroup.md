@@ -1,3 +1,7 @@
+---
+description: Находится ли указанный игрок или наемник-NPC в группе главного игрока.
+---
+
 # group.IsCreatureInGroup
 
 Находится ли указанный игрок или наемник-NPC в группе главного игрока.
@@ -23,6 +27,7 @@ group.IsCreatureInGroup( id: WString | ObjectId | UniqueId ): boolean
 ## Примеры
 
 ### Проверка нахождения юнита в группе
+
 ```lua
 if group.IsCreatureInGroup( unitId ) then
     common.LogInfo( "Юнит находится в группе." )

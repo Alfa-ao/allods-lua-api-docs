@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о всех доступных в игре сетовых бонусах.
+---
+
 # itemLib.GetSetBonusRoot
+
 Возвращает информацию о всех доступных в игре сетовых бонусах.
 
 ## Описание
@@ -30,6 +35,7 @@ itemLib.GetSetBonusRoot(): table | nil
 ## Примеры
 
 ### Получение и перебор списка сетовых бонусов
+
 ```lua
 local setBonusRootInfo = itemLib.GetSetBonusRoot()
 if setBonusRootInfo then

@@ -1,4 +1,9 @@
+---
+description: Изменяет скин ездового животного метаморфа главного игрока.
+---
+
 # mount.SetMetamorphSkin
+
 Изменяет скин ездового животного метаморфа главного игрока.
 
 ## Описание
@@ -21,6 +26,7 @@ mount.SetMetamorphSkin( skinId: ObjectId )
 ## Примеры
 
 ### Изменение скина метаморфа
+
 ```lua
 local skinId = 12345
 mount.SetMetamorphSkin( skinId )

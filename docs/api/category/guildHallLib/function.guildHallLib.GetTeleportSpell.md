@@ -1,4 +1,9 @@
+---
+description: Возвращает заклинание телепортации в оплот гильдии.
+---
+
 # guildHallLib.GetTeleportSpell
+
 Возвращает заклинание телепортации в оплот гильдии.
 
 ## Описание
@@ -20,6 +25,7 @@ guildHallLib.GetTeleportSpell(): SpellId | nil
 ## Примеры
 
 ### Получение состояния заклинания телепортации
+
 ```lua
 local guildHallTeleport = guildHallLib.GetTeleportSpell()
 local teleportSpellState = guildHallTeleport and spellLib.GetState( guildHallTeleport )

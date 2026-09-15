@@ -1,4 +1,9 @@
+---
+description: Возвращает настройку отображения овертипа юнита.
+---
+
 # unit.GetOvertipCustomView
+
 Возвращает настройку отображения овертипа юнита.
 
 ## Описание
@@ -20,6 +25,7 @@ unit.GetOvertipCustomView( unitId: ObjectId ): number
 ## Примеры
 
 ### Получение настройки отображения овертипа
+
 ```lua
 local overtipCustomViewOption = unit.GetOvertipCustomView( unitId )
 ```

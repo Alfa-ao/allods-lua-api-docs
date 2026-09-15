@@ -1,3 +1,7 @@
+---
+description: Возвращает текущее количество опыта души.
+---
+
 # soulProgressLib.GetCurrentExperience
 
 Возвращает текущее количество опыта души.

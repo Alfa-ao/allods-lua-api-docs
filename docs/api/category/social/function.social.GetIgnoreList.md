@@ -1,4 +1,9 @@
+---
+description: Возвращает список игнорирования текущего аватара игрока.
+---
+
 # social.GetIgnoreList
+
 Возвращает список игнорирования текущего аватара игрока.
 
 ## Описание
@@ -20,6 +25,7 @@ social.GetIgnoreList(): table
 ## Примеры
 
 ### Получение и обход списка игнорирования
+
 ```lua
 local ignories = social.GetIgnoreList()
 for i = 0, GetTableSize( ignories ) - 1 do

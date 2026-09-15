@@ -1,4 +1,9 @@
+---
+description: Делает переход на шаг вперед при обзоре истории ввода и возвращает строку ввода чата в предыдущее состояние.
+---
+
 # mission.SetChatInputNextData
+
 Делает переход на шаг вперед при обзоре истории ввода и возвращает строку ввода чата в предыдущее состояние.
 
 ## Описание
@@ -20,6 +25,7 @@ mission.SetChatInputNextData( wtEditLine: EditLineSafe )
 ## Примеры
 
 ### Переход по истории ввода
+
 ```lua
 mission.SetChatInputNextData( wtEditLine )
 ```

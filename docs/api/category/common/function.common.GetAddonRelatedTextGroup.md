@@ -1,3 +1,7 @@
+---
+description: Возвращает группу связанных с аддоном текстовых ресурсов.
+---
+
 # common.GetAddonRelatedTextGroup
 
 Возвращает группу связанных с аддоном текстовых ресурсов.
@@ -13,6 +17,7 @@ common.GetAddonRelatedTextGroup( sysGroup: string, optional: boolean|nil ): Rela
 ## Список параметров
 
 - **`sysGroup`** (`string`) - Идентификатор искомой группы текстовых ресурсов.
+
 - **`optional`** (`boolean` | `nil`) - Флаг, определяющий поведение при отсутствии группы. Если передано `true`, отсутствие искомой группы не считается ошибкой. По умолчанию принимает значение `false`.
 
 ## Возвращаемые значения
@@ -22,6 +27,7 @@ common.GetAddonRelatedTextGroup( sysGroup: string, optional: boolean|nil ): Rela
 ## Примеры
 
 ### Получение группы текстов и извлечение конкретного текста
+
 ```lua
 local _textAddonGroups = {}
 
@@ -48,6 +54,7 @@ end
 :::
 
 ### Default example doc
+
 ```lua
 --------------------------------------------------------------------------------
 -- Text caches

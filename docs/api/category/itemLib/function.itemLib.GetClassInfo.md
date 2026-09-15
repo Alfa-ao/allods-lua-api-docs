@@ -1,4 +1,9 @@
+---
+description: Извлекает информацию о классе предмета по идентификатору класса.
+---
+
 # itemLib.GetClassInfo
+
 Извлекает информацию о классе предмета по идентификатору класса.
 
 ## Описание
@@ -26,6 +31,7 @@ itemLib.GetClassInfo( itemClassId: ItemClassId ): table|nil
 ## Примеры
 
 ### Получение информации о классе предмета
+
 ```lua
 local itemClassId = itemLib.GetClass( itemId )
 if itemClassId then

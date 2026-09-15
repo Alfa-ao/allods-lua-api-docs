@@ -1,4 +1,9 @@
+---
+description: Заносит объект в список для проецирования в 2D координаты.
+---
+
 # object.AddToProjected
+
 Заносит объект в список для проецирования в 2D координаты.
 
 ## Описание
@@ -22,6 +27,7 @@ object.AddToProjected( objectId: ObjectId, heightOffset: number )
 ## Примеры
 
 ### Привязка точки проецирования к голове цели
+
 ```lua
 object.AddToProjected( avatar.GetTarget(), ATTACHED_OBJECT_POS_UP )
 ```

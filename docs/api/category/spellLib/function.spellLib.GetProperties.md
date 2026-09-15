@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о базовых значениях статических свойств умения по его идентификатору.
+---
+
 # spellLib.GetProperties
+
 Возвращает информацию о базовых значениях статических свойств умения по его идентификатору.
 
 ## Описание
@@ -56,6 +61,7 @@ spellLib.GetProperties( id: SpellId ): table | nil
 ## Примеры
 
 ### Получение информации об умении из книги заклинаний
+
 ```lua
 local spellbook = avatar.GetSpellBook()
 local spellInfo = spellLib.GetProperties( spellbook[1] )

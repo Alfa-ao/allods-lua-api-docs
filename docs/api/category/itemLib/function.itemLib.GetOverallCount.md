@@ -1,4 +1,9 @@
+---
+description: Возвращает суммарное количество зарядов всех подобных предметов, имеющихся у игрока.
+---
+
 # itemLib.GetOverallCount
+
 Возвращает суммарное количество зарядов всех подобных предметов, имеющихся у игрока.
 
 ## Описание
@@ -20,6 +25,7 @@ itemLib.GetOverallCount( itemId: ObjectId ): number
 ## Примеры
 
 ### Получение суммарного количества зарядов
+
 ```lua
 local itemOverallChargesCount = itemLib.GetOverallCount( itemId )
 ```

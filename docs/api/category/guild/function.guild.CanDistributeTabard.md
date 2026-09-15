@@ -1,4 +1,9 @@
+---
+description: Проверяет возможность выдачи знака отличия в награду члену гильдии главного игрока.
+---
+
 # guild.CanDistributeTabard
+
 Проверяет возможность выдачи знака отличия в награду члену гильдии главного игрока.
 
 ## Описание
@@ -20,6 +25,7 @@ guild.CanDistributeTabard( memberId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка и выдача знака отличия
+
 ```lua
 if guild.CanDistributeTabard( memberId ) then
     guild.DistributeTabard( memberId, ENUM_TabardType_Champion )

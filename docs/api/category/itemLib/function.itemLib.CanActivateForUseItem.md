@@ -1,4 +1,9 @@
+---
+description: Проверяет возможность активации предмета для применения на другом предмете.
+---
+
 # itemLib.CanActivateForUseItem
+
 Проверяет возможность активации предмета для применения на другом предмете.
 
 ## Описание
@@ -20,6 +25,7 @@ itemLib.CanActivateForUseItem( sourceId: ObjectId ): boolean | nil
 ## Примеры
 
 ### Проверка возможности активации предмета
+
 ```lua
 local canActivate = false
 if itemLib.IsUseItemAndTakeActions( sourceId ) then

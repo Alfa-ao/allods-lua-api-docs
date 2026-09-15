@@ -1,4 +1,9 @@
+---
+description: Возвращает новый экземпляр `ValuedObject` по идентификатору маунта.
+---
+
 # mount.GetValuedObject
+
 Возвращает новый экземпляр `ValuedObject` по идентификатору маунта.
 
 ## Описание
@@ -24,6 +29,7 @@ mount.GetValuedObject( mountId: ObjectId ): ValuedObject
 ## Примеры
 
 ### Получение объекта маунта
+
 ```lua
 local valuedObject = mount.GetValuedObject( mountId )
 ```

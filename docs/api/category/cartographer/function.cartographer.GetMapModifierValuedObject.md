@@ -1,3 +1,7 @@
+---
+description: Формирует и возвращает новый экземпляр ValuedObject для модификатора карты.
+---
+
 # cartographer.GetMapModifierValuedObject
 
 Формирует и возвращает новый экземпляр ValuedObject для модификатора карты.

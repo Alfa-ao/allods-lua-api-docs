@@ -1,3 +1,7 @@
+---
+description: Задает текст для EditLine.
+---
+
 # EditLineSafe:SetText
 
 Задает текст для EditLine.

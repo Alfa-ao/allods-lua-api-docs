@@ -1,3 +1,7 @@
+---
+description: Изменяет значения атрибутов у тега или тегов в экземпляре `ValuedText`.
+---
+
 # ValuedTextSafe:SetTagAttributes
 
 Изменяет значения атрибутов у тега или тегов в экземпляре `ValuedText`.

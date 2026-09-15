@@ -1,3 +1,7 @@
+---
+description: Задает оформление для выделенного текста в элементе EditLine.
+---
+
 # EditLineSafe:SetSelectionClass
 
 Задает оформление для выделенного текста в элементе EditLine.

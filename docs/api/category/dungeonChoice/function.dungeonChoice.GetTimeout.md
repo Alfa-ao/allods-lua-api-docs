@@ -1,4 +1,9 @@
+---
+description: Возвращает время, отведенное на выбор личного приключения для атаки.
+---
+
 # dungeonChoice.GetTimeout
+
 Возвращает время, отведенное на выбор личного приключения для атаки.
 
 ## Описание
@@ -24,6 +29,7 @@ dungeonChoice.GetTimeout(): table
 ## Примеры
 
 ### Получение времени на выбор
+
 ```lua
 local durationMs = dungeonChoice.GetTimeout().durationMs
 ```

@@ -1,4 +1,9 @@
+---
+description: Определяет текущее состояние отображения пользовательского интерфейса.
+---
+
 # common.IsUIRenderEnabled
+
 Определяет текущее состояние отображения пользовательского интерфейса.
 
 ## Описание
@@ -20,6 +25,7 @@ common.IsUIRenderEnabled(): boolean
 ## Примеры
 
 ### Получение состояния отображения UI
+
 ```lua
 local isUIVisible = common.IsUIRenderEnabled()
 ```

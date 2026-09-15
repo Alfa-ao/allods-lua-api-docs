@@ -1,4 +1,9 @@
+---
+description: Возвращает список идентификаторов экземпляров бафов, находящихся на данном объекте и соответствующих заданному критерию поиска.
+---
+
 # object.GetBuffInstances
+
 Возвращает список идентификаторов экземпляров бафов, находящихся на данном объекте и соответствующих заданному критерию поиска.
 
 ## Описание
@@ -22,6 +27,7 @@ object.GetBuffInstances( objectId: ObjectId, key: BuffId | string | number ): ta
 ## Примеры
 
 ### Получение списка бафов аватара
+
 ```lua
 local avatarBuffs = object.GetBuffInstances( avatar.GetId(), buffId )
 ```

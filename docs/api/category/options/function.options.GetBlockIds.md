@@ -1,4 +1,9 @@
+---
+description: Возвращает таблицу с идентификаторами всех блоков для заданной группы опций.
+---
+
 # options.GetBlockIds
+
 Возвращает таблицу с идентификаторами всех блоков для заданной группы опций.
 
 [<Badge type="warning" text="^17.1.*" />](/index.md#17.0.0-options.Get...Ids) [<Badge type="warning" text="^18.0.0" />](/index.md#17.0.0-options.Get...Ids) <Badge type="warning" text="Process" />
@@ -21,6 +26,7 @@ options.GetBlockIds( groupId: ObjectId ): table
 ## Примеры
 
 ### Получение и перебор идентификаторов блоков
+
 ```lua
 local blockIds = options.GetBlockIds( groupId )
 for _, blockId in ipairs( blockIds ) do

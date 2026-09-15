@@ -1,4 +1,9 @@
+---
+description: Создает и возвращает новый экземпляр `ValuedText`.
+---
+
 # common.CreateValuedText
+
 Создает и возвращает новый экземпляр `ValuedText`.
 
 ## Описание

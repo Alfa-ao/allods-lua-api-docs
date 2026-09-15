@@ -1,4 +1,9 @@
+---
+description: Задает значение для указанного тега элемента управления.
+---
+
 # ButtonSafe:SetVal
+
 Задает значение для указанного тега элемента управления.
 
 ## Описание
@@ -13,6 +18,7 @@ ButtonSafe:SetVal( tag: string|WString, value: WString )
 
 - **`tag`** (`string` | `WString`)
 Текстовый идентификатор тега, для которого задается значение.
+
 - **`value`** (`WString`)
 Устанавливаемое значение для указанного тега.
 
@@ -23,6 +29,7 @@ ButtonSafe:SetVal( tag: string|WString, value: WString )
 ## Примеры
 
 ### Установка значения для тега элемента управления
+
 ```lua
 wtButton:SetVal( "tag", userMods.ToWString( "tagValue" ) )
 ```

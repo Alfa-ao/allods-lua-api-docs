@@ -1,4 +1,9 @@
+---
+description: Возвращает сводную информацию о боссе гильдии.
+---
+
 # guildBossLib.GetInfo
+
 Возвращает сводную информацию о боссе гильдии.
 
 ## Описание
@@ -34,6 +39,7 @@ guildBossLib.GetInfo(): table | nil
 ## Примеры
 
 ### Получение информации о боссе гильдии
+
 ```lua
 local guildBossInfo = guildBossLib.IsExist() and guildBossLib.GetInfo()
 ```

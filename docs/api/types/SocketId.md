@@ -1,3 +1,7 @@
+---
+description: ::: danger DEPRECATED
+---
+
 # SocketId
 
 ::: danger DEPRECATED

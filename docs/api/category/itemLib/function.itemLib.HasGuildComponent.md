@@ -1,4 +1,9 @@
+---
+description: Проверяет наличие в предмете компонентов, зависящих от состояния гильдии игрока.
+---
+
 # itemLib.HasGuildComponent
+
 Проверяет наличие в предмете компонентов, зависящих от состояния гильдии игрока.
 
 ## Описание
@@ -20,6 +25,7 @@ itemLib.HasGuildComponent( itemId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка наличия гильдейского компонента
+
 ```lua
 local hasGuildComponent = itemLib.HasGuildComponent( itemId )
 ```

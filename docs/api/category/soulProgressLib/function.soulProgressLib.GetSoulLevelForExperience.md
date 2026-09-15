@@ -1,4 +1,9 @@
+---
+description: Рассчитывает уровень души на основе значения опыта.
+---
+
 # soulProgressLib.GetSoulLevelForExperience
+
 Рассчитывает уровень души на основе значения опыта.
 
 ## Описание
@@ -20,6 +25,7 @@ soulProgressLib.GetSoulLevelForExperience( value: number ): number
 ## Примеры
 
 ### Расчет уровня души
+
 ```lua
 local value = soulProgressLib.GetCurrentExperience()
 local level = soulProgressLib.GetSoulLevelForExperience( value )

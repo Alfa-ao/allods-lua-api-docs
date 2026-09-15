@@ -1,3 +1,7 @@
+---
+description: Вызывает немедленную репозицию контейнера.
+---
+
 # ScrollableContainerSafe:ForceReposition
 
 Вызывает немедленную репозицию контейнера.

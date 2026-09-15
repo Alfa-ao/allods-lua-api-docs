@@ -1,4 +1,9 @@
+---
+description: Проверяет возможность передачи предмета другому игроку.
+---
+
 # itemLib.CanTrade
+
 Проверяет возможность передачи предмета другому игроку.
 
 ## Описание
@@ -20,6 +25,7 @@ itemLib.CanTrade( itemId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка возможности передачи предмета
+
 ```lua
 local canTrade = itemLib.CanTrade( itemId )
 if canTrade then

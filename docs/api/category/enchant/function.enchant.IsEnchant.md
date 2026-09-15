@@ -1,4 +1,9 @@
+---
+description: Определяет, является ли предмет энчантом.
+---
+
 # enchant.IsEnchant
+
 Определяет, является ли предмет энчантом.
 
 ## Описание
@@ -20,6 +25,7 @@ enchant.IsEnchant( itemId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка предмета на принадлежность к энчантам
+
 ```lua
 if enchant.IsEnchant( itemId ) then
     local slot = enchant.GetEnchantSlot( itemId )

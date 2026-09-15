@@ -1,4 +1,9 @@
+---
+description: Проверяет, находится ли скроллер в самом начале.
+---
+
 # ScrollableContainerSafe:IsSliderMin
+
 Проверяет, находится ли скроллер в самом начале.
 
 ## Описание
@@ -20,6 +25,7 @@ ScrollableContainerSafe:IsSliderMin(): boolean
 ## Примеры
 
 ### Проверка положения скроллера
+
 ```lua
 if wtScrollableContainer:IsSliderMin() then
     -- do something

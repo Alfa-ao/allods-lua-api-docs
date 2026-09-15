@@ -1,4 +1,9 @@
+---
+description: Извлекает и возвращает список всех доступных CSS-классов.
+---
+
 # common.GetCSSList
+
 Извлекает и возвращает список всех доступных CSS-классов.
 
 ## Описание
@@ -21,6 +26,7 @@ common.GetCSSList( id: ?string ): table
 ## Примеры
 
 ### Получение и применение первого CSS-класса
+
 ```lua
 local listCSS = common.GetCSSList()
 wt:SetGlobalClasses( { listCSS[ 1 ] } )

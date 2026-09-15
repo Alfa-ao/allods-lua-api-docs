@@ -1,4 +1,9 @@
+---
+description: Возвращает список вопросов, на которые в данный момент ожидается ответ от игрока.
+---
+
 # questionLib.GetQuestions
+
 Возвращает список вопросов, на которые в данный момент ожидается ответ от игрока.
 
 ## Описание
@@ -20,6 +25,7 @@ questionLib.GetQuestions(): table
 ## Примеры
 
 ### Получение и проверка списка вопросов
+
 ```lua
 local questions = questionLib.GetQuestions()
 if questions[0] then

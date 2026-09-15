@@ -1,4 +1,9 @@
+---
+description: Проверяет, является ли указанный идентификатор контрольной точкой баттлграунда.
+---
+
 # battleground.IsCheckpoint
+
 Проверяет, является ли указанный идентификатор контрольной точкой баттлграунда.
 
 ## Описание
@@ -21,6 +26,7 @@ battleground.IsCheckpoint( checkpointId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка идентификатора и получение информации о контрольной точке
+
 ```lua
 if checkpointId and battleground.IsCheckpoint( checkpointId ) then
     local checkpointInfo = battleground.GetCheckpointInfo( checkpointId )

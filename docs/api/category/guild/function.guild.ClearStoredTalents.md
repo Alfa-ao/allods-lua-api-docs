@@ -1,4 +1,9 @@
+---
+description: Сбрасывает выбранные на изучение вехи талантов гильдии.
+---
+
 # guild.ClearStoredTalents
+
 Сбрасывает выбранные на изучение вехи талантов гильдии.
 
 ## Описание
@@ -13,8 +18,10 @@ guild.ClearStoredTalents( field: ?number, row: ?number, column: ?number )
 
 - **`field`** (`?number`)
 Номер поля талантов. Если параметр опущен, выполняется полный сброс всех вех.
+
 - **`row`** (`?number`)
 Номер строки целевой вехи.
+
 - **`column`** (`?number`)
 Номер столбца целевой вехи.
 
@@ -25,11 +32,13 @@ guild.ClearStoredTalents( field: ?number, row: ?number, column: ?number )
 ## Примеры
 
 ### Полный сброс всех вех
+
 ```lua
 guild.ClearStoredTalents()
 ```
 
 ### Сброс конкретной вехи и сопутствующих
+
 ```lua
 guild.ClearStoredTalents( 0, 4, 5 )
 ```

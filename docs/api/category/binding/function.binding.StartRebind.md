@@ -1,4 +1,9 @@
+---
+description: Включает режим распознавания горячих клавиш.
+---
+
 # binding.StartRebind
+
 Включает режим распознавания горячих клавиш.
 
 ## Описание
@@ -17,8 +22,10 @@ binding.StartRebind( sysSectionName: string, sysBindName: string, index: number 
 
 - **`sysSectionName`** (`string`)
 Идентификатор секции настроек, в которой находится переназначаемая реакция.
+
 - **`sysBindName`** (`string`)
 Идентификатор бинда (реакции), для которого выполняется переназначение клавиши.
+
 - **`index`** (`number`)
 Индекс горячей клавиши, подлежащей переназначению.
 
@@ -29,6 +36,7 @@ binding.StartRebind( sysSectionName: string, sysBindName: string, index: number 
 ## Примеры
 
 ### Запуск процесса переназначения горячей клавиши
+
 ```lua
 binding.StartRebind( sysSectionName, sysBindName, 1 )
 ```

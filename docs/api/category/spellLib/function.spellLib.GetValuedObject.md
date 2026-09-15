@@ -1,4 +1,9 @@
+---
+description: Возвращает новый экземпляр `ValuedObject` для заклинания.
+---
+
 # spellLib.GetValuedObject
+
 Возвращает новый экземпляр `ValuedObject` для заклинания.
 
 ## Описание
@@ -24,6 +29,7 @@ spellLib.GetValuedObject( spellId: ObjectId ): ValuedObject
 ## Примеры
 
 ### Получение объекта заклинания
+
 ```lua
 local spellId = spellInfo.id
 local valuedObject = spellLib.GetValuedObject( spellId )

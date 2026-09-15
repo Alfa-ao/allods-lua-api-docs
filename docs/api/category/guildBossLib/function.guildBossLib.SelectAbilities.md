@@ -1,4 +1,9 @@
+---
+description: Осуществляет выбор заклинаний и способностей босса гильдии.
+---
+
 # guildBossLib.SelectAbilities
+
 Осуществляет выбор заклинаний и способностей босса гильдии.
 
 ## Описание
@@ -21,6 +26,7 @@ guildBossLib.SelectAbilities( abilities: table )
 ## Примеры
 
 ### Выбор способностей босса гильдии
+
 ```lua
 local bossInfo = guildBossLib.IsExist() and guildBossLib.GetInfo()
 if bossInfo and bossInfo.currentState then

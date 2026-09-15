@@ -24,11 +24,13 @@ astral.GetAstrolabeInfo(): table | nil
 
 Если информация доступна, возвращается таблица со следующими полями:
 - **`jumpSpellId`** (`SpellId`) - идентификатор заклинания для стандартного прыжка в сектор.
+
 - **`chargedJumpSpellId`** (`SpellId`) - идентификатор заклинания для прыжка в сектор с использованием заряда ускорения.
 
 ## Примеры
 
 ### Получение и проверка состояния заклинания прыжка
+
 ```lua
 local astrolabeInfo = astral.GetAstrolabeInfo()
 if astrolabeInfo and astrolabeInfo.jumpSpellId then

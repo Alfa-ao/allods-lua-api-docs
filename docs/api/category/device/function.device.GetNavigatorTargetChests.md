@@ -1,4 +1,9 @@
+---
+description: Извлекает список названий сундуков в трюме корабля, осматриваемого через визор навигатора.
+---
+
 # device.GetNavigatorTargetChests
+
 Извлекает список названий сундуков в трюме корабля, осматриваемого через визор навигатора.
 
 ## Описание
@@ -22,6 +27,7 @@ device.GetNavigatorTargetChests(): table|nil
 ## Примеры
 
 ### Получение списка сундуков
+
 ```lua
 local chests = device.GetNavigatorTargetChests()
 if chests then

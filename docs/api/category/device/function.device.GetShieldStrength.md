@@ -1,4 +1,9 @@
+---
+description: Возвращает текущую и максимальную силу щита.
+---
+
 # device.GetShieldStrength
+
 Возвращает текущую и максимальную силу щита.
 
 ## Описание
@@ -18,11 +23,13 @@ device.GetShieldStrength( shieldDeviceId: ObjectId ): table|nil
 Возвращает `table` или `nil`.
 Если устройство найдено и является щитом, возвращается таблица со следующими полями:
 - **`value`** (`number`) - Текущая сила щита.
+
 - **`maxValue`** (`number`) - Максимальная сила щита.
 
 ## Примеры
 
 ### Получение и вывод силы щита
+
 ```lua
 local strength = device.GetShieldStrength( shieldDeviceId )
 if strength then

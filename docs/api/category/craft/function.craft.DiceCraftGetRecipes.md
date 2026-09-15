@@ -1,4 +1,9 @@
+---
+description: Возвращает список рецептов, доступных в текущем сеансе крафтинга.
+---
+
 # craft.DiceCraftGetRecipes
+
 Возвращает список рецептов, доступных в текущем сеансе крафтинга.
 
 ## Описание
@@ -20,6 +25,7 @@ craft.DiceCraftGetRecipes(): table|nil
 ## Примеры
 
 ### Получение и проверка списка доступных рецептов
+
 ```lua
 local recipes = craft.DiceCraftGetRecipes()
 if recipes and recipes[0] then

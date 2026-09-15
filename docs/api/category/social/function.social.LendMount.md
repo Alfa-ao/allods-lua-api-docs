@@ -1,4 +1,9 @@
+---
+description: Передает ездовое животное главного игрока указанному побратиму.
+---
+
 # social.LendMount
+
 Передает ездовое животное главного игрока указанному побратиму.
 
 ## Описание
@@ -12,6 +17,7 @@ social.LendMount( friendId: ObjectId, mountId: ObjectId )
 ## Список параметров
 
 - **`friendId`** (`ObjectId`) - Уникальный идентификатор побратима, которому передается ездовое животное.
+
 - **`mountId`** (`ObjectId`) - Уникальный идентификатор ездового животного, находящегося в конюшне главного игрока.
 
 ## Возвращаемые значения
@@ -21,6 +27,7 @@ social.LendMount( friendId: ObjectId, mountId: ObjectId )
 ## Примеры
 
 ### Проверка побратима и передача ездового животного
+
 ```lua
 local friends = social.GetFriendList()
 local friendId = friends[ 0 ]

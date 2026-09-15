@@ -1,4 +1,9 @@
+---
+description: Возвращает текущее состояние клавиши CapsLock.
+---
+
 # common.IsCapsLockEnabled
+
 Возвращает текущее состояние клавиши CapsLock.
 
 ## Описание
@@ -20,6 +25,7 @@ common.IsCapsLockEnabled(): boolean
 ## Примеры
 
 ### Проверка и вывод состояния CapsLock
+
 ```lua
 LogInfo( common.IsCapsLockEnabled() )
 ```

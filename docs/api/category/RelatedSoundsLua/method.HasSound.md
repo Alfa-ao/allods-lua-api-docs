@@ -1,4 +1,9 @@
+---
+description: Проверяет наличие звука с указанным идентификатором в группе.
+---
+
 # RelatedSoundsLua:HasSound
+
 Проверяет наличие звука с указанным идентификатором в группе.
 
 ## Описание
@@ -20,6 +25,7 @@ RelatedSoundsLua:HasSound( sysName: string ): boolean
 ## Примеры
 
 ### Проверка наличия звука
+
 ```lua
 if group:HasSound( "test01" ) then
     LogInfo( "Звук найден в группе." )

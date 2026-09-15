@@ -1,4 +1,9 @@
+---
+description: Запрашивает информацию о вариациях персонажей с сервера.
+---
+
 # remortCreation.RequestAllVariations
+
 Запрашивает информацию о вариациях персонажей с сервера.
 
 ## Описание
@@ -24,6 +29,7 @@ remortCreation.RequestAllVariations()
 ## Примеры
 
 ### Запрос вариаций персонажей
+
 ```lua
 remortCreation.RequestAllVariations()
 ```

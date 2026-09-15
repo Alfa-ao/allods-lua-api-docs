@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о количестве эманации транспортного средства.
+---
+
 # transport.GetInsight
+
 Возвращает информацию о количестве эманации транспортного средства.
 
 ## Описание
@@ -19,6 +24,7 @@ transport.GetInsight( transportId: ObjectId ): number
 ## Примеры
 
 ### Получение количества эманации транспорта
+
 ```lua
 local transportId = unit.GetTransport( avatar.GetId() )
 if transportId then

@@ -1,4 +1,9 @@
+---
+description: Возвращает идентификатор владельца пета.
+---
+
 # unit.GetPetOwner
+
 Возвращает идентификатор владельца пета.
 
 ## Описание
@@ -20,6 +25,7 @@ unit.GetPetOwner( unitId: ObjectId ): ObjectId | nil
 ## Примеры
 
 ### Проверка и получение владельца пета
+
 ```lua
 if unit.IsPet( unitId ) then
     local petOwnerId = unit.GetPetOwner( unitId )

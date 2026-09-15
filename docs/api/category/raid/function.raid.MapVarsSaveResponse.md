@@ -1,3 +1,7 @@
+---
+description: Отправляет серверу ответ на событие `EVENT_RAID_ENTER_VARS_MAP_WARNING`.
+---
+
 # raid.MapVarsSaveResponse
 
 Отправляет серверу ответ на событие `EVENT_RAID_ENTER_VARS_MAP_WARNING`.

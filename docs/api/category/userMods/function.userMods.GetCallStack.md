@@ -1,3 +1,7 @@
+---
+description: Возвращает lua стектрейс.
+---
+
 # userMods.GetCallStack
 
 Возвращает lua стектрейс.

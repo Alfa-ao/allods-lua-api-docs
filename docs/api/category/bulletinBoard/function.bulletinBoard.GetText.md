@@ -1,4 +1,9 @@
+---
+description: Возвращает текст объявления на доске объявлений.
+---
+
 # bulletinBoard.GetText
+
 Возвращает текст объявления на доске объявлений.
 
 ## Описание
@@ -21,6 +26,7 @@ bulletinBoard.GetText( postId: number ): WString | nil
 ## Примеры
 
 ### Получение и проверка текста объявления
+
 ```lua
 local text = bulletinBoard.GetText( postId )
 if text then

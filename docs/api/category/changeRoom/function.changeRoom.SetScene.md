@@ -1,4 +1,9 @@
+---
+description: Создает сцену для работы с персонажами в указанном трехмерном контроле.
+---
+
 # changeRoom.SetScene
+
 Создает сцену для работы с персонажами в указанном трехмерном контроле.
 
 ## Описание
@@ -17,6 +22,7 @@ changeRoom.SetScene( wtControl3D: Control3DSafe, sceneName: string )
 
 - **`wtControl3D`** (`Control3DSafe`)
 Трехмерный контрол, для которого инициализируется сцена.
+
 - **`sceneName`** (`string`)
 Имя сцены, выбираемой из списка `characterScenes`.
 
@@ -27,6 +33,7 @@ changeRoom.SetScene( wtControl3D: Control3DSafe, sceneName: string )
 ## Примеры
 
 ### Установка сцены для контрола
+
 ```lua
 changeRoom.SetScene( wtControl3D, "coolScene" )
 ```

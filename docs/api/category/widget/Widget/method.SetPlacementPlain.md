@@ -1,3 +1,7 @@
+---
+description: Задает новое расположение виджета.
+---
+
 # WidgetSafe:SetPlacementPlain
 
 Задает новое расположение виджета.

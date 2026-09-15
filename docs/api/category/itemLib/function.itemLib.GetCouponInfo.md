@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о предмете-купоне.
+---
+
 # itemLib.GetCouponInfo
+
 Возвращает информацию о предмете-купоне.
 
 ## Описание
@@ -24,6 +29,7 @@ itemLib.GetCouponInfo( itemResourceId: ItemId ): table
 ## Примеры
 
 ### Получение информации о купоне
+
 ```lua
 local couponInfo = itemLib.GetCouponInfo( itemResourceId )
 ```

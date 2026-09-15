@@ -1,4 +1,9 @@
+---
+description: Сбрасывает указанную опцию или коллекцию в их базовые значения.
+---
+
 # options.Cancel
+
 Сбрасывает указанную опцию или коллекцию в их базовые значения.
 
 ## Описание
@@ -19,6 +24,7 @@ options.Cancel( optionBaseId: ObjectId )
 ## Примеры
 
 ### Сброс опции
+
 ```lua
 options.Cancel( optionBaseId )
 ```

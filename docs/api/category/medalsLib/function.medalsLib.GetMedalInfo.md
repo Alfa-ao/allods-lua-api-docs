@@ -1,4 +1,9 @@
+---
+description: Извлекает информацию о достижении.
+---
+
 # medalsLib.GetMedalInfo
+
 Извлекает информацию о достижении.
 
 ## Описание
@@ -19,14 +24,23 @@ medalsLib.GetMedalInfo( id: ObjectId ): table|nil
 - **`id`** (`ObjectId`) - Идентификатор достижения.
 
 - **`medalId`** (`MedalId`) - Идентификатор ресурса достижения.
+
 - **`medalRankId`** (`MedalRankId`) - Идентификатор ресурса ранга достижения.
+
 - **`name`** (`WString`) - Название достижения.
+
 - **`description`** (`WString`) - Описание достижения.
+
 - **`image`** (`TextureId`) - Картинка достижения.
+
 - **`canLink`** (`boolean`) - `true`, если можно линковать в чат.
+
 - **`finishDate`** (`int64`) - Дата выполнения.
+
 - **`categoryIndex`** (`int`) - Индекс категории (порядковый номер категории из `medalsLib.GetCategories()` начиная с 0).
+
 - **`subCategoryIndex`** (`int`) - Индекс подкатегории.
+
 - **`progress`** (`table`) - Данные о прогрессе выполнения. Таблица со следующими полями:
     - **`value`** (`int64`) - Прогресс выполнения.
     - **`title`** (`WString` | `nil`) - Заголовок для прогрессбара.
@@ -47,6 +61,7 @@ medalsLib.GetMedalInfo( id: ObjectId ): table|nil
 ## Примеры
 
 ### Получение информации о первом достижении
+
 ```lua
 local medals = medalsLib.GetMedals()
 if medals then

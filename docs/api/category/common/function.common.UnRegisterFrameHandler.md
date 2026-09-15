@@ -1,3 +1,7 @@
+---
+description: Удаляет обработчик события кадра.
+---
+
 # common.UnRegisterFrameHandler
 
 Удаляет обработчик события кадра.

@@ -1,4 +1,9 @@
+---
+description: Создает и возвращает объект для управления двухмерным звуком, привязанным к определенному слоту.
+---
+
 # common.CreateProlongedStateSound
+
 Создает и возвращает объект для управления двухмерным звуком, привязанным к определенному слоту.
 
 ## Описание
@@ -32,6 +37,7 @@ common.CreateProlongedStateSound( soundId: Sound2DId, slot: number ): Sound2DLua
 ## Примеры
 
 ### Проверка наличия и запуск звука
+
 ```lua
 local hasSound = group:HasSound( sysName )
 if hasSound then

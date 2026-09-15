@@ -1,3 +1,7 @@
+---
+description: Меняет имя контрола.
+---
+
 # WidgetSafe:SetName
 
 Меняет имя контрола.

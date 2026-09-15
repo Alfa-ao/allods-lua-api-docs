@@ -1,4 +1,9 @@
+---
+description: Проверяет, возможно ли отлучиться из инстанс-ивента оставаясь рейде/группе.
+---
+
 # matchMaking.CanAwayBattleEvent
+
 Проверяет, возможно ли отлучиться из инстанс-ивента оставаясь рейде/группе.
 
 ## Описание
@@ -20,6 +25,7 @@ matchMaking.CanAwayBattleEvent(): boolean
 ## Примеры
 
 ### Проверка возможности отлучиться
+
 ```lua
 if matchMaking.CanAwayBattleEvent() then
     matchMaking.AwayBattleEvent()

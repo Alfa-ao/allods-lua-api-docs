@@ -1,3 +1,7 @@
+---
+description: Возвращает состояние виджета в системе drag&drop.
+---
+
 # WidgetSafe:DNDGetState
 
 Возвращает состояние виджета в системе drag&drop.

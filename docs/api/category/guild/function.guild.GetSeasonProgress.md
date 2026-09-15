@@ -1,4 +1,9 @@
+---
+description: Возвращает описание сезонного развития гильдии главного игрока.
+---
+
 # guild.GetSeasonProgress
+
 Возвращает описание сезонного развития гильдии главного игрока.
 
 ## Описание
@@ -33,6 +38,7 @@ guild.GetSeasonProgress(): table|nil
 ## Примеры
 
 ### Получение влияния гильдии
+
 ```lua
 local guildSeasonAuthority = guild.GetSeasonProgress().authority
 ```

@@ -1,4 +1,9 @@
+---
+description: Возвращает `SpellId` умения по идентификатору объекта умения, имеющегося в спеллбуке.
+---
+
 # spellLib.GetObjectSpell
+
 Возвращает `SpellId` умения по идентификатору объекта умения, имеющегося в спеллбуке.
 
 ## Описание
@@ -20,6 +25,7 @@ spellLib.GetObjectSpell( objectId: ObjectId ): SpellId
 ## Примеры
 
 ### Получение и использование идентификатора умения
+
 ```lua
 local spellId = spellLib.GetObjectSpell( actionId )
 common.LogInfo( spellLib.GetDescription( spellId ).name )

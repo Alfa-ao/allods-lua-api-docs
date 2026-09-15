@@ -1,4 +1,9 @@
+---
+description: Отправляет команду на смену игрового канала зоны.
+---
+
 # avatar.SwitchToChannel
+
 Отправляет команду на смену игрового канала зоны.
 
 ## Описание
@@ -21,6 +26,7 @@ avatar.SwitchToChannel( channelIndex: number )
 ## Примеры
 
 ### Переключение на следующий доступный канал
+
 ```lua
 local channelsInfo = avatar.GetChannelsInfo()
 if channelsInfo then

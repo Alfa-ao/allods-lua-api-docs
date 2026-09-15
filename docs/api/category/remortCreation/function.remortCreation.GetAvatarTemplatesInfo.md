@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о шаблонах для аватаров.
+---
+
 # remortCreation.GetAvatarTemplatesInfo
+
 Возвращает информацию о шаблонах для аватаров.
 
 ## Описание
@@ -50,6 +55,7 @@ remortCreation.GetAvatarTemplatesInfo(): table
 ## Примеры
 
 ### Получение информации о шаблонах аватаров
+
 ```lua
 local templatesInfo = remortCreation.GetAvatarTemplatesInfo()
 common.LogInfo( "fraction: " .. userMods.FromWString( templatesInfo.factions[0].name ) )

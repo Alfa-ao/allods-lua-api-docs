@@ -1,4 +1,9 @@
+---
+description: Назначает VisObject для AEMark.
+---
+
 # mission.SetAEMarkVisObj
+
 Назначает VisObject для AEMark.
 
 ## Описание
@@ -20,6 +25,7 @@ mission.SetAEMarkVisObj( visObjectId: VisObjectId )
 ## Примеры
 
 ### Назначение VisObject для AEMark
+
 ```lua
 local visObjId = common.GetAddonRelatedVisObject( "AEMark" ) -- deprecated
 mission.SetAEMarkVisObj( visObjId )

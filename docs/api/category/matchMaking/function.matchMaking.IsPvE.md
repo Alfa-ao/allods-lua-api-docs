@@ -1,4 +1,9 @@
+---
+description: Проверяет, что данный инстанс-ивент относится к сражениям против окружения.
+---
+
 # matchMaking.IsPvE
+
 Проверяет, что данный инстанс-ивент относится к сражениям против окружения.
 
 ## Описание
@@ -20,6 +25,7 @@ matchMaking.IsPvE( eventId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка типа инстанс-ивента
+
 ```lua
 if matchMaking.IsPvE( eventId ) then
     LogInfo( "It is PvE event" )

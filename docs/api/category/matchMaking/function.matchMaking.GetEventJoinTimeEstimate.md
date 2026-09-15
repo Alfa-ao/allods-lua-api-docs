@@ -1,4 +1,9 @@
+---
+description: Получает приблизительное время, оставшееся до присоединения к инстанс-ивенту с заданным id.
+---
+
 # matchMaking.GetEventJoinTimeEstimate
+
 Получает приблизительное время, оставшееся до присоединения к инстанс-ивенту с заданным id.
 
 ## Описание
@@ -21,6 +26,7 @@ matchMaking.GetEventJoinTimeEstimate( eventId: ObjectId ): table|nil
 ## Примеры
 
 ### Получение времени ожидания
+
 ```lua
 local joinTime = matchMaking.GetEventJoinTimeEstimate(eventId)
 if joinTime then

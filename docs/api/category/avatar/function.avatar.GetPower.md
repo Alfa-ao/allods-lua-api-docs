@@ -25,6 +25,7 @@ avatar.GetPower(): table
 ## Примеры
 
 ### Получение характеристик Могущества
+
 ```lua
 local stat = avatar.GetPower()
 ```

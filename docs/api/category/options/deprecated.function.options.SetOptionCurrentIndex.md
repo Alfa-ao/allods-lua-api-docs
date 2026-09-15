@@ -1,3 +1,7 @@
+---
+description: Задает новое значение для опции.
+---
+
 # options.SetOptionCurrentIndex
 
 Задает новое значение для опции.

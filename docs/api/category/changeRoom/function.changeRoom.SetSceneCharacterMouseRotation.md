@@ -1,4 +1,9 @@
+---
+description: Включает поворот выбранного персонажа в сцене с помощью мыши.
+---
+
 # changeRoom.SetSceneCharacterMouseRotation
+
 Включает поворот выбранного персонажа в сцене с помощью мыши.
 
 ## Описание
@@ -25,6 +30,7 @@ changeRoom.SetSceneCharacterMouseRotation( characterId: ObjectId )
 ## Примеры
 
 ### Включение поворота мышью для основного персонажа
+
 ```lua
 changeRoom.SetSceneCharacterMouseRotation( primaryCharacterId )
 ```

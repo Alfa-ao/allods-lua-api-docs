@@ -1,4 +1,9 @@
+---
+description: Инициирует отлучение из инстанс-ивента с сохранением членства в рейде или группе.
+---
+
 # matchMaking.AwayBattleEvent
+
 Инициирует отлучение из инстанс-ивента с сохранением членства в рейде или группе.
 
 ## Описание
@@ -20,6 +25,7 @@ matchMaking.AwayBattleEvent()
 ## Примеры
 
 ### Проверка и выполнение отлучения
+
 ```lua
 if matchMaking.CanAwayBattleEvent() then
     matchMaking.AwayBattleEvent()

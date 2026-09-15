@@ -1,4 +1,9 @@
+---
+description: Определяет пригодность предмета для использования на другой предмет с проверкой предикатов и выполнением кастомных действий.
+---
+
 # itemLib.IsUseOnItemAndTakeActions
+
 Определяет пригодность предмета для использования на другой предмет с проверкой предикатов и выполнением кастомных действий.
 
 ## Описание
@@ -22,6 +27,7 @@ itemLib.IsUseOnItemAndTakeActions( itemId: ObjectId, count: number ): boolean
 ## Примеры
 
 ### Проверка предмета
+
 ```lua
 local isUseOnItemAndTakeActions = itemLib.IsUseOnItemAndTakeActions( itemId, 3 )
 ```

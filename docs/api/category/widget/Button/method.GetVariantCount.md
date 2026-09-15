@@ -1,4 +1,9 @@
+---
+description: Возвращает количество доступных вариантов отображения для кнопки.
+---
+
 # ButtonSafe:GetVariantCount
+
 Возвращает количество доступных вариантов отображения для кнопки.
 
 ## Описание
@@ -20,6 +25,7 @@ ButtonSafe:GetVariantCount(): number
 ## Примеры
 
 ### Получение количества вариантов кнопки
+
 ```lua
 local variantCount = wtButton:GetVariantCount()
 ```

@@ -1,4 +1,9 @@
+---
+description: Генерирует вещественное псевдо-случайное число в заданном диапазоне.
+---
+
 # common.GetRandFloat
+
 Генерирует вещественное псевдо-случайное число в заданном диапазоне.
 
 ## Описание
@@ -13,6 +18,7 @@ common.GetRandFloat( min: number, max: number ): number
 
 - **`min`** (`number`)
 Минимальное значение диапазона генерации.
+
 - **`max`** (`number`)
 Максимальное значение диапазона генерации.
 
@@ -23,6 +29,7 @@ common.GetRandFloat( min: number, max: number ): number
 ## Примеры
 
 ### Генерация и вывод случайного вещественного числа
+
 ```lua
 LogInfo( "rand float: " .. tostring( common.GetRandFloat( 1.0, 2.0 ) ) )
 ```

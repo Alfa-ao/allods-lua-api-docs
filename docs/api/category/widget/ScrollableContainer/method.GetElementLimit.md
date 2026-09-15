@@ -1,4 +1,9 @@
+---
+description: Извлекает максимальное количество элементов в контейнере.
+---
+
 # ScrollableContainerSafe:GetElementLimit
+
 Извлекает максимальное количество элементов в контейнере.
 
 ## Описание
@@ -20,6 +25,7 @@ ScrollableContainerSafe:GetElementLimit(): number
 ## Примеры
 
 ### Получение лимита элементов
+
 ```lua
 local count = wtContainer:GetElementLimit()
 ```

@@ -1,4 +1,9 @@
+---
+description: Возвращает клиентскую дату и время в формате Unix time в миллисекундах.
+---
+
 # common.GetLocalDateTimeMs
+
 Возвращает клиентскую дату и время в формате Unix time в миллисекундах.
 
 ## Описание
@@ -20,6 +25,7 @@ common.GetLocalDateTimeMs(): number
 ## Примеры
 
 ### Получение текущего клиентского времени
+
 ```lua
 local timeMs = common.GetLocalDateTimeMs()
 ```

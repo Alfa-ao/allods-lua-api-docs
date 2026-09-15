@@ -1,3 +1,7 @@
+---
+description: Удаляет все элементы из контейнера.
+---
+
 # TextContainerSafe:RemoveItems
 
 Удаляет все элементы из контейнера.

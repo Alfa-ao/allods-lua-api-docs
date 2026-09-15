@@ -1,4 +1,9 @@
+---
+description: ...
+---
+
 # ButtonSafe:SetTextAttributes
+
 ...
 
 ## Описание

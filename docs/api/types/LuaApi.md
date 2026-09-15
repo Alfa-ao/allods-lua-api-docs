@@ -1,6 +1,8 @@
 ---
 outline: deep
+description: В LuaApi используются встроенные Lua типы и пользовательские типы. Как правило, пользовательские типы определены в коде. Уточнение: пользовательские типы не обязательно являются `userdata` / `lightuserdata` из Lua, реализация каждого типа описана отдельно.
 ---
+
 # Используемые типы в Lua API
 
 ## Описание
@@ -45,7 +47,7 @@ outline: deep
 
 ---
 
-### `PersistentId`
+### [`PersistentId`](/api/types/PersistentId.md)
 
 Серверный (постоянный) идентификатор аватара. Имеет тип `number`.
 
@@ -65,25 +67,25 @@ outline: deep
 
 ---
 
-### `GamePosition`
+### [`GamePosition`](/api/types/GamePosition.md)
 
 Игровые координаты.
 
 ---
 
-### `RelatedTextsLua`
+### [`RelatedTextsLua`](/api/types/RelatedTextsLua.md)
 
 Объект, представляющий собой группу текстовых ресурсов.
 
 ---
 
-### `RelatedTexturesLua`
+### [`RelatedTexturesLua`](/api/types/RelatedTexturesLua.md)
 
 Объект, представляющий собой группу текстурных ресурсов.
 
 ---
 
-### `RelatedWidgetsLua`
+### [`RelatedWidgetsLua`](/api/types/RelatedWidgetsLua.md)
 
 Объект, представляющий собой группу шаблонов виджетов.
 

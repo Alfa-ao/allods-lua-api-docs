@@ -1,5 +1,11 @@
+---
+description: Инициирует подготовку заклинания.
+---
+
 # avatar.PrepareSpell
+
 Инициирует подготовку заклинания.
+
 ## Описание
 
 ```lua
@@ -17,12 +23,15 @@ avatar.PrepareSpell( spellId: SpellId )
 
 - **`spellId`** (`SpellId`)
 Уникальный идентификатор подготавливаемого заклинания.
+
 ## Возвращаемые значения
 
 Возвращаемое значение отсутствует.
+
 ## Примеры
 
 ### Подготовка заклинания из книги заклинаний
+
 ```lua
 local spellbook = avatar.GetSpellBook()
 avatar.PrepareSpell( spellbook[1] )

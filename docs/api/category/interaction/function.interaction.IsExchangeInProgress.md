@@ -1,4 +1,9 @@
+---
+description: Возвращает статус нахождения главного игрока в активном состоянии торговли с другим игроком.
+---
+
 # interaction.IsExchangeInProgress
+
 Возвращает статус нахождения главного игрока в активном состоянии торговли с другим игроком.
 
 ## Описание
@@ -20,6 +25,7 @@ interaction.IsExchangeInProgress(): boolean
 ## Примеры
 
 ### Проверка состояния торговли
+
 ```lua
 if interaction.IsExchangeInProgress() then
     -- некий код

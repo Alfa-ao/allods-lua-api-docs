@@ -1,3 +1,7 @@
+---
+description: Изменяет стиль текста.
+---
+
 # TextViewSafe:SetTextStyle
 
 Изменяет стиль текста.

@@ -1,4 +1,9 @@
+---
+description: Возвращает состав команды проекта Аллоды Онлайн.
+---
+
 # common.GetCredits
+
 Возвращает состав команды проекта Аллоды Онлайн.
 
 ## Описание
@@ -20,28 +25,34 @@ common.GetCredits(): table
 Поля таблицы `OfficeTable`:
 - **`officeInfo`** (`WString` | `nil`)
 Описание офиса.
+
 - **`groups`** (`table`)
 Индексированный с 1 список таблиц (`GroupTable`), описывающих группы разработчиков (отдел).
 
 Поля таблицы `GroupTable`:
 - **`groupHeader`** (`WString`)
 Описание группы.
+
 - **`groupSubHeader`** (`WString` | `nil`)
 Дополнительное описание группы.
+
 - **`items`** (`table`)
 Индексированный с 1 список таблиц (`ItemTable`), описывающих отдельные ресурсы (разработчика, middleware).
 
 Поля таблицы `ItemTable`:
 - **`name`** (`WString`)
 Название ресурса.
+
 - **`type`** (`WString` | `nil`)
 Тип ресурса.
+
 - **`special`** (`string` | `nil`)
 Вспомогательный идентификатор.
 
 ## Примеры
 
 ### Получение информации о первом офисе
+
 ```lua
 local credits = common.GetCredits()
 if credits[ 1 ] then

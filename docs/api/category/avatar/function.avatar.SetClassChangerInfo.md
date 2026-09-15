@@ -1,4 +1,9 @@
+---
+description: Отправляет на сервер информацию, необходимую для продолжения процесса смены класса.
+---
+
 # avatar.SetClassChangerInfo
+
 Отправляет на сервер информацию, необходимую для продолжения процесса смены класса.
 
 ## Описание
@@ -21,6 +26,7 @@ avatar.SetClassChangerInfo( changeList: table )
 ## Примеры
 
 ### Отправка списка замен для смены класса
+
 ```lua
 avatar.SetClassChangerInfo( { itemId1, itemId2, enchantId1, enchantId2, itemId3 } )
 ```

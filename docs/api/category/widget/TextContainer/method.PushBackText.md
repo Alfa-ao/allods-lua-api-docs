@@ -1,3 +1,7 @@
+---
+description: Добавляет string, WString или ValuedText в конец контейнера.
+---
+
 # TextContainerSafe:PushBackText
 
 Добавляет string, WString или ValuedText в конец контейнера.
@@ -21,6 +25,7 @@ TextContainerSafe:PushBackText( text: string | WString | ValuedText )
 ## Примеры
 
 ### Добавление форматированного текста в контейнер
+
 ```lua
 wtTextContainer:PushBackText( common.CreateValuedText( {
     format = wtFormatEdit:GetText(),

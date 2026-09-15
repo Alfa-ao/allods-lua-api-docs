@@ -1,4 +1,9 @@
+---
+description: Извлекает информацию о качестве предмета.
+---
+
 # itemLib.GetQuality
+
 Извлекает информацию о качестве предмета.
 
 ## Описание
@@ -29,6 +34,7 @@ itemLib.GetQuality( itemId: ObjectId ): table|nil
 ## Примеры
 
 ### Получение качества предмета
+
 ```lua
 local itemQuality = itemLib.GetQuality( itemId )
 local quality = itemQuality and itemQuality.quality

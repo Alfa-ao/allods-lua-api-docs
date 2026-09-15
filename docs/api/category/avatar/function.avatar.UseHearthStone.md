@@ -1,4 +1,9 @@
+---
+description: Активирует камень возвращения (HearthStone).
+---
+
 # avatar.UseHearthStone
+
 Активирует камень возвращения (HearthStone).
 
 ## Описание
@@ -20,6 +25,7 @@ avatar.UseHearthStone()
 ## Примеры
 
 ### Использование камня возвращения
+
 ```lua
 avatar.UseHearthStone()
 ```

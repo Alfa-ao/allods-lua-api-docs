@@ -1,4 +1,9 @@
+---
+description: Рассчитывает и возвращает количество золота, необходимое для покупки кристаллов в сервисе обмена валют.
+---
+
 # currencyExchange.CalcBuyCost
+
 Рассчитывает и возвращает количество золота, необходимое для покупки кристаллов в сервисе обмена валют.
 
 ## Описание
@@ -20,6 +25,7 @@ currencyExchange.CalcBuyCost( crystalsToBuy: number ): number
 ## Примеры
 
 ### Расчет стоимости покупки кристаллов
+
 ```lua
 local crystalsToBuy = 100
 if currencyExchange.IsServiceActive() then

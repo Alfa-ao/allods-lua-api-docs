@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о ранге в гильдии.
+---
+
 # guild.GetRankInfo
+
 Возвращает информацию о ранге в гильдии.
 
 ## Описание
@@ -20,12 +25,15 @@ guild.GetRankInfo( rank: number ): table|nil
 - **`rank`** (`number`) - Числовое значение ранга.
 
 - **`sysName`** (`string`) - Служебное название ранга.
+
 - **`name`** (`WString`) - Локализованное название ранга.
+
 - **`description`** (`WString`) - Локализованное описание ранга.
 
 ## Примеры
 
 ### Получение и вывод названия ранга
+
 ```lua
 local rank = guild.GetRank( memberName )
 local rankInfo = guild.GetRankInfo( rank )

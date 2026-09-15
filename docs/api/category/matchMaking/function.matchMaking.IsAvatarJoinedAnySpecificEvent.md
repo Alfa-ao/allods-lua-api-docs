@@ -1,3 +1,7 @@
+---
+description: Определяет, стоит ли аватар в очереди на PVE или PVP инстанс-ивент.
+---
+
 # matchMaking.IsAvatarJoinedAnySpecificEvent
 
 Определяет, стоит ли аватар в очереди на PVE или PVP инстанс-ивент.

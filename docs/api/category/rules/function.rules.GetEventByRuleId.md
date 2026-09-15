@@ -1,4 +1,9 @@
+---
+description: Извлекает идентификатор игрового события по его RuleId.
+---
+
 # rules.GetEventByRuleId
+
 Извлекает идентификатор игрового события по его RuleId.
 
 ## Описание
@@ -22,6 +27,7 @@ rules.GetEventByRuleId( ruleId: RuleId, getHidden: boolean | nil ): ObjectId | n
 ## Примеры
 
 ### Получение информации о событии
+
 ```lua
 local eventRuleId = rules.GetEventByRuleId( ruleId )
 if eventRuleId then

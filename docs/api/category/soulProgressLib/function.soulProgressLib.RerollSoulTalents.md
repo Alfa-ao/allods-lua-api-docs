@@ -1,3 +1,7 @@
+---
+description: Сбрасывает таланты души.
+---
+
 # soulProgressLib.RerollSoulTalents
 
 Сбрасывает таланты души.

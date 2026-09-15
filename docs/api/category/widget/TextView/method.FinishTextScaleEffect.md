@@ -1,3 +1,7 @@
+---
+description: Прерывает эффект масштабирования текста.
+---
+
 # TextViewSafe:FinishTextScaleEffect
 
 Прерывает эффект масштабирования текста.

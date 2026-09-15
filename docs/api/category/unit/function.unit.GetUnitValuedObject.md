@@ -1,3 +1,7 @@
+---
+description: Возвращает новый экземпляр `ValuedObject` по идентификатору существа.
+---
+
 # unit.GetUnitValuedObject
 
 Возвращает новый экземпляр `ValuedObject` по идентификатору существа.

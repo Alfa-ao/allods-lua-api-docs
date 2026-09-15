@@ -1,3 +1,7 @@
+---
+description: Создает копию для данного ValuedText.
+---
+
 # ValuedTextSafe:CreateCopy
 
 Создает копию для данного ValuedText.

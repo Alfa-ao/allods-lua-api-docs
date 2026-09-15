@@ -1,4 +1,9 @@
+---
+description: Возвращает максимальное значение прокрутки контейнера.
+---
+
 # ScrollableContainerSafe:GetMaxContainerOffset
+
 Возвращает максимальное значение прокрутки контейнера.
 
 ## Описание
@@ -20,6 +25,7 @@ ScrollableContainerSafe:GetMaxContainerOffset(): number
 ## Примеры
 
 ### Прокрутка контейнера до середины
+
 ```lua
 -- store max offset
 local maxOffset = wtScrollableContainer:GetMaxContainerOffset()

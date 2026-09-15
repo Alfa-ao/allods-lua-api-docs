@@ -1,4 +1,9 @@
+---
+description: Выбирает таланты для указанного маунта, если они доступны.
+---
+
 # mount.SelectTalents
+
 Выбирает таланты для указанного маунта, если они доступны.
 
 ## Описание
@@ -31,6 +36,7 @@ mount.SelectTalents( mountId: ObjectId, talents: table )
 ## Примеры
 
 ### Выбор всех доступных талантов для экзо-маунта
+
 ```lua
 local exoMountId = mount.GetExoMount()
 local availableTalents = mount.GetAvailableTalents( exoMountId )

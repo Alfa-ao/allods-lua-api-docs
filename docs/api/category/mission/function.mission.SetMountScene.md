@@ -1,4 +1,9 @@
+---
+description: Отображает маунта главного игрока в указанном 3D-контроле.
+---
+
 # mission.SetMountScene
+
 Отображает маунта главного игрока в указанном 3D-контроле.
 
 ## Описание
@@ -24,6 +29,7 @@ mission.SetMountScene( index: number, wtCharacterControl3D: Control3DSafe, mount
 ## Примеры
 
 ### Отображение маунта и настройка сцены
+
 ```lua
 mission.SetMountScene( 0, wtCharacterView, mountSkinId )
 mission.SetCharacterSceneScaleFactor( 0, 0.5 )

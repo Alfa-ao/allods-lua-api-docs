@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о сундучке, если предмет таковым является.
+---
+
 # itemLib.GetBoxInfo
+
 Возвращает информацию о сундучке, если предмет таковым является.
 
 ## Описание
@@ -23,6 +28,7 @@ itemLib.GetBoxInfo( itemId: ObjectId ): table|nil
 ## Примеры
 
 ### Получение информации о сундучке
+
 ```lua
 local itemBoxInfo = itemLib.GetBoxInfo( itemId )
 local canUseStack = itemBoxInfo and itemBoxInfo.canUseStack

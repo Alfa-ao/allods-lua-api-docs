@@ -1,4 +1,9 @@
+---
+description: Устанавливает активное заклинание для пета аватара.
+---
+
 # avatar.SetPetActiveSpell
+
 Устанавливает активное заклинание для пета аватара.
 
 ## Описание
@@ -21,6 +26,7 @@ avatar.SetPetActiveSpell( index: number )
 ## Примеры
 
 ### Установка активного заклинания для питомца
+
 ```lua
 local spells = avatar.GetPetSpells()
 if spells[ 0 ] then

@@ -1,4 +1,9 @@
+---
+description: Извлекает список описаний активаторов, которыми можно активировать указанный предмет.
+---
+
 # itemLib.GetActivators
+
 Извлекает список описаний активаторов, которыми можно активировать указанный предмет.
 
 ## Описание
@@ -26,6 +31,7 @@ itemLib.GetActivators( itemId: ObjectId ): table|nil
 ## Примеры
 
 ### Получение списка активаторов
+
 ```lua
 local activators = itemLib.GetActivators( itemId )
 ```

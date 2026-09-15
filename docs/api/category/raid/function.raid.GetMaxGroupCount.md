@@ -1,4 +1,9 @@
+---
+description: Возвращает максимальное количество групп в рейде.
+---
+
 # raid.GetMaxGroupCount
+
 Возвращает максимальное количество групп в рейде.
 
 ## Описание
@@ -20,6 +25,7 @@ raid.GetMaxGroupCount(): number | nil
 ## Примеры
 
 ### Получение максимального количества групп
+
 ```lua
 local maxGroupCount = raid.GetMaxGroupCount()
 ```

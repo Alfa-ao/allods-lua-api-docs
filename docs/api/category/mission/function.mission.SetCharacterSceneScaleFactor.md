@@ -1,3 +1,7 @@
+---
+description: Масштабирует персонажа в указанной сцене.
+---
+
 # mission.SetCharacterSceneScaleFactor
 
 Масштабирует персонажа в указанной сцене.

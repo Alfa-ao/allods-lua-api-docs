@@ -5,6 +5,7 @@ description: Возвращает список идентификаторов п
 # avatar.GetProficiencies
 
 Возвращает список идентификаторов профессий главного игрока.
+
 ## Описание
 
 ```lua
@@ -24,6 +25,7 @@ avatar.GetProficiencies(): table
 ## Примеры
 
 ### Получение и перебор списка профессий
+
 ```lua
 local proficiencies = avatar.GetProficiencies()
 for i, id in pairs( proficiencies ) do

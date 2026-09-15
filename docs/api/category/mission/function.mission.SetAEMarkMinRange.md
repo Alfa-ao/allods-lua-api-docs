@@ -1,4 +1,9 @@
+---
+description: Устанавливает минимальный радиус области действия спелла AEMark.
+---
+
 # mission.SetAEMarkMinRange
+
 Устанавливает минимальный радиус области действия спелла AEMark.
 
 ## Описание
@@ -20,6 +25,7 @@ mission.SetAEMarkMinRange( minRange: number )
 ## Примеры
 
 ### Установка радиуса AEMark
+
 ```lua
 mission.SetAEMarkMinRange( 5.0 )
 ```

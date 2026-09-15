@@ -1,4 +1,9 @@
+---
+description: Возвращает идентификатор текстуры иконки заклинания по его идентификатору.
+---
+
 # spellLib.GetIcon
+
 Возвращает идентификатор текстуры иконки заклинания по его идентификатору.
 
 ## Описание
@@ -20,6 +25,7 @@ spellLib.GetIcon( id: SpellId ): TextureId | nil
 ## Примеры
 
 ### Получение и установка иконки заклинания
+
 ```lua
 local spellbook = avatar.GetSpellBook()
 local icon = spellLib.GetIcon( spellbook[1] )

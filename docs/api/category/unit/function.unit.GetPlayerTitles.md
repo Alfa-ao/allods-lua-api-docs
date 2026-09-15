@@ -1,4 +1,9 @@
+---
+description: Возвращает новый экземпляр ValuedObject по имени игрока.
+---
+
 # unit.GetPlayerValuedObject
+
 Возвращает новый экземпляр ValuedObject по имени игрока.
 
 ## Описание
@@ -28,6 +33,7 @@ unit.GetPlayerValuedObject( name: WString, shardName: WString, uniqueId: WString
 ## Примеры
 
 ### Получение объекта игрока
+
 ```lua
 local valuedObject = unit.GetPlayerValuedObject( playerName, playerShardName )
 ```

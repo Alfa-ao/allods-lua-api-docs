@@ -1,4 +1,9 @@
+---
+description: Показывает или скрывает AEMark типа AEMarkDecal.
+---
+
 # mission.ShowAEMark
+
 Показывает или скрывает AEMark типа AEMarkDecal.
 
 ## Описание

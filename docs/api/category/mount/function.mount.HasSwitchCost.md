@@ -1,4 +1,9 @@
+---
+description: Возвращает признак необходимости оплаты для переключения метаморфа на указанный скин.
+---
+
 # mount.HasSwitchCost
+
 Возвращает признак необходимости оплаты для переключения метаморфа на указанный скин.
 
 ## Описание
@@ -21,6 +26,7 @@ mount.HasSwitchCost( skinId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка стоимости переключения и получение информации
+
 ```lua
 if mount.HasSwitchCost( skinId ) then
   local info = mount.GetMetamorphBaseInfo()

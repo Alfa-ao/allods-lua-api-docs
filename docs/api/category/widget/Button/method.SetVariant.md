@@ -1,4 +1,9 @@
+---
+description: Устанавливает активный вариант кнопки.
+---
+
 # ButtonSafe:SetVariant
+
 Устанавливает активный вариант кнопки.
 
 ## Описание
@@ -20,6 +25,7 @@ ButtonSafe:SetVariant( variant: number )
 ## Примеры
 
 ### Установка нулевого варианта кнопки
+
 ```lua
 wtButton:SetVariant( 0 )
 ```

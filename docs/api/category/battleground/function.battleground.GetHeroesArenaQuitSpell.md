@@ -1,4 +1,9 @@
+---
+description: Возвращает идентификатор заклинания для выхода из боевой арены.
+---
+
 # battleground.GetHeroesArenaQuitSpell
+
 Возвращает идентификатор заклинания для выхода из боевой арены.
 
 ## Описание
@@ -20,6 +25,7 @@ battleground.GetHeroesArenaQuitSpell(): SpellId | nil
 ## Примеры
 
 ### Применение заклинания для выхода из арены
+
 ```lua
 local spellId = battleground.GetHeroesArenaQuitSpell()
 if spellId then

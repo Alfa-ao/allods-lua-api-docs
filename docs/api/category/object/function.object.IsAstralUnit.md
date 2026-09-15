@@ -1,4 +1,9 @@
+---
+description: Проверяет, является ли интерактивный объект астральным юнитом.
+---
+
 # object.IsAstralUnit
+
 Проверяет, является ли интерактивный объект астральным юнитом.
 
 ## Описание
@@ -20,6 +25,7 @@ object.IsAstralUnit( id: ObjectId ): boolean
 ## Примеры
 
 ### Проверка цели на принадлежность к астральным юнитам
+
 ```lua
 local id = avatar.GetTarget()
 if object.IsAstralUnit( id ) then

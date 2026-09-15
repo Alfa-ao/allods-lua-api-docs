@@ -1,4 +1,9 @@
+---
+description: Возвращает количество Гнева, накопленное у юнита.
+---
+
 # unit.GetRage
+
 Возвращает количество Гнева, накопленное у юнита.
 
 ## Описание
@@ -20,6 +25,7 @@ unit.GetRage( unitId: ObjectId ): number
 ## Примеры
 
 ### Получение количества Гнева
+
 ```lua
 local rage = unit.GetRage( unitId )
 ```

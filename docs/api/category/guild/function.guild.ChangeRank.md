@@ -1,4 +1,9 @@
+---
+description: Изменяет ранг члена гильдии.
+---
+
 # guild.ChangeRank
+
 Изменяет ранг члена гильдии.
 
 ## Описание
@@ -22,6 +27,7 @@ guild.ChangeRank( memberId: ObjectId, rank: number )
 ## Примеры
 
 ### Изменение ранга
+
 ```lua
 guild.ChangeRank( memberId, rank )
 ```

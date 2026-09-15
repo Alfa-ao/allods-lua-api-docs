@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о PvP-опасности зоны для персонажа.
+---
+
 # unit.GetZonePvPDanger
+
 Возвращает информацию о PvP-опасности зоны для персонажа.
 
 ## Описание
@@ -20,6 +25,7 @@ unit.GetZonePvPDanger( unitId: ObjectId ): string
 ## Примеры
 
 ### Получение PvP-опасности зоны
+
 ```lua
 local pvpDanger = unit.GetZonePvPDanger( unitId )
 ```

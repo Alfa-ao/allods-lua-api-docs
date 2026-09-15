@@ -1,4 +1,9 @@
+---
+description: Извлекает информацию о бонусных ступенях премиума.
+---
+
 # premiumLib.GetBonusInfo
+
 Извлекает информацию о бонусных ступенях премиума.
 
 ## Описание
@@ -16,6 +21,7 @@ premiumLib.GetBonusInfo(): table | nil
 ## Возвращаемые значения
 
 Возвращает `table` | `nil` - таблица с информацией о бонусных ступенях или `nil`, если бонусные ступени отсутствуют.
+
 - **`bonus`** (`number`) - число бонусных ступеней.
 
 - **`removeTime`** (`table`(`LuaFullDateTime`)) - срок истечения действия ступеней.
@@ -23,6 +29,7 @@ premiumLib.GetBonusInfo(): table | nil
 ## Примеры
 
 ### Получение информации о бонусных ступенях
+
 ```lua
 local bonusInfo = premiumLib.GetBonusInfo()
 ```

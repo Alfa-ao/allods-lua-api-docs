@@ -1,4 +1,9 @@
+---
+description: Возвращает количество выбранных на изучение вех.
+---
+
 # guild.GetStoredTalentsCount
+
 Возвращает количество выбранных на изучение вех.
 
 ## Описание
@@ -20,6 +25,7 @@ guild.GetStoredTalentsCount(): number
 ## Примеры
 
 ### Получение количества изучаемых вех
+
 ```lua
 local count = guild.GetStoredTalentsCount()
 ```

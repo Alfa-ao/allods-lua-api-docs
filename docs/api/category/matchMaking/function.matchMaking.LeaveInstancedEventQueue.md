@@ -1,3 +1,7 @@
+---
+description: Выходит из очереди на инстанс-ивент.
+---
+
 # matchMaking.LeaveInstancedEventQueue
 
 Выходит из очереди на инстанс-ивент.

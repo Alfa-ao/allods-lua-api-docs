@@ -1,3 +1,7 @@
+---
+description: Функции и события для работы с drag&drop. Реализовано для всех типов WidgetSafe.
+---
+
 # CategoryDragAndDrop
 
 Функции и события для работы с drag&drop. Реализовано для всех типов WidgetSafe.
@@ -23,7 +27,8 @@ DNDId = id * DND_CONTAINER_STEP + DNDContainer, где
 - id - идентификатор сущности: ObjectId для игровых сущностей или инкрементируемый уникальный ид для виджетов (смотри Widget:GetId)
 - DND_CONTAINER_STEP - максимальное число типов контейнеров DND, глобальная константа.
 - DNDContainer - тип контейнера, на текущий момент определены
-```
+
+```lua
 Global( "DND_EQUIPMENT", 0 )
 Global( "DND_INVENTORY", 1 )
 Global( "DND_ACTIONBAR", 2 )

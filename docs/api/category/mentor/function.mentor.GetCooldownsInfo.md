@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о кулдаунах на запрет действий в системе менторства.
+---
+
 # mentor.GetCooldownsInfo
+
 Возвращает информацию о кулдаунах на запрет действий в системе менторства.
 
 ## Описание
@@ -28,6 +33,7 @@ mentor.GetCooldownsInfo(): table|nil
 ## Примеры
 
 ### Получение информации о кулдаунах
+
 ```lua
 local info = mentor.GetCooldownsInfo()
 LogInfo( info.mentorRefuseRemainingMs )

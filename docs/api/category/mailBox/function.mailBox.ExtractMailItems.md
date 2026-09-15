@@ -1,4 +1,9 @@
+---
+description: Извлекает предмет или все предметы из указанного письма.
+---
+
 # mailBox.ExtractMailItems
+
 Извлекает предмет или все предметы из указанного письма.
 
 ## Описание
@@ -26,6 +31,7 @@ mailBox.ExtractMailItems( mailId: ObjectId, slot: number | nil ): boolean
 ## Примеры
 
 ### Извлечение всех предметов из письма
+
 ```lua
 mailBox.ExtractMailItems( mailId, nil )
 ```

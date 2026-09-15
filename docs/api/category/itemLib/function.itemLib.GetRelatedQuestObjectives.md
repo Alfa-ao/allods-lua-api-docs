@@ -1,4 +1,9 @@
+---
+description: Возвращает список отдельных целей заданий, для которых требуется данный предмет.
+---
+
 # itemLib.GetRelatedQuestObjectives
+
 Возвращает список отдельных целей заданий, для которых требуется данный предмет.
 
 ## Описание
@@ -16,11 +21,13 @@ itemLib.GetRelatedQuestObjectives( itemId: ObjectId ): table|nil
 ## Возвращаемые значения
 
 Возвращает `table` | `nil` - Если у игрока есть задания, для которых требуется предмет, возвращается индексированный с `1` список идентификаторов целей заданий. В противном случае возвращается `nil`.
+
 - **`[index]`** (`ObjectId`) - Идентификатор конкретной цели задания.
 
 ## Примеры
 
 ### Получение информации о цели задания
+
 ```lua
 local questObjectives = itemLib.GetRelatedQuestObjectives( itemId )
 if questObjectives and questObjectives[ 1 ] then

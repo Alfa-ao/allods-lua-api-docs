@@ -1,4 +1,9 @@
+---
+description: Извлекает список ездовых животных, имеющихся в конюшне главного игрока.
+---
+
 # mount.GetMounts
+
 Извлекает список ездовых животных, имеющихся в конюшне главного игрока.
 
 ## Описание
@@ -20,6 +25,7 @@ mount.GetMounts(): table
 ## Примеры
 
 ### Проверка заполненности конюшни
+
 ```lua
 local mounts = mount.GetMounts()
 local stableInfo = mount.GetStableInfo()

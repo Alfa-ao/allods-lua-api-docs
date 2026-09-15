@@ -1,4 +1,9 @@
+---
+description: Возвращает алиас курсора для использования на маунте с выполнением кастомных действий.
+---
+
 # itemLib.GetUseOnMountCursor
+
 Возвращает алиас курсора для использования на маунте с выполнением кастомных действий.
 
 ## Описание
@@ -20,6 +25,7 @@ itemLib.GetUseOnMountCursor( itemId: ObjectId ): string
 ## Примеры
 
 ### Получение и установка курсора
+
 ```lua
 local cursor = itemLib.GetUseOnMountCursor( itemId )
 common.SetCursor( cursor )

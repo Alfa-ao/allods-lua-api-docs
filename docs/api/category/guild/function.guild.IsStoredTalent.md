@@ -1,4 +1,9 @@
+---
+description: Проверяет, установлен ли талант на изучение.
+---
+
 # guild.IsStoredTalent
+
 Проверяет, установлен ли талант на изучение.
 
 ## Описание
@@ -13,8 +18,10 @@ guild.IsStoredTalent( field: number, row: number, column: number ): boolean
 
 - **`field`** (`number`)
 Индекс поля (вкладки или раздела) в сетке талантов гильдии.
+
 - **`row`** (`number`)
 Индекс ряда (строки) в указанном поле сетки талантов.
+
 - **`column`** (`number`)
 Индекс колонки (столбца) в указанном ряду сетки талантов.
 
@@ -24,6 +31,7 @@ guild.IsStoredTalent( field: number, row: number, column: number ): boolean
 ## Примеры
 
 ### Проверка и очистка выбранного таланта
+
 ```lua
 if guild.IsStoredTalent( field, row, column ) then
   guild.ClearStoredTalents( field, row, column )

@@ -1,4 +1,9 @@
+---
+description: Применяет указанный предмет к ездовому животному и выполняет связанные с этим действия.
+---
+
 # avatar.UseItemOnMountAndTakeActions
+
 Применяет указанный предмет к ездовому животному и выполняет связанные с этим действия.
 
 ## Описание
@@ -13,8 +18,10 @@ avatar.UseItemOnMountAndTakeActions( itemId: ObjectId, mountId: ObjectId, useAct
 
 - **`itemId`** (`ObjectId`)
 Идентификатор предмета, который применяется к ездовому животному.
+
 - **`mountId`** (`ObjectId`)
 Идентификатор ездового животного, к которому применяется предмет.
+
 - **`useAction`** (`?number`)
 Индекс (`sysIndex`) выбранного действия использования (Usage). Если параметр не передан, используется значение `-1`.
 
@@ -25,6 +32,7 @@ avatar.UseItemOnMountAndTakeActions( itemId: ObjectId, mountId: ObjectId, useAct
 ## Примеры
 
 ### Применение предмета к маунту с указанием индекса действия
+
 ```lua
 avatar.UseItemOnMountAndTakeActions( itemId, mountId, 3 )
 ```

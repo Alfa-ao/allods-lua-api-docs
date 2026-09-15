@@ -1,4 +1,9 @@
+---
+description: Запускает предпросмотр устройства в ангаре в режиме замены.
+---
+
 # hangar.PreviewPurchasedDevice
+
 Запускает предпросмотр устройства в ангаре в режиме замены.
 
 ## Описание
@@ -20,6 +25,7 @@ hangar.PreviewPurchasedDevice( deviceId: ObjectId )
 ## Примеры
 
 ### Предпросмотр доступного устройства
+
 ```lua
 local allowedDeviceTypes = hangar.GetAllowedDeviceTypes()
 if allowedDeviceTypes and #allowedDeviceTypes > 0 then

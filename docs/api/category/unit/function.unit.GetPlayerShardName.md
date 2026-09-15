@@ -1,4 +1,9 @@
+---
+description: Возвращает имя шарда игрока.
+---
+
 # unit.GetPlayerShardName
+
 Возвращает имя шарда игрока.
 
 ## Описание
@@ -24,6 +29,7 @@ unit.GetPlayerShardName( unitId: ObjectId ): WString | nil
 ## Примеры
 
 ### Получение имени шарда игрока
+
 ```lua
 local shardName = unit.GetPlayerShardName( unitId )
 if shardName then

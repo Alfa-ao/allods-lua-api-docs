@@ -1,5 +1,11 @@
+---
+description: Отправляет запрос на улучшение мета-предмета.
+---
+
 # avatar.UpgradeMetaItem
+
 Отправляет запрос на улучшение мета-предмета.
+
 ## Описание
 
 ```lua
@@ -16,10 +22,13 @@ avatar.UpgradeMetaItem( sourceId: ObjectId, enhancerId: ObjectId, agentId: Objec
 
 - **`sourceId`** (`ObjectId`)
 Уникальный идентификатор улучшаемого мета-предмета.
+
 - **`enhancerId`** (`ObjectId`)
 Уникальный идентификатор предмета-улучшителя.
+
 - **`agentId`** (`ObjectId`)
 Уникальный идентификатор предмета-агента, необходимого для проведения улучшения.
+
 - **`agentCount`** (`number`)
 Количество используемых предметов-агентов.
 
@@ -30,6 +39,7 @@ avatar.UpgradeMetaItem( sourceId: ObjectId, enhancerId: ObjectId, agentId: Objec
 ## Примеры
 
 ### Проверка наличия предметов и запуск улучшения
+
 ```lua
 local sourceMeta = avatar.GetItemMetaInfo( sourceId )
 local enhancerMeta = avatar.GetItemMetaInfo( enhancerId )

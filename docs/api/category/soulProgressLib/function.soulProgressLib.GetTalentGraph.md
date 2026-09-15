@@ -1,3 +1,7 @@
+---
+description: Возвращает дерево талантов души.
+---
+
 # soulProgressLib.GetTalentGraph
 
 Возвращает дерево талантов души.

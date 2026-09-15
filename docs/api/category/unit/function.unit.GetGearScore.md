@@ -1,4 +1,9 @@
+---
+description: Возвращает текущий рейтинг экипировки персонажа.
+---
+
 # unit.GetGearScore
+
 Возвращает текущий рейтинг экипировки персонажа.
 
 ## Описание
@@ -24,6 +29,7 @@ unit.GetGearScore( unitId: ObjectId ): number
 ## Примеры
 
 ### Получение рейтинга экипировки
+
 ```lua
 local gearScore = unit.GetGearScore( unitId )
 ```

@@ -1,4 +1,9 @@
+---
+description: Получает описание правил игрового события.
+---
+
 # rules.GetNotificationInfo
+
 Получает описание правил игрового события.
 
 ## Описание
@@ -28,6 +33,7 @@ rules.GetNotificationInfo( eventRuleId: ObjectId ): table | nil
 ## Примеры
 
 ### Получение и вывод текста нотификации
+
 ```lua
 local notificationInfo = rules.GetNotificationInfo( eventRuleId )
 if notificationInfo then

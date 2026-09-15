@@ -1,4 +1,9 @@
+---
+description: Переключает пользовательский флаг PvP главного игрока.
+---
+
 # avatar.SwitchPvPFlag
+
 Переключает пользовательский флаг PvP главного игрока.
 
 ## Описание
@@ -21,6 +26,7 @@ avatar.SwitchPvPFlag( isOn: boolean )
 ## Примеры
 
 ### Включение флага PvP
+
 ```lua
 avatar.SwitchPvPFlag( true )
 ```

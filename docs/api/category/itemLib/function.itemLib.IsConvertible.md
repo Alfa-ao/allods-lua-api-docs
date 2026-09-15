@@ -1,4 +1,9 @@
+---
+description: Определяет возможность конвертации предмета в подобные предметы.
+---
+
 # itemLib.IsConvertible
+
 Определяет возможность конвертации предмета в подобные предметы.
 
 ## Описание
@@ -20,6 +25,7 @@ itemLib.IsConvertible( itemId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка возможности конвертации
+
 ```lua
 local itemId = 12345
 if itemLib.IsConvertible( itemId ) then

@@ -1,4 +1,9 @@
+---
+description: Проверяет факт загрузки списка игнора.
+---
+
 # social.IsIgnoreListLoaded
+
 Проверяет факт загрузки списка игнора.
 
 ## Описание
@@ -20,6 +25,7 @@ social.IsIgnoreListLoaded(): boolean
 ## Примеры
 
 ### Проверка загрузки списка игнора
+
 ```lua
 if social.IsIgnoreListLoaded() then
     -- Выполнение действий после загрузки списка

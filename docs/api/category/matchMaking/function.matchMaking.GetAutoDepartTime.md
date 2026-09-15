@@ -1,4 +1,9 @@
+---
+description: Получает время автоматической отправки группы в активность.
+---
+
 # matchMaking.GetAutoDepartTime
+
 Получает время автоматической отправки группы в активность.
 
 ## Описание
@@ -20,6 +25,7 @@ matchMaking.GetAutoDepartTime( eventId: ObjectId ): table|nil
 ## Примеры
 
 ### Получение времени автоматической отправки
+
 ```lua
 local autoDepartTime = matchMaking.GetAutoDepartTime( eventId )
 ```

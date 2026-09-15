@@ -1,3 +1,7 @@
+---
+description: Возвращает тип маны объекта.
+---
+
 # object.GetManaType
 
 Возвращает тип маны объекта.
@@ -31,6 +35,7 @@ object.GetManaType( objectId: ObjectId ): number
 ## Примеры
 
 ### Получение информации о мане
+
 ```lua
 local manaInfo = object.GetManaType( objectId ) ~= MANA_TYPE_NONE and object.GetManaInfo( objectId )
 ```

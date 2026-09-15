@@ -1,4 +1,9 @@
+---
+description: Возвращает группу связанных с состоянием текстурных ресурсов.
+---
+
 # common.GetStateRelatedTextureGroup
+
 Возвращает группу связанных с состоянием текстурных ресурсов.
 
 ## Описание
@@ -13,6 +18,7 @@ common.GetStateRelatedTextureGroup( sysGroup: string, optional: ?boolean ): Rela
 
 - **`sysGroup`** (`string`)
 Идентификатор запрашиваемой группы текстурных ресурсов.
+
 - **`optional`** (`boolean` | `nil`)
 Флаг, определяющий поведение при отсутствии искомой группы. Если передано значение `true`, отсутствие группы не считается ошибкой. По умолчанию принимает значение `false`.
 
@@ -23,6 +29,7 @@ common.GetStateRelatedTextureGroup( sysGroup: string, optional: ?boolean ): Rela
 ## Примеры
 
 ### Получение группы текстур с проверкой на существование
+
 ```lua
 local textureGroup = common.GetStateRelatedTextureGroup( "UI_STATE_DISABLED", true )
 if textureGroup then

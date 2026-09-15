@@ -1,3 +1,7 @@
+---
+description: Сохраняет или удаляет таблицу с секцией avatar.
+---
+
 # userMods.SetAvatarConfigSection
 
 Сохраняет или удаляет таблицу с секцией avatar.

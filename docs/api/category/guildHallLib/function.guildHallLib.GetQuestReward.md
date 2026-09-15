@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о награде за выполнение задания для прогресса оплота гильдии.
+---
+
 # guildHallLib.GetQuestReward
+
 Возвращает информацию о награде за выполнение задания для прогресса оплота гильдии.
 
 ## Описание
@@ -20,6 +25,7 @@ guildHallLib.GetQuestReward( questId: QuestId ): table
 ## Примеры
 
 ### Получение награды за первое задание оплота
+
 ```lua
 local guildHallQuests = guildHallLib.IsExist() and guildHallLib.GetQuests()
 local firstGuildQuest = guildHallQuests and guildHallQuests[1]

@@ -1,3 +1,7 @@
+---
+description: Возвращает изображение объекта ValuedObject.
+---
+
 # ValuedObject:GetImage
 
 Возвращает изображение объекта ValuedObject.

@@ -1,4 +1,9 @@
+---
+description: Определяет необходимость отрисовки интерфейса выбранного корабля.
+---
+
 # transport.CanDrawInterface
+
 Определяет необходимость отрисовки интерфейса выбранного корабля.
 
 ## Описание
@@ -20,6 +25,7 @@ transport.CanDrawInterface( transportId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка необходимости отрисовки интерфейса
+
 ```lua
 local transportId = unit.GetTransport( avatar.GetId() )
 if transportId then

@@ -1,4 +1,9 @@
+---
+description: Помечает веху для последующего изучения в поле талантов гильдии.
+---
+
 # guild.StoreTalent
+
 Помечает веху для последующего изучения в поле талантов гильдии.
 
 ## Описание
@@ -13,8 +18,10 @@ guild.StoreTalent( field: number, row: number, column: number )
 
 - **`field`** (`number`)
 Номер поля талантов гильдии.
+
 - **`row`** (`number`)
 Номер строки в указанном поле.
+
 - **`column`** (`number`)
 Номер столбца в указанном поле.
 
@@ -25,6 +32,7 @@ guild.StoreTalent( field: number, row: number, column: number )
 ## Примеры
 
 ### Пометка вехи и применение изменений
+
 ```lua
 local field = 1
 local row = 2

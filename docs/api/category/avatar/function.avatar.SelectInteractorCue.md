@@ -1,5 +1,11 @@
+---
+description: Отправляет выбранный ответ на реплику NPC-собеседника.
+---
+
 # avatar.SelectInteractorCue
+
 Отправляет выбранный ответ на реплику NPC-собеседника.
+
 ## Описание
 
 ```lua
@@ -20,6 +26,7 @@ avatar.SelectInteractorCue( index: number )
 ## Примеры
 
 ### Выбор первого доступного ответа
+
 ```lua
 local nextCues = avatar.GetInteractorNextCues()
 if nextCues[0] then

@@ -1,4 +1,9 @@
+---
+description: Возвращает имя юнита.
+---
+
 # object.GetName
+
 Возвращает имя юнита.
 
 ## Описание
@@ -20,6 +25,7 @@ object.GetName( objectId: ObjectId ): WString
 ## Примеры
 
 ### Получение имен различных объектов
+
 ```lua
 local objectName = object.GetName( objectId )
 local targetName = object.GetName( avatar.GetTarget() )

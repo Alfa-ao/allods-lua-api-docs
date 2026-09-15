@@ -1,3 +1,7 @@
+---
+description: Подтверждает завершение операции drag&drop.
+---
+
 # WidgetSafe:DNDConfirmDropAttempt
 
 Подтверждает завершение операции drag&drop.

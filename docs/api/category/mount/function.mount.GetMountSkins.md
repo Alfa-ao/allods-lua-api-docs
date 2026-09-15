@@ -1,4 +1,9 @@
+---
+description: Возвращает список идентификаторов скинов ездового животного.
+---
+
 # mount.GetMountSkins
+
 Возвращает список идентификаторов скинов ездового животного.
 
 ## Описание
@@ -21,6 +26,7 @@ mount.GetMountSkins( mountId: ObjectId ): table
 ## Примеры
 
 ### Получение и проверка первого доступного скина
+
 ```lua
 local skins = mount.GetMountSkins( mountInfo.id )
 if skins[ 0 ] then

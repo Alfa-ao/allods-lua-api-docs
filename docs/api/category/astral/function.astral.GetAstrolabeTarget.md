@@ -24,6 +24,7 @@ astral.GetAstrolabeTarget(): ObjectId | nil
 ## Примеры
 
 ### Получение информации о целевом секторе астрального прыжка
+
 ```lua
 local sectorId = astral.GetAstrolabeTarget()
 if sectorId then

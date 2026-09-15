@@ -1,4 +1,9 @@
+---
+description: Определяет, является ли главный игрок инициатором торговли с другим игроком.
+---
+
 # interaction.IsAvatarExchangeInviter
+
 Определяет, является ли главный игрок инициатором торговли с другим игроком.
 
 ## Описание
@@ -20,6 +25,7 @@ interaction.IsAvatarExchangeInviter(): boolean
 ## Примеры
 
 ### Проверка инициатора торговли
+
 ```lua
 local avatarExchangeInfo = nil
 if interaction.IsAvatarExchangeInviter() then

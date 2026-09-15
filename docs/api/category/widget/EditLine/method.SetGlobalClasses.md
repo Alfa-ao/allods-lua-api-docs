@@ -1,3 +1,7 @@
+---
+description: Задает оформление для всего EditLine через список CSS-классов.
+---
+
 # EditLineSafe:SetGlobalClasses
 
 Задает оформление для всего EditLine через список CSS-классов.

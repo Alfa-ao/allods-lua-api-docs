@@ -1,4 +1,9 @@
+---
+description: Возвращает группу связанных с состоянием звуковых ресурсов.
+---
+
 # common.GetStateRelatedSoundGroup
+
 Возвращает группу связанных с состоянием звуковых ресурсов.
 
 ## Описание
@@ -28,6 +33,7 @@ common.GetStateRelatedSoundGroup( sysGroup: string, optional: ?boolean ): Relate
 ## Примеры
 
 ### Получение группы звуков по идентификатору
+
 ```lua
 local group = common.GetStateRelatedSoundGroup( "TestGroup" )
 ```

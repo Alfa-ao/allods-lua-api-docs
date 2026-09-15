@@ -1,3 +1,7 @@
+---
+description: Возвращает идентификатор объекта `ValuedObject`.
+---
+
 # ValuedObject:GetId
 
 Возвращает идентификатор объекта `ValuedObject`.

@@ -1,3 +1,7 @@
+---
+description: Форматирует целое значение в указанном формате и возвращает результат в виде локализуемой строки.
+---
+
 # common.FormatInt
 
 Форматирует целое значение в указанном формате и возвращает результат в виде локализуемой строки.
@@ -36,6 +40,7 @@ common.FormatInt( value: number, format: string, separator: ?string ): WString
 ## Примеры
 
 ### Форматирование числа с ведущим нулем
+
 ```lua
 local valueText = common.FormatInt( 2, "%02d" )
 ```
@@ -45,6 +50,7 @@ local valueText = common.FormatInt( 2, "%02d" )
 :::
 
 ### Форматирование числа с разделителем разрядов
+
 ```lua
 local formattedValue = common.FormatInt( 1234567, "%d", " " )
 ```
@@ -54,6 +60,7 @@ local formattedValue = common.FormatInt( 1234567, "%d", " " )
 :::
 
 ### Сокращение большого числа
+
 ```lua
 local shortValue = common.FormatInt( 129876, "%dK5" )
 ```

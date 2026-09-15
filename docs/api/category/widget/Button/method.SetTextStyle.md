@@ -1,3 +1,7 @@
+---
+description: Поведение, параметры и возвращаемые значения идентичны [TextView:SetTextStyle](/api/category/widget/TextView/method.SetTextStyle.md)
+---
+
 # ButtonSafe:SetTextStyle
 
 Поведение, параметры и возвращаемые значения идентичны [TextView:SetTextStyle](/api/category/widget/TextView/method.SetTextStyle.md)

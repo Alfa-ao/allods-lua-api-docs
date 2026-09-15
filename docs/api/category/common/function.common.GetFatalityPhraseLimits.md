@@ -1,4 +1,9 @@
+---
+description: Возвращает ограничения на длину фразы для добивания.
+---
+
 # common.GetFatalityPhraseLimits
+
 Возвращает ограничения на длину фразы для добивания.
 
 ## Описание
@@ -18,11 +23,13 @@ common.GetFatalityPhraseLimits(): table | nil
 Возвращает `table` или `nil`.
 Если данные успешно получены, возвращается таблица со следующими полями:
 - **`minLength`** (`number`) - минимальная допустимая длина фразы.
+
 - **`maxLength`** (`number`) - максимальная допустимая длина фразы.
 
 ## Примеры
 
 ### Получение ограничений длины фразы
+
 ```lua
 local limits = common.GetFatalityPhraseLimits()
 if limits then

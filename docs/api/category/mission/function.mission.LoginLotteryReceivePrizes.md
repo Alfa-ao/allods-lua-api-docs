@@ -1,3 +1,7 @@
+---
+description: Получает вознаграждения за входы в игру.
+---
+
 # mission.LoginLotteryReceivePrizes
 
 Получает вознаграждения за входы в игру.

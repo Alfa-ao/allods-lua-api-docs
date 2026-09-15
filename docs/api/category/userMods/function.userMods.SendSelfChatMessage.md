@@ -1,3 +1,7 @@
+---
+description: Выводит сообщение в чат.
+---
+
 # userMods.SendSelfChatMessage
 
 Выводит сообщение в чат.

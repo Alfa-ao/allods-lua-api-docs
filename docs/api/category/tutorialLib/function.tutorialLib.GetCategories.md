@@ -1,4 +1,9 @@
+---
+description: Возвращает все категории обучения.
+---
+
 # tutorialLib.GetCategories
+
 Возвращает все категории обучения.
 
 ## Описание
@@ -20,6 +25,7 @@ tutorialLib.GetCategories(): table | nil
 ## Примеры
 
 ### Получение информации о первой категории
+
 ```lua
 local tutorialCategoryInfo = tutorialLib.GetCategoryInfo( tutorialLib.GetCategories()[1] )
 ```

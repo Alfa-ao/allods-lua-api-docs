@@ -1,4 +1,9 @@
+---
+description: Возвращает количество элементов в контейнере.
+---
+
 # ScrollableContainerSafe:GetElementCount
+
 Возвращает количество элементов в контейнере.
 
 ## Описание
@@ -20,6 +25,7 @@ ScrollableContainerSafe:GetElementCount(): number
 ## Примеры
 
 ### Получение количества элементов
+
 ```lua
 local count = wtScrollableContainer:GetElementCount()
 ```

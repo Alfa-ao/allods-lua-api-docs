@@ -1,4 +1,9 @@
+---
+description: Включает или выключает получение и отслеживание информации о существующих в игре инстанс-ивентах.
+---
+
 # matchMaking.ListenEvents
+
 Включает или выключает получение и отслеживание информации о существующих в игре инстанс-ивентах.
 
 ## Описание
@@ -20,6 +25,7 @@ matchMaking.ListenEvents( needListen: boolean )
 ## Примеры
 
 ### Включение отслеживания инстанс-ивентов
+
 ```lua
 if matchMaking.CanUseMatchMaking() then
     matchMaking.ListenEvents( true )

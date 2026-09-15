@@ -1,4 +1,9 @@
+---
+description: Добавляет в контейнер очередной элемент в конец списка.
+---
+
 # ScrollableContainerSafe:PushBack
+
 Добавляет в контейнер очередной элемент в конец списка.
 
 ## Описание
@@ -36,6 +41,7 @@ ScrollableContainerSafe:PushBack( widget: WidgetSafe )
 ## Примеры
 
 ### Добавление элемента в контейнер
+
 ```lua
 wtScrollableContainer:PushBack( wtButton )
 ```

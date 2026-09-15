@@ -1,4 +1,9 @@
+---
+description: Определяет, является ли предмет предметом для создания гильдии.
+---
+
 # itemLib.IsGuildCreator
+
 Определяет, является ли предмет предметом для создания гильдии.
 
 ## Описание
@@ -20,6 +25,7 @@ itemLib.IsGuildCreator( itemId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка предмета
+
 ```lua
 local itemIsGuildCreator = itemLib.IsGuildCreator( itemId )
 ```

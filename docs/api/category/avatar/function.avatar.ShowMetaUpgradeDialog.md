@@ -1,4 +1,9 @@
+---
+description: Управляет состоянием отображения диалога улучшения мета-предметов.
+---
+
 # avatar.ShowMetaUpgradeDialog
+
 Управляет состоянием отображения диалога улучшения мета-предметов.
 
 ## Описание
@@ -25,6 +30,7 @@ avatar.ShowMetaUpgradeDialog( show: boolean )
 ## Примеры
 
 ### Открытие диалога улучшения мета-предметов
+
 ```lua
 avatar.ShowMetaUpgradeDialog( true )
 ```

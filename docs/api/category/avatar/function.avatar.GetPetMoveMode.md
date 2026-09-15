@@ -5,6 +5,7 @@ description: Возвращает текущий тип движения пет�
 # avatar.GetPetMoveMode
 
 Возвращает текущий тип движения пета аватара.
+
 ## Описание
 
 ```lua
@@ -24,6 +25,7 @@ avatar.GetPetMoveMode(): number
 ## Примеры
 
 ### Получение текущего режима движения пета
+
 ```lua
 local mode = avatar.GetPetMoveMode()
 ```

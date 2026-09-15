@@ -1,4 +1,9 @@
+---
+description: Возвращает текущую локаль (раскладку клавиатуры) в виде короткого имени.
+---
+
 # common.GetLocale
+
 Возвращает текущую локаль (раскладку клавиатуры) в виде короткого имени.
 
 ## Описание
@@ -20,6 +25,7 @@ common.GetLocale(): string | nil
 ## Примеры
 
 ### Получение текущей локали
+
 ```lua
 local currentLocale = common.GetLocale()
 if currentLocale then

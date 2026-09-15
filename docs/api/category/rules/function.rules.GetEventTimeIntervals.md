@@ -1,4 +1,9 @@
+---
+description: Получает описание времени срабатывания правил игрового ивента.
+---
+
 # rules.GetEventTimeIntervals
+
 Получает описание времени срабатывания правил игрового ивента.
 
 ## Описание
@@ -115,6 +120,7 @@ rules.GetEventTimeIntervals( eventRuleId: ObjectId ): table
 ## Примеры
 
 ### Получение временного интервала
+
 ```lua
 local interval = rules.GetEventTimeIntervals( eventRuleId )[ 0 ]
 if interval then

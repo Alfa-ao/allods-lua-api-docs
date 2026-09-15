@@ -1,3 +1,7 @@
+---
+description: Поворачивает выбранного персонажа в сцене при помощи мыши.
+---
+
 # remortCreation.SetSceneCharacterMouseRotation
 
 Поворачивает выбранного персонажа в сцене при помощи мыши.

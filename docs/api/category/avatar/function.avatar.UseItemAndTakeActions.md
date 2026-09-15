@@ -1,4 +1,9 @@
+---
+description: Использует выбранный предмет и выполняет связанные с ним воздействия.
+---
+
 # avatar.UseItemAndTakeActions
+
 Использует выбранный предмет и выполняет связанные с ним воздействия.
 
 ## Описание
@@ -17,8 +22,10 @@ avatar.UseItemAndTakeActions( itemId: ObjectId, count: ?number, useAction: ?numb
 
 - **`itemId`** (`ObjectId`)
 Идентификатор предмета, который необходимо использовать.
+
 - **`count`** (`number`)
 Количество предметов из стека, подвергаемых использованию. По умолчанию принимает значение `1`.
+
 - **`useAction`** (`number`)
 Индекс (`sysIndex`) выбранного действия использования (`Usage`). По умолчанию принимает значение `-1`.
 
@@ -29,6 +36,7 @@ avatar.UseItemAndTakeActions( itemId: ObjectId, count: ?number, useAction: ?numb
 ## Примеры
 
 ### Использование предметов из стека
+
 ```lua
 avatar.UseItemAndTakeActions( itemId, 42 )
 ```

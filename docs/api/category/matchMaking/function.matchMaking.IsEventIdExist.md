@@ -1,4 +1,9 @@
+---
+description: Проверяет существование описания инстанс-ивента с указанным идентификатором.
+---
+
 # matchMaking.IsEventIdExist
+
 Проверяет существование описания инстанс-ивента с указанным идентификатором.
 
 ## Описание
@@ -20,6 +25,7 @@ matchMaking.IsEventIdExist( eventId: ObjectId ): boolean
 ## Примеры
 
 ### Проверка существования ивента и вывод информации
+
 ```lua
 if matchMaking.IsEventIdExist( eventId ) then
     LogInfo( "Info: ", matchMaking.GetEventInfo( eventId ) )

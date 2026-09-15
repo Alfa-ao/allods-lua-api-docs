@@ -1,4 +1,9 @@
+---
+description: Определяет, находится ли игрок на подписочном сервере.
+---
+
 # common.IsOnPayToPlayShard
+
 Определяет, находится ли игрок на подписочном сервере.
 
 ## Описание
@@ -20,6 +25,7 @@ common.IsOnPayToPlayShard(): boolean
 ## Примеры
 
 ### Получение статуса подписочного сервера
+
 ```lua
 local isOnPayToPlayShard = common.IsOnPayToPlayShard()
 ```

@@ -1,4 +1,9 @@
+---
+description: Возвращает список миссий гильдии.
+---
+
 # guild.GetMissions
+
 Возвращает список миссий гильдии.
 
 ## Описание
@@ -39,6 +44,7 @@ guild.GetMissions(): table|nil
 ## Примеры
 
 ### Получение списка миссий гильдии
+
 ```lua
 local guildMissions = guild.GetMissions()
 ```

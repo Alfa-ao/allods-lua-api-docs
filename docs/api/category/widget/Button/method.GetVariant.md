@@ -1,4 +1,9 @@
+---
+description: Возвращает идентификатор активного варианта кнопки.
+---
+
 # ButtonSafe:GetVariant
+
 Возвращает идентификатор активного варианта кнопки.
 
 ## Описание
@@ -20,6 +25,7 @@ ButtonSafe:GetVariant(): number
 ## Примеры
 
 ### Получение текущего варианта кнопки
+
 ```lua
 local varID = wtButton:GetVariant()
 ```

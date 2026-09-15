@@ -1,4 +1,9 @@
+---
+description: Добавляет в контейнер очередной элемент в начало списка.
+---
+
 # ScrollableContainerSafe:PushFront
+
 Добавляет в контейнер очередной элемент в начало списка.
 
 ## Описание
@@ -35,6 +40,7 @@ ScrollableContainerSafe:PushFront( widget: WidgetSafe )
 ## Примеры
 
 ### Добавление виджета в начало контейнера
+
 ```lua
 wtScrollableContainer:PushFront( wtButton )
 ```

@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о классе персонажа.
+---
+
 # unit.GetClass
+
 Возвращает информацию о классе персонажа.
 
 ## Описание
@@ -62,6 +67,7 @@ unit.GetClass( unitId: ObjectId ): table | nil
 ## Примеры
 
 ### Получение класса юнита
+
 ```lua
 local class = unit.GetClass( unitId )
 ```

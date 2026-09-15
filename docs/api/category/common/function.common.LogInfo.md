@@ -1,4 +1,9 @@
+---
+description: Выводит список строк в консоль или чат с префиксом "script: ".
+---
+
 # common.LogInfo
+
 Выводит список строк в консоль или чат с префиксом "script: ".
 
 ## Описание
@@ -21,8 +26,10 @@ common.LogInfo( filter: string, text01: string|WString, ...: string|WString )
 
 - **`filter`** (`string`)
 Фильтр логирования.
+
 - **`text01`** (`string` | `WString`)
 Первый обязательный текстовый аргумент.
+
 - **`...`** (`string` | `WString`)
 Список необязательных текстовых аргументов.
 
@@ -33,11 +40,13 @@ common.LogInfo( filter: string, text01: string|WString, ...: string|WString )
 ## Примеры
 
 ### Вывод простой строки
+
 ```lua
 common.LogInfo( "common", "Hello, world!" )
 ```
 
 ### Вывод строки с использованием локализованного текста
+
 ```lua
 common.LogInfo( "common", "Hello, ", userMods.ToWString( "another world!" ) )
 ```

@@ -1,4 +1,9 @@
+---
+description: Возвращает стоимость сброса (забывания) таланта в гильдии.
+---
+
 # guild.GetDropTalentCost
+
 Возвращает стоимость сброса (забывания) таланта в гильдии.
 
 ## Описание
@@ -23,6 +28,7 @@ guild.GetDropTalentCost()
 ## Примеры
 
 ### Проверка наличия средств для сброса таланта
+
 ```lua
 local dropTalentCurrencyId = 123 -- Идентификатор валюты гильдии
 local acInfo = avatar.GetCurrencyInfo( dropTalentCurrencyId )

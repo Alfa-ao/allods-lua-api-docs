@@ -1,3 +1,7 @@
+---
+description: Возвращает базовую информацию о Special-характеристике.
+---
+
 # common.GetSpecialStatInfo
 
 Возвращает базовую информацию о Special-характеристике.
@@ -29,6 +33,7 @@ common.GetSpecialStatInfo( specialStatId: SpecialStatId ): table | nil
 ## Примеры
 
 ### Получение информации о Special-характеристике
+
 ```lua
 local statInfo = common.GetSpecialStatInfo( specialStatId )
 

@@ -1,3 +1,7 @@
+---
+description: Сравнивает между собой два объекта `WString`.
+---
+
 # WStringSafe:Compare
 
 Сравнивает между собой два объекта `WString`.

@@ -1,3 +1,7 @@
+---
+description: Возвращает имя шарда.
+---
+
 # ValuedObject:GetShardName
 
 Возвращает имя шарда.

@@ -1,3 +1,7 @@
+---
+description: Определяет, находится ли игрок в том же рейде, что и аватар.
+---
+
 # raid.IsPlayerInAvatarsRaid
 
 Определяет, находится ли игрок в том же рейде, что и аватар.
@@ -23,6 +27,7 @@ raid.IsPlayerInAvatarsRaid( player: WString | ObjectId | UniqueId ): boolean
 ## Примеры
 
 ### Проверка нахождения игрока в рейде
+
 ```lua
 local inRaid = raid.IsPlayerInAvatarsRaid( playerName )
 ```

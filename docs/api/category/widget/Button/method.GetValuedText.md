@@ -1,3 +1,7 @@
+---
+description: Извлекает текстовое содержимое виджета из текущего варианта кнопки.
+---
+
 # ButtonSafe:GetValuedText
 
 Извлекает текстовое содержимое виджета из текущего варианта кнопки.
@@ -25,6 +29,7 @@ ButtonSafe:GetValuedText(): WString
 ## Примеры
 
 ### Получение текстового содержимого кнопки
+
 ```lua
 local textContent = wtButton:GetValuedText()
 ```

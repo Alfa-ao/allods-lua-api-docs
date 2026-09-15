@@ -1,4 +1,9 @@
+---
+description: Запускает воспроизведение музыки по указанному алиасу.
+---
+
 # common.PlayMusic
+
 Запускает воспроизведение музыки по указанному алиасу.
 
 ## Описание
@@ -21,6 +26,7 @@ common.PlayMusic( musicAlias: string )
 ## Примеры
 
 ### Запуск музыки по алиасу
+
 ```lua
 common.PlayMusic( musicAlias )
 ```

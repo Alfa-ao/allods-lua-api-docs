@@ -1,4 +1,9 @@
+---
+description: Задаёт отображаемость пользовательского интерфейса.
+---
+
 # common.EnableUIRender
+
 Задаёт отображаемость пользовательского интерфейса.
 
 ## Описание
@@ -21,6 +26,7 @@ common.EnableUIRender( enable: boolean )
 ## Примеры
 
 ### Отключение отображения интерфейса
+
 ```lua
 common.EnableUIRender( false )
 ```

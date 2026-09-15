@@ -1,3 +1,7 @@
+---
+description: Прерывает эффект типа [ET_TEXTURE_ROTATION](/api/constants/constants.ET.md).
+---
+
 # WidgetSafe:FinishRotationEffect
 
 Прерывает эффект типа [ET_TEXTURE_ROTATION](/api/constants/constants.ET.md).

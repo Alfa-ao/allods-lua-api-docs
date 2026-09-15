@@ -1,4 +1,9 @@
+---
+description: Инициирует возвращение от побратима.
+---
+
 # social.ReturnFromBestFriend
+
 Инициирует возвращение от побратима.
 
 ## Описание
@@ -20,6 +25,7 @@ social.ReturnFromBestFriend()
 ## Примеры
 
 ### Проверка возможности и возвращение от побратима
+
 ```lua
 if social.CanReturn() then
     social.ReturnFromBestFriend()

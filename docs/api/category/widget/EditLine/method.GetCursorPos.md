@@ -1,3 +1,7 @@
+---
+description: Возвращает позицию курсора в EditLine.
+---
+
 # EditLineSafe:GetCursorPos
 
 Возвращает позицию курсора в EditLine.

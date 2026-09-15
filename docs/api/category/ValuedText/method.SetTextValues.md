@@ -1,3 +1,7 @@
+---
+description: Заполняет ValuedText переданными в textValues значениями.
+---
+
 # ValuedTextSafe:SetTextValues
 
 Заполняет ValuedText переданными в textValues значениями.

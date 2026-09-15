@@ -1,4 +1,9 @@
+---
+description: Экранирует специальные символы в строке для предотвращения их интерпретации как HTML-кода.
+---
+
 # common.EscapeWString
+
 Экранирует специальные символы в строке для предотвращения их интерпретации как HTML-кода.
 
 ## Описание
@@ -25,6 +30,7 @@ common.EscapeWString( str: WString ): WString
 ## Примеры
 
 ### Базовое экранирование строки
+
 ```lua
 local src = "<color=red>Текст с тегами</color>"
 local result = common.EscapeWString( src )

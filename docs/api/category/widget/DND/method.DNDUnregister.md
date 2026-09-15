@@ -1,3 +1,7 @@
+---
+description: Отменяет регистрацию виджета в системе drag&drop.
+---
+
 # WidgetSafe:DNDUnregister
 
 Отменяет регистрацию виджета в системе drag&drop.

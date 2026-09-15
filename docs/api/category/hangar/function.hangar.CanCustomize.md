@@ -1,4 +1,9 @@
+---
+description: Определяет возможность кастомизации внешнего вида корабля в ангаре.
+---
+
 # hangar.CanCustomize
+
 Определяет возможность кастомизации внешнего вида корабля в ангаре.
 
 ## Описание
@@ -20,6 +25,7 @@ hangar.CanCustomize(): boolean
 ## Примеры
 
 ### Проверка и запуск кастомизации
+
 ```lua
 if hangar.CanCustomize() then
     hangar.ChangeSlotCustomization( slotId, deviceId )

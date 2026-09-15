@@ -1,4 +1,9 @@
+---
+description: Возвращает общую информацию о премиуме.
+---
+
 # premiumLib.GetInfo
+
 Возвращает общую информацию о премиуме.
 
 ## Описание
@@ -34,6 +39,7 @@ premiumLib.GetInfo(): table
 ## Примеры
 
 ### Получение информации о премиуме
+
 ```lua
 local premiumInfo = premiumLib.GetInfo()
 ```

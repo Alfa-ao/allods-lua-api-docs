@@ -1,4 +1,9 @@
+---
+description: Проверяет, находится ли персонаж в списке игнора аватара.
+---
+
 # social.IsIgnored
+
 Проверяет, находится ли персонаж в списке игнора аватара.
 
 ## Описание
@@ -24,6 +29,7 @@ social.IsIgnored( player: ObjectId | wstring ): boolean
 ## Примеры
 
 ### Проверка цели на наличие в списке игнора
+
 ```lua
 if social.IsIgnored( avatar.GetTarget() ) then
     LogInfo( "Ignored player tageted" )

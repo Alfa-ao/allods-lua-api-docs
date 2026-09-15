@@ -1,4 +1,9 @@
+---
+description: Возвращает информацию о размерах и параметрах поля общих талантов гильдии.
+---
+
 # guild.GetCommonTalentsInfo
+
 Возвращает информацию о размерах и параметрах поля общих талантов гильдии.
 
 ## Описание
@@ -17,14 +22,19 @@ guild.GetCommonTalentsInfo(): table
 
 Возвращает `table`:
 - **`fieldsCount`** (`number`) - количество полей талантов.
+
 - **`rowsCount`** (`number`) - количество строк в поле талантов.
+
 - **`columnsCount`** (`number`) - количество столбцов в поле талантов.
+
 - **`learnTalentCurrency`** (`CurrencyId` | `nil`) - идентификатор валюты, требуемой для изучения талантов.
+
 - **`dropTalentCurrency`** (`CurrencyId` | `nil`) - идентификатор валюты, требуемой для сброса талантов.
 
 ## Примеры
 
 ### Получение информации о поле общих талантов
+
 ```lua
 local info = guild.GetCommonTalentsInfo()
 ```

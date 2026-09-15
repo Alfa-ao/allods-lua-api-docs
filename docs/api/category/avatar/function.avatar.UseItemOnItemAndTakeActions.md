@@ -1,4 +1,9 @@
+---
+description: Применяет выбранный предмет к другому предмету и выполняет связанные с этим воздействия.
+---
+
 # avatar.UseItemOnItemAndUseActions
+
 Применяет выбранный предмет к другому предмету и выполняет связанные с этим воздействия.
 
 ## Описание
@@ -13,10 +18,13 @@ avatar.UseItemOnItemAndUseActions( sourceItemId: ObjectId, targetItemId: ObjectI
 
 - **`sourceItemId`** (`ObjectId`)
 Идентификатор предмета, который применяется к другому предмету. Должен иметь парт `UseOnItemAndTakeActions`.
+
 - **`targetItemId`** (`ObjectId`)
 Идентификатор предмета, на который отправляется запрос на действие и на котором проверяются предикаты.
+
 - **`count`** (`number`)
 Количество используемых предметов из стека `sourceItemId`. Значение по умолчанию - `1`.
+
 - **`useAction`** (`number`)
 Индекс (`sysIndex`) выбранного варианта использования (Usage). Значение по умолчанию - `-1`.
 
@@ -27,6 +35,7 @@ avatar.UseItemOnItemAndUseActions( sourceItemId: ObjectId, targetItemId: ObjectI
 ## Примеры
 
 ### Применение предмета к другому предмету
+
 ```lua
 avatar.UseItemOnItemAndTakeActions( waitingItemId, itemId, 3 )
 ```

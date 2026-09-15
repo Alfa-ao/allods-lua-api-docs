@@ -1,4 +1,9 @@
+---
+description: Возвращает номер сезона, в котором предмет будет разрушен.
+---
+
 # itemLib.GetDestroyValue
+
 Возвращает номер сезона, в котором предмет будет разрушен.
 
 ## Описание
@@ -20,6 +25,7 @@ itemLib.GetDestroyValue( itemId: ObjectId ): number | nil
 ## Примеры
 
 ### Получение номера сезона разрушения предмета
+
 ```lua
 local destroyValue = itemLib.GetDestroyValue( itemId )
 ```

@@ -1,4 +1,9 @@
+---
+description: Запрашивает начальную реплику NPC-собеседника.
+---
+
 # avatar.ReturnToStartCue
+
 Запрашивает начальную реплику NPC-собеседника.
 
 ## Описание
@@ -24,6 +29,7 @@ avatar.ReturnToStartCue()
 ## Примеры
 
 ### Запрос начальной реплики NPC
+
 ```lua
 avatar.ReturnToStartCue()
 ```

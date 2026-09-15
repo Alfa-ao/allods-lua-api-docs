@@ -1,4 +1,9 @@
+---
+description: Возвращает список ресурсов тира рецептов для объединения золотых слотов.
+---
+
 # craft.GetGoldenSlotsForgeTiersOrder
+
 Возвращает список ресурсов тира рецептов для объединения золотых слотов.
 
 ## Описание
@@ -20,6 +25,7 @@ craft.GetGoldenSlotsForgeTiersOrder(): table|nil
 ## Примеры
 
 ### Получение списка ресурсов тира рецептов
+
 ```lua
 local recipesTiers = craft.GetGoldenSlotsForgeTiersOrder()
 ```

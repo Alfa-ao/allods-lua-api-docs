@@ -1,4 +1,9 @@
+---
+description: Использует предмет из контейнера игрока на указанную точку ландшафта.
+---
+
 # avatar.UseItemOnPoint
+
 Использует предмет из контейнера игрока на указанную точку ландшафта.
 
 ## Описание
@@ -19,6 +24,7 @@ avatar.UseItemOnPoint( itemId: ObjectId, position: GamePosition )
 
 - **`itemId`** (`ObjectId`)
 Уникальный идентификатор предмета в контейнере игрока.
+
 - **`position`** (`GamePosition`)
 Таблица, представляющая точку на ландшафте, на которую необходимо использовать предмет.
 
@@ -29,6 +35,7 @@ avatar.UseItemOnPoint( itemId: ObjectId, position: GamePosition )
 ## Примеры
 
 ### Использование предмета на точке ландшафта
+
 ```lua
 local itemId = 12345
 local position = GamePosition.Create( 100.0, 200.0, 300.0 )

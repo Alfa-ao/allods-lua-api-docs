@@ -1,4 +1,9 @@
+---
+description: Стартует взаимодействие с указанным NPC.
+---
+
 # avatar.StartInteract
+
 Стартует взаимодействие с указанным NPC.
 
 ## Описание
@@ -21,6 +26,7 @@ avatar.StartInteract( unitId: ObjectId )
 ## Примеры
 
 ### Инициация взаимодействия с NPC
+
 ```lua
 avatar.StartInteract( unitId )
 ```

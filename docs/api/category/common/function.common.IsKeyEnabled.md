@@ -1,4 +1,9 @@
+---
+description: Возвращает текущее состояние указанной виртуальной клавиши.
+---
+
 # common.IsKeyEnabled
+
 Возвращает текущее состояние указанной виртуальной клавиши.
 
 ## Описание
@@ -30,6 +35,7 @@ common.IsKeyEnabled( vkCode: number ): boolean
 ## Примеры
 
 ### Проверка состояния клавиши CapsLock
+
 ```lua
 LogInfo( common.IsKeyEnabled( VK_CAPITAL ) )
 ```
