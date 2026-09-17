@@ -6,7 +6,7 @@ description: Отключает отправку персонального со
 
 Отключает отправку персонального события для указанного объекта.
 
-[<Badge type="warning" text="16.0.00.46" />](/changelog/16.0.0.md#16.0.0-common.EnablePersonalEvent)
+[<Badge type="success" text="16.0.00.46" />](/changelog/16.0.0.md#16.0.0-common.EnablePersonalEvent)
 
 ## Описание
 

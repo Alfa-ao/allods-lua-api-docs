@@ -6,7 +6,7 @@ description: Перезагружает указанный управляемы�
 
 Перезагружает указанный управляемый аддон.
 
-[<Badge type="warning" text="16.0.00.46" />](/changelog/16.0.0.md#16.0.0-ADDON_LOAD)
+[<Badge type="success" text="16.0.00.46" />](/changelog/16.0.0.md#16.0.0-ADDON_LOAD)
 
 ## Описание
 

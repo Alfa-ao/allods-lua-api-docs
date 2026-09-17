@@ -6,7 +6,7 @@ description: Возвращает сериализованное состоян�
 
 Возвращает сериализованное состояние панели действий для указанного класса и индекса билда.
 
-[<Badge type="warning" text="16.0.01.65" />](/changelog/16.0.0.md#16.0.0-avatar.SaveActionPanel)
+[<Badge type="success" text="16.0.01.65" />](/changelog/16.0.0.md#16.0.0-avatar.SaveActionPanel)
 
 ## Описание
 
@@ -43,4 +43,6 @@ LogInfo( avatar.SaveActionPanel( avatar.GetClass(), 0 ) )
 
 ## Смотрите также
 
-- [avatar.GetClass](/api/category/avatar/function.avatar.GetClass)
+- [avatar.GetClass](/api/category/avatar/function.avatar.GetClass.md)
+- [avatar.LoadActionPanel](/api/category/avatar/function.avatar.LoadActionPanel.md)
+- [avatar.ClearActionPanel](/api/category/avatar/function.avatar.ClearActionPanel.md)

@@ -6,7 +6,7 @@ description: Планирует выполнение указанной функ
 
 Планирует выполнение указанной функции с заданной временной задержкой.
 
-[<Badge type="warning" text="17.0.01.41" />](/index.md#17.0.0-common.DelayedCall)
+[<Badge type="success" text="17.0.01.41" />](/index.md#17.0.0-common.DelayedCall)
 
 ## Описание
 

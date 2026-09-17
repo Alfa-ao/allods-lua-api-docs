@@ -1,6 +1,6 @@
 ## EVENT_GLOBAL_COOLDOWN
 
-[<Badge type="warning" text="16.0.00.42" />](/changelog/16.0.0.md#16.0.0-EVENT_GLOBAL_COOLDOWN)
+[<Badge type="success" text="16.0.00.42" />](/changelog/16.0.0.md#16.0.0-EVENT_GLOBAL_COOLDOWN)
 
 ### Описание
 

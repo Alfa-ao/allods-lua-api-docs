@@ -6,7 +6,7 @@ description: Посылает событие с заданным именем и
 
 Посылает событие с заданным именем и параметрами в пределах текущего типа аддонов.
 
-[<Badge type="warning" text="16.0.00.49" />](/changelog/16.0.0.md#16.0.0-common.SendUserModsEvent)
+[<Badge type="success" text="16.0.00.49" />](/changelog/16.0.0.md#16.0.0-common.SendUserModsEvent)
 
 ## Описание
 

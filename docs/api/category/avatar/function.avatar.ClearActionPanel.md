@@ -6,7 +6,7 @@ description: Полностью очищает текущую раскладку
 
 Полностью очищает текущую раскладку панели действий.
 
-[<Badge type="warning" text="16.0.01.65" />](/changelog/16.0.0.md#16.0.0-avatar.SaveActionPanel)
+[<Badge type="success" text="16.0.01.65" />](/changelog/16.0.0.md#16.0.0-avatar.SaveActionPanel)
 
 ## Описание
 
@@ -39,3 +39,7 @@ avatar.ClearActionPanel()
 ```lua
 avatar.ClearActionPanel()
 ```
+
+## Смотрите также
+
+- [avatar.SaveActionPanel](/api/category/avatar/function.avatar.SaveActionPanel.md)

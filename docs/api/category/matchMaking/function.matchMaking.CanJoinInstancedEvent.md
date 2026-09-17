@@ -6,7 +6,7 @@ description: Проверяет возможность принятия ават
 
 Проверяет возможность принятия аватаром участия в указанном или любом доступном инстанс-ивенте.
 
-[<Badge type="warning" text="17.0.01.23" />](/index.md#17.0.0-matchMaking.CanJoinInstancedEvent)
+[<Badge type="success" text="17.0.01.23" />](/index.md#17.0.0-matchMaking.CanJoinInstancedEvent)
 
 ## Описание
 

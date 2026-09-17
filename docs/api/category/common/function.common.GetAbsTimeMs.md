@@ -6,7 +6,7 @@ description: Возвращает значение основного игров
 
 Возвращает значение основного игрового таймера.
 
-[<Badge type="warning" text="16.0.00.49" />](/changelog/16.0.0.md#16.0.0-common.GetAbsTimeMs)
+[<Badge type="success" text="16.0.00.49" />](/changelog/16.0.0.md#16.0.0-common.GetAbsTimeMs)
 
 ## Описание
 

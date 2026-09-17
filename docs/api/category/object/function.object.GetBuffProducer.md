@@ -6,7 +6,7 @@ description: Возвращает информацию об источнике �
 
 Возвращает информацию об источнике бафа.
 
-[<Badge type="warning" text="17.0.01.41" />](/index.md#17.0.0-object.GetBuffProducer)
+[<Badge type="success" text="17.0.01.41" />](/index.md#17.0.0-object.GetBuffProducer)
 
 ## Описание
 

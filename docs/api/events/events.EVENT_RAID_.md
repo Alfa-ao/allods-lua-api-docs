@@ -281,7 +281,7 @@ EVENT_RAID_LOOT_MASTER_CHANGED
 
 ## EVENT_RAID_MEMBER_ACTIVE_PET_CHANGED
 
-[<Badge type="warning" text="17.0.01.43" />](/index.md#17.0.0-..._MEMBER_ACTIVE_PET_CHANGED)
+[<Badge type="success" text="17.0.01.43" />](/index.md#17.0.0-..._MEMBER_ACTIVE_PET_CHANGED)
 
 ### Описание
 

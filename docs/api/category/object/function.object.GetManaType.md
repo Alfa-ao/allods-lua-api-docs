@@ -6,7 +6,7 @@ description: Возвращает тип маны объекта.
 
 Возвращает тип маны объекта.
 
-[<Badge type="warning" text="17.0.01.43" />](/index.md#17.0.0-object.GetManaType)
+[<Badge type="success" text="17.0.01.43" />](/index.md#17.0.0-object.GetManaType)
 
 ## Описание
 

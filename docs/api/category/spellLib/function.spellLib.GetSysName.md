@@ -6,7 +6,7 @@ description: Возвращает системное имя заклинания
 
 Возвращает системное имя заклинания по его идентификатору.
 
-[<Badge type="warning" text="17.0.01.41" />](/index.md#17.0.0-spellLib.GetSysName)
+[<Badge type="success" text="17.0.01.41" />](/index.md#17.0.0-spellLib.GetSysName)
 
 ## Описание
 

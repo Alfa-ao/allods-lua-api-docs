@@ -6,7 +6,7 @@ description: Отменяет запланированный отложенны�
 
 Отменяет запланированный отложенный вызов функции.
 
-[<Badge type="warning" text="17.0.01.41" />](/index.md#17.0.0-common.DelayedCall)
+[<Badge type="success" text="17.0.01.41" />](/index.md#17.0.0-common.DelayedCall)
 
 ## Описание
 

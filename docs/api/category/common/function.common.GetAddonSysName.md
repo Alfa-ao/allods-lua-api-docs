@@ -6,7 +6,7 @@ description: Возвращает системное имя аддона, в к�
 
 Возвращает системное имя аддона, в котором выполняется скрипт.
 
-[<Badge type="warning" text="16.0.00.46" />](/changelog/16.0.0.md#16.0.0-common.GetAddonSysName)
+[<Badge type="success" text="16.0.00.46" />](/changelog/16.0.0.md#16.0.0-common.GetAddonSysName)
 
 ## Описание
 

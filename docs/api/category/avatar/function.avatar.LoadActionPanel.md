@@ -6,7 +6,7 @@ description: Устанавливает состояние панели дейс
 
 Устанавливает состояние панели действий для заданного класса и билда.
 
-[<Badge type="warning" text="16.0.01.65" />](/changelog/16.0.0.md#16.0.0-avatar.SaveActionPanel)
+[<Badge type="success" text="16.0.01.65" />](/changelog/16.0.0.md#16.0.0-avatar.SaveActionPanel)
 
 ## Описание
 
