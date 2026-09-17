@@ -47,12 +47,12 @@ common.GetAllodsGoals(): table
 local goals = common.GetAllodsGoals()
 
 if goals then
-    for i = 0, GetTableSize(goals) - 1 do
+    for i = 0, table.nkeys(goals) - 1 do
         local goal = goals[i]
         LogInfo("Цель: ", goal.goalId, " Состояние: ", goal.state)
 
         if goal.stages then
-            for j = 0, GetTableSize(goal.stages) - 1 do
+            for j = 0, table.nkeys(goal.stages) - 1 do
                 local stage = goal.stages[j]
                 LogInfo("  Подцель: ", stage.goalId, " Состояние: ", stage.state)
             end

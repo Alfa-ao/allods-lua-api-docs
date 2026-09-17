@@ -28,7 +28,7 @@ rules.GetEvents( getHidden: boolean | nil ): table
 
 ```lua
 local eventRules = rules.GetEvents()
-for index = 0, GetTableSize( eventRules ) - 1 do
+for index = 0, table.nkeys( eventRules ) - 1 do
     local eventRuleInfo = rules.GetEventInfo( eventRules[ index ] )
 end
 ```

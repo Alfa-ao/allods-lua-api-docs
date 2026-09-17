@@ -42,7 +42,7 @@ order.GetBonusVoitingList(): table | nil
 local bonusList = order.GetBonusVoitingList()
 
 if bonusList then
-    for i = 0, GetTableSize( bonusList ) - 1 do
+    for i = 0, table.nkeys( bonusList ) - 1 do
         local bonus = bonusList[ i ]
         LogInfo( "Бонус: ", bonus.name, " | Голосов: ", bonus.voteCount, " | Доступен: ", tostring( not bonus.disabled ) )
     end

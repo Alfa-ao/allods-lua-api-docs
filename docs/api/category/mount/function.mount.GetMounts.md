@@ -30,7 +30,7 @@ mount.GetMounts(): table
 local mounts = mount.GetMounts()
 local stableInfo = mount.GetStableInfo()
 if stableInfo then
-    local isFull = ( stableInfo.slotsCount <= GetTableSize( mounts ) )
+    local isFull = ( stableInfo.slotsCount <= table.nkeys( mounts ) )
 end
 ```
 

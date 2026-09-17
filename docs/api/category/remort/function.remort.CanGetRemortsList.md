@@ -29,7 +29,7 @@ remort.CanGetRemortsList(): boolean
 ```lua
 if remort.CanGetRemortsList() then
     local remorts = remort.GetRemortsList()
-    for i = 0, GetTableSize( remorts ) - 1 do
+    for i = 0, table.nkeys( remorts ) - 1 do
         local remort = remorts[ i ]
         LogInfo( remort.name )
     end

@@ -28,7 +28,7 @@ social.GetIgnoreList(): table
 
 ```lua
 local ignories = social.GetIgnoreList()
-for i = 0, GetTableSize( ignories ) - 1 do
+for i = 0, table.nkeys( ignories ) - 1 do
     local ignoreInfo = social.GetIgnoreInfo( ignories[ i ] )
     if ignoreInfo then
         local ignoreName = ignoreInfo.name

@@ -28,7 +28,7 @@ avatar.GetResistances(): table
 
 ```lua
 local stats = avatar.GetResistances()
-for i = 0, GetTableSize( stats ) - 1 do
+for i = 0, table.nkeys( stats ) - 1 do
     local stat = stats[i]
     LogInfo( "base: ", stat.base, ", effective: ", stat.effective, ", sysName: ", stat.sysName )
 end

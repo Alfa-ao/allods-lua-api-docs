@@ -50,9 +50,9 @@ local bind = binding.GetBind( sysSectionName, sysBindName )
 if bind then
     LogInfo( "sysName: ", bind.sysName )
     LogInfo( "name: ", userMods.FromWString( bind.name ) )
-    for i = 0, GetTableSize( bind.keys ) - 1 do
+    for i = 0, table.nkeys( bind.keys ) - 1 do
         local keys = bind.keys[i]
-        for j = 0, GetTableSize( keys ) - 1 do
+        for j = 0, table.nkeys( keys ) - 1 do
             local key = keys[j]
             LogInfo( "    key ", j, ": ", userMods.FromWString( key ) )
         end
@@ -61,7 +61,7 @@ end
 ```
 
 ::: info Описание примера
-В примере выполняется запрос информации о бинде. При успешном получении данных в лог выводятся служебное и локализованное названия бинда. Далее происходит перебор всех назначенных комбинаций клавиш и вывод локализованных названий каждой клавиши в комбинации. Для преобразования строк широкого формата используется функция `userMods.FromWString`, а для определения размера таблиц - `GetTableSize`.
+В примере выполняется запрос информации о бинде. При успешном получении данных в лог выводятся служебное и локализованное названия бинда. Далее происходит перебор всех назначенных комбинаций клавиш и вывод локализованных названий каждой клавиши в комбинации. Для преобразования строк широкого формата используется функция `userMods.FromWString`, а для определения размера таблиц - `table.nkeys`.
 :::
 
 ## Смотрите также

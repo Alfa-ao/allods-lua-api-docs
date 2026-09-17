@@ -53,7 +53,7 @@ local achievements = order.GetAchievements( eventId )
 if achievements then
     LogInfo( "Достижение главного игрока: ", achievements.mainPlayerAchievement )
     
-    for i = 1, GetTableSize( achievements.achievements ) do
+    for i = 1, table.nkeys( achievements.achievements ) do
         local info = achievements.achievements[ i ]
         LogInfo( "Имя: ", info.name, " Очки: ", info.achievement )
     end

@@ -38,7 +38,7 @@ bulletinBoard.GetSectionInfos(): table
 
 ```lua
 local sectionInfos = bulletinBoard.GetSectionInfos()
-for i = 0, GetTableSize( sectionInfos ) - 1 do
+for i = 0, table.nkeys( sectionInfos ) - 1 do
     local sectionInfo = sectionInfos[i]
     LogInfo( "раздел: ", sectionInfo.name )
 end

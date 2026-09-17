@@ -46,7 +46,7 @@ rules.GetWishmasterMultiplyingInfos(): table
 
 ```lua
 local infos = rules.GetWishmasterMultiplyingInfos()
-for i = 0, GetTableSize( infos ) - 1 do
+for i = 0, table.nkeys( infos ) - 1 do
     local info = infos[ i ]
     if info.resourceId == eventParams.resourceId then
         LogInfo( "Multiplying: ", info.name )

@@ -37,7 +37,7 @@ if unlock.isFullyUnlocked then
     -- Дополнительной информации по слоту не требуется
 else
     local qualities = unlock.qualities
-    if GetTableSize( qualities ) == 0 then
+    if table.nkeys( qualities ) == 0 then
         -- Вывод информации о том, что слот недоступен
     else
         -- Вывод подробной информации о доступности слота

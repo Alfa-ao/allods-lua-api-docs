@@ -27,7 +27,7 @@ itemLib.GetExtraDescs( itemId: ObjectId ): table
 
 ```lua
 local extraDescs = itemLib.GetExtraDescs( itemId )
-for i = 0, GetTableSize( extraDescs ) - 1 do
+for i = 0, table.nkeys( extraDescs ) - 1 do
     local text = extraDescs[ i ]
 end
 ```

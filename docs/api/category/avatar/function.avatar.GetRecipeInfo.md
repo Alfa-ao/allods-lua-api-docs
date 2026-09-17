@@ -61,7 +61,7 @@ avatar.GetRecipeInfo( id: RecipeId ): table | nil
 ```lua
 local alchemy = avatar.GetAlchemyInfo()
 local recipes = alchemy.recipes
-for i = 0, GetTableSize( recipes ) - 1 do
+for i = 0, table.nkeys( recipes ) - 1 do
     local recipeInfo = avatar.GetRecipeInfo( recipes[ i ] )
     if recipeInfo then
         LogInfo( userMods.FromWString( recipeInfo.name ) )

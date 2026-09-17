@@ -28,14 +28,14 @@ itemLib.GetChildCategories( itemCategoryId: ItemCategoryId ): table
 
 ```lua
 local roots = itemLib.GetRootCategories()
-for i = 0, GetTableSize( roots ) do
+for i = 0, table.nkeys( roots ) do
     local categoryInfo = itemLib.GetCategoryInfo( roots[ i ] )
     if categoryInfo then
         local name = categoryInfo.name
     end
 
     local childs = itemLib.GetChildCategories( roots[ i ] )
-    for j = 0, GetTableSize( childs ) do
+    for j = 0, table.nkeys( childs ) do
         local categoryInfo = itemLib.GetCategoryInfo( childs[ 0 ] )
         if categoryInfo then
             local name = categoryInfo.name

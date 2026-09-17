@@ -46,7 +46,7 @@ avatar.GetReputationsList(): table
 ```lua
 local reputationsList = avatar.GetReputationsList()
 if reputationsList then
-    for i = 0, GetTableSize( reputationsList ) - 1 do
+    for i = 0, table.nkeys( reputationsList ) - 1 do
         local repInfo = reputationsList[ i ]
         LogInfo( "Фракция: ", repInfo.factionId, ", Уровень: ", repInfo.level )
     end

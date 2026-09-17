@@ -35,7 +35,7 @@ avatar.GetBonusPools(): table
 
 ```lua
 local bonuses = avatar.GetBonusPools()
-for i = 0, GetTableSize( bonuses ) - 1 do
+for i = 0, table.nkeys( bonuses ) - 1 do
     local bonusInfo = bonuses[ i ]
     local percent = bonusInfo.left / bonusInfo.total * 100
 end

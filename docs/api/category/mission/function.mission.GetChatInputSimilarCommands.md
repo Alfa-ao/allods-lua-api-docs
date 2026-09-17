@@ -32,7 +32,7 @@ mission.GetChatInputSimilarCommands( text: WString ): table
 
 ```lua
 local cmds = mission.GetChatInputSimilarCommands( inputText )
-for i = 0, GetTableSize( cmds ) - 1 do
+for i = 0, table.nkeys( cmds ) - 1 do
     local cmd = cmds[i]
     LogInfo( " ", i, ": sysId = ", cmd.sysId, ", alias = ", cmd.alias )
 end

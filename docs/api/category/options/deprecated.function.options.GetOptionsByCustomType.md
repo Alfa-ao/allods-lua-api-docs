@@ -33,7 +33,7 @@ options.GetOptionsByCustomType( sysCustomType: string ): table
 
 ```lua
 local ids = options.GetOptionsByCustomType("some_option")
-for i = 0, GetTableSize(ids) - 1 do
+for i = 0, table.nkeys(ids) - 1 do
     local info = options.GetOptionInfo(ids[i])
     LogInfo("", info)
 end

@@ -55,7 +55,7 @@ avatar.GetVendorList(): table
 
 ```lua
 local list = avatar.GetVendorList()
-for i = 0, GetTableSize( list ) - 1 do
+for i = 0, table.nkeys( list ) - 1 do
     local itemId = list[ i ].id
     local object = avatar.GetItemInfo( itemId )
     local name = object.name

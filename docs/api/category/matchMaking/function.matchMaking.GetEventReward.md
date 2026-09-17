@@ -61,7 +61,7 @@ local eventReward = matchMaking.GetEventReward( eventId )
 if eventReward then
     LogInfo( "Event reward: ", eventReward.money )
 
-    for i = 0, GetTableSize( eventReward.currencies ) - 1 do
+    for i = 0, table.nkeys( eventReward.currencies ) - 1 do
         local currencyId = eventReward.currencies[ i ]
         local currencyInfo = avatar.GetCurrencyInfo( currencyId )
     end

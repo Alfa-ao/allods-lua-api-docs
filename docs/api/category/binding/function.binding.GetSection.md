@@ -38,7 +38,7 @@ local section = binding.GetSection( sysSectionName )
 if section then
     LogInfo( "  sysName: ", section.sysName )
     LogInfo( "  name: ", userMods.FromWString( section.name ) )
-    for i = 0, GetTableSize( section.bindNames ) - 1 do
+    for i = 0, table.nkeys( section.bindNames ) - 1 do
         local sysBindName = section.bindNames[i]
         LogInfo( "   bind ", i, ": ", sysBindName )
     end

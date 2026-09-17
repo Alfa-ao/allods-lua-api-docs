@@ -42,7 +42,7 @@ cartographer.GetSosInfo( id: ObjectId ): table | nil
 
 ```lua
 local sosObjects = cartographer.GetSosObjects()
-for i = 0, GetTableSize( sosObjects ) - 1 do
+for i = 0, table.nkeys( sosObjects ) - 1 do
     local sosInfo = cartographer.GetSosInfo( sosObjects[ i ] )
     if sosInfo then
         -- Обработка информации об объекте SOS

@@ -36,7 +36,7 @@ social.GetIgnoreInfo( ignoreId: ObjectId ): table | nil
 
 ```lua
 local ignoreList = social.GetIgnoreList()
-for i = 0, GetTableSize(ignoreList) - 1 do
+for i = 0, table.nkeys(ignoreList) - 1 do
     local ignoreInfo = social.GetIgnoreInfo(ignoreList[i])
     if ignoreInfo then
         local ignoreName = ignoreInfo.name

@@ -56,7 +56,7 @@ local questReward = avatar.GetQuestReward( questId )
 if questReward then
     LogInfo( "Quest reward: ", questReward.money )
 
-    for i = 0, GetTableSize( questReward.currencies ) - 1 do
+    for i = 0, table.nkeys( questReward.currencies ) - 1 do
         local currencyId = questReward.currencies[ i ].currencyId
         local currencyInfo = avatar.GetCurrencyInfo( currencyId )
     end

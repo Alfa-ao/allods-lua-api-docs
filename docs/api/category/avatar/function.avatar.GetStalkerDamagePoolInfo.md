@@ -39,7 +39,7 @@ avatar.GetStalkerDamagePoolInfo(): table | nil
 ```lua
 local stalkerPools = avatar.GetStalkerDamagePoolInfo()
 if stalkerPools then
-    for i = 1, GetTableSize( stalkerPools ) do
+    for i = 1, table.nkeys( stalkerPools ) do
         local pool = stalkerPools[ i ]
         common.LogInfo( "Барьер ID: ", pool.internalId, " Урон: ", pool.damage, " Время: ", pool.resolveTime )
     end

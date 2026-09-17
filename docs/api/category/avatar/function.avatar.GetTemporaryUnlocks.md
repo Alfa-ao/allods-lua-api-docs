@@ -28,7 +28,7 @@ avatar.GetTemporaryUnlocks(): table
 
 ```lua
 local unlocks = avatar.GetTemporaryUnlocks()
-for i = 0, GetTableSize( unlocks ) - 1 do
+for i = 0, table.nkeys( unlocks ) - 1 do
   local info = avatar.GetUnlockInfo( unlocks[ i ] )
   if info then
     LogInfo( info.name )

@@ -42,14 +42,14 @@ avatar.GetGlobalRates(): table
 
 ```lua
 local globalRates = avatar.GetGlobalRates()
-for i = 0, GetTableSize( globalRates ) - 1 do
+for i = 0, table.nkeys( globalRates ) - 1 do
   local globalRate = globalRates[ i ]
   local value = globalRate.value
 end
 ```
 
 ::: info Описание примера
-В примере извлекается список глобальных рейтов развития с помощью функции `avatar.GetGlobalRates`. Затем с использованием функции `GetTableSize` организуется цикл для перебора полученной таблицы. На каждой итерации извлекается числовое значение рейта (`value`) для последующей обработки.
+В примере извлекается список глобальных рейтов развития с помощью функции `avatar.GetGlobalRates`. Затем с использованием функции `table.nkeys` организуется цикл для перебора полученной таблицы. На каждой итерации извлекается числовое значение рейта (`value`) для последующей обработки.
 :::
 
 ## Смотрите также

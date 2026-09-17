@@ -34,9 +34,9 @@ local info = avatar.GetUsableDeviceInfo( deviceId )
 
 if info then
     local actions = info.actions
-    common.LogInfo( "common", "name: " .. userMods.FromWString( info.name ) .. ", actions count: " .. GetTableSize( actions ) )
+    common.LogInfo( "common", "name: " .. userMods.FromWString( info.name ) .. ", actions count: " .. table.nkeys( actions ) )
 
-    for i = 0, GetTableSize( actions ) - 1 do
+    for i = 0, table.nkeys( actions ) - 1 do
         local action = actions[i]
         common.LogInfo( "common", " action: " .. i )
         common.LogInfo( "common", "  name: " .. userMods.FromWString( action.name ) )

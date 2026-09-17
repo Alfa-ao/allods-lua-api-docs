@@ -43,7 +43,7 @@ avatar.GetComponentInfo( id: ComponentPropertyId ): table | nil
 ```lua
 local drumInfo = avatar.GetAlchemyDrumInfo( drum )
 local components = drumInfo.components
-for i = 0, GetTableSize( components ) - 1 do
+for i = 0, table.nkeys( components ) - 1 do
     local componentInfo = avatar.GetComponentInfo( components[ i ] )
     if componentInfo then
         LogInfo( userMods.FromWString( componentInfo.name ) )

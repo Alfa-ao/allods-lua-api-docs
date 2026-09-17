@@ -39,7 +39,7 @@ guild.GetTalentsByGroup( groupName: string ): table | nil
 local groupName = "Основная"
 local info = guild.GetTalentsByGroup( groupName )
 if info then
-    local count = GetTableSize( info )
+    local count = table.nkeys( info )
     LogInfo( "Найдено талантов: ", count )
 end
 ```

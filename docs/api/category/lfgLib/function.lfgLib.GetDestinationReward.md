@@ -57,7 +57,7 @@ local destinationReward = lfgLib.GetDestinationReward( questId )
 if destinationReward then
     LogInfo( "Quest reward: ", destinationReward.money )
 
-    for i = 0, GetTableSize( destinationReward.currencies ) - 1 do
+    for i = 0, table.nkeys( destinationReward.currencies ) - 1 do
         local currencyId = destinationReward.currencies[ i ]
         local currencyInfo = avatar.GetCurrencyInfo( currencyId )
     end

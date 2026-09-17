@@ -57,7 +57,7 @@ avatar.GetInnateStats(): table
 
 ```lua
 local stats = avatar.GetInnateStats()
-for i = 0, GetTableSize( stats ) - 1 do
+for i = 0, table.nkeys( stats ) - 1 do
     local stat = stats[i]
 
     local base = stat.base

@@ -39,7 +39,7 @@ avatar.GetSkillInfo( id: SkillId ): table | nil
 
 ```lua
 local skills = avatar.GetSkills()
-for i = 0, GetTableSize( skills ) - 1 do
+for i = 0, table.nkeys( skills ) - 1 do
     local skillInfo = avatar.GetSkillInfo( skills[ i ] )
     if skillInfo then
         LogInfo( skillInfo.exp )

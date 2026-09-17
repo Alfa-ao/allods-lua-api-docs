@@ -31,7 +31,7 @@ avatar.GetBarriersInfo(): table
 
 ```lua
 local barriers = avatar.GetBarriersInfo()
-for i = 0, GetTableSize( barriers ) - 1 do
+for i = 0, table.nkeys( barriers ) - 1 do
     local barrier = barriers[i]
     common.LogInfo( "common", "damage: " .. barrier.damage .. ", time (ms): " .. barrier.remainingTimeMs )
 end

@@ -28,7 +28,7 @@ binding.GetSections(): table
 
 ```lua
 local sections = binding.GetSections()
-for i = 0, GetTableSize( sections ) - 1 do
+for i = 0, table.nkeys( sections ) - 1 do
     local sysSectionName = sections[i]
     LogInfo( " section ", i, ": ", sysSectionName )
 end

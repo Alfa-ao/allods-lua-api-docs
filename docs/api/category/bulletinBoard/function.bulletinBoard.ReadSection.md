@@ -32,7 +32,7 @@ bulletinBoard.ReadSection( postTypeId: PostTypeId ): table | nil
 ```lua
 local postIds = bulletinBoard.ReadSection( postTypeId )
 if postIds then
-    for i = 0, GetTableSize( postIds ) - 1 do
+    for i = 0, table.nkeys( postIds ) - 1 do
         local post = bulletinBoard.GetPost( postIds[i] )
     end
 end

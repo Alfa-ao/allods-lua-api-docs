@@ -61,7 +61,7 @@ auction.GetAuctionInfo( id: ObjectId ): table|nil
 
 ```lua
 local auctions = auction.GetAuctions()
-for i = 0, GetTableSize( auctions ) - 1 do
+for i = 0, table.nkeys( auctions ) - 1 do
     local auctionInfo = auction.GetAuctionInfo( auctions[ i ] )
     if auctionInfo then
         local itemInfo = avatar.GetItemInfo( auctionInfo.itemId )

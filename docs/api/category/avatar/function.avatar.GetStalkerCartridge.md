@@ -39,7 +39,7 @@ avatar.GetStalkerCartridge(): table
 
 ```lua
 local arrows = avatar.GetStalkerCartridge()
-for i = 0, GetTableSize( arrows ) - 1 do
+for i = 0, table.nkeys( arrows ) - 1 do
     local arrow = arrows[ i ]
     local spellInfo = avatar.GetSpellInfo( arrow.enchantSpellId )
     if spellInfo then

@@ -40,7 +40,7 @@ cartographer.GetMapBlockInfo( mapBlockId: ObjectId ): table | nil
 
 ```lua
 local mapBlocks = cartographer.GetMapBlocks()
-for i = 0, GetTableSize( mapBlocks ) - 1 do
+for i = 0, table.nkeys( mapBlocks ) - 1 do
     local mapBlockInfo = cartographer.GetMapBlockInfo( mapBlocks[ i ] )
     if mapBlockInfo then
         local name = mapBlockInfo.name

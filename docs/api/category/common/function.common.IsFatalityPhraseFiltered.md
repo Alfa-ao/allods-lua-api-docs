@@ -38,7 +38,7 @@ if result then
     if result.filtered then
         LogInfo( "Фраза содержит запрещенные выражения." )
         if result.reason then
-            for i = 0, GetTableSize( result.reason ) - 1 do
+            for i = 0, table.nkeys( result.reason ) - 1 do
                 LogInfo( "Запрещенное выражение: ", result.reason[ i ] )
             end
         end

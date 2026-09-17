@@ -29,7 +29,7 @@ avatar.GetItemClassList(): table
 ```lua
 local itemClassList = avatar.GetItemClassList()
 if itemClassList then
-    for i = 0, GetTableSize(itemClassList) - 1 do
+    for i = 0, table.nkeys(itemClassList) - 1 do
         LogInfo("Доступный класс предмета: ", itemClassList[i])
     end
 end

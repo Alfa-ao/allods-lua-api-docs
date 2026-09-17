@@ -28,7 +28,7 @@ social.GetFriendList(): table
 
 ```lua
 local friends = social.GetFriendList()
-for i = 0, GetTableSize( friends ) - 1 do
+for i = 0, table.nkeys( friends ) - 1 do
     local friendInfo = social.GetFriendInfo( friends[i] )
     if friendInfo then
         local friendName = friendInfo.name

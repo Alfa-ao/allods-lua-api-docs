@@ -48,7 +48,7 @@ local questObjective = avatar.GetQuestObjectiveInfo( objectiveId )
 local geodatas = cartographer.GetQuestObjectiveGeodata( objectiveId, currentZonesMapId )
 
 if geodatas and questObjective then
-    for index = 0, GetTableSize( questObjective.locations ) - 1 do
+    for index = 0, table.nkeys( questObjective.locations ) - 1 do
         local location = questObjective.locations[ index ]
         local geodata = geodatas[ index ]
         

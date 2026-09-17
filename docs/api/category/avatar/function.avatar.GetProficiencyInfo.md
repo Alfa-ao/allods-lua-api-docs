@@ -46,7 +46,7 @@ avatar.GetProficiencyInfo( id: ObjectId ): table | nil
 
 ```lua
 local proficiences = avatar.GetProficiencies()
-if GetTableSize( proficiences ) > 0 then
+if table.nkeys( proficiences ) > 0 then
     local proficiencyInfo = avatar.GetProficiencyInfo( proficiences[0] )
     if proficiencyInfo then
         local name = proficiencyInfo.name
