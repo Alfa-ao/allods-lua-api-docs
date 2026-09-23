@@ -20,8 +20,7 @@ common.GetTextureInfo( textureId: TextureId ): ?table
 
 ## Список параметров
 
-- **`textureId`** (`TextureId`)
-Уникальный идентификатор ресурса текстуры.
+- **`textureId`** (`TextureId`) - Уникальный идентификатор ресурса текстуры.
 
 ## Возвращаемые значения
 

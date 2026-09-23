@@ -18,8 +18,7 @@ avatar.InventoryGetPocketInfo( pocketIndex: number ): table | nil
 
 ## Список параметров
 
-- **`pocketIndex`** (`number`)
-Индекс кармана, начиная с 0.
+- **`pocketIndex`** (`number`) - Индекс кармана, начиная с 0.
 
 ## Возвращаемые значения
 

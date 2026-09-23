@@ -16,11 +16,9 @@ common.GetAddonRelatedWidgetGroup( sysGroup: string, optional: boolean|nil ): Re
 
 ## Список параметров
 
-- **`sysGroup`** (`string`)
-Идентификатор искомой группы шаблонов виджетов.
+- **`sysGroup`** (`string`) - Идентификатор искомой группы шаблонов виджетов.
 
-- **`optional`** (`boolean` | `nil`)
-Флаг, определяющий поведение при отсутствии группы. Если передано значение `true`, отсутствие искомой группы не считается ошибкой. По умолчанию `false`.
+- **`optional`** (`boolean` | `nil`) - Флаг, определяющий поведение при отсутствии группы. Если передано значение `true`, отсутствие искомой группы не считается ошибкой. По умолчанию `false`.
 
 ## Возвращаемые значения
 
@@ -28,9 +26,13 @@ common.GetAddonRelatedWidgetGroup( sysGroup: string, optional: boolean|nil ): Re
 
 ## Примеры
 
+```xml
+<Item href="/Mods/SampleCommon/Scripts/WidgetFactory.lua" />
+```
+
 ### Получение и использование группы шаблонов виджетов
 
-```lua
+```lua:line-numbers=54
 local GetWidgetDesc
 --------------------------------------------------------------------------------
 do

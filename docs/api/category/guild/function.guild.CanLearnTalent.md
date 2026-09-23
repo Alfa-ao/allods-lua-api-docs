@@ -20,17 +20,13 @@ guild.CanLearnTalent( field: number, row: number, column: number, talentType: ?n
 
 ## Список параметров
 
-- **`field`** (`number`)
-Номер поля дерева талантов.
+- **`field`** (`number`) - Номер поля дерева талантов.
 
-- **`row`** (`number`)
-Номер строки на выбранном поле.
+- **`row`** (`number`) - Номер строки на выбранном поле.
 
-- **`column`** (`number`)
-Номер столбца на выбранном поле.
+- **`column`** (`number`) - Номер столбца на выбранном поле.
 
-- **`talentType`** (`number` | `nil`)
-Тип таланта. Задается значением из перечисления `ENUM_TalentType`. При передаче `nil` используется тип по умолчанию.
+- **`talentType`** (`number` | `nil`) - Тип таланта. Задается значением из перечисления `ENUM_TalentType`. При передаче `nil` используется тип по умолчанию.
 
 ## Возвращаемые значения
 
@@ -39,8 +35,7 @@ guild.CanLearnTalent( field: number, row: number, column: number, talentType: ?n
 - **`result`** (`boolean`)
 `true`, если изучение таланта доступно.
 
-- **`requirements`** (`table` | `nil`)
-Требования для изучения таланта.
+- **`requirements`** (`table` | `nil`) - Требования для изучения таланта.
 - `nearFieldClosed` (`boolean`) - `true`, если рядом нет открытых талантов.
 - `talentsPoint` (`number`) - доступное количество очков талантов.
 - `talentsPointRequired` (`number`) - требуемое количество очков талантов.

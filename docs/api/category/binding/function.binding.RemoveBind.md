@@ -16,14 +16,11 @@ binding.RemoveBind( sysSectionName: string, sysBindName: string, index: number )
 
 ## Список параметров
 
-- **`sysSectionName`** (`string`)
-Идентификатор секции настроек.
+- **`sysSectionName`** (`string`) - Идентификатор секции настроек.
 
-- **`sysBindName`** (`string`)
-Идентификатор бинда (реакции).
+- **`sysBindName`** (`string`) - Идентификатор бинда (реакции).
 
-- **`index`** (`number`)
-Индекс горячей клавиши для данного бинда.
+- **`index`** (`number`) - Индекс горячей клавиши для данного бинда.
 
 ## Возвращаемые значения
 

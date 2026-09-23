@@ -16,8 +16,7 @@ avatar.GetUnlocksInCategory( unlockCategoryId: UnlockCategoryId ): table
 
 ## Список параметров
 
-- **`unlockCategoryId`** (`UnlockCategoryId`)
-Идентификатор типа категории возможностей (анлоков), для которой необходимо получить список доступных элементов.
+- **`unlockCategoryId`** (`UnlockCategoryId`) - Идентификатор типа категории возможностей (анлоков), для которой необходимо получить список доступных элементов.
 
 ## Возвращаемые значения
 

@@ -16,8 +16,7 @@ common.GetMsFromDateTime( timeTable: table ): number
 
 ## Список параметров
 
-- **`timeTable`** (`table`)
-Таблица с полями, описывающими дату и время:
+- **`timeTable`** (`table`) - Таблица с полями, описывающими дату и время:
   - `y` (`number`) - год.
   - `m` (`number`) - месяц (начиная с 1).
   - `d` (`number`) - день.

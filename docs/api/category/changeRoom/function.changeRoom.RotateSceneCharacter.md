@@ -16,11 +16,9 @@ changeRoom.RotateSceneCharacter( characterId: ObjectId, angle: number )
 
 ## Список параметров
 
-- **`characterId`** (`ObjectId`)
-Идентификатор персонажа в сцене, которого требуется повернуть.
+- **`characterId`** (`ObjectId`) - Идентификатор персонажа в сцене, которого требуется повернуть.
 
-- **`angle`** (`number`)
-Угол поворота в градусах.
+- **`angle`** (`number`) - Угол поворота в градусах.
 
 ## Возвращаемые значения
 

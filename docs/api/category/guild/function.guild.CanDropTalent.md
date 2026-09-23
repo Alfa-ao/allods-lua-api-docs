@@ -16,14 +16,11 @@ guild.CanDropTalent( field: number, row: number, column: number ): boolean, tabl
 
 ## Список параметров
 
-- **`field`** (`number`)
-Номер поля талантов.
+- **`field`** (`number`) - Номер поля талантов.
 
-- **`row`** (`number`)
-Номер строки.
+- **`row`** (`number`) - Номер строки.
 
-- **`column`** (`number`)
-Номер столбца.
+- **`column`** (`number`) - Номер столбца.
 
 ## Возвращаемые значения
 

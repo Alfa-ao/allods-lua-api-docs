@@ -16,8 +16,7 @@ avatar.GetTemporaryUnlocksInCategory( unlockCategoryId: UnlockCategoryId ): tabl
 
 ## Список параметров
 
-- **`unlockCategoryId`** (`UnlockCategoryId`)
-Идентификатор типа категории возможностей (анлоков), для которой необходимо получить список активных временных разблокировок.
+- **`unlockCategoryId`** (`UnlockCategoryId`) - Идентификатор типа категории возможностей (анлоков), для которой необходимо получить список активных временных разблокировок.
 
 ## Возвращаемые значения
 

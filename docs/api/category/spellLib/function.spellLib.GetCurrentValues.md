@@ -16,8 +16,7 @@ spellLib.GetCurrentValues( id: SpellId ): table | nil
 
 ## Список параметров
 
-- **`id`** (`SpellId`)
-Идентификатор умения.
+- **`id`** (`SpellId`) - Идентификатор умения.
 
 ## Возвращаемые значения
 

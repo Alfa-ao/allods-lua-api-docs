@@ -16,8 +16,7 @@ battleground.GetCheckpointTeam( checkpointId: ObjectId ): BattlegroundMarkId | n
 
 ## Список параметров
 
-- **`checkpointId`** (`ObjectId`)
-Уникальный идентификатор контрольной точки на поле боя.
+- **`checkpointId`** (`ObjectId`) - Уникальный идентификатор контрольной точки на поле боя.
 
 ## Возвращаемые значения
 

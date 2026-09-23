@@ -16,8 +16,7 @@ cartographer.GetZonesMapLowQuests( zonesMapId: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`zonesMapId`** (`ObjectId`)
-Уникальный идентификатор интерфейсной карты.
+- **`zonesMapId`** (`ObjectId`) - Уникальный идентификатор интерфейсной карты.
 
 ## Возвращаемые значения
 

@@ -16,8 +16,7 @@ common.GetSetBonusInfo( setBonusId: SetBonusId ): table | nil
 
 ## Список параметров
 
-- **`setBonusId`** (`SetBonusId` | `ResourceId`)
-Уникальный идентификатор бонуса комплектной экипировки.
+- **`setBonusId`** (`SetBonusId` | `ResourceId`) - Уникальный идентификатор бонуса комплектной экипировки.
 
 ## Возвращаемые значения
 

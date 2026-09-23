@@ -16,8 +16,7 @@ avatar.GetUnlockInfo( unlockId: ObjectId | UnlockId ): table | nil
 
 ## Список параметров
 
-- **`unlockId`** (`ObjectId` | `UnlockId`)
-Идентификатор возможности (анлока).
+- **`unlockId`** (`ObjectId` | `UnlockId`) - Идентификатор возможности (анлока).
 
 ## Возвращаемые значения
 

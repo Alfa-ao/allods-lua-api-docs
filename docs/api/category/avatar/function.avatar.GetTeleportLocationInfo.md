@@ -16,8 +16,7 @@ avatar.GetTeleportLocationInfo( locationId: ObjectId | TeleportMasterId ): table
 
 ## Список параметров
 
-- **`locationId`** (`ObjectId` | `TeleportMasterId`)
-Идентификатор точки телепорта или идентификатор мастера телепорта.
+- **`locationId`** (`ObjectId` | `TeleportMasterId`) - Идентификатор точки телепорта или идентификатор мастера телепорта.
 
 ## Возвращаемые значения
 

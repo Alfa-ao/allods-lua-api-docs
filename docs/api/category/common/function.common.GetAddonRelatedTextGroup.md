@@ -26,36 +26,13 @@ common.GetAddonRelatedTextGroup( sysGroup: string, optional: boolean|nil ): Rela
 
 ## Примеры
 
-### Получение группы текстов и извлечение конкретного текста
-
-```lua
-local _textAddonGroups = {}
-
-function GetAddonText( sysGroup, sysName, optional )
-    sysGroup = sysGroup or "Common"
-    local group = _textAddonGroups[ sysGroup ]
-
-    if not group then
-        -- Запрашиваем группу текстов, связанную с аддоном
-        group = common.GetAddonRelatedTextGroup( sysGroup, true )
-        _textAddonGroups[ sysGroup ] = group
-    end
-
-    if group and group:HasText( sysName ) then
-        return group:GetText( sysName )
-    end
-
-    return nil
-end
+```xml
+<Item href="/Mods/SampleCommon/CoreScripts/AddonBase.lua" />
 ```
-
-::: info Описание примера
-В примере реализуется функция-обертка `GetAddonText`. Сначала проверяется наличие кэшированной группы текстов. Если группа отсутствует, вызывается `common.GetAddonRelatedTextGroup` с параметром `true`, что предотвращает ошибки при отсутствии ресурса. Полученная группа кэшируется, после чего из нее извлекается нужный текст с помощью методов `HasText` и `GetText`.
-:::
 
 ### Default example doc
 
-```lua
+```lua:line-numbers=659
 --------------------------------------------------------------------------------
 -- Text caches
 --------------------------------------------------------------------------------

@@ -41,7 +41,7 @@ local valuedText = common.CreateValuedText()
 
 local group = common.GetAddonRelatedTextGroup( "EXAMPLE", true )
 
-local vtCountRecipes = common.CreateValuedText{
+local vtCountRecipes = common.CreateValuedText {
     format = group:GetText( "EXAMPLE_TEXT" ),
     count = 5,
 }

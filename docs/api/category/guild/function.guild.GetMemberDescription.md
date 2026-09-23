@@ -16,8 +16,7 @@ guild.GetMemberDescription( memberId: ObjectId ): WString
 
 ## Список параметров
 
-- **`memberId`** (`ObjectId`)
-Идентификатор члена гильдии.
+- **`memberId`** (`ObjectId`) - Идентификатор члена гильдии.
 
 ## Возвращаемые значения
 
