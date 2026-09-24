@@ -20,7 +20,7 @@ social.IsIgnored( player: ObjectId | wstring ): boolean
 
 ## Список параметров
 
-- **`player`** (`ObjectId` | `wstring`) - Идентификатор или имя юнита.
+- **`player`** `(ObjectId` | `wstring)` - Идентификатор или имя юнита.
 
 ## Возвращаемые значения
 

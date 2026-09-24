@@ -22,9 +22,9 @@ premiumLib.GetBonusInfo(): table | nil
 
 Возвращает `table` | `nil` - таблица с информацией о бонусных ступенях или `nil`, если бонусные ступени отсутствуют.
 
-- **`bonus`** (`number`) - число бонусных ступеней.
+- **`bonus`** `(number)` - число бонусных ступеней.
 
-- **`removeTime`** (`table`(`LuaFullDateTime`)) - срок истечения действия ступеней.
+- **`removeTime`** `(table`(`LuaFullDateTime)`) - срок истечения действия ступеней.
 
 ## Примеры
 

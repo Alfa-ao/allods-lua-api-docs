@@ -16,9 +16,9 @@ avatar.GetActionGroupSpells( actionGroupId: actionGroupId, characterClassId: cha
 
 ## Список параметров
 
-- **`actionGroupId`** (`actionGroupId`) - Идентификатор ресурса группы заклинаний.
+- **`actionGroupId`** `(actionGroupId)` - Идентификатор ресурса группы заклинаний.
 
-- **`characterClassId`** (`characterClassId`) - Идентификатор ресурса класса игрока.
+- **`characterClassId`** `(characterClassId)` - Идентификатор ресурса класса игрока.
 
 ## Возвращаемые значения
 

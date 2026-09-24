@@ -16,7 +16,7 @@ RelatedTexturesLua:GetTexture( sysName: string ): TextureId | nil
 
 ## Список параметров
 
-- **`sysName`** (`string`) - Идентификатор текстуры.
+- **`sysName`** `(string)` - Идентификатор текстуры.
 
 ## Возвращаемые значения
 

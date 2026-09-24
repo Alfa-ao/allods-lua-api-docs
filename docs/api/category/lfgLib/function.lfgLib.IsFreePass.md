@@ -16,7 +16,7 @@ lfgLib.IsFreePass( destinationId: LfgDestinationId ): boolean
 
 ## Список параметров
 
-- **`destinationId`** (`LfgDestinationId`) - Идентификатор целевой локации.
+- **`destinationId`** `(LfgDestinationId)` - Идентификатор целевой локации.
 
 ## Возвращаемые значения
 

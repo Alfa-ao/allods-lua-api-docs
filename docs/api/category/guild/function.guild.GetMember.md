@@ -16,7 +16,7 @@ guild.GetMember( playerName: WString ): ObjectId | nil
 
 ## Список параметров
 
-- **`playerName`** (`WString`) - имя игрока.
+- **`playerName`** `(WString)` - имя игрока.
 
 ## Возвращаемые значения
 

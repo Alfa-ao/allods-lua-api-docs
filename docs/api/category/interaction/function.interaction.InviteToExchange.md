@@ -16,7 +16,7 @@ interaction.InviteToExchange( invitedName: WString )
 
 ## Список параметров
 
-- **`invitedName`** (`WString`) - Имя приглашенного игрока для обмена.
+- **`invitedName`** `(WString)` - Имя приглашенного игрока для обмена.
 
 ## Возвращаемые значения
 

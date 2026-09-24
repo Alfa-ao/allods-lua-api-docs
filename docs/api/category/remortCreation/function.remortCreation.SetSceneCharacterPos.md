@@ -16,9 +16,9 @@ remortCreation.SetSceneCharacterPos( characterId: ObjectId, pos: table )
 
 ## Список параметров
 
-- **`characterId`** (`ObjectId`) - Идентификатор персонажа в сцене. Значение не может быть `nil`.
+- **`characterId`** `(ObjectId)` - Идентификатор персонажа в сцене. Значение не может быть `nil`.
 
-- **`pos`** (`table`) - Таблица с относительной позицией персонажа.
+- **`pos`** `(table)` - Таблица с относительной позицией персонажа.
     - `posX` (`number`) - Смещение в сцене по X.
     - `posY` (`number`) - Смещение в сцене по Y.
     - `posZ` (`number`) - Смещение в сцене по Z.

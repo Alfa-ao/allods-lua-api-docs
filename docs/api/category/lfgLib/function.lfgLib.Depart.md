@@ -16,7 +16,7 @@ lfgLib.Depart( destinationId: LfgDestinationId )
 
 ## Список параметров
 
-- **`destinationId`** (`LfgDestinationId`) - идентификатор цели.
+- **`destinationId`** `(LfgDestinationId)` - идентификатор цели.
 
 ## Возвращаемые значения
 

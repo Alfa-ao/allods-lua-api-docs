@@ -16,9 +16,9 @@ avatar.EquipItemByIdToSlot( itemId: ObjectId, equipSlot: number )
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`) - Идентификатор предмета.
+- **`itemId`** `(ObjectId)` - Идентификатор предмета.
 
-- **`equipSlot`** (`number`) - Индекс слота в экипировке (перечисление `DRESS_SLOT_...`).
+- **`equipSlot`** `(number`) - Индекс слота в экипировке (перечисление `DRESS_SLOT_...)`.
 
 ## Возвращаемые значения
 

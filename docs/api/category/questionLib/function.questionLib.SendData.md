@@ -16,9 +16,9 @@ questionLib.SendData( questionId: ObjectId, result: table )
 
 ## Список параметров
 
-- **`questionId`** (`ObjectId`) - Уникальный идентификатор вопроса, который должен присутствовать в списке, получаемом посредством функции `questionLib.GetQuestions`.
+- **`questionId`** `(ObjectId)` - Уникальный идентификатор вопроса, который должен присутствовать в списке, получаемом посредством функции `questionLib.GetQuestions`.
 
-- **`result`** (`table`) - Таблица с информацией об ответе. Набор и значения полей зависят от типа вопроса, определяемого полем `type` функции `questionLib.GetInfo` и перечислением `CategoryQuestionType`.
+- **`result`** `(table)` - Таблица с информацией об ответе. Набор и значения полей зависят от типа вопроса, определяемого полем `type` функции `questionLib.GetInfo` и перечислением `CategoryQuestionType`.
 
 ## Возвращаемые значения
 

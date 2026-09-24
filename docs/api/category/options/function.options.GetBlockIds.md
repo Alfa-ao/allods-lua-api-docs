@@ -17,7 +17,7 @@ options.GetBlockIds( groupId: ObjectId ): table
 
 ## Список параметров
 
-- **`groupId`** (`ObjectId`) - идентификатор группы опций.
+- **`groupId`** `(ObjectId)` - идентификатор группы опций.
 
 ## Возвращаемые значения
 

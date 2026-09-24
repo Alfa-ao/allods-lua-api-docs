@@ -16,7 +16,7 @@ hangar.GetSkinInfo( skinId: ShipSkinId ): table|nil
 
 ## Список параметров
 
-- **`skinId`** (`ShipSkinId`) - Идентификатор скина корпуса корабля.
+- **`skinId`** `(ShipSkinId)` - Идентификатор скина корпуса корабля.
 
 ## Возвращаемые значения
 
@@ -24,11 +24,11 @@ hangar.GetSkinInfo( skinId: ShipSkinId ): table|nil
 
 При успешном получении информации возвращается таблица со следующими полями:
 
-- **`name`** (`WString`) - Название скина (локализованное).
+- **`name`** `(WString)` - Название скина (локализованное).
 
-- **`description`** (`WString`) - Описание скина (локализованное).
+- **`description`** `(WString)` - Описание скина (локализованное).
 
-- **`image`** (`TextureId`) - Иконка скина (только для UIState).
+- **`image`** `(TextureId)` - Иконка скина (только для UIState).
 
 ## Примеры
 

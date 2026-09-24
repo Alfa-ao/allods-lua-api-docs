@@ -23,11 +23,11 @@ WidgetSafe:GetAddonType(): number
 Возвращает `number`(`ENUM_ADDON_TYPE_*`) - тип аддона, который создал виджет.
 
 ::: info Перечисление
-- **`ENUM_ADDON_TYPE_NONE`** (`number`) - нет типа, тип не известен
+- **`ENUM_ADDON_TYPE_NONE`** `(number)` - нет типа, тип не известен
 
-- **`ENUM_ADDON_TYPE_USER`** (`number`) - пользовательский аддон
+- **`ENUM_ADDON_TYPE_USER`** `(number)` - пользовательский аддон
 
-- **`ENUM_ADDON_TYPE_PROTECTED`** (`number`) - аддон разработчика (обычный интерфейсный аддон)
+- **`ENUM_ADDON_TYPE_PROTECTED`** `(number)` - аддон разработчика (обычный интерфейсный аддон)
 :::
 
 ## Примеры

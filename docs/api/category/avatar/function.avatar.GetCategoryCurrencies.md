@@ -16,7 +16,7 @@ avatar.GetCategoryCurrencies( categoryId: CurrencyCategoryId ): table
 
 ## Список параметров
 
-- **`categoryId`** (`CurrencyCategoryId`) - Идентификатор категории валюты, для которой запрашивается список доступных ресурсов.
+- **`categoryId`** `(CurrencyCategoryId)` - Идентификатор категории валюты, для которой запрашивается список доступных ресурсов.
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ loot.SelectLootGroup( lootGroupId: LootGroupId )
 
 ## Список параметров
 
-- **`lootGroupId`** (`LootGroupId`) - Идентификатор выбранного варианта. Значение может быть получено из списка `loot.GetCommonInfo().allLoot`.
+- **`lootGroupId`** `(LootGroupId)` - Идентификатор выбранного варианта. Значение может быть получено из списка `loot.GetCommonInfo().allLoot`.
 
 ## Возвращаемые значения
 

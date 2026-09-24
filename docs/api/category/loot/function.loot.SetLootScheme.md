@@ -16,7 +16,7 @@ loot.SetLootScheme( scheme: number )
 
 ## Список параметров
 
-- **`scheme`** (`number`(`LOOT_SCHEME_TYPE_*`)) - Тип лут схемы.
+- **`scheme`** `(number`(`LOOT_SCHEME_TYPE_*)`) - Тип лут схемы.
 
 ## Возвращаемые значения
 

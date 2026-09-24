@@ -20,9 +20,9 @@ matchMaking.GetRatingPvPScoreByUnitId( arenaType: number, unitId: ObjectId ): ta
 
 ## Список параметров
 
-- **`arenaType`** (`number`(`ENUM_RatingArenaType`)) - Тип арены.
+- **`arenaType`** `(number`(`ENUM_RatingArenaType)`) - Тип арены.
 
-- **`unitId`** (`ObjectId`) - Идентификатор персонажа.
+- **`unitId`** `(ObjectId)` - Идентификатор персонажа.
 
 ## Возвращаемые значения
 
@@ -30,27 +30,27 @@ matchMaking.GetRatingPvPScoreByUnitId( arenaType: number, unitId: ObjectId ): ta
 
 Поля возвращаемой таблицы:
 
-- **`currentSeason`** (`table`) - Данные по текущему сезону.
+- **`currentSeason`** `(table)` - Данные по текущему сезону.
 
-- **`lastSeason`** (`table` | `nil`) - Данные по прошлому сезону, структура аналогична `currentSeason`.
+- **`lastSeason`** `(table` | `nil)` - Данные по прошлому сезону, структура аналогична `currentSeason`.
 
 Поля таблицы `currentSeason`:
 
-- **`over_game`** (`number`) - Всего игр.
+- **`over_game`** `(number)` - Всего игр.
 
-- **`wins`** (`number`) - Количество побед.
+- **`wins`** `(number)` - Количество побед.
 
-- **`score`** (`number`) - Счет.
+- **`score`** `(number)` - Счет.
 
-- **`top`** (`number`) - Место в рейтинге.
+- **`top`** `(number)` - Место в рейтинге.
 
-- **`timeSpentMs`** (`number`) - Затраченное время.
+- **`timeSpentMs`** `(number)` - Затраченное время.
 
-- **`difficulty`** (`table` | `nil`) - Сложность.
+- **`difficulty`** `(table` | `nil)` - Сложность.
 
 Поля таблицы `difficulty`:
 
-- **`name`** (`string`) - Название.
+- **`name`** `(string)` - Название.
 
 ## Примеры
 

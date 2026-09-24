@@ -21,9 +21,9 @@ options.SetOptionCurrentIndex( optionId: ObjectId, index: number )
 
 ## Список параметров
 
-- **`optionId`** (`ObjectId`) - Идентификатор опции.
+- **`optionId`** `(ObjectId)` - Идентификатор опции.
 
-- **`index`** (`number`) - Новое значение для опции для дискретного типа данных.
+- **`index`** `(number)` - Новое значение для опции для дискретного типа данных.
 
 ## Возвращаемые значения
 

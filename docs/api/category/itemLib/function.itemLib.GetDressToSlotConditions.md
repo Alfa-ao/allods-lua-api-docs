@@ -16,19 +16,19 @@ itemLib.GetDressToSlotConditions( itemId: ObjectId, dressSlot: number, ignoredCo
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`) - Идентификатор предмета.
+- **`itemId`** `(ObjectId)` - Идентификатор предмета.
 
-- **`dressSlot`** (`number`) - Слот в экипировке персонажа.
+- **`dressSlot`** `(number)` - Слот в экипировке персонажа.
 
-- **`ignoredConditions`** (`table` | `nil`) - Список условий, которые необходимо игнорировать при проверке. Элементы таблицы имеют тип `string` (`ENUM_DressResult_*`).
+- **`ignoredConditions`** `(table` | `nil`) - Список условий, которые необходимо игнорировать при проверке. Элементы таблицы имеют тип `string` (`ENUM_DressResult_*)`.
 
 ## Возвращаемые значения
 
 Возвращает `table`.
 
-- **`sysFirstCondition`** (`string` (`ENUM_DressResult_*`)) - Первое выполненное или невыполненное условие, определяющее возможность экипировки.
+- **`sysFirstCondition`** `(string` (`ENUM_DressResult_*)`) - Первое выполненное или невыполненное условие, определяющее возможность экипировки.
 
-- **`failedConditions`** (`table`) - Таблица невыполненных условий. Ключом выступает имя условия (`string` (`ENUM_DressResult_*`)), а значением всегда является `boolean` (`true`).
+- **`failedConditions`** `(table`) - Таблица невыполненных условий. Ключом выступает имя условия (`string` (`ENUM_DressResult_*`)), а значением всегда является `boolean` (`true)`.
 
 ## Примеры
 

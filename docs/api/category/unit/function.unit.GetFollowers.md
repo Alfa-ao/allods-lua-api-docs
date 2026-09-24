@@ -18,7 +18,7 @@ unit.GetFollowers( unitId: ObjectId ): table
 
 ## Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор игрока.
+- **`unitId`** `(ObjectId)` - Идентификатор игрока.
 
 ## Возвращаемые значения
 

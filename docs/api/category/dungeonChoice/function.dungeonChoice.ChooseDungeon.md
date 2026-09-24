@@ -16,9 +16,9 @@ dungeonChoice.ChooseDungeon( dungeonIndex, rewardIndex )
 
 ## Список параметров
 
-- **`dungeonIndex`** (`number`) - Индекс личного приключения в списке.
+- **`dungeonIndex`** `(number)` - Индекс личного приключения в списке.
 
-- **`rewardIndex`** (`number`) - Индекс награды, которую выбирает игрок.
+- **`rewardIndex`** `(number)` - Индекс награды, которую выбирает игрок.
 
 ## Возвращаемые значения
 

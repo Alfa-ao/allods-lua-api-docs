@@ -22,7 +22,7 @@ EditLineSafe:GetCursorPos(): number
 
 Возвращает `number`.
 
-- **`position`** (`number`) - Позиция курсора, `[0..]`.
+- **`position`** `(number)` - Позиция курсора, `[0..]`.
 
 ## Примеры
 

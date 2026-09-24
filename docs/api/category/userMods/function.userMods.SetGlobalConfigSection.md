@@ -20,9 +20,9 @@ userMods.SetGlobalConfigSection( sysName: string, section: table|nil )
 
 ## Список параметров
 
-- **`sysName`** (`string`) - Название секции.
+- **`sysName`** `(string)` - Название секции.
 
-- **`section`** (`table` | `nil`) - Таблица с данными секции. Если передано `nil`, секция удаляется.
+- **`section`** `(table` | `nil)` - Таблица с данными секции. Если передано `nil`, секция удаляется.
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ DiscreteSliderSafe:SetPos( pos: number )
 
 ## Список параметров
 
-- **`pos`** (`number`) - Новая позиция, от `0` до `GetStepsCount()`.
+- **`pos`** `(number)` - Новая позиция, от `0` до `GetStepsCount()`.
 
 ## Возвращаемые значения
 

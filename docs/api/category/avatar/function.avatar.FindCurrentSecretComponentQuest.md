@@ -16,9 +16,9 @@ avatar.FindCurrentSecretComponentQuest( secretId: QuestId, componentIndex: numbe
 
 ## Список параметров
 
-- **`secretId`** (`QuestId`) - Идентификатор основного квеста тайны мира.
+- **`secretId`** `(QuestId)` - Идентификатор основного квеста тайны мира.
 
-- **`componentIndex`** (`number`) - Порядковый номер интересующей компоненты, получаемый через `avatar.GetSecretComponents`.
+- **`componentIndex`** `(number)` - Порядковый номер интересующей компоненты, получаемый через `avatar.GetSecretComponents`.
 
 ## Возвращаемые значения
 

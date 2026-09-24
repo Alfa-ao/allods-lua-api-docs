@@ -16,9 +16,9 @@ mission.GetMonthDaysCount( month: number, year: number ): number
 
 ## Список параметров
 
-- **`month`** (`number`) - Номер месяца. Нумерация начинается с `1`.
+- **`month`** `(number)` - Номер месяца. Нумерация начинается с `1`.
 
-- **`year`** (`number`) - Номер года.
+- **`year`** `(number)` - Номер года.
 
 ## Возвращаемые значения
 

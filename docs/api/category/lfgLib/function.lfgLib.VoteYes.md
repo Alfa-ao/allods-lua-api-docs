@@ -16,7 +16,7 @@ lfgLib.VoteYes( roles: table | nil )
 
 ## Список параметров
 
-- **`roles`** (`table` | `nil`) - Список выбранных ролей для вступления в группу. Используется в голосованиях типа `ENUM_LFGVoteType_Join`, `ENUM_LFGVoteType_Invite`.
+- **`roles`** `(table` | `nil)` - Список выбранных ролей для вступления в группу. Используется в голосованиях типа `ENUM_LFGVoteType_Join`, `ENUM_LFGVoteType_Invite`.
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ spellLib.GetAESectorProps( id: SpellId ): table | nil
 
 ## Список параметров
 
-- **`id`** (`SpellId`) - Идентификатор умения.
+- **`id`** `(SpellId)` - Идентификатор умения.
 
 ## Возвращаемые значения
 
@@ -26,15 +26,15 @@ spellLib.GetAESectorProps( id: SpellId ): table | nil
 
 Если информация доступна, возвращается таблица со следующими полями:
 
-- **`angle`** (`number`) - Угол раствора сектора в градусах.
+- **`angle`** `(number)` - Угол раствора сектора в градусах.
 
-- **`centerObj`** (`VisObjectId` | `nil`) - Визобж для центра сектора.
+- **`centerObj`** `(VisObjectId` | `nil)` - Визобж для центра сектора.
 
-- **`fillerObj`** (`VisObjectId` | `nil`) - Визобж для заполнения сектора.
+- **`fillerObj`** `(VisObjectId` | `nil)` - Визобж для заполнения сектора.
 
-- **`leftObj`** (`VisObjectId` | `nil`) - Визобж для левого края сектора.
+- **`leftObj`** `(VisObjectId` | `nil)` - Визобж для левого края сектора.
 
-- **`rightObj`** (`VisObjectId` | `nil`) - Визобж для правого края сектора.
+- **`rightObj`** `(VisObjectId` | `nil)` - Визобж для правого края сектора.
 
 ## Примеры
 

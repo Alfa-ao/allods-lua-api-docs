@@ -23,7 +23,7 @@ matchMaking.CanUseMatchMaking(): boolean, string
 Возвращает `boolean`, `string`:
 - **`boolean`** - `true`, если аватар может участвовать в инстанс-ивентах и получать информацию о них; `false`, если нет.
 
-- **`string`** (`string`(`ENUM_ActionFailCause_*`)) - строка с причиной, если первое значение `false`.
+- **`string`** `(string`(`ENUM_ActionFailCause_*)`) - строка с причиной, если первое значение `false`.
 
 ## Примеры
 

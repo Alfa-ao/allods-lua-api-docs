@@ -16,17 +16,17 @@ itemLib.GetUsageOnItemInfo( itemId: ObjectId, targetItemId: ObjectId ): table | 
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`) - Идентификатор предмета.
+- **`itemId`** `(ObjectId)` - Идентификатор предмета.
 
-- **`targetItemId`** (`ObjectId`) - Идентификатор целевого предмета.
+- **`targetItemId`** `(ObjectId)` - Идентификатор целевого предмета.
 
 ## Возвращаемые значения
 
 Возвращает `table` | `nil`, описание о таблице:
 
-- **`consumeUsedItem`** (`number` | `nil`) - Количество потребляемых используемых предметов.
+- **`consumeUsedItem`** `(number` | `nil)` - Количество потребляемых используемых предметов.
 
-- **`consumeTargetItem`** (`number` | `nil`) - Количество потребляемых предметов, на которых используется.
+- **`consumeTargetItem`** `(number` | `nil)` - Количество потребляемых предметов, на которых используется.
 
 ## Примеры
 

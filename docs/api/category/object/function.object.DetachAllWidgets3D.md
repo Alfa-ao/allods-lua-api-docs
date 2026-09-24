@@ -11,7 +11,7 @@ object.DetachAllWidgets3D( objectId: ObjectId )
 
 ## Список параметров
 
-- **`objectId`** (`ObjectId`) - Идентификатор объекта.
+- **`objectId`** `(ObjectId)` - Идентификатор объекта.
 
 ## Возвращаемые значения
 

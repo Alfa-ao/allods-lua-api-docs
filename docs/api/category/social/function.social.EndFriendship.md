@@ -16,7 +16,7 @@ social.EndFriendship( friendId )
 
 ## Список параметров
 
-- **`friendId`** (`ObjectId`) - Идентификатор побратима.
+- **`friendId`** `(ObjectId)` - Идентификатор побратима.
 
 ## Возвращаемые значения
 

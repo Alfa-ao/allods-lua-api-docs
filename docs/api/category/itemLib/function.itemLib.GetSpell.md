@@ -16,7 +16,7 @@ itemLib.GetSpell( itemId: ObjectId ): SpellId | nil
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`) - Уникальный идентификатор предмета.
+- **`itemId`** `(ObjectId)` - Уникальный идентификатор предмета.
 
 ## Возвращаемые значения
 

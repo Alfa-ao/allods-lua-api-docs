@@ -16,7 +16,7 @@ unit.IsGreat( unitId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор юнита.
+- **`unitId`** `(ObjectId)` - Идентификатор юнита.
 
 ## Возвращаемые значения
 

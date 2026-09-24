@@ -16,7 +16,7 @@ WidgetSafe:SetBackgroundColor( color: Color )
 
 ## Список параметров
 
-- **`color`** (`Color`) - Новый цвет для слоя.
+- **`color`** `(Color)` - Новый цвет для слоя.
 
 ## Возвращаемые значения
 

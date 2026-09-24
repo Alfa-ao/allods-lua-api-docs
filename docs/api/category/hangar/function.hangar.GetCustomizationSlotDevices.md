@@ -20,7 +20,7 @@ hangar.GetCustomizationSlotDevices( slotId: ObjectId ): table
 
 ## Список параметров
 
-- **`slotId`** (`ObjectId`) - Идентификатор слота для кастомизации.
+- **`slotId`** `(ObjectId)` - Идентификатор слота для кастомизации.
 
 ## Возвращаемые значения
 

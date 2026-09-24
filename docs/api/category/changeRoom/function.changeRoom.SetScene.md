@@ -20,9 +20,9 @@ changeRoom.SetScene( wtControl3D: Control3DSafe, sceneName: string )
 
 ## Список параметров
 
-- **`wtControl3D`** (`Control3DSafe`) - Трехмерный контрол, для которого инициализируется сцена.
+- **`wtControl3D`** `(Control3DSafe)` - Трехмерный контрол, для которого инициализируется сцена.
 
-- **`sceneName`** (`string`) - Имя сцены, выбираемой из списка `characterScenes`.
+- **`sceneName`** `(string)` - Имя сцены, выбираемой из списка `characterScenes`.
 
 ## Возвращаемые значения
 

@@ -20,7 +20,7 @@ containerLib.GetItems( slotType: number ): table
 
 ## Список параметров
 
-- **`slotType`** (`number`) - тип контейнера с предметами.
+- **`slotType`** `(number)` - тип контейнера с предметами.
 
 ::: details Допустимые значения
 Значения перечисления `ITEM_CONT_...`.

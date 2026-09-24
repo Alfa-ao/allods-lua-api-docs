@@ -16,11 +16,11 @@ guildHallLib.Create( hallName: WString, bossName: WString, bossIndex: number )
 
 ## Список параметров
 
-- **`hallName`** (`WString`) - название оплота гильдии.
+- **`hallName`** `(WString)` - название оплота гильдии.
 
-- **`bossName`** (`WString`) - название босса гильдии.
+- **`bossName`** `(WString)` - название босса гильдии.
 
-- **`bossIndex`** (`number`) - индекс выбранного босса.
+- **`bossIndex`** `(number)` - индекс выбранного босса.
 
 ## Возвращаемые значения
 

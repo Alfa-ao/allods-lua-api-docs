@@ -20,9 +20,9 @@ remortCreation.RotateSceneCharacter( characterId: ObjectId, angle: number )
 
 ## Список параметров
 
-- **`characterId`** (`ObjectId`) - Идентификатор персонажа в сцене.
+- **`characterId`** `(ObjectId)` - Идентификатор персонажа в сцене.
 
-- **`angle`** (`number`) - Угол поворота в градусах.
+- **`angle`** `(number)` - Угол поворота в градусах.
 
 ## Возвращаемые значения
 

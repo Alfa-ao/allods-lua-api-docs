@@ -16,7 +16,7 @@ checkroomLib.GetSpells( collectionId: LifestyleCollectionId ): table
 
 ## Список параметров
 
-- **`collectionId`** (`LifestyleCollectionId`) - Идентификатор ресурса коллекции гардероба.
+- **`collectionId`** `(LifestyleCollectionId)` - Идентификатор ресурса коллекции гардероба.
 
 ## Возвращаемые значения
 

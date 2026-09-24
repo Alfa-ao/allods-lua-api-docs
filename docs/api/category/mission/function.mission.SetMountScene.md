@@ -16,11 +16,11 @@ mission.SetMountScene( index: number, wtCharacterControl3D: Control3DSafe, mount
 
 ## Список параметров
 
-- **`index`** (`number`) - индекс сцены, от 0 до `GetMaxCharacterSceneCount() - 1`.
+- **`index`** `(number)` - индекс сцены, от 0 до `GetMaxCharacterSceneCount() - 1`.
 
-- **`wtCharacterControl3D`** (`Control3DSafe`) - 3D-контрол, в котором должен отображаться персонаж.
+- **`wtCharacterControl3D`** `(Control3DSafe)` - 3D-контрол, в котором должен отображаться персонаж.
 
-- **`mountSkinId`** (`ObjectId`) - идентификатор отображаемого скина маунта главного игрока.
+- **`mountSkinId`** `(ObjectId)` - идентификатор отображаемого скина маунта главного игрока.
 
 ## Возвращаемые значения
 

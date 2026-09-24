@@ -16,17 +16,17 @@ spellLib.GetRequirements( id: SpellId ): table | nil
 
 ## Список параметров
 
-- **`id`** (`SpellId`) - Уникальный идентификатор заклинания.
+- **`id`** `(SpellId)` - Уникальный идентификатор заклинания.
 
 ## Возвращаемые значения
 
 Возвращает `table` | `nil` - информация о требованиях к использованию заклинания, или `nil`, если заклинание не найдено.
 
-- **`casterConditions`** (`RequirementsTable`) - список условий на кастующем.
+- **`casterConditions`** `(RequirementsTable)` - список условий на кастующем.
 
-- **`casterResources`** (`RequirementsTable`) - список ресурсов на кастующем.
+- **`casterResources`** `(RequirementsTable)` - список ресурсов на кастующем.
 
-- **`targetConditions`** (`RequirementsTable`) - список условий на цели.
+- **`targetConditions`** `(RequirementsTable)` - список условий на цели.
 
 ## Примеры
 

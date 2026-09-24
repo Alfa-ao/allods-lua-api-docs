@@ -16,9 +16,9 @@ mission.SetCharacterSceneSmoothRotation( index: number, isSmooth: boolean )
 
 ## Список параметров
 
-- **`index`** (`number`) - Индекс сцены, принимает значения от `0` до `GetMaxCharacterSceneCount() - 1`.
+- **`index`** `(number)` - Индекс сцены, принимает значения от `0` до `GetMaxCharacterSceneCount() - 1`.
 
-- **`isSmooth`** (`boolean`) - Флаг плавности поворота. Если `true`, поворот персонажа в 3D-сцене выполняется с анимацией.
+- **`isSmooth`** `(boolean)` - Флаг плавности поворота. Если `true`, поворот персонажа в 3D-сцене выполняется с анимацией.
 
 ## Возвращаемые значения
 

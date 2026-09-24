@@ -16,7 +16,7 @@ device.IsOffline( usableDeviceId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`usableDeviceId`** (`ObjectId`) - Идентификатор устройства.
+- **`usableDeviceId`** `(ObjectId)` - Идентификатор устройства.
 
 ## Возвращаемые значения
 

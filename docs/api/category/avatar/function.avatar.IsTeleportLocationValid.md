@@ -16,7 +16,7 @@ avatar.IsTeleportLocationValid( locationId: ObjectId | TeleportMasterId ): boole
 
 ## Список параметров
 
-- **`locationId`** (`ObjectId` | `TeleportMasterId`) - Идентификатор точки телепорта или идентификатор мастера телепорта.
+- **`locationId`** `(ObjectId` | `TeleportMasterId)` - Идентификатор точки телепорта или идентификатор мастера телепорта.
 
 ## Возвращаемые значения
 

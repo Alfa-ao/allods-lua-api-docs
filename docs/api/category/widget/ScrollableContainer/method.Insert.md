@@ -16,9 +16,9 @@ ScrollableContainerSafe:Insert( pos: number, widget: WidgetSafe )
 
 ## Список параметров
 
-- **`pos`** (`number`) - Позиция, в которую добавляется элемент. Позиции отсчитываются от 1. Вызов `PushFront( widget )` эквивалентен `Insert( 1, widget )`, а `PushBack( widget )` эквивалентен `Insert( GetElementCount() + 1, widget )`.
+- **`pos`** `(number)` - Позиция, в которую добавляется элемент. Позиции отсчитываются от 1. Вызов `PushFront( widget )` эквивалентен `Insert( 1, widget )`, а `PushBack( widget )` эквивалентен `Insert( GetElementCount() + 1, widget )`.
 
-- **`widget`** (`WidgetSafe`) - Добавляемый элемент.
+- **`widget`** `(WidgetSafe)` - Добавляемый элемент.
 
 ## Возвращаемые значения
 

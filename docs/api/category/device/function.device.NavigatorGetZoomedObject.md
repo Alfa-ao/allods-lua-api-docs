@@ -22,7 +22,7 @@ device.NavigatorGetZoomedObject(): ObjectId | nil
 
 Возвращает `ObjectId` или `nil`.
 
-- **`objectId`** (`ObjectId` | `nil`) - Идентификатор транспорта или астрального юнита, или `nil`.
+- **`objectId`** `(ObjectId` | `nil)` - Идентификатор транспорта или астрального юнита, или `nil`.
 
 ## Примеры
 

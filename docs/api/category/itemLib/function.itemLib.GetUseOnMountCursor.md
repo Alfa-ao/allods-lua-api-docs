@@ -16,7 +16,7 @@ itemLib.GetUseOnMountCursor( itemId: ObjectId ): string
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`) - Идентификатор предмета.
+- **`itemId`** `(ObjectId)` - Идентификатор предмета.
 
 ## Возвращаемые значения
 

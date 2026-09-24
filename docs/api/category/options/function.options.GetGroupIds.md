@@ -18,7 +18,7 @@ options.GetGroupIds( pageId: ObjectId ): table
 
 ## Список параметров
 
-- **`pageId`** (`ObjectId`) - Идентификатор страницы опций.
+- **`pageId`** `(ObjectId)` - Идентификатор страницы опций.
 
 ## Возвращаемые значения
 

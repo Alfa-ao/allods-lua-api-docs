@@ -11,11 +11,11 @@ object.AttachWidget2D( objectId: ObjectId, widget: WidgetSafe, pos: number )
 
 ## Список параметров
 
-- **`objectId`** (`ObjectId`) - Идентификатор объекта.
+- **`objectId`** `(ObjectId)` - Идентификатор объекта.
 
-- **`widget`** (`WidgetSafe`) - Дескриптор виджета.
+- **`widget`** `(WidgetSafe)` - Дескриптор виджета.
 
-- **`pos`** (`number`(`ATTACHED_OBJECT_POS_*`)) - Расположение виджета по вертикали.
+- **`pos`** `(number`(`ATTACHED_OBJECT_POS_*)`) - Расположение виджета по вертикали.
 
 ## Возвращаемые значения
 

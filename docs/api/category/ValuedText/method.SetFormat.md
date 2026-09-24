@@ -24,7 +24,7 @@ ValuedTextSafe:SetFormat( format: string|WString )
 
 ## Список параметров
 
-- **`format`** (`string`| `WString`) - Устанавливаемый формат.
+- **`format`** `(string`| `WString)` - Устанавливаемый формат.
 
 ## Возвращаемые значения
 

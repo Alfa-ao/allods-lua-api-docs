@@ -16,7 +16,7 @@ order.SendBonusVotes( bonusIds: table )
 
 ## Список параметров
 
-- **`bonusIds`** (`table`)
+- **`bonusIds`** `(table)`
 
   - `OrderBonusId` (`number`) - Идентификатор запрашиваемого бонуса.
 

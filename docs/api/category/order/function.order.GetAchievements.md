@@ -20,15 +20,15 @@ order.GetAchievements( eventId: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`eventId`** (`ObjectId`) - Уникальный идентификатор события.
+- **`eventId`** `(ObjectId)` - Уникальный идентификатор события.
 
 ## Возвращаемые значения
 
 Возвращает `table` | `nil` - таблица с информацией о достижениях или `nil`, если данные отсутствуют.
 
-- **`mainPlayerAchievement`** (`number`) - Достижение аватара по данной теме.
+- **`mainPlayerAchievement`** `(number)` - Достижение аватара по данной теме.
 
-- **`achievements`** (`table` | `nil`) - Список достижений, индексированный с 1.
+- **`achievements`** `(table` | `nil)` - Список достижений, индексированный с 1.
 
   - `position` (`number`) - Позиция аватара.
 

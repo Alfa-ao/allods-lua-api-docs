@@ -16,9 +16,9 @@ spellLib.CanRunAvatar( id: SpellId, ignoreCasterResources: boolean | nil ): bool
 
 ## Список параметров
 
-- **`id`** (`SpellId`) - Идентификатор умения.
+- **`id`** `(SpellId)` - Идентификатор умения.
 
-- **`ignoreCasterResources`** (`boolean` | `nil`) - Флаг игнорирования проверки предикатов ресурсов заклинателя (CasterResources). По умолчанию принимает значение `false`.
+- **`ignoreCasterResources`** `(boolean` | `nil)` - Флаг игнорирования проверки предикатов ресурсов заклинателя (CasterResources). По умолчанию принимает значение `false`.
 
 ## Возвращаемые значения
 

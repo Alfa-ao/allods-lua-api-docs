@@ -16,7 +16,7 @@ loot.SwitchToGreedNeed( rollId: ObjectId )
 
 ## Список параметров
 
-- **`rollId`** (`ObjectId`) - Уникальный идентификатор ролла.
+- **`rollId`** `(ObjectId)` - Уникальный идентификатор ролла.
 
 ## Возвращаемые значения
 

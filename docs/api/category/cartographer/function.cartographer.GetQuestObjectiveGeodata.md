@@ -16,9 +16,9 @@ cartographer.GetQuestObjectiveGeodata( objectiveId: QuestId, zonesMapId: ObjectI
 
 ## Список параметров
 
-- **`objectiveId`** (`QuestId`) - Идентификатор цели задания.
+- **`objectiveId`** `(QuestId)` - Идентификатор цели задания.
 
-- **`zonesMapId`** (`ObjectId`) - Идентификатор интерфейсной карты зоны, для которой требуется получить геодату.
+- **`zonesMapId`** `(ObjectId)` - Идентификатор интерфейсной карты зоны, для которой требуется получить геодату.
 
 ## Возвращаемые значения
 

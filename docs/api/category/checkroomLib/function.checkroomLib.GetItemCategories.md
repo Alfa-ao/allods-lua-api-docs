@@ -16,15 +16,15 @@ checkroomLib.GetItemCategories( itemId: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`) - идентификатор предмета.
+- **`itemId`** `(ObjectId)` - идентификатор предмета.
 
 ## Возвращаемые значения
 
 Возвращает `table` или `nil`. Если предмет является гардеробным, возвращается таблица со следующими полями:
 
-- **`categoryId`** (`LifestyleCategoryId`) - идентификатор ресурса категории.
+- **`categoryId`** `(LifestyleCategoryId)` - идентификатор ресурса категории.
 
-- **`collectionId`** (`LifestyleCollectionId`) - идентификатор ресурса коллекции.
+- **`collectionId`** `(LifestyleCollectionId)` - идентификатор ресурса коллекции.
 
 ## Примеры
 

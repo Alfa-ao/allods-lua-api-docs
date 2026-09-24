@@ -16,7 +16,7 @@ tutorialLib.GetTutorialName( id: TutorialId ): WString | nil
 
 ## Список параметров
 
-- **`id`** (`TutorialId`) - Идентификатор обучения.
+- **`id`** `(TutorialId)` - Идентификатор обучения.
 
 ## Возвращаемые значения
 

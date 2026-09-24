@@ -12,7 +12,7 @@ object.SetControl3DForProjected( wtControl3D: Control3DSafe )
 
 ## Список параметров
 
-- **`wtControl3D`** (`Control3DSafe`) - 3D-control, который отвечает за показ сцены.
+- **`wtControl3D`** `(Control3DSafe)` - 3D-control, который отвечает за показ сцены.
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ unit.GetPetOwner( unitId: ObjectId ): ObjectId | nil
 
 ## Список параметров
 
-- **`unitId`** (`ObjectId`) - Уникальный идентификатор пета.
+- **`unitId`** `(ObjectId)` - Уникальный идентификатор пета.
 
 ## Возвращаемые значения
 

@@ -46,11 +46,11 @@ ValuedTextSafe:SetTagAttributes( isRTag: boolean, tagName: WString, tagAttribute
 
 ## Список параметров
 
-- **`isRTag`** (`boolean`) - Выбор типа тега для редактирования.
+- **`isRTag`** `(boolean)` - Выбор типа тега для редактирования.
 
-- **`tagName`** (`WString`) - Имя тега для редактирования.
+- **`tagName`** `(WString)` - Имя тега для редактирования.
 
-- **`tagAttributes`** (`table`) - Таблица модифицируемых атрибутов.
+- **`tagAttributes`** `(table)` - Таблица модифицируемых атрибутов.
 
 ## Возвращаемые значения
 

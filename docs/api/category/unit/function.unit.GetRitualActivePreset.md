@@ -16,7 +16,7 @@ unit.GetRitualActivePreset( unitId: ObjectId ): number
 
 ## Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор игрока.
+- **`unitId`** `(ObjectId)` - Идентификатор игрока.
 
 ## Возвращаемые значения
 

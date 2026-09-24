@@ -16,7 +16,7 @@ mentor.SetApprenticeFlag( flag: boolean )
 
 ## Список параметров
 
-- **`flag`** (`boolean`) - Желаемое значение флага.
+- **`flag`** `(boolean)` - Желаемое значение флага.
 
 ## Возвращаемые значения
 

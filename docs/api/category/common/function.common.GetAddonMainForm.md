@@ -16,7 +16,7 @@ common.GetAddonMainForm( sysAddonName: string ): FormSafe | false | nil
 
 ## Список параметров
 
-- **`sysAddonName`** (`string`) - Системное имя аддона, главную форму которого необходимо получить.
+- **`sysAddonName`** `(string)` - Системное имя аддона, главную форму которого необходимо получить.
 
 ## Возвращаемые значения
 

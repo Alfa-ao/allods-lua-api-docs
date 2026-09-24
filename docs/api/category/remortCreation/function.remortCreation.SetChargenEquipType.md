@@ -25,7 +25,7 @@ remortCreation.SetChargenEquipType( equipType: number )
 
 ## Список параметров
 
-- **`equipType`** (`number`(`CHARGEN_EQUIP_TYPE_*`)) - Вид показываемой экипировки.
+- **`equipType`** `(number`(`CHARGEN_EQUIP_TYPE_*)`) - Вид показываемой экипировки.
 
 ## Возвращаемые значения
 

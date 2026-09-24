@@ -16,7 +16,7 @@ unit.GetOvertipTexture( unitId: ObjectId ): TextureId | nil
 
 ## Список параметров
 
-- **`unitId`** (`ObjectId`) - идентификатор игрока или моба.
+- **`unitId`** `(ObjectId)` - идентификатор игрока или моба.
 
 ## Возвращаемые значения
 

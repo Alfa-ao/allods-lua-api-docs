@@ -16,7 +16,7 @@ unit.GetClassId( unitId: ObjectId ): CharacterClassId | nil
 
 ## Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор юнита.
+- **`unitId`** `(ObjectId)` - Идентификатор юнита.
 
 ## Возвращаемые значения
 

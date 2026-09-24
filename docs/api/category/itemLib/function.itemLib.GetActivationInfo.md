@@ -16,7 +16,7 @@ itemLib.GetActivationInfo( itemId: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`)
+- **`itemId`** `(ObjectId)`
 
   Идентификатор предмета.
 
@@ -24,15 +24,15 @@ itemLib.GetActivationInfo( itemId: ObjectId ): table | nil
 
 Возвращает `table` | `nil` - таблица с информацией об активации предмета или `nil` при возникновении ошибки.
 
-- **`isInactive`** (`boolean`)
+- **`isInactive`** `(boolean)`
 
   Предмет неактивирован и требует активации.
 
-- **`cost`** (`number` | `nil`)
+- **`cost`** `(number` | `nil)`
 
   Стоимость активации предмета. Значение `nil` возвращается, если предмет не требует активации или активация бесплатна.
 
-- **`isItemActivator`** (`boolean`)
+- **`isItemActivator`** `(boolean)`
 
   Предмет является инструментом для активации других предметов.
 

@@ -16,7 +16,7 @@ unit.GetReputationLevel( mobId: ObjectId ): number
 
 ## Список параметров
 
-- **`mobId`** (`ObjectId`) - Идентификатор моба.
+- **`mobId`** `(ObjectId)` - Идентификатор моба.
 
 ## Возвращаемые значения
 

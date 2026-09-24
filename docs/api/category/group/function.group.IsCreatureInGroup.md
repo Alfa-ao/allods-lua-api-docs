@@ -18,7 +18,7 @@ group.IsCreatureInGroup( id: WString | ObjectId | UniqueId ): boolean
 
 ## Список параметров
 
-- **`id`** (`WString` | `ObjectId` | `UniqueId`) - Имя или идентификатор юнита.
+- **`id`** `(WString` | `ObjectId` | `UniqueId)` - Имя или идентификатор юнита.
 
 ## Возвращаемые значения
 

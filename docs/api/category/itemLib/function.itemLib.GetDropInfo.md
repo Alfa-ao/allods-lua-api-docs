@@ -16,7 +16,7 @@ itemLib.GetDropInfo( itemId: ObjectId ): WString | nil
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`) - Идентификатор предмета.
+- **`itemId`** `(ObjectId)` - Идентификатор предмета.
 
 ## Возвращаемые значения
 

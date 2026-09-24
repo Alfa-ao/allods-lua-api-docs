@@ -16,7 +16,7 @@ avatar.GetCurrencyId( sysName: string|nil ): CurrencyId|nil
 
 ## Список параметров
 
-- **`sysName`** (`string` | `nil`) - Внутриигровое системное имя альтернативной валюты.
+- **`sysName`** `(string` | `nil)` - Внутриигровое системное имя альтернативной валюты.
 
 ## Возвращаемые значения
 

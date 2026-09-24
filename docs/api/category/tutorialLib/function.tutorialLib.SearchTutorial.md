@@ -15,7 +15,7 @@ tutorialLib.SearchTutorial( request: WString )
 
 ## Список параметров
 
-- **`request`** (`WString`) - Строка запроса для поиска.
+- **`request`** `(WString)` - Строка запроса для поиска.
 
 ## Возвращаемые значения
 

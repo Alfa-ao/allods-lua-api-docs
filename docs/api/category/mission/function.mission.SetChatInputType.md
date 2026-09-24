@@ -16,7 +16,7 @@ mission.SetChatInputType( sysCmdType: string )
 
 ## Список параметров
 
-- **`sysCmdType`** (`string`) - тип команды (ее идентификатор).
+- **`sysCmdType`** `(string)` - тип команды (ее идентификатор).
 
 ## Возвращаемые значения
 

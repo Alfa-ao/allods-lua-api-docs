@@ -12,9 +12,9 @@ Control3DSafe:SetWidget3DPos( widget: WidgetSafe, pos: GamePosition )
 
 ## Список параметров
 
-- **`widget`** (`WidgetSafe`) - 2D-контрол, для которого меняется позиция Widget3D.
+- **`widget`** `(WidgetSafe)` - 2D-контрол, для которого меняется позиция Widget3D.
 
-- **`pos`** (`GamePosition`) - новая позиция контрола-3D на карте (новая версия GamePosition).
+- **`pos`** `(GamePosition)` - новая позиция контрола-3D на карте (новая версия GamePosition).
 
 ## Возвращаемые значения
 

@@ -18,9 +18,9 @@ avatar.CanActivateItemAlternative( itemId: ObjectId, currencyId: CurrencyId ): b
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`) - Уникальный идентификатор предмета.
+- **`itemId`** `(ObjectId)` - Уникальный идентификатор предмета.
 
-- **`currencyId`** (`CurrencyId`) - Идентификатор альтернативной валюты.
+- **`currencyId`** `(CurrencyId)` - Идентификатор альтернативной валюты.
 
 ## Возвращаемые значения
 

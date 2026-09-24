@@ -16,7 +16,7 @@ tutorialLib.GetCategoryContent( id: TutorialCategoryId ): table | nil
 
 ## Список параметров
 
-- **`id`** (`TutorialCategoryId`) - Идентификатор категории обучения.
+- **`id`** `(TutorialCategoryId)` - Идентификатор категории обучения.
 
 ## Возвращаемые значения
 

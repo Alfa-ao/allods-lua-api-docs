@@ -16,7 +16,7 @@ guild.CreateGuildHall( guildHallName: WString )
 
 ## Список параметров
 
-- **`guildHallName`** (`WString`) - желаемое имя холла гильдии.
+- **`guildHallName`** `(WString)` - желаемое имя холла гильдии.
 
 ## Возвращаемые значения
 

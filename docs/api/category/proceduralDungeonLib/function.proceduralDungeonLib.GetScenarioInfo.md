@@ -16,21 +16,21 @@ proceduralDungeonLib.GetScenarioInfo( scenarioId: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`scenarioId`** (`ObjectId`) - Идентификатор сценария.
+- **`scenarioId`** `(ObjectId)` - Идентификатор сценария.
 
 ## Возвращаемые значения
 
 Возвращает `table` | `nil` - таблица с информацией о сценарии или `nil`, если сценарий не найден.
 
-- **`scenarioId`** (`ObjectId`) - Идентификатор сценария.
+- **`scenarioId`** `(ObjectId)` - Идентификатор сценария.
 
-- **`state`** (`number` (`ENUM_EventGoalState`)) - Текущее состояние сценария.
+- **`state`** `(number` (`ENUM_EventGoalState)`) - Текущее состояние сценария.
 
-- **`name`** (`WString`) - Название сценария.
+- **`name`** `(WString)` - Название сценария.
 
-- **`description`** (`WString`) - Описание сценария.
+- **`description`** `(WString)` - Описание сценария.
 
-- **`goals`** (`table`) - Список идентификаторов заданий (`ObjectId`), относящихся к данному сценарию.
+- **`goals`** `(table`) - Список идентификаторов заданий (`ObjectId)`, относящихся к данному сценарию.
 
 ## Примеры
 

@@ -22,17 +22,17 @@ craft.DiceCraftState(): table|nil
 
 Возвращает `table` или `nil`.
 
-- **`maxLockedDices`** (`number`) - Максимально допустимое количество залоченых костей для одного переброса.
+- **`maxLockedDices`** `(number)` - Максимально допустимое количество залоченых костей для одного переброса.
 
-- **`maxRecipeLevel`** (`number`) - Максимально допустимый уровень рецепта.
+- **`maxRecipeLevel`** `(number)` - Максимально допустимый уровень рецепта.
 
-- **`rerolls`** (`number`) - Базовое количество рероллов.
+- **`rerolls`** `(number)` - Базовое количество рероллов.
 
-- **`inGame`** (`boolean`) - `false`, если мини-игра ещё не началась (в этом состоянии можно использовать `craft.DiceCraftPutItem`, `craft.DiceCraftEmptySlot`); `true`, если идёт мини-игра (можно использовать `craft.DiceCraftLockSlot`).
+- **`inGame`** `(boolean`) - `false`, если мини-игра ещё не началась (в этом состоянии можно использовать `craft.DiceCraftPutItem`, `craft.DiceCraftEmptySlot`); `true`, если идёт мини-игра (можно использовать `craft.DiceCraftLockSlot)`.
 
-- **`currentDicesNumber`** (`number` | `nil`) - Число костей в мини-игре; `nil`, если мини-игра ещё не начата.
+- **`currentDicesNumber`** `(number` | `nil)` - Число костей в мини-игре; `nil`, если мини-игра ещё не начата.
 
-- **`rerollsLeft`** (`number` | `nil`) - Число оставшихся рероллов в мини-игре; `nil`, если мини-игра ещё не начата.
+- **`rerollsLeft`** `(number` | `nil)` - Число оставшихся рероллов в мини-игре; `nil`, если мини-игра ещё не начата.
 
 ## Примеры
 

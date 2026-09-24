@@ -20,9 +20,9 @@ WidgetSafe:SetBackgroundClearMaskEffect( primaryColor: Color, secondaryColor: Co
 
 ## Список параметров
 
-- **`primaryColor`** (`Color`) - Основной цвет.
+- **`primaryColor`** `(Color)` - Основной цвет.
 
-- **`secondaryColor`** (`Color`) - Дополнительный цвет.
+- **`secondaryColor`** `(Color)` - Дополнительный цвет.
 
 ## Возвращаемые значения
 

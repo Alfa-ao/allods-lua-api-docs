@@ -20,7 +20,7 @@ enchant.CanInsertEnchants( itemId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`) - Идентификатор проверяемого предмета.
+- **`itemId`** `(ObjectId)` - Идентификатор проверяемого предмета.
 
 ## Возвращаемые значения
 

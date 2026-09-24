@@ -16,7 +16,7 @@ family.GetSpouseId( unitId: ObjectId ): ObjectId | nil
 
 ## Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор игрока.
+- **`unitId`** `(ObjectId)` - Идентификатор игрока.
 
 ## Возвращаемые значения
 

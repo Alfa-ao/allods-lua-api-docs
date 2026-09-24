@@ -15,7 +15,7 @@ unit.GetRelatedGoals( unitId: ObjectId ): table|nil
 
 ## Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор моба.
+- **`unitId`** `(ObjectId)` - Идентификатор моба.
 
 ## Возвращаемые значения
 

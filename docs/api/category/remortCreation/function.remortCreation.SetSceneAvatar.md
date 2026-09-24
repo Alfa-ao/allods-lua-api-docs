@@ -16,7 +16,7 @@ remortCreation.SetSceneAvatar( avatarServerId: number )
 
 ## Список параметров
 
-- **`avatarServerId`** (`number`) - Серверный идентификатор аватара.
+- **`avatarServerId`** `(number)` - Серверный идентификатор аватара.
 
 ## Возвращаемые значения
 

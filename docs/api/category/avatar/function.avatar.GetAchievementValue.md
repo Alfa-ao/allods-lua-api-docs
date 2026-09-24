@@ -16,7 +16,7 @@ avatar.GetAchievementValue( ruleId: number ): number
 
 ## Список параметров
 
-- **`ruleId`** (`number`) - Идентификатор события.
+- **`ruleId`** `(number)` - Идентификатор события.
 
 ## Возвращаемые значения
 

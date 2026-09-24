@@ -16,9 +16,9 @@ enchant.EnchantInsert( enchantItemId: ObjectId, itemId: ObjectId )
 
 ## Список параметров
 
-- **`enchantItemId`** (`ObjectId`) - Идентификатор самоцвета.
+- **`enchantItemId`** `(ObjectId)` - Идентификатор самоцвета.
 
-- **`itemId`** (`ObjectId`) - Идентификатор предмета.
+- **`itemId`** `(ObjectId)` - Идентификатор предмета.
 
 ## Возвращаемые значения
 

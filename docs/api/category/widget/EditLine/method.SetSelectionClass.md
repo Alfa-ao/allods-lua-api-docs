@@ -16,7 +16,7 @@ EditLineSafe:SetSelectionClass( className: string | WString )
 
 ## Список параметров
 
-- **`className`** (`string` | `WString`) - Имя CSS-класса, применяемого к выделенному тексту.
+- **`className`** `(string` | `WString)` - Имя CSS-класса, применяемого к выделенному тексту.
 
 ## Возвращаемые значения
 

@@ -20,7 +20,7 @@ avatar.GetAbilityInfo( id: AbilityId ): table | nil
 
 ## Список параметров
 
-- **`id`** (`AbilityId`) - Идентификатор ресурса умения.
+- **`id`** `(AbilityId)` - Идентификатор ресурса умения.
 
 ## Возвращаемые значения
 

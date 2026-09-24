@@ -16,7 +16,7 @@ avatar.SwitchToChannel( channelIndex: number )
 
 ## Список параметров
 
-- **`channelIndex`** (`number`) - Индекс выбранного канала для переключения.
+- **`channelIndex`** `(number)` - Индекс выбранного канала для переключения.
 
 ## Возвращаемые значения
 

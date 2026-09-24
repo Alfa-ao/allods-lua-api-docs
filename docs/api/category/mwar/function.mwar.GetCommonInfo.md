@@ -22,31 +22,31 @@ mwar.GetCommonInfo(): table | nil
 
 Возвращает `table` | `nil` - если информация доступна, таблица с полями, иначе `nil`:
 
-- **`serviceResourceIncreaseMax`** (`number`) - максимальное значение увеличения эффективности при создании обслуживающего ресурса ("Могущество").
+- **`serviceResourceIncreaseMax`** `(number)` - максимальное значение увеличения эффективности при создании обслуживающего ресурса ("Могущество").
 
-- **`serviceResourceIncomeIncrease`** (`number`) - шаг увеличения эффективности при создании обслуживающего ресурса.
+- **`serviceResourceIncomeIncrease`** `(number)` - шаг увеличения эффективности при создании обслуживающего ресурса.
 
-- **`serviceResourceExchangeCost`** (`number`) - стоимость покупки (в меди) одной единицы обслуживающего ресурса.
+- **`serviceResourceExchangeCost`** `(number)` - стоимость покупки (в меди) одной единицы обслуживающего ресурса.
 
-- **`serviceResourceCostIncrease`** (`number`) - увеличение стоимости покупки с каждым увеличением эффективности (множитель).
+- **`serviceResourceCostIncrease`** `(number)` - увеличение стоимости покупки с каждым увеличением эффективности (множитель).
 
-- **`serviceResource`** (`CurrencyId` | `nil`) - обслуживающий ресурс гильдии игрока ("Могущество").
+- **`serviceResource`** `(CurrencyId` | `nil)` - обслуживающий ресурс гильдии игрока ("Могущество").
 
-- **`regionProgressIncome`** (`number`)
+- **`regionProgressIncome`** `(number)`
 
-- **`pvpResource`** (`CurrencyId` | `nil`) - PvP-ресурс гильдии игрока ("Слава").
+- **`pvpResource`** `(CurrencyId` | `nil)` - PvP-ресурс гильдии игрока ("Слава").
 
-- **`pveResource`** (`CurrencyId` | `nil`) - PvE-ресурс гильдии игрока ("Престиж").
+- **`pveResource`** `(CurrencyId` | `nil)` - PvE-ресурс гильдии игрока ("Престиж").
 
-- **`mapProgressCounterCap`** (`number`) - максимальное значение прогресса карты Доминион.
+- **`mapProgressCounterCap`** `(number)` - максимальное значение прогресса карты Доминион.
 
-- **`serviceResourceExchangeFactor`** (`number`) - курс обмена PvP- и PvE-ресурсов на обслуживающий ресурс.
+- **`serviceResourceExchangeFactor`** `(number)` - курс обмена PvP- и PvE-ресурсов на обслуживающий ресурс.
 
-- **`minResourceEffectivnessFactor`** (`number`) - коэффициент уменьшения эффективности покупки обслуживающего ресурса при большой разнице между PvP- и PvE-ресурсами.
+- **`minResourceEffectivnessFactor`** `(number)` - коэффициент уменьшения эффективности покупки обслуживающего ресурса при большой разнице между PvP- и PvE-ресурсами.
 
-- **`maxInitialAttackSectorsCount`** (`number`) - максимальное количество секторов, которое можно атаковать изначально.
+- **`maxInitialAttackSectorsCount`** `(number)` - максимальное количество секторов, которое можно атаковать изначально.
 
-- **`championFightsTimes`** (`table` | `nil`) - список возможных времён начала сражений за сектора, индексированная целыми числами (начиная от 0) таблица, формат элементов:
+- **`championFightsTimes`** `(table` | `nil)` - список возможных времён начала сражений за сектора, индексированная целыми числами (начиная от 0) таблица, формат элементов:
 
   - `entries` (`table` | `nil`) - список времён начала раундов сражения, значения - `TimeTableId`.
 

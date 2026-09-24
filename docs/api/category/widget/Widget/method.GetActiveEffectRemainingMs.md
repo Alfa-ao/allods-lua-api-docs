@@ -16,7 +16,7 @@ WidgetSafe:GetActiveEffectRemainingMs( effectType: ET_* ): number
 
 ## Список параметров
 
-- **`effectType`** (`ET_*`) - Тип эффекта. (HELP)
+- **`effectType`** `(ET_*)` - Тип эффекта. (HELP)
 
 ## Возвращаемые значения
 

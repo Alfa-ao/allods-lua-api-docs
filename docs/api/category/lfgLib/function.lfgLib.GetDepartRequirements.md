@@ -18,13 +18,13 @@ lfgLib.GetDepartRequirements( destinationId: LfgDestinationId ): table | nil
 
 ## Список параметров
 
-- **`destinationId`** (`LfgDestinationId`) - Идентификатор целевой локации.
+- **`destinationId`** `(LfgDestinationId)` - Идентификатор целевой локации.
 
 ## Возвращаемые значения
 
 Возвращает `table` | `nil` - таблица с требованиями для отправки или `nil`, если данные отсутствуют.
 
-- **`requirements`** (`RequirementsTable`) - Список условий для отправки.
+- **`requirements`** `(RequirementsTable)` - Список условий для отправки.
 
 ## Примеры
 

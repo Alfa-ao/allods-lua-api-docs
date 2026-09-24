@@ -22,9 +22,9 @@ order.GetOrderStats(): table | nil
 
 Возвращает `table` | `nil` - таблица с динамической информацией об ордене или `nil`, если данные недоступны.
 
-- **`orderScore`** (`number`) - очки ордена.
+- **`orderScore`** `(number)` - очки ордена.
 
-- **`orderTopPosition`** (`number`) - позиция в ТОПе.
+- **`orderTopPosition`** `(number)` - позиция в ТОПе.
 
 ## Примеры
 

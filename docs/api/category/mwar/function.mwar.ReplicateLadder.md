@@ -16,7 +16,7 @@ mwar.ReplicateLadder( isReplicate: boolean )
 
 ## Список параметров
 
-- **`isReplicate`** (`boolean`) - Если `true`, то начать трансляцию; если `false` - прекратить.
+- **`isReplicate`** `(boolean)` - Если `true`, то начать трансляцию; если `false` - прекратить.
 
 ## Возвращаемые значения
 

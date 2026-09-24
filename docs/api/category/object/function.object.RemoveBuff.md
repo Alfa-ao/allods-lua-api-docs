@@ -16,7 +16,7 @@ object.RemoveBuff( buffId: ObjectId )
 
 ## Список параметров
 
-- **`buffId`** (`ObjectId`) - Идентификатор баффа.
+- **`buffId`** `(ObjectId)` - Идентификатор баффа.
 
 ## Возвращаемые значения
 

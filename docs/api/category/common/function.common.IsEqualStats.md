@@ -16,9 +16,9 @@ common.IsEqualStats( firstStatId: SpecialStatId | ENUM_InnateStats, secondStatId
 
 ## Список параметров
 
-- **`firstStatId`** (`SpecialStatId` | `ENUM_InnateStats`) - Идентификатор первой сравниваемой характеристики. Может принимать значения из перечисления `ENUM_InnateStats_*` или являться специальным идентификатором `SpecialStatId`.
+- **`firstStatId`** `(SpecialStatId` | `ENUM_InnateStats)` - Идентификатор первой сравниваемой характеристики. Может принимать значения из перечисления `ENUM_InnateStats_*` или являться специальным идентификатором `SpecialStatId`.
 
-- **`secondStatId`** (`SpecialStatId` | `ENUM_InnateStats`) - Идентификатор второй сравниваемой характеристики. Допускаются те же типы значений, что и для первого параметра.
+- **`secondStatId`** `(SpecialStatId` | `ENUM_InnateStats)` - Идентификатор второй сравниваемой характеристики. Допускаются те же типы значений, что и для первого параметра.
 
 ## Возвращаемые значения
 

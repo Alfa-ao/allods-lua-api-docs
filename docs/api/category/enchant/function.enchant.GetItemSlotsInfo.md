@@ -16,7 +16,7 @@ enchant.GetItemSlotsInfo( itemId: ObjectId ): table|nil
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`) - Идентификатор предмета.
+- **`itemId`** `(ObjectId)` - Идентификатор предмета.
 
 ## Возвращаемые значения
 

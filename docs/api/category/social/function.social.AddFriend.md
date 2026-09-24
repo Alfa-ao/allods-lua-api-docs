@@ -16,9 +16,9 @@ social.AddFriend( name: WString, description: WString )
 
 ## Список параметров
 
-- **`name`** (`WString`) - Имя персонажа.
+- **`name`** `(WString)` - Имя персонажа.
 
-- **`description`** (`WString`) - Собственный комментарий игрока.
+- **`description`** `(WString)` - Собственный комментарий игрока.
 
 ## Возвращаемые значения
 

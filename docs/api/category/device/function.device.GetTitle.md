@@ -16,7 +16,7 @@ device.GetTitle( deviceId: ObjectId ): WString
 
 ## Список параметров
 
-- **`deviceId`** (`ObjectId`) - Идентификатор юнита.
+- **`deviceId`** `(ObjectId)` - Идентификатор юнита.
 
 ## Возвращаемые значения
 

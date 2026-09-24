@@ -24,7 +24,7 @@ TextViewSafe:SetFormat( format: WString | String )
 
 ## Список параметров
 
-- **`format`** (`WString` | `String`) - Устанавливаемый формат.
+- **`format`** `(WString` | `String)` - Устанавливаемый формат.
 
 ## Возвращаемые значения
 

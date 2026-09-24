@@ -16,15 +16,15 @@ unit.Select( unitId: ObjectId, visible: boolean, decalId: DecalObjectId, color: 
 
 ## Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор юнита.
+- **`unitId`** `(ObjectId)` - Идентификатор юнита.
 
-- **`visible`** (`boolean`) - Определяет, показать или убрать выделение.
+- **`visible`** `(boolean)` - Определяет, показать или убрать выделение.
 
-- **`decalId`** (`DecalObjectId`) - Идентификатор декала.
+- **`decalId`** `(DecalObjectId)` - Идентификатор декала.
 
-- **`color`** (`Color` | `nil`) - Цвет выделения.
+- **`color`** `(Color` | `nil)` - Цвет выделения.
 
-- **`thickness`** (`float` | `nil`) - Толщина выделения.
+- **`thickness`** `(float` | `nil)` - Толщина выделения.
 
 ## Возвращаемые значения
 

@@ -16,16 +16,16 @@ order.GetOrderBonusInfo( OrderBonusId: OrderBonusId ): table | nil
 
 ## Список параметров
 
-- **`OrderBonusId`** (`OrderBonusId`) - Идентификатор запрашиваемого бонуса.
+- **`OrderBonusId`** `(OrderBonusId)` - Идентификатор запрашиваемого бонуса.
 
 ## Возвращаемые значения
 
 Возвращает `table` | `nil` - Таблица с информацией о бонусе или `nil`, если бонус не найден.
 
-- **`id`** (`OrderBonusId`) - Идентификатор бонуса.
+- **`id`** `(OrderBonusId)` - Идентификатор бонуса.
 
-- **`name`** (`WString`) - Название бонуса.
+- **`name`** `(WString)` - Название бонуса.
 
-- **`description`** (`WString` | `nil`) - Описание бонуса.
+- **`description`** `(WString` | `nil)` - Описание бонуса.
 
-- **`image`** (`TextureId`) - Иконка бонуса.
+- **`image`** `(TextureId)` - Иконка бонуса.

@@ -16,7 +16,7 @@ rules.WishmasterRollMultiplying( resourceId: WishmasterResourceId )
 
 ## Список параметров
 
-- **`resourceId`** (`WishmasterResourceId`) - Идентификатор Волшебной лампы.
+- **`resourceId`** `(WishmasterResourceId)` - Идентификатор Волшебной лампы.
 
 ## Возвращаемые значения
 

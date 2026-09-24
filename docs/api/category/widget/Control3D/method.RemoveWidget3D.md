@@ -15,7 +15,7 @@ Control3DSafe:RemoveWidget3D( widget: WidgetSafe )
 
 ## Список параметров
 
-- **`widget`** (`WidgetSafe`) - 2D-контрол, который удаляется как Widget3D.
+- **`widget`** `(WidgetSafe)` - 2D-контрол, который удаляется как Widget3D.
 
 ## Возвращаемые значения
 
