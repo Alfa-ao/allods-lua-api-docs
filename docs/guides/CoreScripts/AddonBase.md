@@ -16,6 +16,13 @@ description: Документация по базовому функционал
 <?xml version="1.0" encoding="UTF-8"?>
 <UIAddon>
 	<ScriptFileRefs>
+        <!--
+        Опциональная зависимость (алиасы).
+            Некоторая чать функционала, как модифицированный LogInfo + advtostring, 
+            требует алиасы для библиотеки AddonBase.lua
+        -->
+        <Item href="/Mods/SampleCommon/CoreScripts/AddonBaseUserMods.lua" />
+        <!-- END -->
 		<Item href="/Mods/SampleCommon/CoreScripts/AddonBase.lua" />
 	</ScriptFileRefs>
 </UIAddon>
