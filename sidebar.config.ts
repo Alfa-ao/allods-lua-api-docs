@@ -7570,11 +7570,6 @@ export default [
                                 link: "/api/category/WString/WString.Truncate"
                             }
                         ]
-                    },
-                    {
-                        text: "__",
-                        collapsed: true,
-                        items: []
                     }
                 ]
             },
@@ -9335,16 +9330,16 @@ export default [
         text: "Руководство/Гайды",
         items: [
             {
-                text: "ClassesImplementation",
+                text: "CoreScripts",
                 collapsed: true,
                 items: [
                     {
-                        text: "OOP_1",
-                        link: "/guides/ClassesImplementation/OOP_1"
+                        text: "AddonBase",
+                        link: "/guides/CoreScripts/AddonBase"
                     },
                     {
-                        text: "OOP_2",
-                        link: "/guides/ClassesImplementation/OOP_2"
+                        text: "ClassesImplementation",
+                        link: "/guides/CoreScripts/ClassesImplementation"
                     }
                 ]
             }
