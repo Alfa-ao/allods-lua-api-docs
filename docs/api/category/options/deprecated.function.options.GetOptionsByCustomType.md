@@ -21,7 +21,7 @@ options.GetOptionsByCustomType( sysCustomType: string ): table
 
 ## Список параметров
 
-- **`sysCustomType`** `(string)` - пользовательский идентификатор для типа опций.
+- **`sysCustomType`** (`string`) - пользовательский идентификатор для типа опций.
 
 ## Возвращаемые значения
 

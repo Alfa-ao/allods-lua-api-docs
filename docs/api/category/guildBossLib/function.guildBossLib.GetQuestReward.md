@@ -16,7 +16,7 @@ guildBossLib.GetQuestReward( questId: QuestId ): table|nil
 
 ## Список параметров
 
-- **`questId`** `(QuestId)` - идентификатор ресурса задания.
+- **`questId`** (`QuestId`) - идентификатор ресурса задания.
 
 ## Возвращаемые значения
 

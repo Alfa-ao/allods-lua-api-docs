@@ -28,11 +28,11 @@ WidgetSafe:CreateChildByDesc( widgetDesc: WidgetDesc, noReposition: boolean | ni
 
 ## Список параметров
 
-- **`widgetDesc`** `(WidgetDesc)` - описатель дочернего виджета из ресурсной системы.
+- **`widgetDesc`** (`WidgetDesc`) - описатель дочернего виджета из ресурсной системы.
 
-- **`noReposition`** `(boolean` | `nil)` - не позиционировать виджет.
+- **`noReposition`** (`boolean` | `nil`) - не позиционировать виджет.
 
-- **`noParent`** `(boolean` | `nil`) - не устанавливать родителя виджета (дополнительный параметр при вызове из `WidgetFactorySafe)`.
+- **`noParent`** (`boolean` | `nil`) - не устанавливать родителя виджета (дополнительный параметр при вызове из `WidgetFactorySafe`).
 
 ## Возвращаемые значения
 

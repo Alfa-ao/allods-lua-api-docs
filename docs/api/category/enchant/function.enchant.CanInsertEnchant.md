@@ -16,9 +16,9 @@ enchant.CanInsertEnchant( enchantItemId: ObjectId, itemId: ObjectId ): table|nil
 
 ## Список параметров
 
-- **`enchantItemId`** `(ObjectId)` - Идентификатор энчанта.
+- **`enchantItemId`** (`ObjectId`) - Идентификатор энчанта.
 
-- **`itemId`** `(ObjectId)` - Идентификатор проверяемого предмета.
+- **`itemId`** (`ObjectId`) - Идентификатор проверяемого предмета.
 
 ## Возвращаемые значения
 
@@ -26,9 +26,9 @@ enchant.CanInsertEnchant( enchantItemId: ObjectId, itemId: ObjectId ): table|nil
 
 Значение `nil` возвращается при отсутствии информации. В противном случае возвращается таблица со следующими полями:
 
-- **`success`** `(boolean)` - Флаг успешности. Значение `true` указывает на возможность вставки энчанта в предмет.
+- **`success`** (`boolean`) - Флаг успешности. Значение `true` указывает на возможность вставки энчанта в предмет.
 
-- **`cause`** `(string` | `ENUM_EnchantInsertionResult)` - Причина, по которой нельзя вставить энчант.
+- **`cause`** (`string` | `ENUM_EnchantInsertionResult`) - Причина, по которой нельзя вставить энчант.
 
 ## Примеры
 

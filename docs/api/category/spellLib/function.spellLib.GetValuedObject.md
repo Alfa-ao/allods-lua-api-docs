@@ -20,7 +20,7 @@ spellLib.GetValuedObject( spellId: ObjectId ): ValuedObject
 
 ## Список параметров
 
-- **`spellId`** `(ObjectId)` - Идентификатор ресурса заклинания.
+- **`spellId`** (`ObjectId`) - Идентификатор ресурса заклинания.
 
 ## Возвращаемые значения
 

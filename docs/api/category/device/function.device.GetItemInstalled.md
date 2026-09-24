@@ -16,7 +16,7 @@ device.GetItemInstalled( usableDeviceId: ObjectId ): ObjectId|nil
 
 ## Список параметров
 
-- **`usableDeviceId`** `(ObjectId)` - Идентификатор устройства.
+- **`usableDeviceId`** (`ObjectId`) - Идентификатор устройства.
 
 ::: info Перечисление
 Допустимые значения идентификаторов устройств начинаются с префикса `USDEV_`.
@@ -26,9 +26,9 @@ device.GetItemInstalled( usableDeviceId: ObjectId ): ObjectId|nil
 
 Возвращает `ObjectId` или `nil`.
 
-- **`ObjectId`** `(ObjectId)` - Идентификатор вставленного предмета.
+- **`ObjectId`** (`ObjectId`) - Идентификатор вставленного предмета.
 
-- **`nil`** `(nil)` - Предмет не найден в устройстве.
+- **`nil`** (`nil`) - Предмет не найден в устройстве.
 
 ## Примеры
 

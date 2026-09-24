@@ -21,15 +21,15 @@ guild.GetCommonTalentsInfo(): table
 ## Возвращаемые значения
 
 Возвращает `table`:
-- **`fieldsCount`** `(number)` - количество полей талантов.
+- **`fieldsCount`** (`number`) - количество полей талантов.
 
-- **`rowsCount`** `(number)` - количество строк в поле талантов.
+- **`rowsCount`** (`number`) - количество строк в поле талантов.
 
-- **`columnsCount`** `(number)` - количество столбцов в поле талантов.
+- **`columnsCount`** (`number`) - количество столбцов в поле талантов.
 
-- **`learnTalentCurrency`** `(CurrencyId` | `nil)` - идентификатор валюты, требуемой для изучения талантов.
+- **`learnTalentCurrency`** (`CurrencyId` | `nil`) - идентификатор валюты, требуемой для изучения талантов.
 
-- **`dropTalentCurrency`** `(CurrencyId` | `nil)` - идентификатор валюты, требуемой для сброса талантов.
+- **`dropTalentCurrency`** (`CurrencyId` | `nil`) - идентификатор валюты, требуемой для сброса талантов.
 
 ## Примеры
 

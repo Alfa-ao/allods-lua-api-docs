@@ -16,7 +16,7 @@ spellLib.GetActionGroupsDescriptions( id: SpellId ): table
 
 ## Список параметров
 
-- **`id`** `(SpellId)` - Идентификатор умения.
+- **`id`** (`SpellId`) - Идентификатор умения.
 
 ## Возвращаемые значения
 

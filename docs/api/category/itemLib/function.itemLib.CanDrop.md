@@ -16,7 +16,7 @@ itemLib.CanDrop( itemId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`itemId`** `(ObjectId)` - Идентификатор предмета-образца.
+- **`itemId`** (`ObjectId`) - Идентификатор предмета-образца.
 
 ## Возвращаемые значения
 

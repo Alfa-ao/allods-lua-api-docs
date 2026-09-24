@@ -16,7 +16,7 @@ mission.ShowAEMark( show: boolean )
 
 ## Список параметров
 
-- **`show`** `(boolean)` - Показывает или скрывает AEMark типа AEMarkDecal.
+- **`show`** (`boolean`) - Показывает или скрывает AEMark типа AEMarkDecal.
 
 ## Возвращаемые значения
 

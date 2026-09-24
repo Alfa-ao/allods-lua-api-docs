@@ -16,7 +16,7 @@ mentor.RefuseApprentice( mentorPlayerId: ObjectId )
 
 ## Список параметров
 
-- **`mentorPlayerId`** `(ObjectId)` - Идентификатор субъекта менторских взаимоотношений.
+- **`mentorPlayerId`** (`ObjectId`) - Идентификатор субъекта менторских взаимоотношений.
 
 ## Возвращаемые значения
 

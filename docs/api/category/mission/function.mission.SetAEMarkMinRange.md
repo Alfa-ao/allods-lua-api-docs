@@ -16,7 +16,7 @@ mission.SetAEMarkMinRange( minRange: number )
 
 ## Список параметров
 
-- **`minRange`** `(number)` - Минимальная область действия спелла AEMark в метрах.
+- **`minRange`** (`number`) - Минимальная область действия спелла AEMark в метрах.
 
 ## Возвращаемые значения
 

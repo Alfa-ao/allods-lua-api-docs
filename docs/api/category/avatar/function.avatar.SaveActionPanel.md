@@ -18,9 +18,9 @@ avatar.SaveActionPanel( sysClass: SpellId, buildIndex: number ): table | string 
 
 ## Список параметров
 
-- **`sysClass`** `(SpellId)` - Системное имя класса.
+- **`sysClass`** (`SpellId`) - Системное имя класса.
 
-- **`buildIndex`** `(number)` - Индекс билда от 0 до 9.
+- **`buildIndex`** (`number`) - Индекс билда от 0 до 9.
 
 ## Возвращаемые значения
 

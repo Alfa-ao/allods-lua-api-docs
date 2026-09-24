@@ -16,7 +16,7 @@ device.IsShieldRegenInProgress( shieldDeviceId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`shieldDeviceId`** `(ObjectId)` - Идентификатор устройства щита.
+- **`shieldDeviceId`** (`ObjectId`) - Идентификатор устройства щита.
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ RelatedSoundsLua:GetSound( sysName: string ): Sound2DId | nil
 
 ## Список параметров
 
-- **`sysName`** `(string)` - Идентификатор звука.
+- **`sysName`** (`string`) - Идентификатор звука.
 
 ## Возвращаемые значения
 

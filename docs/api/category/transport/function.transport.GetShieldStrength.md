@@ -16,17 +16,17 @@ transport.GetShieldStrength( transportId: ObjectId, side: number ): table
 
 ## Список параметров
 
-- **`transportId`** `(ObjectId)` - Идентификатор транспортного средства.
+- **`transportId`** (`ObjectId`) - Идентификатор транспортного средства.
 
-- **`side`** `(number`(`SHIP_SIDE_*)`) - Сторона транспортного средства.
+- **`side`** (`number`(`SHIP_SIDE_*`)) - Сторона транспортного средства.
 
 ## Возвращаемые значения
 
 Возвращает `table` - таблицу, содержащую информацию о силе щита:
 
-- **`value`** `(number)` - Сила щита.
+- **`value`** (`number`) - Сила щита.
 
-- **`maxValue`** `(number)` - Максимальная сила щита.
+- **`maxValue`** (`number`) - Максимальная сила щита.
 
 ## Примеры
 

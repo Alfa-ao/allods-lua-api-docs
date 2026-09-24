@@ -16,7 +16,7 @@ unit.GetRelatedQuestObjectives( unitId: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`unitId`** `(ObjectId)` - идентификатор моба.
+- **`unitId`** (`ObjectId`) - идентификатор моба.
 
 ## Возвращаемые значения
 

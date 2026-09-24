@@ -24,11 +24,11 @@ remort.GetRequirements(): table|nil
 
 Если информация успешно получена, возвращается таблица со следующими полями:
 
-- **`switchConditions`** `(RequirementsTable)` - список условий для перехода в другое тело.
+- **`switchConditions`** (`RequirementsTable`) - список условий для перехода в другое тело.
 
-- **`createConditions`** `(RequirementsTable)` - список условий для создания альтернативного тела.
+- **`createConditions`** (`RequirementsTable`) - список условий для создания альтернативного тела.
 
-- **`resetConditions`** `(RequirementsTable)` - список условий для сброса параметров имеющегося альтернативного тела.
+- **`resetConditions`** (`RequirementsTable`) - список условий для сброса параметров имеющегося альтернативного тела.
 
 ## Примеры
 

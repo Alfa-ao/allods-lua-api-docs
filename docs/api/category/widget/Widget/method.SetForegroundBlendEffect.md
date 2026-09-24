@@ -16,7 +16,7 @@ WidgetSafe:SetForegroundBlendEffect( blendEffect: number )
 
 ## Список параметров
 
-- **`blendEffect`** `(number`(`BLEND_EFFECT_*)`) - способ наложения.
+- **`blendEffect`** (`number`(`BLEND_EFFECT_*`)) - способ наложения.
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ guild.GetRank( memberId: ObjectId ): number
 
 ## Список параметров
 
-- **`memberId`** `(ObjectId)` - Идентификатор члена гильдии.
+- **`memberId`** (`ObjectId`) - Идентификатор члена гильдии.
 
 ## Возвращаемые значения
 

@@ -19,7 +19,7 @@ ScrollableContainerSafe:Remove( widget: WidgetSafe )
 
 ## Список параметров
 
-- **`widget`** `(WidgetSafe)` - Удаляемый элемент.
+- **`widget`** (`WidgetSafe`) - Удаляемый элемент.
 
 ## Возвращаемые значения
 

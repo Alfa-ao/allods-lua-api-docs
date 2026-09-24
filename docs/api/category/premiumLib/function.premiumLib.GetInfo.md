@@ -22,19 +22,19 @@ premiumLib.GetInfo(): table
 
 Возвращает `table` - таблица с информацией о премиуме:
 
-- **`stageNumber`** `(number)` - стадия
+- **`stageNumber`** (`number`) - стадия
 
-- **`bonusStageNumber`** `(number)` - бонусные ступени
+- **`bonusStageNumber`** (`number`) - бонусные ступени
 
-- **`totalStages`** `(number)` - общее количество возможных ступеней
+- **`totalStages`** (`number`) - общее количество возможных ступеней
 
-- **`stageProgress`** `(number)` - прогресс стадии
+- **`stageProgress`** (`number`) - прогресс стадии
 
-- **`sumToNextStage`** `(number)` - сумма до следующей стадии
+- **`sumToNextStage`** (`number`) - сумма до следующей стадии
 
-- **`totalProgress`** `(number)` - общий прогресс
+- **`totalProgress`** (`number`) - общий прогресс
 
-- **`totalSum`** `(number)` - общая сумма
+- **`totalSum`** (`number`) - общая сумма
 
 ## Примеры
 

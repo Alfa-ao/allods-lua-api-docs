@@ -16,7 +16,7 @@ WidgetSafe:HasActiveEffects( effectType: number | nil )
 
 ## Список параметров
 
-- **`effectType`** `(number`(`ET_*`) | `nil)` - Тип эффекта, или `nil`, если тип эффекта не имеет значения.
+- **`effectType`** (`number`(`ET_*`) | `nil`) - Тип эффекта, или `nil`, если тип эффекта не имеет значения.
 
 ## Возвращаемые значения
 

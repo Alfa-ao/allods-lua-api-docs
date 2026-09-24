@@ -16,7 +16,7 @@ EditLineSafe:InsertTextAtCursorPos( text: WString )
 
 ## Список параметров
 
-- **`text`** `(WString)` - Вставляемый текст.
+- **`text`** (`WString`) - Вставляемый текст.
 
 ## Возвращаемые значения
 

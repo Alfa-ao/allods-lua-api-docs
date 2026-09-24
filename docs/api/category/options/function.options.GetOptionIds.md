@@ -18,7 +18,7 @@ options.GetOptionIds( blockId: ObjectId ): table
 
 ## Список параметров
 
-- **`blockId`** `(ObjectId)` - Идентификатор блока.
+- **`blockId`** (`ObjectId`) - Идентификатор блока.
 
 ## Возвращаемые значения
 

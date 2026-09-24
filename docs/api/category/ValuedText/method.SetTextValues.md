@@ -50,7 +50,7 @@ ValuedTextSafe:SetTextValues( textValues: table )
 
 ## Список параметров
 
-- **`textValues`** `(table)`
+- **`textValues`** (`table`)
 
 Таблица подставляемых значений.
 

@@ -16,7 +16,7 @@ mentor.GetApprentices( mentorPlayerId: ObjectId ): table
 
 ## Список параметров
 
-- **`mentorPlayerId`** `(ObjectId)` - Идентификатор субъекта менторских взаимоотношений.
+- **`mentorPlayerId`** (`ObjectId`) - Идентификатор субъекта менторских взаимоотношений.
 
 ## Возвращаемые значения
 

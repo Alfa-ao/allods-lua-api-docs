@@ -16,7 +16,7 @@ TextViewSafe:SetValuedText( valuedText: ValuedText )
 
 ## Список параметров
 
-- **`valuedText`** `(ValuedText)` - Устанавливаемый формат.
+- **`valuedText`** (`ValuedText`) - Устанавливаемый формат.
 
 ## Возвращаемые значения
 

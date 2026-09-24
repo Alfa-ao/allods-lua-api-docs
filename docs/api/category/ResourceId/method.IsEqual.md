@@ -16,7 +16,7 @@ ResourceId:IsEqual( resourceId: ResourceId | WidgetSafe ): boolean
 
 ## Список параметров
 
-- **`resourceId`** `(ResourceId` | `WidgetSafe)` - Сравниваемый объект, ресурс или виджет.
+- **`resourceId`** (`ResourceId` | `WidgetSafe`) - Сравниваемый объект, ресурс или виджет.
 
 ## Возвращаемые значения
 

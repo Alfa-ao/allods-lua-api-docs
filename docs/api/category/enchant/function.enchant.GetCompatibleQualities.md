@@ -16,7 +16,7 @@ enchant.GetCompatibleQualities( itemId: ObjectId ): table|nil
 
 ## Список параметров
 
-- **`itemId`** `(ObjectId)` - Идентификатор энчанта.
+- **`itemId`** (`ObjectId`) - Идентификатор энчанта.
 
 ## Возвращаемые значения
 

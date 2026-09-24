@@ -22,11 +22,11 @@ avatar.GetFieldTalentTableSize(): table
 
 Возвращает таблицу (`table`):
 
-- **`fieldsCount`** `(number)` - Количество полей талантов.
+- **`fieldsCount`** (`number`) - Количество полей талантов.
 
-- **`rowsCount`** `(number)` - Количество строк в поле талантов.
+- **`rowsCount`** (`number`) - Количество строк в поле талантов.
 
-- **`columnsCount`** `(number)` - Количество столбцов в поле талантов.
+- **`columnsCount`** (`number`) - Количество столбцов в поле талантов.
 
 ## Примеры
 

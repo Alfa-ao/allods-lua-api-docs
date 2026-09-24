@@ -16,7 +16,7 @@ unit.GetPetName( unitId: ObjectId ): WString | nil
 
 ## Список параметров
 
-- **`unitId`** `(ObjectId)` - Идентификатор моба.
+- **`unitId`** (`ObjectId`) - Идентификатор моба.
 
 ## Возвращаемые значения
 

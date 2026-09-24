@@ -16,7 +16,7 @@ unit.IsTagged( unitId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`unitId`** `(ObjectId)` - Идентификатор моба.
+- **`unitId`** (`ObjectId`) - Идентификатор моба.
 
 ## Возвращаемые значения
 

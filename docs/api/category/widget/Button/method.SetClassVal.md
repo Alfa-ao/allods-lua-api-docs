@@ -20,9 +20,9 @@ ButtonSafe:SetClassVal( tag: string|WString, value: string|WString )
 
 ## Список параметров
 
-- **`tag`** `(string` | `WString)` - Тег, для которого задается значение.
+- **`tag`** (`string` | `WString`) - Тег, для которого задается значение.
 
-- **`value`** `(string` | `WString)` - Значение тега.
+- **`value`** (`string` | `WString`) - Значение тега.
 
 ## Возвращаемые значения
 

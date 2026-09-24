@@ -16,7 +16,7 @@ itemLib.CanTrade( itemId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`itemId`** `(ObjectId)` - Идентификатор предмета.
+- **`itemId`** (`ObjectId`) - Идентификатор предмета.
 
 ## Возвращаемые значения
 

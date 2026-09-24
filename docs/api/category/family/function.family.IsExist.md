@@ -16,7 +16,7 @@ family.IsExist( unitId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`unitId`** `(ObjectId)` - Идентификатор игрока.
+- **`unitId`** (`ObjectId`) - Идентификатор игрока.
 
 ## Возвращаемые значения
 

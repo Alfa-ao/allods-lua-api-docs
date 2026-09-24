@@ -20,7 +20,7 @@ ScrollableContainerSafe:RemoveAt( pos: number ): WidgetSafe | nil
 
 ## Список параметров
 
-- **`pos`** `(number)` - Позиция элемента, который необходимо удалить. Позиции отсчитываются от 1, `PopFront() == RemoveAt( 1 )`, `PopBack() == RemoveAt( GetElementCount() )`.
+- **`pos`** (`number`) - Позиция элемента, который необходимо удалить. Позиции отсчитываются от 1, `PopFront() == RemoveAt( 1 )`, `PopBack() == RemoveAt( GetElementCount() )`.
 
 ## Возвращаемые значения
 

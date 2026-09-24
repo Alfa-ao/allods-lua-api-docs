@@ -16,7 +16,7 @@ craft.GetGoldenSlotsForgeRecipes( ignorePredicates: boolean | nil ): table | nil
 
 ## Список параметров
 
-- **`ignorePredicates`** `(boolean` | `nil)` - Игнорировать предикаты. Если передано `true`, возвращаются даже недоступные рецепты. Необязательный параметр, по умолчанию `false`.
+- **`ignorePredicates`** (`boolean` | `nil`) - Игнорировать предикаты. Если передано `true`, возвращаются даже недоступные рецепты. Необязательный параметр, по умолчанию `false`.
 
 ## Возвращаемые значения
 

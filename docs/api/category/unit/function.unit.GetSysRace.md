@@ -16,7 +16,7 @@ unit.GetSysRace( unitId: ObjectId ): number
 
 ## Список параметров
 
-- **`unitId`** `(ObjectId)` - Уникальный идентификатор юнита.
+- **`unitId`** (`ObjectId`) - Уникальный идентификатор юнита.
 
 ## Возвращаемые значения
 

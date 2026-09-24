@@ -16,9 +16,9 @@ cartographer.GetMapMarkerObjects( zonesMapId: ObjectId, markerId: InterfaceMapMa
 
 ## Список параметров
 
-- **`zonesMapId`** `(ObjectId)` - Идентификатор интерфейсной карты.
+- **`zonesMapId`** (`ObjectId`) - Идентификатор интерфейсной карты.
 
-- **`markerId`** `(InterfaceMapMarkerId)` - Идентификатор ресурса маркера.
+- **`markerId`** (`InterfaceMapMarkerId`) - Идентификатор ресурса маркера.
 
 ## Возвращаемые значения
 
@@ -26,9 +26,9 @@ cartographer.GetMapMarkerObjects( zonesMapId: ObjectId, markerId: InterfaceMapMa
 
 Структура вложенной таблицы:
 
-- **`pos`** `(GamePosition)` - Глобальные координаты объекта.
+- **`pos`** (`GamePosition`) - Глобальные координаты объекта.
 
-- **`geodata`** `(geodata` | `nil)` - Таблица с данными геодаты зоны, если она была получена. В противном случае возвращает `nil`.
+- **`geodata`** (`geodata` | `nil`) - Таблица с данными геодаты зоны, если она была получена. В противном случае возвращает `nil`.
 
 Поля таблицы `geodata`:
 - `x` (`number`) - Мировая координата X точки левого нижнего угла карты.

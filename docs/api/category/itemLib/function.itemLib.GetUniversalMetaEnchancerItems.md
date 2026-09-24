@@ -16,7 +16,7 @@ itemLib.GetUniversalMetaEnchancerItems( itemId: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`itemId`** `(ObjectId)` - идентификатор предмета.
+- **`itemId`** (`ObjectId`) - идентификатор предмета.
 
 ## Возвращаемые значения
 

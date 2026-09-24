@@ -16,7 +16,7 @@ matchMaking.IsFreePass( eventId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`eventId`** `(ObjectId)` - Идентификатор инстанс-ивента.
+- **`eventId`** (`ObjectId`) - Идентификатор инстанс-ивента.
 
 ## Возвращаемые значения
 

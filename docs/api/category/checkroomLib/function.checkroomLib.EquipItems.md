@@ -16,7 +16,7 @@ checkroomLib.EquipItems( itemIds: table )
 
 ## Список параметров
 
-- **`itemIds`** `(table)` - Идентификаторы предметов.
+- **`itemIds`** (`table`) - Идентификаторы предметов.
 
 ## Возвращаемые значения
 

@@ -16,9 +16,9 @@ mission.SetMarkerObject( markerId: VisObjectId | nil, pos: table | nil )
 
 ## Список параметров
 
-- **`markerId`** `(VisObjectId` | `nil)` - Модель маркера или `nil`, если маркер удаляется.
+- **`markerId`** (`VisObjectId` | `nil`) - Модель маркера или `nil`, если маркер удаляется.
 
-- **`pos`** `(table` | `nil)` - Таблица с позицией маркера или `nil`, если позиция неважна.
+- **`pos`** (`table` | `nil`) - Таблица с позицией маркера или `nil`, если позиция неважна.
   - `posX` (`number`) - Координата X позиции маркера.
   - `posY` (`number`) - Координата Y позиции маркера.
   - `posZ` (`number`) - Координата Z позиции маркера.

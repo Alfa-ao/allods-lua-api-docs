@@ -16,7 +16,7 @@ interaction.RemoveExchangeItem( exchangeSlot: number )
 
 ## Список параметров
 
-- **`exchangeSlot`** `(number)` - Номер слота обменного стола.
+- **`exchangeSlot`** (`number`) - Номер слота обменного стола.
 
 ## Возвращаемые значения
 

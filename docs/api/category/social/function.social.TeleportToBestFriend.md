@@ -16,7 +16,7 @@ social.TeleportToBestFriend( friendId: ObjectId )
 
 ## Список параметров
 
-- **`friendId`** `(ObjectId)` - Идентификатор побратима.
+- **`friendId`** (`ObjectId`) - Идентификатор побратима.
 
 ## Возвращаемые значения
 

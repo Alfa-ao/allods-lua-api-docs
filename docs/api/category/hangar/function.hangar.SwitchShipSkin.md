@@ -16,7 +16,7 @@ hangar.SwitchShipSkin( skinId: ShipSkinId )
 
 ## Список параметров
 
-- **`skinId`** `(ShipSkinId)` - идентификатор корпуса корабля.
+- **`skinId`** (`ShipSkinId`) - идентификатор корпуса корабля.
 
 ## Возвращаемые значения
 

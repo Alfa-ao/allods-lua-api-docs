@@ -16,9 +16,9 @@ containerLib.GetAllSimilarItemIds( slotType: number, id: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`slotType`** `(number)` - тип контейнера с предметами. Значения соответствуют константам `ITEM_CONT_...`.
+- **`slotType`** (`number`) - тип контейнера с предметами. Значения соответствуют константам `ITEM_CONT_...`.
 
-- **`id`** `(ObjectId)` - идентификатор предмета.
+- **`id`** (`ObjectId`) - идентификатор предмета.
 
 ## Возвращаемые значения
 

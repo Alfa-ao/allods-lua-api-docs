@@ -15,7 +15,7 @@ options.Apply( optionBaseId: ObjectId )
 
 ## Список параметров
 
-- **`optionBaseId`** `(ObjectId)` - Идентификатор опции или коллекции.
+- **`optionBaseId`** (`ObjectId`) - Идентификатор опции или коллекции.
 
 ## Возвращаемые значения
 

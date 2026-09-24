@@ -16,9 +16,9 @@ guild.ChangeRank( memberId: ObjectId, rank: number )
 
 ## Список параметров
 
-- **`memberId`** `(ObjectId)` - Идентификатор члена гильдии.
+- **`memberId`** (`ObjectId`) - Идентификатор члена гильдии.
 
-- **`rank`** `(number)` - Новый ранг игрока.
+- **`rank`** (`number`) - Новый ранг игрока.
 
 ## Возвращаемые значения
 

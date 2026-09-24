@@ -16,9 +16,9 @@ containerLib.GetResourceItemStackCount( id: ObjectId | ResourceId, slotType: num
 
 ## Список параметров
 
-- **`id`** `(ObjectId` | `ResourceId)` - Идентификатор предмета.
+- **`id`** (`ObjectId` | `ResourceId`) - Идентификатор предмета.
 
-- **`slotType`** `(number)` - Тип контейнера с предметами. Значения соответствуют константам `ITEM_CONT_...`.
+- **`slotType`** (`number`) - Тип контейнера с предметами. Значения соответствуют константам `ITEM_CONT_...`.
 
 ## Возвращаемые значения
 

@@ -16,19 +16,19 @@ unit.GetRace( unitId: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`unitId`** `(ObjectId)` - Уникальный идентификатор юнита.
+- **`unitId`** (`ObjectId`) - Уникальный идентификатор юнита.
 
 ## Возвращаемые значения
 
 Возвращает `table` | `nil` - Таблица с информацией о расе юнита или `nil`, если данные недоступны.
 
-- **`creatureRace`** `(number`(`ENUM_CreatureRace_*)`) - Раса существа. Для игроков всегда `ENUM_CreatureRace_HUMANOID`.
+- **`creatureRace`** (`number`(`ENUM_CreatureRace_*`)) - Раса существа. Для игроков всегда `ENUM_CreatureRace_HUMANOID`.
 
-- **`sysCreatureRace`** `(string`(`ENUM_CreatureRace_*)`) - Раса существа. Для игроков всегда `"ENUM_CreatureRace_HUMANOID"`.
+- **`sysCreatureRace`** (`string`(`ENUM_CreatureRace_*`)) - Раса существа. Для игроков всегда `"ENUM_CreatureRace_HUMANOID"`.
 
-- **`characterRace`** `(WString` | `nil)` - Локализованное имя расы игрока. Для мобов и NPC всегда `nil`.
+- **`characterRace`** (`WString` | `nil`) - Локализованное имя расы игрока. Для мобов и NPC всегда `nil`.
 
-- **`sysCharacterRaceName`** `(string` | `nil)` - Служебное имя расы игрока. Для мобов и NPC всегда `nil`.
+- **`sysCharacterRaceName`** (`string` | `nil`) - Служебное имя расы игрока. Для мобов и NPC всегда `nil`.
 
 ## Примеры
 

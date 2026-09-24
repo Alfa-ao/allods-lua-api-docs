@@ -25,7 +25,7 @@ TextViewSafe:SetTextStyle( styleTable: table )
 
 ## Список параметров
 
-- **`styleTable`** `(table)` - Таблица, описывающая стиль. Структура описана в `WidgetTextStyle`.
+- **`styleTable`** (`table`) - Таблица, описывающая стиль. Структура описана в `WidgetTextStyle`.
 
 ## Возвращаемые значения
 

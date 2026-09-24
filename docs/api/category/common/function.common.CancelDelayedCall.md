@@ -22,7 +22,7 @@ common.CancelDelayedCall( functionRef: integer ): boolean
 
 ## Список параметров
 
-- **`functionRef`** `(integer)` - Ссылка на функцию, полученная из возвращаемого значения `common.DelayedCall`.
+- **`functionRef`** (`integer`) - Ссылка на функцию, полученная из возвращаемого значения `common.DelayedCall`.
 
 ## Возвращаемые значения
 

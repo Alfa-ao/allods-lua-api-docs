@@ -16,7 +16,7 @@ mission.SetChatInputHistoryMaxSize( limit: number )
 
 ## Список параметров
 
-- **`limit`** `(number)` - Максимальное количество записей.
+- **`limit`** (`number`) - Максимальное количество записей.
 
 ## Возвращаемые значения
 

@@ -16,11 +16,11 @@ guild.CorrectMemberBalance( memberId: ObjectId, changeSum: number, comment: WStr
 
 ## Список параметров
 
-- **`memberId`** `(ObjectId)` - Идентификатор члена гильдии.
+- **`memberId`** (`ObjectId`) - Идентификатор члена гильдии.
 
-- **`changeSum`** `(number)` - Величина изменения в меди.
+- **`changeSum`** (`number`) - Величина изменения в меди.
 
-- **`comment`** `(WString)` - Комментарий.
+- **`comment`** (`WString`) - Комментарий.
 
 ## Возвращаемые значения
 

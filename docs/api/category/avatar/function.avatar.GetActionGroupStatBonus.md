@@ -16,7 +16,7 @@ avatar.GetActionGroupStatBonus( actionGroupId: ActionGroupId ): table | nil
 
 ## Список параметров
 
-- **`actionGroupId`** `(ActionGroupId)` - Идентификатор группы заклинаний.
+- **`actionGroupId`** (`ActionGroupId`) - Идентификатор группы заклинаний.
 
 ## Возвращаемые значения
 

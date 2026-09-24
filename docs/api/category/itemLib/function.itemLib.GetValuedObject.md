@@ -28,7 +28,7 @@ itemLib.GetValuedObject( itemId: ObjectId ): ValuedObject
 
 ## Список параметров
 
-- **`itemId`** `(ObjectId)` - Id объекта предмета.
+- **`itemId`** (`ObjectId`) - Id объекта предмета.
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ guild.GetRights( memberId: ObjectId ): table
 
 ## Список параметров
 
-- **`memberId`** `(ObjectId)` - Идентификатор члена гильдии.
+- **`memberId`** (`ObjectId`) - Идентификатор члена гильдии.
 
 ## Возвращаемые значения
 

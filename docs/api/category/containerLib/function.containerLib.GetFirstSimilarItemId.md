@@ -16,9 +16,9 @@ containerLib.GetFirstSimilarItemId( slotType: number, id: ObjectId ): ObjectId|n
 
 ## Список параметров
 
-- **`slotType`** `(number)` - тип контейнера с предметами.
+- **`slotType`** (`number`) - тип контейнера с предметами.
 
-- **`id`** `(ObjectId)` - идентификатор предмета.
+- **`id`** (`ObjectId`) - идентификатор предмета.
 
 ## Возвращаемые значения
 

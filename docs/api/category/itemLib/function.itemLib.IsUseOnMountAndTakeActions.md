@@ -16,7 +16,7 @@ itemLib.IsUseOnMountAndTakeActions( itemId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`itemId`** `(ObjectId)` - Уникальный идентификатор предмета.
+- **`itemId`** (`ObjectId`) - Уникальный идентификатор предмета.
 
 ## Возвращаемые значения
 

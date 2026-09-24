@@ -16,7 +16,7 @@ order.SetMainPlayerOrder( orderNumber: number )
 
 ## Список параметров
 
-- **`orderNumber`** `(number)` - Порядковый номер игрока.
+- **`orderNumber`** (`number`) - Порядковый номер игрока.
 
 ## Возвращаемые значения
 

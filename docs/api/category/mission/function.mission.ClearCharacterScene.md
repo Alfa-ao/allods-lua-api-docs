@@ -16,7 +16,7 @@ mission.ClearCharacterScene( index: number )
 
 ## Список параметров
 
-- **`index`** `(number)` - Индекс сцены, принимает значения от `0` до `GetMaxCharacterSceneCount() - 1`.
+- **`index`** (`number`) - Индекс сцены, принимает значения от `0` до `GetMaxCharacterSceneCount() - 1`.
 
 ## Возвращаемые значения
 

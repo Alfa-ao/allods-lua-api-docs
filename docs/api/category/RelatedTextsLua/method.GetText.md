@@ -16,7 +16,7 @@ RelatedTextsLua:GetText( sysName: string ): WString | nil
 
 ## Список параметров
 
-- **`sysName`** `(string)` - Идентификатор текста.
+- **`sysName`** (`string`) - Идентификатор текста.
 
 ## Возвращаемые значения
 

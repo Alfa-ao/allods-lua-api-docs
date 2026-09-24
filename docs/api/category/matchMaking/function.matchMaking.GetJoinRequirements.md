@@ -16,14 +16,14 @@ matchMaking.GetJoinRequirements( eventResourceId: InstancedEventResourceId ): ta
 
 ## Список параметров
 
-- **`eventResourceId`** `(InstancedEventResourceId)` - Идентификатор ресурса соответствующего инстанс-ивента.
+- **`eventResourceId`** (`InstancedEventResourceId`) - Идентификатор ресурса соответствующего инстанс-ивента.
 
 ## Возвращаемые значения
 
 Возвращает `table` | `nil`.
 При наличии данных возвращается таблица со следующими полями:
 
-- **`requirements`** `(RequirementsTable)` - Список условий.
+- **`requirements`** (`RequirementsTable`) - Список условий.
 
 ## Примеры
 

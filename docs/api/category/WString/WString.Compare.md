@@ -20,9 +20,9 @@ WStringSafe:Compare( other: WString, ignoreRegistry: boolean|nil ): number|nil
 
 ## Список параметров
 
-- **`other`** `(WString)` - Строка, с которой будет проведено сравнение. Не может быть `nil`.
+- **`other`** (`WString`) - Строка, с которой будет проведено сравнение. Не может быть `nil`.
 
-- **`ignoreRegistry`** `(boolean` | `nil)` - Флаг игнорирования регистра при сравнении. По умолчанию `false`.
+- **`ignoreRegistry`** (`boolean` | `nil`) - Флаг игнорирования регистра при сравнении. По умолчанию `false`.
 
 ## Возвращаемые значения
 

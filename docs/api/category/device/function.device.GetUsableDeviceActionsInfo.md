@@ -16,7 +16,7 @@ device.GetUsableDeviceActionsInfo( usableDeviceId: ObjectId ): table|nil
 
 ## Список параметров
 
-- **`usableDeviceId`** `(ObjectId)` - Идентификатор устройства.
+- **`usableDeviceId`** (`ObjectId`) - Идентификатор устройства.
 
 ## Возвращаемые значения
 

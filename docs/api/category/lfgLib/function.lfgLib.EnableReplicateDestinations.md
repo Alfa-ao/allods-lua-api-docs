@@ -16,7 +16,7 @@ lfgLib.EnableReplicateDestinations( enable: boolean )
 
 ## Список параметров
 
-- **`enable`** `(boolean)` - `true` для включения, `false` для выключения репликации.
+- **`enable`** (`boolean`) - `true` для включения, `false` для выключения репликации.
 
 ## Возвращаемые значения
 

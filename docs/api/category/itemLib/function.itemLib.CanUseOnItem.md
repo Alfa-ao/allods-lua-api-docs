@@ -16,9 +16,9 @@ itemLib.CanUseOnItem( sourceId: ObjectId, targerId: ObjectId ): boolean | nil
 
 ## Список параметров
 
-- **`sourceId`** `(ObjectId)` - Идентификатор предмета, который используют.
+- **`sourceId`** (`ObjectId`) - Идентификатор предмета, который используют.
 
-- **`targerId`** `(ObjectId)` - Идентификатор предмета, на котором используют.
+- **`targerId`** (`ObjectId`) - Идентификатор предмета, на котором используют.
 
 ## Возвращаемые значения
 

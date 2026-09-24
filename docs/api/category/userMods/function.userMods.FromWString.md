@@ -20,7 +20,7 @@ userMods.FromWString( localizedText: WString ): string
 
 ## Список параметров
 
-- **`localizedText`** `(WString)` - Исходный локализуемый текст.
+- **`localizedText`** (`WString`) - Исходный локализуемый текст.
 
 ## Возвращаемые значения
 

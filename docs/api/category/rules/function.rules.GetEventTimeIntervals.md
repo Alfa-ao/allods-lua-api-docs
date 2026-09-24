@@ -20,7 +20,7 @@ rules.GetEventTimeIntervals( eventRuleId: ObjectId ): table
 
 ## Список параметров
 
-- **`eventRuleId`** `(ObjectId)` - Идентификатор правил ивента.
+- **`eventRuleId`** (`ObjectId`) - Идентификатор правил ивента.
 
 ## Возвращаемые значения
 

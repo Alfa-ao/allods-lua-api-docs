@@ -16,7 +16,7 @@ hangar.TakeAwayShip( shipId: ObjectId )
 
 ## Список параметров
 
-- **`shipId`** `(ObjectId)` - Идентификатор корабля.
+- **`shipId`** (`ObjectId`) - Идентификатор корабля.
 
 ## Возвращаемые значения
 

@@ -16,9 +16,9 @@ craft.SetReforgeRecipe( resourceId: ReforgeResourceId, itemId: ObjectId ): boole
 
 ## Список параметров
 
-- **`resourceId`** `(ReforgeResourceId)` - Идентификатор ресурса для reforge крафта.
+- **`resourceId`** (`ReforgeResourceId`) - Идентификатор ресурса для reforge крафта.
 
-- **`itemId`** `(ObjectId)` - Идентификатор предмета для reforge крафта.
+- **`itemId`** (`ObjectId`) - Идентификатор предмета для reforge крафта.
 
 ## Возвращаемые значения
 

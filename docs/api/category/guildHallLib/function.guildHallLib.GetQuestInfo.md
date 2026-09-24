@@ -16,7 +16,7 @@ guildHallLib.GetQuestInfo( questId: QuestId )
 
 ## Список параметров
 
-- **`questId`** `(QuestId)` - Идентификатор ресурса задания.
+- **`questId`** (`QuestId`) - Идентификатор ресурса задания.
 
 ## Возвращаемые значения
 

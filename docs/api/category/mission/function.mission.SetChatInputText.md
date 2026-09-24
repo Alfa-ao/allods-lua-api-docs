@@ -16,9 +16,9 @@ mission.SetChatInputText( text: WString, cursorPos: number )
 
 ## Список параметров
 
-- **`text`** `(WString)` - исходная строка (чаще всего из EditLine).
+- **`text`** (`WString`) - исходная строка (чаще всего из EditLine).
 
-- **`cursorPos`** `(number)` - позиция курсора.
+- **`cursorPos`** (`number`) - позиция курсора.
 
 ## Возвращаемые значения
 

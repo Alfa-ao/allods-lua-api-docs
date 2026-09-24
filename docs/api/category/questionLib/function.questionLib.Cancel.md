@@ -16,7 +16,7 @@ questionLib.Cancel( questionId: ObjectId )
 
 ## Список параметров
 
-- **`questionId`** `(ObjectId)` - Идентификатор вопроса, должен быть одним из списка, получаемого посредством функции `questionLib.GetQuestions()`.
+- **`questionId`** (`ObjectId`) - Идентификатор вопроса, должен быть одним из списка, получаемого посредством функции `questionLib.GetQuestions()`.
 
 ## Возвращаемые значения
 

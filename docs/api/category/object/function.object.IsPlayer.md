@@ -16,7 +16,7 @@ object.IsPlayer( objectId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`objectId`** `(ObjectId)` - идентификатор объекта.
+- **`objectId`** (`ObjectId`) - идентификатор объекта.
 
 ## Возвращаемые значения
 

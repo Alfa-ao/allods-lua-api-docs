@@ -16,7 +16,7 @@ matchMaking.LeaveInstancedEventQueueById( eventResourceId: InstancedEventResourc
 
 ## Список параметров
 
-- **`eventResourceId`** `(InstancedEventResourceId)` - Идентификатор ресурса соответствующего инстанс-ивента.
+- **`eventResourceId`** (`InstancedEventResourceId`) - Идентификатор ресурса соответствующего инстанс-ивента.
 
 ## Возвращаемые значения
 

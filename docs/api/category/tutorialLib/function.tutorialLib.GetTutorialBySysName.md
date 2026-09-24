@@ -16,7 +16,7 @@ tutorialLib.GetTutorialBySysName( sysName: string | nil ): ObjectId | nil
 
 ## Список параметров
 
-- **`sysName`** `(string` | `nil)` - системное имя обучения.
+- **`sysName`** (`string` | `nil`) - системное имя обучения.
 
 ## Возвращаемые значения
 

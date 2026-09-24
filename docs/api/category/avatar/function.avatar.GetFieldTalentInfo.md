@@ -15,11 +15,11 @@ avatar.GetFieldTalentInfo( field: number, row: number, column: number ): table |
 
 ## Список параметров
 
-- **`field`** `(number)` - Номер поля талантов.
+- **`field`** (`number`) - Номер поля талантов.
 
-- **`row`** `(number)` - Номер строки в указанном поле.
+- **`row`** (`number`) - Номер строки в указанном поле.
 
-- **`column`** `(number)` - Номер столбца в указанном поле.
+- **`column`** (`number`) - Номер столбца в указанном поле.
 
 ## Возвращаемые значения
 

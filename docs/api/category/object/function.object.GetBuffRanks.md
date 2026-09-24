@@ -16,7 +16,7 @@ object.GetBuffRanks( buffId: BuffId ): table
 
 ## Список параметров
 
-- **`buffId`** `(BuffId` (`ResourceId)`) - идентификатор ресурса бафа.
+- **`buffId`** (`BuffId` (`ResourceId`)) - идентификатор ресурса бафа.
 
 ## Возвращаемые значения
 

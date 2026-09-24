@@ -16,8 +16,8 @@ mailBox.RequestMailGroupOperation( operation: number, mailList: table )
 
 ## Список параметров
 
-- **`operation`** `(number`(`CmdMailGroupOperationOperationType_*`)) - тип операции (`MARKREAD`, `GETATTACHMENT`, `DELETE`, `GETATTACHMENT_DELETE)`
-- **`mailList`** `(table)` - Список идентификаторов писем. Индексируется целыми числами от 0. Максимально допустимый размер - 20.
+- **`operation`** (`number`(`CmdMailGroupOperationOperationType_*`)) - тип операции (`MARKREAD`, `GETATTACHMENT`, `DELETE`, `GETATTACHMENT_DELETE`)
+- **`mailList`** (`table`) - Список идентификаторов писем. Индексируется целыми числами от 0. Максимально допустимый размер - 20.
 
 ## Возвращаемые значения
 

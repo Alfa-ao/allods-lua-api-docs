@@ -16,7 +16,7 @@ RelatedWidgetsLua:GetWidget( sysName: string ): WidgetDesc|nil
 
 ## Список параметров
 
-- **`sysName`** `(string)` - Идентификатор шаблона виджета
+- **`sysName`** (`string`) - Идентификатор шаблона виджета
 
 ## Возвращаемые значения
 

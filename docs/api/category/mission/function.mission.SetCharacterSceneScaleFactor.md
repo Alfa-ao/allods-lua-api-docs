@@ -16,9 +16,9 @@ mission.SetCharacterSceneScaleFactor( index: number, scale: number )
 
 ## Список параметров
 
-- **`index`** `(number)` - Индекс сцены. Значение находится в диапазоне от `0` до `GetMaxCharacterSceneCount() - 1`.
+- **`index`** (`number`) - Индекс сцены. Значение находится в диапазоне от `0` до `GetMaxCharacterSceneCount() - 1`.
 
-- **`scale`** `(number)` - Коэффициент масштабирования.
+- **`scale`** (`number`) - Коэффициент масштабирования.
 
 ## Возвращаемые значения
 

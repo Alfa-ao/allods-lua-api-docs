@@ -16,7 +16,7 @@ mission.SetAEMarkRange( range: number )
 
 ## Список параметров
 
-- **`range`** `(number)` - Радиус области действия спела AEMark в метрах.
+- **`range`** (`number`) - Радиус области действия спела AEMark в метрах.
 
 ## Возвращаемые значения
 

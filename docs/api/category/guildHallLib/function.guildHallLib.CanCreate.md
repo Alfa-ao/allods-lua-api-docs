@@ -22,9 +22,9 @@ guildHallLib.CanCreate(): table
 
 Возвращает `table`:
 
-- **`result`** `(boolean)` - `true`, если создание оплота гильдии доступно, иначе `false`.
+- **`result`** (`boolean`) - `true`, если создание оплота гильдии доступно, иначе `false`.
 
-- **`reason`** `(RequirementsTable)` - причины недоступности строительства оплота гильдии.
+- **`reason`** (`RequirementsTable`) - причины недоступности строительства оплота гильдии.
 
 ## Примеры
 

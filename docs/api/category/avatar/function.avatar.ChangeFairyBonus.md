@@ -19,7 +19,7 @@ avatar.ChangeFairyBonus( statIndex: number )
 
 ## Список параметров
 
-- **`statIndex`** `(number)` - Индекс характеристики из таблицы `fairyBonus.allowedStats`, к которой необходимо привязать бонус.
+- **`statIndex`** (`number`) - Индекс характеристики из таблицы `fairyBonus.allowedStats`, к которой необходимо привязать бонус.
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ cartographer.IsFinalQuestCompleted( zonesMapId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`zonesMapId`** `(ObjectId)` - Идентификатор интерфейсной карты.
+- **`zonesMapId`** (`ObjectId`) - Идентификатор интерфейсной карты.
 
 ## Возвращаемые значения
 

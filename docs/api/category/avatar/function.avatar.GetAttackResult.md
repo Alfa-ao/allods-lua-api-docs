@@ -20,7 +20,7 @@ avatar.GetAttackResult( code )
 
 ## Список параметров
 
-- **`code`** `(number)` - Код ошибки атаки. Принимает значения из перечислений `ATTACK_FAILED_*` или `ATTACK_RESULT_UNKNOWN`.
+- **`code`** (`number`) - Код ошибки атаки. Принимает значения из перечислений `ATTACK_FAILED_*` или `ATTACK_RESULT_UNKNOWN`.
 
 ## Возвращаемые значения
 

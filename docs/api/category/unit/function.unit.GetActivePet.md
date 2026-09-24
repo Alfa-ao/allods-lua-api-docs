@@ -16,7 +16,7 @@ unit.GetActivePet( unitId: ObjectId ): ObjectId | nil
 
 ## Список параметров
 
-- **`unitId`** `(ObjectId)` - Идентификатор юнита.
+- **`unitId`** (`ObjectId`) - Идентификатор юнита.
 
 ## Возвращаемые значения
 

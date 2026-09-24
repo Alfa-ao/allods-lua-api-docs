@@ -16,9 +16,9 @@ object.GetBuffInstances( objectId: ObjectId, key: BuffId | string | number ): ta
 
 ## Список параметров
 
-- **`objectId`** `(ObjectId)` - Идентификатор объекта.
+- **`objectId`** (`ObjectId`) - Идентификатор объекта.
 
-- **`key`** `(BuffId` | `string` | `number`(`ENUM_UIBuffPriority_*)`) - Критерий поиска бафов. Поиск осуществляется по идентификатору ресурса, системному имени или интерфейсному приоритету.
+- **`key`** (`BuffId` | `string` | `number`(`ENUM_UIBuffPriority_*`)) - Критерий поиска бафов. Поиск осуществляется по идентификатору ресурса, системному имени или интерфейсному приоритету.
 
 ## Возвращаемые значения
 

@@ -26,9 +26,9 @@ WidgetSafe:AddChild( widget: WidgetSafe, noReposition: boolean | nil )
 
 ## Список параметров
 
-- **`widget`** `(WidgetSafe)` - добавляемый виджет
+- **`widget`** (`WidgetSafe`) - добавляемый виджет
 
-- **`noReposition`** `(boolean` | `nil)` - не позиционировать виджет (default false).
+- **`noReposition`** (`boolean` | `nil`) - не позиционировать виджет (default false).
 
 ## Возвращаемые значения
 

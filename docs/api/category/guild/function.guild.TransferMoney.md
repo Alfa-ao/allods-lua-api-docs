@@ -16,13 +16,13 @@ guild.TransferMoney( sum: number, changeReason: number, direction: number, comme
 
 ## Список параметров
 
-- **`sum`** `(number)` - Сумма операции в меди.
+- **`sum`** (`number`) - Сумма операции в меди.
 
-- **`changeReason`** `(number)` - Причина операции. Значения соответствуют перечислению `ENUM_MoneyChangeReason_...`.
+- **`changeReason`** (`number`) - Причина операции. Значения соответствуют перечислению `ENUM_MoneyChangeReason_...`.
 
-- **`direction`** `(number)` - Направление перевода денег. Значения соответствуют перечислению `ENUM_TransferMoneyOperationDirection_...`.
+- **`direction`** (`number`) - Направление перевода денег. Значения соответствуют перечислению `ENUM_TransferMoneyOperationDirection_...`.
 
-- **`comment`** `(WString)` - Комментарий при объявлении сбора.
+- **`comment`** (`WString`) - Комментарий при объявлении сбора.
 
 ## Возвращаемые значения
 

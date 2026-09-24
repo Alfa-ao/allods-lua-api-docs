@@ -16,11 +16,11 @@ remortCreation.SetCameraPath( cameraPath: string, targetPath: string, delay: num
 
 ## Список параметров
 
-- **`cameraPath`** `(string)` - Имя раута движения камеры.
+- **`cameraPath`** (`string`) - Имя раута движения камеры.
 
-- **`targetPath`** `(string)` - Имя раута движения прицела камеры.
+- **`targetPath`** (`string`) - Имя раута движения прицела камеры.
 
-- **`delay`** `(number)` - Задержка в секундах перед запуском камеры.
+- **`delay`** (`number`) - Задержка в секундах перед запуском камеры.
 
 ## Возвращаемые значения
 

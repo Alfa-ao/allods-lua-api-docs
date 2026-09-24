@@ -18,7 +18,7 @@ WidgetSafe:SetName( name: string )
 
 ## Список параметров
 
-- **`name`** `(string)` - Имя контрола.
+- **`name`** (`string`) - Имя контрола.
 
 ## Возвращаемые значения
 

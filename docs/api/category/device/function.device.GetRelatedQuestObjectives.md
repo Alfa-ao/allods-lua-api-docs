@@ -16,7 +16,7 @@ device.GetRelatedQuestObjectives( deviceId: ObjectId ): table|nil
 
 ## Список параметров
 
-- **`deviceId`** `(ObjectId)` - Идентификатор устройства. Не принимает значение `nil`.
+- **`deviceId`** (`ObjectId`) - Идентификатор устройства. Не принимает значение `nil`.
 
 ## Возвращаемые значения
 

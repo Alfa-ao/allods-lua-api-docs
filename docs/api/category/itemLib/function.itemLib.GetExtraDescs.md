@@ -15,7 +15,7 @@ itemLib.GetExtraDescs( itemId: ObjectId ): table
 
 ## Список параметров
 
-- **`itemId`** `(ObjectId)` - Идентификатор предмета.
+- **`itemId`** (`ObjectId`) - Идентификатор предмета.
 
 ## Возвращаемые значения
 

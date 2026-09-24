@@ -16,7 +16,7 @@ object.GetBuffSysName( Id: ObjectId | BuffId ): string | nil
 
 ## Список параметров
 
-- **`Id`** `(ObjectId` | `BuffId)` - Идентификатор объекта или ресурса баффа.
+- **`Id`** (`ObjectId` | `BuffId`) - Идентификатор объекта или ресурса баффа.
 
 ## Возвращаемые значения
 

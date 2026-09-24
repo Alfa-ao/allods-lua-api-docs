@@ -16,7 +16,7 @@ containerLib.Open( slotType: number )
 
 ## Список параметров
 
-- **`slotType`** `(number)` - Тип контейнера с предметами.
+- **`slotType`** (`number`) - Тип контейнера с предметами.
 
 ## Возвращаемые значения
 

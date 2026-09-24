@@ -20,7 +20,7 @@ unit.GetUnitValuedObject( unitId: ObjectId ): ValuedObject
 
 ## Список параметров
 
-- **`unitId`** `(ObjectId)` - Уникальный идентификатор существа.
+- **`unitId`** (`ObjectId`) - Уникальный идентификатор существа.
 
 ## Возвращаемые значения
 

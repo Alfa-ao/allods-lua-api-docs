@@ -16,7 +16,7 @@ hangar.GetHullInfo( hullId: VisualShipId ): table|nil
 
 ## Список параметров
 
-- **`hullId`** `(VisualShipId)` - Идентификатор корпуса корабля.
+- **`hullId`** (`VisualShipId`) - Идентификатор корпуса корабля.
 
 ## Возвращаемые значения
 
@@ -24,11 +24,11 @@ hangar.GetHullInfo( hullId: VisualShipId ): table|nil
 
 Если идентификатор корректен, возвращается таблица со следующими полями:
 
-- **`name`** `(WString)` - Локализованное название корпуса.
+- **`name`** (`WString`) - Локализованное название корпуса.
 
-- **`description`** `(WString)` - Локализованное описание корпуса.
+- **`description`** (`WString`) - Локализованное описание корпуса.
 
-- **`image`** `(TextureId)` - Иконка корпуса (только для UIState).
+- **`image`** (`TextureId`) - Иконка корпуса (только для UIState).
 
 ## Примеры
 

@@ -20,9 +20,9 @@ remortCreation.SetSceneCharacterVariation( characterId: ObjectId, variation: tab
 
 ## Список параметров
 
-- **`characterId`** `(ObjectId)` - Идентификатор персонажа в сцене.
+- **`characterId`** (`ObjectId`) - Идентификатор персонажа в сцене.
 
-- **`variation`** `(table)` - Таблица с информацией, задающей вариацию для аватара.
+- **`variation`** (`table`) - Таблица с информацией, задающей вариацию для аватара.
 
     - `skinTexture` (`number`) - Индекс вариации тела [0..].
 

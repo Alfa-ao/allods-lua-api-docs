@@ -16,9 +16,9 @@ common.RegisterReactionHandler( reactionFunction: function, sysReactionName: str
 
 ## Список параметров
 
-- **`reactionFunction`** `(function)` - Функция-обработчик, вызываемая при наступлении реакции. Прототип функции: `function OnReactionHandler( params: table )`.
+- **`reactionFunction`** (`function`) - Функция-обработчик, вызываемая при наступлении реакции. Прототип функции: `function OnReactionHandler( params: table )`.
 
-- **`sysReactionName`** `(string)` - Уникальное имя системной реакции, на которую осуществляется подписка.
+- **`sysReactionName`** (`string`) - Уникальное имя системной реакции, на которую осуществляется подписка.
 
 ## Возвращаемые значения
 

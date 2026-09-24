@@ -20,7 +20,7 @@ guild.InviteByName( playerName: WString )
 
 ## Список параметров
 
-- **`playerName`** `(WString)` - Имя игрока.
+- **`playerName`** (`WString`) - Имя игрока.
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ hangar.PurchaseDevice( deviceId: ObjectId )
 
 ## Список параметров
 
-- **`deviceId`** `(ObjectId)` - Идентификатор устройства, один из возвращенных `hangar.GetAllowedDeviceTypes`.
+- **`deviceId`** (`ObjectId`) - Идентификатор устройства, один из возвращенных `hangar.GetAllowedDeviceTypes`.
 
 ## Возвращаемые значения
 

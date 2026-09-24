@@ -12,13 +12,13 @@ object.AttachWidget3D( objectId: ObjectId, wtControl3D: Control3DSafe, widget: W
 
 ## Список параметров
 
-- **`objectId`** `(ObjectId)` - Идентификатор объекта.
+- **`objectId`** (`ObjectId`) - Идентификатор объекта.
 
-- **`wtControl3D`** `(Control3DSafe)` - Контрол-3D, отвечающий за отображение сцены.
+- **`wtControl3D`** (`Control3DSafe`) - Контрол-3D, отвечающий за отображение сцены.
 
-- **`widget`** `(WidgetSafe)` - 2D-контрол, привязываемый как Widget3D к объекту.
+- **`widget`** (`WidgetSafe`) - 2D-контрол, привязываемый как Widget3D к объекту.
 
-- **`heightOffset`** `(number)` - Дополнительное смещение Widget3D по вертикали в метрах.
+- **`heightOffset`** (`number`) - Дополнительное смещение Widget3D по вертикали в метрах.
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ DiscreteSliderSafe:SetStepsCount( count: number )
 
 ## Список параметров
 
-- **`count`** `(number)` - диапазон слайдера.
+- **`count`** (`number`) - диапазон слайдера.
 
 ## Возвращаемые значения
 

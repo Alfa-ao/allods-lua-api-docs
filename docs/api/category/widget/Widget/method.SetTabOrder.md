@@ -16,7 +16,7 @@ WidgetSafe:SetTabOrder( tabOrder: number )
 
 ## Список параметров
 
-- **`tabOrder`** `(number)` - Приоритет обхода. По умолчанию: 0.
+- **`tabOrder`** (`number`) - Приоритет обхода. По умолчанию: 0.
 
 ## Возвращаемые значения
 

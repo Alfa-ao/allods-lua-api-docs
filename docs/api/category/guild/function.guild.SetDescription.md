@@ -19,7 +19,7 @@ guild.SetDescription( description: WString )
 
 ## Список параметров
 
-- **`description`** `(WString)` - Описание гильдии.
+- **`description`** (`WString`) - Описание гильдии.
 
 ## Возвращаемые значения
 

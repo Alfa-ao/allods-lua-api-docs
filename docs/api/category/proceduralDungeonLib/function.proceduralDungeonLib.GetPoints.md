@@ -16,7 +16,7 @@ proceduralDungeonLib.GetPoints( goalId: ObjectId | nil ): table | nil
 
 ## Список параметров
 
-- **`goalId`** `(ObjectId` | `nil)`
+- **`goalId`** (`ObjectId` | `nil`)
 
 Идентификатор задания процедурного данжа.
 
@@ -24,7 +24,7 @@ proceduralDungeonLib.GetPoints( goalId: ObjectId | nil ): table | nil
 
 Возвращает `table` | `nil` - Массив координат точек в игровом пространстве, или `nil` в случае отсутствия данных. Индексация элементов начинается с 1.
 
-- **`[index]`** `(GamePosition)`
+- **`[index]`** (`GamePosition`)
 
 Координаты точки в игровом пространстве.
 

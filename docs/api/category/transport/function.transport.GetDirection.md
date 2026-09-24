@@ -20,7 +20,7 @@ transport.GetDirection( transportId: ObjectId ): number
 
 ## Список параметров
 
-- **`transportId`** `(ObjectId)` - Уникальный идентификатор транспортного средства.
+- **`transportId`** (`ObjectId`) - Уникальный идентификатор транспортного средства.
 
 ## Возвращаемые значения
 

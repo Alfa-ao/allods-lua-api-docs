@@ -16,7 +16,7 @@ hangar.ReplaceDevice( deviceId: ObjectId )
 
 ## Список параметров
 
-- **`deviceId`** `(ObjectId)` - Идентификатор устройства, один из возвращенных функцией `hangar.GetSlotDevices()`.
+- **`deviceId`** (`ObjectId`) - Идентификатор устройства, один из возвращенных функцией `hangar.GetSlotDevices()`.
 
 ## Возвращаемые значения
 

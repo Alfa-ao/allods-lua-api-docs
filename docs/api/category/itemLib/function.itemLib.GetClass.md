@@ -16,7 +16,7 @@ itemLib.GetClass( itemId: ObjectId ): ItemClassId | nil
 
 ## Список параметров
 
-- **`itemId`** `(ObjectId)` - Идентификатор предмета.
+- **`itemId`** (`ObjectId`) - Идентификатор предмета.
 
 ## Возвращаемые значения
 

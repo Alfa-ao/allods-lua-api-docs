@@ -16,7 +16,7 @@ mission.SetChatInputTarget( uniqueId: UniqueId )
 
 ## Список параметров
 
-- **`uniqueId`** `(UniqueId)` - Уникальный идентификатор персонажа.
+- **`uniqueId`** (`UniqueId`) - Уникальный идентификатор персонажа.
 
 ## Возвращаемые значения
 

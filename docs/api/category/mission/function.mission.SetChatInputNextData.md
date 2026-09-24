@@ -16,7 +16,7 @@ mission.SetChatInputNextData( wtEditLine: EditLineSafe )
 
 ## Список параметров
 
-- **`wtEditLine`** `(EditLineSafe)` - Строка ввода.
+- **`wtEditLine`** (`EditLineSafe`) - Строка ввода.
 
 ## Возвращаемые значения
 

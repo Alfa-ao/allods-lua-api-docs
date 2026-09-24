@@ -20,9 +20,9 @@ userMods.SetAvatarConfigSection( sysName: string, section: table|nil )
 
 ## Список параметров
 
-- **`sysName`** `(string)` - Название секции.
+- **`sysName`** (`string`) - Название секции.
 
-- **`section`** `(table` | `nil)` - Таблица с данными секции. Передача `nil` приводит к удалению секции.
+- **`section`** (`table` | `nil`) - Таблица с данными секции. Передача `nil` приводит к удалению секции.
 
 ## Возвращаемые значения
 

@@ -20,7 +20,7 @@ craft.DiceCraftGetRecipeInspiration( recipeId: RecipeId ): number|nil
 
 ## Список параметров
 
-- **`recipeId`** `(RecipeId)` - Идентификатор рецепта.
+- **`recipeId`** (`RecipeId`) - Идентификатор рецепта.
 
 ## Возвращаемые значения
 

@@ -16,9 +16,9 @@ ValuedTextSafe:SetClassVal( key: string | WString, value: string | WString )
 
 ## Список параметров
 
-- **`key`** `(string` | `WString)` - Тег, для которого устанавливается значение.
+- **`key`** (`string` | `WString`) - Тег, для которого устанавливается значение.
 
-- **`value`** `(string` | `WString)` - Устанавливаемое значение.
+- **`value`** (`string` | `WString`) - Устанавливаемое значение.
 
 ## Возвращаемые значения
 

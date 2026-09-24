@@ -12,7 +12,7 @@ Sound2DLua:SetPaused( isPaused: boolean )
 
 ## Список параметров
 
-- **`isPaused`** `(boolean)` - Устанавливаемый статус паузы.
+- **`isPaused`** (`boolean`) - Устанавливаемый статус паузы.
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ unit.GetFollowerMaster( unitId: ObjectId ): ObjectId | nil
 
 ## Список параметров
 
-- **`unitId`** `(ObjectId)` - идентификатор игрока.
+- **`unitId`** (`ObjectId`) - идентификатор игрока.
 
 ## Возвращаемые значения
 

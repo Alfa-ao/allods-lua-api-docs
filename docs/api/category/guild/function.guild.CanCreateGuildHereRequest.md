@@ -16,7 +16,7 @@ guild.CanCreateGuildHereRequest( itemId: ObjectId )
 
 ## Список параметров
 
-- **`itemId`** `(ObjectId)` - идентификатор предмета для создания гильдии.
+- **`itemId`** (`ObjectId`) - идентификатор предмета для создания гильдии.
 
 ## Возвращаемые значения
 

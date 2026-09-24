@@ -16,7 +16,7 @@ WidgetSafe:DNDRegisterGeneric( isDragOnly: boolean ): number
 
 ## Список параметров
 
-- **`isDragOnly`** `(boolean)` - drag&drop включается либо только на перетаскивание, либо как на перетаскивание, так и на клик.
+- **`isDragOnly`** (`boolean`) - drag&drop включается либо только на перетаскивание, либо как на перетаскивание, так и на клик.
 
 ## Возвращаемые значения
 

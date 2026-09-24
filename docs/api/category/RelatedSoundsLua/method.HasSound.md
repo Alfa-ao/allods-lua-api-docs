@@ -16,7 +16,7 @@ RelatedSoundsLua:HasSound( sysName: string ): boolean
 
 ## Список параметров
 
-- **`sysName`** `(string)` - Системный идентификатор звука.
+- **`sysName`** (`string`) - Системный идентификатор звука.
 
 ## Возвращаемые значения
 

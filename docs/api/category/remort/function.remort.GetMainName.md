@@ -16,7 +16,7 @@ remort.GetMainName( unitId ): WString | nil
 
 ## Список параметров
 
-- **`unitId`** `(ObjectId)` - Идентификатор игрока.
+- **`unitId`** (`ObjectId`) - Идентификатор игрока.
 
 ## Возвращаемые значения
 

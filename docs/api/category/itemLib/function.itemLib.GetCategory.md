@@ -16,7 +16,7 @@ itemLib.GetCategory( itemId: ObjectId ): ItemCategoryId | nil
 
 ## Список параметров
 
-- **`itemId`** `(ObjectId)` - Идентификатор предмета.
+- **`itemId`** (`ObjectId`) - Идентификатор предмета.
 
 ## Возвращаемые значения
 

@@ -16,9 +16,9 @@ mission.DressCharacterScene( index: number, items: table | nil )
 
 ## Список параметров
 
-- **`index`** `(number)` - Индекс сцены, от `0` до `GetMaxCharacterSceneCount() - 1`.
+- **`index`** (`number`) - Индекс сцены, от `0` до `GetMaxCharacterSceneCount() - 1`.
 
-- **`items`** `(table` | `nil`) - Индексированная с `0` таблица идентификаторов вещей (`ObjectId)`. При передаче `nil` примерка сбрасывается.
+- **`items`** (`table` | `nil`) - Индексированная с `0` таблица идентификаторов вещей (`ObjectId`). При передаче `nil` примерка сбрасывается.
 
 ## Возвращаемые значения
 

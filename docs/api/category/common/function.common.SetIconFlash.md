@@ -16,7 +16,7 @@ common.SetIconFlash( flashCount: number )
 
 ## Список параметров
 
-- **`flashCount`** `(number)` - Количество миганий (вспышек) иконки.
+- **`flashCount`** (`number`) - Количество миганий (вспышек) иконки.
 
 ## Возвращаемые значения
 

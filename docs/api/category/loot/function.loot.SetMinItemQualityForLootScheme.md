@@ -16,7 +16,7 @@ loot.SetMinItemQualityForLootScheme( quality: number )
 
 ## Список параметров
 
-- **`quality`** `(number`(`ITEM_QUALITY_*)`) - Идентификатор качества предмета.
+- **`quality`** (`number`(`ITEM_QUALITY_*`)) - Идентификатор качества предмета.
 
 ## Возвращаемые значения
 

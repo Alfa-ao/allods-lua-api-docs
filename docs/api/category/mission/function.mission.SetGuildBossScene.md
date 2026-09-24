@@ -16,13 +16,13 @@ mission.SetGuildBossScene( index: number, wtCharacterControl3D: Control3DSafe, b
 
 ## Список параметров
 
-- **`index`** `(number)` - Индекс сцены, `[0..GetMaxCharacterSceneCount() - 1]`.
+- **`index`** (`number`) - Индекс сцены, `[0..GetMaxCharacterSceneCount() - 1]`.
 
-- **`wtCharacterControl3D`** `(Control3DSafe)` - Контрол, в котором должен отображаться босс.
+- **`wtCharacterControl3D`** (`Control3DSafe`) - Контрол, в котором должен отображаться босс.
 
-- **`bossIndex`** `(number` | `nil)` - Необязательный параметр. Индекс босса, полученный из `guildBossLib.GetVariations()`.
+- **`bossIndex`** (`number` | `nil`) - Необязательный параметр. Индекс босса, полученный из `guildBossLib.GetVariations()`.
 
-- **`stateIndex`** `(number` | `nil`) - Необязательный параметр. Индекс состояния босса, полученный из `guildBossLib.GetVariations()` (список `previewStates)`.
+- **`stateIndex`** (`number` | `nil`) - Необязательный параметр. Индекс состояния босса, полученный из `guildBossLib.GetVariations()` (список `previewStates`).
 
 ## Возвращаемые значения
 

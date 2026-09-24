@@ -16,7 +16,7 @@ spellLib.GetObjectSpell( objectId: ObjectId ): SpellId
 
 ## Список параметров
 
-- **`objectId`** `(ObjectId)` - Идентификатор объекта умения.
+- **`objectId`** (`ObjectId`) - Идентификатор объекта умения.
 
 ## Возвращаемые значения
 

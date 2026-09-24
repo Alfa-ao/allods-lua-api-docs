@@ -16,7 +16,7 @@ device.GetTransport( usableDeviceId: ObjectId ): ObjectId | nil
 
 ## Список параметров
 
-- **`usableDeviceId`** `(ObjectId)` - Идентификатор устройства. Не может быть `nil`.
+- **`usableDeviceId`** (`ObjectId`) - Идентификатор устройства. Не может быть `nil`.
 
 ## Возвращаемые значения
 

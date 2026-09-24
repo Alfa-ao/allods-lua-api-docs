@@ -16,9 +16,9 @@ lfgLib.Join( destinationId: LfgDestinationId, roles: table )
 
 ## Список параметров
 
-- **`destinationId`** `(LfgDestinationId)` - Идентификатор цели.
+- **`destinationId`** (`LfgDestinationId`) - Идентификатор цели.
 
-- **`roles`** `(table`) - Индексированный список `number`(`ENUM_LFGRole)`. Выбранные роли для участия в группе, значения должны быть выбраны из диапазона значений `ENUM_LFGRole`.
+- **`roles`** (`table`) - Индексированный список `number`(`ENUM_LFGRole`). Выбранные роли для участия в группе, значения должны быть выбраны из диапазона значений `ENUM_LFGRole`.
 
 ## Возвращаемые значения
 

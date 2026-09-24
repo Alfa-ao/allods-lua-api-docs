@@ -16,7 +16,7 @@ itemLib.CanActivateForUseOnItem( sourceId: ObjectId ): boolean | nil
 
 ## Список параметров
 
-- **`sourceId`** `(ObjectId)` - Идентификатор активируемого предмета.
+- **`sourceId`** (`ObjectId`) - Идентификатор активируемого предмета.
 
 ## Возвращаемые значения
 

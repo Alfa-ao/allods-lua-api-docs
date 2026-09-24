@@ -18,7 +18,7 @@ matchMaking.CanJoinInstancedEvent( eventId: ObjectId | InstancedEventResourceId 
 
 ## Список параметров
 
-- **`eventId`** `(ObjectId` | `InstancedEventResourceId` | `nil)` - Идентификатор инстанс-ивента для проверки возможности вступления на конкретный ивент, или `nil` для общей проверки возможности вступления.
+- **`eventId`** (`ObjectId` | `InstancedEventResourceId` | `nil`) - Идентификатор инстанс-ивента для проверки возможности вступления на конкретный ивент, или `nil` для общей проверки возможности вступления.
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ object.GetName( objectId: ObjectId ): WString
 
 ## Список параметров
 
-- **`objectId`** `(ObjectId)` - Идентификатор интерактивного объекта.
+- **`objectId`** (`ObjectId`) - Идентификатор интерактивного объекта.
 
 ## Возвращаемые значения
 

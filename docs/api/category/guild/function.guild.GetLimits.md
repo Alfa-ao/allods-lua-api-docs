@@ -22,31 +22,31 @@ guild.GetLimits(): table
 
 Возвращает `table`:
 
-- **`guildMembersLimit`** `(number)` - максимальное количество членов гильдии
+- **`guildMembersLimit`** (`number`) - максимальное количество членов гильдии
 
-- **`guildMessageLimit`** `(number)` - максимальное количество знаков в новости гильдии
+- **`guildMessageLimit`** (`number`) - максимальное количество знаков в новости гильдии
 
-- **`guildMemberDescrptionLimit`** `(number)` - максимальное количество знаков в описании гильдии
+- **`guildMemberDescrptionLimit`** (`number`) - максимальное количество знаков в описании гильдии
 
-- **`guildDescriptionLimit`** `(number)` - максимальное количество знаков в описании члена гильдии
+- **`guildDescriptionLimit`** (`number`) - максимальное количество знаков в описании члена гильдии
 
-- **`maxGuildLoyalty`** `(number)` - максимальное значение верности
+- **`maxGuildLoyalty`** (`number`) - максимальное значение верности
 
-- **`minGuildLoyalty`** `(number)` - минимальное значение верности
+- **`minGuildLoyalty`** (`number`) - минимальное значение верности
 
-- **`maxGuildLevel`** `(number)` - максимально возможный уровень гильдии
+- **`maxGuildLevel`** (`number`) - максимально возможный уровень гильдии
 
-- **`tabardDistributionDelayMs`** `(number)` - сколько миллисекунд длится таймаут (от вступления в гильдию) на разрешение для ношения знака отличия
+- **`tabardDistributionDelayMs`** (`number`) - сколько миллисекунд длится таймаут (от вступления в гильдию) на разрешение для ношения знака отличия
 
-- **`tabardDistributionDelay`** `(table)` - этот же таймаут, представленный таблицей с полями:
+- **`tabardDistributionDelay`** (`table`) - этот же таймаут, представленный таблицей с полями:
 
-    - **`d`** `(number)` - дни
+    - **`d`** (`number`) - дни
 
-    - **`h`** `(number)` - часы
+    - **`h`** (`number`) - часы
 
-    - **`m`** `(number)` - минуты
+    - **`m`** (`number`) - минуты
 
-    - **`s`** `(number)` - секунды
+    - **`s`** (`number`) - секунды
 
 ## Примеры
 

@@ -16,7 +16,7 @@ currencyExchange.CalcBuyCost( crystalsToBuy: number ): number
 
 ## Список параметров
 
-- **`crystalsToBuy`** `(number)` - Количество кристаллов, которые планируется приобрести.
+- **`crystalsToBuy`** (`number`) - Количество кристаллов, которые планируется приобрести.
 
 ## Возвращаемые значения
 

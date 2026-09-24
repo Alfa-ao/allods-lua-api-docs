@@ -16,7 +16,7 @@ itemLib.GetName( itemId: ObjectId ): WString
 
 ## Список параметров
 
-- **`itemId`** `(ObjectId)` - Идентификатор предмета.
+- **`itemId`** (`ObjectId`) - Идентификатор предмета.
 
 ## Возвращаемые значения
 

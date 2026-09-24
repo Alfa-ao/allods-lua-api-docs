@@ -16,7 +16,7 @@ cartographer.GetZonesMapId( sysName: string ): ObjectId | nil
 
 ## Список параметров
 
-- **`sysName`** `(string)` - Уникальное системное имя карты зоны.
+- **`sysName`** (`string`) - Уникальное системное имя карты зоны.
 
 ## Возвращаемые значения
 

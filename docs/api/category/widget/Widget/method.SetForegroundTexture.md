@@ -16,7 +16,7 @@ WidgetSafe:SetForegroundTexture( texture: TextureId | nil )
 
 ## Список параметров
 
-- **`texture`** `(TextureId` | `nil)` - Идентификатор текстуры.
+- **`texture`** (`TextureId` | `nil`) - Идентификатор текстуры.
 
 ## Возвращаемые значения
 

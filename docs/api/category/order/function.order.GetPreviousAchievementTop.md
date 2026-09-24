@@ -16,15 +16,15 @@ order.GetPreviousAchievementTop( eventId: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`eventId`** `(ObjectId)` - Идентификатор события.
+- **`eventId`** (`ObjectId`) - Идентификатор события.
 
 ## Возвращаемые значения
 
 Возвращает `table` | `nil` - таблица с данными о лидере прошлого сезона по классу или `nil` в случае отсутствия данных.
 
-- **`name`** `(WString)` - Имя аватара.
+- **`name`** (`WString`) - Имя аватара.
 
-- **`achievement`** `(number)` - Количество очков.
+- **`achievement`** (`number`) - Количество очков.
 
 ## Смотрите также
 

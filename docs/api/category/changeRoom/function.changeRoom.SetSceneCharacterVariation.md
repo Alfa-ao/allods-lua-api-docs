@@ -20,9 +20,9 @@ changeRoom.SetSceneCharacterVariation( characterId: ObjectId, variation: table )
 
 ## Список параметров
 
-- **`characterId`** `(ObjectId)` - Идентификатор персонажа в сцене.
+- **`characterId`** (`ObjectId`) - Идентификатор персонажа в сцене.
 
-- **`variation`** `(table)` - Таблица с информацией, задающей вариацию для аватара. Поля:
+- **`variation`** (`table`) - Таблица с информацией, задающей вариацию для аватара. Поля:
 - `skinTexture` (`number`) - индекс вариации тела [0..].
 - `skinColor` (`number`) - индекс вариации цвета тела [0..].
 - `hairType` (`number`) - индекс типа волос [0..].

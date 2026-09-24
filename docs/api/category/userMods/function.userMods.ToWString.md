@@ -20,7 +20,7 @@ userMods.ToWString( sysText: string ): WString
 
 ## Список параметров
 
-- **`sysText`** `(string)` - Исходная строка.
+- **`sysText`** (`string`) - Исходная строка.
 
 ## Возвращаемые значения
 

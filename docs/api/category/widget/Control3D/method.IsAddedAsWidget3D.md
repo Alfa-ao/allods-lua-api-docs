@@ -12,7 +12,7 @@ Control3DSafe:IsAddedAsWidget3D( widget: WidgetSafe ): boolean
 
 ## Список параметров
 
-- **`widget`** `(WidgetSafe)` - Проверяемый виджет.
+- **`widget`** (`WidgetSafe`) - Проверяемый виджет.
 
 ## Возвращаемые значения
 

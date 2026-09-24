@@ -16,9 +16,9 @@ unit.GetEquipmentItemIds( unitId: ObjectId, slotType: number ): table
 
 ## Список параметров
 
-- **`unitId`** `(ObjectId)` - Уникальный идентификатор юнита.
+- **`unitId`** (`ObjectId`) - Уникальный идентификатор юнита.
 
-- **`slotType`** `(number`(`ITEM_CONT_*)`) - Тип контейнера.
+- **`slotType`** (`number`(`ITEM_CONT_*`)) - Тип контейнера.
 
 ## Возвращаемые значения
 

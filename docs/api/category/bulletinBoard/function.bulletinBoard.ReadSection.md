@@ -16,7 +16,7 @@ bulletinBoard.ReadSection( postTypeId: PostTypeId ): table | nil
 
 ## Список параметров
 
-- **`postTypeId`** `(PostTypeId)` - Уникальный идентификатор раздела доски объявлений.
+- **`postTypeId`** (`PostTypeId`) - Уникальный идентификатор раздела доски объявлений.
 
 ## Возвращаемые значения
 

@@ -20,7 +20,7 @@ unit.GetFairyPowerBonus( unitId: ObjectId ): number | nil
 
 ## Список параметров
 
-- **`unitId`** `(ObjectId)` - идентификатор юнита.
+- **`unitId`** (`ObjectId`) - идентификатор юнита.
 
 ## Возвращаемые значения
 

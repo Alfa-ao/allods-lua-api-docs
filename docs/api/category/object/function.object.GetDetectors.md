@@ -17,28 +17,28 @@ object.GetDetectors( objectId: ObjectId ): table
 ::: info Перечисление
 Список существующих детекторов:
 
-- **`CLIENT_DETECTOR_QUEST_NPC`** `(number` `0)`
+- **`CLIENT_DETECTOR_QUEST_NPC`** (`number` `0`)
 
-- **`CLIENT_DETECTOR_TRAINER_NPC`** `(number` `1)`
+- **`CLIENT_DETECTOR_TRAINER_NPC`** (`number` `1`)
 
-- **`CLIENT_DETECTOR_VENDOR_NPC`** `(number` `2)`
+- **`CLIENT_DETECTOR_VENDOR_NPC`** (`number` `2`)
 
-- **`CLIENT_DETECTOR_SERVICE_NPC`** `(number` `3)`
+- **`CLIENT_DETECTOR_SERVICE_NPC`** (`number` `3`)
 
-- **`CLIENT_DETECTOR_PLAYER`** `(number` `4)`
+- **`CLIENT_DETECTOR_PLAYER`** (`number` `4`)
 
-- **`CLIENT_DETECTOR_SPOUSE`** `(number` `5)`
+- **`CLIENT_DETECTOR_SPOUSE`** (`number` `5`)
 
-- **`CLIENT_DETECTOR_BATTLEGROUND_CHECKPOINT`** `(number` `6)`
+- **`CLIENT_DETECTOR_BATTLEGROUND_CHECKPOINT`** (`number` `6`)
 
-- **`CLIENT_DETECTOR_PROFESSION_NPC`** `(number` `7)`
+- **`CLIENT_DETECTOR_PROFESSION_NPC`** (`number` `7`)
 
-- **`CLIENT_DETECTOR_CUSTOM`** `(number` `8)`
+- **`CLIENT_DETECTOR_CUSTOM`** (`number` `8`)
 :::
 
 ## Список параметров
 
-- **`objectId`** `(ObjectId)` - Идентификатор интерактивного объекта. Не может быть `nil`.
+- **`objectId`** (`ObjectId`) - Идентификатор интерактивного объекта. Не может быть `nil`.
 
 ## Возвращаемые значения
 

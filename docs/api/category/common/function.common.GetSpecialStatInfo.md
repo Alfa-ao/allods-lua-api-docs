@@ -16,19 +16,19 @@ common.GetSpecialStatInfo( specialStatId: SpecialStatId ): table | nil
 
 ## Список параметров
 
-- **`specialStatId`** `(SpecialStatId)` - Уникальный идентификатор ресурса Special-стата.
+- **`specialStatId`** (`SpecialStatId`) - Уникальный идентификатор ресурса Special-стата.
 
 ## Возвращаемые значения
 
 Возвращает `table` или `nil`. Если информация успешно получена, возвращается таблица со следующими полями:
 
-- **`name`** `(WString)` - полное название Special-стата.
+- **`name`** (`WString`) - полное название Special-стата.
 
-- **`tooltipName`** `(WString)` - упрощенное название.
+- **`tooltipName`** (`WString`) - упрощенное название.
 
-- **`shortDescription`** `(WString)` - краткое описание.
+- **`shortDescription`** (`WString`) - краткое описание.
 
-- **`type`** `(number)` - класс характеристики, соответствует значениям перечисления `ENUM_SpecialStatType`.
+- **`type`** (`number`) - класс характеристики, соответствует значениям перечисления `ENUM_SpecialStatType`.
 
 ## Примеры
 

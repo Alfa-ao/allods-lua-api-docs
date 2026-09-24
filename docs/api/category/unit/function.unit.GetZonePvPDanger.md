@@ -16,7 +16,7 @@ unit.GetZonePvPDanger( unitId: ObjectId ): string
 
 ## Список параметров
 
-- **`unitId`** `(ObjectId)` - Идентификатор игрока.
+- **`unitId`** (`ObjectId`) - Идентификатор игрока.
 
 ## Возвращаемые значения
 

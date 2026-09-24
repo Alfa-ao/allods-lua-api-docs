@@ -16,7 +16,7 @@ RelatedWidgetsLua:HasWidget( sysName ): boolean
 
 ## Список параметров
 
-- **`sysName`** `(string)` - Идентификатор шаблона виджета.
+- **`sysName`** (`string`) - Идентификатор шаблона виджета.
 
 ## Возвращаемые значения
 

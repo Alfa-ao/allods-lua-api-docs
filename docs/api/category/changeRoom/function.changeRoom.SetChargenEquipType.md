@@ -20,7 +20,7 @@ changeRoom.SetChargenEquipType( equipType: number )
 
 ## Список параметров
 
-- **`equipType`** `(number)`
+- **`equipType`** (`number`)
   Вид показываемой экипировки. Задается значениями перечисления `CHARGEN_EQUIP_TYPE_...`:
   - `CHARGEN_EQUIP_TYPE_NONE` - отображение персонажа без экипировки.
   - `CHARGEN_EQUIP_TYPE_HIGH_LEVEL` - отображение персонажа в специальной высокоуровневой экипировке.

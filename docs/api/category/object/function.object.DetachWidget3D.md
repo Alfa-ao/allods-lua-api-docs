@@ -11,9 +11,9 @@ object.DetachWidget3D( objectId: ObjectId, widget: WidgetSafe )
 
 ## Список параметров
 
-- **`objectId`** `(ObjectId)` - Идентификатор объекта.
+- **`objectId`** (`ObjectId`) - Идентификатор объекта.
 
-- **`widget`** `(WidgetSafe)` - 2D-контрол, который был привязан как Widget3D к объекту.
+- **`widget`** (`WidgetSafe`) - 2D-контрол, который был привязан как Widget3D к объекту.
 
 ## Возвращаемые значения
 

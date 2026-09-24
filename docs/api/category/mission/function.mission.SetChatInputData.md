@@ -16,7 +16,7 @@ mission.SetChatInputData( wtEditLine: EditLineSafe )
 
 ## Список параметров
 
-- **`wtEditLine`** `(EditLineSafe)` - Строка ввода чата.
+- **`wtEditLine`** (`EditLineSafe`) - Строка ввода чата.
 
 ## Возвращаемые значения
 

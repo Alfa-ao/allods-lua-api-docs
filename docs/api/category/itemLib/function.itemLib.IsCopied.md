@@ -16,7 +16,7 @@ itemLib.IsCopied( itemId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`itemId`** `(ObjectId)` - Идентификатор предмета. Не может быть `nil`.
+- **`itemId`** (`ObjectId`) - Идентификатор предмета. Не может быть `nil`.
 
 ## Возвращаемые значения
 

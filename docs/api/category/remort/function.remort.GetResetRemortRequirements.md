@@ -16,7 +16,7 @@ remort.GetResetRemortRequirements( oldRaceSysName: string ): table|nil
 
 ## Список параметров
 
-- **`oldRaceSysName`** `(string)` - Системное имя расы.
+- **`oldRaceSysName`** (`string`) - Системное имя расы.
 
 ## Возвращаемые значения
 

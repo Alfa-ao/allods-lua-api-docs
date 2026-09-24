@@ -16,7 +16,7 @@ TextContainerSafe:PushFrontText( text: string | WString | ValuedText )
 
 ## Список параметров
 
-- **`text`** `(string` | `WString` | `ValuedText)` - добавляемый текст.
+- **`text`** (`string` | `WString` | `ValuedText`) - добавляемый текст.
 
 ## Возвращаемые значения
 

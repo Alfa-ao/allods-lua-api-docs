@@ -16,7 +16,7 @@ checkroomLib.FindCheckroomItem( itemId: ObjectId ): ObjectId | nil
 
 ## Список параметров
 
-- **`itemId`** `(ObjectId)` - Идентификатор предмета.
+- **`itemId`** (`ObjectId`) - Идентификатор предмета.
 
 ## Возвращаемые значения
 

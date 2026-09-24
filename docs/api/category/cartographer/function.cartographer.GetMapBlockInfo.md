@@ -16,7 +16,7 @@ cartographer.GetMapBlockInfo( mapBlockId: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`mapBlockId`** `(ObjectId)` - Уникальный идентификатор блока интерфейсных карт.
+- **`mapBlockId`** (`ObjectId`) - Уникальный идентификатор блока интерфейсных карт.
 
 ## Возвращаемые значения
 
@@ -24,15 +24,15 @@ cartographer.GetMapBlockInfo( mapBlockId: ObjectId ): table | nil
 
 Структура возвращаемой таблицы:
 
-- **`id`** `(ObjectId)` - уникальный идентификатор блока.
+- **`id`** (`ObjectId`) - уникальный идентификатор блока.
 
-- **`name`** `(WString)` - имя блока.
+- **`name`** (`WString`) - имя блока.
 
-- **`description`** `(WString)` - описание блока.
+- **`description`** (`WString`) - описание блока.
 
-- **`isShowInList`** `(boolean)` - `true`, если блок отображается в главном списке блоков.
+- **`isShowInList`** (`boolean`) - `true`, если блок отображается в главном списке блоков.
 
-- **`zonesMaps`** `(table`) - таблица, содержащая идентификаторы (`ObjectId)` интерфейсных карт зон, входящих в данный блок.
+- **`zonesMaps`** (`table`) - таблица, содержащая идентификаторы (`ObjectId`) интерфейсных карт зон, входящих в данный блок.
 
 ## Примеры
 

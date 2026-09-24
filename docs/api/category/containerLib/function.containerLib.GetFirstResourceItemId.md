@@ -16,9 +16,9 @@ containerLib.GetFirstResourceItemId( slotType: number, id: number )
 
 ## Список параметров
 
-- **`slotType`** `(number)` - тип контейнера с предметами. Задается константами `ITEM_CONT_...`.
+- **`slotType`** (`number`) - тип контейнера с предметами. Задается константами `ITEM_CONT_...`.
 
-- **`id`** `(number`) - идентификатор предмета (`ObjectId`) или ресурса (`ItemId)`.
+- **`id`** (`number`) - идентификатор предмета (`ObjectId`) или ресурса (`ItemId`).
 
 ## Возвращаемые значения
 

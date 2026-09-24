@@ -16,7 +16,7 @@ poweredLSWeaponsLib.UnequipItem( itemId: ObjectId )
 
 ## Список параметров
 
-- **`itemId`** `(ObjectId)` - Идентификатор предмета.
+- **`itemId`** (`ObjectId`) - Идентификатор предмета.
 
 ## Возвращаемые значения
 

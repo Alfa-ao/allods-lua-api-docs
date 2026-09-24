@@ -16,7 +16,7 @@ ScrollableContainerSafe:SetContainerOffset( offset: number )
 
 ## Список параметров
 
-- **`offset`** `(number)` - Величина прокрутки.
+- **`offset`** (`number`) - Величина прокрутки.
 
 ## Возвращаемые значения
 

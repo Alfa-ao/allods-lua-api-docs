@@ -18,7 +18,7 @@ raid.IsPlayerInAvatarsRaidGroup( playerName: WString | ObjectId | UniqueId ): bo
 
 ## Список параметров
 
-- **`playerName`** `(WString` | `ObjectId` | `UniqueId)` - Имя или идентификатор игрока.
+- **`playerName`** (`WString` | `ObjectId` | `UniqueId`) - Имя или идентификатор игрока.
 
 ## Возвращаемые значения
 

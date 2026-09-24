@@ -16,11 +16,11 @@ unit.GetEquipmentItemId( unitId: ObjectId, slot: number, slotType: number ): Obj
 
 ## Список параметров
 
-- **`unitId`** `(ObjectId)` - Идентификатор юнита.
+- **`unitId`** (`ObjectId`) - Идентификатор юнита.
 
-- **`slot`** `(number`(`DRESS_SLOT_*)`) - Индекс слота (0..DRESS_SLOT_UNDRESSABLE - 1).
+- **`slot`** (`number`(`DRESS_SLOT_*`)) - Индекс слота (0..DRESS_SLOT_UNDRESSABLE - 1).
 
-- **`slotType`** `(number`(`ITEM_CONT_*)`) - Тип контейнера.
+- **`slotType`** (`number`(`ITEM_CONT_*`)) - Тип контейнера.
 
 ## Возвращаемые значения
 

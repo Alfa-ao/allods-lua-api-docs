@@ -18,15 +18,15 @@ object.GetBuffsInfo( data: ObjectId | table, includeResourceInfo: boolean | nil,
 
 ## Список параметров
 
-- **`data`** `(ObjectId` | `table)` - 2 варианта:
+- **`data`** (`ObjectId` | `table`) - 2 варианта:
 
   - `ObjectId` - идентификатор интерактивного объекта, для которого требуется получить информацию о бафах.
 
   - `table` - таблица, (индексированная с `1`), содержащая идентификаторы экземпляров бафов `ObjectId`, для которых требуется получить информацию.
 
-- **`includeResourceInfo`** `(boolean` | `nil)` - включает информацию о ресурсе бафа при получении информации об экземпляре бафа. Значение по умолчанию: `true`.
+- **`includeResourceInfo`** (`boolean` | `nil`) - включает информацию о ресурсе бафа при получении информации об экземпляре бафа. Значение по умолчанию: `true`.
 
-- **`ignoreInvisible`** `(boolean` | `nil)` - игнорирует бафы с `needVisualize == false`. Значение по умолчанию: `false`.
+- **`ignoreInvisible`** (`boolean` | `nil`) - игнорирует бафы с `needVisualize == false`. Значение по умолчанию: `false`.
 
 ## Возвращаемые значения
 

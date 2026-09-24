@@ -21,7 +21,7 @@ options.GetOptionByCustomId( sysCustomId: string ): ObjectId | nil
 
 ## Список параметров
 
-- **`sysCustomId`** `(string)` - текстовый идентификатор опции
+- **`sysCustomId`** (`string`) - текстовый идентификатор опции
 
 ## Возвращаемые значения
 

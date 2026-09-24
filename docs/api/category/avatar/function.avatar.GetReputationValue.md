@@ -16,7 +16,7 @@ avatar.GetReputationValue( reputationLevel: number ): number | nil
 
 ## Список параметров
 
-- **`reputationLevel`** `(number)` - Уровень репутации. Значение задается с помощью констант перечисления `REPUTATION_LEVEL_*`.
+- **`reputationLevel`** (`number`) - Уровень репутации. Значение задается с помощью констант перечисления `REPUTATION_LEVEL_*`.
 
 ## Возвращаемые значения
 

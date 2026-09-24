@@ -16,7 +16,7 @@ mwar.GetEventStartTimeEntries( eventResourceId: InstancedEventResourceId ): tabl
 
 ## Список параметров
 
-- **`eventResourceId`** `(InstancedEventResourceId`(`ResourceId)`) - Идентификатор события.
+- **`eventResourceId`** (`InstancedEventResourceId`(`ResourceId`)) - Идентификатор события.
 
 ## Возвращаемые значения
 

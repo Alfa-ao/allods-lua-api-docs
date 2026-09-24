@@ -16,7 +16,7 @@ EditLineSafe:SetGlobalClasses( classNames: table )
 
 ## Список параметров
 
-- **`classNames`** `(table`) - Список CSS-классов. Таблица строк (`string` или `WString)`, индексация начинается с `1`.
+- **`classNames`** (`table`) - Список CSS-классов. Таблица строк (`string` или `WString`), индексация начинается с `1`.
 
 ## Возвращаемые значения
 

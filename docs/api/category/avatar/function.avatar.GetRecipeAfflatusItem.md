@@ -16,7 +16,7 @@ avatar.GetRecipeAfflatusItem( id: RecipeId ): ItemId | nil
 
 ## Список параметров
 
-- **`id`** `(RecipeId)` - Идентификатор ресурса рецепта.
+- **`id`** (`RecipeId`) - Идентификатор ресурса рецепта.
 
 ## Возвращаемые значения
 

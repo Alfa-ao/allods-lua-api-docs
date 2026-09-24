@@ -16,11 +16,11 @@ device.GetUsableDeviceType( usableDeviceId: ObjectId ): number
 
 ## Список параметров
 
-- **`usableDeviceId`** `(ObjectId)` - Идентификатор устройства.
+- **`usableDeviceId`** (`ObjectId`) - Идентификатор устройства.
 
 ## Возвращаемые значения
 
-- **`deviceType`** `(number)` - Тип используемого устройства. Перечисление `USDEV_...`.
+- **`deviceType`** (`number`) - Тип используемого устройства. Перечисление `USDEV_...`.
 
 ## Примеры
 

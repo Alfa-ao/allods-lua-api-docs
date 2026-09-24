@@ -16,19 +16,19 @@ itemLib.GetUsageOnMountInfo( itemId: ObjectId, mountId: ObjectId ): table
 
 ## Список параметров
 
-- **`itemId`** `(ObjectId)` - идентификатор предмета.
+- **`itemId`** (`ObjectId`) - идентификатор предмета.
 
-- **`mountId`** `(ObjectId)` - идентификатор маунта.
+- **`mountId`** (`ObjectId`) - идентификатор маунта.
 
 ## Возвращаемые значения
 
 Возвращает `table` - таблица с полями:
 
-- **`consumeUsedItem`** `(number` | `nil)` - количество потребляемых используемых предметов.
+- **`consumeUsedItem`** (`number` | `nil`) - количество потребляемых используемых предметов.
 
-- **`sysName`** `(string` | `nil)` - служебное название действия.
+- **`sysName`** (`string` | `nil`) - служебное название действия.
 
-- **`warningUseText`** `(WString` | `nil)` - предупреждение об использовании.
+- **`warningUseText`** (`WString` | `nil`) - предупреждение об использовании.
 
 ## Примеры
 

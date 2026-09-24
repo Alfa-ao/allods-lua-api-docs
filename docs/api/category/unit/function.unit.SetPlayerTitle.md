@@ -16,9 +16,9 @@ unit.SetPlayerTitle( unitId: ObjectId, titleId: ObjectId | nil )
 
 ## Список параметров
 
-- **`unitId`** `(ObjectId)` - Идентификатор персонажа.
+- **`unitId`** (`ObjectId`) - Идентификатор персонажа.
 
-- **`titleId`** `(ObjectId` | `nil)` - Идентификатор титула или `nil` для сброса титула.
+- **`titleId`** (`ObjectId` | `nil`) - Идентификатор титула или `nil` для сброса титула.
 
 ## Возвращаемые значения
 
