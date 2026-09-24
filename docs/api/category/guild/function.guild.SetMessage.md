@@ -20,7 +20,7 @@ guild.SetMessage( message: WString )
 
 ## Список параметров
 
-- **`message`** (`WString`) - Сообщение гильдии.
+- **`message`** `(WString)` - Сообщение гильдии.
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ avatar.GetClassChangerBonusStats( changeList: table ): table | nil
 
 ## Список параметров
 
-- **`changeList`** (`table`) - Список `ObjectId` предметов (вещей и самоцветов), выбранных на замену имеющимся у аватара и не совместимых с новым классом. Должны быть выбраны из данных, полученных `avatar.GetClassChangerInfo()` (из каждого списка `itemSubstitutions` второго уровня вложенности можно указать только один `substItemId`, аналогично для `oneOfEnchantSubstitution`). Порядок следования не важен.
+- **`changeList`** `(table)` - Список `ObjectId` предметов (вещей и самоцветов), выбранных на замену имеющимся у аватара и не совместимых с новым классом. Должны быть выбраны из данных, полученных `avatar.GetClassChangerInfo()` (из каждого списка `itemSubstitutions` второго уровня вложенности можно указать только один `substItemId`, аналогично для `oneOfEnchantSubstitution`). Порядок следования не важен.
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ itemLib.GetBlockingPredicateCause( itemId: ObjectId ): table|nil
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`)
+- **`itemId`** `(ObjectId)`
 
 Уникальный идентификатор предмета.
 
@@ -26,9 +26,9 @@ itemLib.GetBlockingPredicateCause( itemId: ObjectId ): table|nil
 
 Если предикат не выполнился, возвращается таблица со следующими полями:
 
-- **`isInNotPredicate`** (`boolean`) - Указывает, использовался ли предикат NOT.
+- **`isInNotPredicate`** `(boolean)` - Указывает, использовался ли предикат NOT.
 
-- **`sysCause`** (`string`) - Причина невыполненного предиката (например, `ENUM_ActionFailCause_CreatureLevelTooSmall`).
+- **`sysCause`** `(string)` - Причина невыполненного предиката (например, `ENUM_ActionFailCause_CreatureLevelTooSmall`).
 
 ## Примеры
 

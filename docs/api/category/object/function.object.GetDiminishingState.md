@@ -16,7 +16,7 @@ object.GetDiminishingState( objectId: ObjectId ): table
 
 ## Список параметров
 
-- **`objectId`** (`ObjectId`) - идентификатор объекта.
+- **`objectId`** `(ObjectId)` - идентификатор объекта.
 
 ## Возвращаемые значения
 

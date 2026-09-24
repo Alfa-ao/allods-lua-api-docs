@@ -26,11 +26,11 @@ avatar.LoadActionPanel( sysClass: SpellId, buildIndex: number, data: string|tabl
 
 ## Список параметров
 
-- **`sysClass`** (`SpellId`) - Системное имя класса.
+- **`sysClass`** `(SpellId)` - Системное имя класса.
 
-- **`buildIndex`** (`number`) - Индекс билда от 0 до 9.
+- **`buildIndex`** `(number)` - Индекс билда от 0 до 9.
 
-- **`data`** (`string` | `table`) - Данные о раскладке, полученные из функции `avatar.SaveActionPanel`. Модификация данных не допускается, так как присутствует контрольная сумма.
+- **`data`** `(string|table)` - Данные о раскладке, полученные из функции `avatar.SaveActionPanel`. Модификация данных не допускается, так как присутствует контрольная сумма.
 
 ## Возвращаемые значения
 

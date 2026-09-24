@@ -16,7 +16,7 @@ hangar.GetCustomizationCost( slotId: ObjectId ): number
 
 ## Список параметров
 
-- **`slotId`** (`ObjectId`) - Идентификатор слота для кастомизации.
+- **`slotId`** `(ObjectId)` - Идентификатор слота для кастомизации.
 
 ## Возвращаемые значения
 

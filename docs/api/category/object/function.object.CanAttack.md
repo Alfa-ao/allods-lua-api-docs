@@ -16,7 +16,7 @@ object.CanAttack( objectId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`objectId`** (`ObjectId`) - Уникальный идентификатор объекта.
+- **`objectId`** `(ObjectId)` - Уникальный идентификатор объекта.
 
 ## Возвращаемые значения
 

@@ -16,9 +16,9 @@ WidgetSafe:GetWidgetCoreTree( indexFunction: function, TWidgetByInstanceId: tabl
 
 ## Список параметров
 
-- **`indexFunction`** (`function`) - Функция `__index` для метатаблиц виджетов (смотри скриптовый класс widgetcore).
+- **`indexFunction`** `(function)` - Функция `__index` для метатаблиц виджетов (смотри скриптовый класс widgetcore).
 
-- **`TWidgetByInstanceId`** (`table`) - Хэш-таблица `hash_map< instanceId, TWidget >`, передается по ссылке и изменяется в процессе выполнения.
+- **`TWidgetByInstanceId`** `(table)` - Хэш-таблица `hash_map< instanceId, TWidget >`, передается по ссылке и изменяется в процессе выполнения.
 
 ## Возвращаемые значения
 

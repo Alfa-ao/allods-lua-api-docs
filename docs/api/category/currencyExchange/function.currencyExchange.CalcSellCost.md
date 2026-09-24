@@ -16,7 +16,7 @@ currencyExchange.CalcSellCost( crystalsToSell: number ): number
 
 ## Список параметров
 
-- **`crystalsToSell`** (`number`) - Количество кристаллов для продажи.
+- **`crystalsToSell`** `(number)` - Количество кристаллов для продажи.
 
 ## Возвращаемые значения
 

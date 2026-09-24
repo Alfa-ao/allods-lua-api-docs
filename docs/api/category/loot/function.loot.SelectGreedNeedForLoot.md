@@ -15,7 +15,7 @@ loot.SelectGreedNeedForLoot( rollId: ObjectId, choice: number )
 
 ## Список параметров
 
-- **`rollId`** (`ObjectId`) - Уникальный идентификатор ролла. Не может быть nil.
+- **`rollId`** `(ObjectId)` - Уникальный идентификатор ролла. Не может быть nil.
 
 - **`choice`** (`number`(`CHOICE_GREED_NEED_*`)) - Выбор.
 

@@ -17,9 +17,9 @@ remortCreation.SetScene( wtControl3D, sceneName )
 
 ## Список параметров
 
-- **`wtControl3D`** (`Control3DSafe`) - Контрол, для которого создается сцена.
+- **`wtControl3D`** `(Control3DSafe)` - Контрол, для которого создается сцена.
 
-- **`sceneName`** (`string`) - Имя сцены.
+- **`sceneName`** `(string)` - Имя сцены.
 
 ## Возвращаемые значения
 

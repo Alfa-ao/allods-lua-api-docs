@@ -16,7 +16,7 @@ family.IsSpouse( id: ObjectId | WString ): boolean
 
 ## Список параметров
 
-- **`id`** (`ObjectId` | `WString`) - Идентификатор игрока или его имя.
+- **`id`** `(ObjectId|WString)` - Идентификатор игрока или его имя.
 
 ## Возвращаемые значения
 

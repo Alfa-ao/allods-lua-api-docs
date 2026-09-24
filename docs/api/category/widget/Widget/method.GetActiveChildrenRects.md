@@ -20,14 +20,14 @@ WidgetSafe:GetActiveChildrenRects( excludeType: number | nil ): table
 
 ## Список параметров
 
-- **`excludeType`** (`number`(`ENUM_AddonType`) | `nil`) - Игнорируемый тип виджета.
+- **`excludeType`** (`number``(ENUM_AddonType)` | `nil`) - Игнорируемый тип виджета.
 
 ::: info Перечисление
-- **`ENUM_ADDON_TYPE_NONE`** (`number`) - Невалидные или захардкоженные виджеты.
+- **`ENUM_ADDON_TYPE_NONE`** `(number)` - Невалидные или захардкоженные виджеты.
 
-- **`ENUM_ADDON_TYPE_USER`** (`number`) - Виджеты, созданные в пользовательских дополнениях.
+- **`ENUM_ADDON_TYPE_USER`** `(number)` - Виджеты, созданные в пользовательских дополнениях.
 
-- **`ENUM_ADDON_TYPE_PROTECTED`** (`number`) - Виджеты, созданные в интерфейсе.
+- **`ENUM_ADDON_TYPE_PROTECTED`** `(number)` - Виджеты, созданные в интерфейсе.
 :::
 
 ## Возвращаемые значения

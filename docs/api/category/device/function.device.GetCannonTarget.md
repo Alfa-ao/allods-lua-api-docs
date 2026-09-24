@@ -15,13 +15,13 @@ device.GetCannonTarget( cannonDeviceId: ObjectId ): ObjectId|nil
 
 ## Список параметров
 
-- **`cannonDeviceId`** (`ObjectId`) - Идентификатор устройства.
+- **`cannonDeviceId`** `(ObjectId)` - Идентификатор устройства.
 
 ## Возвращаемые значения
 
 Возвращает `ObjectId` или `nil`.
 
-- **`result`** (`ObjectId` | `nil`) - Идентификатор цели (интерактивный объект).
+- **`result`** `(ObjectId|nil)` - Идентификатор цели (интерактивный объект).
 
 ## Примеры
 

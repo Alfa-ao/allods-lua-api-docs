@@ -23,7 +23,7 @@ common.CreateSound( soundId: Sound2DId ): Sound2DLua | nil
 
 ## Список параметров
 
-- **`soundId`** (`Sound2DId`) - Идентификатор требуемого звукового эффекта.
+- **`soundId`** `(Sound2DId)` - Идентификатор требуемого звукового эффекта.
 
 ## Возвращаемые значения
 

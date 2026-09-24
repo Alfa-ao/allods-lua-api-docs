@@ -16,7 +16,7 @@ avatar.GetInnateStatDescription( sysName: string ): ValuedText | nil
 
 ## Список параметров
 
-- **`sysName`** (`string`) - Служебное системное имя характеристики. Значение должно соответствовать одному из идентификаторов перечисления `ENUM_InnateStats` (например, `"ENUM_InnateStats_Will"`).
+- **`sysName`** `(string)` - Служебное системное имя характеристики. Значение должно соответствовать одному из идентификаторов перечисления `ENUM_InnateStats` (например, `"ENUM_InnateStats_Will"`).
 
 ## Возвращаемые значения
 

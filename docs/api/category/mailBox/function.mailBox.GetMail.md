@@ -16,7 +16,7 @@ mailBox.GetMail( mailId: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`mailId`** (`ObjectId`) - Идентификатор письма.
+- **`mailId`** `(ObjectId)` - Идентификатор письма.
 
 ## Возвращаемые значения
 

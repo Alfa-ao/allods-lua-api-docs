@@ -20,7 +20,7 @@ remortCreation.ResetSceneCharacterRotation( characterId: ObjectId )
 
 ## Список параметров
 
-- **`characterId`** (`ObjectId`) - Идентификатор персонажа в сцене.
+- **`characterId`** `(ObjectId)` - Идентификатор персонажа в сцене.
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ guild.CanDistributeTabard( memberId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`memberId`** (`ObjectId`) - Идентификатор члена гильдии.
+- **`memberId`** `(ObjectId)` - Идентификатор члена гильдии.
 
 ## Возвращаемые значения
 

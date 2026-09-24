@@ -16,7 +16,7 @@ enchant.EnchantExtract( itemId: ObjectId, slot: number )
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`) - Идентификатор предмета.
+- **`itemId`** `(ObjectId)` - Идентификатор предмета.
 
 - **`slot`** (`number` | `ENUM_EnchantSlot_...`) - Слот предмета.
 

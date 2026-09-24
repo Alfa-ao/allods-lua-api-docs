@@ -16,11 +16,11 @@ checkroomLib.GetCollections( categoryId: LifestyleCategoryId ): table
 
 ## Список параметров
 
-- **`categoryId`** (`LifestyleCategoryId`) - идентификатор ресурса корневой категории гардероба.
+- **`categoryId`** `(LifestyleCategoryId)` - идентификатор ресурса корневой категории гардероба.
 
 ## Возвращаемые значения
 
-Возвращает `table` - индексированный с 1 список идентификаторов ресурсов (`LifestyleCollectionId`) коллекций этой категории.
+Возвращает `table` - индексированный с 1 список идентификаторов ресурсов `(LifestyleCollectionId)` коллекций этой категории.
 
 ## Примеры
 

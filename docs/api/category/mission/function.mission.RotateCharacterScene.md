@@ -16,9 +16,9 @@ mission.RotateCharacterScene( index: number, angle: number )
 
 ## Список параметров
 
-- **`index`** (`number`) - Индекс сцены. Допустимый диапазон: от `0` до `GetMaxCharacterSceneCount() - 1`.
+- **`index`** `(number)` - Индекс сцены. Допустимый диапазон: от `0` до `GetMaxCharacterSceneCount() - 1`.
 
-- **`angle`** (`number`) - Угол поворота в радианах.
+- **`angle`** `(number)` - Угол поворота в радианах.
 
 ## Возвращаемые значения
 

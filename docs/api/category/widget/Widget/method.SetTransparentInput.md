@@ -16,7 +16,7 @@ WidgetSafe:SetTransparentInput( transparentInput: boolean )
 
 ## Список параметров
 
-- **`transparentInput`** (`boolean`) - `true`, если виджет должен быть прозрачным для ввода.
+- **`transparentInput`** `(boolean)` - `true`, если виджет должен быть прозрачным для ввода.
 
 ## Возвращаемые значения
 

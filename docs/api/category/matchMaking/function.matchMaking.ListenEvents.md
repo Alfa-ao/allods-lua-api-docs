@@ -16,7 +16,7 @@ matchMaking.ListenEvents( needListen: boolean )
 
 ## Список параметров
 
-- **`needListen`** (`boolean`) - `true`, чтобы начать отслеживание; `false`, чтобы закончить.
+- **`needListen`** `(boolean)` - `true`, чтобы начать отслеживание; `false`, чтобы закончить.
 
 ## Возвращаемые значения
 

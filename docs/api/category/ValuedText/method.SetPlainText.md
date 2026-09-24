@@ -24,7 +24,7 @@ ValuedTextSafe:SetPlainText( text: string | WString )
 
 ## Список параметров
 
-- **`text`** (`string` | `WString`) - Устанавливаемый текст.
+- **`text`** `(string|WString)` - Устанавливаемый текст.
 
 ## Возвращаемые значения
 

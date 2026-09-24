@@ -16,7 +16,7 @@ transport.GetMass( transportId: ObjectId ): number | nil
 
 ## Список параметров
 
-- **`transportId`** (`ObjectId`) - Идентификатор транспортного средства.
+- **`transportId`** `(ObjectId)` - Идентификатор транспортного средства.
 
 ## Возвращаемые значения
 

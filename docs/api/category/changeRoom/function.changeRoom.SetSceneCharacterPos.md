@@ -16,12 +16,12 @@ changeRoom.SetSceneCharacterPos( characterId: ObjectId, pos: table )
 
 ## Список параметров
 
-- **`characterId`** (`ObjectId`) - Идентификатор персонажа в сцене.
+- **`characterId`** `(ObjectId)` - Идентификатор персонажа в сцене.
 
-- **`pos`** (`table`) - Таблица с относительной позицией персонажа.
-- `posX` (`number`) - смещение в сцене по X.
-- `posY` (`number`) - смещение в сцене по Y.
-- `posZ` (`number`) - смещение в сцене по Z.
+- **`pos`** `(table)` - Таблица с относительной позицией персонажа.
+- `posX` `(number)` - смещение в сцене по X.
+- `posY` `(number)` - смещение в сцене по Y.
+- `posZ` `(number)` - смещение в сцене по Z.
 
 ## Возвращаемые значения
 

@@ -22,11 +22,11 @@ guild.GetItemsInfo(): table|nil
 
 Возвращает `table` - таблицу с данными или `nil`.
 
-- **`operationHistorySize`** (`number`) - глубина истории операций.
+- **`operationHistorySize`** `(number)` - глубина истории операций.
 
-- **`guildHistoryPageSize`** (`number`) - максимальное количество записей на одной странице истории операций.
+- **`guildHistoryPageSize`** `(number)` - максимальное количество записей на одной странице истории операций.
 
-- **`guildHistorySize`** (`number`) - текущее общее количество записей истории операций.
+- **`guildHistorySize`** `(number)` - текущее общее количество записей истории операций.
 
 ## Примеры
 

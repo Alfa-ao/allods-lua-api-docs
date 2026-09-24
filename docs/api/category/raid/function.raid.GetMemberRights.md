@@ -18,7 +18,7 @@ raid.GetMemberRights( uniqueId: UniqueId ): table
 
 ## Список параметров
 
-- **`uniqueId`** (`UniqueId`) - Идентификатор участника рейда.
+- **`uniqueId`** `(UniqueId)` - Идентификатор участника рейда.
 
 ## Возвращаемые значения
 
@@ -26,7 +26,7 @@ raid.GetMemberRights( uniqueId: UniqueId ): table
 
 - **`key`** (`number`(`RAID_MEMBER_RIGHT_*`)) - Тип права.
 
-- **`value`** (`boolean`) - `true`, если такое право есть.
+- **`value`** `(boolean)` - `true`, если такое право есть.
 
 ## Примеры
 

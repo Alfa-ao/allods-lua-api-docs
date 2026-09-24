@@ -16,7 +16,7 @@ itemLib.GetResourceId( itemId: ObjectId ): ItemId
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`) - Идентификатор предмета.
+- **`itemId`** `(ObjectId)` - Идентификатор предмета.
 
 ## Возвращаемые значения
 

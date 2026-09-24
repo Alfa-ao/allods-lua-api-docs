@@ -16,9 +16,9 @@ currencyExchange.CanBuy( crystalsToBuy: number, moneyToSpend: number ): boolean
 
 ## Список параметров
 
-- **`crystalsToBuy`** (`number`) - Количество кристаллов для покупки.
+- **`crystalsToBuy`** `(number)` - Количество кристаллов для покупки.
 
-- **`moneyToSpend`** (`number`) - Количество золота для продажи.
+- **`moneyToSpend`** `(number)` - Количество золота для продажи.
 
 ## Возвращаемые значения
 

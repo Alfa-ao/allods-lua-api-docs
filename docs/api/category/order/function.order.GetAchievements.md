@@ -20,29 +20,29 @@ order.GetAchievements( eventId: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`eventId`** (`ObjectId`) - Уникальный идентификатор события.
+- **`eventId`** `(ObjectId)` - Уникальный идентификатор события.
 
 ## Возвращаемые значения
 
 Возвращает `table` | `nil` - таблица с информацией о достижениях или `nil`, если данные отсутствуют.
 
-- **`mainPlayerAchievement`** (`number`) - Достижение аватара по данной теме.
+- **`mainPlayerAchievement`** `(number)` - Достижение аватара по данной теме.
 
-- **`achievements`** (`table` | `nil`) - Список достижений, индексированный с 1.
+- **`achievements`** `(table|nil)` - Список достижений, индексированный с 1.
 
-  - `position` (`number`) - Позиция аватара.
+  - `position` `(number)` - Позиция аватара.
 
-  - `name` (`WString`) - Имя аватара.
+  - `name` `(WString)` - Имя аватара.
 
-  - `guildName` (`WString`) - Название гильдии.
+  - `guildName` `(WString)` - Название гильдии.
 
-  - `shardName` (`WString`) - Название шарда.
+  - `shardName` `(WString)` - Название шарда.
 
-  - `achievement` (`number`) - Количество очков.
+  - `achievement` `(number)` - Количество очков.
 
-  - `raceClass` (`table` | `nil`) - Информация о расе и классе персонажа (`LuaRaceClassInfoPart`).
+  - `raceClass` (`table` | `nil`) - Информация о расе и классе персонажа `(LuaRaceClassInfoPart)`.
 
-  - `isMainPlayer` (`boolean`) - Флаг, указывающий, что аватар принадлежит главному игроку.
+  - `isMainPlayer` `(boolean)` - Флаг, указывающий, что аватар принадлежит главному игроку.
 
 ## Примеры
 

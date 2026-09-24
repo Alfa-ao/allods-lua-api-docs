@@ -16,7 +16,7 @@ guild.SetMinimumTransaction( minimumTransaction: number )
 
 ## Список параметров
 
-- **`minimumTransaction`** (`number`) - Размер минимальной транзакции в меди.
+- **`minimumTransaction`** `(number)` - Размер минимальной транзакции в меди.
 
 ## Возвращаемые значения
 

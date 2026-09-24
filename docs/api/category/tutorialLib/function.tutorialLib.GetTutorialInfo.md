@@ -15,7 +15,7 @@ tutorialLib.GetTutorialInfo( id: TutorialId ): table|nil
 
 ## Список параметров
 
-- **`id`** (`TutorialId`) - Идентификатор обучения.
+- **`id`** `(TutorialId)` - Идентификатор обучения.
 
 ## Возвращаемые значения
 
@@ -23,23 +23,23 @@ tutorialLib.GetTutorialInfo( id: TutorialId ): table|nil
 
 Если обучение найдено, возвращается таблица со следующими полями:
 
-- **`sysName`** (`string` | `nil`) - Системное имя обучения.
+- **`sysName`** `(string|nil)` - Системное имя обучения.
 
-- **`viewType`** (`number`(`Enum_TutorialViewType`)) - Тип отображения обучения.
+- **`viewType`** (`number``(Enum_TutorialViewType)`) - Тип отображения обучения.
 
-- **`runType`** (`number`(`Enum_TutorialRunType`)) - Тип запуска обучения.
+- **`runType`** (`number``(Enum_TutorialRunType)`) - Тип запуска обучения.
 
-- **`isForced`** (`boolean`) - Игнорирует отключение.
+- **`isForced`** `(boolean)` - Игнорирует отключение.
 
-- **`isUnlearnable`** (`boolean`) - Нельзя выучить.
+- **`isUnlearnable`** `(boolean)` - Нельзя выучить.
 
-- **`minLevel`** (`number`) - Минимальный уровень.
+- **`minLevel`** `(number)` - Минимальный уровень.
 
-- **`maxLevel`** (`number`) - Максимальный уровень.
+- **`maxLevel`** `(number)` - Максимальный уровень.
 
-- **`nextTutorial`** (`TutorialId` | `nil`) - Следующее обучение в цепочке.
+- **`nextTutorial`** `(TutorialId|nil)` - Следующее обучение в цепочке.
 
-- **`runTimeout`** (`number`) - Время показа обучения при бездействии пользователя.
+- **`runTimeout`** `(number)` - Время показа обучения при бездействии пользователя.
 
 или `nil`, если обучение не существует.
 

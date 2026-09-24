@@ -20,7 +20,7 @@ userMods.GetGlobalConfigSection( sysName: string ): table|nil
 
 ## Список параметров
 
-- **`sysName`** (`string`) - Название секции.
+- **`sysName`** `(string)` - Название секции.
 
 ## Возвращаемые значения
 

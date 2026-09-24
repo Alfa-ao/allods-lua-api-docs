@@ -16,7 +16,7 @@ loot.GetGreedNeedTimeRemainingMs( rollId: ObjectId ): number
 
 ## Список параметров
 
-- **`rollId`** (`ObjectId`) - Уникальный идентификатор ролла.
+- **`rollId`** `(ObjectId)` - Уникальный идентификатор ролла.
 
 ## Возвращаемые значения
 

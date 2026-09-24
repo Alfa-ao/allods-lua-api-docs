@@ -25,7 +25,7 @@ userMods.GetResourcePersistentId( resourceId: userdata ): string|nil
 
 ## Список параметров
 
-- **`resourceId`** (`userdata`) - Произвольный ресурс.
+- **`resourceId`** `(userdata)` - Произвольный ресурс.
 
 ## Возвращаемые значения
 

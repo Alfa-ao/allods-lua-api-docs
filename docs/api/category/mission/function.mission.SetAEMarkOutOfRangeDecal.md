@@ -16,7 +16,7 @@ mission.SetAEMarkOutOfRangeDecal( decalId: DecalObjectId )
 
 ## Список параметров
 
-- **`decalId`** (`DecalObjectId`) - Идентификатор декала.
+- **`decalId`** `(DecalObjectId)` - Идентификатор декала.
 
 ## Возвращаемые значения
 

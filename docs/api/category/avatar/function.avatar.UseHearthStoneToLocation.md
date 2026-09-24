@@ -16,7 +16,7 @@ avatar.UseHearthStoneToLocation( locationId: ObjectId | TeleportMasterId )
 
 ## Список параметров
 
-- **`locationId`** (`ObjectId` | `TeleportMasterId`) - Идентификатор точки телепортации.
+- **`locationId`** `(ObjectId|TeleportMasterId)` - Идентификатор точки телепортации.
 
 ## Возвращаемые значения
 

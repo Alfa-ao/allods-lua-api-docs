@@ -16,11 +16,11 @@ checkroomLib.GetItems( collectionId: LifestyleCollectionId ): table
 
 ## Список параметров
 
-- **`collectionId`** (`LifestyleCollectionId`) - Идентификатор ресурса коллекции гардероба.
+- **`collectionId`** `(LifestyleCollectionId)` - Идентификатор ресурса коллекции гардероба.
 
 ## Возвращаемые значения
 
-Возвращает `table` - индексированный с 1 список идентификаторов (`ObjectId`) предметов этой коллекции.
+Возвращает `table` - индексированный с 1 список идентификаторов `(ObjectId)` предметов этой коллекции.
 
 ## Примеры
 

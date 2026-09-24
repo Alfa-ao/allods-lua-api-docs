@@ -16,7 +16,7 @@ itemLib.GetChildCategories( itemCategoryId: ItemCategoryId ): table
 
 ## Список параметров
 
-- **`itemCategoryId`** (`ItemCategoryId`) - Идентификатор корневой категории.
+- **`itemCategoryId`** `(ItemCategoryId)` - Идентификатор корневой категории.
 
 ## Возвращаемые значения
 

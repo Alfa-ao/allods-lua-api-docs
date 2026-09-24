@@ -16,7 +16,7 @@ itemLib.CanActivateForUseOnMount( itemId: ObjectId ): boolean|nil
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`) - Идентификатор активируемого предмета.
+- **`itemId`** `(ObjectId)` - Идентификатор активируемого предмета.
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ unit.IsRitualEnabled( unitId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`unitId`** (`ObjectId`) - Уникальный идентификатор игрока.
+- **`unitId`** `(ObjectId)` - Уникальный идентификатор игрока.
 
 ## Возвращаемые значения
 

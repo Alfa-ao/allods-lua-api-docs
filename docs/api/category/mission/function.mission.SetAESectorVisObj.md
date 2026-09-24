@@ -16,13 +16,13 @@ mission.SetAESectorVisObj( fillerObjId: VisObjectId | nil, leftObjId: VisObjectI
 
 ## Список параметров
 
-- **`fillerObjId`** (`VisObjectId` | `nil`) - Идентификатор объекта VisObject для заполнения сектора.
+- **`fillerObjId`** `(VisObjectId|nil)` - Идентификатор объекта VisObject для заполнения сектора.
 
-- **`leftObjId`** (`VisObjectId` | `nil`) - Идентификатор объекта VisObject для левого края сектора.
+- **`leftObjId`** `(VisObjectId|nil)` - Идентификатор объекта VisObject для левого края сектора.
 
-- **`rightObjId`** (`VisObjectId` | `nil`) - Идентификатор объекта VisObject для правого края сектора.
+- **`rightObjId`** `(VisObjectId|nil)` - Идентификатор объекта VisObject для правого края сектора.
 
-- **`centerObjId`** (`VisObjectId` | `nil`) - Идентификатор объекта VisObject для середины сектора.
+- **`centerObjId`** `(VisObjectId|nil)` - Идентификатор объекта VisObject для середины сектора.
 
 ## Возвращаемые значения
 

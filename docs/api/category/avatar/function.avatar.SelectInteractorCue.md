@@ -16,7 +16,7 @@ avatar.SelectInteractorCue( index: number )
 
 ## Список параметров
 
-- **`index`** (`number`) - Индекс ответа из списка доступных вариантов, возвращаемого функцией `avatar.GetInteractorNextCues()`.
+- **`index`** `(number)` - Индекс ответа из списка доступных вариантов, возвращаемого функцией `avatar.GetInteractorNextCues()`.
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ object.AddToProjected( objectId: ObjectId, heightOffset: number )
 
 ## Список параметров
 
-- **`objectId`** (`ObjectId`) - Идентификатор объекта.
+- **`objectId`** `(ObjectId)` - Идентификатор объекта.
 
 - **`heightOffset`** (`number`(`ATTACHED_OBJECT_POS_*`)) - Место дополнительного смещения проецируемой точки около объекта.
 

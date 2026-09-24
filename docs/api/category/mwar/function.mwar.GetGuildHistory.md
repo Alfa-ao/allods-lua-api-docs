@@ -21,15 +21,15 @@ mwar.GetGuildHistory(): table | nil
 
 Возвращает `table` | `nil` - таблицу с информацией об истории сражений или `nil`, если данные отсутствуют.
 
-- **`combats`** (`table`) - список таблиц с полями:
-  - `time` (`LuaFullDateTime`) - время сражения
-  - `winnerId` (`ObjectId`) - id выигравшей гильдии
-  - `winnerScore` (`number`) - счет выигравшей стороны при завершении сражения
-  - `winLeadName` (`WString`) - имя лидера выигравшей стороны
-  - `loserId` (`ObjectId`) - id проигравшей гильдии
-  - `loserScore` (`number`) - счет побежденной стороны при завершении сражения
-  - `lossLeadName` (`WString`) - имя лидера побежденной стороны
-  - `isRatingBattle` (`boolean`) - признак рейтингового боя
+- **`combats`** `(table)` - список таблиц с полями:
+  - `time` `(LuaFullDateTime)` - время сражения
+  - `winnerId` `(ObjectId)` - id выигравшей гильдии
+  - `winnerScore` `(number)` - счет выигравшей стороны при завершении сражения
+  - `winLeadName` `(WString)` - имя лидера выигравшей стороны
+  - `loserId` `(ObjectId)` - id проигравшей гильдии
+  - `loserScore` `(number)` - счет побежденной стороны при завершении сражения
+  - `lossLeadName` `(WString)` - имя лидера побежденной стороны
+  - `isRatingBattle` `(boolean)` - признак рейтингового боя
 
 ## Примеры
 

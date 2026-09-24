@@ -16,7 +16,7 @@ mission.SetAEMarkVisObj( visObjectId: VisObjectId )
 
 ## Список параметров
 
-- **`visObjectId`** (`VisObjectId`) - Идентификатор объекта VisObject.
+- **`visObjectId`** `(VisObjectId)` - Идентификатор объекта VisObject.
 
 ## Возвращаемые значения
 

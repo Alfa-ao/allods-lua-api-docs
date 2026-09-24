@@ -16,7 +16,7 @@ TextContainerSafe:SetContainerOffset( offset: number )
 
 ## Список параметров
 
-- **`offset`** (`number`) - величина прокрутки.
+- **`offset`** `(number)` - величина прокрутки.
 
 ## Возвращаемые значения
 

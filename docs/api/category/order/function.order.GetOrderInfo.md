@@ -16,21 +16,21 @@ order.GetOrderInfo( orderNumber: number ): table | nil
 
 ## Список параметров
 
-- **`orderNumber`** (`number`) - порядковый номер ордена.
+- **`orderNumber`** `(number)` - порядковый номер ордена.
 
 ## Возвращаемые значения
 
 Возвращает `table` | `nil` - таблица с информацией об ордене или `nil`, если орден не найден.
 
-- **`image`** (`TextureId`) - текстура с иконкой предмета.
+- **`image`** `(TextureId)` - текстура с иконкой предмета.
 
-- **`description`** (`WString` | `nil`) - описание ордена.
+- **`description`** `(WString|nil)` - описание ордена.
 
-- **`name`** (`WString`) - имя ордена в игре.
+- **`name`** `(WString)` - имя ордена в игре.
 
-- **`isAvailable`** (`boolean`) - `true`, если орден доступен для вступления.
+- **`isAvailable`** `(boolean)` - `true`, если орден доступен для вступления.
 
-- **`sysName`** (`string`) - sysname ордена.
+- **`sysName`** `(string)` - sysname ордена.
 
 ## Примеры
 

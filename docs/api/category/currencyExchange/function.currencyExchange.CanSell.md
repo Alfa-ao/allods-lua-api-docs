@@ -16,9 +16,9 @@ currencyExchange.CanSell( crystalsToSell: number, moneyToGet: number ): boolean
 
 ## Список параметров
 
-- **`crystalsToSell`** (`number`) - Количество кристаллов для продажи.
+- **`crystalsToSell`** `(number)` - Количество кристаллов для продажи.
 
-- **`moneyToGet`** (`number`) - Количество золота, которое планируется получить.
+- **`moneyToGet`** `(number)` - Количество золота, которое планируется получить.
 
 ## Возвращаемые значения
 

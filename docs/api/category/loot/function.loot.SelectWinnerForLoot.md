@@ -18,9 +18,9 @@ loot.SelectWinnerForLoot( rollId: ObjectId, winnerId: ObjectId )
 
 ## Список параметров
 
-- **`rollId`** (`ObjectId`) - Уникальный идентификатор ролла.
+- **`rollId`** `(ObjectId)` - Уникальный идентификатор ролла.
 
-- **`winnerId`** (`ObjectId`) - Уникальный идентификатор игрока, получающего лут.
+- **`winnerId`** `(ObjectId)` - Уникальный идентификатор игрока, получающего лут.
 
 ## Возвращаемые значения
 

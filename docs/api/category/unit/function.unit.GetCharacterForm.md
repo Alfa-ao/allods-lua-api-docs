@@ -16,7 +16,7 @@ unit.GetCharacterForm( unitId: ObjectId ): CharacterFormId | nil
 
 ## Список параметров
 
-- **`unitId`** (`ObjectId`) - идентификатор персонажа.
+- **`unitId`** `(ObjectId)` - идентификатор персонажа.
 
 ## Возвращаемые значения
 

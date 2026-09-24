@@ -16,9 +16,9 @@ object.GetBuffBySysName( objectId: ObjectId, sysName: string ): ObjectId | nil
 
 ## Список параметров
 
-- **`objectId`** (`ObjectId`) - Идентификатор объекта, на котором выполняется поиск баффа.
+- **`objectId`** `(ObjectId)` - Идентификатор объекта, на котором выполняется поиск баффа.
 
-- **`sysName`** (`string`) - Внутреннее имя баффа (соответствующее поле в базе для баффа - `sysUIScriptName`).
+- **`sysName`** `(string)` - Внутреннее имя баффа (соответствующее поле в базе для баффа - `sysUIScriptName`).
 
 ## Возвращаемые значения
 

@@ -20,9 +20,9 @@ Control3DSafe:SetWidget3DVisibleUnattached( widget: WidgetSafe, isVisible: boole
 
 ## Список параметров
 
-- **`widget`** (`WidgetSafe`) - 2D-контрол, для которого меняется видимость Widget3D.
+- **`widget`** `(WidgetSafe)` - 2D-контрол, для которого меняется видимость Widget3D.
 
-- **`isVisible`** (`boolean`) - Отображать ли Widget3D при отсутствии привязки к какому-либо объекту.
+- **`isVisible`** `(boolean)` - Отображать ли Widget3D при отсутствии привязки к какому-либо объекту.
 
 ## Возвращаемые значения
 

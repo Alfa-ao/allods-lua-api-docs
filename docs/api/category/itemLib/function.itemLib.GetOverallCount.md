@@ -16,7 +16,7 @@ itemLib.GetOverallCount( itemId: ObjectId ): number
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`) - Идентификатор предмета-образца.
+- **`itemId`** `(ObjectId)` - Идентификатор предмета-образца.
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ hangar.SwitchShipMasterHull( hullId: VisualShipId )
 
 ## Список параметров
 
-- **`hullId`** (`VisualShipId`) - Идентификатор корпуса корабля.
+- **`hullId`** `(VisualShipId)` - Идентификатор корпуса корабля.
 
 ## Возвращаемые значения
 

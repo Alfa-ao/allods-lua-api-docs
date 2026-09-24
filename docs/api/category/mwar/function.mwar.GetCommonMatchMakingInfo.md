@@ -22,9 +22,9 @@ mwar.GetCommonMatchMakingInfo(): table | nil
 
 Возвращает `table` | `nil` - таблицу с информацией о параметрах матчмейкинга или `nil`, если информация отсутствует:
 
-- **`raidEventResource`** (`InstancedEventResourceId` (`ResourceId`)) - идентификатор ресурса рейдового сражения.
+- **`raidEventResource`** (`InstancedEventResourceId` `(ResourceId)`) - идентификатор ресурса рейдового сражения.
 
-- **`groupEventResource`** (`InstancedEventResourceId` (`ResourceId`)) - идентификатор ресурса группового сражения.
+- **`groupEventResource`** (`InstancedEventResourceId` `(ResourceId)`) - идентификатор ресурса группового сражения.
 
 ## Примеры
 

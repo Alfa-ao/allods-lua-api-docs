@@ -25,7 +25,7 @@ auction.Search( filter: table, orderField: number, asc: boolean, page: number )
 
 ## Список параметров
 
-- **`filter`** (`table`):
+- **`filter`** `(table)`:
 
     - `name` (`WString` | `nil`) - маска для поиска по имени.
     
@@ -44,11 +44,11 @@ auction.Search( filter: table, orderField: number, asc: boolean, page: number )
     - `rootCategory` (`ItemCategoryId` | `nil`) - идентификатор корневой категории.
     - `childCategory` (`ItemCategoryId` | `nil`) - идентификатор терминальной категории.
 
-- **`orderField`** (`number`) - Поле сортировки результатов. Задается значением `AUCTION_ORDERFIELD_...`. 
+- **`orderField`** `(number)` - Поле сортировки результатов. Задается значением `AUCTION_ORDERFIELD_...`. 
 
-- **`asc`** (`boolean`) - Направление сортировки. Если `true`, сортировка выполняется по возрастанию; если `false` - по убыванию.
+- **`asc`** `(boolean)` - Направление сортировки. Если `true`, сортировка выполняется по возрастанию; если `false` - по убыванию.
 
-- **`page`** (`number`) - Номер страницы результатов для отображения, начиная с `1`.
+- **`page`** `(number)` - Номер страницы результатов для отображения, начиная с `1`.
 
 ## Возвращаемые значения
 
@@ -69,7 +69,7 @@ end
 
 ::: info Описание примера
 В примере выполняется проверка, что в данный момент не идет другой процесс поиска (`auction.IsSearchInProgress()`). Затем формируется таблица `filter` с ограничением уровня предмета от 10 до 12.
-Вызов `auction.Search` начинает поиск на первой странице (`1`), с сортировкой по уровню (`AUCTION_ORDERFIELD_LEVEL`) по убыванию (`false`).
+Вызов `auction.Search` начинает поиск на первой странице `(1)`, с сортировкой по уровню `(AUCTION_ORDERFIELD_LEVEL)` по убыванию `(false)`.
 Сами результаты будут доступны в событии `EVENT_AUCTION_SEARCH_RESULT`.
 :::
 

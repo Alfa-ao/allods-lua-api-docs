@@ -26,7 +26,7 @@ options.GetOptionIndex( id: ObjectId | string ): number
 
 ## Список параметров
 
-- **`id`** (`ObjectId` | `string`) - Идентификатор опции.
+- **`id`** `(ObjectId|string)` - Идентификатор опции.
 
 ## Возвращаемые значения
 

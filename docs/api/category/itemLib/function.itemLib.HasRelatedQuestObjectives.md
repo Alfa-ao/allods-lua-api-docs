@@ -16,7 +16,7 @@ itemLib.HasRelatedQuestObjectives( itemId: ObjectId, object: QuestId | ObjectId 
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`) - Идентификатор предмета.
+- **`itemId`** `(ObjectId)` - Идентификатор предмета.
 
 - **`object`** (`QuestId` | `ObjectId` | `nil`) - Уточнение проверки. При значении `nil` проверяется наличие связанных целей заданий в целом. При значении `QuestId` проверяется связь с конкретным заданием. При значении `ObjectId` проверяется связь с конкретной целью задания.
 

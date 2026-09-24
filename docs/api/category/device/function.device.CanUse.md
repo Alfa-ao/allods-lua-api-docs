@@ -16,7 +16,7 @@ device.CanUse( deviceId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`deviceId`** (`ObjectId`) - Уникальный идентификатор устройства.
+- **`deviceId`** `(ObjectId)` - Уникальный идентификатор устройства.
 
 ## Возвращаемые значения
 

@@ -15,7 +15,7 @@ unit.GetClass( unitId: ObjectId ): table | nil
 Функция извлекает и возвращает таблицу с параметрами класса указанного юнита. Если данные недоступны, функция возвращает `nil`.
 
 ::: info Перечисление
-**Имена классов (`className`):**
+**Имена классов `(className)`:**
 
 - `BARD`
 
@@ -37,32 +37,32 @@ unit.GetClass( unitId: ObjectId ): table | nil
 
 - `WARRIOR`
 
-**Типы маны (`manaType`):**
+**Типы маны `(manaType)`:**
 
-- `MANA_TYPE_MANA` (`0`)
+- `MANA_TYPE_MANA` `(0)`
 
-- `MANA_TYPE_ENERGY` (`1`)
+- `MANA_TYPE_ENERGY` `(1)`
 
-- `MANA_TYPE_NONE` (`2`)
+- `MANA_TYPE_NONE` `(2)`
 :::
 
 ## Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор юнита.
+- **`unitId`** `(ObjectId)` - Идентификатор юнита.
 
 ## Возвращаемые значения
 
 Возвращает `table` | `nil` - таблица с параметрами класса или `nil`, если данные недоступны.
 
-- **`className`** (`string`) - Имя класса.
+- **`className`** `(string)` - Имя класса.
 
 - **`manaType`** (`number`(`MANA_TYPE_*`)) - Тип маны героя (мана/энергия).
 
-- **`name`** (`WString`) - Имя класса (локализованное).
+- **`name`** `(WString)` - Имя класса (локализованное).
 
-- **`greatName`** (`WString`) - Имя Великого класса (локализованное).
+- **`greatName`** `(WString)` - Имя Великого класса (локализованное).
 
-- **`raceClassName`** (`WString`) - Локализованное имя расы-класса.
+- **`raceClassName`** `(WString)` - Локализованное имя расы-класса.
 
 ## Примеры
 

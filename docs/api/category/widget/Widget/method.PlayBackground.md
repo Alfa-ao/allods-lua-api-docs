@@ -20,7 +20,7 @@ WidgetSafe:PlayBackground( repeatForever: boolean|nil )
 
 ## Список параметров
 
-- **`repeatForever`** (`boolean` | `nil`) - `true` - повторять анимацию, `false` - проиграть один раз. Необязательный параметр, по умолчанию `false`.
+- **`repeatForever`** `(boolean|nil)` - `true` - повторять анимацию, `false` - проиграть один раз. Необязательный параметр, по умолчанию `false`.
 
 ## Возвращаемые значения
 

@@ -20,7 +20,7 @@ lfgLib.GetDestinationCategories(): table | nil
 
 ## Возвращаемые значения
 
-Возвращает `table` | `nil` - список категорий доступных целей (`LFGDestinationCategoryId`). Индексация таблицы начинается с 0.
+Возвращает `table` | `nil` - список категорий доступных целей `(LFGDestinationCategoryId)`. Индексация таблицы начинается с 0.
 
 ## Примеры
 

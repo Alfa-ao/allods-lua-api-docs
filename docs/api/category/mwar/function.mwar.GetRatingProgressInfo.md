@@ -22,12 +22,12 @@ mwar.GetRatingProgressInfo(): table | nil
 
 Возвращает `table` | `nil` - `nil`, если информация отсутствует (аватар не в сражении Доминиона); иначе таблица, содержащая пары ключ-значение:
 
-- **`key`** (`BattlegroundMarkId`) - идентификатор команды.
+- **`key`** `(BattlegroundMarkId)` - идентификатор команды.
 
-- **`value`** (`table`) - таблица с полями:
-  - `guildId` (`ObjectId`) - идентификатор гильдии.
-  - `isRaid` (`boolean`) - `true`, если бой рейдовый; иначе `false`.
-  - `leaderRating` (`number`) - рейтинг лидера.
+- **`value`** `(table)` - таблица с полями:
+  - `guildId` `(ObjectId)` - идентификатор гильдии.
+  - `isRaid` `(boolean)` - `true`, если бой рейдовый; иначе `false`.
+  - `leaderRating` `(number)` - рейтинг лидера.
 
 ## Примеры
 

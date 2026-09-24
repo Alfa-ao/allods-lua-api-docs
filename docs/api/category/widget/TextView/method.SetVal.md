@@ -16,7 +16,7 @@ TextViewSafe:SetVal( tag: string | WString, value: string | WString | ValuedText
 
 ## Список параметров
 
-- **`tag`** (`string` | `WString`) - Текстовый тег, для которого задается значение.
+- **`tag`** `(string|WString)` - Текстовый тег, для которого задается значение.
 
 - **`value`** (`string` | `WString` | `ValuedText` | `ValuedObject`) - Устанавливаемое значение.
 

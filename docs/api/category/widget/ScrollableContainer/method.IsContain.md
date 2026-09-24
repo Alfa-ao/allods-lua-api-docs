@@ -16,7 +16,7 @@ ScrollableContainerSafe:IsContain( widget: WidgetSafe ): boolean
 
 ## Список параметров
 
-- **`widget`** (`WidgetSafe`) - Проверяемый элемент.
+- **`widget`** `(WidgetSafe)` - Проверяемый элемент.
 
 ## Возвращаемые значения
 

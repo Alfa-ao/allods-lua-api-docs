@@ -16,7 +16,7 @@ guild.IsLeader( memberId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`memberId`** (`ObjectId`) - идентификатор члена гильдии.
+- **`memberId`** `(ObjectId)` - идентификатор члена гильдии.
 
 ## Возвращаемые значения
 

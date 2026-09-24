@@ -24,15 +24,15 @@ object.Highlight( objectId: ObjectId, type: string, color: Color | nil, color2: 
 
 ## Список параметров
 
-- **`objectId`** (`ObjectId`) - идентификатор интерактивного объекта.
+- **`objectId`** `(ObjectId)` - идентификатор интерактивного объекта.
 
-- **`type`** (`string`) - тип изменяемого параметра. ("SELECTION", "AMBIENT", "OCCLUSION")
+- **`type`** `(string)` - тип изменяемого параметра. ("SELECTION", "AMBIENT", "OCCLUSION")
 
-- **`color`** (`Color` | `nil`) - начальный цвет изменяемого параметра.
+- **`color`** `(Color|nil)` - начальный цвет изменяемого параметра.
 
-- **`color2`** (`Color` | `nil`) - конечный цвет изменяемого параметра. Поддерживается только для `AMBIENT`.
+- **`color2`** `(Color|nil)` - конечный цвет изменяемого параметра. Поддерживается только для `AMBIENT`.
 
-- **`period`** (`number`) - полный период изменения параметра `color` -> `color2` -> `color`. Поддерживается только для `AMBIENT`.
+- **`period`** `(number)` - полный период изменения параметра `color` -> `color2` -> `color`. Поддерживается только для `AMBIENT`.
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ RelatedTexturesLua:HasTexture( sysName ): boolean
 
 ## Список параметров
 
-- **`sysName`** (`string`) - Идентификатор текстуры.
+- **`sysName`** `(string)` - Идентификатор текстуры.
 
 ## Возвращаемые значения
 

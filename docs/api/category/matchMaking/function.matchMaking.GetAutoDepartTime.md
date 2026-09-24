@@ -16,7 +16,7 @@ matchMaking.GetAutoDepartTime( eventId: ObjectId ): table|nil
 
 ## Список параметров
 
-- **`eventId`** (`ObjectId`) - Идентификатор активности, в которую собирается группа.
+- **`eventId`** `(ObjectId)` - Идентификатор активности, в которую собирается группа.
 
 ## Возвращаемые значения
 

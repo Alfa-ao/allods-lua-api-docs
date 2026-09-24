@@ -16,7 +16,7 @@ unit.GetSex( unitId: ObjectId ): table|nil
 
 ## Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор игрока.
+- **`unitId`** `(ObjectId)` - Идентификатор игрока.
 
 ## Возвращаемые значения
 
@@ -24,9 +24,9 @@ unit.GetSex( unitId: ObjectId ): table|nil
 
 - **`sex`** (`number`(`SEX_*`)) - Пол игрока.
 
-- **`name`** (`WString`) - Локализованное имя пола.
+- **`name`** `(WString)` - Локализованное имя пола.
 
-- **`raceSexName`** (`WString`) - Локализованное расозависимое имя пола.
+- **`raceSexName`** `(WString)` - Локализованное расозависимое имя пола.
 
 ::: info Перечисление
 - SEX_UNKNOWN

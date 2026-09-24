@@ -16,9 +16,9 @@ itemLib.GetDressConditions( itemId: ObjectId, ignoredConditions: table | nil ): 
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`) - Идентификатор предмета.
+- **`itemId`** `(ObjectId)` - Идентификатор предмета.
 
-- **`ignoredConditions`** (`table` | `nil`) - Список строк (`ENUM_DressResult_*`), которые необходимо игнорировать при проверке.
+- **`ignoredConditions`** `(table|nil)` - Список строк (`ENUM_DressResult_*`), которые необходимо игнорировать при проверке.
 
 ## Возвращаемые значения
 
@@ -26,7 +26,7 @@ itemLib.GetDressConditions( itemId: ObjectId, ignoredConditions: table | nil ): 
 
 - **`sysFirstCondition`** (`string`(`ENUM_DressResult_*`)) - Первое выполненное или невыполненное условие, определяющее возможность экипировки предмета.
 
-- **`failedConditions`** (`table`) - Таблица невыполненных условий, где ключом является имя условия (`ENUM_DressResult_*`), а значением всегда выступает `true`.
+- **`failedConditions`** `(table)` - Таблица невыполненных условий, где ключом является имя условия (`ENUM_DressResult_*`), а значением всегда выступает `true`.
 
 ## Примеры
 

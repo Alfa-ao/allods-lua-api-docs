@@ -16,9 +16,9 @@ remortCreation.SetSceneCharacterScaleFactor( characterId: ObjectId, scale: numbe
 
 ## Список параметров
 
-- **`characterId`** (`ObjectId`) - Идентификатор персонажа в сцене.
+- **`characterId`** `(ObjectId)` - Идентификатор персонажа в сцене.
 
-- **`scale`** (`number`) - Коэффициент масштабирования для персонажа.
+- **`scale`** `(number)` - Коэффициент масштабирования для персонажа.
 
 ## Возвращаемые значения
 

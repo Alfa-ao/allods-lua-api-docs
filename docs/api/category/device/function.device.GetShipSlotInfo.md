@@ -16,7 +16,7 @@ device.GetShipSlotInfo( deviceId: ObjectId ): table|nil
 
 ## Список параметров
 
-- **`deviceId`** (`ObjectId`) - Идентификатор устройства.
+- **`deviceId`** `(ObjectId)` - Идентификатор устройства.
 
 ## Возвращаемые значения
 
@@ -24,15 +24,15 @@ device.GetShipSlotInfo( deviceId: ObjectId ): table|nil
 
 Если информация успешно получена, возвращается таблица со следующими полями:
 
-- **`interfaceSlot`** (`number`) - Индекс слота при показе устройства в интерфейсе.
+- **`interfaceSlot`** `(number)` - Индекс слота при показе устройства в интерфейсе.
 
-- **`side`** (`number`) - Сторона корабля.
+- **`side`** `(number)` - Сторона корабля.
 
 ::: details Допустимые значения
 Перечисление `SHIP_SIDE_...`
 :::
 
-- **`sysSlotType`** (`string`) - Отладочное имя слота (недоступно на `_FINALRELEASE`).
+- **`sysSlotType`** `(string)` - Отладочное имя слота (недоступно на `_FINALRELEASE`).
 
 ::: details Допустимые значения
 Перечисление `SlotName`

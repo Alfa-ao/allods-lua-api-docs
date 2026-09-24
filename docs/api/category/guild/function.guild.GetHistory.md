@@ -16,11 +16,11 @@ guild.GetHistory( page: number, orderBy: number, rearOrder: boolean )
 
 ## Список параметров
 
-- **`page`** (`number`) - Интересующая страница, начиная с 1.
+- **`page`** `(number)` - Интересующая страница, начиная с 1.
 
-- **`orderBy`** (`number` | `ENUM_GuildHistoryOrder`) - Задает параметр сортировки истории.
+- **`orderBy`** `(number|ENUM_GuildHistoryOrder)` - Задает параметр сортировки истории.
 
-- **`rearOrder`** (`boolean`) - Задает порядок сортировки. true - обратный порядок, false - прямой.
+- **`rearOrder`** `(boolean)` - Задает порядок сортировки. true - обратный порядок, false - прямой.
 
 ## Возвращаемые значения
 

@@ -20,7 +20,7 @@ cartographer.GetMapModifierValuedObject( mapModifierId: MapModifierId ): ValuedO
 
 ## Список параметров
 
-- **`mapModifierId`** (`MapModifierId`) - Идентификатор модификатора карты, для которого необходимо получить объект.
+- **`mapModifierId`** `(MapModifierId)` - Идентификатор модификатора карты, для которого необходимо получить объект.
 
 ## Возвращаемые значения
 
@@ -30,7 +30,7 @@ cartographer.GetMapModifierValuedObject( mapModifierId: MapModifierId ): ValuedO
 - Тип объекта - `VAL_OBJ_TYPE_MAP_MODIFIER`.
 - Текст - имя модификатора карты.
 - Изображение - иконка модификатора карты.
-- `Id` (`MapModifierId`) - идентификатор ресурса модификатора карты.
+- `Id` `(MapModifierId)` - идентификатор ресурса модификатора карты.
 
 ## Примеры
 

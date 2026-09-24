@@ -16,7 +16,7 @@ medalsLib.InspectAvatarMedals( avatarId: ObjectId )
 
 ## Список параметров
 
-- **`avatarId`** (`ObjectId`) - Идентификатор персонажа игрока.
+- **`avatarId`** `(ObjectId)` - Идентификатор персонажа игрока.
 
 ## Возвращаемые значения
 

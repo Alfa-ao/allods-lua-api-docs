@@ -15,7 +15,7 @@ itemLib.GetStateCooldownMs( itemId: ObjectId ): number | nil
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`) - Идентификатор предмета.
+- **`itemId`** `(ObjectId)` - Идентификатор предмета.
 
 ## Возвращаемые значения
 

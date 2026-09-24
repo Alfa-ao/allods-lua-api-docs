@@ -16,7 +16,7 @@ ScrollableContainerSafe:EnsureVisible( widget: WidgetSafe )
 
 ## Список параметров
 
-- **`widget`** (`WidgetSafe`) - Показываемый элемент.
+- **`widget`** `(WidgetSafe)` - Показываемый элемент.
 
 ## Возвращаемые значения
 

@@ -16,9 +16,9 @@ device.GetCooldown( usableDeviceId: ObjectId, actionIndex: number ): table | nil
 
 ## Список параметров
 
-- **`usableDeviceId`** (`ObjectId`) - Идентификатор устройства.
+- **`usableDeviceId`** `(ObjectId)` - Идентификатор устройства.
 
-- **`actionIndex`** (`number`) - Номер экшена устройства.
+- **`actionIndex`** `(number)` - Номер экшена устройства.
 
 ## Возвращаемые значения
 
@@ -26,9 +26,9 @@ device.GetCooldown( usableDeviceId: ObjectId, actionIndex: number ): table | nil
 
 Если устройство найдено, возвращается таблица со следующими полями:
 
-- **`remainingMs`** (`number`) - Оставшееся время кулдауна в миллисекундах.
+- **`remainingMs`** `(number)` - Оставшееся время кулдауна в миллисекундах.
 
-- **`durationMs`** (`number`) - Полная длительность кулдауна в миллисекундах.
+- **`durationMs`** `(number)` - Полная длительность кулдауна в миллисекундах.
 
 ## Примеры
 

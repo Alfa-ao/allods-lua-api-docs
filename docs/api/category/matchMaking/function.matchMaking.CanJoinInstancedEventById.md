@@ -16,7 +16,7 @@ matchMaking.CanJoinInstancedEventById( eventResourceId: InstancedEventResourceId
 
 ## Список параметров
 
-- **`eventResourceId`** (`InstancedEventResourceId`) - id ресурса соответствующего инстанс-ивента.
+- **`eventResourceId`** `(InstancedEventResourceId)` - id ресурса соответствующего инстанс-ивента.
 
 ## Возвращаемые значения
 

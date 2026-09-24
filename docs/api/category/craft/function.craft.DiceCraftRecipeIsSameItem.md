@@ -16,9 +16,9 @@ craft.DiceCraftRecipeIsSameItem( recipeItemId: ObjectId, inventoryItemId: Object
 
 ## Список параметров
 
-- **`recipeItemId`** (`ObjectId`) - Идентификатор предмета из описания рецепта.
+- **`recipeItemId`** `(ObjectId)` - Идентификатор предмета из описания рецепта.
 
-- **`inventoryItemId`** (`ObjectId`) - Идентификатор предмета, который предполагается использовать при крафтинге по рецепту.
+- **`inventoryItemId`** `(ObjectId)` - Идентификатор предмета, который предполагается использовать при крафтинге по рецепту.
 
 ## Возвращаемые значения
 

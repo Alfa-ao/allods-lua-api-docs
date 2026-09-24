@@ -16,7 +16,7 @@ family.GetSpouseName( unitId: ObjectId ): WString|nil
 
 ## Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор игрока.
+- **`unitId`** `(ObjectId)` - Идентификатор игрока.
 
 ## Возвращаемые значения
 

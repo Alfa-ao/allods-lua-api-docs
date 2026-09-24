@@ -27,11 +27,11 @@ mission.SetCharacterScene( index: number, wtCharacterControl3D: Control3DSafe, u
 
 ## Список параметров
 
-- **`index`** (`number`) - Индекс сцены в диапазоне от `0` до `GetMaxCharacterSceneCount() - 1`.
+- **`index`** `(number)` - Индекс сцены в диапазоне от `0` до `GetMaxCharacterSceneCount() - 1`.
 
-- **`wtCharacterControl3D`** (`Control3DSafe`) - Трехмерный контрол, в котором отображается персонаж.
+- **`wtCharacterControl3D`** `(Control3DSafe)` - Трехмерный контрол, в котором отображается персонаж.
 
-- **`unitId`** (`ObjectId` | `nil`) - Идентификатор отображаемого юнита. Передача значения `nil` приводит к очистке сцены.
+- **`unitId`** `(ObjectId|nil)` - Идентификатор отображаемого юнита. Передача значения `nil` приводит к очистке сцены.
 
 ## Возвращаемые значения
 

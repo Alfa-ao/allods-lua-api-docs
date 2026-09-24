@@ -16,7 +16,7 @@ RelatedTextsLua:HasText( sysName: string ): boolean
 
 ## Список параметров
 
-- **`sysName`** (`string`) - Идентификатор текста.
+- **`sysName`** `(string)` - Идентификатор текста.
 
 ## Возвращаемые значения
 

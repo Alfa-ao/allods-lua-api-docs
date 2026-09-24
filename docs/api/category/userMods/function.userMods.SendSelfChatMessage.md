@@ -20,9 +20,9 @@ userMods.SendSelfChatMessage( message: WString, messageLevel: string|nil )
 
 ## Список параметров
 
-- **`message`** (`WString`) - Текст сообщения.
+- **`message`** `(WString)` - Текст сообщения.
 
-- **`messageLevel`** (`string` | `nil`) - Имя канала, в который будет выведено сообщение. По умолчанию `"message"`.
+- **`messageLevel`** `(string|nil)` - Имя канала, в который будет выведено сообщение. По умолчанию `"message"`.
 
 ## Возвращаемые значения
 
@@ -40,7 +40,7 @@ userMods.SendSelfChatMessage( addonErrorMessage, "error" )
 
 На данный момент поддержаны следующие каналы (уровни сообщений):
 
-| Канал (`messageLevel`) | Описание | Цвет (LogColor) |
+| Канал `(messageLevel)` | Описание | Цвет (LogColor) |
 |------------------------|----------|-----------------|
 | `message`              | Сообщения | `LogColorWhite` |
 | `notice`               | Уведомления | `LogColorYellow` |

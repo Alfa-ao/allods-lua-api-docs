@@ -16,9 +16,9 @@ TextContainerSafe:InsertText( position: number, text: WString | ValuedText )
 
 ## Список параметров
 
-- **`position`** (`number`) - Позиция, в которую необходимо вставить текст. Счет начинается с `0`.
+- **`position`** `(number)` - Позиция, в которую необходимо вставить текст. Счет начинается с `0`.
 
-- **`text`** (`WString` | `ValuedText`) - Добавляемый текст.
+- **`text`** `(WString|ValuedText)` - Добавляемый текст.
 
 ## Возвращаемые значения
 

@@ -26,7 +26,7 @@ object.GetManaType( objectId: ObjectId ): number
 
 ## Список параметров
 
-- **`objectId`** (`ObjectId`) - Идентификатор объекта.
+- **`objectId`** `(ObjectId)` - Идентификатор объекта.
 
 ## Возвращаемые значения
 

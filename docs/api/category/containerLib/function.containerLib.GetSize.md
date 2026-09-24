@@ -20,7 +20,7 @@ containerLib.GetSize( slotType: number ): number
 
 ## Список параметров
 
-- **`slotType`** (`number`) - тип контейнера с предметами.
+- **`slotType`** `(number)` - тип контейнера с предметами.
 
 ## Возвращаемые значения
 

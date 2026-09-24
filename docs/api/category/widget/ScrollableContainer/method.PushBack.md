@@ -32,7 +32,7 @@ ScrollableContainerSafe:PushBack( widget: WidgetSafe )
 
 ## Список параметров
 
-- **`widget`** (`WidgetSafe`) - Добавляемый элемент.
+- **`widget`** `(WidgetSafe)` - Добавляемый элемент.
 
 ## Возвращаемые значения
 

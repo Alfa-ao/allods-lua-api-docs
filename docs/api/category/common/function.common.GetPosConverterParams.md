@@ -49,17 +49,17 @@ gfx_reference_size_y = [600:2160]
 ## Возвращаемые значения
 
 Возвращает `table` со следующими полями:
-- **`fullVirtualSizeX`** (`number`) - текущий виртуальный размер окна по оси X.
+- **`fullVirtualSizeX`** `(number)` - текущий виртуальный размер окна по оси X.
 
-- **`fullVirtualSizeY`** (`number`) - текущий виртуальный размер окна по оси Y.
+- **`fullVirtualSizeY`** `(number)` - текущий виртуальный размер окна по оси Y.
 
-- **`realSizeX`** (`number`) - реальный размер окна по оси X.
+- **`realSizeX`** `(number)` - реальный размер окна по оси X.
 
-- **`realSizeY`** (`number`) - реальный размер окна по оси Y.
+- **`realSizeY`** `(number)` - реальный размер окна по оси Y.
 
-- **`referenceVirtualSizeX`** (`number`) - базовый виртуальный размер окна по оси X.
+- **`referenceVirtualSizeX`** `(number)` - базовый виртуальный размер окна по оси X.
 
-- **`referenceVirtualSizeY`** (`number`) - базовый виртуальный размер окна по оси Y.
+- **`referenceVirtualSizeY`** `(number)` - базовый виртуальный размер окна по оси Y.
 
 ## Примеры
 

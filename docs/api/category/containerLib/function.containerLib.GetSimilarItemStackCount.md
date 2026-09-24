@@ -16,9 +16,9 @@ containerLib.GetSimilarItemStackCount( id: ObjectId, slotType: number ): number
 
 ## Список параметров
 
-- **`id`** (`ObjectId`) - Идентификатор предмета.
+- **`id`** `(ObjectId)` - Идентификатор предмета.
 
-- **`slotType`** (`number`) - Тип контейнера с предметами. Значения относятся к перечислению `ITEM_CONT_...`.
+- **`slotType`** `(number)` - Тип контейнера с предметами. Значения относятся к перечислению `ITEM_CONT_...`.
 
 ## Возвращаемые значения
 

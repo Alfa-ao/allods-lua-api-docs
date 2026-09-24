@@ -16,7 +16,7 @@ WidgetSafe:SetSmartPlacementPlain( placement: table ): table
 
 ## Список параметров
 
-- **`placement`** (`table`) - Таблица, описывающая новое положение виджета.
+- **`placement`** `(table)` - Таблица, описывающая новое положение виджета.
 
 ## Возвращаемые значения
 

@@ -22,6 +22,6 @@ order.GetRatingSections(): table | nil
 
 Возвращает `table` | `nil` - таблица с информацией о разделах рейтингов ордена или `nil`, если данные недоступны.
 
-- **`name`** (`WString`) - название раздела.
+- **`name`** `(WString)` - название раздела.
 
-- **`raitingEventId`** (`ObjectId`) - идентификатор события рейтинга.
+- **`raitingEventId`** `(ObjectId)` - идентификатор события рейтинга.

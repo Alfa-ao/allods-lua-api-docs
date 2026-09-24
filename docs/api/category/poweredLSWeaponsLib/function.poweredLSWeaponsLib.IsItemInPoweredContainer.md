@@ -16,7 +16,7 @@ poweredLSWeaponsLib.IsItemInPoweredContainer( itemId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`) - идентификатор предмета.
+- **`itemId`** `(ObjectId)` - идентификатор предмета.
 
 ## Возвращаемые значения
 

@@ -16,9 +16,9 @@ guild.SetMemberDescription( memberId: ObjectId, description: WString )
 
 ## Список параметров
 
-- **`memberId`** (`ObjectId`) - Идентификатор члена гильдии.
+- **`memberId`** `(ObjectId)` - Идентификатор члена гильдии.
 
-- **`description`** (`WString`) - Описание игрока.
+- **`description`** `(WString)` - Описание игрока.
 
 ## Возвращаемые значения
 

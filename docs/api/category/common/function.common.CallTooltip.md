@@ -20,24 +20,24 @@ common.CallTooltip( isActive: boolean, tooltipData: table | nil )
 
 **Обязательные поля:**
 
-- **`tooltip`** (`number`) - тип тултипа, подробнее смотри в разделе `TOOLTIP_*`
+- **`tooltip`** `(number)` - тип тултипа, подробнее смотри в разделе `TOOLTIP_*`
 - Обязательные поля конкретного типа (подробнее в разделе `Типы тултипов`).
 
 **Опциональные поля:**
 
-- **`tooltipLocker`** (`boolean`) `false` - принудительно разрешает блокировку тултипа. По умолчанию блокировка разрешена для некоторых типов тултипов и тултипов, содержащих активные ссылки.
+- **`tooltipLocker`** `(boolean)` `false` - принудительно разрешает блокировку тултипа. По умолчанию блокировка разрешена для некоторых типов тултипов и тултипов, содержащих активные ссылки.
 
-- **`tooltipNoDelay`** (`boolean`) `false` - отображает тултип без задержки. По умолчанию задержка составляет 300 мс. Используется только при обновлении существующего тултипа.
+- **`tooltipNoDelay`** `(boolean)` `false` - отображает тултип без задержки. По умолчанию задержка составляет 300 мс. Используется только при обновлении существующего тултипа.
 
-- **`forceHideCompare`** (`boolean`) `false` - отключает вычисление и отображение дополнительных тултипов сравнения.
+- **`forceHideCompare`** `(boolean)` `false` - отключает вычисление и отображение дополнительных тултипов сравнения.
 
-- **`customCompare`** (`table`) - таблица с описателями дополнительных тултипов (индексация от 1). Порядок отображения: сверху вниз.
+- **`customCompare`** `(table)` - таблица с описателями дополнительных тултипов (индексация от 1). Порядок отображения: сверху вниз.
 
-- **`rect`** (`table`) - `WidgetRect` виджет привязки тултипа (подробнее в разделе `Позиционирование тултипа`).
+- **`rect`** `(table)` - `WidgetRect` виджет привязки тултипа (подробнее в разделе `Позиционирование тултипа`).
 
-- **`shortcut`** (`table`) - `tooltipShortcutData` таблица параметров шортката (подробнее в разделе `Описание tooltipShortcutData`).
+- **`shortcut`** `(table)` - `tooltipShortcutData` таблица параметров шортката (подробнее в разделе `Описание tooltipShortcutData`).
 
-- **`number`** (`table`) - таблица, описывающая кастомный элемент тултипа (подробнее в разделе `Компоненты тултипа`).
+- **`number`** `(table)` - таблица, описывающая кастомный элемент тултипа (подробнее в разделе `Компоненты тултипа`).
 
 - Опциональные поля конкретного типа (подробнее в разделе `Типы тултипов`).
 :::
@@ -71,9 +71,9 @@ common.CallTooltip( isActive: boolean, tooltipData: table | nil )
 
 - **`LRMB`** (`table(ValuedText:SetTextValues)`) - описание для зажатия левой и правой кнопок мыши.
 
-- **`sysSectionName`** (`string`) - имя секции клавиатурной реакции.
+- **`sysSectionName`** `(string)` - имя секции клавиатурной реакции.
 
-- **`sysBindName`** (`string`) - имя бинда клавиатурной реакции.
+- **`sysBindName`** `(string)` - имя бинда клавиатурной реакции.
 :::
 
 ::: details Правила сборки тултипа {open}
@@ -148,7 +148,7 @@ end
 ---
 
 - **`TOOLTIP_SIMPLE`** - простой тултип.
-  - `name` (`ValidText`) - текст. Формат: 
+  - `name` `(ValidText)` - текст. Формат: 
     ```
     <header>
         <tip_white>
@@ -160,7 +160,7 @@ end
 ---
 
 - **`TOOLTIP_SIMPLEDESC`** - простой тултип-описание.
-  - `name` (`ValidText`) - имя. Формат: 
+  - `name` `(ValidText)` - имя. Формат: 
     ```
     <header>
         <tip_white>
@@ -168,48 +168,48 @@ end
         </tip_white>
     </header>
     ```
-  - `desc` (`ValidText`) - описание. Формат: 
+  - `desc` `(ValidText)` - описание. Формат: 
     ```
     <tip_golden alignx = "left" >
         <r name = "value" parsing = "smart" />
     </tip_golden>
     ```
-  - `*requirements` (`table`) - `predicateData` таблица условий (например, предикаты спелла).
+  - `*requirements` `(table)` - `predicateData` таблица условий (например, предикаты спелла).
 
 ---
 
 - **`TOOLTIP_UNIT`** - тултип юнита.
-  - `unitId` (`ObjectId`) - идентификатор юнита.
-  - `name` (`ValidText`) - оверрайд имени.
+  - `unitId` `(ObjectId)` - идентификатор юнита.
+  - `name` `(ValidText)` - оверрайд имени.
 
 ---
 
 - **`TOOLTIP_ITEM`** - тултип предмета.
-  - `itemId` (`ObjectId`) - идентификатор предмета.
-  - `name` (`ValidText`) - оверрайд имени.
-  - `desc` (`ValidText`) - оверрайд описания.
-  - `ignoreBinding` (`boolean`) - если `true`, предмет считается непривязанным.
-  - `binding` (`number`) - `enum ITEM_BINDING_*` оверрайд биндинга.
-  - `bindResult` (`boolean`) - если `true`, считается, что предмет привязывается при получении.
-  - `isCursed` (`boolean`) - оверрайд статуса проклятости.
+  - `itemId` `(ObjectId)` - идентификатор предмета.
+  - `name` `(ValidText)` - оверрайд имени.
+  - `desc` `(ValidText)` - оверрайд описания.
+  - `ignoreBinding` `(boolean)` - если `true`, предмет считается непривязанным.
+  - `binding` `(number)` - `enum ITEM_BINDING_*` оверрайд биндинга.
+  - `bindResult` `(boolean)` - если `true`, считается, что предмет привязывается при получении.
+  - `isCursed` `(boolean)` - оверрайд статуса проклятости.
   - `count` (`number` | `int`) - оверрайд количества предметов в стаке.
-  - `*canExchange` (`boolean`) - возможность выставить предмет на биржу негоциантов.
+  - `*canExchange` `(boolean)` - возможность выставить предмет на биржу негоциантов.
   - `*endTime` (`number` | `int`) - время завершения предложения.
   - `*lotteryPrice` (`number` | `int`) - цена в лотерее.
   - `*lotteryDiscount` (`number` | `int`) - скидка в лотерее.
-  - `*lotteryIsSuperPrize` (`boolean`) - является ли предмет суперпризом в лотерее.
+  - `*lotteryIsSuperPrize` `(boolean)` - является ли предмет суперпризом в лотерее.
 
 ---
 
 - **`TOOLTIP_ITEM_VENDOR`** - тултип предмета в продаже. Аналогично `TOOLTIP_ITEM`. Дополнительно:
   - `quantity` (`number` | `int`) - количество предметов в продаже.
-  - `showReputation` (`boolean`) - отображение информации о требуемой для покупки репутации.
-  - `requiredUnlocks` (`table`) - `index from 1 of UnlockId` список возможностей, требуемых для покупки.
-  - `requiredAchievements` (`table`) - `index from 1 of tables` список рейтинговых достижений, требуемых для покупки. Каждое значение - таблица с полями: 
-    + `ruleId` (`RuleId`) - идентификатор ресурса рейтингового события.
+  - `showReputation` `(boolean)` - отображение информации о требуемой для покупки репутации.
+  - `requiredUnlocks` `(table)` - `index from 1 of UnlockId` список возможностей, требуемых для покупки.
+  - `requiredAchievements` `(table)` - `index from 1 of tables` список рейтинговых достижений, требуемых для покупки. Каждое значение - таблица с полями: 
+    + `ruleId` `(RuleId)` - идентификатор ресурса рейтингового события.
     + `achievement` (`number` | `int`) - требуемое значение достижения.
   - `price` (`number` | `int`) - оверрайд цены покупки.
-  - `*alternativePrice` (`table`) - `param for moneyCountAdvanced` альтернативная цена.
+  - `*alternativePrice` `(table)` - `param for moneyCountAdvanced` альтернативная цена.
 
 ---
 
@@ -230,11 +230,11 @@ end
 ---
 
 - **`TOOLTIP_SPELL`** - тултип спелла.
-  - `spellId` (`SpellId`) - идентификатор ресурса спелла.
-  - `name` (`ValidText`) - оверрайд имени.
-  - `desc` (`ValidText`) - оверрайд описания.
+  - `spellId` `(SpellId)` - идентификатор ресурса спелла.
+  - `name` `(ValidText)` - оверрайд имени.
+  - `desc` `(ValidText)` - оверрайд описания.
   - `customRank` (`number` | `int`) - оверрайд ранга.
-  - `*tactics` (`boolean`) - обрезает большую часть информации (для тактик гильдии).
+  - `*tactics` `(boolean)` - обрезает большую часть информации (для тактик гильдии).
 
 ---
 
@@ -252,73 +252,73 @@ end
 
 - **`TOOLTIP_BUFF`** - тултип бафа.
   - `buffId` (`ObjectId` | `BuffId`) - идентификатор бафа или ресурса бафа.
-  - `name` (`ValidText`) - оверрайд имени.
-  - `desc` (`ValidText`) - оверрайд описания.
+  - `name` `(ValidText)` - оверрайд имени.
+  - `desc` `(ValidText)` - оверрайд описания.
 
 ---
 
 - **`TOOLTIP_ABILITY`** - тултип способности.
-  - `abilityId` (`AbilityId`) - идентификатор ресурса способности.
-  - `name` (`ValidText`) - оверрайд имени.
-  - `desc` (`ValidText`) - оверрайд описания.
+  - `abilityId` `(AbilityId)` - идентификатор ресурса способности.
+  - `name` `(ValidText)` - оверрайд имени.
+  - `desc` `(ValidText)` - оверрайд описания.
   - `customRank` (`number` | `int`) - оверрайд ранга.
 
 ---
 
 - **`TOOLTIP_GLOSSARY`** - тултип встроенной ссылки (для вложенных тултипов).
-  - `glossaryId` (`GlossaryId`) - идентификатор ресурса глоссария.
+  - `glossaryId` `(GlossaryId)` - идентификатор ресурса глоссария.
 
 ---
 
 - **`TOOLTIP_COMPONENT`** - тултип алхимического компонента.
-  - `componentId` (`ComponentPropertyId`) - идентификатор ресурса алхимического свойства.
-  - `name` (`ValidText`) - оверрайд имени.
-  - `desc` (`ValidText`) - оверрайд описания.
+  - `componentId` `(ComponentPropertyId)` - идентификатор ресурса алхимического свойства.
+  - `name` `(ValidText)` - оверрайд имени.
+  - `desc` `(ValidText)` - оверрайд описания.
 
 ---
 
 - **`TOOLTIP_RECIPE`** - тултип рецепта профессии.
-  - `recipeId` (`RecipeId`) - идентификатор ресурса рецепта.
-  - `armorCraft` (`boolean`) - определяет, являются ли компоненты рецепта предметами (`true`) или алхимическими компонентами (`false`).
-  - `name` (`ValidText`) - оверрайд имени.
-  - `desc` (`ValidText`) - оверрайд описания.
+  - `recipeId` `(RecipeId)` - идентификатор ресурса рецепта.
+  - `armorCraft` `(boolean)` - определяет, являются ли компоненты рецепта предметами `(true)` или алхимическими компонентами `(false)`.
+  - `name` `(ValidText)` - оверрайд имени.
+  - `desc` `(ValidText)` - оверрайд описания.
 
 ---
 
 - **`TOOLTIP_USABLE_DEVICE`** - тултип UsableDevice.
-  - `deviceId` (`ObjectId`) - идентификатор устройства.
-  - `name` (`ValidText`) - оверрайд имени.
+  - `deviceId` `(ObjectId)` - идентификатор устройства.
+  - `name` `(ValidText)` - оверрайд имени.
 
 ---
 
 - **`TOOLTIP_USABLE_DEVICE_ACTION`** - тултип действия UsableDevice.
-  - `deviceId` (`ObjectId`) - идентификатор устройства.
+  - `deviceId` `(ObjectId)` - идентификатор устройства.
   - `index` (`number` | `int`) - индекс действия.
-  - `name` (`ValidText`) - оверрайд имени.
-  - `desc` (`ValidText`) - оверрайд описания.
+  - `name` `(ValidText)` - оверрайд имени.
+  - `desc` `(ValidText)` - оверрайд описания.
 
 ---
 
 - **`TOOLTIP_ASTRAL_UNIT`** - тултип астрального юнита.
-  - `unitId` (`ObjectId`) - идентификатор астрального юнита.
-  - `name` (`ValidText`) - оверрайд имени.
+  - `unitId` `(ObjectId)` - идентификатор астрального юнита.
+  - `name` `(ValidText)` - оверрайд имени.
 
 ---
 
 - **`TOOLTIP_FAIRY`** - тултип покровителя.
-  - `unitId` (`ObjectId`) - идентификатор юнита.
-  - `name` (`ValidText`) - оверрайд имени.
-  - `desc` (`ValidText`) - оверрайд описания.
+  - `unitId` `(ObjectId)` - идентификатор юнита.
+  - `name` `(ValidText)` - оверрайд имени.
+  - `desc` `(ValidText)` - оверрайд описания.
 
 ---
 
 - **`TOOLTIP_BASE_TALENT`** - тултип таланта.
-  - `position` (`table`) - позиция таланта: 
+  - `position` `(table)` - позиция таланта: 
     + `row` (`number` | `int`) - строка (с 1)
     + `column` (`number` | `int`) - столбец (с 1)
     + `rank` (`number` | `int`) - ранг.
-  - `isLocked` (`boolean`) - статус блокировки таланта.
-  - `cost` (`table`) - данные о стоимости изучения: 
+  - `isLocked` `(boolean)` - статус блокировки таланта.
+  - `cost` `(table)` - данные о стоимости изучения: 
     + `value` (`number` | `int`) - стоимость в очках умений.
     + `spentValue` (`number` | `int`) - всего потрачено очков умений.
     + `count` (`number` | `int`) - доступно очков умений.
@@ -327,130 +327,130 @@ end
 ---
 
 - **`TOOLTIP_FIELD_TALENT`** - тултип вехи развития.
-  - `position` (`table`) - позиция вехи развития: 
+  - `position` `(table)` - позиция вехи развития: 
     + `field` (`number` | `int`, с 1), 
     + `row` (`number` | `int`, с 1), 
     + `column` (`number` | `int`, с 1).
     + `rank` (`number` | `int`) - ранг.
-  - `cost` (`table`) - данные о стоимости изучения: 
+  - `cost` `(table)` - данные о стоимости изучения: 
     + `value` (`number` | `int`) - стоимость в вехах развития
     + `count` (`number` | `int`) - доступно вех развития.
-    + `isAvailable` (`boolean`) - доступность для изучения (по соседним клеткам).
+    + `isAvailable` `(boolean)` - доступность для изучения (по соседним клеткам).
 
 ---
 
 - **`TOOLTIP_REPUTATION`** - тултип репутации.
-  - `factionId` (`FactionId`) - идентификатор ресурса фракции.
-  - `name` (`ValidText`) - оверрайд имени.
+  - `factionId` `(FactionId)` - идентификатор ресурса фракции.
+  - `name` `(ValidText)` - оверрайд имени.
 
 ---
 
 - **`TOOLTIP_CURRENCY`** - тултип альтернативной валюты.
-  - `currencyId` (`CurrencyId`) - идентификатор ресурса валюты.
-  - `short` (`boolean`) - использование сокращенного варианта описания.
+  - `currencyId` `(CurrencyId)` - идентификатор ресурса валюты.
+  - `short` `(boolean)` - использование сокращенного варианта описания.
   - `couponBuyLimit` (`number` | `int`) - если задано, значение валюты принимается за `(couponBuyLimit - значение)`.
 
 ---
 
 - **`TOOLTIP_CURRENCY_VENDOR`** - тултип цены в альтернативных валютах.
-  - `prices` (`table`) - `index from 1 of CurencyId` список идентификаторов альтернативных валют.
+  - `prices` `(table)` - `index from 1 of CurencyId` список идентификаторов альтернативных валют.
 
 ---
 
 - **`TOOLTIP_HEARTHSTONE`** - тултип камня путешественника.
-  - `name` (`ValidText`) - оверрайд имени.
-  - `desc` (`ValidText`) - оверрайд описания.
+  - `name` `(ValidText)` - оверрайд имени.
+  - `desc` `(ValidText)` - оверрайд описания.
 
 ---
 
 - **`TOOLTIP_INNATE_STAT`** - тултип характеристики.
-  - `statId` (`number`) - `enum ENUM_InnateStats_*` идентификатор характеристики.
-  - `*info` (`table`) - `InnateStatsInfo` оверрайд информации о характеристиках.
+  - `statId` `(number)` - `enum ENUM_InnateStats_*` идентификатор характеристики.
+  - `*info` `(table)` - `InnateStatsInfo` оверрайд информации о характеристиках.
 
 ---
 
 - **`TOOLTIP_TRANSPORT`** - тултип астрального корабля.
-  - `transportId` (`ObjectId`) - идентификатор астрального корабля.
-  - `name` (`ValidText`) - оверрайд имени.
+  - `transportId` `(ObjectId)` - идентификатор астрального корабля.
+  - `name` `(ValidText)` - оверрайд имени.
 
 ---
 
 - **`TOOLTIP_BG_CONTROLPOINT`** - тултип контрольной точки сражения.
-  - `pointId` (`ObjectId`) - идентификатор контрольной точки сражения.
-  - `name` (`ValidText`) - оверрайд имени.
+  - `pointId` `(ObjectId)` - идентификатор контрольной точки сражения.
+  - `name` `(ValidText)` - оверрайд имени.
 
 ---
 
 - **`TOOLTIP_MOUNT`** - тултип маунта.
-  - `mountId` (`ObjectId`) - идентификатор маунта.
-  - `mountSkinId` (`ObjectId`) - идентификатор окраса маунта.
-  - `name` (`ValidText`) - оверрайд имени.
-  - `desc` (`ValidText`) - оверрайд описания.
+  - `mountId` `(ObjectId)` - идентификатор маунта.
+  - `mountSkinId` `(ObjectId)` - идентификатор окраса маунта.
+  - `name` `(ValidText)` - оверрайд имени.
+  - `desc` `(ValidText)` - оверрайд описания.
 
 ---
 
 - **`TOOLTIP_CONTEXT_ACTION`** - тултип контекстного действия.
-  - `actionId` (`ObjectId`) - идентификатор контекстного действия.
-  - `name` (`ValidText`) - оверрайд имени.
-  - `desc` (`ValidText`) - оверрайд описания.
+  - `actionId` `(ObjectId)` - идентификатор контекстного действия.
+  - `name` `(ValidText)` - оверрайд имени.
+  - `desc` `(ValidText)` - оверрайд описания.
 
 ---
 
 - **`TOOLTIP_SKILL`** - тултип профессии.
-  - `skillId` (`SkillId`) - идентификатор ресурса профессии.
-  - `name` (`ValidText`) - оверрайд имени.
-  - `desc` (`ValidText`) - оверрайд описания.
+  - `skillId` `(SkillId)` - идентификатор ресурса профессии.
+  - `name` `(ValidText)` - оверрайд имени.
+  - `desc` `(ValidText)` - оверрайд описания.
 
 ---
 
 - **`TOOLTIP_ZONE_PROGRESS`** - тултип квестпрогресса зоны.
-  - `zonesMapId` (`ObjectId`) - идентификатор зоны (`cartographer.GetZonesMapQuests`).
+  - `zonesMapId` `(ObjectId)` - идентификатор зоны (`cartographer.GetZonesMapQuests`).
 
 ---
 
 - **`TOOLTIP_ASTRAL_SECTOR`** - тултип астрального сектора.
-  - `sectorId` (`ObjectId`) - идентификатор астрального сектора.
-  - `name` (`ValidText`) - оверрайд имени.
-  - `desc` (`ValidText`) - оверрайд описания.
+  - `sectorId` `(ObjectId)` - идентификатор астрального сектора.
+  - `name` `(ValidText)` - оверрайд имени.
+  - `desc` `(ValidText)` - оверрайд описания.
 
 ---
 
 - **`TOOLTIP_ASTRAL_POI`** - тултип точки интереса в астральном хабе.
-  - `poiId` (`ObjectId`) - идентификатор точки интереса.
-  - `name` (`ValidText`) - оверрайд имени.
-  - `desc` (`ValidText`) - оверрайд описания.
+  - `poiId` `(ObjectId)` - идентификатор точки интереса.
+  - `name` `(ValidText)` - оверрайд имени.
+  - `desc` `(ValidText)` - оверрайд описания.
 
 ---
 
 - **`TOOLTIP_ASTRAL_HUB`** - тултип астрального хаба.
-  - `hubId` (`ObjectId`) - идентификатор астрального хаба.
+  - `hubId` `(ObjectId)` - идентификатор астрального хаба.
 
 ---
 
 - **`TOOLTIP_QUEST_COUNTER`** - тултип цели задания.
-  - `objectiveId` (`ObjectId`) - идентификатор цели задания.
-  - `desc` (`ValidText`) - оверрайд описания.
+  - `objectiveId` `(ObjectId)` - идентификатор цели задания.
+  - `desc` `(ValidText)` - оверрайд описания.
 
 ---
 
 - **`TOOLTIP_QUEST`** - тултип задания.
-  - `questId` (`QuestId`) - идентификатор ресурса задания.
-  - `complete` (`boolean`) - если `true`, задание считается выполненным.
-  - `compendium` (`boolean`) - является ли задание боевым походом.
+  - `questId` `(QuestId)` - идентификатор ресурса задания.
+  - `complete` `(boolean)` - если `true`, задание считается выполненным.
+  - `compendium` `(boolean)` - является ли задание боевым походом.
 
 ---
 
 - **`TOOLTIP_MAP_QUEST`** - тултип точки выполнения задания(ий) на карте.
-  - `questId` (`QuestId`) - идентификатор ресурса основного задания (будет верхним в списке).
-  - `objectives` (`table`) - `index from 1 of ObjectId` список целей задания(ий), связанных с данной точкой.
-  - `quests` (`table`) - `index from 1 of QuestId` список ресурсов дополнительных заданий.
+  - `questId` `(QuestId)` - идентификатор ресурса основного задания (будет верхним в списке).
+  - `objectives` `(table)` - `index from 1 of ObjectId` список целей задания(ий), связанных с данной точкой.
+  - `quests` `(table)` - `index from 1 of QuestId` список ресурсов дополнительных заданий.
 
 ---
 
 - **`TOOLTIP_RULE`** - тултип события.
-  - `ruleId` (`ObjectId`) - идентификатор события.
-  - `name` (`ValidText`) - оверрайд имени.
-  - `desc` (`ValidText`) - оверрайд описания.
+  - `ruleId` `(ObjectId)` - идентификатор события.
+  - `name` `(ValidText)` - оверрайд имени.
+  - `desc` `(ValidText)` - оверрайд описания.
 
 ---
 
@@ -458,110 +458,110 @@ end
   - `field` (`number` | `int`) - поле.
   - `row` (`number` | `int`) - строка.
   - `column` (`number` | `int`) - столбец.
-  - `shortDescription` (`boolean`) - если `true`, по возможности используется короткое описание.
+  - `shortDescription` `(boolean)` - если `true`, по возможности используется короткое описание.
 
 ---
 
 - **`TOOLTIP_GUILD_ABILITY`** - тултип способности гильдии.
-  - `abilityId` (`GuildAbilityId`) - идентификатор ресурса гильдейской способности.
-  - `name` (`ValidText`) - оверрайд имени.
-  - `desc` (`ValidText`) - оверрайд описания.
-  - `shortDescription` (`boolean`) - если `true`, по возможности используется короткое описание.
+  - `abilityId` `(GuildAbilityId)` - идентификатор ресурса гильдейской способности.
+  - `name` `(ValidText)` - оверрайд имени.
+  - `desc` `(ValidText)` - оверрайд описания.
+  - `shortDescription` `(boolean)` - если `true`, по возможности используется короткое описание.
 
 ---
 
 - **`TOOLTIP_SHIP_REACTOR`** - тултип реактора корабля.
-  - `transportId` (`ObjectId`) - идентификатор корабля.
+  - `transportId` `(ObjectId)` - идентификатор корабля.
 
 ---
 
 - **`TOOLTIP_PROCEDURAL_GOAL`** - тултип цели процедурного данжа.
-  - `goalId` (`ObjectId`) - идентификатор цели.
+  - `goalId` `(ObjectId)` - идентификатор цели.
 
 ---
 
 - **`TOOLTIP_MAP_PROCEDURAL_GOAL`** - тултип точки выполнения цели(ей) процедурного данжа на карте.
-  - `goalId` (`ObjectId`) - идентификатор основной цели.
-  - `goals` (`table`) - `index from 1 of ObjectId` идентификаторы иных целей.
+  - `goalId` `(ObjectId)` - идентификатор основной цели.
+  - `goals` `(table)` - `index from 1 of ObjectId` идентификаторы иных целей.
 
 ---
 
 - **`TOOLTIP_PROCEDURAL_SCENARIOS`** - тултип сценария процедурного данжа.
-  - `scenarioId` (`ObjectId`) - идентификатор сценария.
+  - `scenarioId` `(ObjectId)` - идентификатор сценария.
 
 ---
 
 - **`TOOLTIP_INSTANCED_EVENT`** - тултип инстанс-события (PvP и PvE).
-  - `instanceId` (`ObjectId`) - идентификатор события.
-  - `name` (`ValidText`) - оверрайд имени.
-  - `desc` (`ValidText`) - оверрайд описания.
-  - `needLeader` (`table`) - `param for TC_SMART_LINE` дополнительный текст в конце.
-  - `needRole` (`table`) - `param for TC_SMART_LINE` дополнительный текст после `needLeader`.
+  - `instanceId` `(ObjectId)` - идентификатор события.
+  - `name` `(ValidText)` - оверрайд имени.
+  - `desc` `(ValidText)` - оверрайд описания.
+  - `needLeader` `(table)` - `param for TC_SMART_LINE` дополнительный текст в конце.
+  - `needRole` `(table)` - `param for TC_SMART_LINE` дополнительный текст после `needLeader`.
 
 ---
 
 - **`TOOLTIP_LFG_DESTINATION`** - тултип LFG.
-  - `destinationId` (`LfgDestinationId`) - идентификатор ресурса LFG.
-  - `name` (`ValidText`) - оверрайд имени.
-  - `desc` (`ValidText`) - оверрайд описания.
-  - `isDepart` (`boolean`) - если `true`, отображаются проваленные требования к отправлению, иначе - к посещению.
-  - `needLeader` (`table`) - `param for TC_SMART_LINE` дополнительный текст в конце.
-  - `needRole` (`table`) - `param for TC_SMART_LINE` дополнительный текст после `needLeader`.
+  - `destinationId` `(LfgDestinationId)` - идентификатор ресурса LFG.
+  - `name` `(ValidText)` - оверрайд имени.
+  - `desc` `(ValidText)` - оверрайд описания.
+  - `isDepart` `(boolean)` - если `true`, отображаются проваленные требования к отправлению, иначе - к посещению.
+  - `needLeader` `(table)` - `param for TC_SMART_LINE` дополнительный текст в конце.
+  - `needRole` `(table)` - `param for TC_SMART_LINE` дополнительный текст после `needLeader`.
 
 ---
 
 - **`TOOLTIP_HIDDEN_BUFFS`** - тултип списка спрятанных бафов.
-  - `name` (`ValidText`) - имя.
-  - `desc` (`ValidText`) - описание.
-  - `list` (`table`) - `index from 1 of (ObjectId or BuffId)` список идентификаторов бафов (отображаются первые 10).
-  - `more` (`table`) - `param for TC_SMART_LINE` дополнительный текст при длине списка более 10.
+  - `name` `(ValidText)` - имя.
+  - `desc` `(ValidText)` - описание.
+  - `list` `(table)` - `index from 1 of (ObjectId or BuffId)` список идентификаторов бафов (отображаются первые 10).
+  - `more` `(table)` - `param for TC_SMART_LINE` дополнительный текст при длине списка более 10.
 
 ---
 
 - **`TOOLTIP_MEDAL`** - тултип достижения.
-  - `medalId` (`ObjectId`) - идентификатор достижения.
-  - `desc` (`ValidText`) - оверрайд описания.
-  - `isCompare` (`boolean`) - является ли тултип тултипом сравнения.
-  - `compareId` (`ObjectId`) - идентификатор сравниваемого достижения.
+  - `medalId` `(ObjectId)` - идентификатор достижения.
+  - `desc` `(ValidText)` - оверрайд описания.
+  - `isCompare` `(boolean)` - является ли тултип тултипом сравнения.
+  - `compareId` `(ObjectId)` - идентификатор сравниваемого достижения.
 
 ---
 
 - **`TOOLTIP_SOUL_TALENT`** - тултип таланта искры.
-  - `current` (`AbilityId`) - идентификатор текущего ранга способности.
-  - `next` (`AbilityId`) - идентификатор следующего ранга способности.
-  - `compare` (`boolean`) - является ли тултип тултипом сравнения.
+  - `current` `(AbilityId)` - идентификатор текущего ранга способности.
+  - `next` `(AbilityId)` - идентификатор следующего ранга способности.
+  - `compare` `(boolean)` - является ли тултип тултипом сравнения.
 
 ---
 
 - **`TOOLTIP_MAP_MODIFIER`** - тултип модификатора карты.
-  - `modifierId` (`ObjectId`) - идентификатор модификатора карты.
-  - `name` (`ValidText`) - оверрайд имени.
-  - `desc` (`ValidText`) - оверрайд описания.
+  - `modifierId` `(ObjectId)` - идентификатор модификатора карты.
+  - `name` `(ValidText)` - оверрайд имени.
+  - `desc` `(ValidText)` - оверрайд описания.
 
 ---
 
 - **`TOOLTIP_ARENA`** - тултип рейтингового достижения.
-  - `unitId` (`ObjectId`) - идентификатор юнита-владельца достижения.
-  - `type` (`number`) - `enum ?` тип рейтингового достижения (`matchMaking.GetRatingPvPScoreByUnitId`).
+  - `unitId` `(ObjectId)` - идентификатор юнита-владельца достижения.
+  - `type` `(number)` - `enum ?` тип рейтингового достижения (`matchMaking.GetRatingPvPScoreByUnitId`).
 
 ---
 
 - **`TOOLTIP_HISTORY_PLATE`** - тултип операции в казне гильдии.
-  - `ranks` (`table`) - `index from 1 of ValidText` тексты затронутых рангов.
-  - `tabards` (`table`) - `index from 1 of ValidText` тексты затронутых типов накидок.
+  - `ranks` `(table)` - `index from 1 of ValidText` тексты затронутых рангов.
+  - `tabards` `(table)` - `index from 1 of ValidText` тексты затронутых типов накидок.
 
 ---
 
 - **`TOOLTIP_SETBONUS`** - тултип сетевого бонуса.
-  - `info` (`table`) - `setBonusInfo` один элемент из `itemLib.GetSetBonusRoot()`.
+  - `info` `(table)` - `setBonusInfo` один элемент из `itemLib.GetSetBonusRoot()`.
 :::
 
 ::: details Компоненты тултипа
 Каждый компонент описывается таблицей со следующими полями:
-- **`type`** (`number`) - `enum TC_*` тип компонента.
+- **`type`** `(number)` - `enum TC_*` тип компонента.
 
 - **`[1]`** (`any` | `nil`) - параметр компонента. Для большинства компонентов представляет собой таблицу. Если `nil`, компонент игнорируется. *(Примечание: использование единицы в качестве индекса - неудачное историческое решение, поменять слишком сложно).*
-- **`updaters`** (`table`) - `tooltipUpdater` триггеры обновления. *(Доступно только внутри ContextTooltip), подробнее смотри в ClassTooltipComponents.lua.*
+- **`updaters`** `(table)` - `tooltipUpdater` триггеры обновления. *(Доступно только внутри ContextTooltip), подробнее смотри в ClassTooltipComponents.lua.*
 
 **Форматы текста по умолчанию:**
 - **Default:** 
@@ -595,23 +595,23 @@ end
 ---
 
 - **`TC_ICON_SMART_LINE`** - текст с иконкой.
-  - `text` (`table`) - `ValuedText:SetTextValues` текст. Если `format` не задан, используется Default.
-  - `leftIcon` (`table`) - описание левой иконки, таблица с полями: 
+  - `text` `(table)` - `ValuedText:SetTextValues` текст. Если `format` не задан, используется Default.
+  - `leftIcon` `(table)` - описание левой иконки, таблица с полями: 
     + `icon` (`UITextureId` | `TextureId`) - текстура BackLayer
     + `foreicon` (`UITextureId` | `TextureId`) - текстура FrontLayer
-    + `color` (`Color`) - (table or string or uint32_t) цвет BackLayer
-    + `forecolor` (`Color`) - (table or string or uint32_t) цвет FrontLayer
-    + `fullsize` (`table`) - размер иконки по осям, если не задано, то берется из поля size
+    + `color` `(Color)` - (table or string or uint32_t) цвет BackLayer
+    + `forecolor` `(Color)` - (table or string or uint32_t) цвет FrontLayer
+    + `fullsize` `(table)` - размер иконки по осям, если не задано, то берется из поля size
       + `sizeX` (`number` | `float`) - по X
       + `sizeY` (`number` | `float`) - по Y
     + `size` (`number` | `float`) - размер квадратной иконки, если не задано, то берется размер текстуры
-  - `rightIcon` (`table`) - описание правой иконки (аналогично левой).
+  - `rightIcon` `(table)` - описание правой иконки (аналогично левой).
 
 ---
 
 - **`TC_DOUBLE_LINE`** - двойной текст.
-  - `left` (`table`) - `ValuedText:SetTextValues` текст слева. Если format не задан, то берется Default (смотри выше).
-  - `right` (`table`) - `ValuedText:SetTextValues` текст справа. Если format не задан, то берется DefaultRight (смотри выше).
+  - `left` `(table)` - `ValuedText:SetTextValues` текст слева. Если format не задан, то берется Default (смотри выше).
+  - `right` `(table)` - `ValuedText:SetTextValues` текст справа. Если format не задан, то берется DefaultRight (смотри выше).
 
 ---
 
@@ -622,54 +622,54 @@ end
 ---
 
 - **`TC_ICON_BAR`** - несколько иконок в линию.
-  - `[1-N]` (`table`) - параметры иконки, таблица с полями: 
+  - `[1-N]` `(table)` - параметры иконки, таблица с полями: 
     + `icon` (`UITextureId` | `TextureId`) - текстура
     + `size` (`number` | `float`) - размер квадратной иконки, если не задано, то берется 50х50
-    + `text` (`ValidText`) - текст на иконке (расположен в правом нижнем углу)
+    + `text` `(ValidText)` - текст на иконке (расположен в правом нижнем углу)
     + `subicon` (`UITextureId` | `TextureId`) - текстура наложенной иконки, имеет размер 20х20 и расположена в левом верхнем углу
 
 ---
 
 - **`TC_PRICE`** - цена. Параметр напрямую передается в `moneyCountAdvanced`. Может быть:
-  - `number` (`int`) - число денег в меди. *(Важно: в одном тултипе может быть только одна такая цена).*
+  - `number` `(int)` - число денег в меди. *(Важно: в одном тултипе может быть только одна такая цена).*
   - `table` (`[1-3] of tables`) - набор до трех валют (порядок справа налево), каждая это таблица с полями. Поля: 
     + `value` (`number` | `int`) - значение валюты
-    + `currencyId` (`CurrencyId`) - идентификатор ресурса валюты, если задано, то: при наведении будет генерироваться суб-тултип валюты, текстура может быть взята из валюты
+    + `currencyId` `(CurrencyId)` - идентификатор ресурса валюты, если задано, то: при наведении будет генерироваться суб-тултип валюты, текстура может быть взята из валюты
     + `texture` (`UITextureId` | `TextureId`) - текстура, должна быть задана либо явно, либо через currencyId
-    + `text` (`ValidText`) - Текст вместо иконки / значения валюты, если задано, то currencyId, texture, value игнорируются
+    + `text` `(ValidText)` - Текст вместо иконки / значения валюты, если задано, то currencyId, texture, value игнорируются
     + `shiftPosition` (`number` | `float`) - только если задан text, сдвиг текста по X, для тонкого тюнинга положения
 
 ---
 
 - **`TC_ITEM_SOURCE`** - источник получения (обертка над `GlossaryId`).
-  - `glossaryId` (`GlossaryId`) - идентификатор ресурса интерактивного описания.
+  - `glossaryId` `(GlossaryId)` - идентификатор ресурса интерактивного описания.
 
 ---
 
 - **`TC_PROGRESS_BAR`** - прогрессбар.
-  - `color` (`Color`) - (table or string or uint32_t) цвет (по умолчанию `{ a = 1, r = 128/255, g = 184/255, b = 96/255 }`).
-  - `label` (`table`) - `ValuedText:SetTextValues` кастомный текст.
-  - `progressType` (`string`) - если `"reputation"`, то: 
+  - `color` `(Color)` - (table or string or uint32_t) цвет (по умолчанию `{ a = 1, r = 128/255, g = 184/255, b = 96/255 }`).
+  - `label` `(table)` - `ValuedText:SetTextValues` кастомный текст.
+  - `progressType` `(string)` - если `"reputation"`, то: 
     + `stateCur` (`number` | `int`) - текущее значение
     + `stateNext` (`number` | `int`) - максимальное значение 
   - Иначе: 
-    + `state` (`number`) - `[0-100]` процент прогрессбара 
-    + `isMeta` (`boolean`) - если true, то точность до сотых долей процента.
+    + `state` `(number)` - `[0-100]` процент прогрессбара 
+    + `isMeta` `(boolean)` - если true, то точность до сотых долей процента.
 
 ---
 
 - **`TC_FIVESTARS_RATING`** - рейтинг.
-  - `rating` (`number`) - `[0-5]` значение рейтинга.
-  - `format` (`ValidText`) - текст.
+  - `rating` `(number)` - `[0-5]` значение рейтинга.
+  - `format` `(ValidText)` - текст.
 :::
 
 ## Список параметров
 
-- **`isActive`** (`boolean`)
+- **`isActive`** `(boolean)`
     
     Флаг состояния тултипа. Значение `true` инициирует показ тултипа, значение `false` - скрывает его.
 
-- **`tooltipData`** (`table` | `nil`)
+- **`tooltipData`** `(table|nil)`
 
     Таблица параметров тултипа. Обязательна к передаче, если `isActive` равен `true`. Структура таблицы описана в разделе `Описание tooltipData`. При `isActive == false` допускается передача `nil`.
 

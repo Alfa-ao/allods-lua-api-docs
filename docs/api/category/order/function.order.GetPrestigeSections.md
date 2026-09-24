@@ -22,6 +22,6 @@ order.GetPrestigeSections(): table | nil
 
 Возвращает `table` | `nil` - список разделов по престижу ордена или `nil`, если данные отсутствуют.
 
-- **`name`** (`WString`) - название раздела.
+- **`name`** `(WString)` - название раздела.
 
-- **`raitingEventId`** (`ObjectId`) - идентификатор события престижа.
+- **`raitingEventId`** `(ObjectId)` - идентификатор события престижа.

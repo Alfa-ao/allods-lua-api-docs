@@ -23,7 +23,7 @@ changeRoom.GetPlayerIndexes(): table | nil
 Возвращает `table` или `nil`.
 
 Если данные успешно получены, возвращается таблица со следующими полями:
-- **`primary`** (`table` | `VariationsTable`) - Таблица, описывающая вариации основного персонажа.
+- **`primary`** `(table|VariationsTable)` - Таблица, описывающая вариации основного персонажа.
 
 - **`secondary`** (`table` | `VariationsTable` | `nil`) - Таблица, описывающая вариации второго персонажа, если он есть.
 
@@ -34,11 +34,11 @@ changeRoom.GetPlayerIndexes(): table | nil
 - **`petIndex`** (`number` | `integer` | `nil`) - Индекс текущего облика питомца, если он есть.
 
 Структура таблицы `VariationsTable`:
-- **`name`** (`WString`) - Имя персонажа.
+- **`name`** `(WString)` - Имя персонажа.
 
 - **`sexId`** (`number` | `ENUM_SEX_...`) - Пол игрока. Значения соответствуют перечислению `SEX_...` (`SEX_UNKNOWN`, `SEX_MALE`, `SEX_FEMALE`).
 
-- **`variations`** (`table`) - Таблица с индексами вариаций внешнего вида:
+- **`variations`** `(table)` - Таблица с индексами вариаций внешнего вида:
   - `skin` (`number` | `integer`) - индекс (с нуля) вариации кожи.
   - `skinColor` (`number` | `integer`) - индекс (с нуля) вариации цвета кожи.
   - `hair` (`number` | `integer`) - индекс (с нуля) вариации волос.

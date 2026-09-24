@@ -16,7 +16,7 @@ device.IsInUse( deviceId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`deviceId`** (`ObjectId`) - Идентификатор устройства.
+- **`deviceId`** `(ObjectId)` - Идентификатор устройства.
 
 ## Возвращаемые значения
 

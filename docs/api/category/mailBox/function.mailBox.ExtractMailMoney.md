@@ -20,7 +20,7 @@ mailBox.ExtractMailMoney( mailId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`mailId`** (`ObjectId`) - Уникальный идентификатор письма.
+- **`mailId`** `(ObjectId)` - Уникальный идентификатор письма.
 
 ## Возвращаемые значения
 

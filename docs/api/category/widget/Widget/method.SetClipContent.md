@@ -16,7 +16,7 @@ WidgetSafe:SetClipContent( clipContent: boolean )
 
 ## Список параметров
 
-- **`clipContent`** (`boolean`) - `true`, если обрезать дочерние виджеты по размерам текущего виджета.
+- **`clipContent`** `(boolean)` - `true`, если обрезать дочерние виджеты по размерам текущего виджета.
 
 ## Возвращаемые значения
 

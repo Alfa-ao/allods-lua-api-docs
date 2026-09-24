@@ -16,7 +16,7 @@ avatar.IsClientDetectorEnabled( type: number ): boolean
 
 ## Список параметров
 
-- **`type`** (`number`) - Тип детектора. Задается значением из перечисления `CLIENT_DETECTOR_*` (например, `CLIENT_DETECTOR_QUEST_NPC`).
+- **`type`** `(number)` - Тип детектора. Задается значением из перечисления `CLIENT_DETECTOR_*` (например, `CLIENT_DETECTOR_QUEST_NPC`).
 
 ## Возвращаемые значения
 

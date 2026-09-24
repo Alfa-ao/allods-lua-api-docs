@@ -16,7 +16,7 @@ device.HasRelatedQuestObjectives( deviceId: ObjectId, object: nil | QuestId | Ob
 
 ## Список параметров
 
-- **`deviceId`** (`ObjectId`) - Идентификатор устройства.
+- **`deviceId`** `(ObjectId)` - Идентификатор устройства.
 
 - **`object`** (`nil` | `QuestId` | `ObjectId`) - Объект для проверки связи. Принимает одно из трех значений: `nil` для проверки наличия связанных целей заданий в целом, `QuestId` для проверки связи с конкретным заданием, `ObjectId` (QuestObjective) для проверки связи с конкретной целью задания.
 

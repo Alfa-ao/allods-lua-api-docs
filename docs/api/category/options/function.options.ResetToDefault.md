@@ -16,7 +16,7 @@ options.ResetToDefault( optionBaseId: ObjectId )
 
 ## Список параметров
 
-- **`optionBaseId`** (`ObjectId`) - идентификатор опции или коллекции
+- **`optionBaseId`** `(ObjectId)` - идентификатор опции или коллекции
 
 ## Возвращаемые значения
 

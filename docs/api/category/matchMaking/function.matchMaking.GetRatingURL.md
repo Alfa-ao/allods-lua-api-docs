@@ -16,7 +16,7 @@ matchMaking.GetRatingURL( arenaType: number ): string | nil
 
 ## Список параметров
 
-- **`arenaType`** (`number`(`ENUM_RatingArenaType`)) - Тип рейтинговой арены.
+- **`arenaType`** (`number``(ENUM_RatingArenaType)`) - Тип рейтинговой арены.
 
 ## Возвращаемые значения
 

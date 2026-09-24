@@ -18,7 +18,7 @@ unit.IsAvatarRelated( objectId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`objectId`** (`ObjectId`) - Идентификатор объекта.
+- **`objectId`** `(ObjectId)` - Идентификатор объекта.
 
 ## Возвращаемые значения
 

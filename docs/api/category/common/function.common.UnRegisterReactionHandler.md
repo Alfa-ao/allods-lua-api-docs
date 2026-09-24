@@ -16,9 +16,9 @@ common.UnRegisterReactionHandler( reactionFunction: function, sysReactionName: s
 
 ## Список параметров
 
-- **`reactionFunction`** (`function`) - Функция-обработчик, которую необходимо отписать от реакции.
+- **`reactionFunction`** `(function)` - Функция-обработчик, которую необходимо отписать от реакции.
 
-- **`sysReactionName`** (`string`) - Системное название реакции, от которой производится отписка.
+- **`sysReactionName`** `(string)` - Системное название реакции, от которой производится отписка.
 
 ## Возвращаемые значения
 

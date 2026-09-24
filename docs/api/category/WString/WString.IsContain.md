@@ -20,9 +20,9 @@ WStringSafe:IsContain( part: WString, ignoreRegistry: boolean|nil ): boolean|nil
 
 ## Список параметров
 
-- **`part`** (`WString`) - Строка, проверяемая на вхождение.
+- **`part`** `(WString)` - Строка, проверяемая на вхождение.
 
-- **`ignoreRegistry`** (`boolean` | `nil`) - Игнорировать регистр. По умолчанию `false`.
+- **`ignoreRegistry`** `(boolean|nil)` - Игнорировать регистр. По умолчанию `false`.
 
 ## Возвращаемые значения
 

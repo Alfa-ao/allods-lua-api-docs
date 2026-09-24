@@ -16,7 +16,7 @@ mission.SetAEMarkRadius( radius: number )
 
 ## Список параметров
 
-- **`radius`** (`number`) - Радиус AEMark в метрах.
+- **`radius`** `(number)` - Радиус AEMark в метрах.
 
 ## Возвращаемые значения
 

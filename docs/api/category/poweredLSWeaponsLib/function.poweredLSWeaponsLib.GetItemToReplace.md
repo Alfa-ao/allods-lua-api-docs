@@ -16,9 +16,9 @@ poweredLSWeaponsLib.GetItemToReplace( powerItemId: ObjectId, itemClass: ItemClas
 
 ## Список параметров
 
-- **`powerItemId`** (`ObjectId`) - Идентификатор павер-итема.
+- **`powerItemId`** `(ObjectId)` - Идентификатор павер-итема.
 
-- **`itemClass`** (`ItemClassId`) - Класс заменяемого предмета.
+- **`itemClass`** `(ItemClassId)` - Класс заменяемого предмета.
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ lfgLib.GetDestinationsInCategory( сategoryId: LFGDestinationCategoryId ): table
 
 ## Список параметров
 
-- **`сategoryId`** (`LFGDestinationCategoryId`) - идентификатор категории.
+- **`$1`** `($2)` - идентификатор категории.
 
 ## Возвращаемые значения
 

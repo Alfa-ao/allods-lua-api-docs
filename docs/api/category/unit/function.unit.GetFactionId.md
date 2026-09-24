@@ -16,7 +16,7 @@ unit.GetFactionId( unitId: ObjectId ): FactionId
 
 ## Список параметров
 
-- **`unitId`** (`ObjectId`) - Уникальный идентификатор юнита.
+- **`unitId`** `(ObjectId)` - Уникальный идентификатор юнита.
 
 ## Возвращаемые значения
 

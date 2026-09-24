@@ -15,7 +15,7 @@ object.GetWorldSecrets( objectId: ObjectId ): table
 
 ## Список параметров
 
-- **`objectId`** (`ObjectId`) - идентификатор интерактивного объекта.
+- **`objectId`** `(ObjectId)` - идентификатор интерактивного объекта.
 
 ## Возвращаемые значения
 

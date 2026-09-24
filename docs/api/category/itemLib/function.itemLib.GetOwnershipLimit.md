@@ -16,7 +16,7 @@ itemLib.GetOwnershipLimit( itemId: ObjectId | ItemId ): number
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId` | `ItemId`) - Идентификатор предмета.
+- **`itemId`** `(ObjectId|ItemId)` - Идентификатор предмета.
 
 ## Возвращаемые значения
 

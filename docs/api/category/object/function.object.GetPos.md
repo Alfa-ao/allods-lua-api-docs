@@ -16,7 +16,7 @@ object.GetPos( objectId: ObjectId ): GamePosition | nil
 
 ## Список параметров
 
-- **`objectId`** (`ObjectId`) - Идентификатор объекта.
+- **`objectId`** `(ObjectId)` - Идентификатор объекта.
 
 ## Возвращаемые значения
 

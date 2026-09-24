@@ -20,7 +20,7 @@ object.GetInstantProjectedInfo( objectId: ObjectId, heightOffset: number ): tabl
 
 ## Список параметров
 
-- **`objectId`** (`ObjectId`) - Идентификатор объекта.
+- **`objectId`** `(ObjectId)` - Идентификатор объекта.
 
 - **`heightOffset`** (`number`(`ATTACHED_OBJECT_POS_*`)) - Место дополнительного смещения проецируемой точки около объекта.
 
@@ -28,11 +28,11 @@ object.GetInstantProjectedInfo( objectId: ObjectId, heightOffset: number ): tabl
 
 Возвращает `table` | `nil` - информация о 2D проекции объекта, аналогичная возвращаемому значению функции `object.GetProjectedInfo`, или `nil`, если информация недоступна.
 
-- **`posX`** (`number`) - Координата X проекции на экране.
+- **`posX`** `(number)` - Координата X проекции на экране.
 
-- **`posY`** (`number`) - Координата Y проекции на экране.
+- **`posY`** `(number)` - Координата Y проекции на экране.
 
-- **`isLos`** (`boolean`) - Флаг наличия прямой видимости.
+- **`isLos`** `(boolean)` - Флаг наличия прямой видимости.
 
 ## Примеры
 

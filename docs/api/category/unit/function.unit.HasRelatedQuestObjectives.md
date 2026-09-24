@@ -16,9 +16,9 @@ unit.HasRelatedQuestObjectives( unitId: ObjectId, object: QuestId | ObjectId | n
 
 ## Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор юнита.
+- **`unitId`** `(ObjectId)` - Идентификатор юнита.
 
-- **`object`** (`QuestId` | `ObjectId` | `nil`) - Определяет вариант проверки: `nil` - проверить наличие связанных целей заданий в целом; `QuestId` - связь с конкретным заданием; `ObjectId` (`QuestObjective`) - связь с конкретной целью задания.
+- **`object`** (`QuestId` | `ObjectId` | `nil`) - Определяет вариант проверки: `nil` - проверить наличие связанных целей заданий в целом; `QuestId` - связь с конкретным заданием; `ObjectId` `(QuestObjective)` - связь с конкретной целью задания.
 
 ## Возвращаемые значения
 

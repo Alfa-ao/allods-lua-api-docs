@@ -18,7 +18,7 @@ spellLib.GetDurationBuffId( spellId: SpellId ): BuffId | nil
 
 ## Список параметров
 
-- **`spellId`** (`SpellId`) - Идентификатор умения.
+- **`spellId`** `(SpellId)` - Идентификатор умения.
 
 ## Возвращаемые значения
 

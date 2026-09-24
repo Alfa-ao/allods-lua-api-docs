@@ -16,7 +16,7 @@ ValuedTextSafe:SetVal( key: string | WString, value: string | WString | ValuedOb
 
 ## Список параметров
 
-- **`key`** (`string` | `WString`) - тег, для которого устанавливается значение
+- **`key`** `(string|WString)` - тег, для которого устанавливается значение
 
 - **`value`** (`string` | `WString` | `ValuedObject` | `ValuedText`) - устанавливаемое значение
 

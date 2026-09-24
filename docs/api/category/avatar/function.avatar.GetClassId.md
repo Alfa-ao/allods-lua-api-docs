@@ -20,7 +20,7 @@ avatar.GetClassId(): CharacterClassId
 
 ## Возвращаемые значения
 
-Возвращает `CharacterClassId` (`CharacterClassId`) - числовой идентификатор класса главного персонажа.
+Возвращает `CharacterClassId` `(CharacterClassId)` - числовой идентификатор класса главного персонажа.
 
 ## Примеры
 

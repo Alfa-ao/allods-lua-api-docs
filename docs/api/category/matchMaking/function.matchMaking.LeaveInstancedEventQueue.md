@@ -20,7 +20,7 @@ matchMaking.LeaveInstancedEventQueue( eventId: ObjectId )
 
 ## Список параметров
 
-- **`eventId`** (`ObjectId`) - Идентификатор соответствующего инстанс-ивента.
+- **`eventId`** `(ObjectId)` - Идентификатор соответствующего инстанс-ивента.
 
 ## Возвращаемые значения
 

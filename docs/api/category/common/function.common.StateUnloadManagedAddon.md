@@ -22,7 +22,7 @@ common.StateUnloadManagedAddon( name: string )
 
 ## Список параметров
 
-- **`name`** (`string`) - Имя выгружаемого аддона.
+- **`name`** `(string)` - Имя выгружаемого аддона.
 
 ## Возвращаемые значения
 

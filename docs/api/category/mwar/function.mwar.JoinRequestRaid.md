@@ -16,7 +16,7 @@ mwar.JoinRequestRaid( targetGuildId: ObjectId )
 
 ## Список параметров
 
-- **`targetGuildId`** (`ObjectId`) - Идентификатор гильдии, с которой будет сражение.
+- **`targetGuildId`** `(ObjectId)` - Идентификатор гильдии, с которой будет сражение.
 
 ## Возвращаемые значения
 

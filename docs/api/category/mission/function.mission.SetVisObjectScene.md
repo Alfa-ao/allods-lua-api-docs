@@ -16,11 +16,11 @@ mission.SetVisObjectScene( index: number, wtControl3D: Control3DSafe, visObjectI
 
 ## Список параметров
 
-- **`index`** (`number`) - индекс сцены, от `0` до `GetMaxCharacterSceneCount() - 1`.
+- **`index`** `(number)` - индекс сцены, от `0` до `GetMaxCharacterSceneCount() - 1`.
 
-- **`wtControl3D`** (`Control3DSafe`) - 3D-контрол, в котором должен отображаться объект.
+- **`wtControl3D`** `(Control3DSafe)` - 3D-контрол, в котором должен отображаться объект.
 
-- **`visObjectId`** (`VisObjectId` | `AliasVisObjectId`) - идентификатор визуального объекта (эффекта) или его обвязки.
+- **`visObjectId`** `(VisObjectId|AliasVisObjectId)` - идентификатор визуального объекта (эффекта) или его обвязки.
 
 ## Возвращаемые значения
 

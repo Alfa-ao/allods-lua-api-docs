@@ -22,7 +22,7 @@ craft.DiceCraftGetInspirationLevels(): table|nil
 
 Возвращает `table` или `nil`.
 
-- `table` - список (индексируется от 0) уровней вдохновения (`number`).
+- `table` - список (индексируется от 0) уровней вдохновения `(number)`.
 
 - `nil` - если произошла ошибка.
 

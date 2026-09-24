@@ -16,7 +16,7 @@ itemLib.GetAlternativePriceInfo( itemId: ObjectId ): table|nil
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`) - Идентификатор предмета.
+- **`itemId`** `(ObjectId)` - Идентификатор предмета.
 
 ## Возвращаемые значения
 
@@ -24,9 +24,9 @@ itemLib.GetAlternativePriceInfo( itemId: ObjectId ): table|nil
 
 Каждая цена представлена таблицей со следующими полями:
 
-- **`currencyId`** (`CurrencyId`) - Идентификатор ресурса альтернативной валюты.
+- **`currencyId`** `(CurrencyId)` - Идентификатор ресурса альтернативной валюты.
 
-- **`value`** (`number`) - Цена в этой валюте.
+- **`value`** `(number)` - Цена в этой валюте.
 
 ## Примеры
 

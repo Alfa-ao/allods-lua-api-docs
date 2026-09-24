@@ -16,7 +16,7 @@ itemLib.GetIncludedMob( itemId: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`itemId`** (`ObjectId`) - Идентификатор предмета.
+- **`itemId`** `(ObjectId)` - Идентификатор предмета.
 
 ## Возвращаемые значения
 
@@ -26,15 +26,15 @@ itemLib.GetIncludedMob( itemId: ObjectId ): table | nil
 
 - **`sysType`** (`string`(`ENUM_BeastType_*`)) - Системный тип существа в личном приключении.
 
-- **`mob`** (`table`) - Таблица с полями:
+- **`mob`** `(table)` - Таблица с полями:
 
-- **`name`** (`WString`) - Название существа.
+- **`name`** `(WString)` - Название существа.
 
-- **`title`** (`WString`) - Титул существа.
+- **`title`** `(WString)` - Титул существа.
 
-- **`description`** (`WString`) - Описание существа.
+- **`description`** `(WString)` - Описание существа.
 
-- **`kind`** (`table`) - Таблица с описанием вида существа:
+- **`kind`** `(table)` - Таблица с описанием вида существа:
 
 - **`race`** (`number`(`ENUM_CreatureRace_*`)) - Раса существа.
 

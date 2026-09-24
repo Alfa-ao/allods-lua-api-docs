@@ -16,11 +16,11 @@ craft.MakeForge( forgeId: ForgeCraftResourceId, recipeId: ForgeCraftRecipeId, co
 
 ## Список параметров
 
-- **`forgeId`** (`ForgeCraftResourceId`) - Ресурс forge крафта (поле `tierResource` в `craft.GetForgeRecipeInfo`).
+- **`forgeId`** `(ForgeCraftResourceId)` - Ресурс forge крафта (поле `tierResource` в `craft.GetForgeRecipeInfo`).
 
-- **`recipeId`** (`ForgeCraftRecipeId`) - Ресурс рецепта крафта.
+- **`recipeId`** `(ForgeCraftRecipeId)` - Ресурс рецепта крафта.
 
-- **`components`** (`table`) - Таблица таблиц компонентов (индексы внешней таблицы от `0` до `MAX_FORGE_COMPONENT_COUNT`). Значение - таблица (индексированная с `1`) с `ObjectId` предметов компонентов в порядке приоритета применения.
+- **`components`** `(table)` - Таблица таблиц компонентов (индексы внешней таблицы от `0` до `MAX_FORGE_COMPONENT_COUNT`). Значение - таблица (индексированная с `1`) с `ObjectId` предметов компонентов в порядке приоритета применения.
 
 ## Возвращаемые значения
 

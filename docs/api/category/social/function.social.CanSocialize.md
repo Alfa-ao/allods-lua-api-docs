@@ -16,7 +16,7 @@ social.CanSocialize( unitId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`unitId`** (`ObjectId`) - Уникальный идентификатор юнита.
+- **`unitId`** `(ObjectId)` - Уникальный идентификатор юнита.
 
 ## Возвращаемые значения
 

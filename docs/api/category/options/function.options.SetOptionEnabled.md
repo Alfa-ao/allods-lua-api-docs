@@ -26,11 +26,11 @@ options.SetOptionEnabled( id: ObjectId | string, value: boolean, apply: boolean 
 
 ## Список параметров
 
-- **`id`** (`ObjectId` | `string`) - Идентификатор опции.
+- **`id`** `(ObjectId|string)` - Идентификатор опции.
 
-- **`value`** (`boolean`) - Новое значение для опции.
+- **`value`** `(boolean)` - Новое значение для опции.
 
-- **`apply`** (`boolean` | `nil`) - Если `true`, значение применяется немедленно.
+- **`apply`** `(boolean|nil)` - Если `true`, значение применяется немедленно.
 
 ## Возвращаемые значения
 

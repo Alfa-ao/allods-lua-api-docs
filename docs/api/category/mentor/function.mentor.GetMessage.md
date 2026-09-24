@@ -16,7 +16,7 @@ mentor.GetMessage( mentorId: ObjectId ): WString
 
 ## Список параметров
 
-- **`mentorId`** (`ObjectId`) - Идентификатор ментора.
+- **`mentorId`** `(ObjectId)` - Идентификатор ментора.
 
 ## Возвращаемые значения
 

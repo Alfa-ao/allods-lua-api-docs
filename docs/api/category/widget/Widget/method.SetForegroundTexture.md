@@ -12,11 +12,11 @@ description: Меняет текстуру переднего слоя конт�
 WidgetSafe:SetForegroundTexture( texture: TextureId | nil )
 ```
 
-Слой должен быть `WidgetLayerSimpleTexture`. Допустима пустая текстура (`nil`).
+Слой должен быть `WidgetLayerSimpleTexture`. Допустима пустая текстура `(nil)`.
 
 ## Список параметров
 
-- **`texture`** (`TextureId` | `nil`) - Идентификатор текстуры.
+- **`texture`** `(TextureId|nil)` - Идентификатор текстуры.
 
 ## Возвращаемые значения
 

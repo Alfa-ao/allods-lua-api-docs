@@ -16,17 +16,17 @@ unit.GetTrainerClass( unitId: ObjectId ): table | nil
 
 ## Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор юнита.
+- **`unitId`** `(ObjectId)` - Идентификатор юнита.
 
 ## Возвращаемые значения
 
 Возвращает `table` | `nil` - таблицу с параметрами класса или `nil`, если данные недоступны.
 
-- **`className`** (`string`) - Имя класса.
+- **`className`** `(string)` - Имя класса.
 
 - **`manaType`** (`number`(`MANA_TYPE_*`)) - Тип маны обучаемого класса (MANA/ENERGY).
 
-- **`name`** (`WString`) - Локализованное имя класса.
+- **`name`** `(WString)` - Локализованное имя класса.
 
 ## Примеры
 

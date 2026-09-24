@@ -16,7 +16,7 @@ checkroomLib.IsHideSpellWhileNotLearned( spellId: SpellId ): boolean
 
 ## Список параметров
 
-- **`spellId`** (`SpellId`) - Идентификатор ресурса заклинания.
+- **`spellId`** `(SpellId)` - Идентификатор ресурса заклинания.
 
 ## Возвращаемые значения
 

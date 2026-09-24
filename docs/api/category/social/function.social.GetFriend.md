@@ -16,7 +16,7 @@ social.GetFriend( name: WString ): ObjectId | nil
 
 ## Список параметров
 
-- **`name`** (`WString`) - Имя друга.
+- **`name`** `(WString)` - Имя друга.
 
 ## Возвращаемые значения
 

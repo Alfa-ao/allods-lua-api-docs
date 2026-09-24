@@ -20,7 +20,7 @@ WidgetSafe:SetPriority( priority: number )
 
 ## Список параметров
 
-- **`priority`** (`number`) - приоритет контрола.
+- **`priority`** `(number)` - приоритет контрола.
 
 ## Возвращаемые значения
 

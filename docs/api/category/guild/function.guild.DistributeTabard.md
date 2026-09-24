@@ -16,7 +16,7 @@ guild.DistributeTabard( memberId: ObjectId, tabardType: number | ENUM_TabardType
 
 ## Список параметров
 
-- **`memberId`** (`ObjectId`) - Идентификатор члена гильдии.
+- **`memberId`** `(ObjectId)` - Идентификатор члена гильдии.
 
 - **`tabardType`** (`number` | `ENUM_TabardType_...`) - Тип знака отличия.
 

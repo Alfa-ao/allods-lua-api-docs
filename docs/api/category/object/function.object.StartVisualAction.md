@@ -20,11 +20,11 @@ object.StartVisualAction( objectId: ObjectId, channelIndex: number, visActionId:
 
 ## Список параметров
 
-- **`objectId`** (`ObjectId`) - Идентификатор объекта.
+- **`objectId`** `(ObjectId)` - Идентификатор объекта.
 
 - **`channelIndex`** (`number`(`VIS_ACTION_*`)) - Индекс канала визуального скрипта. В данный момент имеется канал: `VIS_ACTION_NPC_TALK` - управление визуальным скриптом при разговоре с НПС.
 
-- **`visActionId`** (`VisObjectId`) - Идентификатор визуального объекта (эффекта).
+- **`visActionId`** `(VisObjectId)` - Идентификатор визуального объекта (эффекта).
 
 ## Возвращаемые значения
 

@@ -16,7 +16,7 @@ function object.IsEnemy( objectId: ObjectId ): boolean
 
 ## Список параметров
 
-- **`objectId`** (`ObjectId`) - Идентификатор объекта. Не может быть `nil`.
+- **`objectId`** `(ObjectId)` - Идентификатор объекта. Не может быть `nil`.
 
 ## Возвращаемые значения
 
