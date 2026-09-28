@@ -331,7 +331,7 @@ EVENT_AVATAR_FRIEND_IGNORE_LISTS_ERROR
 
 ### Список параметров
 
-- **`sysError`** (`string`(`ENUM_AvatarFriendIgnoreListsError_...`)) - код ошибки. Значения соответствуют перечислению `ENUM_AvatarFriendIgnoreListsError_...`.
+- **`sysError`** `(string(ENUM_AvatarFriendIgnoreListsError_...))` - код ошибки. Значения соответствуют перечислению `ENUM_AvatarFriendIgnoreListsError_...`.
 
 ### Смотрите также
 
@@ -492,7 +492,7 @@ EVENT_AVATAR_FRIEND_ONLINE_CHANGED
 
 - **`isOnline`** (`boolean`) - находится ли персонаж в онлайне.
 
-- **`sysStatus`** (`string`(`ENUM_AvatarOnlineStatus...`)) - онлайн-состояние персонажа. Значения соответствуют перечислению `ENUM_AvatarOnlineStatus...`.
+- **`sysStatus`** `(string(ENUM_AvatarOnlineStatus...))` - онлайн-состояние персонажа. Значения соответствуют перечислению `ENUM_AvatarOnlineStatus...`.
 
 ### Смотрите также
 
@@ -706,7 +706,7 @@ EVENT_AVATAR_ITEM_DROPPED
 
 - **`itemObject`** (`ValuedObject`) - объект, содержащий информацию о предмете.
 
-- **`actionType`** (`string`(`ENUM_EnumTakeItemActionType_...`)) - откуда взялся предмет. Значения соответствуют перечислению `ENUM_EnumTakeItemActionType_...`.
+- **`actionType`** `(string(ENUM_EnumTakeItemActionType_...))` - откуда взялся предмет. Значения соответствуют перечислению `ENUM_EnumTakeItemActionType_...`.
 
 ### Смотрите также
 
@@ -732,7 +732,7 @@ EVENT_AVATAR_ITEM_TAKEN
 
 - **`itemObject`** (`ValuedObject`) - объект, содержащий информацию о предмете.
 
-- **`actionType`** (`string`(`ENUM_EnumTakeItemActionType_...`)) - откуда взялся предмет. Значения соответствуют перечислению `ENUM_EnumTakeItemActionType_...`.
+- **`actionType`** `(string(ENUM_EnumTakeItemActionType_...))` - откуда взялся предмет. Значения соответствуют перечислению `ENUM_EnumTakeItemActionType_...`.
 
 ### Смотрите также
 
@@ -760,7 +760,7 @@ EVENT_AVATAR_ITEM_TAKEN_BY_GROUPMATE
 
 - **`itemObject`** (`ValuedObject`) - объект, содержащий информацию о предмете.
 
-- **`actionType`** (`string`(`ENUM_EnumTakeItemActionType_...`)) - откуда взялся предмет. Значения соответствуют перечислению `ENUM_EnumTakeItemActionType_...`.
+- **`actionType`** `(string(ENUM_EnumTakeItemActionType_...))` - откуда взялся предмет. Значения соответствуют перечислению `ENUM_EnumTakeItemActionType_...`.
 
 ### Смотрите также
 
@@ -929,7 +929,7 @@ EVENT_AVATAR_MONEY_DROPPED
 
 - **`money`** (`number`) - количество денег.
 
-- **`actionType`** (`string`(`ENUM_EnumTakeItemActionType_...`)) - почему потеряны деньги. Значения соответствуют перечислению `ENUM_EnumTakeItemActionType_...`.
+- **`actionType`** `(string(ENUM_EnumTakeItemActionType_...))` - почему потеряны деньги. Значения соответствуют перечислению `ENUM_EnumTakeItemActionType_...`.
 
 ### Смотрите также
 
@@ -956,7 +956,7 @@ EVENT_AVATAR_MONEY_TAKEN
 
 - **`money`** (`number`) - количество денег.
 
-- **`actionType`** (`string`(`ENUM_EnumTakeItemActionType_...`)) - откуда получены деньги. Значения соответствуют перечислению `ENUM_EnumTakeItemActionType_...`.
+- **`actionType`** `(string(ENUM_EnumTakeItemActionType_...))` - откуда получены деньги. Значения соответствуют перечислению `ENUM_EnumTakeItemActionType_...`.
 
 ### Смотрите также
 
@@ -985,7 +985,7 @@ EVENT_AVATAR_MONEY_TAKEN_BY_GROUPMATE
 
 - **`money`** (`number`) - количество денег.
 
-- **`actionType`** (`string`(`ENUM_EnumTakeItemActionType_...`)) - откуда взяты деньги. Значения соответствуют перечислению `ENUM_EnumTakeItemActionType_...`.
+- **`actionType`** `(string(ENUM_EnumTakeItemActionType_...))` - откуда взяты деньги. Значения соответствуют перечислению `ENUM_EnumTakeItemActionType_...`.
 
 ### Смотрите также
 
@@ -1025,13 +1025,13 @@ EVENT_AVATAR_PROGRESS_GAINED
 
 ### Список параметров
 
-- **`type`** (`number`(`ENUM_DevelopmentTrack_...`)) - тип опыта. Значения соответствуют перечислению `ENUM_DevelopmentTrack_...`.
+- **`type`** `(number(ENUM_DevelopmentTrack_...))` - тип опыта. Значения соответствуют перечислению `ENUM_DevelopmentTrack_...`.
 
-- **`sysType`** (`string`(`ENUM_DevelopmentTrack_...`)) - строковое представление типа опыта. Значения соответствуют перечислению `ENUM_DevelopmentTrack_...`.
+- **`sysType`** `(string(ENUM_DevelopmentTrack_...))` - строковое представление типа опыта. Значения соответствуют перечислению `ENUM_DevelopmentTrack_...`.
 
-- **`source`** (`number`(`ENUM_DevelopmentSource_...`)) - тип источника опыта. Значения соответствуют перечислению `ENUM_DevelopmentSource_...`.
+- **`source`** `(number(ENUM_DevelopmentSource_...))` - тип источника опыта. Значения соответствуют перечислению `ENUM_DevelopmentSource_...`.
 
-- **`sysSource`** (`string`(`ENUM_DevelopmentSource_...`)) - строковое представление типа источника опыта. Значения соответствуют перечислению `ENUM_DevelopmentSource_...`.
+- **`sysSource`** `(string(ENUM_DevelopmentSource_...))` - строковое представление типа источника опыта. Значения соответствуют перечислению `ENUM_DevelopmentSource_...`.
 
 - **`total`** (`number`) - полученное количество опыта.
 
@@ -1083,7 +1083,7 @@ EVENT_AVATAR_PSIONIC_CONTACT_ADDED
 
 ### Список параметров
 
-- **`type`** (`number`(`PSIONIC_CONTACT_XXX`)) - тип контакта. Значения соответствуют перечислению `PSIONIC_CONTACT_XXX`.
+- **`type`** `(number(PSIONIC_CONTACT_XXX))` - тип контакта. Значения соответствуют перечислению `PSIONIC_CONTACT_XXX`.
 
 ### Смотрите также
 
@@ -1104,7 +1104,7 @@ EVENT_AVATAR_PSIONIC_CONTACT_CHANGED
 
 ### Список параметров
 
-- **`type`** (`number`(`PSIONIC_CONTACT_XXX`)) - тип контакта. Значения соответствуют перечислению `PSIONIC_CONTACT_XXX`.
+- **`type`** `(number(PSIONIC_CONTACT_XXX))` - тип контакта. Значения соответствуют перечислению `PSIONIC_CONTACT_XXX`.
 
 ### Смотрите также
 
@@ -1125,7 +1125,7 @@ EVENT_AVATAR_PSIONIC_CONTACT_REMOVED
 
 ### Список параметров
 
-- **`type`** (`number`(`PSIONIC_CONTACT_XXX`)) - тип контакта. Значения соответствуют перечислению `PSIONIC_CONTACT_XXX`.
+- **`type`** `(number(PSIONIC_CONTACT_XXX))` - тип контакта. Значения соответствуют перечислению `PSIONIC_CONTACT_XXX`.
 
 ### Смотрите также
 

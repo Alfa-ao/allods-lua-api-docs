@@ -10,4 +10,4 @@ EVENT_RUNE_OPERATION_RESULT
 
 ### Список параметров
 
-- **`sysResult`** (`string`(`ENUM_RuneOperationResult_...`)) - Код результата. Значения соответствуют перечислению `ENUM_RuneOperationResult_...`.
+- **`sysResult`** `(string(ENUM_RuneOperationResult_...))` - Код результата. Значения соответствуют перечислению `ENUM_RuneOperationResult_...`.

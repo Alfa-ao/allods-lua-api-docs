@@ -10,7 +10,7 @@ EVENT_EQUIPMENT_ACTIVE_PRESET_CHANGED
 
 ### Список параметров
 
-- **`value`** (`number`(`DUMMY_TYPE`)) - тип контейнера с экипировкой.
+- **`value`** `(number(DUMMY_TYPE))` - тип контейнера с экипировкой.
 
 ### Смотрите также
 
@@ -33,4 +33,4 @@ EVENT_EQUIPMENT_DRESS_ENABLE_CHANGED
 
 - **`unitId`** (`ObjectId`) - идентификатор игрока, у которого изменилось состояние.
 
-- **`type`** (`number`(`DUMMY_TYPE`)) - тип контейнера с экипировкой.
+- **`type`** `(number(DUMMY_TYPE))` - тип контейнера с экипировкой.

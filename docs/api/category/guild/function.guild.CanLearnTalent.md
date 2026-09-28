@@ -41,7 +41,7 @@ guild.CanLearnTalent( field: number, row: number, column: number, talentType: ?n
 - `talentsPointRequired` `(number)` - требуемое количество очков талантов.
 - `experience` `(number)` - доступное количество опыта.
 - `experienceRequired` `(number)` - требуемое количество опыта.
-- `requiredCurrency` (`CurrencyId` | `nil`) - требуемая альтернативная валюта.
+- `requiredCurrency` `(CurrencyId|nil)` - требуемая альтернативная валюта.
 
 ## Примеры
 

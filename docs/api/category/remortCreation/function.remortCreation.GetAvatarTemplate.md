@@ -54,7 +54,7 @@ remortCreation.GetAvatarTemplate( templateIndexes: table ): table | nil
 
 - `hairs` `(table)` - Доступные прически.
 
-- `hairColors` (`table` | `nil`) - Доступные цвета волос, если есть.
+- `hairColors` `(table|nil)` - Доступные цвета волос, если есть.
 
 - `faces` `(table)` - Доступные варианты лица.
 

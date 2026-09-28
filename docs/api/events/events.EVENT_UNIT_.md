@@ -38,23 +38,23 @@ EVENT_UNIT_DAMAGE_RECEIVED
 
 ### Список параметров
 
-- **`source`** (`ObjectId` | `nil`) - Идентификатор того, кто наносит повреждения.
+- **`source`** `(ObjectId|nil)` - Идентификатор того, кто наносит повреждения.
 - **`sourceName`** (`WString`) - Имя того, кто наносит повреждения.
 - **`target`** (`ObjectId`) - Идентификатор того, кто получает повреждения. Этот объект может уже исчезнуть, и надо проверять его на существование (см. object.IsExist()).
 - **`amount`** (`number`) - Количество нанесенных повреждений.
 - **`ability`** (`WString`) - Имя спелла или умения.
-- **`sysSubElement`** (`string`(`ENUM_SubElement_...`)) - Тип повреждения. Значения соответствуют перечислению `ENUM_SubElement_...`.
-- **`lethal`** (`boolean` | `nil`) - Этот удар был финальным. Юнит умер.
+- **`sysSubElement`** `(string(ENUM_SubElement_...))` - Тип повреждения. Значения соответствуют перечислению `ENUM_SubElement_...`.
+- **`lethal`** `(boolean|nil)` - Этот удар был финальным. Юнит умер.
 - **`spellId`** (`SpellId`(`ResourceId`) | `nil`) - Id спелла, если били спеллом.
 - **`abilityId`** (`AbilityId`(`ResourceId`) | `nil`) - Id абилки, если били абилкой.
 - **`buffId`** (`BuffId`(`ResourceId`) | `nil`) - Id буффа, если били буффом.
 - **`mapModifierId`** (`MapModifierId`(`ResourceId`) | `nil`) - Модификатор карты, если повреждения от модификатора карты.
 - **`isFall`** (`boolean`) - Повреждение от падения.
 - **`isExploit`** (`boolean`) - Повреждения от эксплойта.
-- **`isDodge`** (`boolean` | `nil`) - Увернулась ли цель от удара.
-- **`isMiss`** (`boolean` | `nil`) - Был ли промах.
-- **`isCritical`** (`boolean` | `nil`) - Был ли нанесён Critical Damage (увеличенное повреждение).
-- **`isGlancing`** (`boolean` | `nil`) - Был ли нанесён glancing damage (уменьшенное повреждение).
+- **`isDodge`** `(boolean|nil)` - Увернулась ли цель от удара.
+- **`isMiss`** `(boolean|nil)` - Был ли промах.
+- **`isCritical`** `(boolean|nil)` - Был ли нанесён Critical Damage (увеличенное повреждение).
+- **`isGlancing`** `(boolean|nil)` - Был ли нанесён glancing damage (уменьшенное повреждение).
 - **`shieldBlock`** (`number`) - Величина заблокированного урона, если был Shield Block, иначе 0.
 - **`parry`** (`number`) - Величина парированного урона, если был Parry, иначе 0.
 - **`resist`** (`number`) - Величина зарезистенного урона, если был резист, иначе 0.
@@ -105,7 +105,7 @@ EVENT_UNIT_EQUIPMENT_CHANGED
 
 - **`unitId`** (`ObjectId`) - Идентификатор юнита.
 
-- **`slotType`** (`number`(`ITEM_CONT_...`)) - Тип контейнера. Значения соответствуют перечислению `ITEM_CONT_...`.
+- **`slotType`** `(number(ITEM_CONT_...))` - Тип контейнера. Значения соответствуют перечислению `ITEM_CONT_...`.
 (HELP)
 ---
 
@@ -305,7 +305,7 @@ EVENT_UNIT_MESSAGE
 
 ### Список параметров
 
-- **`id`** (`ObjectId` | `nil`) - Id юнита, если есть, иначе nil.
+- **`id`** `(ObjectId|nil)` - Id юнита, если есть, иначе nil.
 - **`name`** (`WString`) - Имя юнита.
 - **`message`** (`WString`) - Текстовое сообщение от NPC.
 - **`isWhisper`** (`boolean`) - Является ли сообщение личным.
@@ -447,7 +447,7 @@ EVENT_UNIT_TOOK_MONEY
 ### Список параметров
 
 - **`ownerId`** (`ObjectId`) - Идентификатор игрока, взявшего предмет.
-- **`mobId`** (`ObjectId` | `nil`) - Идентификатор моба, с которого были взяты деньги (nil, если моб далеко).
+- **`mobId`** `(ObjectId|nil)` - Идентификатор моба, с которого были взяты деньги (nil, если моб далеко).
 - **`money`** (`number`) - Количество взятых денег.
 
 ---

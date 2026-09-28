@@ -25,9 +25,9 @@ tutorialLib.GetTutorialInfo( id: TutorialId ): table|nil
 
 - **`sysName`** `(string|nil)` - Системное имя обучения.
 
-- **`viewType`** (`number``(Enum_TutorialViewType)`) - Тип отображения обучения.
+- **`viewType`** `(number(Enum_TutorialViewType))` - Тип отображения обучения.
 
-- **`runType`** (`number``(Enum_TutorialRunType)`) - Тип запуска обучения.
+- **`runType`** `(number(Enum_TutorialRunType))` - Тип запуска обучения.
 
 - **`isForced`** `(boolean)` - Игнорирует отключение.
 

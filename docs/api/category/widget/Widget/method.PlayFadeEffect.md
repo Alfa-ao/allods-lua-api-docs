@@ -22,7 +22,7 @@ WidgetSafe:PlayFadeEffect( start: number | nil, finish: number | nil, timeMs: nu
 
 - **`timeMs`** `(number|nil)` - Длительность эффекта в миллисекундах, должно быть строго положительное, в случае `nil` используется значение 1000. Гарантируется что итоговая длительность эффекта попадет в диапазон (timeMs, timeMs + время кадра).
 
-- **`algoDesc`** (`number` | `table` | `nil`) - Описание алгоритма эффекта: 
+- **`algoDesc`** `(number|table|nil)` - Описание алгоритма эффекта: 
 
     - `nil` - значение по умолчанию `EA_MONOTONOUS_INCREASE`; 
     - `number` - значение `EA_*`; 

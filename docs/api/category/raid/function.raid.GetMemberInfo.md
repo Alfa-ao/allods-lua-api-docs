@@ -22,7 +22,7 @@ raid.GetMemberInfo( memberId: WString | UniqueId | ObjectId ): table
 
 ## Список параметров
 
-- **`memberId`** (`WString` | `UniqueId` | `ObjectId`) - идентификатор персонажа.
+- **`memberId`** `(WString|UniqueId|ObjectId)` - идентификатор персонажа.
 
 ## Возвращаемые значения
 

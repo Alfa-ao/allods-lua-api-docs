@@ -48,8 +48,8 @@ EVENT_DOMINATION_OBJECTIVE_OWNER_CHANGED
 ### Список параметров
 
 - **`id`** (`ObjectId`) - Идентификатор цели.
-- **`owner`** (`number`(`ENUM_DominationFightTeam`)) - Команда, доминирующая над данной целью. Значения соответствуют перечислению `ENUM_DominationFightTeam`.
-- **`actualOwner`** (`number`(`ENUM_DominationFightTeam`)) - Команда, контролирующая данную цель. Значения соответствуют перечислению `ENUM_DominationFightTeam`.
+- **`owner`** `(number(ENUM_DominationFightTeam))` - Команда, доминирующая над данной целью. Значения соответствуют перечислению `ENUM_DominationFightTeam`.
+- **`actualOwner`** `(number(ENUM_DominationFightTeam))` - Команда, контролирующая данную цель. Значения соответствуют перечислению `ENUM_DominationFightTeam`.
 
 ### Смотрите также
 
@@ -141,7 +141,7 @@ EVENT_DOMINATION_OBJECTIVE_STATE_CHANGED
 
 - **`id`** (`ObjectId`) - Идентификатор цели.
 
-- **`state`** (`number`(`ENUM_DominationAreaState`)) - Текущее состояние цели. Значения соответствуют перечислению `ENUM_DominationAreaState`.
+- **`state`** `(number(ENUM_DominationAreaState))` - Текущее состояние цели. Значения соответствуют перечислению `ENUM_DominationAreaState`.
 
 ### Смотрите также
 
@@ -162,7 +162,7 @@ EVENT_DOMINATION_OBJECTIVE_TEAM_CHANGED
 ### Список параметров
 
 - **`id`** (`ObjectId`) - Идентификатор цели.
-- **`team`** (`number`(`ENUM_DominationFightTeam`)) - Команда, список персонажей которой изменился. Значения соответствуют перечислению `ENUM_DominationFightTeam`.
+- **`team`** `(number(ENUM_DominationFightTeam))` - Команда, список персонажей которой изменился. Значения соответствуют перечислению `ENUM_DominationFightTeam`.
 
 ### Смотрите также
 

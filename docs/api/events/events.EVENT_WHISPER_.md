@@ -9,5 +9,5 @@ EVENT_WHISPER_FAILED
 ### Список параметров
 - **`name`** (`WString`) - имя адресата.
 
-- **`sysReason`** (`string`(`ENUM_EnumRequestAddressByNameFailCause_...`)) - причина неудачной отправки сообщения.
+- **`sysReason`** `(string(ENUM_EnumRequestAddressByNameFailCause_...))` - причина неудачной отправки сообщения.
 (HELP)

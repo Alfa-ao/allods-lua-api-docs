@@ -10,4 +10,4 @@ EVENT_REVIVAL_ROLL_RESULT
 
 ### Список параметров
 
-- **`status`** (`string`(`ENUM_CreateRevivalRollResultStatus`)) - Статус; строковая константа. Значения соответствуют перечислению `ENUM_CreateRevivalRollResultStatus`.
+- **`status`** `(string(ENUM_CreateRevivalRollResultStatus))` - Статус; строковая константа. Значения соответствуют перечислению `ENUM_CreateRevivalRollResultStatus`.

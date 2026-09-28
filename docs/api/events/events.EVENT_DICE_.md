@@ -28,7 +28,7 @@ EVENT_DICE_CRAFT_CMD_FAILED
 
 - **`skillId`** (`SkillId`) - Идентификатор умения (скила).
 
-- **`cmdType`** (`string`(`ENUM_DiceCraftCmdType_...`)) - Какая именно команда не выполнена. Значения соответствуют перечислению `ENUM_DiceCraftCmdType_...`.
+- **`cmdType`** `(string(ENUM_DiceCraftCmdType_...))` - Какая именно команда не выполнена. Значения соответствуют перечислению `ENUM_DiceCraftCmdType_...`.
 
 ---
 
@@ -140,7 +140,7 @@ EVENT_DICE_CRAFT_SLOT_CHANGED
 
 - **`slot`** (`number`) - Номер слота.
 
-- **`itemId`** (`ObjectId` | `nil`) - `nil`, если слот пуст; иначе идентификатор предмета.
+- **`itemId`** `(ObjectId|nil)` - `nil`, если слот пуст; иначе идентификатор предмета.
 
 ## Смотрите также
 

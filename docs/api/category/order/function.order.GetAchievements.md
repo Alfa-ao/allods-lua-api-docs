@@ -40,7 +40,7 @@ order.GetAchievements( eventId: ObjectId ): table | nil
 
   - `achievement` `(number)` - Количество очков.
 
-  - `raceClass` (`table` | `nil`) - Информация о расе и классе персонажа `(LuaRaceClassInfoPart)`.
+  - `raceClass` `(table|nil)` - Информация о расе и классе персонажа `(LuaRaceClassInfoPart)`.
 
   - `isMainPlayer` `(boolean)` - Флаг, указывающий, что аватар принадлежит главному игроку.
 

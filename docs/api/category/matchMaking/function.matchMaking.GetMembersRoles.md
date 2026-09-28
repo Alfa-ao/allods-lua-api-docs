@@ -24,7 +24,7 @@ matchMaking.GetMembersRoles( eventId: ObjectId | nil ): table
 
 - **`id`** `(ObjectId|nil)` - Идентификатор аватара, если доступен.
 
-- **`role`** (`number``(ENUM_LFGRole)`) - Роль в группе.
+- **`role`** `(number(ENUM_LFGRole))` - Роль в группе.
 
 ## Примеры
 

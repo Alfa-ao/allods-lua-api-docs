@@ -12,7 +12,7 @@ EVENT_GLOBAL_COOLDOWN
 
 ### Список параметров
 
-- **`effect`** (`number`(`EFFECT_TYPE_...`)) - тип начавшегося эффекта.
+- **`effect`** `(number(EFFECT_TYPE_...))` - тип начавшегося эффекта.
 
 - **`id`** (`number`) - номер события.
 

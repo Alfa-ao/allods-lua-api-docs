@@ -30,7 +30,7 @@ avatar.GetAbilityInfo( id: AbilityId ): table | nil
 
 - `name` `(WString)` - Название умения.
 
-- `description` (`ValuedText` | `nil`) - Описание с подставленными текущими значениями параметров.
+- `description` `(ValuedText|nil)` - Описание с подставленными текущими значениями параметров.
 
 - `level` `(number)` - Уровень, начиная с которого доступно изучение умения.
 

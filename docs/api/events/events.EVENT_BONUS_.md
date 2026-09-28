@@ -10,9 +10,9 @@ EVENT_BONUS_POOL_CHANGED
 
 ### Список параметров
 
-- **`type`** (`number`(`ENUM_DevelopmentTrack_...`)) - тип бонуса.
+- **`type`** `(number(ENUM_DevelopmentTrack_...))` - тип бонуса.
 - 
-- **`sysType`** (`string`(`ENUM_DevelopmentTrack_...`)) - строковое представление типа бонуса.
+- **`sysType`** `(string(ENUM_DevelopmentTrack_...))` - строковое представление типа бонуса.
 
 ### Смотрите также
 

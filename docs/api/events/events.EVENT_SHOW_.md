@@ -16,7 +16,7 @@ EVENT_SHOW_ITEMS_INFO
 
 - **`items`** (`table`) - Индексированный с 0 список объектов, содержащий информацию о предметах.
 
-- **`reason`** (`number`(`ENUM_ShowItemsInfoReason_...`)) - Причина, из-за которой необходимо показать информацию. Значения соответствуют перечислению `ENUM_ShowItemsInfoReason_...`.
+- **`reason`** `(number(ENUM_ShowItemsInfoReason_...))` - Причина, из-за которой необходимо показать информацию. Значения соответствуют перечислению `ENUM_ShowItemsInfoReason_...`.
 
 ::: info Перечисления
 (HELP)

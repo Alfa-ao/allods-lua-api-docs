@@ -40,7 +40,7 @@ hangar.GetDeviceInfo( deviceId: ObjectId ): table|nil
 
 - **`quality`** `(number|ITEM_QUALITY)` - Качество предмета.
 
-- **`type`** (`number`(`USDEV_...`)) - Тип устройства.
+- **`type`** `(number(USDEV_...))` - Тип устройства.
 
 - **`techLevel`** `(number)` - Технический уровень устройства.
 

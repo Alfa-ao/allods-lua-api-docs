@@ -30,9 +30,9 @@ matchMaking.GetEventInfo( eventId: ObjectId ): table | nil
 
 - **`description`** `(ValuedText|WString)` - Описание с подставленными текущими значениями параметров.
 
-- **`resourceId`** (`ResourceId``(InstancedEventResourceId)`) - Идентификатор ресурса инстанс-ивента.
+- **`resourceId`** `(ResourceId(InstancedEventResourceId))` - Идентификатор ресурса инстанс-ивента.
 
-- **`category`** (`ResourceId``(InstancedEventCategoryId)`) - Идентификатор ресурса категории инстанс-ивента.
+- **`category`** `(ResourceId(InstancedEventCategoryId))` - Идентификатор ресурса категории инстанс-ивента.
 
 - **`isAvailable`** `(boolean)` - Флаг доступности инстанс-ивента аватару.
 
@@ -141,9 +141,9 @@ matchMaking.GetEventInfo( eventId: ObjectId ): table | nil
 
 - **`difficulty`** `(WString|nil)` - Сложность ивента текстом.
 
-- **`difficultyMode`** (`number``(ENUM_LFGEventDifficulty)`) - Сложность ивента индексом.
+- **`difficultyMode`** `(number(ENUM_LFGEventDifficulty))` - Сложность ивента индексом.
 
-- **`sysDifficultyMode`** (`string``(ENUM_LFGEventDifficulty)`) - Сложность ивента строкой.
+- **`sysDifficultyMode`** `(string(ENUM_LFGEventDifficulty))` - Сложность ивента строкой.
 
 ## Примеры
 

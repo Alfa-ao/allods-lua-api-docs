@@ -42,7 +42,7 @@ rules.GetEventTimeIntervals( eventRuleId: ObjectId ): table
 
 - **`weekly`** (`table` | `nil` ) - если интервал еженедельный, то таблица с полями:
     - `start` `(table)` - таблица, описывающая начало интервала. Поля:
-        - `day` (`number`(`ENUM_DayOfWeek...`)) - день недели начала события, начиная с 1 ( 1 - понедельник, 7 - воскресенье )
+        - `day` `(number(ENUM_DayOfWeek...))` - день недели начала события, начиная с 1 ( 1 - понедельник, 7 - воскресенье )
         - `hour` `(number)` - час начала события, начиная с 0
         - `minute` `(number)` - минута начала события, начиная с 0
     - `finish` `(table)` - таблица, описывающая конец интервала. Поля, такие же как в `start`.
@@ -66,8 +66,8 @@ rules.GetEventTimeIntervals( eventRuleId: ObjectId ): table
 
 - **`yearly`** (`table` | `nil` ) - если интервал ежегодный, то таблица с полями:
     - `start` `(table)` - таблица, описывающая начало интервала. Поля:
-        - `sysMonth` (`string`(`ENUM_Month...`)) - месяц начала события
-        - `month` (`number`(`ENUM_Month...`)) - месяц начала события
+        - `sysMonth` `(string(ENUM_Month...))` - месяц начала события
+        - `month` `(number(ENUM_Month...))` - месяц начала события
         - `day` `(number)` - день месяца начала события, начиная с 1
         - `hour` `(number)` - час начала события, начиная с 0
         - `minute` `(number)` - минута начала события, начиная с 0
@@ -87,8 +87,8 @@ rules.GetEventTimeIntervals( eventRuleId: ObjectId ): table
 - **`once`** (`table` | `nil` ) - если интервал однократный, то таблица с полями:
     - `start` `(table)` - таблица, описывающая начало интервала. Поля:
         - `year` `(number)` - год начала события
-        - `sysMonth` (`string`(`ENUM_Month...`)) - месяц начала события
-        - `month` (`number`(`ENUM_Month...`)) - месяц начала события
+        - `sysMonth` `(string(ENUM_Month...))` - месяц начала события
+        - `month` `(number(ENUM_Month...))` - месяц начала события
         - `day` `(number)` - день месяца начала события, начиная с 1
         - `hour` `(number)` - час начала события, начиная с 0
         - `minute` `(number)` - минута начала события, начиная с 0
@@ -98,8 +98,8 @@ rules.GetEventTimeIntervals( eventRuleId: ObjectId ): table
 - **`fromTime`** (`table` | `nil` ) - если интервал начинается в какой-то момент и не имеет конца, то таблица с полями:
     - `start` `(table)` - таблица, описывающая начало интервала. Поля:
         - `year` `(number)` - год начала события
-        - `sysMonth` (`string`(`ENUM_Month...`)) - месяц начала события
-        - `month` (`number`(`ENUM_Month...`)) - месяц начала события
+        - `sysMonth` `(string(ENUM_Month...))` - месяц начала события
+        - `month` `(number(ENUM_Month...))` - месяц начала события
         - `day` `(number)` - день месяца начала события, начиная с 1
         - `hour` `(number)` - час начала события, начиная с 0
         - `minute` `(number)` - минута начала события, начиная с 0
@@ -109,8 +109,8 @@ rules.GetEventTimeIntervals( eventRuleId: ObjectId ): table
 - **`cyclic`** (`table` | `nil` ) - если интервал длиться и повторяется через фиксированный период, то таблица с полями:
     - `start` `(table)` - таблица, описывающая начало интервала. Поля:
         - `year` `(number)` - год начала события
-        - `sysMonth` (`string`(`ENUM_Month...`)) - месяц начала события
-        - `month` (`number`(`ENUM_Month...`)) - месяц начала события
+        - `sysMonth` `(string(ENUM_Month...))` - месяц начала события
+        - `month` `(number(ENUM_Month...))` - месяц начала события
         - `day` `(number)` - день месяца начала события, начиная с 1
         - `hour` `(number)` - час начала события, начиная с 0
         - `minute` `(number)` - минута начала события, начиная с 0

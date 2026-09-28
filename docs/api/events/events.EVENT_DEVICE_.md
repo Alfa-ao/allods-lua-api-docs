@@ -249,7 +249,7 @@ EVENT_DEVICE_OFFLINE_REASON
 
 - **`id`** (`ObjectId`) - Идентификатор устройства.
 
-- **`sysReason`** (`string`(`ENUM_TurnReason_...`)) - Причина, по которой устройство выключено. Значения соответствуют перечислению `ENUM_TurnReason_...`.
+- **`sysReason`** `(string(ENUM_TurnReason_...))` - Причина, по которой устройство выключено. Значения соответствуют перечислению `ENUM_TurnReason_...`.
 
 ### Примеры
 

@@ -20,7 +20,7 @@ WidgetSafe:GetActiveChildrenRects( excludeType: number | nil ): table
 
 ## Список параметров
 
-- **`excludeType`** (`number``(ENUM_AddonType)` | `nil`) - Игнорируемый тип виджета.
+- **`excludeType`** `(number(ENUM_AddonType)|nil)` - Игнорируемый тип виджета.
 
 ::: info Перечисление
 - **`ENUM_ADDON_TYPE_NONE`** `(number)` - Невалидные или захардкоженные виджеты.

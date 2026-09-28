@@ -20,7 +20,7 @@ matchMaking.GetRatingPvPScoreByUnitId( arenaType: number, unitId: ObjectId ): ta
 
 ## Список параметров
 
-- **`arenaType`** (`number``(ENUM_RatingArenaType)`) - Тип арены.
+- **`arenaType`** `(number(ENUM_RatingArenaType))` - Тип арены.
 
 - **`unitId`** `(ObjectId)` - Идентификатор персонажа.
 

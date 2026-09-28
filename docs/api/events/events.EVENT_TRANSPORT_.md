@@ -31,7 +31,7 @@ EVENT_TRANSPORT_CRITICAL_MALFUNCTION
 
 ### Список параметров
 - **`id`** (`ObjectId`) - Идентификатор корабля.
-- **`sysType`** (`string`(`ENUM_CriticalMalfunctionType_CMT...`)) - Тип поломки. Значения соответствуют перечислению `ENUM_CriticalMalfunctionType_CMT...`.
+- **`sysType`** `(string(ENUM_CriticalMalfunctionType_CMT...))` - Тип поломки. Значения соответствуют перечислению `ENUM_CriticalMalfunctionType_CMT...`.
 (HELP)
 ---
 
@@ -166,7 +166,7 @@ EVENT_TRANSPORT_RENAME_REPLY_RESULT
 
 ### Список параметров
 - **`success`** (`boolean`) - true, если переименование прошло успешно. false, если имя невалидно и нужно попробовать другое имя.
-- **`sysNameErrorKind`** (`string`(`ENUM_InvalidNameKind_...`)) - Причина, по которой имя недопустимо. Значения соответствуют перечислению `ENUM_InvalidNameKind_...`.
+- **`sysNameErrorKind`** `(string(ENUM_InvalidNameKind_...))` - Причина, по которой имя недопустимо. Значения соответствуют перечислению `ENUM_InvalidNameKind_...`.
 - **`name`** (`WString`) - Имя корабля, в случае ошибки то, на которое пытались сменить.
 
 ---
@@ -179,8 +179,8 @@ EVENT_TRANSPORTS_CHANGED
 Событие присылается раз в кадр, если за этот кадр в зоне действия аватара появляется или исчезает корабль.
 
 ### Список параметров
-- **`spawned`** (`table` of `ObjectId`) - Индексированная с 1 таблица идентификаторов появившихся кораблей.
-- **`despawned`** (`table` of `ObjectId`) - Индексированная с 1 таблица идентификаторов исчезнувших кораблей.
+- **`spawned`** `(table of ObjectId)` - Индексированная с 1 таблица идентификаторов появившихся кораблей.
+- **`despawned`** `(table of ObjectId)` - Индексированная с 1 таблица идентификаторов исчезнувших кораблей.
 
 ---
 
@@ -193,7 +193,7 @@ EVENT_TRANSPORT_SHIELD_CHANGED
 
 ### Список параметров
 - **`id`** (`ObjectId`) - Идентификатор транспортного средства.
-- **`side`** (`number`(`SHIP_SIDE_XXX`)) - Сторона. Значения соответствуют перечислению `SHIP_SIDE_XXX`.
+- **`side`** `(number(SHIP_SIDE_XXX))` - Сторона. Значения соответствуют перечислению `SHIP_SIDE_XXX`.
 - **`strengthDelta`** (`number`) - На сколько изменилась суммарная сила щитов по представленной стороне. Величина отрицательна, если по щитам был нанесён урон, и положительная, если сила щитов восстановилась.
 (HELP)
 ---

@@ -18,8 +18,8 @@ EVENT_INGAME_UNDER_CURSOR_CHANGED
 
 - **`canUse`** (`boolean`) - можно ли использовать устройство в текущий момент.
 
-- **`deviceType`** (`number`(`USDEV_...`)) - тип корабельного устройства.
+- **`deviceType`** `(number(USDEV_...))` - тип корабельного устройства.
 
-- **`type`** (`number`(`HT_...`)) - тип хаба.
+- **`type`** `(number(HT_...))` - тип хаба.
 
-- **`name`** (`WString` | `nil`) - название хаба, если это HT_PORTAL.
+- **`name`** `(WString|nil)` - название хаба, если это HT_PORTAL.

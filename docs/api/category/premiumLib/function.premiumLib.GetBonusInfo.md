@@ -24,7 +24,7 @@ premiumLib.GetBonusInfo(): table | nil
 
 - **`bonus`** `(number)` - число бонусных ступеней.
 
-- **`removeTime`** (`table``(LuaFullDateTime)`) - срок истечения действия ступеней.
+- **`removeTime`** `(table(LuaFullDateTime))` - срок истечения действия ступеней.
 
 ## Примеры
 

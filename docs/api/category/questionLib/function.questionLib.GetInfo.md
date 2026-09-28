@@ -34,7 +34,7 @@ questionLib.GetInfo( questionId: ObjectId ): table | nil
 
 - **`questionData`** `(table)` - описание данных из ресурса вопроса. Таблица с полями:
 
-- `questionCustomData` (`table` | `nil`) - `nil`, если нет информации, иначе таблица, формат которой зависит от типа вопроса (см. `CategoryQuestionType`).
+- `questionCustomData` `(table|nil)` - `nil`, если нет информации, иначе таблица, формат которой зависит от типа вопроса (см. `CategoryQuestionType`).
 
 - **`remainingTimeMs`** `(number|nil)` - время в миллисекундах, оставшееся до потери вопросом актуальности; `nil`, если ограничения по времени нет.
 
@@ -42,9 +42,9 @@ questionLib.GetInfo( questionId: ObjectId ): table | nil
 
 - **`results`** `(table|nil)` - результат опроса ("кто как проголосовал?"), представляет собой массив (индексация начинается с 1), каждый элемент которого таблица с полями:
 
-- `playerId` (`ObjectId` | `nil`) - идентификатор игрока, если есть.
+- `playerId` `(ObjectId|nil)` - идентификатор игрока, если есть.
 
-- `playerName` (`WString` | `nil`) - имя игрока, если есть (голосование может быть анонимным).
+- `playerName` `(WString|nil)` - имя игрока, если есть (голосование может быть анонимным).
 
 - `clientData` `(table)` - таблица, аналогичная полю `values` события `EVENT_CLIENT_MESSAGE`.
 

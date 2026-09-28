@@ -10,7 +10,7 @@ EVENT_LFG_ACTION_FAIL
 
 ### Список параметров
 
-- **`cause`** (`number`(`ENUM_LfgActionFail`)) - причина сбоя. Значения соответствуют перечислению `ENUM_LfgActionFail`.
+- **`cause`** `(number(ENUM_LfgActionFail))` - причина сбоя. Значения соответствуют перечислению `ENUM_LfgActionFail`.
 
 ### Смотрите также
 
@@ -175,9 +175,9 @@ EVENT_LFG_VOTE
 
 - **`initiator`** (`WString`) - имя игрока, активировавшего опрос.
 
-- **`type`** (`number`(`ENUM_LFGVoteType`)) - предмет опроса. Значения соответствуют перечислению `ENUM_LFGVoteType`.
+- **`type`** `(number(ENUM_LFGVoteType))` - предмет опроса. Значения соответствуют перечислению `ENUM_LFGVoteType`.
 
-- **`destination`** (`LfgDestinationId` | `nil`) - пункт назначения.
+- **`destination`** `(LfgDestinationId|nil)` - пункт назначения.
 
 - **`endTimeMs`** (`number`) - время окончания опроса.
 

@@ -7,5 +7,5 @@ EVENT_UNEQUIP_FAILED
 
 ### Список параметров
 - **`slot`** (`number`) - Индекс слота в инвентаре [0..].
-- **`sysCode`** (`string`(`ENUM_DressResult_...`)) - Код ошибки. Значения соответствуют перечислению `ENUM_DressResult_...`.
+- **`sysCode`** `(string(ENUM_DressResult_...))` - Код ошибки. Значения соответствуют перечислению `ENUM_DressResult_...`.
 (HELP)

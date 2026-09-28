@@ -192,23 +192,23 @@ end
   - `binding` `(number)` - `enum ITEM_BINDING_*` оверрайд биндинга.
   - `bindResult` `(boolean)` - если `true`, считается, что предмет привязывается при получении.
   - `isCursed` `(boolean)` - оверрайд статуса проклятости.
-  - `count` (`number` | `int`) - оверрайд количества предметов в стаке.
+  - `count` `(number|int)` - оверрайд количества предметов в стаке.
   - `*canExchange` `(boolean)` - возможность выставить предмет на биржу негоциантов.
-  - `*endTime` (`number` | `int`) - время завершения предложения.
-  - `*lotteryPrice` (`number` | `int`) - цена в лотерее.
-  - `*lotteryDiscount` (`number` | `int`) - скидка в лотерее.
+  - `*endTime` `(number|int)` - время завершения предложения.
+  - `*lotteryPrice` `(number|int)` - цена в лотерее.
+  - `*lotteryDiscount` `(number|int)` - скидка в лотерее.
   - `*lotteryIsSuperPrize` `(boolean)` - является ли предмет суперпризом в лотерее.
 
 ---
 
 - **`TOOLTIP_ITEM_VENDOR`** - тултип предмета в продаже. Аналогично `TOOLTIP_ITEM`. Дополнительно:
-  - `quantity` (`number` | `int`) - количество предметов в продаже.
+  - `quantity` `(number|int)` - количество предметов в продаже.
   - `showReputation` `(boolean)` - отображение информации о требуемой для покупки репутации.
   - `requiredUnlocks` `(table)` - `index from 1 of UnlockId` список возможностей, требуемых для покупки.
   - `requiredAchievements` `(table)` - `index from 1 of tables` список рейтинговых достижений, требуемых для покупки. Каждое значение - таблица с полями: 
     + `ruleId` `(RuleId)` - идентификатор ресурса рейтингового события.
-    + `achievement` (`number` | `int`) - требуемое значение достижения.
-  - `price` (`number` | `int`) - оверрайд цены покупки.
+    + `achievement` `(number|int)` - требуемое значение достижения.
+  - `price` `(number|int)` - оверрайд цены покупки.
   - `*alternativePrice` `(table)` - `param for moneyCountAdvanced` альтернативная цена.
 
 ---
@@ -233,7 +233,7 @@ end
   - `spellId` `(SpellId)` - идентификатор ресурса спелла.
   - `name` `(ValidText)` - оверрайд имени.
   - `desc` `(ValidText)` - оверрайд описания.
-  - `customRank` (`number` | `int`) - оверрайд ранга.
+  - `customRank` `(number|int)` - оверрайд ранга.
   - `*tactics` `(boolean)` - обрезает большую часть информации (для тактик гильдии).
 
 ---
@@ -251,7 +251,7 @@ end
 ---
 
 - **`TOOLTIP_BUFF`** - тултип бафа.
-  - `buffId` (`ObjectId` | `BuffId`) - идентификатор бафа или ресурса бафа.
+  - `buffId` `(ObjectId|BuffId)` - идентификатор бафа или ресурса бафа.
   - `name` `(ValidText)` - оверрайд имени.
   - `desc` `(ValidText)` - оверрайд описания.
 
@@ -261,7 +261,7 @@ end
   - `abilityId` `(AbilityId)` - идентификатор ресурса способности.
   - `name` `(ValidText)` - оверрайд имени.
   - `desc` `(ValidText)` - оверрайд описания.
-  - `customRank` (`number` | `int`) - оверрайд ранга.
+  - `customRank` `(number|int)` - оверрайд ранга.
 
 ---
 
@@ -293,7 +293,7 @@ end
 
 - **`TOOLTIP_USABLE_DEVICE_ACTION`** - тултип действия UsableDevice.
   - `deviceId` `(ObjectId)` - идентификатор устройства.
-  - `index` (`number` | `int`) - индекс действия.
+  - `index` `(number|int)` - индекс действия.
   - `name` `(ValidText)` - оверрайд имени.
   - `desc` `(ValidText)` - оверрайд описания.
 
@@ -314,15 +314,15 @@ end
 
 - **`TOOLTIP_BASE_TALENT`** - тултип таланта.
   - `position` `(table)` - позиция таланта: 
-    + `row` (`number` | `int`) - строка (с 1)
-    + `column` (`number` | `int`) - столбец (с 1)
-    + `rank` (`number` | `int`) - ранг.
+    + `row` `(number|int)` - строка (с 1)
+    + `column` `(number|int)` - столбец (с 1)
+    + `rank` `(number|int)` - ранг.
   - `isLocked` `(boolean)` - статус блокировки таланта.
   - `cost` `(table)` - данные о стоимости изучения: 
-    + `value` (`number` | `int`) - стоимость в очках умений.
-    + `spentValue` (`number` | `int`) - всего потрачено очков умений.
-    + `count` (`number` | `int`) - доступно очков умений.
-  - `parentRank` (`number` | `int`) - ранг родительского таланта.
+    + `value` `(number|int)` - стоимость в очках умений.
+    + `spentValue` `(number|int)` - всего потрачено очков умений.
+    + `count` `(number|int)` - доступно очков умений.
+  - `parentRank` `(number|int)` - ранг родительского таланта.
 
 ---
 
@@ -331,10 +331,10 @@ end
     + `field` (`number` | `int`, с 1), 
     + `row` (`number` | `int`, с 1), 
     + `column` (`number` | `int`, с 1).
-    + `rank` (`number` | `int`) - ранг.
+    + `rank` `(number|int)` - ранг.
   - `cost` `(table)` - данные о стоимости изучения: 
-    + `value` (`number` | `int`) - стоимость в вехах развития
-    + `count` (`number` | `int`) - доступно вех развития.
+    + `value` `(number|int)` - стоимость в вехах развития
+    + `count` `(number|int)` - доступно вех развития.
     + `isAvailable` `(boolean)` - доступность для изучения (по соседним клеткам).
 
 ---
@@ -348,7 +348,7 @@ end
 - **`TOOLTIP_CURRENCY`** - тултип альтернативной валюты.
   - `currencyId` `(CurrencyId)` - идентификатор ресурса валюты.
   - `short` `(boolean)` - использование сокращенного варианта описания.
-  - `couponBuyLimit` (`number` | `int`) - если задано, значение валюты принимается за `(couponBuyLimit - значение)`.
+  - `couponBuyLimit` `(number|int)` - если задано, значение валюты принимается за `(couponBuyLimit - значение)`.
 
 ---
 
@@ -455,9 +455,9 @@ end
 ---
 
 - **`TOOLTIP_GUILD_TALENT`** - тултип таланта гильдии.
-  - `field` (`number` | `int`) - поле.
-  - `row` (`number` | `int`) - строка.
-  - `column` (`number` | `int`) - столбец.
+  - `field` `(number|int)` - поле.
+  - `row` `(number|int)` - строка.
+  - `column` `(number|int)` - столбец.
   - `shortDescription` `(boolean)` - если `true`, по возможности используется короткое описание.
 
 ---
@@ -560,7 +560,7 @@ end
 Каждый компонент описывается таблицей со следующими полями:
 - **`type`** `(number)` - `enum TC_*` тип компонента.
 
-- **`[1]`** (`any` | `nil`) - параметр компонента. Для большинства компонентов представляет собой таблицу. Если `nil`, компонент игнорируется. *(Примечание: использование единицы в качестве индекса - неудачное историческое решение, поменять слишком сложно).*
+- **`[1]`** `(any|nil)` - параметр компонента. Для большинства компонентов представляет собой таблицу. Если `nil`, компонент игнорируется. *(Примечание: использование единицы в качестве индекса - неудачное историческое решение, поменять слишком сложно).*
 - **`updaters`** `(table)` - `tooltipUpdater` триггеры обновления. *(Доступно только внутри ContextTooltip), подробнее смотри в ClassTooltipComponents.lua.*
 
 **Форматы текста по умолчанию:**
@@ -597,14 +597,14 @@ end
 - **`TC_ICON_SMART_LINE`** - текст с иконкой.
   - `text` `(table)` - `ValuedText:SetTextValues` текст. Если `format` не задан, используется Default.
   - `leftIcon` `(table)` - описание левой иконки, таблица с полями: 
-    + `icon` (`UITextureId` | `TextureId`) - текстура BackLayer
-    + `foreicon` (`UITextureId` | `TextureId`) - текстура FrontLayer
+    + `icon` `(UITextureId|TextureId)` - текстура BackLayer
+    + `foreicon` `(UITextureId|TextureId)` - текстура FrontLayer
     + `color` `(Color)` - (table or string or uint32_t) цвет BackLayer
     + `forecolor` `(Color)` - (table or string or uint32_t) цвет FrontLayer
     + `fullsize` `(table)` - размер иконки по осям, если не задано, то берется из поля size
-      + `sizeX` (`number` | `float`) - по X
-      + `sizeY` (`number` | `float`) - по Y
-    + `size` (`number` | `float`) - размер квадратной иконки, если не задано, то берется размер текстуры
+      + `sizeX` `(number|float)` - по X
+      + `sizeY` `(number|float)` - по Y
+    + `size` `(number|float)` - размер квадратной иконки, если не задано, то берется размер текстуры
   - `rightIcon` `(table)` - описание правой иконки (аналогично левой).
 
 ---
@@ -623,21 +623,21 @@ end
 
 - **`TC_ICON_BAR`** - несколько иконок в линию.
   - `[1-N]` `(table)` - параметры иконки, таблица с полями: 
-    + `icon` (`UITextureId` | `TextureId`) - текстура
-    + `size` (`number` | `float`) - размер квадратной иконки, если не задано, то берется 50х50
+    + `icon` `(UITextureId|TextureId)` - текстура
+    + `size` `(number|float)` - размер квадратной иконки, если не задано, то берется 50х50
     + `text` `(ValidText)` - текст на иконке (расположен в правом нижнем углу)
-    + `subicon` (`UITextureId` | `TextureId`) - текстура наложенной иконки, имеет размер 20х20 и расположена в левом верхнем углу
+    + `subicon` `(UITextureId|TextureId)` - текстура наложенной иконки, имеет размер 20х20 и расположена в левом верхнем углу
 
 ---
 
 - **`TC_PRICE`** - цена. Параметр напрямую передается в `moneyCountAdvanced`. Может быть:
   - `number` `(int)` - число денег в меди. *(Важно: в одном тултипе может быть только одна такая цена).*
   - `table` (`[1-3] of tables`) - набор до трех валют (порядок справа налево), каждая это таблица с полями. Поля: 
-    + `value` (`number` | `int`) - значение валюты
+    + `value` `(number|int)` - значение валюты
     + `currencyId` `(CurrencyId)` - идентификатор ресурса валюты, если задано, то: при наведении будет генерироваться суб-тултип валюты, текстура может быть взята из валюты
-    + `texture` (`UITextureId` | `TextureId`) - текстура, должна быть задана либо явно, либо через currencyId
+    + `texture` `(UITextureId|TextureId)` - текстура, должна быть задана либо явно, либо через currencyId
     + `text` `(ValidText)` - Текст вместо иконки / значения валюты, если задано, то currencyId, texture, value игнорируются
-    + `shiftPosition` (`number` | `float`) - только если задан text, сдвиг текста по X, для тонкого тюнинга положения
+    + `shiftPosition` `(number|float)` - только если задан text, сдвиг текста по X, для тонкого тюнинга положения
 
 ---
 
@@ -650,8 +650,8 @@ end
   - `color` `(Color)` - (table or string or uint32_t) цвет (по умолчанию `{ a = 1, r = 128/255, g = 184/255, b = 96/255 }`).
   - `label` `(table)` - `ValuedText:SetTextValues` кастомный текст.
   - `progressType` `(string)` - если `"reputation"`, то: 
-    + `stateCur` (`number` | `int`) - текущее значение
-    + `stateNext` (`number` | `int`) - максимальное значение 
+    + `stateCur` `(number|int)` - текущее значение
+    + `stateNext` `(number|int)` - максимальное значение 
   - Иначе: 
     + `state` `(number)` - `[0-100]` процент прогрессбара 
     + `isMeta` `(boolean)` - если true, то точность до сотых долей процента.

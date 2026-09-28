@@ -10,5 +10,5 @@ EVENT_TAKE_ITEMS_FAILED
 
 ### Список параметров
 
-- **`cause`** (`number`(`TAKE_ITEMS_RESULT_...`)) - Код результата. Значения соответствуют перечислению `TAKE_ITEMS_RESULT_...`.
+- **`cause`** `(number(TAKE_ITEMS_RESULT_...))` - Код результата. Значения соответствуют перечислению `TAKE_ITEMS_RESULT_...`.
 (HELP)

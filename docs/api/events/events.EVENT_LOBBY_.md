@@ -52,14 +52,14 @@ EVENT_LOBBY_CLIENT_MESSAGE
 
 - **`text`** (`WString`) - текст сообщения.
 
-- **`sysChatChannel`** (`string` | `nil`) - строковый идентификатор канала в чате, если канал был задан. См. `/ChatLog/Channels/ScriptMessageChannels.lua`. Уровни вложенности конкатенируются через подчеркивание. Например - `combat_damage_outgoing_miss`.
+- **`sysChatChannel`** `(string|nil)` - строковый идентификатор канала в чате, если канал был задан. См. `/ChatLog/Channels/ScriptMessageChannels.lua`. Уровни вложенности конкатенируются через подчеркивание. Например - `combat_damage_outgoing_miss`.
 
 - **`values`** (`table`) - индексированный с 0 список полученных параметров.
 
     - **`name`** (`string`) - строковое имя параметра.
 
-    - **`viewType`** (`number` | `nil`) - если не `nil`, то параметр надо показать не обычным, а указанным способом. Значения соответствуют перечислению `CLIENT_DATA_PARAM_*`.
+    - **`viewType`** `(number|nil)` - если не `nil`, то параметр надо показать не обычным, а указанным способом. Значения соответствуют перечислению `CLIENT_DATA_PARAM_*`.
 
-    - **`int`** (`number` | `nil`) - число, если получено число.
+    - **`int`** `(number|nil)` - число, если получено число.
 
-    - **`text`** (`WString` | `nil`) - строка, если получена строка.
+    - **`text`** `(WString|nil)` - строка, если получена строка.

@@ -22,7 +22,7 @@ group.GetMemberInfo( id: WString | UniqueId | ObjectId ): table | nil
 
 ## Список параметров
 
-- **`id`** (`WString` | `UniqueId` | `ObjectId`) - Идентификатор игрока.
+- **`id`** `(WString|UniqueId|ObjectId)` - Идентификатор игрока.
 
 ## Возвращаемые значения
 

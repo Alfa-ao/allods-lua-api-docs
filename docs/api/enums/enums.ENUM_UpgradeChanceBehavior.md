@@ -8,6 +8,6 @@
 
 ### Список значений
 
-- **`ENUM_UpgradeChanceBehavior_MaximizeImprovement`** (`number` | `string`) - Моментальное улучшение.
+- **`ENUM_UpgradeChanceBehavior_MaximizeImprovement`** `(number|string)` - Моментальное улучшение.
 
-- **`ENUM_UpgradeChanceBehavior_DoubleImprovement`** (`number` | `string`) - Удвоение величины улучшения.
+- **`ENUM_UpgradeChanceBehavior_DoubleImprovement`** `(number|string)` - Удвоение величины улучшения.

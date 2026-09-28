@@ -36,9 +36,9 @@ proceduralDungeonLib.GetGoalInfo( goalId: ObjectId ): table | nil
 
 - **`startTime`** `(LuaFullDateTime)` - Дата начала задания.
 
-- **`state`** (`number``(ENUM_EventGoalState)`) - Текущее состояние задания.
+- **`state`** `(number(ENUM_EventGoalState))` - Текущее состояние задания.
 
-- **`type`** (`number``(ENUM_EventGoalType)` | `nil`) - Тип задания; `nil` если неизвестный тип.
+- **`type`** `(number(ENUM_EventGoalType)|nil)` - Тип задания; `nil` если неизвестный тип.
 
 - **`count`** `(number|nil)` - Текущее количество убитых квестовых мобов / элементов. Присутствует для типов `ENUM_EventGoalType_KillMobs` и `ENUM_EventGoalType_ElementProgress`.
 

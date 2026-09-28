@@ -13,7 +13,7 @@ EVENT_GREED_NEED_ROLLS
 - **`rollId`** (`ObjectId`) - уникальный идентификатор ролла.
 
 - **`results`** (`table`) - список игроков, принимавших участие в ролле, и их ролл.
-    - **`looterId`** (`ObjectId` | `nil`) - уникальный идентификатор игрока, если он найден.
+    - **`looterId`** `(ObjectId|nil)` - уникальный идентификатор игрока, если он найден.
     - **`looterName`** (`WString`) - имя игрока.
     - **`roll`** (`number`) - число, выпавшее игроку.
 
@@ -33,8 +33,8 @@ EVENT_GREED_NEED_SELECTED
 
 - **`rollId`** (`ObjectId`) - уникальный идентификатор ролла.
 
-- **`looterId`** (`ObjectId` | `nil`) - уникальный идентификатор игрока, сделавшего выбор, если он найден.
+- **`looterId`** `(ObjectId|nil)` - уникальный идентификатор игрока, сделавшего выбор, если он найден.
 
 - **`looterName`** (`WString`) - имя игрока, сделавшего выбор.
 
-- **`choice`** (`number`(`CHOICE_GREED_NEED_...`)) - выбор.
+- **`choice`** `(number(CHOICE_GREED_NEED_...))` - выбор.

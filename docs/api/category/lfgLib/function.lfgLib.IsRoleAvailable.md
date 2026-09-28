@@ -16,7 +16,7 @@ lfgLib.IsRoleAvailable( role: number ): table | nil
 
 ## Список параметров
 
-- **`role`** (`number``(ENUM_LFGRole)`) - роль в группе.
+- **`role`** `(number(ENUM_LFGRole))` - роль в группе.
 
 ## Возвращаемые значения
 

@@ -30,7 +30,7 @@ EVENT_ITEMS_EXCHANGE_ERROR
 
 - **`invited`** (`WString`) - имя игрока, приглашенного торговать.
 
-- **`error`** (`string`(`ENUM_ExchangeResult...`)) - описание ошибки.
+- **`error`** `(string(ENUM_ExchangeResult...))` - описание ошибки.
 
 ---
 
@@ -46,7 +46,7 @@ EVENT_ITEMS_EXCHANGE_FINISHED
 
 ### Список параметров
 
-- **`state`** (`number`(`ItemsExchangeState_...`)) - состояние завершения торговли.
+- **`state`** `(number(ItemsExchangeState_...))` - состояние завершения торговли.
 
 ---
 

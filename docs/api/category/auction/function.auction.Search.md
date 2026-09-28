@@ -27,22 +27,22 @@ auction.Search( filter: table, orderField: number, asc: boolean, page: number )
 
 - **`filter`** `(table)`:
 
-    - `name` (`WString` | `nil`) - маска для поиска по имени.
+    - `name` `(WString|nil)` - маска для поиска по имени.
     
-    - `itemClass` (`string` | `nil`) - псевдоним класса предмета.
-    - `dressSlot` (`number` | `nil`) - слот одежды (перечисление `DRESS_SLOT_...`).
-    - `rarityMin` (`string` | `nil`) - псевдоним минимального качества предмета.
-    - `rarityMax` (`string` | `nil`) - псевдоним максимального качества предмета.
-    - `levelMin` (`number` | `nil`) - минимальный уровень предмета.
-    - `levelMax` (`number` | `nil`) - максимальный уровень предмета.
-    - `bidMin` (`number` | `nil`) - минимальная последняя ставка.
-    - `bidMax` (`number` | `nil`) - максимальная последняя ставка.
-    - `buyoutMin` (`number` | `nil`) - минимальная цена выкупа.
-    - `buyoutMax` (`number` | `nil`) - максимальная цена выкупа.
-    - `onlyMyAuctions` (`boolean` | `nil`) - флаг отображения только аукционов, созданных главным игроком.
-    - `onlyAuctionsWithMyBids` (`boolean` | `nil`) - флаг отображения только аукционов с последней ставкой от главного игрока.
-    - `rootCategory` (`ItemCategoryId` | `nil`) - идентификатор корневой категории.
-    - `childCategory` (`ItemCategoryId` | `nil`) - идентификатор терминальной категории.
+    - `itemClass` `(string|nil)` - псевдоним класса предмета.
+    - `dressSlot` `(number|nil)` - слот одежды (перечисление `DRESS_SLOT_...`).
+    - `rarityMin` `(string|nil)` - псевдоним минимального качества предмета.
+    - `rarityMax` `(string|nil)` - псевдоним максимального качества предмета.
+    - `levelMin` `(number|nil)` - минимальный уровень предмета.
+    - `levelMax` `(number|nil)` - максимальный уровень предмета.
+    - `bidMin` `(number|nil)` - минимальная последняя ставка.
+    - `bidMax` `(number|nil)` - максимальная последняя ставка.
+    - `buyoutMin` `(number|nil)` - минимальная цена выкупа.
+    - `buyoutMax` `(number|nil)` - максимальная цена выкупа.
+    - `onlyMyAuctions` `(boolean|nil)` - флаг отображения только аукционов, созданных главным игроком.
+    - `onlyAuctionsWithMyBids` `(boolean|nil)` - флаг отображения только аукционов с последней ставкой от главного игрока.
+    - `rootCategory` `(ItemCategoryId|nil)` - идентификатор корневой категории.
+    - `childCategory` `(ItemCategoryId|nil)` - идентификатор терминальной категории.
 
 - **`orderField`** `(number)` - Поле сортировки результатов. Задается значением `AUCTION_ORDERFIELD_...`. 
 

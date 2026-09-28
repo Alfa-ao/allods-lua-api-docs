@@ -59,10 +59,10 @@ EVENT_SHIP_DAMAGE_RECEIVED
 ### Список параметров
 
 - **`damageTable`** (`table`) - Таблица с данными о нанесенном уроне:
-    - **`attacker`** (`ObjectId` | `nil`) - Id корабля или астрального монстра, с которого стреляли.
-    - **`defender`** (`ObjectId` | `nil`) - Id корабля или астрального монстра, в который попали.
-    - **`damageSource`** (`ObjectId` | `nil`) - Id интерактивного объекта, который произвел выстрел (пушка).
-    - **`attackerPlayer`** (`ObjectId` | `nil`) - Id игрока, который произвел выстрел.
+    - **`attacker`** `(ObjectId|nil)` - Id корабля или астрального монстра, с которого стреляли.
+    - **`defender`** `(ObjectId|nil)` - Id корабля или астрального монстра, в который попали.
+    - **`damageSource`** `(ObjectId|nil)` - Id интерактивного объекта, который произвел выстрел (пушка).
+    - **`attackerPlayer`** `(ObjectId|nil)` - Id игрока, который произвел выстрел.
     - **`totalDamage`** (`number`) - Общий урон, нанесенный кораблю.
     - **`hullDamage`** (`number`) - Урон, нанесенный корпусу корабля.
     - **`shieldDamage`** (`number`) - Общий урон, нанесенный по щитам.
@@ -71,9 +71,9 @@ EVENT_SHIP_DAMAGE_RECEIVED
     - **`isGlancing`** (`boolean`) - True, если нанесен уменьшенный урон.
     - **`isLethal`** (`boolean`) - True, если нанесен окончательный урон и объект погиб.
     - **`side`** (`number`(`SHIP_SIDE_...`) | `nil`) - Сторона корабля, в которую попали. Значения соответствуют перечислению `SHIP_SIDE_...`.
-    - **`angle`** (`number` | `nil`) - Угол обстрела по горизонтали, для вычисления повреждения щита.
-    - **`cannonPenetration`** (`number` | `nil`) - Процент пробития щита снарядом.
-    - **`spellId`** (`ResourceId` | `nil`) - Id спелла, если били спеллом.
-    - **`abilityId`** (`ResourceId` | `nil`) - Id абилки, если били абилкой.
-    - **`buffId`** (`ResourceId` | `nil`) - Id буффа, если били буффом.
-    - **`mapModifierId`** (`ResourceId` | `nil`) - Модификатор карты, если повреждения от модификатора карты.
+    - **`angle`** `(number|nil)` - Угол обстрела по горизонтали, для вычисления повреждения щита.
+    - **`cannonPenetration`** `(number|nil)` - Процент пробития щита снарядом.
+    - **`spellId`** `(ResourceId|nil)` - Id спелла, если били спеллом.
+    - **`abilityId`** `(ResourceId|nil)` - Id абилки, если били абилкой.
+    - **`buffId`** `(ResourceId|nil)` - Id буффа, если били буффом.
+    - **`mapModifierId`** `(ResourceId|nil)` - Модификатор карты, если повреждения от модификатора карты.

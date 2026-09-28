@@ -41,7 +41,7 @@ avatar.GetStatsBonusesPart(): table | nil
     - `isCursed` `(boolean)` - `true`, если на характеристику влияет проклятый предмет.
     - `buffs` `(number)` - величина изменения от активных бафов.
     - `fairyBonus` `(number)` - бонус от покровителя.
-    - `description` (`ValuedText` | `nil`) - описание с подставленными текущими значениями параметров.
+    - `description` `(ValuedText|nil)` - описание с подставленными текущими значениями параметров.
 
 ## Примеры
 

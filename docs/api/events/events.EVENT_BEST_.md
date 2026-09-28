@@ -62,7 +62,7 @@ EVENT_BEST_FRIEND_TELEPORT_SPELL_EFFECT
 
 #### Дополнительные поля для `effect == EFFECT_TYPE_SPELL_ACTIVE_STATE_CHANGED`
 - **`isActive`** (`boolean`) - `true`, если спелл стал активным.
-- **`objectId`** (`ObjectId` | `nil`) - идентификатор предмета, к которому привязан данный спелл.
+- **`objectId`** `(ObjectId|nil)` - идентификатор предмета, к которому привязан данный спелл.
 
 ---
 

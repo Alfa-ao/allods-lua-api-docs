@@ -14,7 +14,7 @@ EVENT_BOX_OPERATION_RESULT
 
 ### Список параметров
 
-- **`sysResult`** (`string` | `ENUM_BoxOperationResult_...`) Код результата операции.
+- **`sysResult`** `(string|ENUM_BoxOperationResult_...)` Код результата операции.
 
 ### Смотрите также
 

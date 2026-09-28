@@ -18,4 +18,4 @@ EVENT_INTERFACE_TOGGLE
 
 - **`useCinemaStripes`** (`boolean`) - true, если требуется отображение черных полос сверху и снизу экрана.
 
-- **`toggleTarget`** (`number`(`ENUM_InterfaceToggle_Target`)) - объект, который должен быть скрыт или показан.
+- **`toggleTarget`** `(number(ENUM_InterfaceToggle_Target))` - объект, который должен быть скрыт или показан.

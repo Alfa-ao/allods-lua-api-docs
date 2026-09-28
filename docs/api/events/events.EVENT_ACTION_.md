@@ -84,27 +84,27 @@ EVENT_ACTION_FAILED_SPELL
 
 - **`isInNotPredicate`** (`boolean`) - `true`, если причина ошибки на самом деле противоположна полученному коду ошибки `sysId`.
 
-- **`name`** (`WString` | `nil`) - имя предмета, необходимого для каста (передается для `ENUM_ActionFailCause_NoItem`, `ENUM_ActionFailCause_CannotTakeItem`).
+- **`name`** `(WString|nil)` - имя предмета, необходимого для каста (передается для `ENUM_ActionFailCause_NoItem`, `ENUM_ActionFailCause_CannotTakeItem`).
 
-- **`number`** (`number` | `nil`) - необходимое количество предметов или ресурсов (передается для `NoItem`, `CannotTakeItem`, `NotEnoughMana`, `NotEnoughEnergy`, `NotEnoughHonor`, `HealthNotHigher`, `HealthNotLower`, `PetHealthNotHigher`).
+- **`number`** `(number|nil)` - необходимое количество предметов или ресурсов (передается для `NoItem`, `CannotTakeItem`, `NotEnoughMana`, `NotEnoughEnergy`, `NotEnoughHonor`, `HealthNotHigher`, `HealthNotLower`, `PetHealthNotHigher`).
 
-- **`dress`** (`number` | `nil`) - тип одежды/оружия, необходимый для каста (передается для `NotEquipped`, `DressedItemCannotBeUpgraded`). Значения: `DRESS_SLOT_...`.
+- **`dress`** `(number|nil)` - тип одежды/оружия, необходимый для каста (передается для `NotEquipped`, `DressedItemCannotBeUpgraded`). Значения: `DRESS_SLOT_...`.
 
-- **`itemClass`** (`WString` | `nil`) - имя класса предмета, необходимого для каста (передается для `NotEquipped`, `DressedItemCannotBeUpgraded`).
+- **`itemClass`** `(WString|nil)` - имя класса предмета, необходимого для каста (передается для `NotEquipped`, `DressedItemCannotBeUpgraded`).
 
 ::: danger Поле устарело (`OBSOLETE`).
-- **`race`** (`number` | `nil`) - раса, необходимая для каста (передается для `WrongCreatureRace`).
+- **`race`** `(number|nil)` - раса, необходимая для каста (передается для `WrongCreatureRace`).
 :::
 
-- **`sysRace`** (`string` | `nil`) - раса существа (передается для `WrongCreatureRace`). Значения: `ENUM_CreatureRace_...`.
+- **`sysRace`** `(string|nil)` - раса существа (передается для `WrongCreatureRace`). Значения: `ENUM_CreatureRace_...`.
 
-- **`psionicContactType`** (`number` | `nil`) - тип контакта (передается для `NoPsionicContact`). Значения: `PSIONIC_CONTACT_...`.
+- **`psionicContactType`** `(number|nil)` - тип контакта (передается для `NoPsionicContact`). Значения: `PSIONIC_CONTACT_...`.
 
-- **`sysPsionicContactType`** (`string` | `nil`) - строковое значение типа контакта (передается для `NoPsionicContact`). Значения: `ENUM_Normal`, `ENUM_Crude`.
+- **`sysPsionicContactType`** `(string|nil)` - строковое значение типа контакта (передается для `NoPsionicContact`). Значения: `ENUM_Normal`, `ENUM_Crude`.
 
-- **`name`** (`WString` | `nil`) - имя (передается для `NoBuff`, `WrongCharacterClass`, `CannotLearnSkill`, `HasSkill`, `NoAbility`, `NoSpell`, `WrongAvatarRace`, `WrongAvatarSex`, `WrongMobWorld`).
+- **`name`** `(WString|nil)` - имя (передается для `NoBuff`, `WrongCharacterClass`, `CannotLearnSkill`, `HasSkill`, `NoAbility`, `NoSpell`, `WrongAvatarRace`, `WrongAvatarSex`, `WrongMobWorld`).
 
-- **`reputationLevel`** (`number` | `nil`) - уровень репутации, если требуется (передается для `ReputationLevelNotLess`, `ReputationNotLess`, `WrongFaction`). Значения: `REPUTATION_LEVEL_...`.
+- **`reputationLevel`** `(number|nil)` - уровень репутации, если требуется (передается для `ReputationLevelNotLess`, `ReputationNotLess`, `WrongFaction`). Значения: `REPUTATION_LEVEL_...`.
 
 - **`mobs`** (`table`) - таблица имён подходящих мобов (передается для `WrongMobWorld`).
 
@@ -242,13 +242,13 @@ EVENT_ACTION_PROGRESS_START
 
 - **`launchWhenReady`** (`boolean`) - если `true`, то действие сработает сразу после окончания подготовки; если `false`, то действие можно приготовить и удерживать его запуск.
 
-- **`spellId`** (`SpellId` | `nil`) - идентификатор спелла, если известен.
+- **`spellId`** `(SpellId|nil)` - идентификатор спелла, если известен.
 
-- **`isPrecast`** (`boolean` | `nil`) - признак наличия времени прекаста у спелла, если известен.
+- **`isPrecast`** `(boolean|nil)` - признак наличия времени прекаста у спелла, если известен.
 
-- **`isChannel`** (`boolean` | `nil`) - признак наличия механики чаннелинга у спелла, если известен.
+- **`isChannel`** `(boolean|nil)` - признак наличия механики чаннелинга у спелла, если известен.
 
-- **`board`** (`number` | `nil`) - индекс борта соло-корабля, если действие было связано с ним (0/1 - левый верхний/нижний, 2/3 - правый верхний/нижний, 4 - передний).
+- **`board`** `(number|nil)` - индекс борта соло-корабля, если действие было связано с ним (0/1 - левый верхний/нижний, 2/3 - правый верхний/нижний, 4 - передний).
 
 ---
 
@@ -290,7 +290,7 @@ EVENT_ACTION_RESULT_SPECIAL_SPELL
     
 - **`unitId`** (`ObjectId`) - идентификатор юнита, ставшего непосредственной причиной данного уведомления.
 
-- **`targetId`** (`ObjectId` | `nil`) - идентификатор объекта, в который выпущено заклинание (передается для `ENUM_ACTION_RESULT_SPECIAL_LAUNCHED`).
+- **`targetId`** `(ObjectId|nil)` - идентификатор объекта, в который выпущено заклинание (передается для `ENUM_ACTION_RESULT_SPECIAL_LAUNCHED`).
 
 - **`spellId`** (`SpellId`) - идентификатор заклинания.
 

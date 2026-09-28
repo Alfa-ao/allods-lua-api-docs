@@ -24,7 +24,7 @@ containerLib.GetSize( slotType: number ): number
 
 ## Возвращаемые значения
 
-number (integer) - размер контейнера.
+Возвращает `number` - размер контейнера.
 
 ## Примеры
 

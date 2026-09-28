@@ -28,13 +28,13 @@ WidgetSafe:PlayResizeEffectSequence( sequenceParams: table )
 
         Поля таблицы описателя шага:
 
-        - **`start`** (`table``(WidgetPlacement)` | `nil`) - Начальный размер виджета. Значимые поля: `sizeX`, `sizeY`.
+        - **`start`** `(table(WidgetPlacement)|nil)` - Начальный размер виджета. Значимые поля: `sizeX`, `sizeY`.
 
-        - **`finish`** (`table``(WidgetPlacement)` | `nil`) - Конечный размер виджета. Значимые поля: `sizeX`, `sizeY`.
+        - **`finish`** `(table(WidgetPlacement)|nil)` - Конечный размер виджета. Значимые поля: `sizeX`, `sizeY`.
 
         - **`timeMs`** `(number|nil)` - `(int64)` Длительность эффекта в миллисекундах, должно быть строго положительное. В случае `nil` используется значение `1000`.
 
-        - **`algoDesc`** (`number` | `table` | `nil`) - Описание алгоритма эффекта.
+        - **`algoDesc`** `(number|table|nil)` - Описание алгоритма эффекта.
 
             - `nil` - Значение по умолчанию `EA_MONOTONOUS_INCREASE`.
 
@@ -54,7 +54,7 @@ WidgetSafe:PlayResizeEffectSequence( sequenceParams: table )
 
     - **`sendFinishEvent`** `(boolean|nil)` - Послать событие об окончании цепочки эффектов. По умолчанию `false`.
 
-    - **`eventLabel`** (`string` | `number` | `nil`) - Не влияет на работу цепочки эффектов. При наличии будет присылаться в событиях шага / окончания цепочки, приводится к строке. По умолчанию отсутствует.
+    - **`eventLabel`** `(string|number|nil)` - Не влияет на работу цепочки эффектов. При наличии будет присылаться в событиях шага / окончания цепочки, приводится к строке. По умолчанию отсутствует.
 
     - **`startOffsetMs`** `(number|nil)` - `(int64)` С какой миллисекунды начать цепочку эффектов (может быть больше длительности цепочки, тогда `start = start % duration`). Нужно для синхронизации эффектов на разных виджетах. По умолчанию `0`.
 

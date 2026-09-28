@@ -66,7 +66,7 @@ EVENT_SPELLBOOK_ELEMENT_EFFECT
 
 ### Список параметров
 
-- **`effect`** (`number`(`EFFECT_TYPE_...`)) - Тип начавшегося эффекта. Значения соответствуют перечислению `EFFECT_TYPE_...`.
+- **`effect`** `(number(EFFECT_TYPE_...))` - Тип начавшегося эффекта. Значения соответствуют перечислению `EFFECT_TYPE_...`.
 
 - **`id`** (`SpellId`) - Id ресурса умения.
 
@@ -78,5 +78,5 @@ EVENT_SPELLBOOK_ELEMENT_EFFECT
 
 - **`isActive`** (`boolean`) - True, если спелл стал активным (для `EFFECT_TYPE_SPELL_ACTIVE_STATE_CHANGED`).
 
-- **`objectId`** (`ObjectId` | `nil`) - Идентификатор предмета, к которому привязан данный спелл (для `EFFECT_TYPE_SPELL_ACTIVE_STATE_CHANGED`).
+- **`objectId`** `(ObjectId|nil)` - Идентификатор предмета, к которому привязан данный спелл (для `EFFECT_TYPE_SPELL_ACTIVE_STATE_CHANGED`).
 (HELP)

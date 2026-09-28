@@ -10,5 +10,5 @@ EVENT_GENERAL_ERROR
 
 ### Список параметров
 
-- **`sysCause`** (`string`(`ENUM_ActionFailCause_...`)) - причина ошибки.
+- **`sysCause`** `(string(ENUM_ActionFailCause_...))` - причина ошибки.
 (HELP)

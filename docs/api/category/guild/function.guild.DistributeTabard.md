@@ -18,7 +18,7 @@ guild.DistributeTabard( memberId: ObjectId, tabardType: number | ENUM_TabardType
 
 - **`memberId`** `(ObjectId)` - Идентификатор члена гильдии.
 
-- **`tabardType`** (`number` | `ENUM_TabardType_...`) - Тип знака отличия.
+- **`tabardType`** `(number|ENUM_TabardType_...)` - Тип знака отличия.
 
 ## Возвращаемые значения
 

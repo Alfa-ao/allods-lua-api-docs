@@ -32,7 +32,7 @@ EVENT_EFFECT_SEQUENCE_FINISHED
 
 - **`effectType`** (`number`(`ET_*`)) - тип эффекта.
 
-- **`label`** (`string` | `nil`) - метка, переданная в PlayEffectSequence, при наличии.
+- **`label`** `(string|nil)` - метка, переданная в PlayEffectSequence, при наличии.
 
 ---
 
@@ -54,4 +54,4 @@ EVENT_EFFECT_SEQUENCE_STEP
 
 - **`step`** (`number`) - номер завершенного шага цепочки.
 
-- **`label`** (`string` | `nil`) - метка, переданная в PlayEffectSequence, при наличии.
+- **`label`** `(string|nil)` - метка, переданная в PlayEffectSequence, при наличии.

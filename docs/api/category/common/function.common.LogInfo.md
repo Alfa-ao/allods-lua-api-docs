@@ -28,7 +28,7 @@ common.LogInfo( filter: string, text01: string|WString, ...: string|WString )
 
 - **`text01`** `(string|WString)` - Первый обязательный текстовый аргумент.
 
-- **`...`** (`string` | `WString`) - Список необязательных текстовых аргументов.
+- **`...`** `(string|WString)` - Список необязательных текстовых аргументов.
 
 ## Возвращаемые значения
 
