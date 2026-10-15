@@ -8307,6 +8307,10 @@ export default [
                         link: "/api/events/events.EVENT_CUSTOM_"
                     },
                     {
+                        text: "EVENT_DAMAGE",
+                        link: "/api/events/events.EVENT_DAMAGE"
+                    },
+                    {
                         text: "EVENT_DEFAULT_",
                         link: "/api/events/events.EVENT_DEFAULT_"
                     },
@@ -9338,8 +9342,20 @@ export default [
                         link: "/guides/CoreScripts/AddonBase"
                     },
                     {
+                        text: "AdvancedHandlersUserMods",
+                        link: "/guides/CoreScripts/AdvancedHandlersUserMods"
+                    },
+                    {
                         text: "ClassesImplementation",
                         link: "/guides/CoreScripts/ClassesImplementation"
+                    },
+                    {
+                        text: "WidgetBaseClasses",
+                        link: "/guides/CoreScripts/WidgetBaseClasses"
+                    },
+                    {
+                        text: "WidgetCoreUserMods",
+                        link: "/guides/CoreScripts/WidgetCoreUserMods"
                     }
                 ]
             }

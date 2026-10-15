@@ -41,8 +41,8 @@ local function GetTexturePos( pos, geodata )
     return { x = texturePosX, y = texturePosY }
 end
 
-local objectiveId = 12345 -- Идентификатор цели задания
-local currentZonesMapId = 67890 -- Идентификатор интерфейсной карты зоны
+-- objectiveId - Идентификатор цели задания
+-- currentZonesMapId - Идентификатор интерфейсной карты зоны
 
 local questObjective = avatar.GetQuestObjectiveInfo( objectiveId )
 local geodatas = cartographer.GetQuestObjectiveGeodata( objectiveId, currentZonesMapId )

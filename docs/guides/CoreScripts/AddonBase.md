@@ -16,7 +16,7 @@ description: Документация по базовому функционал
 <?xml version="1.0" encoding="UTF-8"?>
 <UIAddon>
 	<ScriptFileRefs>
-        <!--
+        <!-- AddonBaseUserMods
         Опциональная зависимость (алиасы).
             Некоторая чать функционала, как модифицированный LogInfo + advtostring, 
             требует алиасы для библиотеки AddonBase.lua
@@ -78,7 +78,7 @@ description: Документация по базовому функционал
 - `table.append( tab, arg1, [arg2] )` - аналог `table.insert`, но вставляет все элементы из переданной таблицы.
 - `table.normalize( tab )` - сдвигает индексацию таблицы с 0 на 1.
 - `table.denormalize( tab )` - сдвигает индексацию таблицы с 1 на 0.
-- `table.index( tab, ... )` - безопасное получение вложенного значения `tab[arg1][arg2]...`.
+- `table.index( tab, "arg1", "arg2", ... )` - безопасное получение вложенного значения `tab[arg1][arg2]...`. 
 - `table.newindex( tab, ... )` - безопасная запись вложенного значения `tab[arg1][arg2]... = argN`.
 - `table.getcount( tab, entry, [equal] )` - подсчет вхождений `entry`.
 - `table.igetcount( tab, entry, [equal] )` - аналог для array-ключей.
@@ -132,6 +132,13 @@ end
 - `GetStateTexture( sysGroup, sysName, [optional] )` - получить текстуру из группы стейта.
 - `GetAddonSound( sysGroup, sysName, [optional] )` - получить звук из группы аддона.
 - `GetStateSound( sysGroup, sysName, [optional] )` - получить звук из группы стейта.
+
+```lua
+local vtCount = common.CreateValuedText {
+    format = GetAddonText( "rus", "EXAMPLE_TEXT" ),
+    count = 5,
+}
+```
 
 ### Итераторы
 
