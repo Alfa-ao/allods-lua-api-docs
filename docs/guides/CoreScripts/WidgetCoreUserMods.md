@@ -83,7 +83,6 @@ local wtById = GetTWidgetById( 12345 )
 
 ```lua
 -- Создание дочернего виджета по описанию
-local desc = { type = "Widget_ButtonSafe", name = "MyButton" }
 local wtButton = mainForm:CreateChildByDesc( desc )
 
 -- Доступ к ребенку по имени (префикс "wt" добавляется автоматически)

@@ -9358,6 +9358,16 @@ export default [
                         link: "/guides/CoreScripts/WidgetCoreUserMods"
                     }
                 ]
+            },
+            {
+                text: "ResourceSystem",
+                collapsed: true,
+                items: [
+                    {
+                        text: "UIAddon",
+                        link: "/guides/ResourceSystem/UIAddon"
+                    }
+                ]
             }
         ]
     }
