@@ -8,10 +8,10 @@
 
 ### Список значений
 
-- **`ENUM_MobWorld_OvertipCustomView_NEVER`** (`number`) - Овертип всегда скрыт.
+- **`ENUM_MobWorld_OvertipCustomView_NEVER`** `(number)` - Овертип всегда скрыт.
 
-- **`ENUM_MobWorld_OvertipCustomView_DEFAULT`** (`number`) - Овертип отображается по стандартным условиям.
+- **`ENUM_MobWorld_OvertipCustomView_DEFAULT`** `(number)` - Овертип отображается по стандартным условиям.
 
-- **`ENUM_MobWorld_OvertipCustomView_IMPORTANT`** (`number`) - Овертип отображается как будто это важный юнит (у которого есть квесты или квесты для игрока).
+- **`ENUM_MobWorld_OvertipCustomView_IMPORTANT`** `(number)` - Овертип отображается как будто это важный юнит (у которого есть квесты или квесты для игрока).
 
-- **`ENUM_MobWorld_OvertipCustomView_TARGET`** (`number`) - Овертип отображается как будто игрок взял в цель этого юнита.
+- **`ENUM_MobWorld_OvertipCustomView_TARGET`** `(number)` - Овертип отображается как будто игрок взял в цель этого юнита.

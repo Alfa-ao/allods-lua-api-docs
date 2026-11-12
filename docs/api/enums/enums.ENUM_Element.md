@@ -4,13 +4,13 @@
 
 ### Список значений
 
-- **`RESISTANCE_ELEMENTAL`** (`number`)
+- **`RESISTANCE_ELEMENTAL`** `(number)`
 
-- **`RESISTANCE_DIVINE`** (`number`)
+- **`RESISTANCE_DIVINE`** `(number)`
 
-- **`RESISTANCE_NATURE`** (`number`)
+- **`RESISTANCE_NATURE`** `(number)`
 
-- **`RESISTANCE_PHYSICAL`** (`number`)
+- **`RESISTANCE_PHYSICAL`** `(number)`
 
 ---
 
@@ -22,10 +22,10 @@
 
 ### Список значений
 
-- **`ENUM_EELEMENTAL`** (`string`)
+- **`ENUM_EELEMENTAL`** `(string)`
 
-- **`ENUM_EDIVINE`** (`string`)
+- **`ENUM_EDIVINE`** `(string)`
 
-- **`ENUM_ENATURE`** (`string`)
+- **`ENUM_ENATURE`** `(string)`
 
-- **`ENUM_EPHYSICAL`** (`string`)
+- **`ENUM_EPHYSICAL`** `(string)`

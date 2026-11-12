@@ -10,7 +10,7 @@ EVENT_PREMIUM_BONUS_STAGE_CHANGED
 
 ### Список параметров
 
-- **`stage`** (`number`) - бонусная стадия премиума.
+- **`stage`** `(number)` - бонусная стадия премиума.
 
 ---
 
@@ -42,4 +42,4 @@ EVENT_PREMIUM_STAGE_CHANGED
 
 ### Список параметров
 
-- **`stage`** (`number`) - стадия премиума.
+- **`stage`** `(number)` - стадия премиума.

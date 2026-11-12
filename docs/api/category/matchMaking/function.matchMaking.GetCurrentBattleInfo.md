@@ -32,7 +32,7 @@ matchMaking.GetCurrentBattleInfo(): table | nil
 
 - **`isPvE`** `(boolean)` - `true` если данный инстанс-ивент относится к сражениям против окружения, иначе `false`
 
-- **`mechanicsType`** (`number`(`ENUM_MatchMakingMechanicsType_*`)) - тип игровой механики
+- **`mechanicsType`** `(number(ENUM_MatchMakingMechanicsType_*))` - тип игровой механики
 
 - **`duration`** `(number)` - длительность ивента в миллисекундах
 

@@ -30,7 +30,7 @@ EVENT_LOTTERY_STATE_CHANGED
 
 ### Список параметров
 
-- **`state`** (`number`) - состояние, подробнее - EnumLotteryState.
+- **`state`** `(number)` - состояние, подробнее - EnumLotteryState.
 
 ### Смотрите также
 

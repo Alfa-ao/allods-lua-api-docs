@@ -42,7 +42,7 @@ EVENT_INVENTORY_GEMS_SLOT_ADDED
 
 ### Список параметров
 
-- **`slot`** (`number`) - индекс слота.
+- **`slot`** `(number)` - индекс слота.
 
 ---
 
@@ -58,7 +58,7 @@ EVENT_INVENTORY_GEMS_SLOT_REMOVED
 
 ### Список параметров
 
-- **`slot`** (`number`) - индекс слота.
+- **`slot`** `(number)` - индекс слота.
 
 ---
 
@@ -90,7 +90,7 @@ EVENT_INVENTORY_OVERFLOW_SLOT_ADDED
 
 ### Список параметров
 
-- **`slot`** (`number`) - индекс слота в сумке.
+- **`slot`** `(number)` - индекс слота в сумке.
 
 ---
 
@@ -106,7 +106,7 @@ EVENT_INVENTORY_OVERFLOW_SLOT_REMOVED
 
 ### Список параметров
 
-- **`slot`** (`number`) - индекс слота в сумке.
+- **`slot`** `(number)` - индекс слота в сумке.
 
 ---
 
@@ -138,11 +138,11 @@ EVENT_INVENTORY_SLOT_CHANGED
 
 ### Список параметров
 
-- **`tabIndex`** (`number`) - индекс вкладки инвентаря.
+- **`tabIndex`** `(number)` - индекс вкладки инвентаря.
 
-- **`slotIndex`** (`number`) - индекс слота во вкладке.
+- **`slotIndex`** `(number)` - индекс слота во вкладке.
 
-- **`itemId`** (`ObjectId`) - идентификатор предмета.
+- **`itemId`** `(ObjectId)` - идентификатор предмета.
 
 ### Смотрите также
 

@@ -8,8 +8,8 @@
 
 ### Список значений
 
-- **`CHOICE_GREED_NEED_PASS`** (`number`) - Отказ от броска.
+- **`CHOICE_GREED_NEED_PASS`** `(number)` - Отказ от броска.
 
-- **`CHOICE_GREED_NEED_GREED`** (`number`) - Бросок на жадность (Greed).
+- **`CHOICE_GREED_NEED_GREED`** `(number)` - Бросок на жадность (Greed).
 
-- **`CHOICE_GREED_NEED_NEED`** (`number`) - Бросок на необходимость (Need).
+- **`CHOICE_GREED_NEED_NEED`** `(number)` - Бросок на необходимость (Need).

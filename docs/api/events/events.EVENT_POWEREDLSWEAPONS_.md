@@ -26,6 +26,6 @@ EVENT_POWEREDLSWEAPONS_ITEM_ADDED
 
 ### Список параметров
 
-- **`itemId`** (`ObjectId`) - идентификатор добавленного предмета.
+- **`itemId`** `(ObjectId)` - идентификатор добавленного предмета.
 
-- **`slot`** (`number`) - номер слота.
+- **`slot`** `(number)` - номер слота.

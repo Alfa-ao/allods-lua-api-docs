@@ -10,7 +10,7 @@ EVENT_SHIELD_REGEN_IN_PROGRESS_CHANGED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Id устройства.
+- **`id`** `(ObjectId)` - Id устройства.
 
 ---
 
@@ -26,6 +26,6 @@ EVENT_SHIELD_STRENGTH_CHANGED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Id устройства.
+- **`id`** `(ObjectId)` - Id устройства.
 
-- **`strengthDelta`** (`number`) - Изменение силы.
+- **`strengthDelta`** `(number)` - Изменение силы.

@@ -10,4 +10,4 @@ EVENT_SPOUSE_POSITION_UPDATED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Id игрока.
+- **`id`** `(ObjectId)` - Id игрока.

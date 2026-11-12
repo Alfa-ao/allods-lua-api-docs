@@ -12,9 +12,9 @@ EVENT_ATTACK_RESULT
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор юнита. Значение не может быть `nil`.
+- **`unitId`** `(ObjectId)` - Идентификатор юнита. Значение не может быть `nil`.
 
-- **`code`** (`number`(`ATTACK_FAILED_*`)) - Код ошибки атаки.
+- **`code`** `(number(ATTACK_FAILED_*))` - Код ошибки атаки.
 
 ::: info Перечисление
 - **`ATTACK_RESULT_UNKNOWN`** - Внутренняя ошибка.

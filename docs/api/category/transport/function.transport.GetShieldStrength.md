@@ -18,7 +18,7 @@ transport.GetShieldStrength( transportId: ObjectId, side: number ): table
 
 - **`transportId`** `(ObjectId)` - Идентификатор транспортного средства.
 
-- **`side`** (`number`(`SHIP_SIDE_*`)) - Сторона транспортного средства.
+- **`side`** `(number(SHIP_SIDE_*))` - Сторона транспортного средства.
 
 ## Возвращаемые значения
 

@@ -8,10 +8,10 @@
 
 ### Список значений
 
-- **`RAID_MEMBER_STATE_OFFLINE`** (`number`) - Игрок не находится в игре.
+- **`RAID_MEMBER_STATE_OFFLINE`** `(number)` - Игрок не находится в игре.
 
-- **`RAID_MEMBER_STATE_NEAR`** (`number`) - По игроку доступна вся информация.
+- **`RAID_MEMBER_STATE_NEAR`** `(number)` - По игроку доступна вся информация.
 
-- **`RAID_MEMBER_STATE_FAR`** (`number`) - Игрок в игре, но информация по нему недоступна либо доступна только частично.
+- **`RAID_MEMBER_STATE_FAR`** `(number)` - Игрок в игре, но информация по нему недоступна либо доступна только частично.
 
-- **`RAID_MEMBER_STATE_AFK`** (`number`) - Игрок в статусе AFK.
+- **`RAID_MEMBER_STATE_AFK`** `(number)` - Игрок в статусе AFK.

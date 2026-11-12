@@ -30,7 +30,7 @@ rules.BillingInfoGetBonusInfo( bonusId: BillingBonusId ): table|nil
 
 - **`description`** `(WString)` - Текстовое описание бонуса.
 
-- **`currency`** (`string`(`ENUM_ItemMallCurrency_*`)) - Валюта ItemMall-а.
+- **`currency`** `(string(ENUM_ItemMallCurrency_*))` - Валюта ItemMall-а.
 
 - **`limitTotal`** `(number)` - Верхний предел бонуса.
 
@@ -46,7 +46,7 @@ rules.BillingInfoGetBonusInfo( bonusId: BillingBonusId ): table|nil
 
     - **`year`** `(number)` - Год.
 
-    - **`month`** (`number`(`ENUM_Month_*`)) - Месяц (1-12, начиная с января).
+    - **`month`** `(number(ENUM_Month_*))` - Месяц (1-12, начиная с января).
 
     - **`day`** `(number)` - День месяца.
 

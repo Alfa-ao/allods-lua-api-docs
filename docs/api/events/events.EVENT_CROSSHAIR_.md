@@ -10,4 +10,4 @@ EVENT_CROSSHAIR_TARGET_POS_CHANGED
 
 ### Список параметров
 
-- **`objectId`** (`ObjectId`) - Идентификатор юнита.
+- **`objectId`** `(ObjectId)` - Идентификатор юнита.

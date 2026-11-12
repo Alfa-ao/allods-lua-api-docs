@@ -5,11 +5,11 @@
 Числовое перечисление.
 
 ### Список значений
-- **`GOAL_STATE_NOT_SHOWN`** (`number`) - Не доступна и не должна отображаться.
+- **`GOAL_STATE_NOT_SHOWN`** `(number)` - Не доступна и не должна отображаться.
 
-- **`GOAL_STATE_ACTIVE`** (`number`) - Доступна для выполнения.
+- **`GOAL_STATE_ACTIVE`** `(number)` - Доступна для выполнения.
 
-- **`GOAL_STATE_COMPLETED`** (`number`) - Выполнена.
+- **`GOAL_STATE_COMPLETED`** `(number)` - Выполнена.
 
 ### Смотрите также
 

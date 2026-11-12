@@ -22,7 +22,7 @@ unit.GetSex( unitId: ObjectId ): table|nil
 
 Возвращает `table` | `nil` - таблицу с информацией о поле игрока или `nil`, если игрок не найден.
 
-- **`sex`** (`number`(`SEX_*`)) - Пол игрока.
+- **`sex`** `(number(SEX_*))` - Пол игрока.
 
 - **`name`** `(WString)` - Локализованное имя пола.
 

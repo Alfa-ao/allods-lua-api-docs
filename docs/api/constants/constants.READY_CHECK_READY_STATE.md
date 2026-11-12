@@ -8,8 +8,8 @@
 
 ### Список значений
 
-- **`READY_CHECK_READY_STATE_UNKNOWN`** (`number`)
+- **`READY_CHECK_READY_STATE_UNKNOWN`** `(number)`
 
-- **`READY_CHECK_READY_STATE_READY`** (`number`)
+- **`READY_CHECK_READY_STATE_READY`** `(number)`
 
-- **`READY_CHECK_READY_STATE_NOT_READY`** (`number`)
+- **`READY_CHECK_READY_STATE_NOT_READY`** `(number)`

@@ -6,7 +6,7 @@
 EVENT_SPELLBOOK_CHANGED
 ```
 
-Событие присылается каждый раз, когда изменяется состояние панели действий (`SpellBook`).
+Событие присылается каждый раз, когда изменяется состояние панели действий `SpellBook`.
 
 ### Список параметров
 
@@ -22,7 +22,7 @@ EVENT_SPELLBOOK_CHANGED
 EVENT_SPELLBOOK_ELEMENT_ADDED
 ```
 
-Событие присылается, когда в книге умений (`SpellBook`) появляется новое умение. На этапе загрузки персонажа событие не присылается.
+Событие присылается, когда в книге умений `SpellBook` появляется новое умение. На этапе загрузки персонажа событие не присылается.
 
 ### Список параметров
 
@@ -38,7 +38,7 @@ EVENT_SPELLBOOK_ELEMENT_ADDED
 EVENT_SPELLBOOK_ELEMENT_CHANGED
 ```
 
-Событие присылается каждый раз, когда изменяется состояние элемента (умения или заклинания) в книге умений (`SpellBook`). К созданию или удалению элемента это не относится, при этом изменяется книга целиком.
+Событие присылается каждый раз, когда изменяется состояние элемента (умения или заклинания) в книге умений `SpellBook`. К созданию или удалению элемента это не относится, при этом изменяется книга целиком.
 
 ### Список параметров
 
@@ -68,15 +68,15 @@ EVENT_SPELLBOOK_ELEMENT_EFFECT
 
 - **`effect`** `(number(EFFECT_TYPE_...))` - Тип начавшегося эффекта. Значения соответствуют перечислению `EFFECT_TYPE_...`.
 
-- **`id`** (`SpellId`) - Id ресурса умения.
+- **`id`** `(SpellId)` - Id ресурса умения.
 
-- **`duration`** (`number`) - Общая продолжительность в миллисекундах (для `EFFECT_TYPE_COOLDOWN_STARTED`).
+- **`duration`** `(number)` - Общая продолжительность в миллисекундах (для `EFFECT_TYPE_COOLDOWN_STARTED`).
 
-- **`remaining`** (`number`) - Оставшееся время в миллисекундах (для `EFFECT_TYPE_COOLDOWN_STARTED`).
+- **`remaining`** `(number)` - Оставшееся время в миллисекундах (для `EFFECT_TYPE_COOLDOWN_STARTED`).
 
-- **`prepared`** (`boolean`) - Текущее значение флага `prepared` (для `EFFECT_TYPE_SPELL_PREPARED`).
+- **`prepared`** `(boolean)` - Текущее значение флага `prepared` (для `EFFECT_TYPE_SPELL_PREPARED`).
 
-- **`isActive`** (`boolean`) - True, если спелл стал активным (для `EFFECT_TYPE_SPELL_ACTIVE_STATE_CHANGED`).
+- **`isActive`** `(boolean)` - True, если спелл стал активным (для `EFFECT_TYPE_SPELL_ACTIVE_STATE_CHANGED`).
 
 - **`objectId`** `(ObjectId|nil)` - Идентификатор предмета, к которому привязан данный спелл (для `EFFECT_TYPE_SPELL_ACTIVE_STATE_CHANGED`).
 (HELP)

@@ -30,9 +30,9 @@ options.GetOptionInfo( id: ObjectId | string ): table
 
 - **`isPreview`** `(boolean)` - Находится ли опция в режиме предварительного просмотра.
 
-- **`dataType`** (`number`(`UI_OPTION_DATA_*`)) - Тип данных для опции.
+- **`dataType`** `(number(UI_OPTION_DATA_*))` - Тип данных для опции.
 
-- **`viewType`** (`number`(`UI_OPTION_VIEW_*`)) - Стандартный тип визуализации для опции.
+- **`viewType`** `(number(UI_OPTION_VIEW_*))` - Стандартный тип визуализации для опции.
 
 - **`sysCustomId`** `(string)` - Идентификатор пользовательской опции.
 

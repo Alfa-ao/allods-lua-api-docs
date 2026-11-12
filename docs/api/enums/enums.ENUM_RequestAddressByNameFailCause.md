@@ -8,6 +8,6 @@
 
 ### Список значений
 
-- **`ENUM_RequestAddressByNameFailCause_NotExist`** (`string`)
+- **`ENUM_RequestAddressByNameFailCause_NotExist`** `(string)`
 
-- **`ENUM_RequestAddressByNameFailCause_NotLoggedIn`** (`string`)
+- **`ENUM_RequestAddressByNameFailCause_NotLoggedIn`** `(string)`

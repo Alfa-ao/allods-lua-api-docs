@@ -267,4 +267,4 @@ LocalClass( proto: table ): table
 
 - **`GetFunctionPathByAddress( object, func )`** - Гибрид `GetClassFunctionPathByAddress` и `GetPathByAddress`. Если не найдено, возвращает строку вида `func_АДРЕС`.
 
-- **`LogObjectClassPath( object )`** - Выводит в лог (`LogInfo`) цепочку наследования объекта/класса.
+- **`LogObjectClassPath( object )`** - Выводит в лог `LogInfo` цепочку наследования объекта/класса.

@@ -15,11 +15,11 @@ outline: deep
 
 ### Список значений
 
-- **`ENUM_AuctionSearchResultMsgResult_SUCCESS`** (`string`) - Поиск успешно завершен, результаты доступны для извлечения.
+- **`ENUM_AuctionSearchResultMsgResult_SUCCESS`** `(string)` - Поиск успешно завершен, результаты доступны для извлечения.
 
-- **`ENUM_AuctionSearchResultMsgResult_NOLANG`** (`string`) - Произошла ошибка, связанная с отсутствием или некорректным состоянием языковых ресурсов.
+- **`ENUM_AuctionSearchResultMsgResult_NOLANG`** `(string)` - Произошла ошибка, связанная с отсутствием или некорректным состоянием языковых ресурсов.
 
-- **`ENUM_AuctionSearchResultMsgResult_ERROR`** (`string`) - Произошла общая ошибка при обработке запроса на поиск.
+- **`ENUM_AuctionSearchResultMsgResult_ERROR`** `(string)` - Произошла общая ошибка при обработке запроса на поиск.
 
 ### Обработка
 
@@ -53,11 +53,11 @@ common.RegisterEventHandler( OnAuctionSearchResult, "EVENT_AUCTION_SEARCH_RESULT
 
 ### Список значений
 
-- **`ENUM_AuctionGetResultMsgResult_SUCCESS`** (`string`) - Информация о лоте успешно обновлена.
+- **`ENUM_AuctionGetResultMsgResult_SUCCESS`** `(string)` - Информация о лоте успешно обновлена.
 
-- **`ENUM_AuctionGetResultMsgResult_NOTFOUND`** (`string`) - Указанный лот не найден.
+- **`ENUM_AuctionGetResultMsgResult_NOTFOUND`** `(string)` - Указанный лот не найден.
 
-- **`ENUM_AuctionGetResultMsgResult_ERROR`** (`string`) - Произошла ошибка при обновлении информации.
+- **`ENUM_AuctionGetResultMsgResult_ERROR`** `(string)` - Произошла ошибка при обновлении информации.
 
 ### Обработка
 
@@ -90,9 +90,9 @@ common.RegisterEventHandler( OnAuctionUpdateResult, "EVENT_AUCTION_UPDATE_RESULT
 
 ### Список значений
 
-- **`ENUM_AuctionGetParamsResultMsgStatus_SUCCESS`** (`string`) - Свойства аукциона успешно загружены.
+- **`ENUM_AuctionGetParamsResultMsgStatus_SUCCESS`** `(string)` - Свойства аукциона успешно загружены.
 
-- **`ENUM_AuctionGetParamsResultMsgStatus_ERROR`** (`string`) - Произошла ошибка при загрузке свойств.
+- **`ENUM_AuctionGetParamsResultMsgStatus_ERROR`** `(string)` - Произошла ошибка при загрузке свойств.
 
 ### Обработка
 
@@ -129,13 +129,13 @@ common.RegisterEventHandler( OnAuctionProperties, "EVENT_AUCTION_PROPERTIES" )
 
 ### Список значений
 
-- **`ENUM_AuctionDiscardResultMsgResult_SUCCESS`** (`string`) - Лот успешно отменен.
+- **`ENUM_AuctionDiscardResultMsgResult_SUCCESS`** `(string)` - Лот успешно отменен.
 
-- **`ENUM_AuctionDiscardResultMsgResult_ERROR`** (`string`) - Произошла ошибка при обработке запроса на отмену.
+- **`ENUM_AuctionDiscardResultMsgResult_ERROR`** `(string)` - Произошла ошибка при обработке запроса на отмену.
 
-- **`ENUM_AuctionDiscardResultMsgResult_NOMONEY`** (`string`) - Недостаточно средств для оплаты штрафа за отмену лота.
+- **`ENUM_AuctionDiscardResultMsgResult_NOMONEY`** `(string)` - Недостаточно средств для оплаты штрафа за отмену лота.
 
-- **`ENUM_AuctionDiscardResultMsgResult_OLDVERSION`** (`string`) - Информация об аукционе устарела. Данные обновляются автоматически, требуется ожидание события `EVENT_AUCTION_UPDATE_RESULT`.
+- **`ENUM_AuctionDiscardResultMsgResult_OLDVERSION`** `(string)` - Информация об аукционе устарела. Данные обновляются автоматически, требуется ожидание события `EVENT_AUCTION_UPDATE_RESULT`.
 
 ### Обработка
 
@@ -168,11 +168,11 @@ common.RegisterEventHandler( OnAuctionDiscardResult, "EVENT_AUCTION_DISCARD_RESU
 
 ### Список значений
 
-- **`ENUM_AuctionDescriptorParticipationStatus_NONE`** (`string`) - Персонаж не участвует в торгах по данному лоту.
+- **`ENUM_AuctionDescriptorParticipationStatus_NONE`** `(string)` - Персонаж не участвует в торгах по данному лоту.
 
-- **`ENUM_AuctionDescriptorParticipationStatus_OWNER`** (`string`) - Персонаж является продавцом (владельцем) лота.
+- **`ENUM_AuctionDescriptorParticipationStatus_OWNER`** `(string)` - Персонаж является продавцом (владельцем) лота.
 
-- **`ENUM_AuctionDescriptorParticipationStatus_WINNER`** (`string`) - Персонаж является победителем торгов (сделал последнюю ставку или выкупил предмет).
+- **`ENUM_AuctionDescriptorParticipationStatus_WINNER`** `(string)` - Персонаж является победителем торгов (сделал последнюю ставку или выкупил предмет).
 
 ### Обработка
 
@@ -209,17 +209,17 @@ end
 
 ### Список значений
 
-- **`ENUM_AuctionBidResultMsgResult_SUCCESS`** (`string`) - Ставка успешно размещена.
+- **`ENUM_AuctionBidResultMsgResult_SUCCESS`** `(string)` - Ставка успешно размещена.
 
-- **`ENUM_AuctionBidResultMsgResult_ERROR`** (`string`) - Произошла ошибка при обработке запроса на размещение ставки.
+- **`ENUM_AuctionBidResultMsgResult_ERROR`** `(string)` - Произошла ошибка при обработке запроса на размещение ставки.
 
-- **`ENUM_AuctionBidResultMsgResult_NOMONEY`** (`string`) - Недостаточно средств для совершения ставки.
+- **`ENUM_AuctionBidResultMsgResult_NOMONEY`** `(string)` - Недостаточно средств для совершения ставки.
 
-- **`ENUM_AuctionBidResultMsgResult_OLDVERSION`** (`string`) - Информация об аукционе устарела. Данные обновляются автоматически, требуется ожидание события `EVENT_AUCTION_UPDATE_RESULT`.
+- **`ENUM_AuctionBidResultMsgResult_OLDVERSION`** `(string)` - Информация об аукционе устарела. Данные обновляются автоматически, требуется ожидание события `EVENT_AUCTION_UPDATE_RESULT`.
 
-- **`ENUM_AuctionBidResultMsgResult_SAMEUSER`** (`string`) - Игрок пытается сделать ставку или выкупить предмет у самого себя.
+- **`ENUM_AuctionBidResultMsgResult_SAMEUSER`** `(string)` - Игрок пытается сделать ставку или выкупить предмет у самого себя.
 
-- **`ENUM_AuctionBidResultMsgResult_NOTFOUND`** (`string`) - Указанный лот не найден. Вероятно, он был выкуплен другим игроком или снят с продажи.
+- **`ENUM_AuctionBidResultMsgResult_NOTFOUND`** `(string)` - Указанный лот не найден. Вероятно, он был выкуплен другим игроком или снят с продажи.
 
 ### Обработка
 
@@ -257,13 +257,13 @@ common.RegisterEventHandler( OnAuctionBidResult, "EVENT_AUCTION_BID_RESULT" )
 
 ### Список значений
 
-- **`ENUM_AuctionCreateResultMsgResult_SUCCESS`** (`string`) - Лот успешно создан и выставлен на торги.
+- **`ENUM_AuctionCreateResultMsgResult_SUCCESS`** `(string)` - Лот успешно создан и выставлен на торги.
 
-- **`ENUM_AuctionCreateResultMsgResult_ERROR`** (`string`) - Произошла ошибка при создании лота.
+- **`ENUM_AuctionCreateResultMsgResult_ERROR`** `(string)` - Произошла ошибка при создании лота.
 
-- **`ENUM_AuctionCreateResultMsgResult_NOITEM`** (`string`) - Предмет отсутствует в инвентаре или недоступен для продажи.
+- **`ENUM_AuctionCreateResultMsgResult_NOITEM`** `(string)` - Предмет отсутствует в инвентаре или недоступен для продажи.
 
-- **`ENUM_AuctionCreateResultMsgResult_NOMONEY`** (`string`) - Недостаточно средств для оплаты залога или комиссии за выставление лота.
+- **`ENUM_AuctionCreateResultMsgResult_NOMONEY`** `(string)` - Недостаточно средств для оплаты залога или комиссии за выставление лота.
 
 ### Обработка
 

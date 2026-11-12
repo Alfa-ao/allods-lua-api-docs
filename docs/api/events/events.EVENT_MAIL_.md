@@ -10,9 +10,9 @@ EVENT_MAIL_CREATE_RESULT
 
 ### Список параметров
 
-- **`sysResult`** (`string`(`CreateMailResult_*`)) - результат создания письма, текстовый енум. Not fully implemented yet. Значения соответствуют перечислению `CreateMailResult_*`.
+- **`sysResult`** `(string(CreateMailResult_*))` - результат создания письма, текстовый енум. Not fully implemented yet. Значения соответствуют перечислению `CreateMailResult_*`.
 
-- **`recipientName`** (`WString`) - имя адресата.
+- **`recipientName`** `(WString)` - имя адресата.
 
 ### Смотрите также
 
@@ -32,9 +32,9 @@ EVENT_MAIL_DELETE_RESULT
 
 ### Список параметров
 
-- **`mailId`** (`ObjectId`) - уникальный идентификатор письма.
+- **`mailId`** `(ObjectId)` - уникальный идентификатор письма.
 
-- **`sysResult`** (`string`(`MailServiceReply_*`)) - результат операции. Значения соответствуют перечислению `MailServiceReply_*`.
+- **`sysResult`** `(string(MailServiceReply_*))` - результат операции. Значения соответствуют перечислению `MailServiceReply_*`.
 
 ---
 
@@ -50,9 +50,9 @@ EVENT_MAIL_EXTRACT_ITEMS_RESULT
 
 ### Список параметров
 
-- **`mailId`** (`ObjectId`) - уникальный идентификатор письма.
+- **`mailId`** `(ObjectId)` - уникальный идентификатор письма.
 
-- **`sysResult`** (`string`(`MailServiceReply_*`)) - результат операции. Значения соответствуют перечислению `MailServiceReply_*`.
+- **`sysResult`** `(string(MailServiceReply_*))` - результат операции. Значения соответствуют перечислению `MailServiceReply_*`.
 
 ---
 
@@ -68,9 +68,9 @@ EVENT_MAIL_EXTRACT_MONEY_RESULT
 
 ### Список параметров
 
-- **`mailId`** (`ObjectId`) - уникальный идентификатор письма.
+- **`mailId`** `(ObjectId)` - уникальный идентификатор письма.
 
-- **`sysResult`** (`string`(`MailServiceReply_*`)) - результат операции. Значения соответствуют перечислению `MailServiceReply_*`.
+- **`sysResult`** `(string(MailServiceReply_*))` - результат операции. Значения соответствуют перечислению `MailServiceReply_*`.
 
 ---
 
@@ -86,6 +86,6 @@ EVENT_MAIL_RETURN_RESULT
 
 ### Список параметров
 
-- **`mailId`** (`ObjectId`) - уникальный идентификатор письма.
+- **`mailId`** `(ObjectId)` - уникальный идентификатор письма.
 
-- **`sysResult`** (`string`(`MailServiceReply_*`)) - результат операции. Значения соответствуют перечислению `MailServiceReply_*`.
+- **`sysResult`** `(string(MailServiceReply_*))` - результат операции. Значения соответствуют перечислению `MailServiceReply_*`.

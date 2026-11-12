@@ -10,7 +10,7 @@ EVENT_ALLODS_GOAL_ADDED
 
 ### Список параметров
 
-- **`goals`** (`table`) - Список `GoalId`, индексированный с 0.
+- **`goals`** `(table)` - Список `GoalId`, индексированный с 0.
 
 ---
 
@@ -46,4 +46,4 @@ EVENT_ALLODS_GOAL_COMPLETED
 
 ### Список параметров
 
-- **`goals`** (`table`) - Список `GoalId`, индексированный с 0.
+- **`goals`** `(table)` - Список `GoalId`, индексированный с 0.

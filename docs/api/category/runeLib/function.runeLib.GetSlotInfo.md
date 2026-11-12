@@ -16,13 +16,13 @@ runeLib.GetSlotInfo( dressSlot: number ): table | nil
 
 ## Список параметров
 
-- **`dressSlot`** (`number`(`DRESS_SLOT_*`)) - Номер слота одежды.
+- **`dressSlot`** `(number(DRESS_SLOT_*))` - Номер слота одежды.
 
 ## Возвращаемые значения
 
 Возвращает `table` | `nil` - Таблица с информацией о слоте под руну или `nil` в случае ошибок.
 
-- **`dressSlot`** (`number`(`DRESS_SLOT_*`)) - Номер слота.
+- **`dressSlot`** `(number(DRESS_SLOT_*))` - Номер слота.
 
 - **`requiredLevel`** `(number)` - Уровень игрока, с которого руна в этом слоте начнет работать.
 

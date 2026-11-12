@@ -18,11 +18,11 @@ EVENT_ADDRESSEE_NOT_FOUND
 
 ### Список параметров
 
-- **`name`** (`WString`) - Имя другого игрока.
+- **`name`** `(WString)` - Имя другого игрока.
 
-- **`sysRequestType`** (`string`) - Тип запроса. Значения соответствуют перечислению `ENUM_RequestAddressByNameType_...`.
+- **`sysRequestType`** `(string)` - Тип запроса. Значения соответствуют перечислению `ENUM_RequestAddressByNameType_...`.
 
-- **`sysCause`** (`string`) - Причина ошибки. Значения соответствуют перечислению `ENUM_RequestAddressByNameFailCause_...`.
+- **`sysCause`** `(string)` - Причина ошибки. Значения соответствуют перечислению `ENUM_RequestAddressByNameFailCause_...`.
 
 ### Возвращаемые значения
 

@@ -100,7 +100,7 @@ EVENT_ACTIVE_PET_EXIST_CHANGED
 
 ### Список параметров
 
-- **`lastType`** (`number`) - предыдущий тип питомца. Соответствует одному из значений перечисления `PET_TYPE_...`:
+- **`lastType`** `(number)` - предыдущий тип питомца. Соответствует одному из значений перечисления `PET_TYPE_...`:
   - `PET_TYPE_UNKNOWN`
   - `PET_TYPE_NECROMANCER`
   - `PET_TYPE_DRUID`

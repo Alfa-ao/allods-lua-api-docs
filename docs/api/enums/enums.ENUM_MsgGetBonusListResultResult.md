@@ -4,11 +4,11 @@
 
 ### Список значений
 
-- **`ENUM_MsgGetBonusListResultResult_Success`** (`string`)
+- **`ENUM_MsgGetBonusListResultResult_Success`** `(string)`
 
-- **`ENUM_MsgGetBonusListResultResult_InternalError`** (`string`)
+- **`ENUM_MsgGetBonusListResultResult_InternalError`** `(string)`
 
-- **`ENUM_MsgGetBonusListResultResult_BillingUnavailable`** (`string`)
+- **`ENUM_MsgGetBonusListResultResult_BillingUnavailable`** `(string)`
 
 ### Смотрите также
 

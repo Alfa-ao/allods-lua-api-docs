@@ -30,7 +30,7 @@ EVENT_MAP_INSTANCE_FULL
 
 ### Список параметров
 
-- **`mapName`** (`WString`) - название инстанса.
+- **`mapName`** `(WString)` - название инстанса.
 
 ---
 

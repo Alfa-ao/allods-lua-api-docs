@@ -8,21 +8,21 @@
 
 ### Список значений
 
-- **`ENUM_DiceCraftCmdType_PutItem`** (`string`) - Соответствует `craft.DiceCraftPutItem(itemId, slot, count)`.
+- **`ENUM_DiceCraftCmdType_PutItem`** `(string)` - Соответствует `craft.DiceCraftPutItem(itemId, slot, count)`.
 
-- **`ENUM_DiceCraftCmdType_EmptySlot`** (`string`) - Соответствует `craft.DiceCraftEmptySlot(slot)`.
+- **`ENUM_DiceCraftCmdType_EmptySlot`** `(string)` - Соответствует `craft.DiceCraftEmptySlot(slot)`.
 
-- **`ENUM_DiceCraftCmdType_StartGame`** (`string`) - Соответствует `protectedCraft.DiceCraftStartGame(recipeId)`.
+- **`ENUM_DiceCraftCmdType_StartGame`** `(string)` - Соответствует `protectedCraft.DiceCraftStartGame(recipeId)`.
 
-- **`ENUM_DiceCraftCmdType_Reroll`** (`string`) - Соответствует `protectedCraft.DiceCraftReroll()`.
+- **`ENUM_DiceCraftCmdType_Reroll`** `(string)` - Соответствует `protectedCraft.DiceCraftReroll()`.
 
-- **`ENUM_DiceCraftCmdType_FinishGame`** (`string`) - Соответствует `protectedCraft.DiceCraftFinishGame()`.
+- **`ENUM_DiceCraftCmdType_FinishGame`** `(string)` - Соответствует `protectedCraft.DiceCraftFinishGame()`.
 
-- **`ENUM_DiceCraftCmdType_CancelGame`** (`string`) - Соответствует `protectedCraft.DiceCraftCancelGame()`.
+- **`ENUM_DiceCraftCmdType_CancelGame`** `(string)` - Соответствует `protectedCraft.DiceCraftCancelGame()`.
 
-- **`ENUM_DiceCraftCmdType_UseInspiration`** (`string`) - Соответствует `craft.DiceCraftUseInspiration()`.
+- **`ENUM_DiceCraftCmdType_UseInspiration`** `(string)` - Соответствует `craft.DiceCraftUseInspiration()`.
 
-- **`ENUM_DiceCraftCmdType_IncQualification`** (`string`) - Соответствует `craft.IncreaseQualification()`.
+- **`ENUM_DiceCraftCmdType_IncQualification`** `(string)` - Соответствует `craft.IncreaseQualification()`.
 
 ### Смотрите также
 

@@ -10,7 +10,7 @@ EVENT_GAME_ITEM_CHANGED
 
 ### Список параметров
 
-- **`itemId`** (`ObjectId`) - идентификатор предмета.
+- **`itemId`** `(ObjectId)` - идентификатор предмета.
 
 ---
 
@@ -26,4 +26,4 @@ EVENT_GAME_ITEM_CURSED_CHANGED
 
 ### Список параметров
 
-- **`itemId`** (`ObjectId`) - идентификатор предмета.
+- **`itemId`** `(ObjectId)` - идентификатор предмета.

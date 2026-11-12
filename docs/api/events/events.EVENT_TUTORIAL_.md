@@ -19,6 +19,6 @@ EVENT_TUTORIAL_SEARCH_RESULT
 
 ### Список параметров
 - **`id`** `(TutorialId)` - Идентификатор обучения.
-- **`request`** (`WString`) - Исходный запрос.
+- **`request`** `(WString)` - Исходный запрос.
 - **`tutorials`** `(table of TutorialId)` - Список идентификаторов обучения, удовлетворяющих запросу.
 - **`categories`** `(table of TutorialCategoryId)` - Список идентификаторов категорий обучения, удовлетворяющих запросу.

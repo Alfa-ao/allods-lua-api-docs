@@ -42,25 +42,25 @@ EVENT_META_UPGRADE_RESULT
 
 ### Список параметров
 
-- **`sysCause`** (`string`(`ENUM_ActionFailCause_*`)) - результат попытки улучшения. Значения соответствуют перечислению `ENUM_ActionFailCause_*`.
+- **`sysCause`** `(string(ENUM_ActionFailCause_*))` - результат попытки улучшения. Значения соответствуют перечислению `ENUM_ActionFailCause_*`.
 
-- **`isLucky`** (`boolean`) - сработал ли шанс моментального или двойного улучшения.
+- **`isLucky`** `(boolean)` - сработал ли шанс моментального или двойного улучшения.
 
-- **`improvementIncrease`** (`number`) - степень улучшения (в промежутке [0, 99]).
+- **`improvementIncrease`** `(number)` - степень улучшения (в промежутке [0, 99]).
 
-- **`upgradeChanceBehavior`** (`string`(`ENUM_UpgradeChanceBehavior_*`)) - поведение при срабатывании шанса моментального или двойного улучшения. Значения соответствуют перечислению `ENUM_UpgradeChanceBehavior_*`.
+- **`upgradeChanceBehavior`** `(string(ENUM_UpgradeChanceBehavior_*))` - поведение при срабатывании шанса моментального или двойного улучшения. Значения соответствуют перечислению `ENUM_UpgradeChanceBehavior_*`.
 
-- **`upgradeVector`** (`string`(`META_UPGRADE_*`)) - что улучшается: качество или уровень. Значения соответствуют перечислению `META_UPGRADE_*`.
+- **`upgradeVector`** `(string(META_UPGRADE_*))` - что улучшается: качество или уровень. Значения соответствуют перечислению `META_UPGRADE_*`.
 
-- **`sourceId`** (`ObjectId`) - идентификатор улучшаемого предмета.
+- **`sourceId`** `(ObjectId)` - идентификатор улучшаемого предмета.
 
-- **`enchancerId`** (`ObjectId`) - идентификатор предмета-улучшителя.
+- **`enchancerId`** `(ObjectId)` - идентификатор предмета-улучшителя.
 
-- **`agentId`** (`ObjectId`) - идентификатор предмета реагента.
+- **`agentId`** `(ObjectId)` - идентификатор предмета реагента.
 
-- **`agentCount`** (`number`) - количество использованных предметов-реагентов.
+- **`agentCount`** `(number)` - количество использованных предметов-реагентов.
 
-- **`resultId`** (`ObjectId`) - идентификатор полученного предмета.
+- **`resultId`** `(ObjectId)` - идентификатор полученного предмета.
 
 ### Смотрите также
 

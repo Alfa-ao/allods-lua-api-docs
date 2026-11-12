@@ -16,7 +16,7 @@ EVENT_PARTY_MEMBER_ACTIVE_PET_CHANGED
 
 ### Список параметров
 
-- **`playerId`** (`ObjectId`) - идентификатор члена группы.
+- **`playerId`** `(ObjectId)` - идентификатор члена группы.
 
 ### Смотрите также
 
@@ -36,4 +36,4 @@ EVENT_PARTY_MEMBER_POSITION_UPDATED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Id игрока.
+- **`id`** `(ObjectId)` - Id игрока.

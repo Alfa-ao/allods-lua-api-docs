@@ -22,7 +22,7 @@ object.GetInstantProjectedInfo( objectId: ObjectId, heightOffset: number ): tabl
 
 - **`objectId`** `(ObjectId)` - Идентификатор объекта.
 
-- **`heightOffset`** (`number`(`ATTACHED_OBJECT_POS_*`)) - Место дополнительного смещения проецируемой точки около объекта.
+- **`heightOffset`** `(number(ATTACHED_OBJECT_POS_*))` - Место дополнительного смещения проецируемой точки около объекта.
 
 ## Возвращаемые значения
 

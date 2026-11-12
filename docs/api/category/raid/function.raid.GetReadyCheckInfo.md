@@ -38,7 +38,7 @@ raid.GetReadyCheckInfo(): table|nil
 
 - **`uniqueId`** `(UniqueId)` - Уникальный идентификатор члена рейда.
 
-- **`state`** (`number`(`READY_CHECK_READY_STATE_*`)) - Состояние готовности.
+- **`state`** `(number(READY_CHECK_READY_STATE_*))` - Состояние готовности.
 
 ## Примеры
 

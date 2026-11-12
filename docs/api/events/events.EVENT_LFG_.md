@@ -30,7 +30,7 @@ EVENT_LFG_DEPART_AVAILABLE_CHANGED
 
 ### Список параметров
 
-- **`available`** (`boolean`) - возможность отправки на текущую целевую локацию.
+- **`available`** `(boolean)` - возможность отправки на текущую целевую локацию.
 
 ### Смотрите также
 
@@ -51,7 +51,7 @@ EVENT_LFG_DESTINATION_AVAILABLE_CHANGED
 
 ### Список параметров
 
-- **`destination`** (`LfgDestinationId`) - идентификатор целевой локации.
+- **`destination`** `(LfgDestinationId)` - идентификатор целевой локации.
 
 ### Смотрите также
 
@@ -73,7 +73,7 @@ EVENT_LFG_DESTINATION_CHANGED
 
 ### Список параметров
 
-- **`destination`** (`LfgDestinationId`) - пункт назначения.
+- **`destination`** `(LfgDestinationId)` - пункт назначения.
 
 ### Смотрите также
 
@@ -113,7 +113,7 @@ EVENT_LFG_DESTINATION_VISITS_CHANGED
 
 ### Список параметров
 
-- **`destination`** (`LfgDestinationId`) - пункт назначения.
+- **`destination`** `(LfgDestinationId)` - пункт назначения.
 
 ### Смотрите также
 
@@ -134,9 +134,9 @@ EVENT_LFG_JOIN
 
 ### Список параметров
 
-- **`destination`** (`LfgDestinationId`) - пункт назначения.
+- **`destination`** `(LfgDestinationId)` - пункт назначения.
 
-- **`roles`** (`table`) - список вакантных ролей в группе. Значения соответствуют перечислению `ENUM_LFGRole`.
+- **`roles`** `(table)` - список вакантных ролей в группе. Значения соответствуют перечислению `ENUM_LFGRole`.
 
 ### Смотрите также
 
@@ -173,15 +173,15 @@ EVENT_LFG_VOTE
 
 ### Список параметров
 
-- **`initiator`** (`WString`) - имя игрока, активировавшего опрос.
+- **`initiator`** `(WString)` - имя игрока, активировавшего опрос.
 
 - **`type`** `(number(ENUM_LFGVoteType))` - предмет опроса. Значения соответствуют перечислению `ENUM_LFGVoteType`.
 
 - **`destination`** `(LfgDestinationId|nil)` - пункт назначения.
 
-- **`endTimeMs`** (`number`) - время окончания опроса.
+- **`endTimeMs`** `(number)` - время окончания опроса.
 
-- **`roles`** (`table`) - список вакантных ролей в группе. Значения соответствуют перечислению `ENUM_LFGRole`.
+- **`roles`** `(table)` - список вакантных ролей в группе. Значения соответствуют перечислению `ENUM_LFGRole`.
 
 ### Смотрите также
 

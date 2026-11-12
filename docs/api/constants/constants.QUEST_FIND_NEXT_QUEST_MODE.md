@@ -4,9 +4,9 @@
 
 ### Список значений
 
-- **`QUEST_FIND_NEXT_QUEST_MODE_ZONE`** (`number`) - Искать в пределах зоны, в которой находится аватар.
+- **`QUEST_FIND_NEXT_QUEST_MODE_ZONE`** `(number)` - Искать в пределах зоны, в которой находится аватар.
 
-- **`QUEST_FIND_NEXT_QUEST_MODE_ALL`** (`number`) - Искать во всём игровом мире.
+- **`QUEST_FIND_NEXT_QUEST_MODE_ALL`** `(number)` - Искать во всём игровом мире.
 
 ### Смотрите также
 

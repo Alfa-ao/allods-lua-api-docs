@@ -8,12 +8,12 @@
 
 ### Список значений
 
-- **`ENUM_AffectGroup_All`** (`number`)
+- **`ENUM_AffectGroup_All`** `(number)`
 
-- **`ENUM_AffectGroup_Group`** (`number`)
+- **`ENUM_AffectGroup_Group`** `(number)`
 
-- **`ENUM_AffectGroup_Raid`** (`number`)
+- **`ENUM_AffectGroup_Raid`** `(number)`
 
-- **`ENUM_AffectGroup_Friends`** (`number`)
+- **`ENUM_AffectGroup_Friends`** `(number)`
 
-- **`ENUM_AffectGroup_Enemies`** (`number`)
+- **`ENUM_AffectGroup_Enemies`** `(number)`

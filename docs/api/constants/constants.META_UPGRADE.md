@@ -4,8 +4,8 @@
 
 ### Список значений
 
-- **`META_UPGRADE_QUALITY`** (`number`) - Улучшается качество метапредмета.
+- **`META_UPGRADE_QUALITY`** `(number)` - Улучшается качество метапредмета.
 
-- **`META_UPGRADE_LEVEL`** (`number`) - Улучшается уровень метапредмета.
+- **`META_UPGRADE_LEVEL`** `(number)` - Улучшается уровень метапредмета.
 
-- **`META_UPGRADE_ITEM`** (`number`) - Заменяется исходный предмет на новый.
+- **`META_UPGRADE_ITEM`** `(number)` - Заменяется исходный предмет на новый.

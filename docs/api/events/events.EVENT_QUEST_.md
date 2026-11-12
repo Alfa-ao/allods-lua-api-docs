@@ -10,7 +10,7 @@ EVENT_QUEST_ABANDONED
 
 ### Список параметров
 
-- **`name`** (`WString`) - Название задания.
+- **`name`** `(WString)` - Название задания.
 
 ---
 
@@ -26,7 +26,7 @@ EVENT_QUEST_ACCEPT_ERROR
 
 ### Список параметров
 
-- **`result`** (`number`(`ACCEPT_ERROR_*`)) - Код ошибки. Значения соответствуют перечислению `ACCEPT_ERROR_*`.
+- **`result`** `(number(ACCEPT_ERROR_*))` - Код ошибки. Значения соответствуют перечислению `ACCEPT_ERROR_*`.
 
 ---
 
@@ -74,7 +74,7 @@ EVENT_QUEST_COMPLETED
 
 ### Список параметров
 
-- **`questId`** (`QuestId`) - Идентификатор задания.
+- **`questId`** `(QuestId)` - Идентификатор задания.
 
 ---
 
@@ -90,7 +90,7 @@ EVENT_QUEST_DISCARDED
 
 ### Список параметров
 
-- **`name`** (`WString`) - Название задания.
+- **`name`** `(WString)` - Название задания.
 
 ---
 
@@ -106,7 +106,7 @@ EVENT_QUEST_FAILED
 
 ### Список параметров
 
-- **`questId`** (`QuestId`) - Идентификатор задания.
+- **`questId`** `(QuestId)` - Идентификатор задания.
 
 ---
 
@@ -142,7 +142,7 @@ EVENT_QUEST_FINISH_FAILED_NO_SPACE
 
 ### Список параметров
 
-- **`questId`** (`QuestId`) - Идентификатор задания.
+- **`questId`** `(QuestId)` - Идентификатор задания.
 
 - **`pocket`** `(number|nil)` - Номер переполненного кармана, если переполнен карман.
 
@@ -160,7 +160,7 @@ EVENT_QUEST_MARK_UPDATED
 
 ### Список параметров
 
-- **`objectId`** (`ObjectId`) - Идентификатор интерактивного объекта.
+- **`objectId`** `(ObjectId)` - Идентификатор интерактивного объекта.
 
 ---
 
@@ -176,9 +176,9 @@ EVENT_QUEST_OBJECTIVE_UPDATED
 
 ### Список параметров
 
-- **`questId`** (`QuestId`) - Идентификатор ресурса квеста.
-- **`objectiveId`** (`ObjectId`) - Идентификатор счетчика квеста.
-- **`objectiveNumber`** (`number`) - (OBSOLETE) Номер подзадания в списке `objectives`, возвращаемого функцией `avatar.GetQuestProgress`.
+- **`questId`** `(QuestId)` - Идентификатор ресурса квеста.
+- **`objectiveId`** `(ObjectId)` - Идентификатор счетчика квеста.
+- **`objectiveNumber`** `(number)` - (OBSOLETE) Номер подзадания в списке `objectives`, возвращаемого функцией `avatar.GetQuestProgress`.
 
 ---
 
@@ -194,7 +194,7 @@ EVENT_QUEST_READY_TO_RETURN_CHANGED
 
 ### Список параметров
 
-- **`questId`** (`QuestId`) - Идентификатор задания.
+- **`questId`** `(QuestId)` - Идентификатор задания.
 
 ---
 
@@ -210,7 +210,7 @@ EVENT_QUEST_RECEIVED
 
 ### Список параметров
 
-- **`questId`** (`QuestId`) - Идентификатор задания.
+- **`questId`** `(QuestId)` - Идентификатор задания.
 
 ---
 
@@ -226,7 +226,7 @@ EVENT_QUEST_REWARD_UPDATED
 
 ### Список параметров
 
-- **`questId`** (`QuestId`) - Идентификатор задания.
+- **`questId`** `(QuestId)` - Идентификатор задания.
 
 ---
 
@@ -242,7 +242,7 @@ EVENT_QUEST_SHARE_INVITATION
 
 ### Список параметров
 
-- **`shareId`** (`ObjectId`) - Уникальный идентификатор предложения.
+- **`shareId`** `(ObjectId)` - Уникальный идентификатор предложения.
 
 ---
 
@@ -258,10 +258,10 @@ EVENT_QUEST_SHARE_INVITATION_RESULT
 
 ### Список параметров
 
-- **`questName`** (`WString`) - Название отменяемого задания.
-- **`sharerName`** (`WString`) - Имя игрока, предлагавшего задание.
-- **`sharerId`** (`ObjectId`) - Идентификатор игрока, предлагавшего задание.
-- **`result`** (`number`(`QuestShareResult_*`)) - Результат. Значения соответствуют перечислению `QuestShareResult_*`.
+- **`questName`** `(WString)` - Название отменяемого задания.
+- **`sharerName`** `(WString)` - Имя игрока, предлагавшего задание.
+- **`sharerId`** `(ObjectId)` - Идентификатор игрока, предлагавшего задание.
+- **`result`** `(number(QuestShareResult_*))` - Результат. Значения соответствуют перечислению `QuestShareResult_*`.
 
 ---
 
@@ -277,8 +277,8 @@ EVENT_QUEST_SHARE_INVITATION_TIMEOUT
 
 ### Список параметров
 
-- **`questName`** (`WString`) - Название отменяемого задания.
-- **`sharerName`** (`WString`) - Имя игрока, предлагавшего задание.
+- **`questName`** `(WString)` - Название отменяемого задания.
+- **`sharerName`** `(WString)` - Имя игрока, предлагавшего задание.
 
 ---
 
@@ -294,7 +294,7 @@ EVENT_QUEST_START_FAILED_LOG_FULL
 
 ### Список параметров
 
-- **`questId`** (`QuestId`) - Идентификатор задания.
+- **`questId`** `(QuestId)` - Идентификатор задания.
 
 ---
 
@@ -310,7 +310,7 @@ EVENT_QUEST_START_FAILED_NO_SPACE
 
 ### Список параметров
 
-- **`questId`** (`QuestId`) - Идентификатор задания.
+- **`questId`** `(QuestId)` - Идентификатор задания.
 - **`pocket`** `(number|nil)` - Номер переполненного кармана, если переполнен карман.
 
 ---
@@ -327,7 +327,7 @@ EVENT_QUEST_TIMER_FINISHED
 
 ### Список параметров
 
-- **`questId`** (`QuestId`) - Идентификатор задания.
+- **`questId`** `(QuestId)` - Идентификатор задания.
 
 ---
 
@@ -343,9 +343,9 @@ EVENT_QUEST_TIMER_UPDATED
 
 ### Список параметров
 
-- **`questId`** (`QuestId`) - Идентификатор задания.
-- **`durationMs`** (`number`) - Продолжительность таймера.
-- **`timeLeftMs`** (`number`) - Оставшееся время таймера.
+- **`questId`** `(QuestId)` - Идентификатор задания.
+- **`durationMs`** `(number)` - Продолжительность таймера.
+- **`timeLeftMs`** `(number)` - Оставшееся время таймера.
 
 ---
 
@@ -361,4 +361,4 @@ EVENT_QUEST_UPDATED
 
 ### Список параметров
 
-- **`questId`** (`QuestId`) - Идентификатор задания.
+- **`questId`** `(QuestId)` - Идентификатор задания.

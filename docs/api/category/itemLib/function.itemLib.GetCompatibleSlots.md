@@ -22,7 +22,7 @@ itemLib.GetCompatibleSlots( itemId: ObjectId ): table
 
 Возвращает `table` - таблица, содержащая массив идентификаторов слотов.
 
-- **`[index]`** (`number`(`DRESS_SLOT_*`)) - Идентификатор слота.
+- **`[index]`** `(number(DRESS_SLOT_*))` - Идентификатор слота.
 
 ## Примеры
 

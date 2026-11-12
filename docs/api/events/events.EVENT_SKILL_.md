@@ -10,7 +10,7 @@ EVENT_SKILL_ADDED
 
 ### Список параметров
 
-- **`skillId`** (`SkillId`) - Id ресурса скилла.
+- **`skillId`** `(SkillId)` - Id ресурса скилла.
 
 ---
 
@@ -26,7 +26,7 @@ EVENT_SKILL_IMPROVEMENT_CHANGED
 
 ### Список параметров
 
-- **`skillId`** (`SkillId`) - Идентификатор ресурса скилла.
+- **`skillId`** `(SkillId)` - Идентификатор ресурса скилла.
 
 ---
 
@@ -42,7 +42,7 @@ EVENT_SKILL_REMOVED
 
 ### Список параметров
 
-- **`skillId`** (`SkillId`) - Id ресурса скилла (можно получить `avatar.GetSkillInfo(skillId)`).(HELP)
+- **`skillId`** `(SkillId)` - Id ресурса скилла (можно получить `avatar.GetSkillInfo(skillId)`).(HELP)
 
 ---
 
@@ -58,4 +58,4 @@ EVENT_SKILL_SCORE_CHANGED
 
 ### Список параметров
 
-- **`skillId`** (`SkillId`) - Идентификатор ресурса скилла.
+- **`skillId`** `(SkillId)` - Идентификатор ресурса скилла.

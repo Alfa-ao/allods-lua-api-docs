@@ -10,9 +10,9 @@ EVENT_EFFECT_FINISHED
 
 ### Список параметров
 
-- **`wtOwner`** (`WidgetSafe`) - виджет, переданный в функции PlayEffect.
+- **`wtOwner`** `(WidgetSafe)` - виджет, переданный в функции PlayEffect.
 
-- **`effectType`** (`number`(`ET_*`)) - тип эффекта.
+- **`effectType`** `(number(ET_*))` - тип эффекта.
 
 ---
 
@@ -28,9 +28,9 @@ EVENT_EFFECT_SEQUENCE_FINISHED
 
 ### Список параметров
 
-- **`wtOwner`** (`WidgetSafe`) - виджет, переданный в функции PlayEffectSequence.
+- **`wtOwner`** `(WidgetSafe)` - виджет, переданный в функции PlayEffectSequence.
 
-- **`effectType`** (`number`(`ET_*`)) - тип эффекта.
+- **`effectType`** `(number(ET_*))` - тип эффекта.
 
 - **`label`** `(string|nil)` - метка, переданная в PlayEffectSequence, при наличии.
 
@@ -48,10 +48,10 @@ EVENT_EFFECT_SEQUENCE_STEP
 
 ### Список параметров
 
-- **`wtOwner`** (`WidgetSafe`) - виджет, переданный в функции PlayEffectSequence.
+- **`wtOwner`** `(WidgetSafe)` - виджет, переданный в функции PlayEffectSequence.
 
-- **`effectType`** (`number`(`ET_*`)) - тип эффекта.
+- **`effectType`** `(number(ET_*))` - тип эффекта.
 
-- **`step`** (`number`) - номер завершенного шага цепочки.
+- **`step`** `(number)` - номер завершенного шага цепочки.
 
 - **`label`** `(string|nil)` - метка, переданная в PlayEffectSequence, при наличии.

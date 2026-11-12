@@ -32,7 +32,7 @@ order.GetSeasonStartDate(): table | nil
 
 - **`y`** `(number)` - год начала сезона.
 
-- **`sysMonth`** (`number`(`ENUM_MONTH_*`)) - системное перечисление месяца.
+- **`sysMonth`** `(number(ENUM_MONTH_*))` - системное перечисление месяца.
 
 ## Примеры
 

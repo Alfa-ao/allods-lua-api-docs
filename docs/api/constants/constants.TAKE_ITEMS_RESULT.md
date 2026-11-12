@@ -8,8 +8,8 @@
 
 ### Список значений
 
-- **`TAKE_ITEMS_RESULT_SUCCESS`** (`number`)
+- **`TAKE_ITEMS_RESULT_SUCCESS`** `(number)`
 
-- **`TAKE_ITEMS_RESULT_PARTIAL_STACK_LEFT`** (`number`)
+- **`TAKE_ITEMS_RESULT_PARTIAL_STACK_LEFT`** `(number)`
 
-- **`TAKE_ITEMS_RESULT_FULL_STACK_LEFT`** (`number`)
+- **`TAKE_ITEMS_RESULT_FULL_STACK_LEFT`** `(number)`

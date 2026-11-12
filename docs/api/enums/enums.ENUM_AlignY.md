@@ -8,10 +8,10 @@
 
 ### Список значений
 
-- **`ENUM_AlignY_TOP`** (`number`)
+- **`ENUM_AlignY_TOP`** `(number)`
 
-- **`ENUM_AlignY_MIDDLE`** (`number`)
+- **`ENUM_AlignY_MIDDLE`** `(number)`
 
-- **`ENUM_AlignY_BOTTOM`** (`number`)
+- **`ENUM_AlignY_BOTTOM`** `(number)`
 
-- **`ENUM_AlignY_DEBUG`** (`number`)
+- **`ENUM_AlignY_DEBUG`** `(number)`

@@ -20,7 +20,7 @@ raid.AddRight( uniqueId: UniqueId, right: number )
 
 - **`uniqueId`** `(UniqueId)` - Идентификатор участника отряда.
 
-- **`right`** (`number`(`RAID_MEMBER_RIGHT_*`)) - Добавляемое право.
+- **`right`** `(number(RAID_MEMBER_RIGHT_*))` - Добавляемое право.
 
 ## Возвращаемые значения
 

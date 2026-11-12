@@ -30,7 +30,7 @@ itemLib.GetItemInfo( itemId: ObjectId ): table|nil
 
 - **`sourceDescription`** `(GlossaryId|nil)` - Идентификатор ресурса универсального описателя для источника предмета при наличии.
 
-- **`dressSlot`** (`number`(`DRESS_SLOT_*`)) - Слот одежды или оружия, если предмет надевается.
+- **`dressSlot`** `(number(DRESS_SLOT_*))` - Слот одежды или оружия, если предмет надевается.
 
 - **`sysName`** `(string)` - Специальные интерфейсные особенности предмета.
 
@@ -40,7 +40,7 @@ itemLib.GetItemInfo( itemId: ObjectId ): table|nil
 
 - **`requiredLevel`** `(number)` - Уровень персонажа, необходимый для ношения предмета.
 
-- **`requiredReputationLevel`** (`number`(`REPUTATION_LEVEL_*`)) - Уровень репутации, необходимый для покупки предмета.
+- **`requiredReputationLevel`** `(number(REPUTATION_LEVEL_*))` - Уровень репутации, необходимый для покупки предмета.
 
 - **`requiredReputationQuantity`** `(number)` - Минимальное значение репутации, необходимое для покупки предмета.
 

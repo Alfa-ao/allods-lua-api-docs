@@ -34,7 +34,7 @@ social.GetFriendInfo( friendId: ObjectId ): table | nil
 
 - **`description`** `(WString)` - Комментарий главного игрока по данному персонажу.
 
-- **`sysOnlineStatus`** (`string`(`ENUM_AvatarOnlineStatus_*`)) - Состояние друга (онлайн, альт, с мобильного).
+- **`sysOnlineStatus`** `(string(ENUM_AvatarOnlineStatus_*))` - Состояние друга (онлайн, альт, с мобильного).
 
 - **`isLogged`** `(boolean)` - Флаг нахождения персонажа в игре.
 

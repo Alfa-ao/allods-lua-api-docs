@@ -39,7 +39,7 @@ raid.GetMembers(): table
     - **`className`** `(string)` - системное название класса игрока (нелокализуемое).
     - **`classLocalName`** `(WString)` - лорное название класса игрока (локализуемое).
     - **`level`** `(number|nil)` - уровень игрока или `nil`, если он не известен в данный момент.
-    - **`state`** (`number`(`RAID_MEMBER_STATE_*`)) - состояние игрока.
+    - **`state`** `(number(RAID_MEMBER_STATE_*))` - состояние игрока.
 
 ## Примеры
 

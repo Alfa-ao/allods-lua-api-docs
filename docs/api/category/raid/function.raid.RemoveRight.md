@@ -20,7 +20,7 @@ raid.RemoveRight( uniqueId: UniqueId, right: number )
 
 - **`uniqueId`** `(UniqueId)` - Уникальный постоянный идентификатор игрока - участника рейда.
 
-- **`right`** (`number`(`RAID_MEMBER_RIGHT_*`)) - Отнимаемое право.
+- **`right`** `(number(RAID_MEMBER_RIGHT_*))` - Отнимаемое право.
 
 ## Возвращаемые значения
 

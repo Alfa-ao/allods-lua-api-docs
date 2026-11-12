@@ -18,14 +18,14 @@ unit.GetEquipmentItemSlotUnlockedQualities( unitId: ObjectId, equipmentSlot: num
 
 - **`unitId`** `(ObjectId)` - Идентификатор игрока.
 
-- **`equipmentSlot`** (`number`(`DRESS_SLOT_*`)) - Индекс слота в экипировке.
+- **`equipmentSlot`** `(number(DRESS_SLOT_*))` - Индекс слота в экипировке.
 
 ## Возвращаемые значения
 
 Возвращает `table`:
 - **`isFullyUnlocked`** `(boolean)` - Слот полностью разблокирован.
 
-- **`qualities`** `(table)` - Таблица, индексированная с нуля, содержащая допустимые для экипировки значения качества предметов (`number`(`ITEM_QUALITY_*`)).
+- **`qualities`** `(table)` - Таблица, индексированная с нуля, содержащая допустимые для экипировки значения качества предметов `(number(ITEM_QUALITY_*))`.
 
 ## Примеры
 

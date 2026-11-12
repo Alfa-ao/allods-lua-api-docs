@@ -48,7 +48,7 @@ object.GetBuffInfo( id: ObjectId | BuffId, includeResourceInfo: boolean | nil, o
 
 - **`isNeedVisualizeDuration`** `(boolean)` - нужно ли показывать duration. Доступно для ресурса и экземпляра.
 
-- **`priority`** (`number`(`ENUM_UIBuffPriority_*`)) - приоритет отображения бафа в интерфейсе. Доступно для ресурса и экземпляра.
+- **`priority`** `(number(ENUM_UIBuffPriority_*))` - приоритет отображения бафа в интерфейсе. Доступно для ресурса и экземпляра.
 
 - **`groups`** `(table)` - таблица групп бафа. Ключ - системное имя группы, значение - `true`. Безымянные группы не учитываются. Доступно для ресурса и экземпляра.
 

@@ -10,7 +10,7 @@ EVENT_UNIT_CLASS_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор юнита.
+- **`unitId`** `(ObjectId)` - Идентификатор юнита.
 
 ---
 
@@ -24,7 +24,7 @@ EVENT_UNIT_CLASS_CHANGED
 EVENT_UNIT_DAMAGE_RECEIVED
 ```
 
-Событие присылается при нанесении повреждения юниту. Тип повреждения соответствует перечислению `ENUM_SubElement_...`. Для срабатывания данного события требуется указание идентификатора объекта `ObjectId`(`number`) в качестве параметра функции common.RegisterEventHandler( eventFunction, sysEventName, params, requireMainThread ).(HELP)
+Событие присылается при нанесении повреждения юниту. Тип повреждения соответствует перечислению `ENUM_SubElement_...`. Для срабатывания данного события требуется указание идентификатора объекта `ObjectId``(number)` в качестве параметра функции common.RegisterEventHandler( eventFunction, sysEventName, params, requireMainThread ).(HELP)
 
 В зависимости от того, чем был нанесен урон, одно из следующих полей будет не nil. Следующие поля заполняются, если был факт срабатывания соответствующего модификатора. В данный момент: `overallAbsorbedDamage` = `absorb` + `barrier` + `toMount`, `overallPreventedDamage` = `multipliersAbsorb` + `runesAbsorb`.
 
@@ -39,33 +39,33 @@ EVENT_UNIT_DAMAGE_RECEIVED
 ### Список параметров
 
 - **`source`** `(ObjectId|nil)` - Идентификатор того, кто наносит повреждения.
-- **`sourceName`** (`WString`) - Имя того, кто наносит повреждения.
-- **`target`** (`ObjectId`) - Идентификатор того, кто получает повреждения. Этот объект может уже исчезнуть, и надо проверять его на существование (см. object.IsExist()).
-- **`amount`** (`number`) - Количество нанесенных повреждений.
-- **`ability`** (`WString`) - Имя спелла или умения.
+- **`sourceName`** `(WString)` - Имя того, кто наносит повреждения.
+- **`target`** `(ObjectId)` - Идентификатор того, кто получает повреждения. Этот объект может уже исчезнуть, и надо проверять его на существование (см. object.IsExist()).
+- **`amount`** `(number)` - Количество нанесенных повреждений.
+- **`ability`** `(WString)` - Имя спелла или умения.
 - **`sysSubElement`** `(string(ENUM_SubElement_...))` - Тип повреждения. Значения соответствуют перечислению `ENUM_SubElement_...`.
 - **`lethal`** `(boolean|nil)` - Этот удар был финальным. Юнит умер.
-- **`spellId`** (`SpellId`(`ResourceId`) | `nil`) - Id спелла, если били спеллом.
-- **`abilityId`** (`AbilityId`(`ResourceId`) | `nil`) - Id абилки, если били абилкой.
-- **`buffId`** (`BuffId`(`ResourceId`) | `nil`) - Id буффа, если били буффом.
-- **`mapModifierId`** (`MapModifierId`(`ResourceId`) | `nil`) - Модификатор карты, если повреждения от модификатора карты.
-- **`isFall`** (`boolean`) - Повреждение от падения.
-- **`isExploit`** (`boolean`) - Повреждения от эксплойта.
+- **`spellId`** (`SpellId``(ResourceId)` | `nil`) - Id спелла, если били спеллом.
+- **`abilityId`** (`AbilityId``(ResourceId)` | `nil`) - Id абилки, если били абилкой.
+- **`buffId`** (`BuffId``(ResourceId)` | `nil`) - Id буффа, если били буффом.
+- **`mapModifierId`** (`MapModifierId``(ResourceId)` | `nil`) - Модификатор карты, если повреждения от модификатора карты.
+- **`isFall`** `(boolean)` - Повреждение от падения.
+- **`isExploit`** `(boolean)` - Повреждения от эксплойта.
 - **`isDodge`** `(boolean|nil)` - Увернулась ли цель от удара.
 - **`isMiss`** `(boolean|nil)` - Был ли промах.
 - **`isCritical`** `(boolean|nil)` - Был ли нанесён Critical Damage (увеличенное повреждение).
 - **`isGlancing`** `(boolean|nil)` - Был ли нанесён glancing damage (уменьшенное повреждение).
-- **`shieldBlock`** (`number`) - Величина заблокированного урона, если был Shield Block, иначе 0.
-- **`parry`** (`number`) - Величина парированного урона, если был Parry, иначе 0.
-- **`resist`** (`number`) - Величина зарезистенного урона, если был резист, иначе 0.
-- **`barrier`** (`number`) - Величина урона, поглощенного барьером, если последний сработал, иначе 0.
-- **`absorb`** (`number`) - Неотрицательная величина урона, поглощенного бафами.
-- **`toMount`** (`number`) - Неотрицательная величина урона, поглощенного маунтом.
-- **`multipliersAbsorb`** (`number`) - Величина, на которую уменьшился урон из-за множителей урона на цели (может быть отрицательной, если урон увеличился).
-- **`runesAbsorb`** (`number`) - Неотрицательная величина урона, отраженного защитными рунами.
-- **`damageSource`** (`string`) - Тип источника урона. Возможные значения: `DamageSource_SPELL`, `DamageSource_DOT`, `DamageSource_MAINATTACK`, `DamageSource_RANGEDATTACK`, `DamageSource_BARRIER`, `DamageSource_DAMAGEPOOL`, `DamageSource_OTHER`.
-- **`overallAbsorbedDamage`** (`number`) - Величина всего поглощенного урона (урон ушёл в какую-то сущность).
-- **`overallPreventedDamage`** (`number`) - Величина всего предотвращённого урона (урон вообще не попал в игрока).
+- **`shieldBlock`** `(number)` - Величина заблокированного урона, если был Shield Block, иначе 0.
+- **`parry`** `(number)` - Величина парированного урона, если был Parry, иначе 0.
+- **`resist`** `(number)` - Величина зарезистенного урона, если был резист, иначе 0.
+- **`barrier`** `(number)` - Величина урона, поглощенного барьером, если последний сработал, иначе 0.
+- **`absorb`** `(number)` - Неотрицательная величина урона, поглощенного бафами.
+- **`toMount`** `(number)` - Неотрицательная величина урона, поглощенного маунтом.
+- **`multipliersAbsorb`** `(number)` - Величина, на которую уменьшился урон из-за множителей урона на цели (может быть отрицательной, если урон увеличился).
+- **`runesAbsorb`** `(number)` - Неотрицательная величина урона, отраженного защитными рунами.
+- **`damageSource`** `(string)` - Тип источника урона. Возможные значения: `DamageSource_SPELL`, `DamageSource_DOT`, `DamageSource_MAINATTACK`, `DamageSource_RANGEDATTACK`, `DamageSource_BARRIER`, `DamageSource_DAMAGEPOOL`, `DamageSource_OTHER`.
+- **`overallAbsorbedDamage`** `(number)` - Величина всего поглощенного урона (урон ушёл в какую-то сущность).
+- **`overallPreventedDamage`** `(number)` - Величина всего предотвращённого урона (урон вообще не попал в игрока).
 - **`sourceTags`** (`table` of `CombatTagId` | `nil`) - Список усиливающих и ослабляющих эффектов на том, кто наносит повреждения.
 - **`targetTags`** (`table` of `CombatTagId` | `nil`) - Список усиливающих и ослабляющих эффектов на том, кто получает повреждения.
 
@@ -141,7 +141,7 @@ EVENT_UNIT_DEAD_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор юнита.
+- **`unitId`** `(ObjectId)` - Идентификатор юнита.
 
 ---
 
@@ -157,7 +157,7 @@ EVENT_UNIT_EQUIPMENT_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор юнита.
+- **`unitId`** `(ObjectId)` - Идентификатор юнита.
 
 - **`slotType`** `(number(ITEM_CONT_...))` - Тип контейнера. Значения соответствуют перечислению `ITEM_CONT_...`.
 (HELP)
@@ -175,7 +175,7 @@ EVENT_UNIT_FACTION_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор юнита.
+- **`unitId`** `(ObjectId)` - Идентификатор юнита.
 
 ---
 
@@ -191,7 +191,7 @@ EVENT_UNIT_FAIRY_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор объекта.
+- **`unitId`** `(ObjectId)` - Идентификатор объекта.
 
 
 ---
@@ -208,7 +208,7 @@ EVENT_UNIT_FAIRY_RANK_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор объекта, чей покровитель поменял ранг.
+- **`unitId`** `(ObjectId)` - Идентификатор объекта, чей покровитель поменял ранг.
 
 ---
 
@@ -224,7 +224,7 @@ EVENT_UNIT_FATALITY_CHANGED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Идентификатор юнита.
+- **`id`** `(ObjectId)` - Идентификатор юнита.
 
 ---
 
@@ -240,7 +240,7 @@ EVENT_UNIT_FOLLOWERS_LIST_CHANGED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Идентификатор игрока, у которого изменился список подчиненных юнитов.
+- **`id`** `(ObjectId)` - Идентификатор игрока, у которого изменился список подчиненных юнитов.
 
 ### Смотрите также
 
@@ -260,7 +260,7 @@ EVENT_UNIT_GUILD_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор игрока.
+- **`unitId`** `(ObjectId)` - Идентификатор игрока.
 
 ---
 
@@ -276,7 +276,7 @@ EVENT_UNIT_HONOR_VALUE_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор игрока.
+- **`unitId`** `(ObjectId)` - Идентификатор игрока.
 
 ---
 
@@ -292,8 +292,8 @@ EVENT_UNIT_LEVEL_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор юнита.
-- **`amount`** (`number`) - Изменение уровня.
+- **`unitId`** `(ObjectId)` - Идентификатор юнита.
+- **`amount`** `(number)` - Изменение уровня.
 
 ---
 
@@ -318,7 +318,7 @@ EVENT_UNIT_MANA_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор юнита.
+- **`unitId`** `(ObjectId)` - Идентификатор юнита.
 
 ---
 
@@ -343,7 +343,7 @@ EVENT_UNIT_MANA_PERCENTAGE_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор юнита.
+- **`unitId`** `(ObjectId)` - Идентификатор юнита.
 
 ---
 
@@ -360,9 +360,9 @@ EVENT_UNIT_MESSAGE
 ### Список параметров
 
 - **`id`** `(ObjectId|nil)` - Id юнита, если есть, иначе nil.
-- **`name`** (`WString`) - Имя юнита.
-- **`message`** (`WString`) - Текстовое сообщение от NPC.
-- **`isWhisper`** (`boolean`) - Является ли сообщение личным.
+- **`name`** `(WString)` - Имя юнита.
+- **`message`** `(WString)` - Текстовое сообщение от NPC.
+- **`isWhisper`** `(boolean)` - Является ли сообщение личным.
 
 ---
 
@@ -378,7 +378,7 @@ EVENT_UNIT_MOOD_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор игрока.
+- **`unitId`** `(ObjectId)` - Идентификатор игрока.
 
 ---
 
@@ -394,8 +394,8 @@ EVENT_UNIT_MOUNT_HEALTH_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор игрока.
-- **`health`** (`number`) - Точная величина здоровья маунта, если такая информация доступна (иначе 0).
+- **`unitId`** `(ObjectId)` - Идентификатор игрока.
+- **`health`** `(number)` - Точная величина здоровья маунта, если такая информация доступна (иначе 0).
 
 ---
 
@@ -411,7 +411,7 @@ EVENT_UNIT_POS_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор юнита.
+- **`unitId`** `(ObjectId)` - Идентификатор юнита.
 
 ---
 
@@ -427,7 +427,7 @@ EVENT_UNIT_PVP_FLAG_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор юнита.
+- **`unitId`** `(ObjectId)` - Идентификатор юнита.
 
 ---
 
@@ -443,7 +443,7 @@ EVENT_UNIT_RAGE_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор юнита.
+- **`unitId`** `(ObjectId)` - Идентификатор юнита.
 
 ### Смотрите также
 
@@ -463,7 +463,7 @@ EVENT_UNIT_RELATION_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор юнита.
+- **`unitId`** `(ObjectId)` - Идентификатор юнита.
 
 ---
 
@@ -479,7 +479,7 @@ EVENT_UNIT_TAG_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор моба.
+- **`unitId`** `(ObjectId)` - Идентификатор моба.
 
 ### Смотрите также
 
@@ -500,9 +500,9 @@ EVENT_UNIT_TOOK_MONEY
 
 ### Список параметров
 
-- **`ownerId`** (`ObjectId`) - Идентификатор игрока, взявшего предмет.
+- **`ownerId`** `(ObjectId)` - Идентификатор игрока, взявшего предмет.
 - **`mobId`** `(ObjectId|nil)` - Идентификатор моба, с которого были взяты деньги (nil, если моб далеко).
-- **`money`** (`number`) - Количество взятых денег.
+- **`money`** `(number)` - Количество взятых денег.
 
 ---
 
@@ -518,7 +518,7 @@ EVENT_UNIT_VETERAN_RANK_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор игрока.
+- **`unitId`** `(ObjectId)` - Идентификатор игрока.
 
 ---
 
@@ -534,7 +534,7 @@ EVENT_UNIT_WILL_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор юнита.
+- **`unitId`** `(ObjectId)` - Идентификатор юнита.
 
 ### Смотрите также
 
@@ -554,6 +554,6 @@ EVENT_UNIT_ZONE_PVP_TYPE_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Идентификатор игрока.
+- **`unitId`** `(ObjectId)` - Идентификатор игрока.
 
 ---

@@ -10,6 +10,6 @@ EVENT_AFK_STATE_CHANGED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Id игрока, меняющего статус AFK.
+- **`id`** `(ObjectId)` - Id игрока, меняющего статус AFK.
 
-- **`isAfk`** (`boolean`) - новый статус AFK.
+- **`isAfk`** `(boolean)` - новый статус AFK.

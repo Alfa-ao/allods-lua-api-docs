@@ -33,7 +33,7 @@ hangar.GetCustomizationSlotInfo( slotId: ObjectId ): table|nil
 
 - **`id`** `(ObjectId)` - Идентификатор слота для кастомизации.
 
-- **`sysName`** (`string`(`ENUM_Slot_*`)) - Системное имя слота.
+- **`sysName`** `(string(ENUM_Slot_*))` - Системное имя слота.
 
 - **`currentDeviceId`** `(ObjectId|nil)` - Идентификатор текущего поставленного в этот слот устройства в процессе кастомизации, находящегося в ангаре.
 

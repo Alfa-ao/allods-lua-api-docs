@@ -10,4 +10,4 @@ EVENT_PROJECTED_OBJECTS_CHANGED
 
 ### Список параметров
 
-- **`objectIds`** (`table`) - Индексированный с 0 список `ObjectId` объектов.
+- **`objectIds`** `(table)` - Индексированный с 0 список `ObjectId` объектов.

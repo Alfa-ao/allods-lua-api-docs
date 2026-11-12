@@ -46,7 +46,7 @@ object.GetInteractorInfo( objectId: ObjectId ): table | nil
 
 - **`isRawVendor`** `(boolean)` - Флаг, показывающий, что таблица торговца прописана в взаимодействиях, а не в репликах (требуется вывод отдельного пункта «Торговать»).
 
-- **`vendorType`** (`number`(`VENDOR_*`)) - Тип торговца.
+- **`vendorType`** `(number(VENDOR_*))` - Тип торговца.
 
 - **`isReputationVendor`** `(boolean)` - Флаг, указывающий, что торговец продает вещи, требующие определенную репутацию.
 

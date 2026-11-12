@@ -4,15 +4,15 @@
 
 ### Список значений
 
-- **`KBF_NONE`** (`number`) - Нет модификаторов.
+- **`KBF_NONE`** `(number)` - Нет модификаторов.
 
-- **`KBF_SHIFT`** (`number`) - Зажата одна из клавиш Shift.
+- **`KBF_SHIFT`** `(number)` - Зажата одна из клавиш Shift.
 
-- **`KBF_ALT`** (`number`) - Зажата одна из клавиш Alt.
+- **`KBF_ALT`** `(number)` - Зажата одна из клавиш Alt.
 
-- **`KBF_CTRL`** (`number`) - Зажата одна из клавиш Ctrl.
+- **`KBF_CTRL`** `(number)` - Зажата одна из клавиш Ctrl.
 
-- **`KBF_ANY`** (`number`) - Любое зажатие из клавиш (Ctrl/Alt/Shift).
+- **`KBF_ANY`** `(number)` - Любое зажатие из клавиш (Ctrl/Alt/Shift).
 
 ### Примеры
 

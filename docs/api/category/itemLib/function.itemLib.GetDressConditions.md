@@ -24,7 +24,7 @@ itemLib.GetDressConditions( itemId: ObjectId, ignoredConditions: table | nil ): 
 
 Возвращает `table` - таблица с информацией о результатах проверки:
 
-- **`sysFirstCondition`** (`string`(`ENUM_DressResult_*`)) - Первое выполненное или невыполненное условие, определяющее возможность экипировки предмета.
+- **`sysFirstCondition`** `(string(ENUM_DressResult_*))` - Первое выполненное или невыполненное условие, определяющее возможность экипировки предмета.
 
 - **`failedConditions`** `(table)` - Таблица невыполненных условий, где ключом является имя условия (`ENUM_DressResult_*`), а значением всегда выступает `true`.
 

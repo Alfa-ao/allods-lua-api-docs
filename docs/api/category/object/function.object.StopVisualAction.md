@@ -18,7 +18,7 @@ object.StopVisualAction( objectId: ObjectId, channelIndex: number )
 
 - **`objectId`** `(ObjectId)` - Идентификатор объекта.
 
-- **`channelIndex`** (`number`(`VIS_ACTION_*`)) - Индекс канала визуального скрипта.
+- **`channelIndex`** `(number(VIS_ACTION_*))` - Индекс канала визуального скрипта.
 
 ## Возвращаемые значения
 

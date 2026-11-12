@@ -8,16 +8,16 @@
 
 ### Список значений
 
-- **`ENUM_Monday`** (`number`) - Понедельник.
+- **`ENUM_Monday`** `(number)` - Понедельник.
 
-- **`ENUM_Tuesday`** (`number`) - Вторник.
+- **`ENUM_Tuesday`** `(number)` - Вторник.
 
-- **`ENUM_Wednesday`** (`number`) - Среда.
+- **`ENUM_Wednesday`** `(number)` - Среда.
 
-- **`ENUM_Thursday`** (`number`) - Четверг.
+- **`ENUM_Thursday`** `(number)` - Четверг.
 
-- **`ENUM_Friday`** (`number`) - Пятница.
+- **`ENUM_Friday`** `(number)` - Пятница.
 
-- **`ENUM_Saturday`** (`number`) - Суббота.
+- **`ENUM_Saturday`** `(number)` - Суббота.
 
-- **`ENUM_Sunday`** (`number`) - Воскресенье.
+- **`ENUM_Sunday`** `(number)` - Воскресенье.

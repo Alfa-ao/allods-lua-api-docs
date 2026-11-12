@@ -12,4 +12,4 @@ EVENT_CHEST_LOOTER_CHANGED
 
 ### Список параметров
 
-- **`deviceId`** (`number`) - id устройства.
+- **`deviceId`** `(number)` - id устройства.

@@ -10,4 +10,4 @@ EVENT_PET_INFO_CHANGED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - id пета.
+- **`id`** `(ObjectId)` - id пета.

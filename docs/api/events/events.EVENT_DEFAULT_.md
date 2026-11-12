@@ -10,7 +10,7 @@ EVENT_DEFAULT_SPELL_CHANGED
 
 ### Список параметров
 
-- **`id`** (`SpellId`) - идентификатор ресурса умения.
+- **`id`** `(SpellId)` - идентификатор ресурса умения.
 
 ---
 
@@ -27,17 +27,17 @@ EVENT_DEFAULT_SPELL_EFFECT
 ### Список параметров
 
 - **`effect`** (`number` (`EFFECT_TYPE_...`)) - тип начавшегося эффекта.
-- **`id`** (`SpellId`) - идентификатор ресурса умения.
+- **`id`** `(SpellId)` - идентификатор ресурса умения.
 
 Дополнительные поля в зависимости от типа эффекта:
 
 Для `effect == EFFECT_TYPE_COOLDOWN_STARTED`:
-- **`duration`** (`number`) - общая продолжительность в миллисекундах.
-- **`remaining`** (`number`) - оставшееся время в миллисекундах.
+- **`duration`** `(number)` - общая продолжительность в миллисекундах.
+- **`remaining`** `(number)` - оставшееся время в миллисекундах.
 
 Для `effect == EFFECT_TYPE_SPELL_PREPARED`:
-- **`prepared`** (`boolean`) - текущее значение флага `prepared`.
+- **`prepared`** `(boolean)` - текущее значение флага `prepared`.
 
 Для `effect == EFFECT_TYPE_SPELL_ACTIVE_STATE_CHANGED`:
-- **`isActive`** (`boolean`) - `true`, если спелл стал активным.
+- **`isActive`** `(boolean)` - `true`, если спелл стал активным.
 - **`objectId`** `(ObjectId|nil)` - идентификатор предмета, к которому привязан данный спелл.

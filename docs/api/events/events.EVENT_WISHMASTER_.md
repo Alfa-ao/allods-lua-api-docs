@@ -23,7 +23,7 @@ EVENT_WISHMASTER_MULTIPLYING
 
 ### Список параметров
 
-- **`resourceId`** (`WishmasterResourceId`) - идентификатор Волшебной лампы.
+- **`resourceId`** `(WishmasterResourceId)` - идентификатор Волшебной лампы.
 
 ### Смотрите также
 

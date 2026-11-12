@@ -56,7 +56,7 @@ unit.GetClass( unitId: ObjectId ): table | nil
 
 - **`className`** `(string)` - Имя класса.
 
-- **`manaType`** (`number`(`MANA_TYPE_*`)) - Тип маны героя (мана/энергия).
+- **`manaType`** `(number(MANA_TYPE_*))` - Тип маны героя (мана/энергия).
 
 - **`name`** `(WString)` - Имя класса (локализованное).
 

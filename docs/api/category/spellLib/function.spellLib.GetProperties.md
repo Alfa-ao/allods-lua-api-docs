@@ -34,9 +34,9 @@ spellLib.GetProperties( id: SpellId ): table | nil
 
 - **`minRange`** `(number)` - Минимальная дистанция до цели, на которой возможно применение умения.
 
-- **`targetType`** (`number`(`SPELL_TYPE_*`)) - Тип цели заклинания. Может принимать значения: `SPELL_TYPE_SELF`, `SPELL_TYPE_CURRENT_TARGET`, `SPELL_TYPE_POINT`, `SPELL_TYPE_CURRENT_TARGET_NOT_SELF`.
+- **`targetType`** `(number(SPELL_TYPE_*))` - Тип цели заклинания. Может принимать значения: `SPELL_TYPE_SELF`, `SPELL_TYPE_CURRENT_TARGET`, `SPELL_TYPE_POINT`, `SPELL_TYPE_CURRENT_TARGET_NOT_SELF`.
 
-- **`sysSubElement`** (`string`(`ENUM_SubElement_*`)) - Тип воздействия.
+- **`sysSubElement`** `(string(ENUM_SubElement_*))` - Тип воздействия.
 
 - **`level`** `(number)` - Уровень, начиная с которого можно изучить это умение.
 
@@ -50,7 +50,7 @@ spellLib.GetProperties( id: SpellId ): table | nil
 
 - **`isFairySpell`** `(boolean)` - `true`, если заклинание предоставляется покровителем.
 
-- **`uiSpellBookPageType`** (`number`(`SPELLBOOK_PAGE_*`)) - Тип страницы в книге заклинаний.
+- **`uiSpellBookPageType`** `(number(SPELLBOOK_PAGE_*))` - Тип страницы в книге заклинаний.
 
 - **`typeAEMark`** `(number)` - Тип AOE-марки заклинания. Может принимать значения: 0 `(AEMarkNone)`, 1 `(AEMarkDecal)`, 2 `(AEMarkSector)`, 3 `(AEMarkShipAOE)`.
 

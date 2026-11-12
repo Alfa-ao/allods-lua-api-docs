@@ -58,7 +58,7 @@ avatar.GetQuestObjectiveInfo( objectiveId: ObjectId ): table | nil
 
 - **`items`** `(table)` - таблица с идентификаторами `(ObjectId)` предметов, если имеется их список.
 
-- **`dressSlots`** `(table)` - таблица со значениями слотов (`DRESS_SLOT_...`), если имеется список слотов предметов.
+- **`dressSlots`** `(table)` - таблица со значениями слотов `DRESS_SLOT_...`, если имеется список слотов предметов.
 
 - **`locations`** `(table)` - таблица с описаниями точек цели задания (структура `QuestLocation`).
 

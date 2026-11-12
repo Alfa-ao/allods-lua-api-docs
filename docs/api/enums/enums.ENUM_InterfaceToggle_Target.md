@@ -8,11 +8,11 @@
 
 ### Список значений
 
-- **`ENUM_InterfaceToggle_Target_All`** (`number`) - Весь интерфейс для катсцен.
+- **`ENUM_InterfaceToggle_Target_All`** `(number)` - Весь интерфейс для катсцен.
 
-- **`ENUM_InterfaceToggle_Target_ShipConstructionProgress`** (`number`) - Прогресс строительства корабля.
+- **`ENUM_InterfaceToggle_Target_ShipConstructionProgress`** `(number)` - Прогресс строительства корабля.
 
-- **`ENUM_InterfaceToggle_Target_ShipRepairProgress`** (`number`) - Прогресс ремонта корабля.
+- **`ENUM_InterfaceToggle_Target_ShipRepairProgress`** `(number)` - Прогресс ремонта корабля.
 
 ### Смотрите также
 

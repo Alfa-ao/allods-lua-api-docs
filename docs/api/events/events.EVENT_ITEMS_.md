@@ -10,7 +10,7 @@ EVENT_ITEMS_EXCHANGE_DECLINE_IGNORED
 
 ### Список параметров
 
-- **`declinerName`** (`WString`) - имя персонажа, от которого пришел отказ.
+- **`declinerName`** `(WString)` - имя персонажа, от которого пришел отказ.
 
 ---
 
@@ -26,9 +26,9 @@ EVENT_ITEMS_EXCHANGE_ERROR
 
 ### Список параметров
 
-- **`inviter`** (`WString`) - имя игрока, инициировавшего торговлю.
+- **`inviter`** `(WString)` - имя игрока, инициировавшего торговлю.
 
-- **`invited`** (`WString`) - имя игрока, приглашенного торговать.
+- **`invited`** `(WString)` - имя игрока, приглашенного торговать.
 
 - **`error`** `(string(ENUM_ExchangeResult...))` - описание ошибки.
 
@@ -78,7 +78,7 @@ EVENT_ITEMS_EXCHANGE_OFFER_FINAL_CONFIRMED_CHANGED
 
 ### Список параметров
 
-- **`offerId`** (`ObjectId`) - идентификатор игрока.
+- **`offerId`** `(ObjectId)` - идентификатор игрока.
 
 ---
 
@@ -94,7 +94,7 @@ EVENT_ITEMS_EXCHANGE_OFFER_ITEMS_CHANGED
 
 ### Список параметров
 
-- **`offerId`** (`ObjectId`) - идентификатор игрока, поменявшего предметы.
+- **`offerId`** `(ObjectId)` - идентификатор игрока, поменявшего предметы.
 
 ---
 
@@ -110,7 +110,7 @@ EVENT_ITEMS_EXCHANGE_OFFER_MONEY_CHANGED
 
 ### Список параметров
 
-- **`offerId`** (`ObjectId`) - идентификатор игрока.
+- **`offerId`** `(ObjectId)` - идентификатор игрока.
 
 ---
 
@@ -126,7 +126,7 @@ EVENT_ITEMS_EXCHANGE_OFFER_PRIMARY_CONFIRMED_CHANGED
 
 ### Список параметров
 
-- **`offerId`** (`ObjectId`) - идентификатор игрока.
+- **`offerId`** `(ObjectId)` - идентификатор игрока.
 
 ---
 

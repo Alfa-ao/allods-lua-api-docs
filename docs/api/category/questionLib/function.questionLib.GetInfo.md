@@ -28,7 +28,7 @@ questionLib.GetInfo( questionId: ObjectId ): table | nil
 
 - **`type`** `(string)` - идентификатор типа вопроса.
 
-- **`showResults`** (`number`(`ENUM_Question_ShowResultsType_*`)) - как нужно отображать результаты голосования.
+- **`showResults`** `(number(ENUM_Question_ShowResultsType_*))` - как нужно отображать результаты голосования.
 
 - **`clientData`** `(table|nil)` - `nil`, если нет информации; иначе таблица, аналогичная полю `values` события `EVENT_CLIENT_MESSAGE`.
 

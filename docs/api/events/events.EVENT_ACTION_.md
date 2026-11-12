@@ -10,23 +10,23 @@ EVENT_ACTION_FAILED_EXPLOIT
 
 ### Список параметров
 
-- **`sysId`** (`string`) - строковый код ошибки вида `ENUM_ActionFailCause_...`.
+- **`sysId`** `(string)` - строковый код ошибки вида `ENUM_ActionFailCause_...`.
 
-- **`isInNotPredicate`** (`boolean`) - `true`, если причина ошибки на самом деле противоположна полученному коду ошибки `sysId`.
+- **`isInNotPredicate`** `(boolean)` - `true`, если причина ошибки на самом деле противоположна полученному коду ошибки `sysId`.
 
-- **`name`** (`WString`) - имя предмета, необходимого для каста (передается, если `sysId` == `ENUM_ActionFailCause_NoItem`).
+- **`name`** `(WString)` - имя предмета, необходимого для каста (передается, если `sysId` == `ENUM_ActionFailCause_NoItem`).
 
-- **`name`** (`WString`) - имя баффа в списке баффов, необходимого для каста (передается, если `sysId` == `ENUM_ACTION_FAILED_NO_BUFF`).
+- **`name`** `(WString)` - имя баффа в списке баффов, необходимого для каста (передается, если `sysId` == `ENUM_ACTION_FAILED_NO_BUFF`).
 
-- **`dress`** (`number`) - тип одежды/оружия, необходимый для каста (передается, если `sysId` == `ENUM_ActionFailCause_NotEquipped`). Значения: `DRESS_SLOT_...`.
+- **`dress`** `(number)` - тип одежды/оружия, необходимый для каста (передается, если `sysId` == `ENUM_ActionFailCause_NotEquipped`). Значения: `DRESS_SLOT_...`.
 
-- **`name`** (`WString`) - имя класса, необходимого для каста (передается, если `sysId` == `ENUM_ActionFailCause_WrongCharacterClass`).
+- **`name`** `(WString)` - имя класса, необходимого для каста (передается, если `sysId` == `ENUM_ActionFailCause_WrongCharacterClass`).
 
-::: danger Поле устарело (`OBSOLETE`).
-- **`race`** (`number`) - раса, необходимая для каста (передается, если `sysId` == `ENUM_ActionFailCause_WrongCreatureRace`). 
+::: danger Поле устарело `OBSOLETE`.
+- **`race`** `(number)` - раса, необходимая для каста (передается, если `sysId` == `ENUM_ActionFailCause_WrongCreatureRace`). 
 :::
 
-- **`sysRace`** (`string`) - раса существа (передается, если `sysId` == `ENUM_ActionFailCause_WrongCreatureRace`). Значения: `ENUM_CreatureRace_...`.
+- **`sysRace`** `(string)` - раса существа (передается, если `sysId` == `ENUM_ActionFailCause_WrongCreatureRace`). Значения: `ENUM_CreatureRace_...`.
 
 ---
 
@@ -42,25 +42,25 @@ EVENT_ACTION_FAILED_OTHER
 
 ### Список параметров
 
-- **`sysId`** (`string`) - строковый код ошибки `ENUM_ActionFailCause_...`.
+- **`sysId`** `(string)` - строковый код ошибки `ENUM_ActionFailCause_...`.
 
-- **`isInNotPredicate`** (`boolean`) - `true`, если причина ошибки на самом деле противоположна полученному коду ошибки `sysId`.
+- **`isInNotPredicate`** `(boolean)` - `true`, если причина ошибки на самом деле противоположна полученному коду ошибки `sysId`.
 
-- **`name`** (`WString`) - имя предмета, необходимого для каста (передается, если `sysId` == `ENUM_ActionFailCause_NoItem`).
+- **`name`** `(WString)` - имя предмета, необходимого для каста (передается, если `sysId` == `ENUM_ActionFailCause_NoItem`).
 
-- **`sysName`** (`string`) - служебное название ресурса (передается, если `sysId` == `ENUM_ActionFailCause_NoItem`).
+- **`sysName`** `(string)` - служебное название ресурса (передается, если `sysId` == `ENUM_ActionFailCause_NoItem`).
 
-- **`name`** (`WString`) - имя баффа в списке баффов, необходимого для каста (передается, если `sysId` == `ENUM_ACTION_FAILED_NO_BUFF`).
+- **`name`** `(WString)` - имя баффа в списке баффов, необходимого для каста (передается, если `sysId` == `ENUM_ACTION_FAILED_NO_BUFF`).
 
-- **`dress`** (`number`) - тип одежды/оружия, необходимый для каста (передается, если `sysId` == `ENUM_ActionFailCause_NotEquipped`). Значения: `DRESS_SLOT_...`.
+- **`dress`** `(number)` - тип одежды/оружия, необходимый для каста (передается, если `sysId` == `ENUM_ActionFailCause_NotEquipped`). Значения: `DRESS_SLOT_...`.
 
-- **`name`** (`WString`) - имя класса, необходимого для каста (передается, если `sysId` == `ENUM_ActionFailCause_WrongCharacterClass`).
+- **`name`** `(WString)` - имя класса, необходимого для каста (передается, если `sysId` == `ENUM_ActionFailCause_WrongCharacterClass`).
 
-::: danger Поле устарело (`OBSOLETE`).
-- **`race`** (`number`) - раса, необходимая для каста (передается, если `sysId` == `ENUM_ActionFailCause_WrongCreatureRace`).
+::: danger Поле устарело `OBSOLETE`.
+- **`race`** `(number)` - раса, необходимая для каста (передается, если `sysId` == `ENUM_ActionFailCause_WrongCreatureRace`).
 :::
 
-- **`sysRace`** (`string`) - раса существа (передается, если `sysId` == `ENUM_ActionFailCause_WrongCreatureRace`). Значения: `ENUM_CreatureRace_...`.
+- **`sysRace`** `(string)` - раса существа (передается, если `sysId` == `ENUM_ActionFailCause_WrongCreatureRace`). Значения: `ENUM_CreatureRace_...`.
 
 ---
 
@@ -76,13 +76,13 @@ EVENT_ACTION_FAILED_SPELL
 
 ### Список параметров
 
-- **`sysId`** (`string`) - строковый код ошибки вида `ENUM_ActionFailCause_...`.
+- **`sysId`** `(string)` - строковый код ошибки вида `ENUM_ActionFailCause_...`.
 
-- **`unitId`** (`ObjectId`) - идентификатор юнита, вызвавшего ошибку.
+- **`unitId`** `(ObjectId)` - идентификатор юнита, вызвавшего ошибку.
 
-- **`spellId`** (`SpellId`) - идентификатор исполняемого заклинания.
+- **`spellId`** `(SpellId)` - идентификатор исполняемого заклинания.
 
-- **`isInNotPredicate`** (`boolean`) - `true`, если причина ошибки на самом деле противоположна полученному коду ошибки `sysId`.
+- **`isInNotPredicate`** `(boolean)` - `true`, если причина ошибки на самом деле противоположна полученному коду ошибки `sysId`.
 
 - **`name`** `(WString|nil)` - имя предмета, необходимого для каста (передается для `ENUM_ActionFailCause_NoItem`, `ENUM_ActionFailCause_CannotTakeItem`).
 
@@ -92,7 +92,7 @@ EVENT_ACTION_FAILED_SPELL
 
 - **`itemClass`** `(WString|nil)` - имя класса предмета, необходимого для каста (передается для `NotEquipped`, `DressedItemCannotBeUpgraded`).
 
-::: danger Поле устарело (`OBSOLETE`).
+::: danger Поле устарело `OBSOLETE`.
 - **`race`** `(number|nil)` - раса, необходимая для каста (передается для `WrongCreatureRace`).
 :::
 
@@ -106,7 +106,7 @@ EVENT_ACTION_FAILED_SPELL
 
 - **`reputationLevel`** `(number|nil)` - уровень репутации, если требуется (передается для `ReputationLevelNotLess`, `ReputationNotLess`, `WrongFaction`). Значения: `REPUTATION_LEVEL_...`.
 
-- **`mobs`** (`table`) - таблица имён подходящих мобов (передается для `WrongMobWorld`).
+- **`mobs`** `(table)` - таблица имён подходящих мобов (передается для `WrongMobWorld`).
 
 ---
 
@@ -118,7 +118,7 @@ EVENT_ACTION_FAILED_SPELL
 EVENT_ACTION_PANEL_CHANGED
 ```
 
-Событие посылается каждый раз, когда изменяется состояние панели действий (`ActionPanel`).
+Событие посылается каждый раз, когда изменяется состояние панели действий `ActionPanel`.
 
 ### Список параметров
 
@@ -134,11 +134,11 @@ EVENT_ACTION_PANEL_CHANGED
 EVENT_ACTION_PANEL_ELEMENT_CHANGED
 ```
 
-Событие присылается каждый раз, когда изменяется состояние элемента на панели действий (`ActionPanel`). К созданию или удалению элемента это не относится, при этом изменяется панель целиком. При изменении каких-либо эффектов передается событие `EVENT_ACTION_PANEL_ELEMENT_EFFECT`.
+Событие присылается каждый раз, когда изменяется состояние элемента на панели действий `ActionPanel`. К созданию или удалению элемента это не относится, при этом изменяется панель целиком. При изменении каких-либо эффектов передается событие `EVENT_ACTION_PANEL_ELEMENT_EFFECT`.
 
 ### Список параметров
 
-- **`index`** (`number`) - индекс элемента на панели действий (0..nn).
+- **`index`** `(number)` - индекс элемента на панели действий (0..nn).
 
 ---
 
@@ -160,17 +160,17 @@ EVENT_ACTION_PANEL_ELEMENT_EFFECT
 
 ### Список параметров
 
-- **`effect`** (`number`) - тип начавшегося эффекта (`EFFECT_TYPE_...`).
+- **`effect`** `(number)` - тип начавшегося эффекта `EFFECT_TYPE_...`.
 
-- **`index`** (`number`) - индекс элемента на панели управления.
+- **`index`** `(number)` - индекс элемента на панели управления.
 
-- **`duration`** (`number`) - общая продолжительность в миллисекундах (передается, если `effect` == `EFFECT_TYPE_COOLDOWN_STARTED`).
+- **`duration`** `(number)` - общая продолжительность в миллисекундах (передается, если `effect` == `EFFECT_TYPE_COOLDOWN_STARTED`).
 
-- **`remaining`** (`number`) - оставшееся время в миллисекундах (передается, если `effect` == `EFFECT_TYPE_COOLDOWN_STARTED`).
+- **`remaining`** `(number)` - оставшееся время в миллисекундах (передается, если `effect` == `EFFECT_TYPE_COOLDOWN_STARTED`).
 
-- **`prepared`** (`boolean`) - текущее значение флага `prepared` (передается, если `effect` == `EFFECT_TYPE_SPELL_PREPARED`).
+- **`prepared`** `(boolean)` - текущее значение флага `prepared` (передается, если `effect` == `EFFECT_TYPE_SPELL_PREPARED`).
 
-- **`isActive`** (`boolean`) - `true`, если спелл стал активным (передается, если `effect` == `EFFECT_TYPE_SPELL_ACTIVE_STATE_CHANGED`).
+- **`isActive`** `(boolean)` - `true`, если спелл стал активным (передается, если `effect` == `EFFECT_TYPE_SPELL_ACTIVE_STATE_CHANGED`).
 
 ---
 
@@ -186,7 +186,7 @@ EVENT_PROCESS_TERMINATED
 
 ### Список параметров
 
-- **`sysId`** (`string`) - строковый код ошибки вида `ENUM_ActionFailCause_...`.
+- **`sysId`** `(string)` - строковый код ошибки вида `ENUM_ActionFailCause_...`.
 
 ---
 
@@ -218,7 +218,7 @@ EVENT_ACTION_PROGRESS_FREEZE
 
 ### Список параметров
 
-- **`progress`** (`number`) - обновление времени действия в миллисекундах.
+- **`progress`** `(number)` - обновление времени действия в миллисекундах.
 
 ---
 
@@ -234,13 +234,13 @@ EVENT_ACTION_PROGRESS_START
 
 ### Список параметров
 
-- **`duration`** (`number`) - время действия в миллисекундах.
+- **`duration`** `(number)` - время действия в миллисекундах.
 
-- **`progress`** (`number`) - прошедшее время в миллисекундах (так как событие может прийти с задержкой).
+- **`progress`** `(number)` - прошедшее время в миллисекундах (так как событие может прийти с задержкой).
 
-- **`name`** (`WString`) - название действия.
+- **`name`** `(WString)` - название действия.
 
-- **`launchWhenReady`** (`boolean`) - если `true`, то действие сработает сразу после окончания подготовки; если `false`, то действие можно приготовить и удерживать его запуск.
+- **`launchWhenReady`** `(boolean)` - если `true`, то действие сработает сразу после окончания подготовки; если `false`, то действие можно приготовить и удерживать его запуск.
 
 - **`spellId`** `(SpellId|nil)` - идентификатор спелла, если известен.
 
@@ -264,9 +264,9 @@ EVENT_ACTION_PROGRESS_UPDATE
 
 ### Список параметров
 
-- **`progress`** (`number`) - обновление времени действия в миллисекундах.
+- **`progress`** `(number)` - обновление времени действия в миллисекундах.
 
-- **`name`** (`WString`) - название действия.
+- **`name`** `(WString)` - название действия.
 
 ---
 
@@ -282,17 +282,17 @@ EVENT_ACTION_RESULT_SPECIAL_SPELL
 
 ### Список параметров
 
-- **`sysId`** (`string`) - строковый код результата вида `ENUM_ACTION_RESULT_SPECIAL_...`. Возможные значения:
+- **`sysId`** `(string)` - строковый код результата вида `ENUM_ACTION_RESULT_SPECIAL_...`. Возможные значения:
     - `ENUM_ACTION_RESULT_SPECIAL_UNKNOWN`
     - `ENUM_ACTION_RESULT_SPECIAL_STARTED`
     - `ENUM_ACTION_RESULT_SPECIAL_LAUNCHED`
     - `ENUM_ACTION_RESULT_SPECIAL_NO_RANGED_WEAPON`
     
-- **`unitId`** (`ObjectId`) - идентификатор юнита, ставшего непосредственной причиной данного уведомления.
+- **`unitId`** `(ObjectId)` - идентификатор юнита, ставшего непосредственной причиной данного уведомления.
 
 - **`targetId`** `(ObjectId|nil)` - идентификатор объекта, в который выпущено заклинание (передается для `ENUM_ACTION_RESULT_SPECIAL_LAUNCHED`).
 
-- **`spellId`** (`SpellId`) - идентификатор заклинания.
+- **`spellId`** `(SpellId)` - идентификатор заклинания.
 
 ### Смотрите также
 

@@ -10,9 +10,9 @@ EVENT_SLASH_COMMAND_FAILED
 
 ### Список параметров
 
-- **`name`** (`WString`) - Имя адресата.
+- **`name`** `(WString)` - Имя адресата.
 
-- **`sysReason`** (`sysString`) - Причина неудачной отправки сообщения.
+- **`sysReason`** `(sysString)` - Причина неудачной отправки сообщения.
 
 ::: info Перечисления
 (HELP)

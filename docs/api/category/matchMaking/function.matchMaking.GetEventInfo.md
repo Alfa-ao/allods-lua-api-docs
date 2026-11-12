@@ -38,7 +38,7 @@ matchMaking.GetEventInfo( eventId: ObjectId ): table | nil
 
 - **`allowQuickExit`** `(boolean)` - Флаг разрешения быстрого покидания активности (кнопка в углу экрана).
 
-- **`sysCause`** (`string`(`ENUM_ActionFailCause_*`)) - Строковый код ошибки.
+- **`sysCause`** `(string(ENUM_ActionFailCause_*))` - Строковый код ошибки.
 
 - **`hasDoubleBonus`** `(boolean)` - Флаг наличия бонуса за прохождение.
 
@@ -54,7 +54,7 @@ matchMaking.GetEventInfo( eventId: ObjectId ): table | nil
 
 - **`isHighPriority`** `(boolean)` - Флаг приоритетного ивента (должен быть выше остальных в списке).
 
-- **`mechanicsType`** (`number`(`ENUM_MatchMakingMechanicsType_*`)) - Тип игровой механики.
+- **`mechanicsType`** `(number(ENUM_MatchMakingMechanicsType_*))` - Тип игровой механики.
 
 - **`maxVisitsPerDay`** `(number)` - Максимальное количество посещений ивента в день (`0` - без ограничений).
 
@@ -120,8 +120,8 @@ matchMaking.GetEventInfo( eventId: ObjectId ): table | nil
     - **`hour`** `(number)` - Час начала события, начиная с `0`.
     - **`minute`** `(number)` - Минута начала события, начиная с `0`.
   - **`yearly`** `(table|nil)` - Ежегодно:
-    - **`sysMonth`** (`string`(`ENUM_Month_*`)) - Месяц начала события.
-    - **`month`** (`number`(`ENUM_Month_*`)) - Месяц начала события.
+    - **`sysMonth`** `(string(ENUM_Month_*))` - Месяц начала события.
+    - **`month`** `(number(ENUM_Month_*))` - Месяц начала события.
     - **`day`** `(number)` - День месяца начала события, начиная с `1`.
     - **`hour`** `(number)` - Час начала события, начиная с `0`.
     - **`minute`** `(number)` - Минута начала события, начиная с `0`.
@@ -129,8 +129,8 @@ matchMaking.GetEventInfo( eventId: ObjectId ): table | nil
   - **`never`** `(table|nil)` - Никогда (пустая таблица).
   - **`once`** `(table|nil)` - Однократный:
     - **`year`** `(number)` - Год начала события.
-    - **`sysMonth`** (`string`(`ENUM_Month_*`)) - Месяц начала события.
-    - **`month`** (`number`(`ENUM_Month_*`)) - Месяц начала события.
+    - **`sysMonth`** `(string(ENUM_Month_*))` - Месяц начала события.
+    - **`month`** `(number(ENUM_Month_*))` - Месяц начала события.
     - **`day`** `(number)` - День месяца начала события, начиная с `1`.
     - **`hour`** `(number)` - Час начала события, начиная с `0`.
     - **`minute`** `(number)` - Минута начала события, начиная с `0`.

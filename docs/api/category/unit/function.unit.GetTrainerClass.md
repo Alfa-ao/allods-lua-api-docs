@@ -24,7 +24,7 @@ unit.GetTrainerClass( unitId: ObjectId ): table | nil
 
 - **`className`** `(string)` - Имя класса.
 
-- **`manaType`** (`number`(`MANA_TYPE_*`)) - Тип маны обучаемого класса (MANA/ENERGY).
+- **`manaType`** `(number(MANA_TYPE_*))` - Тип маны обучаемого класса (MANA/ENERGY).
 
 - **`name`** `(WString)` - Локализованное имя класса.
 

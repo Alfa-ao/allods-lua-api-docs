@@ -8,8 +8,8 @@
 
 ### Список значений
 
-- **`ATTACHED_OBJECT_POS_BOTTOM`** (`number`) - Снизу.
+- **`ATTACHED_OBJECT_POS_BOTTOM`** `(number)` - Снизу.
 
-- **`ATTACHED_OBJECT_POS_CENTER`** (`number`) - По центру.
+- **`ATTACHED_OBJECT_POS_CENTER`** `(number)` - По центру.
 
-- **`ATTACHED_OBJECT_POS_UP`** (`number`) - Сверху.
+- **`ATTACHED_OBJECT_POS_UP`** `(number)` - Сверху.

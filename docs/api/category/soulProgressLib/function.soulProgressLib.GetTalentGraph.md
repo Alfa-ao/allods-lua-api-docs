@@ -62,7 +62,7 @@ table(3) {
 
     - **`socket`** `(SocketId|nil)` - гнездо для гема.
 
-    - **`quality`** (`number`(`ITEM_QUALITY_*`)) - качество.
+    - **`quality`** `(number(ITEM_QUALITY_*))` - качество.
 
 - **`version`** `(number)` - версия дерева.
 -->

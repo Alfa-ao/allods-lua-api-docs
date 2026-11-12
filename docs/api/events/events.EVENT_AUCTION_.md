@@ -21,9 +21,9 @@ EVENT_AUCTION_BID_RESULT
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Уникальный идентификатор лота аукциона.
+- **`id`** `(ObjectId)` - Уникальный идентификатор лота аукциона.
 
-- **`sysResult`** (`string`) - Код результата операции. Значения соответствуют перечислению `ENUM_AuctionBidResultMsgResult_...`.
+- **`sysResult`** `(string)` - Код результата операции. Значения соответствуют перечислению `ENUM_AuctionBidResultMsgResult_...`.
 
 ### Возвращаемые значения
 
@@ -65,7 +65,7 @@ EVENT_AUCTION_CREATION_RESULT
 
 ### Список параметров
 
-- **`sysResult`** (`string`) - Код результата операции. Значения соответствуют перечислению `ENUM_AuctionCreateResultMsg_...`.
+- **`sysResult`** `(string)` - Код результата операции. Значения соответствуют перечислению `ENUM_AuctionCreateResultMsg_...`.
 
 ### Возвращаемые значения
 
@@ -107,9 +107,9 @@ EVENT_AUCTION_DISCARD_RESULT
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Уникальный идентификатор отменяемого аукциона.
+- **`id`** `(ObjectId)` - Уникальный идентификатор отменяемого аукциона.
 
-- **`sysResult`** (`string`) - Код результата операции. Значения соответствуют перечислению `ENUM_AuctionDiscardResultMsgResult_...`.
+- **`sysResult`** `(string)` - Код результата операции. Значения соответствуют перечислению `ENUM_AuctionDiscardResultMsgResult_...`.
 
 ### Возвращаемые значения
 
@@ -151,9 +151,9 @@ EVENT_AUCTION_PROPERTIES
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Идентификатор аукциона (или контекста аукциона).
+- **`id`** `(ObjectId)` - Идентификатор аукциона (или контекста аукциона).
 
-- **`sysResult`** (`string`) - Код результата операции. Значения соответствуют перечислению `ENUM_AuctionGetParamsResultMsgStatus_...`.
+- **`sysResult`** `(string)` - Код результата операции. Значения соответствуют перечислению `ENUM_AuctionGetParamsResultMsgStatus_...`.
 
 ### Возвращаемые значения
 
@@ -196,9 +196,9 @@ EVENT_AUCTION_SEARCH_RESULT
 
 ### Список параметров
 
-- **`sysResult`** (`string`) - Код результата операции. Значения соответствуют перечислению `ENUM_AuctionSearchResultMsgResult_...`.
+- **`sysResult`** `(string)` - Код результата операции. Значения соответствуют перечислению `ENUM_AuctionSearchResultMsgResult_...`.
 
-- **`totalPagesCount`** (`number`) - Общее количество страниц с результатами поиска.
+- **`totalPagesCount`** `(number)` - Общее количество страниц с результатами поиска.
 
 ### Возвращаемые значения
 
@@ -238,9 +238,9 @@ EVENT_AUCTION_UPDATE_RESULT
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Уникальный идентификатор обновляемого аукциона.
+- **`id`** `(ObjectId)` - Уникальный идентификатор обновляемого аукциона.
 
-- **`sysResult`** (`string`) - Код результата операции.
+- **`sysResult`** `(string)` - Код результата операции.
 
 ### Возвращаемые значения
 

@@ -22,9 +22,9 @@ rules.GetNotificationInfo( eventRuleId: ObjectId ): table | nil
 
 Возвращает `table` | `nil`. Описание о таблице:
 
-- **`type`** (`number`(`ENUM_RuleNotificationType_*`)) - Тип нотификации, от которого зависит изображение на HUD-е и действие по клику мышью.
+- **`type`** `(number(ENUM_RuleNotificationType_*))` - Тип нотификации, от которого зависит изображение на HUD-е и действие по клику мышью.
 
-- **`sysType`** (`string`(`ENUM_RuleNotificationType_*`)) - Системное название типа нотификации.
+- **`sysType`** `(string(ENUM_RuleNotificationType_*))` - Системное название типа нотификации.
 
 - **`text`** `(WString|nil)` - Кастомный текст, выводимый поверх изображения.
 

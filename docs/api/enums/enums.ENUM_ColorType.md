@@ -8,8 +8,8 @@
 
 ### Список значений
 
-- **`ENUM_ColorType_TEXT`** (`number`) - Цвет текста.
+- **`ENUM_ColorType_TEXT`** `(number)` - Цвет текста.
 
-- **`ENUM_ColorType_SHADOW`** (`number`) - Цвет тени.
+- **`ENUM_ColorType_SHADOW`** `(number)` - Цвет тени.
 
-- **`ENUM_ColorType_OUTLINE`** (`number`) - Цвет обводки.
+- **`ENUM_ColorType_OUTLINE`** `(number)` - Цвет обводки.

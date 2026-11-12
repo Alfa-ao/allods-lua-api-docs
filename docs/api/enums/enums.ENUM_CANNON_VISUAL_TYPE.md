@@ -8,6 +8,6 @@
 
 ### Список значений
 
-- **`ENUM_CANNON_VISUAL_TYPE_CORVET`** (`number`) - Визуальный тип корвета.
+- **`ENUM_CANNON_VISUAL_TYPE_CORVET`** `(number)` - Визуальный тип корвета.
 
-- **`ENUM_CANNON_VISUAL_TYPE_BRIG`** (`number`) - Визуальный тип брига.
+- **`ENUM_CANNON_VISUAL_TYPE_BRIG`** `(number)` - Визуальный тип брига.

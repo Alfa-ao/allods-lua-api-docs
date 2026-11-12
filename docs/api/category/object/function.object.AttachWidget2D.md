@@ -15,7 +15,7 @@ object.AttachWidget2D( objectId: ObjectId, widget: WidgetSafe, pos: number )
 
 - **`widget`** `(WidgetSafe)` - Дескриптор виджета.
 
-- **`pos`** (`number`(`ATTACHED_OBJECT_POS_*`)) - Расположение виджета по вертикали.
+- **`pos`** `(number(ATTACHED_OBJECT_POS_*))` - Расположение виджета по вертикали.
 
 ## Возвращаемые значения
 

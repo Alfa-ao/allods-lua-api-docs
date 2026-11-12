@@ -8,12 +8,12 @@
 
 ### Список значений
 
-- **`BLEND_EFFECT_ALPHABLND`** (`number`) - Альфа-смешивание.
+- **`BLEND_EFFECT_ALPHABLND`** `(number)` - Альфа-смешивание.
 
-- **`BLEND_EFFECT_HIGHLIGHT`** (`number`) - Подсветка.
+- **`BLEND_EFFECT_HIGHLIGHT`** `(number)` - Подсветка.
 
-- **`BLEND_EFFECT_ADD`** (`number`) - Добавление.
+- **`BLEND_EFFECT_ADD`** `(number)` - Добавление.
 
-- **`BLEND_EFFECT_MUL`** (`number`) - Умножение.
+- **`BLEND_EFFECT_MUL`** `(number)` - Умножение.
 
-- **`BLEND_EFFECT_REPLACE`** (`number`) - Замена.
+- **`BLEND_EFFECT_REPLACE`** `(number)` - Замена.

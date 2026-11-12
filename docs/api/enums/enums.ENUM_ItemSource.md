@@ -8,16 +8,16 @@
 
 ### Список значений
 
-- **`ENUM_ItemSource_Quest`** (`string`)
+- **`ENUM_ItemSource_Quest`** `(string)`
 
-- **`ENUM_ItemSource_FixedDrop`** (`string`)
+- **`ENUM_ItemSource_FixedDrop`** `(string)`
 
-- **`ENUM_ItemSource_WorldDrop`** (`string`)
+- **`ENUM_ItemSource_WorldDrop`** `(string)`
 
-- **`ENUM_ItemSource_Crafted`** (`string`)
+- **`ENUM_ItemSource_Crafted`** `(string)`
 
-- **`ENUM_ItemSource_Conjured`** (`string`)
+- **`ENUM_ItemSource_Conjured`** `(string)`
 
-- **`ENUM_ItemSource_Vendor`** (`string`)
+- **`ENUM_ItemSource_Vendor`** `(string)`
 
-- **`ENUM_ItemSource_QuestItem`** (`string`)
+- **`ENUM_ItemSource_QuestItem`** `(string)`

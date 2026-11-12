@@ -4,6 +4,6 @@
 
 ### Список значений
 
-- **`ENUM_PridenFactionChoice_League`** (`number`) - Лига.
+- **`ENUM_PridenFactionChoice_League`** `(number)` - Лига.
 
-- **`ENUM_PridenFactionChoice_Empire`** (`number`) - Империя.
+- **`ENUM_PridenFactionChoice_Empire`** `(number)` - Империя.

@@ -10,7 +10,7 @@ EVENT_PLAYER_ASTRAL_UNLOCK_CHANGED
 
 ### Список параметров
 
-- **`playerId`** (`ObjectId`) - идентификатор игрока.
+- **`playerId`** `(ObjectId)` - идентификатор игрока.
 
 ---
 
@@ -26,7 +26,7 @@ EVENT_PLAYER_GEAR_SCORE_CHANGED
 
 ### Список параметров
 
-- **`playerId`** (`ObjectId`) - идентификатор игрока.
+- **`playerId`** `(ObjectId)` - идентификатор игрока.
 
 ---
 
@@ -42,7 +42,7 @@ EVENT_PLAYER_GREAT_CHANGED
 
 ### Список параметров
 
-- **`playerId`** (`ObjectId`) - идентификатор игрока.
+- **`playerId`** `(ObjectId)` - идентификатор игрока.
 
 ---
 
@@ -58,7 +58,7 @@ EVENT_PLAYER_TITLE_CHANGED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - идентификатор юнита.
+- **`id`** `(ObjectId)` - идентификатор юнита.
 
 ### Смотрите также
 
@@ -78,7 +78,7 @@ EVENT_PLAYER_TITLES_CHANGED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - идентификатор персонажа.
+- **`id`** `(ObjectId)` - идентификатор персонажа.
 
 ### Смотрите также
 

@@ -8,10 +8,10 @@
 
 ### Список значений
 
-- **`ENUM_AccessionResult_NoChat`** (`string`)
+- **`ENUM_AccessionResult_NoChat`** `(string)`
 
-- **`ENUM_AccessionResult_Success`** (`string`)
+- **`ENUM_AccessionResult_Success`** `(string)`
 
-- **`ENUM_AccessionResult_WrongFaction`** (`string`)
+- **`ENUM_AccessionResult_WrongFaction`** `(string)`
 
-- **`ENUM_AccessionResult_AlreadyIn`** (`string`)
+- **`ENUM_AccessionResult_AlreadyIn`** `(string)`

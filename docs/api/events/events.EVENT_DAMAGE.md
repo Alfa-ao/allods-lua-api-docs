@@ -12,6 +12,6 @@ EVENT_DAMAGE_RECEIVED_SIMPLE
 
 ### Список параметров
 
-- **`objectId`** (`ObjectId`) - Урон кто получает. (HELP) уточнить
+- **`objectId`** `(ObjectId)` - Урон кто получает. (HELP) уточнить
 
-- **`amount`** (`number`) - Входящий урон int64 != 0.
+- **`amount`** `(number)` - Входящий урон int64 != 0.

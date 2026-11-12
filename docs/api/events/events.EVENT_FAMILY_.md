@@ -10,7 +10,7 @@ EVENT_FAMILY_CREATED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - идентификатор игрока.
+- **`unitId`** `(ObjectId)` - идентификатор игрока.
 
 ---
 
@@ -26,7 +26,7 @@ EVENT_FAMILY_DESTROYED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - идентификатор игрока.
+- **`unitId`** `(ObjectId)` - идентификатор игрока.
 
 ---
 
@@ -42,7 +42,7 @@ EVENT_FAMILY_SPELL_EXPERIENCE_CHANGED
 
 ### Список параметров
 
-- **`spellId`** (`SpellId`) - идентификатор ресурса заклинания.
+- **`spellId`** `(SpellId)` - идентификатор ресурса заклинания.
 
 ---
 

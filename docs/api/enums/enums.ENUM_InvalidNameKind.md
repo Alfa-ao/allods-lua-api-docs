@@ -8,14 +8,14 @@
 
 ### Список значений
 
-- **`ENUM_InvalidNameKind_AlreadyInUse`** (`string`)
+- **`ENUM_InvalidNameKind_AlreadyInUse`** `(string)`
 
-- **`ENUM_InvalidNameKind_InternalError`** (`string`)
+- **`ENUM_InvalidNameKind_InternalError`** `(string)`
 
-- **`ENUM_InvalidNameKind_InvalidLength`** (`string`)
+- **`ENUM_InvalidNameKind_InvalidLength`** `(string)`
 
-- **`ENUM_InvalidNameKind_InvalidSubstring`** (`string`)
+- **`ENUM_InvalidNameKind_InvalidSubstring`** `(string)`
 
-- **`ENUM_InvalidNameKind_InvalidSymbols`** (`string`)
+- **`ENUM_InvalidNameKind_InvalidSymbols`** `(string)`
 
-- **`ENUM_InvalidNameKind_None`** (`string`)
+- **`ENUM_InvalidNameKind_None`** `(string)`

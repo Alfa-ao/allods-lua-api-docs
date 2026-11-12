@@ -10,13 +10,13 @@ EVENT_SOUL_PROGRESS_EXPERIENCE_CHANGED
 
 ### Список параметров
 
-- **`currentValue`** (`number`) - Текущее значение опыта души.
+- **`currentValue`** `(number)` - Текущее значение опыта души.
 
-- **`deltaValue`** (`number`) - Изменение значения опыта души.
+- **`deltaValue`** `(number)` - Изменение значения опыта души.
 
-- **`currentLevel`** (`number`) - Текущее значение уровня души.
+- **`currentLevel`** `(number)` - Текущее значение уровня души.
 
-- **`deltaLevel`** (`number`) - Изменение значения уровня души.
+- **`deltaLevel`** `(number)` - Изменение значения уровня души.
 
 ---
 

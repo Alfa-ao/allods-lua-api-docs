@@ -10,7 +10,7 @@ EVENT_REPUTATION_DISAPPEARED
 
 ### Список параметров
 
-- **`factionId`** (`FactionId`) - Идентификатор фракции.
+- **`factionId`** `(FactionId)` - Идентификатор фракции.
 
 ---
 
@@ -26,7 +26,7 @@ EVENT_REPUTATION_LEVEL_CHANGED
 
 ### Список параметров
 
-- **`factionId`** (`FactionId`) - Фракция.
+- **`factionId`** `(FactionId)` - Фракция.
 
 ---
 
@@ -42,6 +42,6 @@ EVENT_REPUTATION_VALUE_CHANGED
 
 ### Список параметров
 
-- **`factionId`** (`FactionId`) - Фракция.
+- **`factionId`** `(FactionId)` - Фракция.
 
-- **`delta`** (`number`) - Числовое изменение репутации (может быть как положительным, так и отрицательным числом).
+- **`delta`** `(number)` - Числовое изменение репутации (может быть как положительным, так и отрицательным числом).

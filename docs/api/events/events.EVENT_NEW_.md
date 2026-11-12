@@ -10,4 +10,4 @@ EVENT_NEW_REPUTATION_APPEARED
 
 ### Список параметров
 
-- **`factionId`** (`FactionId`) - фракция.
+- **`factionId`** `(FactionId)` - фракция.

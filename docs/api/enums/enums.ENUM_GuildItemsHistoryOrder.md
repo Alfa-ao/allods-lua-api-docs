@@ -5,8 +5,8 @@
 Текстовое перечисление.
 
 ### Список значений
-- **`ENUM_GuildItemsHistoryOrder_TIME`** (`string`) - По времени.
+- **`ENUM_GuildItemsHistoryOrder_TIME`** `(string)` - По времени.
 
-- **`ENUM_GuildItemsHistoryOrder_VENDOR`** (`string`) - По продавцу.
+- **`ENUM_GuildItemsHistoryOrder_VENDOR`** `(string)` - По продавцу.
 
-- **`ENUM_GuildItemsHistoryOrder_AVATAR`** (`string`) - По покупателю.
+- **`ENUM_GuildItemsHistoryOrder_AVATAR`** `(string)` - По покупателю.

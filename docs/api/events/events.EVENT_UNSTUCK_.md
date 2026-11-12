@@ -12,7 +12,7 @@ EVENT_UNSTUCK_SPELL_EFFECT
 
 ### Список параметров
 
-- **`id`** (`SpellId`) - Id ресурса спелла.
+- **`id`** `(SpellId)` - Id ресурса спелла.
 
 ---
 

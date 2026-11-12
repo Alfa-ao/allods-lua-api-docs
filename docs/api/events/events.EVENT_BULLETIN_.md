@@ -26,7 +26,7 @@ EVENT_BULLETIN_BOARD_OPERATION_IN_PROGRESS_CHANGED
 
 ### Список параметров
 
-- **`postId`** (`number`) - идентификатор объявления.
+- **`postId`** `(number)` - идентификатор объявления.
 
 ---
 
@@ -42,7 +42,7 @@ EVENT_BULLETIN_BOARD_POST_ADDED
 
 ### Список параметров
 
-- **`id`** (`number`) - идентификатор объявления.
+- **`id`** `(number)` - идентификатор объявления.
 
 ---
 
@@ -58,4 +58,4 @@ EVENT_BULLETIN_BOARD_POST_CHANGED
 
 ### Список параметров
 
-- **`id`** (`number`) - идентификатор объявления.
+- **`id`** `(number)` - идентификатор объявления.

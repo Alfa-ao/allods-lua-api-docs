@@ -24,7 +24,7 @@ raid.GetMemberRights( uniqueId: UniqueId ): table
 
 Возвращает `table` - список прав участника рейда, который может быть пустым.
 
-- **`key`** (`number`(`RAID_MEMBER_RIGHT_*`)) - Тип права.
+- **`key`** `(number(RAID_MEMBER_RIGHT_*))` - Тип права.
 
 - **`value`** `(boolean)` - `true`, если такое право есть.
 

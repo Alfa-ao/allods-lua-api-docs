@@ -8,14 +8,14 @@
 
 ### Список значений
 
-- **`AFCT_Simple`** (`number`)
+- **`AFCT_Simple`** `(number)`
 
-- **`AFCT_List`** (`number`)
+- **`AFCT_List`** `(number)`
 
-- **`AFCT_Or`** (`number`)
+- **`AFCT_Or`** `(number)`
 
-- **`AFCT_And`** (`number`)
+- **`AFCT_And`** `(number)`
 
-- **`AFCT_Pet`** (`number`)
+- **`AFCT_Pet`** `(number)`
 
-- **`AFCT_Not`** (`number`)
+- **`AFCT_Not`** `(number)`

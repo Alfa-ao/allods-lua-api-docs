@@ -5,6 +5,6 @@
 Текстовое перечисление.
 
 ### Список значений
-- **`ENUM_BattleMemberRole_Attacker`** (`string`) - Нападающий.
+- **`ENUM_BattleMemberRole_Attacker`** `(string)` - Нападающий.
 
-- **`ENUM_BattleMemberRole_Defender`** (`string`) - Защитник.
+- **`ENUM_BattleMemberRole_Defender`** `(string)` - Защитник.

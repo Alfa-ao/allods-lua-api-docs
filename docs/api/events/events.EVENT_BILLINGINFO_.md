@@ -13,7 +13,7 @@ EVENT_BILLINGINFO_BONUS_CHANGED
 
 ## Список параметров
 
-- **`bonusId`** (`BillingBonusId`) - идентификатор бонуса, информация о котором изменилась.
+- **`bonusId`** `(BillingBonusId)` - идентификатор бонуса, информация о котором изменилась.
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ EVENT_BILLINGINFO_BONUS_STATUS_CHANGED
 
 ## Список параметров
 
-- **`status`** (`string`) - статус выполнения запроса (`"ENUM_MsgGetBonusListResultResult_..."`). Указывает, удачно ли выполнен запрос или причину неудачи.
+- **`status`** `(string)` - статус выполнения запроса `ENUM_MsgGetBonusListResultResult_...`. Указывает, удачно ли выполнен запрос или причину неудачи.
 
 ### Смотрите также
 

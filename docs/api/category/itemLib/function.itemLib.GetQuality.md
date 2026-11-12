@@ -23,7 +23,7 @@ itemLib.GetQuality( itemId: ObjectId ): table|nil
 Возвращает `table` | `nil`.
 При успешном получении информации возвращается таблица со следующими полями:
 
-- **`quality`** (`number`(`ITEM_QUALITY_*`)) - Качество предмета.
+- **`quality`** `(number(ITEM_QUALITY_*))` - Качество предмета.
 
 - **`isNeedVisualize`** `(boolean)` - Флаг, указывающий, требуется ли отображать рамку качества предмета в интерфейсе.
 

@@ -10,7 +10,7 @@ EVENT_TARGET_POS_CHANGED
 
 ### Список параметров
 
-- **`unitId`** (`ObjectId`) - Id юнита.
+- **`unitId`** `(ObjectId)` - Id юнита.
 
 ---
 
@@ -26,7 +26,7 @@ EVENT_TARGET_SALES_ADDED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Идентификатор.
+- **`id`** `(ObjectId)` - Идентификатор.
 
 ### Смотрите также
 

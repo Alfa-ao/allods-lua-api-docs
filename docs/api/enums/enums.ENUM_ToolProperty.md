@@ -8,10 +8,10 @@
 
 ### Список значений
 
-- **`ENUM_ToolProperty_Quality`** (`string`)
+- **`ENUM_ToolProperty_Quality`** `(string)`
 
-- **`ENUM_ToolProperty_Stable`** (`string`)
+- **`ENUM_ToolProperty_Stable`** `(string)`
 
-- **`ENUM_ToolProperty_Handy`** (`string`)
+- **`ENUM_ToolProperty_Handy`** `(string)`
 
-- **`ENUM_ToolProperty_Optimized`** (`string`)
+- **`ENUM_ToolProperty_Optimized`** `(string)`

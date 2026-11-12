@@ -40,7 +40,7 @@ raid.GetMemberInfo( memberId: WString | UniqueId | ObjectId ): table
 
 - **`level`** `(number|nil)` - уровень игрока или `nil`, если он не известен в данный момент.
 
-- **`state`** (`number`(`RAID_MEMBER_STATE_*`)) - состояние игрока.
+- **`state`** `(number(RAID_MEMBER_STATE_*))` - состояние игрока.
 
 - **`isInCombat`** `(boolean)` - если `true`, то игрок в бою.
 

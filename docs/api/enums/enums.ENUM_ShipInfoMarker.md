@@ -8,9 +8,9 @@
 
 ### Список значений
 
-- **`ENUM_ShipInfoMarker_BorrowedFromBestFriend`** (`number`) - Одолжен у лучшего друга.
+- **`ENUM_ShipInfoMarker_BorrowedFromBestFriend`** `(number)` - Одолжен у лучшего друга.
 
-- **`ENUM_ShipInfoMarker_LentToBestFriend`** (`number`) - Одолжен лучшему другу.
+- **`ENUM_ShipInfoMarker_LentToBestFriend`** `(number)` - Одолжен лучшему другу.
 
 ### Смотрите также
 

@@ -10,7 +10,7 @@ EVENT_PROCEDURAL_DUNGEON_GOAL_ADDED
 
 ### Список параметров
 
-- **`goal`** (`ObjectId`) - Идентификатор задания.
+- **`goal`** `(ObjectId)` - Идентификатор задания.
 
 
 ### Смотрите также
@@ -31,7 +31,7 @@ EVENT_PROCEDURAL_DUNGEON_GOAL_COUNT_CHANGED
 
 ### Список параметров
 
-- **`goal`** (`ObjectId`) - Идентификатор задания.
+- **`goal`** `(ObjectId)` - Идентификатор задания.
 
 ### Смотрите также
 
@@ -67,7 +67,7 @@ EVENT_PROCEDURAL_DUNGEON_GOAL_STATE_CHANGED
 
 ### Список параметров
 
-- **`goal`** (`ObjectId`) - Идентификатор задания.
+- **`goal`** `(ObjectId)` - Идентификатор задания.
 
 ### Смотрите также
 
@@ -103,7 +103,7 @@ EVENT_PROCEDURAL_DUNGEON_SCENARIO_ADDED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Идентификатор сценария.
+- **`id`** `(ObjectId)` - Идентификатор сценария.
 
 ### Смотрите также
 
@@ -123,7 +123,7 @@ EVENT_PROCEDURAL_DUNGEON_SCENARIO_STATE_CHANGED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Идентификатор сценария.
+- **`id`** `(ObjectId)` - Идентификатор сценария.
 
 ### Смотрите также
 

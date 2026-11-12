@@ -10,7 +10,7 @@ EVENT_DOMINATION_OBJECTIVE_ADDED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Идентификатор цели.
+- **`id`** `(ObjectId)` - Идентификатор цели.
 
 ### Смотрите также
 
@@ -30,8 +30,8 @@ EVENT_DOMINATION_OBJECTIVE_DISABLED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Идентификатор цели.
-- **`disabled`** (`boolean`) - Состояние активности цели.
+- **`id`** `(ObjectId)` - Идентификатор цели.
+- **`disabled`** `(boolean)` - Состояние активности цели.
 
 ---
 
@@ -47,7 +47,7 @@ EVENT_DOMINATION_OBJECTIVE_OWNER_CHANGED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Идентификатор цели.
+- **`id`** `(ObjectId)` - Идентификатор цели.
 - **`owner`** `(number(ENUM_DominationFightTeam))` - Команда, доминирующая над данной целью. Значения соответствуют перечислению `ENUM_DominationFightTeam`.
 - **`actualOwner`** `(number(ENUM_DominationFightTeam))` - Команда, контролирующая данную цель. Значения соответствуют перечислению `ENUM_DominationFightTeam`.
 
@@ -69,9 +69,9 @@ EVENT_DOMINATION_OBJECTIVE_PROGRESS_CHANGED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Идентификатор цели.
+- **`id`** `(ObjectId)` - Идентификатор цели.
 
-- **`progress`** (`number`) - Текущий прогресс захвата цели.
+- **`progress`** `(number)` - Текущий прогресс захвата цели.
 
 ---
 
@@ -87,9 +87,9 @@ EVENT_DOMINATION_OBJECTIVE_PROGRESS_TO_CAPTURE_CHANGED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Идентификатор цели.
+- **`id`** `(ObjectId)` - Идентификатор цели.
 
-- **`progressToCapture`** (`number`) - Текущее количество очков, необходимых для захвата цели.
+- **`progressToCapture`** `(number)` - Текущее количество очков, необходимых для захвата цели.
 
 ---
 
@@ -105,9 +105,9 @@ EVENT_DOMINATION_OBJECTIVE_RADIUS_CHANGED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Идентификатор цели.
+- **`id`** `(ObjectId)` - Идентификатор цели.
 
-- **`radius`** (`number`) - Радиус окрестности, в которой надо находиться для захвата цели.
+- **`radius`** `(number)` - Радиус окрестности, в которой надо находиться для захвата цели.
 
 ---
 
@@ -123,7 +123,7 @@ EVENT_DOMINATION_OBJECTIVE_REMOVED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Идентификатор цели.
+- **`id`** `(ObjectId)` - Идентификатор цели.
 
 ---
 
@@ -139,7 +139,7 @@ EVENT_DOMINATION_OBJECTIVE_STATE_CHANGED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Идентификатор цели.
+- **`id`** `(ObjectId)` - Идентификатор цели.
 
 - **`state`** `(number(ENUM_DominationAreaState))` - Текущее состояние цели. Значения соответствуют перечислению `ENUM_DominationAreaState`.
 
@@ -161,7 +161,7 @@ EVENT_DOMINATION_OBJECTIVE_TEAM_CHANGED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Идентификатор цели.
+- **`id`** `(ObjectId)` - Идентификатор цели.
 - **`team`** `(number(ENUM_DominationFightTeam))` - Команда, список персонажей которой изменился. Значения соответствуют перечислению `ENUM_DominationFightTeam`.
 
 ### Смотрите также
@@ -182,8 +182,8 @@ EVENT_DOMINATION_OBJECTIVE_TIME_SWITCHED_CHANGED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Идентификатор цели.
-- **`timeSwitched`** (`number`) - Дата предыдущего захвата цели.
+- **`id`** `(ObjectId)` - Идентификатор цели.
+- **`timeSwitched`** `(number)` - Дата предыдущего захвата цели.
 
 ---
 
@@ -199,5 +199,5 @@ EVENT_DOMINATION_OBJECTIVE_TIME_TO_CAPTURE_CHANGED
 
 ### Список параметров
 
-- **`id`** (`ObjectId`) - Идентификатор цели.
-- **`timeToCapture`** (`number`) - Прогнозируемое время захвата в текущих условиях.
+- **`id`** `(ObjectId)` - Идентификатор цели.
+- **`timeToCapture`** `(number)` - Прогнозируемое время захвата в текущих условиях.

@@ -4,8 +4,8 @@
 
 ### Список значений
 
-- **`ENUM_ZoneDanger_Neutral`** (`string`)
+- **`ENUM_ZoneDanger_Neutral`** `(string)`
 
-- **`ENUM_ZoneDanger_Enemy`** (`string`)
+- **`ENUM_ZoneDanger_Enemy`** `(string)`
 
-- **`ENUM_ZoneDanger_Friend`** (`string`)
+- **`ENUM_ZoneDanger_Friend`** `(string)`
