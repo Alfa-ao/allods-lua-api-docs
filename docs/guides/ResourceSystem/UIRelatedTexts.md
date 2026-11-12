@@ -1,0 +1,11 @@
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<UIRelatedTexts>
+	<items>
+		<Item>
+			<name>RECIPE_LINE</name>
+			<resource href="RECIPE_LINE.txt"/>
+		</Item>
+	</items>
+</UIRelatedTexts>
+```

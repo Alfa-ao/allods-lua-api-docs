@@ -1,8 +1,7 @@
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <UIAddon>
-	<Name>MyFirstAddon</Name><!-- Имя аддона рекомендуемо [A-Z0-9].
-	Должен совпадать с имененем папки -->
+	<Name>MyFirstAddon</Name><!-- Имя аддона. Должен совпадать с имененем папки -->
 	<AutoStart>false</AutoStart><!-- Опционально.
 	(boolean) Автоматический запуск аддона (для пользовательских всегда false).
 	По умолчанию: false -->
@@ -66,5 +65,4 @@
         <Item href="Widgets/Styles.(WidgetCss).xdb" />
     </styleSheets>
 </UIAddon>
-
 ```

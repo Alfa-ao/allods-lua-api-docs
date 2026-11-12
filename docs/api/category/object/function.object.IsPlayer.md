@@ -4,7 +4,7 @@ description: Возвращает true, если указанный объект
 
 # object.IsPlayer
 
-Возвращает `true`, если указанный объект является игроком.
+Проверяет интерактивный объект как игрока.
 
 ## Описание
 
@@ -29,3 +29,7 @@ object.IsPlayer( objectId: ObjectId ): boolean
 ```lua
 local isPlayer = object.IsPlayer( objectId )
 ```
+
+## Смотрите также
+
+- [object.IsUnit](/api/category/object/function.object.IsUnit.md)

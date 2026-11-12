@@ -9366,6 +9366,30 @@ export default [
                     {
                         text: "UIAddon",
                         link: "/guides/ResourceSystem/UIAddon"
+                    },
+                    {
+                        text: "UIRelatedTexts",
+                        link: "/guides/ResourceSystem/UIRelatedTexts"
+                    },
+                    {
+                        text: "UIRelatedTextures",
+                        link: "/guides/ResourceSystem/UIRelatedTextures"
+                    },
+                    {
+                        text: "UIRelatedWidgets",
+                        link: "/guides/ResourceSystem/UIRelatedWidgets"
+                    },
+                    {
+                        text: "WidgetButton",
+                        link: "/guides/ResourceSystem/WidgetButton"
+                    },
+                    {
+                        text: "WidgetForm",
+                        link: "/guides/ResourceSystem/WidgetForm"
+                    },
+                    {
+                        text: "WidgetPanel",
+                        link: "/guides/ResourceSystem/WidgetPanel"
                     }
                 ]
             }

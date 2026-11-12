@@ -69,9 +69,63 @@ EVENT_UNIT_DAMAGE_RECEIVED
 - **`sourceTags`** (`table` of `CombatTagId` | `nil`) - Список усиливающих и ослабляющих эффектов на том, кто наносит повреждения.
 - **`targetTags`** (`table` of `CombatTagId` | `nil`) - Список усиливающих и ослабляющих эффектов на том, кто получает повреждения.
 
+### Примеры
+
+::: details
+Игрок с ником `ТвойНикАватара` (поле `sourceName`) наносит урон по `Манекен` (поле `targetName`).
+
+```lua
+table(19) {
+    ["ability"] => WString(9) "Покушение"
+    ["absorb"] => number(0)
+    ["amount"] => number(248701)
+    ["barrier"] => number(0)
+    ["damageSource"] => string(18) "DamageSource_SPELL"
+    ["multipliersAbsorb"] => number(0)
+    ["overallAbsorbedDamage"] => number(0)
+    ["overallPreventedDamage"] => number(0)
+    ["parry"] => number(0)
+    ["resist"] => number(0)
+    ["runesAbsorb"] => number(0)
+    ["shieldBlock"] => number(0)
+    ["source"] => number(3901)
+    ["sourceName"] => WString(10) "ТвойНикАватара"
+    ["spellId"] => userdata(SpellId) = {
+        spellLib.GetActionGroups = table(4) {
+            [1] => userdata(ActionGroupId) = {
+                GetInfo = table(1) {
+                    ["name"] => WString(27) "Способности игровых классов"
+                }
+            }
+            [2] => userdata(ActionGroupId) = {
+                GetInfo = table(1) {
+                    ["name"] => WString(18) "Атаки ближнего боя"
+                }
+            }
+            [3] => userdata(ActionGroupId) = {
+                GetInfo = table(1) {
+                    ["name"] => WString(31) "Триггерные атакующие заклинания"
+                }
+            }
+            [4] => userdata(ActionGroupId) = {
+                GetInfo = table(1) {
+                    ["name"] => WString(30) "Смещающие персонажа заклинания"
+                }
+            }
+        }
+    }
+    ["sysSubElement"] => string(24) "ENUM_SubElement_PHYSICAL"
+    ["target"] => number(164241)
+    ["targetName"] => WString(7) "Манекен"
+    ["toMount"] => number(0)
+}
+```
+:::
+
 ### Смотрите также
 
 - [CombatTagId](/api/types/CombatTagId.md)
+- [ENUM_SubElement](/api/enums/enums.ENUM_SubElement.md)
 
 ---
 
