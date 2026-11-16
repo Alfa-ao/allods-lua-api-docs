@@ -9364,8 +9364,16 @@ export default [
                 collapsed: true,
                 items: [
                     {
+                        text: "FMODProject",
+                        link: "/guides/ResourceSystem/FMODProject"
+                    },
+                    {
                         text: "UIAddon",
                         link: "/guides/ResourceSystem/UIAddon"
+                    },
+                    {
+                        text: "UIRelatedSounds",
+                        link: "/guides/ResourceSystem/UIRelatedSounds"
                     },
                     {
                         text: "UIRelatedTexts",
@@ -9380,16 +9388,76 @@ export default [
                         link: "/guides/ResourceSystem/UIRelatedWidgets"
                     },
                     {
+                        text: "UITextFilter",
+                        link: "/guides/ResourceSystem/UITextFilter"
+                    },
+                    {
                         text: "WidgetButton",
                         link: "/guides/ResourceSystem/WidgetButton"
+                    },
+                    {
+                        text: "WidgetControl3D",
+                        link: "/guides/ResourceSystem/WidgetControl3D"
+                    },
+                    {
+                        text: "WidgetCss",
+                        link: "/guides/ResourceSystem/WidgetCss"
+                    },
+                    {
+                        text: "WidgetDiscreteScrollBar",
+                        link: "/guides/ResourceSystem/WidgetDiscreteScrollBar"
+                    },
+                    {
+                        text: "WidgetDiscreteSlider",
+                        link: "/guides/ResourceSystem/WidgetDiscreteSlider"
+                    },
+                    {
+                        text: "WidgetEditBox",
+                        link: "/guides/ResourceSystem/WidgetEditBox"
+                    },
+                    {
+                        text: "WidgetEditLine",
+                        link: "/guides/ResourceSystem/WidgetEditLine"
                     },
                     {
                         text: "WidgetForm",
                         link: "/guides/ResourceSystem/WidgetForm"
                     },
                     {
+                        text: "WidgetGlideScrollBar",
+                        link: "/guides/ResourceSystem/WidgetGlideScrollBar"
+                    },
+                    {
+                        text: "WidgetGlideSlider",
+                        link: "/guides/ResourceSystem/WidgetGlideSlider"
+                    },
+                    {
+                        text: "WidgetLayerAnimatedTexture",
+                        link: "/guides/ResourceSystem/WidgetLayerAnimatedTexture"
+                    },
+                    {
+                        text: "WidgetLayerSimpleTexture",
+                        link: "/guides/ResourceSystem/WidgetLayerSimpleTexture"
+                    },
+                    {
+                        text: "WidgetLayerTiledTexture",
+                        link: "/guides/ResourceSystem/WidgetLayerTiledTexture"
+                    },
+                    {
                         text: "WidgetPanel",
                         link: "/guides/ResourceSystem/WidgetPanel"
+                    },
+                    {
+                        text: "WidgetScrollableContainer",
+                        link: "/guides/ResourceSystem/WidgetScrollableContainer"
+                    },
+                    {
+                        text: "WidgetTextContainer",
+                        link: "/guides/ResourceSystem/WidgetTextContainer"
+                    },
+                    {
+                        text: "WidgetTextView",
+                        link: "/guides/ResourceSystem/WidgetTextView"
                     }
                 ]
             }

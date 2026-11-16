@@ -1,8 +1,8 @@
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <WidgetButton>
-	<Name>Name_WidgetButton</Name><!-- Название описателя -->
-	<Priority>0</Priority><!-- (number:int) - Приоритет видимости окна. 
+	<Name>Name_WidgetButton</Name><!-- Имя описателя. -->
+	<Priority>0</Priority><!-- number (integer) - Приоритет видимости окна. 
 	По умолчанию: 0 -->
 	<Children><!-- Опционально. Список подключаемых дочерних виджетов -->
 		<Item href="Panel.(WidgetPanel).xdb" />
@@ -18,12 +18,16 @@
 	Маска прокликивания виджета -->
 	<Placement><!-- Опционально. Параметры размера, позиции, масштаб -->
 		<QuantumScale>false</QuantumScale><!-- Опционально. 
-		Масштабирование виджета при изменении размеров. Cкачкообразно или плавно.
-		По умолчанию: false - виджет масштабируется плавно. -->
+		boolean - скалировать ли виджет стипенчато при изменении размеров окна. 
+        Поскольку шрифты могут быть четкими только при отображении пиксель в пиксель, 
+            их размер можно менять только дискретно, по целым числам. 
+            Соответственно, для сохранения пропорций контролов последние также должны менять свои размеры дискретно. 
+        По умолчанию: false. -->
 		<sizingWidget href="Panel.(WidgetPanel).xdb" /><!-- Опционально. 
-		Ссылка на дочерний виджет, при изменении размеров которого будут менять размеры родительского виджета. -->
+		Виджет, по которому считается размер (используется в случае WIDGET_SIZING_CHILD) -->
 		<sizingWidgets><!-- Опционально. 
-		Аналогично sizingWidget. Размер наибольшего из них будет влиять на размер родителя.  -->
+		Аналогично sizingWidget. 
+        Размер наибольшего из них будет влиять на размер родителя (используется в случае WIDGET_SIZING_CHILD). -->
 			<Item href="Panel.(WidgetPanel).xdb" />
 			<Item href="Panel2.(WidgetPanel).xdb" />
 		</sizingWidgets>
@@ -116,8 +120,8 @@
 			<ReactionOnUp>false</ReactionOnUp><!-- Опционально. 
 			Устанавливает, будет ли реакция только при отпускании кнопки.
 			По умолчанию: false -->
-			<soundOver href="" /><!-- Опционально. (HELP) -->
-			<soundPress href="" /><!-- Опционально. (HELP) -->
+			<soundOver href="" /><!-- Опционально. WidgetSoundBase - звуки на показывание и скрытие виджета. -->
+			<soundPress href="" /><!-- Опционально. WidgetSoundBase - звуки на показывание и скрытие виджета. -->
 		</Item>
 	</Variants>
 	<TextStyle><!-- Опционально. Стиль текста в виджете -->
@@ -134,6 +138,8 @@
 		По умолчанию: 0 - не фиксированное расстояние -->
 		<ellipsis>true</ellipsis><!-- boolean - показывать многоточие в конце строки, если текст не влезает по горизонтали. 
 		По умолчанию: true -->
+        <allowSpacesInLineBegin>false</allowSpacesInLineBegin><!-- boolean - убирать пробельные символы в начале текста.
+        По умолчанию: false -->
 		<Align>ALIGNY_DEFAULT</Align><!-- number (enum AlignY) - выравнивание текста по вертикали. 
 		По умолчанию: ALIGNY_DEFAULT 
 		Значения:
@@ -141,6 +147,14 @@
 			ALIGNY_TOP - по верхнему краю
 			ALIGNY_MIDDLE - посередине
 			ALIGNY_BOTTOM - по нижнему краю -->
+        <blendEffect>BLEND_EFFECT_ALPHABLND</blendEffect><!-- number (enum BLEND_EFFECT_...) - Определяет способ наложения текстур.
+        По умолчанию: BLEND_EFFECT_ALPHABLND
+        Значения:
+            BLEND_EFFECT_ALPHABLND - Альфа-смешивание.
+            BLEND_EFFECT_HIGHLIGHT - Подсветка.
+            BLEND_EFFECT_ADD - Добавление.
+            BLEND_EFFECT_MUL - Умножение.
+            BLEND_EFFECT_REPLACE - Замена. -->
 	</TextStyle>
 	<useDefaultSounds>true</useDefaultSounds><!-- Опционально. 
 	Устанавливает, использовать ли звуки по умолчанию при нажатии или отпускании кнопки
