@@ -21,6 +21,7 @@ mount.GetActiveTimeLeftMs(): number | nil
 ## Возвращаемые значения
 
 Возвращает `number` - время в миллисекундах до исчезновения животного из конюшни, если у него имеется срок жизни.
+
 Возвращает `nil`, если у животного отсутствует срок жизни или оно не вызвано.
 
 ## Примеры
@@ -30,6 +31,6 @@ mount.GetActiveTimeLeftMs(): number | nil
 ```lua
 local timeLeftMs = mount.GetActiveTimeLeftMs()
 if timeLeftMs then
-  LogInfo( "Осталось ", timeLeftMs / 1000, " секунд" )
+    LogInfo( "Осталось ", timeLeftMs / 1000, " секунд" )
 end
 ```

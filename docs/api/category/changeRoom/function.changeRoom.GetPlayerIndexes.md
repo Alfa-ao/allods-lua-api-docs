@@ -39,14 +39,14 @@ changeRoom.GetPlayerIndexes(): table | nil
 - **`sexId`** `(number|ENUM_SEX_...)` - Пол игрока. Значения соответствуют перечислению `SEX_...` (`SEX_UNKNOWN`, `SEX_MALE`, `SEX_FEMALE`).
 
 - **`variations`** `(table)` - Таблица с индексами вариаций внешнего вида:
-  - `skin` `(number|integer)` - индекс (с нуля) вариации кожи.
-  - `skinColor` `(number|integer)` - индекс (с нуля) вариации цвета кожи.
-  - `hair` `(number|integer)` - индекс (с нуля) вариации волос.
-  - `hairColor` `(number|integer)` - индекс (с нуля) вариации цвета волос.
-  - `face` `(number|integer)` - индекс (с нуля) вариации лица.
-  - `facial` `(number|integer)` - индекс (с нуля) вариации дополнительных признаков.
-  - `additional` `(number|integer)` - индекс (с нуля) вариации дополнительных параметров.
-  - `body` `(number|integer)` - индекс (с нуля) вариации телосложения.
+  - `skin` `(number|integer)` - индекс (с `0`) вариации кожи.
+  - `skinColor` `(number|integer)` - индекс (с `0`) вариации цвета кожи.
+  - `hair` `(number|integer)` - индекс (с `0`) вариации волос.
+  - `hairColor` `(number|integer)` - индекс (с `0`) вариации цвета волос.
+  - `face` `(number|integer)` - индекс (с `0`) вариации лица.
+  - `facial` `(number|integer)` - индекс (с `0`) вариации дополнительных признаков.
+  - `additional` `(number|integer)` - индекс (с `0`) вариации дополнительных параметров.
+  - `body` `(number|integer)` - индекс (с `0`) вариации телосложения.
 
 ## Примеры
 

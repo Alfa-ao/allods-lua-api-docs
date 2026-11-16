@@ -27,6 +27,5 @@ mount.Ride( skinId: ObjectId )
 ### Вызов ездового животного из конюшни
 
 ```lua
-local skinId = 12345 -- Идентификатор скина животного
 mount.Ride( skinId )
 ```

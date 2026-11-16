@@ -12,7 +12,7 @@ description: Возвращает список идентификаторов с
 mount.GetMountSkins( mountId: ObjectId ): table
 ```
 
-Функция извлекает и возвращает индексированный с нуля список идентификаторов скинов для указанного ездового животного.
+Функция извлекает и возвращает индексированный с `0` список идентификаторов скинов для указанного ездового животного.
 
 ## Список параметров
 
@@ -20,7 +20,7 @@ mount.GetMountSkins( mountId: ObjectId ): table
 
 ## Возвращаемые значения
 
-Возвращает таблицу `(table)`, содержащую идентификаторы `(ObjectId)` скинов. Индексация элементов в таблице начинается с нуля.
+Возвращает таблицу `(table)`, содержащую идентификаторы `ObjectId` скинов. Индексация элементов в таблице начинается с `0`.
 
 ## Примеры
 
@@ -29,7 +29,7 @@ mount.GetMountSkins( mountId: ObjectId ): table
 ```lua
 local skins = mount.GetMountSkins( mountInfo.id )
 if skins[ 0 ] then
-  local skinInfo = mount.GetSkinInfo( skins[ 0 ] )
+    local skinInfo = mount.GetSkinInfo( skins[ 0 ] )
 end
 ```
 

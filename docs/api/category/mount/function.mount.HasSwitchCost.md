@@ -12,7 +12,7 @@ description: Возвращает признак необходимости оп
 mount.HasSwitchCost( skinId: ObjectId ): boolean
 ```
 
-Функция проверяет, требуется ли оплата для смены внешнего вида (скина) текущего метаморфа на заданный. Возвращает логическое значение, указывающее на наличие стоимости переключения.
+Функция проверяет, требуется ли оплата для смены внешнего вида `скина` текущего метаморфа на заданный. Возвращает логическое значение, указывающее на наличие стоимости переключения.
 
 ## Список параметров
 
@@ -28,8 +28,8 @@ mount.HasSwitchCost( skinId: ObjectId ): boolean
 
 ```lua
 if mount.HasSwitchCost( skinId ) then
-  local info = mount.GetMetamorphBaseInfo()
-  LogInfo( info.switchCost )
+    local info = mount.GetMetamorphBaseInfo()
+    LogInfo( info.switchCost )
 end
 ```
 

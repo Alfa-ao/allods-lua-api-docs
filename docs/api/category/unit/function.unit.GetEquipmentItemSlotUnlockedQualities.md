@@ -25,7 +25,7 @@ unit.GetEquipmentItemSlotUnlockedQualities( unitId: ObjectId, equipmentSlot: num
 Возвращает `table`:
 - **`isFullyUnlocked`** `(boolean)` - Слот полностью разблокирован.
 
-- **`qualities`** `(table)` - Таблица, индексированная с нуля, содержащая допустимые для экипировки значения качества предметов `(number(ITEM_QUALITY_*))`.
+- **`qualities`** `(table)` - Таблица, индексированная с `0`, содержащая допустимые для экипировки значения качества предметов `(number(ITEM_QUALITY_*))`.
 
 ## Примеры
 

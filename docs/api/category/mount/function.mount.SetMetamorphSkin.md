@@ -27,6 +27,5 @@ mount.SetMetamorphSkin( skinId: ObjectId )
 ### Изменение скина метаморфа
 
 ```lua
-local skinId = 12345
 mount.SetMetamorphSkin( skinId )
 ```
