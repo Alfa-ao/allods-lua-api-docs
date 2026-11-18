@@ -1,3 +1,7 @@
+---
+description: WidgetEditLine
+---
+
 (HELP)
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -16,7 +20,8 @@
 	<textureMask href="../Textures/TextureMask/TextureMask.(UISimpleTexture).xdb" /><!-- Опционально.
 	Маска прозрачности виджета -->
 	<pickMask href="../Textures/PickMask/PickMask.(UISimpleTexture).xdb" /><!-- Опционально.
-	Маска прокликивания виджета -->
+	Маска прокликивания виджета. 
+    Если у фоновой текстуры скруглённые углы, панель ловит клики в прозрачных пикселях угла и блокирует ввод под ними. -->
 	<Placement><!-- Опционально. Параметры размера, позиции, масштаб -->
 		<QuantumScale>false</QuantumScale><!-- Опционально. 
 		boolean - скалировать ли виджет стипенчато при изменении размеров окна. 
@@ -118,9 +123,14 @@
     По умолчанию: false -->
 	<maxSymbolsCount>-1</maxSymbolsCount><!-- Опционально. Максимальное кол-во символов.
     По умолчанию: -1 - не ограничено.  -->
-	<filterAlias></filterAlias><!-- (HELP) -->
-	<globalClassName></globalClassName><!-- (HELP) -->
-	<selectionClassName></selectionClassName><!-- (HELP) -->
-	<selectionLayer href="SelectionLayer.(WidgetLayerSimpleTexture).xdb" /><!-- (HELP) -->
+	<filterAlias></filterAlias><!-- Опционально. 
+    string - название фильтра (UITextFilter), разрешающего только буквы, перечисленные в нём. 
+    Значения: "RUSSIAN", "NUMBERS", "INTEGER". См. EditBaseTextFilter -->
+	<globalClassName></globalClassName><!-- Опционально. 
+    string - стиль оформления основного текста (один из Name в WidgetCss). -->
+	<selectionClassName></selectionClassName><!-- Опционально. 
+    string - стиль оформления текста выделения (один из Name в WidgetCss). -->
+	<selectionLayer href="SelectionLayer.(WidgetLayerSimpleTexture).xdb" /><!-- Опционально. 
+    WidgetLayer - текстурный слой для отрисовки подложки выделения -->
 </WidgetEditLine>
 ```

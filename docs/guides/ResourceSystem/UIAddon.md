@@ -1,3 +1,7 @@
+---
+description: UIAddon
+---
+
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <UIAddon><!-- Манифест описатель аддона -->
@@ -41,10 +45,6 @@
         <Item>
             <groupName>common</groupName>
             <texts href="Texts/template/Locale.(UIRelatedTexts).xdb" />
-        </Item>
-        <Item>
-            <groupName>filterSearchChars</groupName>
-            <texts href="Texts/FilterSearchChars.(UITextFilter).xdb" />
         </Item>
     </textsGroups>
 	<texturesGroups><!-- Опционально. Группа текстурных описателей -->

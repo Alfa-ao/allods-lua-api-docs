@@ -1,3 +1,7 @@
+---
+description: WidgetControl3D
+---
+
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <WidgetControl3D>
@@ -57,16 +61,16 @@
 	Степень прозрачности виджета в диапазоне от 0 до 1, где 1.0 означает полную непрозрачность.
 	По умолчанию: 1 -->
 	<Reactions3D><!-- Опционально. Мышиные реакции -->
-		<leftMouseDown></leftMouseDown><!-- Нажатие левой кнопки -->
-		<leftMouseUp></leftMouseUp><!-- Отпускание левой кнопки -->
-		<leftMouseDblClick></leftMouseDblClick><!-- Двойной клик левой кнопки -->
+		<leftMouseDown>left_mouse_down</leftMouseDown><!-- Нажатие левой кнопки -->
+		<leftMouseUp>left_mouse_up</leftMouseUp><!-- Отпускание левой кнопки -->
+		<leftMouseDblClick>left_mouse_dbl_click</leftMouseDblClick><!-- Двойной клик левой кнопки -->
         
-		<rightMouseDown></rightMouseDown><!-- Нажатие правой кнопки -->
-		<rightMouseUp></rightMouseUp><!-- Отпускание правой кнопки -->
-		<rightMouseDblClick></rightMouseDblClick><!-- Двойной клик правой кнопки -->
+		<rightMouseDown>right_mouse_down</rightMouseDown><!-- Нажатие правой кнопки -->
+		<rightMouseUp>right_mouse_up</rightMouseUp><!-- Отпускание правой кнопки -->
+		<rightMouseDblClick>right_mouse_dbl_click</rightMouseDblClick><!-- Двойной клик правой кнопки -->
         
-		<pointingChanged></pointingChanged><!-- Уведомление о наведении курсора, смена наведения. -->
-		<selfMousePosChanged></selfMousePosChanged><!-- Изменение позиции курсора над самим контролом -->
+		<pointingChanged>pointing_changed</pointingChanged><!-- Уведомление о наведении курсора, смена наведения. -->
+		<selfMousePosChanged>self_mouse_pos_changed</selfMousePosChanged><!-- Изменение позиции курсора над самим контролом -->
 	</Reactions3D>
 	<sceneClearColor>true</sceneClearColor><!-- Опционально. Очистка. -->
 </WidgetControl3D>

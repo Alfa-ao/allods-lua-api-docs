@@ -1,3 +1,7 @@
+---
+description: WidgetTextContainer
+---
+
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <WidgetTextContainer>
@@ -8,14 +12,15 @@
 		<Item href="Panel.(WidgetPanel).xdb" />
 		<Item href="Panel2.(WidgetPanel).xdb" />
 	</Children>
-	<BackLayer href="../Textures/Background/Background.(WidgetLayerTiledTexture).xdb" /><!-- Опционально.
+	<BackLayer href="Background.(WidgetLayerTiledTexture).xdb" /><!-- Опционально.
 	Текстура заднего фона -->
-	<FrontLayer href="../Textures/Foreground/Foreground.(WidgetLayerTiledTexture).xdb" /><!-- Опционально.
+	<FrontLayer href="Foreground.(WidgetLayerTiledTexture).xdb" /><!-- Опционально.
 	Текстура переднего фона -->
-	<textureMask href="../Textures/TextureMask/TextureMask.(UISimpleTexture).xdb" /><!-- Опционально.
+	<textureMask href="TextureMask.(UISimpleTexture).xdb" /><!-- Опционально.
 	Маска прозрачности виджета -->
-	<pickMask href="../Textures/PickMask/PickMask.(UISimpleTexture).xdb" /><!-- Опционально.
-	Маска прокликивания виджета -->
+	<pickMask href="PickMask.(UISimpleTexture).xdb" /><!-- Опционально.
+	Маска прокликивания виджета. 
+    Если у фоновой текстуры скругленные углы, панель ловит клики в прозрачных пикселях угла и блокирует ввод под ними. -->
 	<Placement><!-- Опционально. Параметры размера, позиции, масштаб -->
 		<QuantumScale>false</QuantumScale><!-- Опционально. 
 		boolean - скалировать ли виджет стипенчато при изменении размеров окна. 
